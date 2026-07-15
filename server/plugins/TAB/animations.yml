@@ -1,0 +1,105 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+  - '&f-&4--------------'
+  - '&c-&f-&4-------------'
+  - '&4-&c-&f-&4------------'
+  - '&4--&c-&f-&4-----------'
+  - '&4---&c-&f-&4----------'
+  - '&4----&c-&f-&4---------'
+  - '&4-----&c-&f-&4--------'
+  - '&4------&c-&f-&4-------'
+  - '&4-------&c-&f-&4------'
+  - '&4--------&c-&f-&4-----'
+  - '&4---------&c-&f-&4----'
+  - '&4----------&c-&f-&4---'
+  - '&4-----------&c-&f-&4--'
+  - '&4------------&c-&f-&4-'
+  - '&4-------------&c-&f-'
+  - '&4-------------&f-&c-'
+  - '&4------------&c-&f-&4-'
+  - '&4-----------&f-&c-&4--'
+  - '&4----------&f-&c-&4---'
+  - '&4---------&f-&c-&4----'
+  - '&4--------&f-&c-&4-----'
+  - '&4-------&f-&c-&4------'
+  - '&4------&f-&c-&4-------'
+  - '&4-----&f-&c-&4--------'
+  - '&4----&f-&c-&4---------'
+  - '&4---&f-&c-&4----------'
+  - '&4--&f-&c-&4-----------'
+  - '&4-&f-&c-&4------------'
+  - '&f-&c-&4-------------'
+web:
+  change-interval: 100
+  texts:
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+  - '&6P&elasmaNetwork.com'
+  - '&eP&6l&easmaNetwork.com'
+  - '&ePl&6a&esmaNetwork.com'
+  - '&ePla&6s&emaNetwork.com'
+  - '&ePlas&6m&eaNetwork.com'
+  - '&ePlasm&6a&eNetwork.com'
+  - '&ePlasma&6N&eetwork.com'
+  - '&ePlasmaN&6e&etwork.com'
+  - '&ePlasmaNe&6t&ework.com'
+  - '&ePlasmaNet&6w&eork.com'
+  - '&ePlasmaNetw&6o&erk.com'
+  - '&ePlasmaNetwo&6r&ek.com'
+  - '&ePlasmaNetwor&6k&e.com'
+  - '&ePlasmaNetwork&6.&ecom'
+  - '&ePlasmaNetwork.&6c&eom'
+  - '&ePlasmaNetwork.c&6o&em'
+  - '&ePlasmaNetwork.co&6m'
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7W_'
+  - '&7W_'
+  - '&7We_'
+  - '&7Wel_'
+  - '&7Welc_'
+  - '&7Welco_'
+  - '&7Welcom_'
+  - '&7Welcome_'
+  - '&7Welcome_'
+  - '&7Welcome_'
+  - '&7Welcome_'
+  - '&7Welcom_'
+  - '&7Welco_'
+  - '&7Welc_'
+  - '&7Wel_'
+  - '&7We_'
+  - '&7W_'
+  - '&7W_'
+time:
+  change-interval: 900
+  texts:
+  - '&7Time &c%time%'
+  - '&7> Time &c%time% &7<'
+  - '&7>> Time &c%time% &7<<'
+  - '&7>>> Time &c%time% &7<<<'
+  - '&7Date &c%date%'
+  - '&7> Date &c%date% &7<'
+  - '&7>> Date &c%date% &7<<'
+  - '&7>>> Date &c%date% &7<<<'
+ping-tps:
+  change-interval: 5000
+  texts:
+  - '&cPing: &f&n%ping%&c &cms'
+  - '&cServer TPS: &r%tps%'
+barcolors:
+  change-interval: 1000
+  texts:
+  - RED
+  - BLUE
+  - GREEN
+  - YELLOW

@@ -1,0 +1,27 @@
+# Multiverse-Inventories Groups
+  
+# To ADD, DELETE, and EDIT groups use the command /mvinv group.
+# No support will be given for those who manually edit these groups.
+groups:
+  default:
+    worlds:
+    - world
+    - world_nether
+    - world_the_end
+    shares:
+    - all
+  LifeSteal:
+    worlds:
+    - lifesteal_lobby
+    - lifesteal
+    - lifesteal_nether
+    - lifesteal_the_end
+    shares:
+    - all
+  UHCS:
+    worlds:
+    - uhcsurvival
+    - uhcsurvival_nether
+    - uhcsurvival_the_end
+    shares:
+    - all

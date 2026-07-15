@@ -1,0 +1,36 @@
+# EzRTP core configuration
+#
+# This file now focuses on global/plugin-level options.
+# Gameplay RTP tuning has been split into dedicated files:
+# - rtp.yml (teleport behavior, safety, biome/caching, protection)
+# - limits.yml (cooldowns and usage limits)
+# - storage.yml (cooldown/usage storage backend settings)
+# - queue.yml (request queue tuning)
+# - gui.yml (GUI entries)
+# - network.yml (proxy/server selector entries)
+
+# Prefix for all plugin messages. Supports color codes (&) and MiniMessage formatting.
+message-prefix: "&r&6&lRandomTP &r&8» &r"
+
+# Language for plugin messages. Language files live in the messages/ directory.
+language: en
+
+messages:
+  # Convert MiniMessage output to legacy colors before sending (for legacy client compatibility).
+  force-legacy-colors: false
+
+# WorldGuard region command support.
+# Kept in config.yml for command-layer compatibility.
+worldguard:
+  region-command:
+    enabled: false
+    autocomplete: false
+
+# Defaults used by some utility commands (for example /rtp pregenerate).
+# Core teleport behavior still comes from rtp.yml.
+world: world
+radius:
+  min: 500
+
+# Enable or disable bStats metrics (https://bstats.org/plugin/bukkit/EzRTP/27735)
+enable-bstats: true

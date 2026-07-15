@@ -1,0 +1,20 @@
+enable: true
+title: ' &8<---- &c&lTools &8& &c&lCombat &8---->'
+slot: 23
+item:
+  displayname: '&c&lTools &8& &c&lCombat'
+  material: DIAMOND_SWORD
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+nav-bar:
+  mode: SELF
+  fill-item:
+    material: "GRAY_STAINED_GLASS_PANE"
+    displayname: ' '
+  items:
+    back:
+      material: ARROW
+      name: '%translations-back%'
+      action: BACK
+      slot: 9

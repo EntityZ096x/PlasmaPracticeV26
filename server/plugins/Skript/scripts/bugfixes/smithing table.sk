@@ -1,0 +1,197 @@
+on right click:
+    if clicked block is smithing table:
+        if {client.%player%} is not "eagler":
+            stop    
+        
+        close player's inventory
+        wait 1 tick
+        
+        set {_inv} to chest inventory with 5 rows named "&8Smithing table"
+        
+        set {_id} to 0
+        loop 45 times:
+            set slot {_id} of {_inv} to white stained glass pane named ""
+            add 1 to {_id}
+
+        set slot 11 of {_inv} to iron axe named "&r&fUpgrade Gear"
+        set slot 28 of {_inv} to air
+        set slot 29 of {_inv} to air
+        set slot 30 of {_inv} to air
+        set slot 32 of {_inv} to arrow named ""
+        set slot 34 of {_inv} to air
+        
+        open {_inv} to player
+    
+on inventory click:
+    if event-inventory's name is "&8Smithing table":
+        if clicked slot is not 28, 29, 30 or 34:
+            if event-item is arrow named "":
+                cancel event
+            if event-item is white stained glass pane named "":
+                cancel event
+            if event-item is iron axe named "&r&fUpgrade Gear":
+                cancel event
+
+on inventory click:
+    add air to {_alloweditems::*}
+    add netherite upgrade smithing template to {_alloweditems::*}
+    if event-inventory's name is "&8Smithing table":
+        if clicked slot is 28:
+            wait 1 tick
+            if {_alloweditems::*} does not contain event-slot:
+                set {_m} to event-slot
+                set event-slot to air
+                add {_m} to player's inventory
+            else:
+                checkforupgrade(player)
+
+on inventory click:
+    add air to {_alloweditems::*}
+    add leather helmet to {_alloweditems::*}
+    add leather chestplate to {_alloweditems::*}
+    add leather leggings to {_alloweditems::*}
+    add leather boots to {_alloweditems::*}
+
+    add chainmail helmet to {_alloweditems::*}
+    add chainmail chestplate to {_alloweditems::*}
+    add chainmail leggings to {_alloweditems::*}
+    add chainmail boots to {_alloweditems::*}
+
+    add iron helmet to {_alloweditems::*}
+    add iron chestplate to {_alloweditems::*}
+    add iron leggings to {_alloweditems::*}
+    add iron boots to {_alloweditems::*}
+
+    add golden helmet to {_alloweditems::*}
+    add golden chestplate to {_alloweditems::*}
+    add golden leggings to {_alloweditems::*}
+    add golden boots to {_alloweditems::*}
+
+    add diamond helmet to {_alloweditems::*}
+    add diamond chestplate to {_alloweditems::*}
+    add diamond leggings to {_alloweditems::*}
+    add diamond boots to {_alloweditems::*}
+
+    add netherite helmet to {_alloweditems::*}
+    add netherite chestplate to {_alloweditems::*}
+    add netherite leggings to {_alloweditems::*}
+    add netherite boots to {_alloweditems::*}
+
+    add iron sword to {_alloweditems::*}
+    add iron pickaxe to {_alloweditems::*}
+    add iron axe to {_alloweditems::*}
+    add iron shovel to {_alloweditems::*}
+    add iron hoe to {_alloweditems::*}
+
+    add golden sword to {_alloweditems::*}
+    add golden pickaxe to {_alloweditems::*}
+    add golden axe to {_alloweditems::*}
+    add golden shovel to {_alloweditems::*}
+    add golden hoe to {_alloweditems::*}
+
+    add diamond sword to {_alloweditems::*}
+    add diamond pickaxe to {_alloweditems::*}
+    add diamond axe to {_alloweditems::*}
+    add diamond shovel to {_alloweditems::*}
+    add diamond hoe to {_alloweditems::*}
+    add diamond spear to {_alloweditems::*}
+
+    add netherite sword to {_alloweditems::*}
+    add netherite pickaxe to {_alloweditems::*}
+    add netherite axe to {_alloweditems::*}
+    add netherite shovel to {_alloweditems::*}
+    add netherite hoe to {_alloweditems::*}
+    add netherite spear to {_alloweditems::*}
+    if event-inventory's name is "&8Smithing table":
+        if clicked slot is 29:
+            wait 1 tick
+            if {_alloweditems::*} does not contain event-slot:
+                set {_m} to event-slot
+                set event-slot to air
+                add {_m} to player's inventory
+            else:
+                checkforupgrade(player)
+
+
+on inventory click:
+    add air to {_alloweditems::*}
+    add coal to {_alloweditems::*}
+    add iron ingot to {_alloweditems::*}
+    add copper ingot to {_alloweditems::*}
+    add gold ingot to {_alloweditems::*}
+    add diamond to {_alloweditems::*}
+    add emerald to {_alloweditems::*}
+    add lapis lazuli to {_alloweditems::*}
+    add redstone to {_alloweditems::*}
+    add quartz to {_alloweditems::*}
+    add amethyst shard to {_alloweditems::*}
+    add netherite ingot to {_alloweditems::*}
+    if event-inventory's name is "&8Smithing table":
+        if clicked slot is 30:
+            wait 1 tick
+            if {_alloweditems::*} does not contain event-slot:
+                set {_m} to event-slot
+                set event-slot to air
+                add {_m} to player's inventory
+            else:
+                checkforupgrade(player)
+
+
+function checkforupgrade(p: player):
+    if slot 28 of {_p}'s current inventory is netherite upgrade smithing template:
+        if slot 30 of {_p}'s current inventory is netherite ingot:
+            if slot 29 of {_p}'s current inventory is diamond helmet:
+                set {_i} to netherite helmet
+            else if slot 29 of {_p}'s current inventory is diamond chestplate:
+                set {_i} to netherite chestplate
+            else if slot 29 of {_p}'s current inventory is diamond leggings:
+                set {_i} to netherite leggings
+            else if slot 29 of {_p}'s current inventory is diamond boots:
+                set {_i} to netherite boots
+            else if slot 29 of {_p}'s current inventory is diamond sword:
+                set {_i} to netherite sword
+            else if slot 29 of {_p}'s current inventory is diamond pickaxe:
+                set {_i} to netherite pickaxe
+            else if slot 29 of {_p}'s current inventory is diamond axe:
+                set {_i} to netherite axe
+            else if slot 29 of {_p}'s current inventory is diamond shovel:
+                set {_i} to netherite shovel
+            else if slot 29 of {_p}'s current inventory is diamond hoe:
+                set {_i} to netherite hoe
+
+            set {_l} to slot 29 of {_p}'s current inventory
+            set enchantments of {_i} to enchantments of {_l}
+            set durability of {_i} to durability of {_l} * 2
+            set name of {_i} to name of {_l}
+            set lore of {_i} to lore of {_l}
+
+            
+
+            set slot 34 of {_p}'s current inventory to {_i}
+            
+on inventory click:
+    if event-inventory's name is "&8Smithing table":
+        if clicked slot is 34:
+            if event-slot is not air:
+                set {_1} to slot 28 of player's current inventory
+                set {_2} to slot 29 of player's current inventory
+                set {_3} to slot 30 of player's current inventory
+                remove 1 of {_1} from player's current inventory
+                remove 1 of {_2} from player's current inventory
+                remove 1 of {_3} from player's current inventory
+                play sound "block.anvil.use" at player
+            else:
+                cancel event
+
+on inventory close:
+    if event-inventory's name is "&8Smithing table":
+        if {client.%player%} is "eagler":
+            set {_1} to slot 28 of player's current inventory
+            set {_2} to slot 29 of player's current inventory
+            set {_3} to slot 30 of player's current inventory
+            set pickup delay of {_1} to 0 ticks
+            set pickup delay of {_2} to 0 ticks
+            set pickup delay of {_3} to 0 ticks
+            drop {_1} at player
+            drop {_2} at player
+            drop {_3} at player

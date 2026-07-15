@@ -1,0 +1,7 @@
+# PvP Plugin Configuration
+# Use /pvpsettings to view and change settings in-game.
+
+# hub_location: players are sent here after a fight ends, they leave, or stop spectating.
+# Set with: /pvpsettings hub_location here
+# Clear with: /pvpsettings hub_location clear
+# When not set, players teleport to just above the arena corner.

@@ -1,0 +1,16 @@
+enable: true
+title: '        &8<---- &e&lMusic &8---->'
+slot: 33
+item:
+  displayname: '&e&lMusic'
+  material: JUKEBOX
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 0 0 0 0 0 0 0 0'

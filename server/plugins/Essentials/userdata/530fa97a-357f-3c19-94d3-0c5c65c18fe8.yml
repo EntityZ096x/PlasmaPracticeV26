@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1783536171743
+  login: 1783536070586
+money: '0'
+last-account-name: test
+logoutlocation:
+  world: a12bcd9b-ce29-4235-97af-0e483054a11a
+  world-name: LifeSteal_lobby
+  x: 1.2611231646505388
+  y: 111.0
+  z: -32.198997668744894
+  yaw: -154.64999389648438
+  pitch: 5.400000095367432

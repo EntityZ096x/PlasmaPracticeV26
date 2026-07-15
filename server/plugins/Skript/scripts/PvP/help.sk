@@ -1,0 +1,60 @@
+on left click:
+    set {_i} to player's tool
+    wait 1 tick
+    if {_i} is player's tool:
+        stop
+    send "&c&lPvP&r &8»&a You have succesfully done a attribute swap!" to player
+
+on damage:
+    attacker is a player
+    victim is not a player
+
+    set {_axes::*} to wooden axe, stone axe, iron axe, golden axe, diamond axe and netherite axe
+
+    if {pvppractice.stunned::*} contains victim:
+        stop
+    if victim's held item is shield:
+        cancel event
+        play sound "item.shield.block" at victim
+        if {_axes::*} contains attacker's tool:
+            add victim to {pvppractice.stunned::*}
+            play sound "entity.item.break" at victim
+            wait 1 second
+            remove victim from {pvppractice.stunned::*}
+    if victim's offhand item is shield:
+        cancel event
+        play sound "item.shield.block" at victim
+        if {_axes::*} contains attacker's tool:
+            add victim to {pvppractice.stunned::*}
+            play sound "entity.item.break" at victim
+            wait 1 seconds
+            remove victim from {pvppractice.stunned::*}
+
+
+command /dummy [<text>]:
+    trigger:
+        spawn a zombie at player
+        set ai of last spawned entity to false
+        set {_m} to last spawned zombie
+
+        set {_armor::1} to netherite helmet
+        set {_armor::2} to netherite chestplate
+        set {_armor::3} to netherite leggings
+        set {_armor::4} to netherite boots
+        set {_m}'s offhand item to 64 totem of undying
+        if arg-1 contains "shield":
+            set {_m}'s held item to shield
+        if arg-1 contains "AI":
+            set ai of last spawned entity to true
+
+        loop {_armor::*}:
+            set level of protection of loop-value to 4
+            set level of unbreaking of loop-value to 999
+
+        set {_m}'s helmet to {_armor::1}
+        set {_m}'s chestplate to {_armor::2}
+        set {_m}'s leggings to {_armor::3}
+        set {_m}'s boots to {_armor::4}
+
+on tab complete of "/dummy":
+    set tab completions for position 1 to "shield", "AI"

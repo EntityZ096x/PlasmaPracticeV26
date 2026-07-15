@@ -1,0 +1,18 @@
+enable: true
+title: '        &8<---- <#8B5E3C><bold>Woods &8---->'
+slot: 11
+hidden: true
+sub-section: true
+item:
+  displayname: '<#8B5E3C><bold>Woods'
+  material: OAK_LOG
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 0 0 0 0 0 0 0 0'

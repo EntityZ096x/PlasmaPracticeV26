@@ -1,0 +1,4 @@
+command /tpall:
+    trigger:
+        loop all players:
+            teleport loop-player to player

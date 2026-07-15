@@ -1,0 +1,60 @@
+on damage:
+    attacker is a player
+    victim is a player
+    if attacker is victim:
+        stop
+    set {pvp.time.%victim%} to 20 * 15
+    set {pvp.time.%attacker%} to 20 * 15
+    if {pvp.enemy.%victim%} is not attacker:
+        send "&c&lPvP&r &8»&c You have been attacked by &e%attacker%&c! Do not log off!" to victim
+    if {pvp.enemy.%attacker%} is not victim:
+        send "&c&lPvP&r &8»&c You attacked &e%victim%&c! Do not log off!" to attacker
+    set {pvp.enemy.%victim%} to attacker
+    set {pvp.enemy.%attacker%} to victim
+
+every tick:
+    loop all players:
+        if {pvp.time.%loop-player%} is set:
+            add -1 to {pvp.time.%loop-player%}
+            delete {_bar::*}
+            add "&r&c" to {_bar::*}
+            loop ceiling({pvp.time.%loop-player%} / 20) - 1 times:
+                add "|" to {_bar::*}
+            add "&r&c&l|&r&7" to {_bar::*}
+            loop 15 - (ceiling({pvp.time.%loop-player%} / 20) - 1) times:
+                add "|" to {_bar::*}
+
+            set {_bar} to join {_bar::*} with ""
+            send action bar "&r&c%{pvp.enemy.%loop-player%}%: %{pvp.enemy.%loop-player%}'s health% &r&7|&r &r&7&l[ %{_bar}% &r&7&l]" to loop-player
+            if {pvp.time.%loop-player%} <= 0:
+                delete {pvp.time.%loop-player%}
+                delete {pvp.enemy.%loop-player%}
+                send action bar "&aYou are no longer in combat!" to loop-player
+                send "&c&lPvP&r &8»&r &aYou are no longer in combat!" to loop-player
+
+on death:
+    if {pvp.time.%victim%} is set:
+        set {pvp.time.%victim%} to 0
+    if {pvp.time.%attacker%} is set:
+        set {pvp.time.%attacker%} to 0
+
+on leave:
+    if {pvp.time.%player%} is set:
+        kill player
+        broadcast "&c&lPvP&r &8»&r&e %player%&r&c tried to escape combat!"
+
+on command:
+    if {pvp.time.%player%} is set:
+        if {pvp.allowedcmds::*} contains command:
+            stop
+        cancel event
+        send "&c&lPvP&r &8»&c You may not use /%command% while combat!"
+
+on load:
+    delete {pvp.allowedcmds::*}
+    add "msg" to {pvp.allowedcmds::*}
+    add "ec" to {pvp.allowedcmds::*}
+    add "tell" to {pvp.allowedcmds::*}
+    add "suicide" to {pvp.allowedcmds::*}
+
+

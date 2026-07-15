@@ -1,0 +1,7 @@
+enable: true
+item:
+  material: DIAMOND
+  displayname: '&r&b&lOres'
+  lore:
+  - '&r&8Dihmonds!'
+slot: 13

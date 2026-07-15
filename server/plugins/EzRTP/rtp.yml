@@ -1,0 +1,204 @@
+# EzRTP teleport gameplay configuration
+#
+# This file contains default RTP behavior, safety, biome searching, and integrations.
+
+# Set to true to enable debug logging for rejected random teleport locations.
+debug-rejection-logging: false
+
+# RTP global options
+rtp:
+  # Enable or disable fallback to cached locations when RTP search fails.
+  enable_fallback_to_cache: true
+  # Enable human-readable cooldown formatting (e.g., "1h 30m 45s" instead of "5430 seconds").
+  human-readable-cooldown: true
+
+# Optional: restrict random teleport Y-levels (inclusive).
+min-y: 54
+max-y: 320
+world: LifeSteal
+center:
+  x: 0
+  z: 0
+
+# Named centers used by /rtp <name>.
+# Manage entries in-game with: /rtp addcenter <name>
+centers:
+  named: {}
+
+radius:
+  min: 500
+  # Set a custom maximum radius (in blocks). When omitted the world border size will be used.
+  max: 10000
+
+# Candidate coordinate search pattern. Options: random, circle, square, triangle, diamond.
+search-pattern: random
+max-attempts: 16
+cost: 0.0
+
+# Optional countdown before teleport (0 = disabled)
+countdown-seconds: 5
+countdown:
+  # Optional: override countdown seconds here instead of countdown-seconds.
+  # seconds: 5
+  bossbar:
+    enabled: true
+    title: "<yellow>Teleporting in <white><seconds></white> seconds...</yellow>"
+    color: YELLOW
+    style: SOLID
+  particles:
+    enabled: true
+    type: ENCHANTMENT_TABLE
+    points: 12
+    radius: 1.2
+    height-offset: 0.8
+    extra: 0.0
+    force: false
+    secondary-particle: PORTAL
+    secondary-count: 6
+    secondary-offset: 0.35
+  chat-messages: false
+
+unsafe-blocks:
+  - WATER
+  - LAVA
+  - MAGMA_BLOCK
+  - POWDER_SNOW
+  - FIRE
+  - CAMPFIRE
+  - SOUL_FIRE
+
+safety:
+  water:
+    # NOTE: the old key 'place-dirt-on-surface' is deprecated; use 'place-block-on-surface'.
+    place-block-on-surface: true
+    material: ICE
+  recovery:
+    enabled: true
+    max-vertical-adjust: 6
+    # How far below surface candidate resolution may scan for a solid footing block.
+    # Keep conservative to avoid expensive pathological vertical scans.
+    max-surface-scan-depth: 20
+    # Nether-only scan depth. Defaults deeper than overworld to handle roof-start candidates safely.
+    max-surface-scan-depth-nether: 128
+
+# Global chunk loading configuration.
+# use-paper-async-api: auto-detect  -> bypass the throttle queue on Paper 1.21+ (recommended)
+#                      always        -> bypass unconditionally (safe on all platforms; Bukkit/Spigot get a sync-completed future)
+#                      never         -> always use the legacy throttle regardless of platform
+# The legacy-throttle sub-section is used when the async API is not in use (Spigot, old Paper,
+# or when use-paper-async-api is set to 'never').
+chunk-loading:
+  use-paper-async-api: auto-detect
+  legacy-throttle:
+    enabled: true
+    interval-ticks: 10
+    max-chunks-per-tick: 1
+
+# Chunky integration for pregenerating RTP search areas
+chunky-integration:
+  enabled: false
+  auto-pregenerate: false
+  shape: circle
+  pattern: concentric
+  memory-safety:
+    enabled: true
+    min-free-memory-mb: 256
+    max-coordinator-entries: 2000
+    low-memory-retention-minutes: 10
+
+heatmap:
+  enabled: false
+
+biomes:
+  # Master kill-switch. Set to false to disable all biome infrastructure
+  # (include/exclude filtering, pre-cache, rare-biome optimization) regardless
+  # of individual sub-section settings. Default true keeps existing behaviour.
+  enabled: true
+  include: []
+  exclude: []
+  biome-filtering:
+    # Set to false to disable include/exclude biome checks entirely.
+    # Useful for temporarily lifting biome restrictions without removing lists.
+    enabled: true
+    performance-budget:
+      # Wall-clock timeout for normal searches (0 = unlimited).
+      # When include/exclude lists are active the plugin automatically tightens
+      # this to 100 ms if you leave it at 0 — set an explicit value to override.
+      max-total-time-ms: 0
+      # Wall-clock timeout for rare-biome searches (millis; 0 = unlimited).
+      max-total-time-ms-rare: 8000
+      # Maximum biome rejections before giving up (0 = unlimited).
+      max-biome-rejections: 0
+      max-biome-rejections-rare: 64
+      # Maximum chunk loads per search (0 = unlimited).
+      # Same auto-tightening applies as max-total-time-ms: defaults to 10 when filters active.
+      max-chunk-loads: 0
+      max-chunk-loads-rare: 16
+      # Minimum attempts when biome filters are active.
+      min-biome-attempts: 96
+      # What to do when the budget is exhausted before a match is found.
+      # Options: cached-location | generic | abort
+      fallback-on-timeout: cached-location
+      # When false, all biome searches for this world are serialised through a single
+      # dedicated thread ("ezrtp-biome-filter") instead of the common fork-join pool.
+      # Useful on servers with many concurrent RTPs where pool saturation is a concern.
+      async-mode: true
+  pre-cache:
+    enabled: false
+    auto-enable-for-filters: true
+    max-per-biome: 16
+    warmup-size: 8
+    expiration-minutes: 15
+    refill-interval-minutes: 10
+    refill-batch-size: 3
+  rare-biome-optimization:
+    enabled: false
+    rare-biomes: []
+    use-weighted-search: true
+    enable-hotspot-tracking: true
+    enable-background-scanning: false
+    max-hotspots-per-biome: 20
+    hotspot-scan-interval-minutes: 8
+    use-chunk-load-queue: true
+    chunk-load-interval-ticks: 3
+    max-chunks-per-tick: 2
+    auto-enable-for-filters: true
+    # Persist discovered hotspots across restarts (and share them between proxy nodes).
+    # backend: none | mysql
+    persistence:
+      backend: none
+      mysql-url: jdbc:mysql://localhost:3306/ezrtp
+      mysql-user: ""
+      mysql-password: ""
+  # Legacy: biomes.search is still fully supported for backward compatibility.
+  # biome-filtering.performance-budget takes precedence when both are present.
+
+protection:
+  avoid-claims: false
+  providers:
+    - worldguard
+    - griefprevention
+
+# Optional WorldGuard region command support.
+# Kept here for full RTP semantics; config.yml still includes the same keys for command compatibility fallback.
+worldguard:
+  region-command:
+    enabled: false
+    autocomplete: false
+
+particles:
+  enabled: false
+  type: PORTAL
+  count: 40
+  offset:
+    x: 0.5
+    y: 1.0
+    z: 0.5
+  extra: 0.0
+  force: false
+
+on-join:
+  enabled: false
+  only-first-join: false
+  bypass-permission: ""
+  delay-ticks: 40

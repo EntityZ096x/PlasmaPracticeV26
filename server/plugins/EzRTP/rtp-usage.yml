@@ -1,0 +1,22 @@
+players:
+  2ee83cb0-186f-329d-bb3e-2dd2a293057c:
+    world:
+      lastRtp: 1783364955713
+      usage:
+        daily: 0
+        weekly: 2
+    LifeSteal:
+      lastRtp: 1783600727910
+      usage:
+        daily: 3
+        weekly: 4
+    LifeSteal_the_end:
+      lastRtp: 1783367099032
+      usage:
+        daily: 0
+        weekly: 2
+    LifeSteal_nether:
+      lastRtp: 1783367158928
+      usage:
+        daily: 0
+        weekly: 1

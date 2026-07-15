@@ -1,0 +1,16 @@
+enable: true
+title: '    &8<---- &b&lResources &8---->'
+slot: 15
+item:
+  displayname: '&b&lResources'
+  material: IRON_INGOT
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 0 0 0 0 0 0 0 0'

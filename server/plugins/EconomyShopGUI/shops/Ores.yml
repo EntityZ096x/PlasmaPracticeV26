@@ -1,0 +1,114 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: COAL_ORE
+        buy: 30.0
+        sell: 3.0
+      '2':
+        material: ANCIENT_DEBRIS
+        buy: 300000.0
+        sell: 30000.0
+      '3':
+        material: GOLD_ORE
+        buy: 9000.0
+        sell: 900.0
+      '4':
+        material: IRON_ORE
+        buy: 3000.0
+        sell: 300.0
+      '5':
+        material: LAPIS_ORE
+        buy: 3000.0
+        sell: 300.0
+      '6':
+        material: DIAMOND_ORE
+        buy: 30000.0
+        sell: 3000.0
+      '7':
+        material: EMERALD_ORE
+        buy: 30000.0
+        sell: 3000.0
+      '8':
+        material: BUDDING_AMETHYST
+        buy: 3000.0
+        sell: 300.0
+      '9':
+        material: REDSTONE_ORE
+        buy: 30.0
+        sell: 3.0
+      '10':
+        material: COAL
+        buy: 10.0
+        sell: 1.0
+      '11':
+        material: NETHERITE_INGOT
+        buy: 100000.0
+        sell: 10000.0
+      '12':
+        material: GOLD_INGOT
+        buy: 300.0
+        sell: 30.0
+      '13':
+        material: IRON_INGOT
+        buy: 100.0
+        sell: 10.0
+      '14':
+        material: LAPIS_LAZULI
+        buy: 100.0
+        sell: 10.0
+      '15':
+        material: DIAMOND
+        buy: 10000.0
+        sell: 1000.0
+      '16':
+        material: EMERALD
+        buy: 10000.0
+        sell: 1000.0
+      '17':
+        material: AMETHYST_SHARD
+        buy: 1000.0
+        sell: 100.0
+      '18':
+        material: REDSTONE
+        buy: 10.0
+        sell: 1.0
+      '19':
+        material: COAL_BLOCK
+        buy: 90.0
+        sell: 9.0
+      '20':
+        material: NETHERITE_BLOCK
+        buy: 900000.0
+        sell: 90000.0
+      '21':
+        material: GOLD_BLOCK
+        buy: 2700.0
+        sell: 270.0
+      '22':
+        material: IRON_BLOCK
+        buy: 900.0
+        sell: 90.0
+      '23':
+        material: LAPIS_BLOCK
+        buy: 900.0
+        sell: 90.0
+      '24':
+        material: DIAMOND_BLOCK
+        buy: 90000.0
+        sell: 9000.0
+      '25':
+        material: EMERALD_BLOCK
+        buy: 90000.0
+        sell: 9000.0
+      '26':
+        material: AMETHYST_BLOCK
+        buy: 9000.0
+        sell: 900.0
+      '27':
+        material: REDSTONE_BLOCK
+        buy: 90.0
+        sell: 9.0
+    
+    gui-rows: 4
+    title: Ores

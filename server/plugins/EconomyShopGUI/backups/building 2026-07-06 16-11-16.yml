@@ -1,0 +1,20 @@
+enable: true
+title: '&8<---- &6&lBlocks &8& &6&lBuilding &8---->'
+slot: 13
+item:
+  displayname: '&6&lBlocks &8& &6&lBuilding'
+  material: GRASS_BLOCK
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+nav-bar:
+  mode: SELF
+  fill-item:
+    material: "GRAY_STAINED_GLASS_PANE"
+    displayname: ' '
+  items:
+    back:
+      material: ARROW
+      name: '%translations-back%'
+      action: BACK
+      slot: 9

@@ -1,0 +1,167 @@
+# EzRTP MiniMessage templates
+#
+# These messages support MiniMessage formatting and placeholder tokens such as
+# <world>, <x>, <z>, <position>, <server>, <cost>, <target-biome>, and <cached-locations>.
+# Examples:
+#   - Use hex: <#ff8800>Orange text</#ff8800>
+#   - Use gradients: <gradient:#ff0000:#00ff00>Red→Green</gradient>
+example-hex: "<#ff8800>Hex colored example</#ff8800>"
+example-gradient: "<red>Gradient example</red>"
+teleporting: "<gray>Searching for a safe location...</gray>"
+teleport-success: "<green>Teleported to <white><x></white>, <white><z></white> in <white><world></white>.</green>"
+teleport-failed: "<red>Unable to find a safe location. Please try again.</red>"
+teleport-failed-biome: "<red>No valid biome was found. Please try again or try a different biome filter.</red>"
+teleport-fallback-success: "<yellow>No locations found through search. Falling back to a cached random location: (<white><x></white>, <white><z></white>).</yellow>"
+teleport-fallback-no-cache: "<red>No cached locations are available for teleportation. Please wait for locations to be pre-cached.</red>"
+teleport-failed-search: "<red>Search failed: No valid locations found.</red>"
+world-missing: "<red>The configured world '<white><world></white>' is not available.</red>"
+join-searching: "<gray>Finding you a safe place to explore...</gray>"
+insufficient-funds: "<red>You need <white><cost></white> coins to use random teleport.</red>"
+queue-queued: "<gray>You joined the random teleport queue. Position: <white><position></white>.</gray>"
+queue-full: "<red>The random teleport queue is currently full. Please try again soon.</red>"
+
+# Countdown messages
+countdown-start: "<yellow>Teleporting in <white><seconds></white> seconds...</yellow>"
+countdown-tick: "<gray><seconds>...</gray>"
+
+# Cooldown and usage limit messages
+cooldown: "<red>You must wait <white><seconds></white> seconds before using /rtp again.</red>"
+limit-daily: "<red>You have reached your daily /rtp limit for this world.</red>"
+limit-weekly: "<red>You have reached your weekly /rtp limit for this world.</red>"
+
+# GUI messages
+gui-cache-filter-info: "<yellow>Only showing options with cached RTP locations available.</yellow>"
+gui-no-destinations: "<red>No teleport destinations are currently available.</red>"
+gui-cooldown: "<red>You cannot open the teleport GUI while on cooldown.</red>"
+
+# Network messages
+network-service-unavailable: "<red>Unable to connect to the network service right now. Please try again later.</red>"
+network-server-offline: "<red>That server is currently offline.</red>"
+
+# Command messages
+command-no-permission-reload: "<red>You do not have permission to reload EzRTP.</red>"
+command-reload-success: "<green>EzRTP configuration reloaded.</green>"
+command-no-permission-stats: "<red>You do not have permission to view EzRTP statistics.</red>"
+command-service-not-initialized: "<red>Teleport service not initialized.</red>"
+
+# ForceRTP messages
+forcertp-no-permission: "<red>You do not have permission to use forced random teleport.</red>"
+forcertp-player-not-found: "<red>Player '<white><player></white>' not found or is not online.</red>"
+forcertp-success: "<green>Forcing random teleport for player <white><player></white>...</green>"
+forcertp-target-notify: "<yellow>You are being teleported by an administrator...</yellow>"
+forcertp-invalid-usage: "<red>Usage: /rtp forcertp <player> [world]</red>"
+# EzRTP English Messages
+#
+# This file contains all configurable messages for the EzRTP plugin in English.
+# Messages support both MiniMessage formatting and legacy color codes (&).
+#
+# MiniMessage Documentation: https://docs.advntr.dev/minimessage/format.html
+# Available placeholders are listed in comments above each message.
+#
+# Placeholders: <x>, <z>, <world>
+teleporting: "<gray>Searching for a safe location...</gray>"
+teleport-success: "<green>Teleported to <white><x></white>, <white><z></white> in <white><world></white>.</green>"
+teleport-failed: "<red>Unable to find a safe location. Please try again.</red>"
+teleport-failed-biome: "<red>No valid biome was found. Please try again or try a different biome filter.</red>"
+# Placeholders: <x>, <z>
+teleport-fallback-success: "<yellow>No locations found through search. Falling back to a cached random location: (<white><x></white>, <white><z></white>).</yellow>"
+teleport-fallback-no-cache: "<red>No cached locations are available for teleportation. Please wait for locations to be pre-cached.</red>"
+teleport-failed-search: "<red>Search failed: No valid locations found.</red>"
+# Placeholders: <world>
+world-missing: "<red>The configured world '<white><world></white>' is not available.</red>"
+join-searching: "<gray>Finding you a safe place to explore...</gray>"
+# Placeholders: <cost>
+insufficient-funds: "<red>You need <white><cost></white> coins to use random teleport.</red>"
+
+# Queue messages
+# Placeholders: <position>
+queue-queued: "<gray>You joined the random teleport queue. Position: <white><position></white>.</gray>"
+queue-full: "<red>The random teleport queue is currently full. Please try again soon.</red>"
+
+# Countdown messages
+# Placeholders: <seconds>
+countdown-start: "<yellow>Teleporting in <white><seconds></white> seconds...</yellow>"
+countdown-tick: "<gray><seconds>...</gray>"
+
+# Cooldown and usage limit messages
+# Placeholders: <seconds>
+cooldown: "<red>You must wait <white><seconds></white> seconds before using /rtp again.</red>"
+limit-daily: "<red>You have reached your daily /rtp limit for this world.</red>"
+limit-weekly: "<red>You have reached your weekly /rtp limit for this world.</red>"
+
+# GUI messages
+gui-cache-filter-info: "<yellow>Only showing options with cached RTP locations available.</yellow>"
+gui-no-destinations: "<red>No teleport destinations are currently available.</red>"
+gui-cooldown: "<red>You cannot open the teleport GUI while on cooldown.</red>"
+
+# Network messages
+network-service-unavailable: "<red>Unable to connect to the network service right now. Please try again later.</red>"
+network-server-offline: "<red>That server is currently offline.</red>"
+
+# Command messages
+command-no-permission-reload: "<red>You do not have permission to reload EzRTP.</red>"
+command-reload-success: "<green>EzRTP configuration reloaded.</green>"
+command-no-permission-stats: "<red>You do not have permission to view EzRTP statistics.</red>"
+command-service-not-initialized: "<red>Teleport service not initialized.</red>"
+command-no-permission: "<red>You do not have permission to use this command.</red>"
+command-player-only: "<red>This command may only be used by players.</red>"
+
+# ForceRTP messages
+# Placeholders: <player>
+forcertp-no-permission: "<red>You do not have permission to use forced random teleport.</red>"
+forcertp-player-not-found: "<red>Player '<white><player></white>' not found or is not online.</red>"
+forcertp-success: "<green>Forcing random teleport for player <white><player></white>...</green>"
+forcertp-target-notify: "<yellow>You are being teleported by an administrator...</yellow>"
+forcertp-invalid-usage: "<red>Usage: /rtp forcertp <player> [world]</red>"
+# Placeholders: <world>
+forcertp-world-missing: "<red>No RTP settings found for world: <white><world></white></red>"
+forcertp-service-unavailable: "<red>Teleport service not initialized.</red>"
+# Placeholders: <player>
+forcertp-executor-notification: "<green>Forcing random teleport for player <white><player></white>...</green>"
+forcertp-target-notification: "<yellow>You are being teleported by an administrator...</yellow>"
+
+# Heatmap messages
+heatmap-disabled: "<red>Heatmap is disabled. Set <white>heatmap.enabled: true</white> in rtp.yml to enable it.</red>"
+heatmap-biome-caching-disabled: "<red>Biome caching is not enabled. Enable it in config.yml to use heatmap features.</red>"
+# Placeholders: <biome>
+heatmap-invalid-biome: "<red>Invalid biome: <white><biome></white></red>"
+heatmap-insufficient-data: "<red>Not enough RTP data to generate a meaningful heatmap.</red>"
+# Placeholders: <count>, <s>, <world>, <pattern>
+heatmap-simulation-added: "<green>Added <white><count></white> simulated RTP sample<s> to <white><world></white> using the <white><pattern></white> pattern.</green>"
+# Placeholders: <count>, <s>, <world>
+heatmap-simulation-cleared: "<green>Cleared <white><count></white> simulated RTP sample<s> from <white><world></white>.</green>"
+# Placeholders: <limit>
+heatmap-simulation-limit: "<red>Amount too large. Maximum per command: <white><limit></white></red>"
+# Placeholders: <amount>
+heatmap-simulation-invalid-amount: "<red>Invalid amount: <white><amount></white></red>"
+# Placeholders: <world>
+heatmap-simulation-world-missing: "<red>World not found: <white><world></white></red>"
+heatmap-save-success: "<green>Heatmap saved successfully!</green>"
+heatmap-save-failed: "<red>Failed to save heatmap. Check console for errors.</red>"
+
+# Fake command messages
+fake-usage: "<red>Usage: /rtp fake <amount|clear> [world]</red>"
+# Placeholders: <world>
+fake-world-missing: "<red>World not found: <white><world></white></red>"
+fake-world-required-console: "<red>You must specify a world when using this command from console.</red>"
+# Placeholders: <amount>
+fake-invalid-amount: "<red>Invalid amount: <white><amount></white></red>"
+fake-amount-negative: "<red>Amount must be positive.</red>"
+# Placeholders: <limit>
+fake-amount-too-large: "<red>Amount too large. Maximum per command: <white><limit></white></red>"
+fake-simulation-store-missing: "<red>Heatmap simulation store not initialized.</red>"
+fake-config-missing: "<red>EzRTP configuration not loaded yet.</red>"
+# Placeholders: <world>
+fake-settings-missing: "<red>No RTP settings found for world: <white><world></white></red>"
+fake-service-missing: "<red>Teleport service not initialized.</red>"
+# Placeholders: <count>, <s>, <capacity>
+fake-simulation-status: "<gray>World now has <white><count></white> simulated sample<s> (capacity <white><capacity></white>).</gray>"
+fake-simulation-hint: "<gray>Use <white>/rtp heatmap</white> or <white>/rtp heatmap save</white> to visualize the distribution.</gray>"
+
+# Stats messages
+stats-no-biome-data: "<yellow>No biome data available yet. Biome statistics are collected as players use /rtp with biome filtering enabled.</yellow>"
+stats-cache-info: "<gold><bold>Cache Information:</bold></gold>"
+# Placeholders: <page>, <total>, <count>
+stats-biome-activity-header: "<gold><bold>Biomes by Activity</bold> <gray>(Page <page>/<total>, Total: <count> biomes):</gray></gold>"
+stats-navigation: "<gold><bold>Navigation:</bold></gold>"
+stats-legend: "<gold><bold>Legend:</bold></gold>"

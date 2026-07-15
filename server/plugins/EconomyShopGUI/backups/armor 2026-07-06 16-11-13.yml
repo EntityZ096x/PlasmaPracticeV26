@@ -1,0 +1,18 @@
+enable: true
+title: '        &8<---- <#5B8CFF><bold>Armor &8---->'
+slot: 0
+hidden: true
+sub-section: true
+item:
+  displayname: '<#5B8CFF><bold>Armor'
+  material: IRON_CHESTPLATE
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 0 0 0 0 0 0 0 0'

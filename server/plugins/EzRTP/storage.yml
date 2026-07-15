@@ -1,0 +1,9 @@
+# EzRTP storage backend configuration for cooldown/usage tracking
+
+rtp-limits:
+  # Storage backend for cooldown/usage tracking: yaml or mysql
+  storage: yaml
+  mysql:
+    url: "jdbc:mysql://localhost:3306/mc"
+    user: "root"
+    password: ""

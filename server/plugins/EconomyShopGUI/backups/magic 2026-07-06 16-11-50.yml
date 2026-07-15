@@ -1,0 +1,20 @@
+enable: true
+title: ' &8<-- <#AA00FF><bold>Enchants &8& &d&lPotions &8-->'
+slot: 25
+item:
+  displayname: '<#AA00FF><bold>Enchants &8& &d&lPotions'
+  material: ENCHANTING_TABLE
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+nav-bar:
+  mode: SELF
+  fill-item:
+    material: "GRAY_STAINED_GLASS_PANE"
+    displayname: ' '
+  items:
+    back:
+      material: ARROW
+      name: '%translations-back%'
+      action: BACK
+      slot: 9
