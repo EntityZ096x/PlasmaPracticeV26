@@ -1,0 +1,325 @@
+# EzRTP GUI configuration
+#
+# Toggle and customise the optional world selection inventory.
+#
+# PlaceholderAPI Support:
+# You can use PlaceholderAPI placeholders in icon names and lores!
+# Examples: %player_name%, %player_level%, %player_health%, etc.
+# See gui-placeholders-example.yml for detailed examples.
+# Requires PlaceholderAPI plugin to be installed.
+enabled: true
+title: "RandomTP"
+rows: 3
+no-permission-message: "<red>You do not have permission to travel there.</red>"
+# Optional custom messages for GUI (fallback to defaults if not specified)
+cache-filter-info: "<yellow>Only showing options with cached RTP locations available.</yellow>"
+no-destinations: "<red>No teleport destinations are currently available.</red>"
+# Cache filtering configuration
+disable-cache-filtering: false  # Set to true to show all worlds regardless of cache status
+admin-only-cache-info: false    # Set to true to only show cache info messages to admins
+# Rare biomes configuration - applies special cache requirements to rare biomes
+# Rare biomes are defined in config.yml under biomes.rare-biome-optimization.rare-biomes
+rare_biomes:
+  enabled: true  # Enable special cache filtering for rare biomes
+  # You can optionally add additional rare biomes here (in addition to those in config.yml):
+  # list:
+  #   - CHERRY_GROVE
+  #   - DEEP_DARK
+  # You can override the default minimum cache requirement here:
+  require-cache:
+    minimum-cached: 1  # Minimum number of cached locations required for rare biomes
+filler:
+  enabled: true
+  material: GRAY_STAINED_GLASS_PANE
+  name: "<dark_gray> </dark_gray>"
+worlds:
+  overworld:
+    # Slot within the GUI (0-53). When omitted entries are placed in order.
+    slot: 13
+    # Optional permission required to choose this world.
+    permission: ""
+    icon:
+      material: GRASS
+      name: "<green><bold>Overworld</bold></green>"
+      lore:
+        - "<gray>Balanced biomes, safe landings, and</gray>"
+        - "<gray>plenty of room to explore.</gray>"
+        - "<dark_gray>Click to begin your adventure.</dark_gray>"
+    settings:
+      world: LifeSteal
+  nether:
+    slot: 11
+    permission: "ezrtp.gui.nether"
+    icon:
+      material: NETHERRACK
+      name: "<red><bold>Nether</bold></red>"
+      lore:
+        - "<gray>Warp into the Nether to hunt</gray>"
+        - "<gray>for ancient debris and rare loot.</gray>"
+        - "<dark_gray>Requires Nether access.</dark_gray>"
+    settings:
+      world: LifeSteal_nether
+  end:
+    slot: 15
+    permission: "ezrtp.gui.end"
+    icon:
+      material: END_STONE
+      name: "<light_purple><bold>The End</bold></light_purple>"
+      lore:
+        - "<gray>Teleport to distant End islands</gray>"
+        - "<gray>for chorus fruit and gateways.</gray>"
+        - "<dark_gray>Requires End access.</dark_gray>"
+    settings:
+      world: LifeSteal_the_end
+  # Biome-specific RTP options
+  # plains:
+  #   slot: 10
+  #   permission: "ezrtp.gui.plains"
+  #   icon:
+  #     material: TALL_GRASS
+  #     name: "<green><bold>Plains</bold></green>"
+  #     lore:
+  #       - "<gray>Teleport to peaceful plains biomes.</gray>"
+  #       - "<gray>Ideal for building and farming.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - PLAINS
+  #         - SUNFLOWER_PLAINS
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 30
+  #         warmup-size: 15
+  # forest:
+  #   slot: 11
+  #   permission: "ezrtp.gui.forest"
+  #   icon:
+  #     material: OAK_SAPLING
+  #     name: "<dark_green><bold>Forest</bold></dark_green>"
+  #     lore:
+  #       - "<gray>Explore dense forests and gather wood.</gray>"
+  #       - "<gray>Rich in wildlife and resources.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - FOREST
+  #         - BIRCH_FOREST
+  #         - DARK_FOREST
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 30
+  #         warmup-size: 15
+  # desert:
+  #   slot: 12
+  #   permission: "ezrtp.gui.desert"
+  #   icon:
+  #     material: SAND
+  #     name: "<gold><bold>Desert</bold></gold>"
+  #     lore:
+  #       - "<gray>Venture into vast desert landscapes.</gray>"
+  #       - "<gray>Find temples and desert villages.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - DESERT
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 30
+  #         warmup-size: 15
+  # taiga:
+  #   slot: 13
+  #   permission: "ezrtp.gui.taiga"
+  #   icon:
+  #     material: SPRUCE_SAPLING
+  #     name: "<aqua><bold>Taiga</bold></aqua>"
+  #     lore:
+  #       - "<gray>Discover snowy taiga forests.</gray>"
+  #       - "<gray>Home to wolves and berries.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - TAIGA
+  #         - SNOWY_TAIGA
+  #         - OLD_GROWTH_SPRUCE_TAIGA
+  #         - OLD_GROWTH_PINE_TAIGA
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 25
+  #         warmup-size: 12
+  # jungle:
+  #   slot: 14
+  #   permission: "ezrtp.gui.jungle"
+  #   icon:
+  #     material: JUNGLE_SAPLING
+  #     name: "<green><bold>Jungle</bold></green>"
+  #     lore:
+  #       - "<gray>Explore lush jungle terrain.</gray>"
+  #       - "<gray>Find temples and exotic wildlife.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - JUNGLE
+  #         - BAMBOO_JUNGLE
+  #         - SPARSE_JUNGLE
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 25
+  #         warmup-size: 12
+  # mountains:
+  #   slot: 15
+  #   permission: "ezrtp.gui.mountains"
+  #   icon:
+  #     material: STONE
+  #     name: "<gray><bold>Mountains</bold></gray>"
+  #     lore:
+  #       - "<gray>Scale towering mountain peaks.</gray>"
+  #       - "<gray>Rich in ores and minerals.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - WINDSWEPT_HILLS
+  #         - WINDSWEPT_GRAVELLY_HILLS
+  #         - WINDSWEPT_FOREST
+  #         - JAGGED_PEAKS
+  #         - FROZEN_PEAKS
+  #         - STONY_PEAKS
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 25
+  #         warmup-size: 12
+  # ocean:
+  #   slot: 16
+  #   permission: "ezrtp.gui.ocean"
+  #   icon:
+  #     material: PRISMARINE
+  #     name: "<blue><bold>Ocean</bold></blue>"
+  #     lore:
+  #       - "<gray>Dive into deep ocean waters.</gray>"
+  #       - "<gray>Discover shipwrecks and monuments.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - OCEAN
+  #         - DEEP_OCEAN
+  #         - WARM_OCEAN
+  #         - LUKEWARM_OCEAN
+  #         - COLD_OCEAN
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 20
+  #         warmup-size: 10
+  # mushroom:
+  #   slot: 28
+  #   permission: "ezrtp.gui.mushroom"
+  #   icon:
+  #     material: RED_MUSHROOM_BLOCK
+  #     name: "<light_purple><bold>Mushroom Fields</bold></light_purple>"
+  #     lore:
+  #       - "<gray>Visit rare mushroom islands.</gray>"
+  #       - "<gray>Peaceful and mob-free zones.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - MUSHROOM_FIELDS
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 40
+  #         warmup-size: 20
+  #     require-cache:
+  #       enabled: true
+  #       minimum-cached: 1
+  # swamp:
+  #   slot: 29
+  #   permission: "ezrtp.gui.swamp"
+  #   icon:
+  #     material: LILY_PAD
+  #     name: "<dark_green><bold>Swamp</bold></dark_green>"
+  #     lore:
+  #       - "<gray>Wade through murky swamplands.</gray>"
+  #       - "<gray>Find witch huts and slime chunks.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - SWAMP
+  #         - MANGROVE_SWAMP
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 25
+  #         warmup-size: 12
+  # savanna:
+  #   slot: 30
+  #   permission: "ezrtp.gui.savanna"
+  #   icon:
+  #     material: ACACIA_SAPLING
+  #     name: "<yellow><bold>Savanna</bold></yellow>"
+  #     lore:
+  #       - "<gray>Roam the open savanna plains.</gray>"
+  #       - "<gray>Spot villages and acacia trees.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - SAVANNA
+  #         - SAVANNA_PLATEAU
+  #         - WINDSWEPT_SAVANNA
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 25
+  #         warmup-size: 12
+  # badlands:
+  #   slot: 31
+  #   permission: "ezrtp.gui.badlands"
+  #   icon:
+  #     material: RED_SAND
+  #     name: "<gold><bold>Badlands</bold></gold>"
+  #     lore:
+  #       - "<gray>Explore colorful mesa terrain.</gray>"
+  #       - "<gray>Mine abundant gold deposits.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - BADLANDS
+  #         - ERODED_BADLANDS
+  #         - WOODED_BADLANDS
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 30
+  #         warmup-size: 15
+  #     require-cache:
+  #       enabled: true
+  #       minimum-cached: 1
+  # ice:
+  #   slot: 32
+  #   permission: "ezrtp.gui.ice"
+  #   icon:
+  #     material: ICE
+  #     name: "<white><bold>Ice Plains</bold></white>"
+  #     lore:
+  #       - "<gray>Brave the frozen tundra.</gray>"
+  #       - "<gray>Encounter polar bears and igloos.</gray>"
+  #   settings:
+  #     world: world
+  #     biomes:
+  #       include:
+  #         - SNOWY_PLAINS
+  #         - ICE_SPIKES
+  #         - FROZEN_RIVER
+  #         - FROZEN_OCEAN
+  #         - DEEP_FROZEN_OCEAN
+  #       pre-cache:
+  #         enabled: true
+  #         max-per-biome: 25
+  #         warmup-size: 12
+  #     require-cache:
+  #       enabled: true
+  #       minimum-cached: 1

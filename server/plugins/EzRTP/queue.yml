@@ -1,0 +1,12 @@
+# EzRTP teleport queue configuration
+#
+# Enable the queue to throttle teleport requests when /rtp is heavily used.
+enabled: false
+# Maximum number of players allowed to wait in the queue. Use 0 for no limit.
+max-size: 0
+# Players with this permission bypass the queue and teleport instantly.
+bypass-permission: "ezrtp.queue.bypass"
+# Delay before the first queued teleport is processed (in ticks).
+start-delay-ticks: 20
+# Delay between processing queued teleports (in ticks).
+interval-ticks: 40

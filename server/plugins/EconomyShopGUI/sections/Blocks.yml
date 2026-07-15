@@ -1,0 +1,7 @@
+enable: true
+item:
+  material: GRASS_BLOCK
+  displayname: '&r&f&lBlocks'
+  lore:
+  - '&r&8For ur builds!'
+slot: 11

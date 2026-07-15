@@ -1,0 +1,47 @@
+[2026/06/22 12:39:56]: §9          __             _       
+[2026/06/22 12:39:56]: §9  _ __   / /  ___   __ _(_)_ __  
+[2026/06/22 12:39:56]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/06/22 12:39:56]: §9 | | | / /__| (_) | (_| | | | | |
+[2026/06/22 12:39:56]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2026/06/22 12:39:56]: §9                  |___/            
+[2026/06/22 12:39:56]: §9 By: www.nickuc.com - V 10.4.23
+[2026/06/22 12:39:56]: §9 
+[2026/06/22 12:39:56]: [nLogin] Download finished (took 936ms, hash = a88c660f291c4f5e604c455ca423d97478b8562a783765351030536fd0e0407a)
+[2026/06/22 12:39:56]: §3[nLogin] [DEBUG] All settings were loaded in 469 ms.
+[2026/06/22 12:39:57]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2026/06/22 12:39:57]: §3[nLogin] [DEBUG] All plugin messages were loaded in 318 ms (languageByClient=false).
+[2026/06/22 12:39:57]: §3[nLogin] [DEBUG] All proxy settings were loaded in 24 ms.
+[2026/06/22 12:39:57]: §3[nLogin] [DEBUG] Loading database...
+[2026/06/22 12:39:58]: §3[nLogin] [DEBUG] Starting logger filter...
+[2026/06/22 12:40:03]: 
+[2026/06/22 12:40:03]:  §bThank you so much for choosing nLogin! §4<3
+[2026/06/22 12:40:03]: 
+[2026/06/22 12:40:03]:  §4For your safety, please read the message below:
+[2026/06/22 12:40:03]:   §cNever download nLogin from unknown sources.
+[2026/06/22 12:40:03]:   §cA modified version may contain malicious software.
+[2026/06/22 12:40:03]: 
+[2026/06/22 12:40:03]:  §3Trusted sources:
+[2026/06/22 12:40:03]:   §bwww.nickuc.com
+[2026/06/22 12:40:03]:   §bwww.github.com/nickuc
+[2026/06/22 12:40:03]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2026/06/22 12:40:03]: 
+[2026/06/22 12:40:03]:  §3Official support channels:
+[2026/06/22 12:40:03]:   §bDiscord group: §fwww.nickuc.com/discord
+[2026/06/22 12:40:04]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2026/06/22 12:40:04]:   §bEmail: §fsupport@nickuc.com
+[2026/06/22 12:40:04]:   §bYouTube: §fyoutube.com/nickuc
+[2026/06/22 12:40:04]: 
+[2026/06/22 12:40:04]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2026/06/22 12:40:04]:  §eand click the "Setup plugin" button to configure your plugin.
+[2026/06/22 12:40:04]: 
+[2026/06/22 12:40:57]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('EntityZ096x', 2ee83cb0186f329dbb3e2dd2a293057c, null, null, '$2a$10$hANg6QPwBYB164nUUdYSvunfF8/XDpOWG6r7AEV5YiO37Z1UaxmzG', '0:0:0:0:0:0:0:1', '2026-06-22 12:40:57.688', '2026-06-22 12:40:57.688', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/06/22 12:40:58]: [nLogin] The user EntityZ096x has successfully registered.
+[2026/06/22 12:48:24]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$hANg6QPwBYB164nUUdYSvunfF8/XDpOWG6r7AEV5YiO37Z1UaxmzG', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-06-22 12:40:57.688, `last_seen` = 2026-06-22 12:48:24.959, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"auth","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2026/06/22 12:48:31]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$hANg6QPwBYB164nUUdYSvunfF8/XDpOWG6r7AEV5YiO37Z1UaxmzG', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-06-22 12:40:57.688, `last_seen` = 2026-06-22 12:48:31.381, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"auth","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2026/06/22 12:48:31]: [nLogin] The user EntityZ096x has successfully logged in.
+[2026/06/22 12:59:25]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$hANg6QPwBYB164nUUdYSvunfF8/XDpOWG6r7AEV5YiO37Z1UaxmzG', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-06-22 12:40:57.688, `last_seen` = 2026-06-22 12:59:25.431, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2026/06/22 13:00:28]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$hANg6QPwBYB164nUUdYSvunfF8/XDpOWG6r7AEV5YiO37Z1UaxmzG', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-06-22 12:40:57.688, `last_seen` = 2026-06-22 13:00:28.657, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2026/06/22 13:00:28]: [nLogin] The user EntityZ096x has successfully logged in.
+[2026/06/22 13:03:38]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$hANg6QPwBYB164nUUdYSvunfF8/XDpOWG6r7AEV5YiO37Z1UaxmzG', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-06-22 12:40:57.688, `last_seen` = 2026-06-22 13:03:38.037, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2026/06/22 13:10:59]: [nLogin] Update was successfully queued, do not forcibly stop your server. (v10.4.23 72b10d => v10.4.27 84e4f7)
+[2026/06/22 13:10:59]: [nLogin] Successful plugin core shutdown (took 0.03s)

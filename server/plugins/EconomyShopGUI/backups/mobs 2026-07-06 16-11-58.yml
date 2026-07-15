@@ -1,0 +1,20 @@
+enable: true
+title: '&8<- &2&lMob Drops &8& &4&lSpawners &8->'
+slot: 29
+item:
+  displayname: "&2&lMob Drops &8& &4&lSpawners"
+  material: GUNPOWDER
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+nav-bar:
+  mode: SELF
+  fill-item:
+    material: "GRAY_STAINED_GLASS_PANE"
+    displayname: ' '
+  items:
+    back:
+      material: ARROW
+      name: '%translations-back%'
+      action: BACK
+      slot: 9

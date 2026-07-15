@@ -1,0 +1,18 @@
+enable: true
+title: '       &8<---- <#A0A0A0><bold>Stones &8---->'
+slot: 13
+hidden: true
+sub-section: true
+item:
+  displayname: '<#A0A0A0><bold>Stones'
+  material: STONE_BRICKS
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 0 0 0 0 0 0 0 0'

@@ -1,0 +1,20 @@
+enable: true
+title: ' &8<---- &a&lFarming &8& &6&lFood &8---->'
+slot: 21
+item:
+  displayname: '&a&lFarming &8& &6&lFood'
+  material: WHEAT
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+nav-bar:
+  mode: SELF
+  fill-item:
+    material: "GRAY_STAINED_GLASS_PANE"
+    displayname: ' '
+  items:
+    back:
+      material: ARROW
+      name: '%translations-back%'
+      action: BACK
+      slot: 9

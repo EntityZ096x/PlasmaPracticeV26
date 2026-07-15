@@ -1,0 +1,37 @@
+on join:
+    set the join message to ""
+    while {client.%player%} is not set:
+        wait 1 tick
+    if {client.%player%} is "eagler":
+        broadcast formatted "&r&7[&r&a+&r&7] &r<hover:show_text:'&7This is a Eaglercraft player'>&r&e%player%"
+    else:
+        broadcast "&r&7[&r&c+&r&7] &r%player%"
+
+on quit:
+	set the quit message to "&r&7[&r&c-&r&7] &r&e%player%"
+
+on chat:
+    set {_msg} to message
+    replace all "0" with "o" in {_msg}
+    replace all "1" with "i" in {_msg}
+    replace all "3" with "e" in {_msg}
+    replace all "4" with "a" in {_msg}
+    replace all "5" with "s" in {_msg}
+    replace all "7" with "t" in {_msg}
+    replace all "9" with "g" in {_msg}
+    replace all "fuck" with "f***" in {_msg}
+    replace all "fck" with "f***" in {_msg}
+    replace all "shit" with "s***" in {_msg}
+    replace all "bitch" with "b****" in {_msg}
+    replace all "ass" with "a**" in {_msg}
+    replace all "cunt" with "c***" in {_msg}
+    replace all "dick" with "d***" in {_msg}
+    replace all "piss" with "p***" in {_msg}
+    replace all "fag" with "f**" in {_msg}
+    replace all "nigger" with "n***er" in {_msg}
+    replace all "sex" with "s**" in {_msg}
+    replace all "porn" with "p***" in {_msg}
+    replace all "slut" with "s***" in {_msg}
+    replace all "femboy" with "the_soulstealer4" in {_msg}
+    replace all "furry" with "the_soulstealer4" in {_msg}
+    set message to {_msg}

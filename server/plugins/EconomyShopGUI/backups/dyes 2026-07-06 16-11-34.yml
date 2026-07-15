@@ -1,0 +1,18 @@
+enable: true
+title: '        &8<---- <#FF4FCB><bold>Dyes &8---->'
+slot: 0
+hidden: true
+sub-section: true
+item:
+  displayname: '<#FF4FCB><bold>Dyes'
+  material: ROSE_BUSH
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 0 0 0 0 0 0 0 0'

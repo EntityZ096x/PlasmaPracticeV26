@@ -1,0 +1,30 @@
+# EzRTP proxy / network configuration
+#
+# Enable this on servers that should display network destinations in the GUI.
+enabled: false
+# Set to true on your lobby server to enable the server selection GUI entries.
+lobby: false
+# Interval between pings to each configured server (in ticks).
+ping-interval-ticks: 200
+# Timeout used when pinging network servers (in milliseconds).
+ping-timeout-millis: 1500
+servers:
+  skyblock:
+    # Name of the server as registered on your proxy (BungeeCord/Velocity).
+    bungee-server: "skyblock"
+    host: "127.0.0.1"
+    port: 25566
+    # Slot within the GUI (0-53).
+    slot: 4
+    permission: ""
+    display-name: "Skyblock"
+    hide-when-offline: false
+    allow-when-offline: false
+    connect-message: "<gray>Connecting you to <white><server></white>...</gray>"
+    offline-message: "<red><server></red> is currently unavailable."
+    icon:
+      material: ENDER_PEARL
+      name: "<gold><server></gold>"
+      lore:
+        - "<gray>Status: <status></gray>"
+        - "<gray>Ping: <white><ping></white>ms</gray>"

@@ -1,0 +1,259 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: GRASS_BLOCK
+        buy: 1
+        sell: 0.1
+      '2':
+        material: DIRT
+        buy: 1
+        sell: 0.1
+      '3':
+        material: STONE
+        buy: 3
+        sell: 0.3
+      '4':
+        material: GRANITE
+        buy: 3
+        sell: 0.3
+      '5':
+        material: POLISHED_GRANITE
+        buy: 3.5
+        sell: 0.35
+      '6':
+        material: DIORITE
+        buy: 3
+        sell: 0.3
+      '7':
+        material: POLISHED_DIORITE
+        buy: 3.5
+        sell: 0.35
+      '8':
+        material: ANDESITE
+        buy: 3
+        sell: 0.3
+      '9':
+        material: POLISHED_ANDESITE
+        buy: 3.5
+        sell: 0.35
+      '10':
+        material: COARSE_DIRT
+        buy: 2
+        sell: 0.2
+      '11':
+        material: PODZOL
+        buy: 2.5
+        sell: 0.25
+      '12':
+        material: COBBLESTONE
+        buy: 2
+        sell: 0.2
+      '13':
+        material: GRAVEL
+        buy: 2.5
+        sell: 0.25
+      '14':
+        material: SAND
+        buy: 2
+        sell: 0.2
+      '15':
+        material: SANDSTONE
+        buy: 6
+        sell: 0.6
+      '16':
+        material: RED_SAND
+        buy: 3
+        sell: 0.3
+      '17':
+        material: RED_SANDSTONE
+        buy: 8
+        sell: 0.8
+      '18':
+        material: MYCELIUM
+        buy: 60
+        sell: 6
+      '19':
+        material: ICE
+        buy: 5
+        sell: 0.5
+      '20':
+        material: PACKED_ICE
+        buy: 25
+        sell: 2.5
+      '21':
+        material: PRISMARINE_BRICKS
+        buy: 80
+        sell: 8
+      '22':
+        material: PRISMARINE
+        buy: 60
+        sell: 6
+      '23':
+        material: DARK_PRISMARINE
+        buy: 100
+        sell: 10
+      '24':
+        material: SEA_LANTERN
+        buy: 400
+        sell: 40
+      '25':
+        material: GLOWSTONE
+        buy: 80
+        sell: 8
+      '26':
+        material: PUMPKIN
+        buy: 10
+        sell: 1
+      '27':
+        material: JACK_O_LANTERN
+        buy: 15
+        sell: 1.5
+      '28':
+        material: SPONGE
+        buy: 500
+        sell: 50
+      '29':
+        material: WET_SPONGE
+        buy: 650
+        sell: 65
+      '30':
+        material: GLASS
+        buy: 5
+        sell: 0.5
+      '31':
+        material: GLASS_PANE
+        buy: 3
+        sell: 0.3
+      '32':
+        material: IRON_BARS
+        buy: 40
+        sell: 4
+      '33':
+        material: BRICKS
+        buy: 50
+        sell: 5
+      '34':
+        material: QUARTZ_BLOCK
+        buy: 70
+        sell: 7
+      '35':
+        material: CHISELED_QUARTZ_BLOCK
+        buy: 80
+        sell: 8
+      '36':
+        material: QUARTZ_BRICKS
+        buy: 90
+        sell: 9
+      '37':
+        material: NETHERRACK
+        buy: 2
+        sell: 0.2
+      '38':
+        material: MAGMA_BLOCK
+        buy: 2
+        sell: 0.2
+      '39':
+        material: NETHER_BRICKS
+        buy: 4
+        sell: 0.4
+      '40':
+        material: RED_NETHER_BRICKS
+        buy: 4
+        sell: 0.4
+      '41':
+        material: BASALT
+        buy: 4
+        sell: 0.4
+      '42':
+        material: CRIMSON_NYLIUM
+        buy: 2
+        sell: 0.2
+      '43':
+        material: NETHER_WART_BLOCK
+        buy: 2
+        sell: 0.2
+      '44':
+        material: WARPED_NYLIUM
+        buy: 2
+        sell: 0.2
+      '45':
+        material: WARPED_WART_BLOCK
+        buy: 2
+        sell: 0.2
+    title: Blocks
+  page2:
+    items:
+      '1':
+        material: OAK_LOG
+        buy: 4.0
+        sell: 0.5
+      '2':
+        material: SPRUCE_LOG
+        buy: 4.0
+        sell: 0.5
+      '3':
+        material: DARK_OAK_LOG
+        buy: 4.0
+        sell: 0.5
+      '4':
+        material: BIRCH_LOG
+        buy: 4.0
+        sell: 0.5
+      '5':
+        material: JUNGLE_LOG
+        buy: 4.0
+        sell: 0.5
+      '6':
+        material: ACACIA_LOG
+        buy: 4.0
+        sell: 0.5
+      '7':
+        material: CHERRY_LOG
+        buy: 4.0
+        sell: 0.5
+      '8':
+        material: CRIMSON_STEM
+        buy: 8.0
+        sell: 1.0
+      '9':
+        material: WARPED_STEM
+        buy: 8.0
+        sell: 1.0
+      '10':
+        material: OAK_PLANKS
+        buy: 1.0
+        sell: 0.1
+      '11':
+        material: SPRUCE_PLANKS
+        buy: 1.0
+        sell: 0.1
+      '12':
+        material: DARK_OAK_PLANKS
+        buy: 1.0
+        sell: 0.1
+      '13':
+        material: BIRCH_PLANKS
+        buy: 1.0
+        sell: 0.1
+      '14':
+        material: JUNGLE_PLANKS
+        buy: 1.0
+        sell: 0.1
+      '15':
+        material: ACACIA_PLANKS
+        buy: 1.0
+        sell: 0.1
+      '16':
+        material: CHERRY_PLANKS
+        buy: 1.0
+        sell: 0.1
+      '17':
+        material: CRIMSON_PLANKS
+        buy: 2.0
+        sell: 0.2
+      '18':
+        material: WARPED_PLANKS
+        buy: 2.0
+        sell: 0.2
+    title: Wood

@@ -1,0 +1,18 @@
+enable: true
+title: '     &8<---- &4&lSpawners &8---->'
+slot: 0
+hidden: true
+sub-section: true
+item:
+  displayname: "&4&lSpawners"
+  material: SPAWNER
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 0 0 0 0 0 0 0 0'

@@ -1,0 +1,33 @@
+# EzRTP unsafe location monitoring configuration
+#
+# Set monitoring.enabled: true to activate unsafe location observability.
+# All sections below are opt-in and have no effect unless monitoring.enabled is true.
+
+unsafe-location-monitoring:
+  monitoring:
+    # Master switch. Set to true to enable unsafe location tracking.
+    enabled: false
+
+  # Console alerts and file logging for high unsafe rejection rates.
+  logging:
+    # Log a warning when a notable unsafe rejection is detected.
+    warn-on-unsafe: true
+    # Print the warning to the server console when the unsafe rate exceeds the threshold.
+    log-to-console: true
+    # Append a warning line to the file below when the rate exceeds the threshold.
+    log-to-file: true
+    file-path: 'plugins/EzRTP/unsafe-locations.log'
+    # Warn when the unsafe rejection rate (unsafe / total RTPs in the window) exceeds this %.
+    warn-threshold-percent: 20.0
+
+  # Periodic metrics export to a JSON file.
+  metrics:
+    enabled: false
+    # How often to write the export file (in minutes).
+    export-interval-minutes: 5
+    export-path: 'plugins/EzRTP/unsafe-metrics.json'
+
+  # Detailed per-cause tracking.
+  causes:
+    # Track rejection counts broken down by cause (void, lava, liquid, etc.).
+    track: true

@@ -1,0 +1,10 @@
+every 1 tick:
+    loop all players:
+        if loop-player is sprinting:
+            if block at eye location of loop-player is water:
+                {client.%loop-player%} is "eagler"
+                set gliding of loop-player to true
+                push loop-player forward at speed 0.02
+
+            
+            

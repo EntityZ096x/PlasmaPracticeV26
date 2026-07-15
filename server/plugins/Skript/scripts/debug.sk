@@ -1,0 +1,7 @@
+command /whatblockisthis:
+    trigger:
+        send player's targeted block to player
+
+command /whatitemisthis:
+    trigger:
+        send player's tool to player

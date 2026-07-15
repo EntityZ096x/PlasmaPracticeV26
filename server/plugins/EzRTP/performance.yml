@@ -1,0 +1,38 @@
+# EzRTP performance monitoring configuration
+#
+# Set monitoring.enabled: true to activate performance observability.
+# All feature sections below are opt-in and have no effect unless the parent
+# monitoring.enabled flag is true.
+
+performance:
+  monitoring:
+    # Master switch. Set to true to enable performance tracking.
+    enabled: false
+
+  # Console and file warnings when an RTP operation is slow.
+  warnings:
+    # Log a warning when an RTP operation exceeds this many milliseconds.
+    slow-rtp-threshold-ms: 100
+    # Print the warning to the server console.
+    log-to-console: true
+    # Append the warning to the file below.
+    log-to-file: true
+    file-path: 'plugins/EzRTP/performance.log'
+
+  # Periodic metrics export to a JSON file.
+  metrics:
+    enabled: false
+    # How often to write the export file (in minutes).
+    export-interval-minutes: 5
+    export-path: 'plugins/EzRTP/metrics.json'
+
+  # Percentile histogram tracking for RTP response times.
+  percentiles:
+    track: true
+    # Which percentile buckets to include in the JSON export and /rtp stats performance.
+    buckets:
+      - 50
+      - 75
+      - 90
+      - 95
+      - 99

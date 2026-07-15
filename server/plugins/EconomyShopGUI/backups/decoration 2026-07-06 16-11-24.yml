@@ -1,0 +1,20 @@
+enable: true
+title: '&8<--- &9&lDecoration &8& <#FF4FCB><bold>Dyes &8--->'
+slot: 31
+item:
+  displayname: '&9&lDecoration &8& <#FF4FCB><bold>Dyes'
+  material: TUBE_CORAL
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+nav-bar:
+  mode: SELF
+  fill-item:
+    material: "GRAY_STAINED_GLASS_PANE"
+    displayname: ' '
+  items:
+    back:
+      material: ARROW
+      name: '%translations-back%'
+      action: BACK
+      slot: 9

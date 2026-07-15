@@ -1,0 +1,22 @@
+on spawn:
+    if spawn reason is not natural:
+        stop
+    loop all entities:
+        if loop-entity is not a player:
+            if loop-entity is not a item:
+                add 1 to {_e}
+    if {_e} >= 0:
+        cancel event
+
+command /fucklag:
+    trigger:
+        loop all entities:
+            loop-entity is not a player
+            loop-entity is not a villager
+            kill loop-entity
+        wait 1 tick
+        loop all entities:
+            loop-entity is not a player
+            loop-entity is not a villager
+            kill loop-entity
+        broadcast "&r&d&lClearlag &r&8»&r &aCleared all wild mobs & items."
