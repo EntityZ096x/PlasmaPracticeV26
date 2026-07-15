@@ -19,7 +19,7 @@ on damage:
         if {_axes::*} contains attacker's tool:
             add victim to {pvppractice.stunned::*}
             play sound "entity.item.break" at victim
-            wait 1 second
+            wait 5 second
             remove victim from {pvppractice.stunned::*}
     if victim's offhand item is shield:
         cancel event
@@ -27,7 +27,7 @@ on damage:
         if {_axes::*} contains attacker's tool:
             add victim to {pvppractice.stunned::*}
             play sound "entity.item.break" at victim
-            wait 1 seconds
+            wait 5 seconds
             remove victim from {pvppractice.stunned::*}
 
 
