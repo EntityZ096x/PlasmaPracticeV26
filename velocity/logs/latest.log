@@ -45,3 +45,5 @@ com.velocitypowered.api.plugin.InvalidPluginException: The plugin file EaglerXBa
 [11:44:38] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
 [11:48:35] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:37272) has connected
 [11:48:35] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[13:45:23] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:37272) has disconnected
+[13:45:23] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
