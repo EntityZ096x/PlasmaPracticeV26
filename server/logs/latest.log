@@ -551,3 +551,37 @@ java.lang.NullPointerException
 [12:43:09] [Server thread/INFO]: EntityZ096x fell from a high place
 [12:44:28] [Server thread/INFO]: EntityZ096x fell from a high place
 [12:46:12] [Server thread/INFO]: EntityZ096x fell from a high place
+[12:49:29] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[12:50:39] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[12:56:28] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[12:58:25] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x ender_chest
+[12:58:30] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x ender_pearl
+[13:04:27] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[13:05:31] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:08:04] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:10:23] [Server thread/INFO]: EntityZ096x issued server command: /hael
+[13:10:25] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[13:10:27] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:11:19] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:13:46] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[13:13:46] [Server thread/INFO]: EntityZ096x died
+[13:14:52] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:15:25] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:17:49] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:18:51] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[13:21:00] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:24:35] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[13:25:35] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:26:46] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:28:09] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:29:22] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:31:20] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:32:09] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[13:34:12] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:34:42] [Server thread/INFO]: EntityZ096x hit the ground too hard
+[13:40:40] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:41:41] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:42:12] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:43:50] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:45:23] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[13:45:23] [Server thread/INFO]: [-] EntityZ096x
