@@ -436,3 +436,118 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 [11:46:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: skript [1.8.8]
 [11:46:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: ViaVersion [2.0.0]
 [11:46:00] [Server thread/INFO]: 10 placeholder hook(s) registered!
+[11:48:39] [User Authenticator #0/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[11:48:39] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib, WorldGuard]
+[11:48:42] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[11:48:42] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.16.2->1.16.1) Unknown legacy biome: dripstone_caves
+[11:48:42] [Server thread/INFO]: [+] EntityZ096x
+[11:48:43] [Server thread/INFO]: EntityZ096x[/127.0.0.1:34010] logged in with entity id 1 at ([minecraft:overworld]2856.36686750589, 80.0, 2912.9035205001296)
+[11:48:54] [Server thread/ERROR]: Error occurred executing player action
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypes
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.init(CachedBukkitAdapter.java:36) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asItemType(CachedBukkitAdapter.java:58) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.asItemType(BukkitAdapter.java:434) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.util.BukkitItemStack.<init>(BukkitItemStack.java:20) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.IBukkitAdapter.adapt(IBukkitAdapter.java:253) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:487) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitPlayer.getItemInHand(BukkitPlayer.java:140) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.extension.platform.PlayerProxy.getItemInHand(PlayerProxy.java:79) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.LocalSession.getTool(LocalSession.java:1239) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:525) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.handleRightClick(WorldEdit.java:757) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:174) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:657) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:618) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:614) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:610) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItem(ServerGamePacketListenerImpl.java:2209) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:48) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:9) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "Server thread"]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	... 2 more
+[11:48:54] [Server thread/ERROR]: [com.fastasyncworldedit.bukkit.FaweBukkit] Persistent Brushes Failed
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.util.ItemUtil.<init>(ItemUtil.java:30) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.FaweBukkit.getItemUtil(FaweBukkit.java:126) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.util.BukkitItemStack.getNativeItem(BukkitItemStack.java:37) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.LocalSession.getTool(LocalSession.java:1247) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.LocalSession.getTool(LocalSession.java:1240) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.listener.BrushListener.onPlayerItemHoldEvent(BrushListener.java:33) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleSetCarriedItem(ServerGamePacketListenerImpl.java:2320) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket.handle(ServerboundSetCarriedItemPacket.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket.handle(ServerboundSetCarriedItemPacket.java:8) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runAllTasksAtTickStart(MinecraftServer.java:1195) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1349) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[11:52:04] [Server thread/INFO]: EntityZ096x issued server command: /dummy shield
+[11:55:46] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /PvP/
+[11:57:47] [Server thread/INFO]: EntityZ096x fell from a high place
+[12:05:43] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[12:05:43] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[12:05:48] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[12:16:35] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[12:16:42] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
+[12:33:37] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[12:34:14] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /PvP/
+[12:34:19] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/
+[12:34:38] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/
+[12:34:52] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/
+[12:35:09] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[12:35:35] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[12:36:11] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[12:36:13] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[12:39:16] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[12:40:03] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[12:40:06] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[12:40:07] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[12:40:08] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[12:40:10] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[12:40:45] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[12:40:45] [Server thread/INFO]: EntityZ096x died
+[12:41:48] [Server thread/INFO]: EntityZ096x issued server command: /kit save mace.entityz096x
+[12:42:24] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[12:43:09] [Server thread/INFO]: EntityZ096x fell from a high place
+[12:44:28] [Server thread/INFO]: EntityZ096x fell from a high place
+[12:46:12] [Server thread/INFO]: EntityZ096x fell from a high place
