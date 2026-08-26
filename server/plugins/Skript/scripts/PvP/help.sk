@@ -19,7 +19,7 @@ on damage:
         if {_axes::*} contains attacker's tool:
             add victim to {pvppractice.stunned::*}
             play sound "entity.item.break" at victim
-            wait 5 second
+            wait 1 second
             remove victim from {pvppractice.stunned::*}
     if victim's offhand item is shield:
         cancel event
@@ -27,15 +27,21 @@ on damage:
         if {_axes::*} contains attacker's tool:
             add victim to {pvppractice.stunned::*}
             play sound "entity.item.break" at victim
-            wait 5 seconds
+            wait 1 seconds
             remove victim from {pvppractice.stunned::*}
 
 
 command /dummy [<text>]:
     trigger:
-        spawn a zombie at player
+        if arg-1 does not contain "tiny":
+            if arg-1 does not contain "small":
+                spawn a adult zombie at player
+            else:
+                spawn a baby zombie at player
+        else:
+            spawn a chicken at player
         set ai of last spawned entity to false
-        set {_m} to last spawned zombie
+        set {_m} to last spawned entity
 
         set {_armor::1} to netherite helmet
         set {_armor::2} to netherite chestplate
@@ -57,4 +63,4 @@ command /dummy [<text>]:
         set {_m}'s boots to {_armor::4}
 
 on tab complete of "/dummy":
-    set tab completions for position 1 to "shield", "AI"
+    set tab completions for position 1 to "shield", "AI", "tiny"
