@@ -608,3 +608,12 @@ java.lang.NullPointerException
 [11:26:23] [Server thread/INFO]: EntityZ096x issued server command: /heal
 [11:29:41] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
 [11:29:41] [Server thread/INFO]: [-] EntityZ096x
+[12:33:30] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[12:33:30] [Server thread/INFO]: EntityZ096x[/127.0.0.1:50672] logged in with entity id 300 at ([minecraft:overworld]2821.5438660993627, 106.0, 2937.290380268053)
+[12:33:31] [Server thread/INFO]: [+] EntityZ096x
+[12:41:51] [Server thread/INFO]: EntityZ096x fell from a high place
+[12:43:18] [Server thread/INFO]: EntityZ096x issued server command: /dummmy
+[12:43:21] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[12:56:34] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:01:45] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[13:01:45] [Server thread/INFO]: [-] EntityZ096x
