@@ -1,0 +1,33 @@
+command /ohshit <player>:
+    trigger:
+        apply blindness to arg-1 for 999999 seconds
+        send title "&r&4&lHIDE" to arg-1
+        set {_t} to 30 * 20
+        while {_t} > 0:
+            send action bar "%{_t} / 20% seconds left." to arg-1
+            add -1 to {_t}
+            wait 1 tick
+        send action bar "&r&c0 seconds left." to arg-1
+        wait 1 second
+        set {_a} to 28497
+        while {_a} > 10000:
+            send action bar "it is %round({_a})% blocks away from you." to arg-1
+            add -959 to {_a}
+        while {_a} > 1000:
+            send action bar "it is %round({_a})% blocks away from you." to arg-1
+            add -99 to {_a}
+            wait 1 tick
+        while {_a} > 100:
+            send action bar "it is %round({_a})% blocks away from you." to arg-1
+            add -9 to {_a}
+            wait 1 tick
+        while {_a} > 10:
+            send action bar "it is %round({_a})% blocks away from you." to arg-1
+            add -0.9 to {_a}
+            wait 1 tick
+        while {_a} > 0:
+            send action bar "it is %round({_a})% blocks away from you." to arg-1
+            add -0.05 to {_a}
+            wait 1 tick
+        kill arg-1
+

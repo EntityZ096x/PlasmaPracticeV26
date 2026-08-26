@@ -537,3 +537,74 @@ java.lang.NullPointerException
 [09:31:42] [Server thread/INFO]: EntityZ096x issued server command: /dummy small AI
 [09:32:41] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
 [09:32:41] [Server thread/INFO]: [-] EntityZ096x
+[10:34:10] [User Authenticator #1/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[10:34:11] [Server thread/INFO]: EntityZ096x[/127.0.0.1:33672] logged in with entity id 196 at ([minecraft:overworld]2899.934889334245, 76.0, 2981.588862187859)
+[10:34:11] [Server thread/INFO]: [+] EntityZ096x
+[10:34:39] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[10:34:39] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:35:36] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[10:35:36] [Server thread/INFO]: [-] EntityZ096x
+[10:41:18] [User Authenticator #2/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[10:41:19] [Server thread/INFO]: EntityZ096x[/127.0.0.1:48464] logged in with entity id 213 at ([minecraft:overworld]2896.5467915585114, 77.0, 2988.9443841991197)
+[10:41:19] [Server thread/INFO]: [+] EntityZ096x
+[10:41:26] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[10:42:37] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[10:42:40] [Server thread/INFO]: EntityZ096x issued server command: /player
+[10:42:44] [Server thread/INFO]: EntityZ096x issued server command: /ohshit
+[10:42:47] [Server thread/INFO]: EntityZ096x issued server command: /ohshit EntityZ096x
+[10:44:32] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[10:44:33] [Server thread/INFO]: EntityZ096x issued server command: /ohshit EntityZ096x
+[10:45:03] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[10:45:04] [Server thread/INFO]: EntityZ096x issued server command: /ohshit EntityZ096x
+[10:46:06] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[10:46:06] [Server thread/INFO]: [-] EntityZ096x
+[10:53:16] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[10:53:17] [Server thread/INFO]: EntityZ096x[/127.0.0.1:56872] logged in with entity id 214 at ([minecraft:overworld]2875.3081661473752, 79.0, 2985.8954585870115)
+[10:53:17] [Server thread/INFO]: [+] EntityZ096x
+[10:53:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[10:53:30] [Server thread/INFO]: EntityZ096x issued server command: /ohshit EntityZ096x
+[10:54:11] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[10:54:12] [Server thread/INFO]: EntityZ096x issued server command: /ohshit EntityZ096x
+[10:54:54] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[10:54:55] [Server thread/INFO]: EntityZ096x issued server command: /ohshit EntityZ096x
+[10:55:28] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[10:55:30] [Server thread/INFO]: EntityZ096x issued server command: /ohshit EntityZ096x
+[10:56:41] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[10:56:41] [Server thread/INFO]: [-] EntityZ096x
+[10:59:19] [User Authenticator #4/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[10:59:20] [Server thread/INFO]: EntityZ096x[/127.0.0.1:43666] logged in with entity id 216 at ([minecraft:overworld]2780.9174995691633, 95.0, 3006.699999988079)
+[10:59:20] [Server thread/INFO]: [+] EntityZ096x
+[10:59:28] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[10:59:58] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[11:00:07] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[11:00:07] [Server thread/INFO]: EntityZ096x died
+[11:00:24] [Server thread/INFO]: EntityZ096x issued server command: /ohshit EntityZ096x
+[11:01:22] [Server thread/INFO]: EntityZ096x was killed
+[11:02:29] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[11:02:29] [Server thread/INFO]: EntityZ096x died
+[11:02:32] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[11:02:48] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[11:02:51] [Server thread/INFO]: EntityZ096x issued server command: /ohshit EntityZ096x
+[11:03:51] [Server thread/INFO]: EntityZ096x was killed
+[11:04:55] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
+[11:04:55] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[11:04:55] [Server thread/INFO]: [-] EntityZ096x
+[11:05:04] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[11:05:04] [Server thread/INFO]: EntityZ096x[/127.0.0.1:56444] logged in with entity id 231 at ([minecraft:overworld]2802.0, 76.0, 2930.0)
+[11:05:04] [Server thread/INFO]: [+] EntityZ096x
+[11:05:13] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[11:05:21] [Server thread/INFO]: EntityZ096x issued server command: /ohshit EntityZ096x
+[11:07:15] [Server thread/INFO]: EntityZ096x issued server command: /sk reload sumshit.sk
+[11:07:19] [Server thread/INFO]: EntityZ096x issued server command: /ohshit EntityZ096x
+[11:07:41] [Server thread/INFO]: EntityZ096x was killed
+[11:08:12] [Server thread/INFO]: EntityZ096x was killed
+[11:18:04] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[11:21:08] [Server thread/INFO]: EntityZ096x fell from a high place
+[11:22:51] [Server thread/INFO]: EntityZ096x fell from a high place
+[11:26:04] [Server thread/INFO]: EntityZ096x issued server command: //hrealth
+[11:26:07] [Server thread/INFO]: EntityZ096x issued server command: /health
+[11:26:09] [Server thread/INFO]: EntityZ096x issued server command: /hpo
+[11:26:11] [Server thread/INFO]: EntityZ096x issued server command: /hp
+[11:26:23] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[11:29:41] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[11:29:41] [Server thread/INFO]: [-] EntityZ096x
