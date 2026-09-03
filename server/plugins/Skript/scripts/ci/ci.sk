@@ -1,0 +1,11 @@
+command /ci <text>:
+    trigger:
+        if arg-1 is "grapplehook":
+            give player a crossbow named "&r&lGrappling Hook"
+        if arg-1 is "sniper":
+            give player a crossbow named "&r&l50 Calibre Sniper Rifle"
+        if arg-1 is "minigun":
+            give player a bow named "&r&lMinigun"
+
+on tab complete of "/ci":
+    set tab completions for position 1 to "grapplehook", "sniper", "minigun", "arrowstorm"

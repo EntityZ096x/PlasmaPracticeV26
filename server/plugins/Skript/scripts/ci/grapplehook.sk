@@ -1,0 +1,26 @@
+on projectile shoot:
+    if name of shooter's tool contains "&r&lGrappling Hook":
+        if lore of shooter's tool contains "&r&8Hooked":
+            delete lore of shooter's tool
+            cancel event
+        else:
+            set {hook.%shooter%} to last spawned arrow
+            set lore of shooter's tool to "&r&8Hooked"
+            while lore of shooter's tool contains "&r&8Hooked":
+                wait 1 tick
+            delete projectile
+
+on projectile hit:
+    if lore of shooter's tool does not contain "&r&8Hooked":
+        stop
+    set {_m} to distance between shooter and projectile
+    if {_m} > 100:
+        delete lore of shooter's tool
+        stop
+    push shooter towards projectile at a speed of 1
+    while lore of shooter's tool contains "&r&8Hooked":
+        wait 1 tick
+        add 1 to {_t}
+        push shooter towards projectile at a speed of 0.1
+    delete projectile
+
