@@ -1,0 +1,48 @@
+command /givebook <player> <text> <text>:
+    permission: skript.admincommands
+    trigger:
+        set {_enchant} to arg-2
+        replace all "_" in {_enchant} with " "
+        give arg-1 a enchanted book named "&r&e%{_enchant}%" with lore "&r&7Applies &b%{_enchant}%&7 to your %arg-3%.", "&r&aRight-Click this book while your %arg-3%" and "&r&ais in your offhand to enchant it!"
+
+
+on right click:
+    if held item is an enchanted book:
+        lore of held item contains "&r&ais in your offhand to enchant it!"
+
+        set {_lore::*} to lore of held item
+
+        # Get the item type from line 2
+        set {_item} to "%{_lore::2}%"
+        replace all "Right-Click this book while your " with "" in {_item}
+        set {_item} to uncolored {_item}
+
+        # Get the enchantment from line 1
+        set {_enchant} to "%{_lore::1}%"
+        replace all "Applies " with "" in {_enchant}
+        replace all " to your %{_item}%." with "" in {_enchant}
+        set {_enchant} to uncolored {_enchant}
+
+        set {_item} to "%{_item}%" in upper case
+        
+        if {}
+        send "ITEM: %{_item}%"
+        send "ENCHANT: %{_enchant}%"
+
+        if {_offhandlore::1} does not contain "%{_item}%":
+            {_item} is not "item"
+            send "&r&7You must be holding a &r&l%{_item}%&7 in your offhand to enchant it!" to player
+            stop
+        set {_enchant::*} to {_enchant} split at " "
+        delete {_enchant::%size of {_enchant::*}%}
+        set {_wantedench} to join {_enchant::*} with " "
+        set {_item} to "%{_item}%" in lower case
+
+        loop {_offhandlore::*}:
+            if loop-value contains {_wantedench}:
+                send "&r&7Your %{_item}% already has &r&b%{_wantedench}%&r&7!"
+                stop
+ 
+        add "&r&b%uncolored {_enchant}%" to lore of offhand item of player
+        send "&r&7&b%{_enchant}%&7 has been &aapplied&7 to your %{_item}%!" to player
+        set player's held item to air

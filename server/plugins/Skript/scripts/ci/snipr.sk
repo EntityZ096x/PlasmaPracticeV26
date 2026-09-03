@@ -1,0 +1,8 @@
+on shoot:
+    if shooter's tool's name is "&r&l50 Calibre Sniper Rifle":
+        push projectile in direction of shooter at speed 30
+
+on damage:
+    if damage cause was arrow:
+        if attacker's tool's name is "&r&l50 Calibre Sniper Rifle":
+            set damage to distance between shooter and projectile

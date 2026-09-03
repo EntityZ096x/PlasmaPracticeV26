@@ -5,3 +5,53 @@ command /whatblockisthis:
 command /whatitemisthis:
     trigger:
         send player's tool to player
+
+command /debug:
+    trigger:
+        if {debug.%player%} is not "enabled":
+            send "&c&lDebug &r&8» &rInput password in chat (type 'stop' to exit)"
+            set {debug.%player%} to "password"
+        else:
+            send "&c&lDebug &r&8» &r&aDebug has been disabled."
+            delete {debug.%player%}
+
+on chat:
+    if {debug.%player%} is "password":
+        cancel event
+        if message is "BruhGuy123wasHere":
+            set {debug.%player%} to "enabled"
+            send "&c&lDebug &r&8» &r&aDebug has been enabled."
+        else if message is "stop":
+            send "&c&lDebug &r&8» &r&aExited password input."
+            delete {debug.%player%}
+        else:
+            send "&c&lDebug &r&8» &r&cWrong password, please try again."
+
+command /debug.reload:
+    trigger:
+        if {debug.%player%} is not "enabled":
+            send "&r&4You're not allowed to use this command."
+            stop
+        execute player command "/sk reload debug.sk"
+
+command /debug.titan: 
+    trigger:
+        if {debug.%player%} is not "enabled":
+            send "&r&4You're not allowed to use this command."
+            stop
+            
+on damage:
+    wait 1 tick
+    if {debug.%attacker%} is "enabled":
+        send "&r&7All values are in &cHearts" to attacker
+        send "&r&7Raw damage:&r&c %damage%" to attacker
+        send "&r&7Final damage:&r&c %final damage%" to attacker
+        send "&r&7Health remaining:&r&c %victim's health%" to attacker
+
+        set {_totems} to amount of totem of undying in victim's inventory
+
+        if victim's offhand item is totem of undying: 
+            add amount of victim's offhand item to {_totems}
+
+        send "&r&7Totems:&r&a %{_totems}%" to attacker
+        send "&r&7Absorption:&r&6 %victim's absorption amount%" to attacker
