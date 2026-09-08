@@ -47,7 +47,8 @@ command /dummy [<text>]:
         set {_armor::2} to netherite chestplate
         set {_armor::3} to netherite leggings
         set {_armor::4} to netherite boots
-        set {_m}'s offhand item to 64 totem of undying
+        if arg-1 does not contain "nototem":
+            set {_m}'s offhand item to 64 totem of undying
         if arg-1 contains "shield":
             set {_m}'s held item to shield
         if arg-1 contains "AI":

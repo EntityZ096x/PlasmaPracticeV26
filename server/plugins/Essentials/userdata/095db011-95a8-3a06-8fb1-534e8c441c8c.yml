@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788871937293
+  login: 1788871939457
+money: '0'
+last-account-name: JustDan12
+logoutlocation:
+  world: dab86fec-c801-4130-a34a-c2cdc43fe764
+  world-name: world
+  x: 2802.699999988079
+  y: 74.0
+  z: 2929.300000011921
+  yaw: -139.65318298339844
+  pitch: 69.95179748535156
+lastlocation:
+  world: dab86fec-c801-4130-a34a-c2cdc43fe764
+  world-name: world
+  x: 2807.300000011921
+  y: 73.0
+  z: 2923.752257317725
+  yaw: 72.17498779296875
+  pitch: -72.97113800048828
