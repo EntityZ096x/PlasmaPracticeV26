@@ -27,8 +27,23 @@ on damage:
 on damage:
     if attacker's tool is mace:
         if {hax.alwaysslam.%attacker%} is "enabled":
+            if gliding of attacker is true:
+                set gliding of attacker to false
             if attacker's fall distance < 2:
                 set attacker's fall distance to 2
+            if victim's tool is a shield:
+                cancel event
+                delete {hax.alwaysslam.%attacker%}
+                set attacker's current hotbar slot to 1
+                make attacker attack victim
+                wait 1 tick
+                set attacker's current hotbar slot to 0
+                make attacker attack victim
+                wait 1 tick
+                set {hax.alwaysslam.%attacker%} to "enabled"
+            
+
+
 
 
 import:

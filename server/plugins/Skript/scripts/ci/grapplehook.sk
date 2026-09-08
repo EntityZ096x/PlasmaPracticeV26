@@ -1,14 +1,13 @@
-on projectile shoot:
-    if name of shooter's tool contains "&r&lGrappling Hook":
-        if lore of shooter's tool contains "&r&8Hooked":
-            delete lore of shooter's tool
-            cancel event
+on player ready arrow:
+    if selected bow's name is "&r&lGrappling Hook":
+        cancel event
+        if selected bow's lore contains "&r&8Hooked":
+            delete selected bow's lore
         else:
-            set {hook.%shooter%} to last spawned arrow
-            set lore of shooter's tool to "&r&8Hooked"
-            while lore of shooter's tool contains "&r&8Hooked":
+            shoot a arrow from player
+            set selected bow's lore to "&r&8Hooked"
+            while selected bow's lore contains "&r&8Hooked":
                 wait 1 tick
-            delete projectile
 
 on projectile hit:
     if lore of shooter's tool does not contain "&r&8Hooked":

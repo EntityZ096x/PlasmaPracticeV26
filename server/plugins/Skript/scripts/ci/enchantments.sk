@@ -25,7 +25,6 @@ on right click:
 
         set {_item} to "%{_item}%" in upper case
         
-        if {}
         send "ITEM: %{_item}%"
         send "ENCHANT: %{_enchant}%"
 
