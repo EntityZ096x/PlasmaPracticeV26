@@ -1,0 +1,20 @@
+on shoot:
+    # 1. Check if the shooter is your specific boss
+    if shooter is a skeleton:
+        if display name of shooter is "&8&lBedrock Skeleton": # Change to match your exact boss name
+            
+            set {_target} to target of shooter
+            if {_target} is set:
+                
+                # 3. Get exact starting point and target destination
+                set {_start} to location of projectile
+                set {_end} to location of {_target}
+                
+                push last spawned arrow towards {_target} at speed 100
+
+command /boss:
+    trigger:
+        summon a skeleton at player
+        set {_m} to last spawned skeleton
+        set {_m}'s tool to a bow named "&r&l180 Calibre Sniper Rifle"
+        set {_m}'s display name to "&8&lBedrock Skeleton" 

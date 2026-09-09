@@ -1,9 +1,9 @@
-[11:56:07] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-44bc15db-b512)...
-[11:56:07] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[11:56:09] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, Java compression, Java ciphers
-[11:56:09] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[11:56:09] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
-[11:56:11] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
+[10:25:53] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-44bc15db-b512)...
+[10:25:53] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[10:25:53] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, Java compression, Java ciphers
+[10:25:54] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[10:25:54] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[10:25:54] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
 java.lang.IllegalArgumentException: Image is not 64x64 (found 183x178)
 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:299) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
 	at com.velocitypowered.api.util.Favicon.create(Favicon.java:82) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
@@ -13,68 +13,39 @@ java.lang.IllegalArgumentException: Image is not 64x64 (found 183x178)
 	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:403) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
 	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:289) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:76) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
-[11:56:11] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[11:56:11] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/EaglerXBackendRPC.jar
-com.velocitypowered.api.plugin.InvalidPluginException: The plugin file EaglerXBackendRPC.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
-	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
-	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
-	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:101) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
-	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:433) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
-	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:304) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
-	at com.velocitypowered.proxy.Velocity.main(Velocity.java:76) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
-[11:56:12] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.0...
-[11:56:12] [main/INFO] [eaglerxserver]: (Platform: Velocity)
-[11:56:12] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
-[11:56:13] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.1.0 by lax1dude
-[11:56:13] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerweb 1.0.0 by lax1dude
-[11:56:13] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxrewind-1-5 1.0.2 by lax1dude, ayunami2000
-[11:56:13] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 4 plugins
-[11:56:13] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[11:56:13] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.0...
-[11:56:13] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
-[11:56:13] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
-[11:56:13] [EaglercraftXServer - Task Executor #1/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/PlasmaPracticeV26/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[11:56:13] [EaglercraftXServer - Task Executor #1/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[11:56:14] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Loading config files...
-[11:56:14] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexing pages, please wait...
-[11:56:14] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexed 12 pages total!
-[11:56:14] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxrewind-1-5]: EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
-[11:56:14] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0xa87bccc4, L:/[0:0:0:0:0:0:0:0]:25567] successfully (Velocity method)
-[11:56:14] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25567
-[11:56:14] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (13.17s)!
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:  Updates are available for EaglerXServer
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:  ---------------------------------------
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:    :< Active: 1.1.0
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:    :> Latest: 1.1.1
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:  https://lax1dude.net/eaglerxserver/
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:  -----------------------------------
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
-[11:56:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
-[11:59:38] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] JustDan12 (/[0:0:0:0:0:0:0:1]:60662) has connected
-[11:59:38] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has connected
-[11:59:43] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] JustDan12 (/[0:0:0:0:0:0:0:1]:60662): kicked from server mainserver: 
-[11:59:43] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has disconnected
-[11:59:43] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] JustDan12 (/[0:0:0:0:0:0:0:1]:60662) has disconnected: You were kicked from mainserver: 
-[11:59:46] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] JustDan12 (/[0:0:0:0:0:0:0:1]:45732) has connected
-[11:59:46] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has connected
-[11:59:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36066) has connected
-[11:59:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
-[12:07:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] JustDan12 (/[0:0:0:0:0:0:0:1]:45732) has disconnected
-[12:07:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has disconnected
-[12:07:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] JustDan12 (/[0:0:0:0:0:0:0:1]:37196) has connected
-[12:07:22] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has connected
-[12:09:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] JustDan12 (/[0:0:0:0:0:0:0:1]:37196) has disconnected
-[12:09:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has disconnected
-[12:17:14] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] JustDan12 (/[0:0:0:0:0:0:0:1]:51052) has connected
-[12:17:14] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has connected
-[12:52:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] JustDan12 (/[0:0:0:0:0:0:0:1]:51052) has disconnected
-[12:52:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has disconnected
-[12:52:19] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] JustDan12 (/[0:0:0:0:0:0:0:1]:52794) has connected
-[12:52:19] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has connected
+[10:25:54] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[10:25:56] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.0...
+[10:25:56] [main/INFO] [eaglerxserver]: (Platform: Velocity)
+[10:25:56] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
+[10:25:56] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.1.0 by lax1dude
+[10:25:56] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerweb 1.0.0 by lax1dude
+[10:25:56] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxrewind-1-5 1.0.2 by lax1dude, ayunami2000
+[10:25:56] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 4 plugins
+[10:25:56] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[10:25:56] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.0...
+[10:25:56] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[10:25:57] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
+[10:25:57] [EaglercraftXServer - Task Executor #1/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/PlasmaPracticeV26/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[10:25:57] [EaglercraftXServer - Task Executor #1/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[10:25:57] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Loading config files...
+[10:25:57] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexing pages, please wait...
+[10:25:57] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexed 12 pages total!
+[10:25:57] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxrewind-1-5]: EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
+[10:25:57] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0x50d08593, L:/[0:0:0:0:0:0:0:0]:25567] successfully (Velocity method)
+[10:25:57] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (5.25s)!
+[10:25:57] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25567
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]:  Updates are available for EaglerXServer
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]:  ---------------------------------------
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]:    :< Active: 1.1.0
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]:    :> Latest: 1.1.1
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]:  https://lax1dude.net/eaglerxserver/
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]:  -----------------------------------
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
+[10:25:59] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================

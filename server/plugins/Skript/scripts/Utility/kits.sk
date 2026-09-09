@@ -1,0 +1,67 @@
+on death of player:
+    make attacker execute "/kit load %{%attacker%.lastkit}%"
+    send "&r&areloaded the kit %{%attacker%.lastkit}%" to attacker
+
+on command:
+    if command is "kit":
+        if arg-1 is "load":
+            set {%player%.lastkit} to arg-2
+            send {%player%.lastkit} to player
+
+command /orbital <player> [<text>]:
+    trigger:
+        if arg-2 is "stab":
+            set {_l} to arg-1's location
+            set y-coordinate of {_l} to -64
+            loop 383 * 2 times:
+                set y-coordinate of {_l} to y-coordinate of {_l} + 0.5
+                create an explosion of force 3 at {_l}
+        if arg-2 is "nuke":
+            set {_l} to arg-1's location
+            add 50 to y-coordinate of {_l}
+
+            set {_speed} to 0
+            loop 4 times:
+                loop 75 times:
+                    summon primed tnt at {_l}
+                    set {_tnt} to last spawned entity
+                    set {_angle} to random number between 0 and 360
+                    set {_x} to cos({_angle}) * {_speed}
+                    set {_z} to sin({_angle}) * {_speed}
+                    set velocity of {_tnt} to vector({_x}, 0, {_z})
+                add 0.28 to {_speed}
+            
+command /orbitalrod <player> <text>:
+    trigger:
+        set {_m} to fishing rod named "Orbital %arg-2% shot"
+        set lore of {_m} to "%arg-2%"
+        set durability of {_m} to 0
+
+        give arg-1 {_m}
+
+on fishing line cast:
+    if lore of player's tool contains "stab":
+        set {_l} to player's targeted block's location
+        set y-coordinate of {_l} to -64
+        loop 383 * 2 times:
+            set y-coordinate of {_l} to y-coordinate of {_l} + 0.5
+            create an explosion of force 3 at {_l}
+        set player's tool to air
+    if lore of player's tool contains "nuke":
+        set player's tool to air
+        set {_l} to player's targeted block's location
+        add 50 to y-coordinate of {_l}
+
+        set {_speed} to 0
+        loop 4 times:
+            loop 75 times:
+                summon primed tnt at {_l}
+                set {_tnt} to last spawned entity
+                set {_angle} to random number between 0 and 360
+                set {_x} to cos({_angle}) * {_speed}
+                set {_z} to sin({_angle}) * {_speed}
+                set velocity of {_tnt} to vector({_x}, 0, {_z})
+            add 0.28 to {_speed}
+        
+
+           

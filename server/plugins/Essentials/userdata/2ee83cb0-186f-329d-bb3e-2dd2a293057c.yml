@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
 godmode: false
-flymode: false
+flymode: true
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -12,28 +12,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1788442033304
+  lastteleport: 1788877448571
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1788804481952
-  login: 1788868792628
+  logout: 1788942420316
+  login: 1788942300874
 money: '0.9999999999999999'
 logoutlocation:
-  world: dab86fec-c801-4130-a34a-c2cdc43fe764
+  world: b5057c91-9cd6-46c0-9f8b-8fd39125c586
   world-name: world
-  x: 2821.806905242434
-  y: 83.0
-  z: 2947.926165941605
-  yaw: 54.7479248046875
-  pitch: 12.600010871887207
+  x: 2707.387122005852
+  y: 105.18612931773362
+  z: 2892.3152631535263
+  yaw: -92.69989776611328
+  pitch: -16.949996948242188
 last-account-name: EntityZ096x
 lastlocation:
-  world: dab86fec-c801-4130-a34a-c2cdc43fe764
-  world-name: world
-  x: 2851.5510512817373
-  y: 80.0
-  z: 2913.3819227528456
-  yaw: 14.101078033447266
-  pitch: -3.449970006942749
+  world: 2c356eaa-9967-4f02-8911-e16b0c45c221
+  world-name: world_nether
+  x: 343.5
+  y: 128.0
+  z: 345.5
+  yaw: 0.0
+  pitch: 0.0
