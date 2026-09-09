@@ -1,1 +1,62 @@
-{"stats":{"minecraft:mined":{"minecraft:dead_bush":4},"minecraft:killed_by":{"minecraft:player":20,"minecraft:zombie":1},"minecraft:custom":{"minecraft:damage_blocked_by_shield":33680,"minecraft:time_since_rest":38,"minecraft:walk_one_cm":47994,"minecraft:leave_game":2,"minecraft:walk_under_water_one_cm":77,"minecraft:mob_kills":4,"minecraft:damage_taken":13293,"minecraft:play_time":27822,"minecraft:damage_dealt":4464,"minecraft:damage_absorbed":552,"minecraft:jump":264,"minecraft:time_since_death":38,"minecraft:aviate_one_cm":319269,"minecraft:damage_dealt_absorbed":447,"minecraft:drop":2,"minecraft:sprint_one_cm":19864,"minecraft:fall_one_cm":49831,"minecraft:total_world_time":27822,"minecraft:fly_one_cm":55068,"minecraft:walk_on_water_one_cm":2919,"minecraft:crouch_one_cm":1,"minecraft:sneak_time":63,"minecraft:deaths":21,"minecraft:player_kills":2},"minecraft:broken":{"minecraft:shield":1},"minecraft:killed":{"minecraft:zombie":1,"minecraft:husk":1,"minecraft:iron_golem":2},"minecraft:picked_up":{"minecraft:string":2,"minecraft:stick":1,"minecraft:poppy":5,"minecraft:arrow":1,"minecraft:iron_ingot":28,"minecraft:rotten_flesh":1},"minecraft:dropped":{"minecraft:poppy":0,"minecraft:iron_ingot":0},"minecraft:used":{"minecraft:wind_charge":43,"minecraft:shield":23,"minecraft:netherite_sword":55,"minecraft:netherite_axe":27,"minecraft:mace":25,"minecraft:firework_rocket":81,"minecraft:golden_apple":5,"minecraft:elytra":25,"minecraft:netherite_boots":1,"minecraft:splash_potion":2,"minecraft:netherite_leggings":1,"minecraft:netherite_chestplate":20,"minecraft:totem_of_undying":15,"minecraft:ender_pearl":1}},"DataVersion":4325}
+{
+  "stats": {
+    "minecraft:dropped": {
+      "minecraft:spectral_arrow": 64
+    },
+    "minecraft:mined": {
+      "minecraft:leaf_litter": 4
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 1
+    },
+    "minecraft:used": {
+      "minecraft:golden_apple": 1,
+      "minecraft:elytra": 4,
+      "minecraft:ender_chest": 1,
+      "minecraft:netherite_chestplate": 4,
+      "minecraft:netherite_sword": 4,
+      "minecraft:netherite_axe": 1,
+      "minecraft:mace": 1,
+      "minecraft:firework_rocket": 26,
+      "minecraft:fishing_rod": 6
+    },
+    "minecraft:picked_up": {
+      "minecraft:leaf_litter": 81,
+      "minecraft:dirt": 215,
+      "minecraft:oak_log": 9,
+      "minecraft:stick": 2,
+      "minecraft:cobblestone": 19,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:sandstone": 14,
+      "minecraft:oak_sapling": 3
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 122,
+      "minecraft:walk_one_cm": 8991,
+      "minecraft:leave_game": 2,
+      "minecraft:walk_under_water_one_cm": 8212,
+      "minecraft:damage_taken": 903,
+      "minecraft:damage_dealt": 50,
+      "minecraft:play_time": 14267,
+      "minecraft:jump": 102,
+      "minecraft:time_since_death": 122,
+      "minecraft:damage_dealt_absorbed": 24,
+      "minecraft:aviate_one_cm": 291441,
+      "minecraft:drop": 1,
+      "minecraft:open_enderchest": 1,
+      "minecraft:sprint_one_cm": 6189,
+      "minecraft:fall_one_cm": 13958,
+      "minecraft:swim_one_cm": 1714,
+      "minecraft:total_world_time": 14267,
+      "minecraft:fly_one_cm": 48029,
+      "minecraft:walk_on_water_one_cm": 664,
+      "minecraft:crouch_one_cm": 126,
+      "minecraft:sneak_time": 67,
+      "minecraft:deaths": 5
+    },
+    "minecraft:crafted": {
+      "minecraft:oak_planks": 16
+    }
+  },
+  "DataVersion": 4903
+}
