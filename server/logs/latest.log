@@ -218,3 +218,162 @@ java.util.NoSuchElementException: No value present
 [10:26:27] [Server thread/INFO]: [WorldGuard] Loading region data...
 [10:26:27] [Server thread/WARN]: [WorldGuard] "WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193" has registered a listener for org.bukkit.event.entity.PigZapEvent on method "public void com.sk89q.worldguard.bukkit.listener.WorldGuardEntityListener.onPigZap(org.bukkit.event.entity.PigZapEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [].
 [10:26:27] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.2.3
+[10:26:28] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[10:26:28] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
+[10:26:28] [Server thread/INFO]: [Multiverse-Portals] Version 5.2.3 (API v5.2) Enabled - By Rigby, fernferret and benwoo1110
+[10:26:28] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
+[10:26:28] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[10:26:29] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[10:26:29] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[10:26:29] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[10:26:29] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[10:26:29] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[10:26:30] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
+[10:26:30] [Server thread/INFO]: [Essentials] Using locale en
+[10:26:31] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:26:31] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:26:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[10:26:31] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[10:26:31] [Server thread/INFO]: [Skript] Enabling Skript v2.16.0-pre1
+[10:26:34] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.16.2 (you're currently running 2.16.0-pre1)
+[10:26:34] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: https://github.com/SkriptLang/Skript/releases/download/2.16.2/Skript-2.16.2.jar
+[10:26:39] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[10:26:39] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
+[10:26:39] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.5
+[10:26:40] [Server thread/INFO]: [Multiverse-NetherPortals] Version 5.0.5 (API v5.0) Enabled - By Rigby, fernferret and benwoo1110
+[10:26:40] [Server thread/INFO]: [pvp-plus] Enabling pvp-plus v1.2
+[10:26:40] [Server thread/INFO]: [pvp-plus] PvP Plugin Loaded!
+[10:26:40] [Server thread/INFO]: [ChatEx] Enabling ChatEx v3.2.2
+[10:26:40] [Server thread/INFO]: [ChatEx] Successfully hooked into: LuckPerms
+[10:26:40] [Server thread/INFO]: [ChatEx] Hooked into PlaceholderAPI
+[10:26:40] [Server thread/INFO]: [ChatEx] Server version:26.2-53-3a3d1c0 (MC: 26.2)
+[10:26:40] [Server thread/INFO]: [ChatEx] Version is later than 1.16. Loading RGB ColorCodes!
+[10:26:40] [Server thread/INFO]: [ChatEx] Thanks for using bstats, it was enabled!
+[10:26:40] [Server thread/INFO]: [ChatEx] Is now enabled!
+[10:26:40] [Server thread/INFO]: [SkBee] Enabling SkBee v3.25.1
+[10:26:42] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[10:26:42] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 26.2.build.53! Trying to find NMS support
+[10:26:42] [Server thread/INFO]: [SkBee] Failed to load NBTApi!
+[10:26:42] [Server thread/INFO]: [SkBee] NBT Elements DISABLED!
+[10:26:42] [Server thread/INFO]: [SkBee]  - Your server version [26.2] is not currently supported by the NBT-API
+[10:26:42] [Server thread/INFO]: [SkBee]  - This is not a bug!
+[10:26:42] [Server thread/INFO]: [SkBee]  - NBT elements will resume once the API is updated to work with [26.2]
+[10:26:42] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[10:26:42] [Server thread/INFO]: [SkBee] BossBar Elements disabled
+[10:26:42] [Server thread/INFO]: [SkBee] It appears another Skript addon may have registered BossBar syntax.
+[10:26:42] [Server thread/INFO]: [SkBee] To use SkBee BossBars, please remove the addon which has registered BossBars already.
+[10:26:42] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[10:26:42] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[10:26:42] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[10:26:42] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[10:26:42] [Server thread/INFO]: [SkBee] Dialog Elements successfully loaded
+[10:26:42] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[10:26:42] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[10:26:42] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[10:26:43] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[10:26:44] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[10:26:44] [Server thread/INFO]: [SkBee] Loaded SkBee (566) elements:
+[10:26:44] [Server thread/INFO]: [SkBee]  - 76 types
+[10:26:44] [Server thread/INFO]: [SkBee]  - 2 structures
+[10:26:44] [Server thread/INFO]: [SkBee]  - 69 events
+[10:26:44] [Server thread/INFO]: [SkBee]  - 59 sections
+[10:26:44] [Server thread/INFO]: [SkBee]  - 73 effects
+[10:26:44] [Server thread/INFO]: [SkBee]  - 248 expressions
+[10:26:44] [Server thread/INFO]: [SkBee]  - 28 conditions
+[10:26:44] [Server thread/INFO]: [SkBee]  - 11 properties
+[10:26:44] [Server thread/INFO]: [SkBee] Checking for update...
+[10:26:44] [Server thread/INFO]: [SkBee] Plugin is not up to date!
+[10:26:44] [Server thread/INFO]: [SkBee]  - Current version: v3.25.1
+[10:26:44] [Server thread/INFO]: [SkBee]  - Available update: v3.25.4
+[10:26:44] [Server thread/INFO]: [SkBee]  - Download at: https://modrinth.com/plugin/skbee/version/3.25.4
+[10:26:44] [Server thread/INFO]: [SkBee] Successfully enabled v3.25.1 in 3.27 seconds
+[10:26:44] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.4
+[10:26:45] [Server thread/WARN]: [Multiverse-Inventories] The following worlds for group 'LifeSteal' does not exist: lifesteal_lobby, lifesteal, lifesteal_nether, lifesteal_the_end
+[10:26:45] [Server thread/WARN]: [Multiverse-Inventories] The following worlds for group 'UHCS' does not exist: uhcsurvival
+[10:26:46] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5750 aliases in 6938ms
+[10:26:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.3.4]
+[10:26:47] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[10:26:47] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.4 (API v5.3) Enabled - By dumptruckman and benwoo1110
+[10:26:47] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.10.1
+[10:26:47] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v26_2 (26.2).
+[10:26:47] [Server thread/INFO]: [DecentHolograms] Loading default attribute values...
+[10:26:47] [Server thread/INFO]: [DecentHolograms] Loaded 23 default attribute values!
+[10:26:47] [Server thread/INFO]: [DecentHolograms] Loading displays...
+[10:26:47] [Server thread/INFO]: [DecentHolograms] Loaded 0 displays!
+[10:26:48] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 26.2.build.53! Trying to find NMS support
+[10:26:48] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(26.2.build.53-alpha) is not supported by this NBT-API Version(2.15.7) located in DecentHolograms. The NBT-API will try to work as good as it can! Some functions may not work!
+[10:26:48] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[10:26:48] [Server thread/WARN]: [DecentHolograms] NBT-API could not be loaded. Custom NBT in items may not work as expected.
+[10:26:48] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.3
+[10:26:48] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.43-SNAPSHOT (build 4211)
+[10:26:50] [Server thread/INFO]: [Citizens] Loaded 2 templates.
+[10:26:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizens [1.0.0]
+[10:26:50] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[10:26:51] [Server thread/INFO]: [spark] Starting background profiler...
+[10:26:53] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[10:26:53] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[10:26:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:26:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10:26:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:26:54] [Server thread/INFO]: Running delayed init tasks
+[10:26:54] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[10:26:54] [Craft Scheduler Thread - 8 - ChatEx/INFO]: [ChatEx] Checking for update...
+[10:26:54] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[10:26:54] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[10:26:54] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[10:26:55] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[10:26:55] [Server thread/INFO]: [Skript]     Loaded regions hook for WorldGuard. Please note that Skript's region hooks are deprecated and will be removed in a future release. For WorldGuard support, we recommend using skript-worldguard: https://github.com/SkriptLang/skript-worldguard
+[10:26:55] [Server thread/INFO]: [Skript] Loading variables...
+[10:26:55] [Craft Scheduler Thread - 8 - ChatEx/INFO]: [ChatEx] Version installed is 3.2.2
+[10:26:55] [Craft Scheduler Thread - 8 - ChatEx/INFO]: [ChatEx] Latest version found online is 3.3.0
+[10:26:55] [Craft Scheduler Thread - 8 - ChatEx/INFO]: [ChatEx] Update found! Please consider installing the latest version from https://www.spigotmc.org/resources/71041/updates
+[10:26:56] [Thread-14/INFO]: [Skript] Loaded 25716 variables so far...
+[10:26:57] [Thread-14/INFO]: [Skript] Loaded 94978 variables so far...
+[10:26:58] [Thread-14/INFO]: [Skript] Loaded 196136 variables so far...
+[10:26:59] [Thread-14/INFO]: [Skript] Loaded 388442 variables so far...
+[10:27:00] [Server thread/INFO]: [Skript] Loaded 388614 variables in 5.2 seconds
+[10:27:01] [Server thread/INFO]: [Skript] Line 2: (Utility/Center.sk)
+[10:27:01] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[10:27:01] [Server thread/INFO]:     Line: if 1 = 1:
+[10:27:01] [Server thread/INFO]:  
+[10:27:03] [Server thread/INFO]: [Skript] Line 37: (Utility/kits.sk)
+[10:27:03] [Server thread/INFO]:     the 2nd argument is already a text, so you should not put it in one (e.g. the 2nd argument instead of "%the 2nd argument%")
+[10:27:03] [Server thread/INFO]:     Line: set lore of {_m} to "%arg-2%"
+[10:27:03] [Server thread/INFO]:  
