@@ -1,85 +1,107 @@
-[06:56:19] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
-[06:56:19] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-53-main@3a3d1c0 (2026-07-06T18:15:12Z) for Minecraft 26.2
-[06:56:20] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:56:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
-[06:56:23] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[07:52:50] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
+[07:52:50] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-53-main@3a3d1c0 (2026-07-06T18:15:12Z) for Minecraft 26.2
+[07:52:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:52:51] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
+[07:52:51] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.25.1)
-[06:56:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
- - ChatEx (3.2.2), Citizens (2.0.43-SNAPSHOT (build 4211)), DecentHolograms (2.10.1), Essentials (2.22.0), FastAsyncWorldEdit (2.15.3+1704422), LuckPerms (5.5.57), Multiverse-Core (5.7.1), Multiverse-Inventories (5.3.4), Multiverse-NetherPortals (5.0.5), Multiverse-Portals (5.2.3), PlaceholderAPI (2.12.3), ProtocolLib (5.4.0), Skript (2.16.0-pre1), Vault (1.7.3-b131), ViaBackwards (5.10.0), ViaRewind (4.1.2), ViaVersion (5.10.0), WorldGuard (7.0.18-SNAPSHOT+2372-d1a3193), pvp-plus (1.2), skript-reflect (2.6.3)
-[06:56:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[06:56:36] [ServerMain/INFO]: Loaded 1585 recipes
-[06:56:36] [ServerMain/INFO]: Loaded 1688 advancements
-[06:56:36] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[06:56:36] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 494.8ms
-[06:56:37] [Server thread/INFO]: Starting minecraft server version 26.2
-[06:56:37] [Server thread/INFO]: Loading properties
-[06:56:37] [Server thread/INFO]: This server is running Paper version 26.2-53-main@3a3d1c0 (2026-07-06T18:15:12Z) (Implementing API version 26.2.build.53-alpha)
-[06:56:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[06:56:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:56:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:56:37] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[06:56:38] [Server thread/INFO]: Default game type: SURVIVAL
-[06:56:38] [Server thread/INFO]: Generating keypair
-[06:56:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:56:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[06:56:38] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[06:56:39] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 4 libraries... please wait
-[06:56:39] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/ch/ethz/globis/phtree/phtree/2.8.2/phtree-2.8.2.jar
-[06:56:39] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/joml/joml/1.10.9/joml-1.10.9.jar
-[06:56:39] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/it/unimi/dsi/fastutil/8.5.16/fastutil-8.5.16.jar
-[06:56:39] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/team/unnamed/mocha/3.0.0/mocha-3.0.0.jar
-[06:56:39] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar
-[06:56:39] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[06:56:39] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
-[06:56:39] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
-[06:56:40] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[06:56:41] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[06:56:41] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[06:56:42] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[06:56:42] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
-[06:56:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[06:56:43] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[06:56:43] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.3+1704422
-[06:56:46] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3de37f95]
-[06:56:46] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
-[06:56:46] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
-[06:56:46] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
-[06:56:46] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
-[06:56:46] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.16.0-pre1
-[06:56:46] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
-[06:56:46] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.2.3
-[06:56:46] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.10.1
-[06:56:46] [Server thread/INFO]: [pvp-plus] Loading server plugin pvp-plus v1.2
-[06:56:46] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[06:56:46] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.2.0) has not yet been tested! Proceed with caution.
-[06:56:47] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.2
-[06:56:47] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.25.1
-[06:56:47] [Server thread/INFO]: [ChatEx] Loading server plugin ChatEx v3.2.2
-[06:56:47] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.4
-[06:56:47] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.3
-[06:56:47] [Server thread/INFO]: [MVPLogging] Loading server plugin Multiverse-NetherPortals v5.0.5
-[06:56:47] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.43-SNAPSHOT (build 4211)
-[06:56:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:56:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
-[06:56:48] [Server thread/INFO]:         __    
-[06:56:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
-[06:56:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[06:56:48] [Server thread/INFO]: 
-[06:56:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[06:56:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[06:56:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[06:56:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2373ms)
-[06:56:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[06:56:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[06:56:49] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[06:56:49] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[06:56:49] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[06:56:49] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.3+1704422
-[06:56:50] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[06:56:50] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[06:56:50] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[06:56:50] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[06:56:51] [Server thread/WARN]: 
+[07:52:51] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
+ - ChatEx (3.2.2), Citizens (2.0.43-SNAPSHOT (build 4211)), DecentHolograms (2.10.1), Essentials (2.22.0), FastAsyncWorldEdit (2.15.3+1704422), LuckPerms (5.5.57), Multiverse-Core (5.7.1), Multiverse-Inventories (5.3.4), Multiverse-NetherPortals (5.0.5), Multiverse-Portals (5.2.3), PlaceholderAPI (2.12.3), ProtocolLib (5.4.0), Skript (2.16.2), Vault (1.7.3-b131), ViaBackwards (5.11.0), ViaRewind (4.1.2), ViaVersion (5.11.0), WorldGuard (7.0.18-SNAPSHOT+2372-d1a3193), pvp-plus (1.2), skript-reflect (2.6.3)
+[07:52:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:53:02] [ServerMain/INFO]: Loaded 1585 recipes
+[07:53:02] [ServerMain/INFO]: Loaded 1688 advancements
+[07:53:02] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[07:53:03] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 766.1ms
+[07:53:03] [Server thread/INFO]: Starting minecraft server version 26.2
+[07:53:03] [Server thread/INFO]: Loading properties
+[07:53:03] [Server thread/INFO]: This server is running Paper version 26.2-53-main@3a3d1c0 (2026-07-06T18:15:12Z) (Implementing API version 26.2.build.53-alpha)
+[07:53:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:53:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:53:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:53:03] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:53:04] [Server thread/INFO]: Default game type: SURVIVAL
+[07:53:04] [Server thread/INFO]: Generating keypair
+[07:53:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:53:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:53:04] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:53:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 4 libraries... please wait
+[07:53:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/ch/ethz/globis/phtree/phtree/2.8.2/phtree-2.8.2.jar
+[07:53:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/joml/joml/1.10.9/joml-1.10.9.jar
+[07:53:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/it/unimi/dsi/fastutil/8.5.16/fastutil-8.5.16.jar
+[07:53:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/team/unnamed/mocha/3.0.0/mocha-3.0.0.jar
+[07:53:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar
+[07:53:05] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[07:53:05] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[07:53:05] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[07:53:07] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:53:07] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:53:07] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[07:53:07] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
+[07:53:07] [Via-Mappingloader-2/ERROR]: [ViaVersion] Error during loading of Protocol1_9To1_8
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Invalid version: 1
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1828) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1817) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Invalid version: 1
+	at ViaVersion-5.11.0 (1).jar//com.viaversion.viaversion.api.data.MappingDataLoader.loadMappings(MappingDataLoader.java:219) ~[?:?]
+	at ViaVersion-5.11.0 (1).jar//com.viaversion.viaversion.api.data.MappingDataLoader.loadMappings(MappingDataLoader.java:197) ~[?:?]
+	at ViaVersion-5.11.0 (1).jar//com.viaversion.viaversion.api.data.MappingDataBase.loadMappings(MappingDataBase.java:163) ~[?:?]
+	at ViaVersion-5.11.0 (1).jar//com.viaversion.viaversion.api.data.MappingDataBase.loadBiMappings(MappingDataBase.java:189) ~[?:?]
+	at ViaBackwards-5.11.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappingData.loadBiMappings(BackwardsMappingData.java:107) ~[?:?]
+	at ViaVersion-5.11.0 (1).jar//com.viaversion.viaversion.api.data.MappingDataBase.loadFullMappings(MappingDataBase.java:177) ~[?:?]
+	at ViaVersion-5.11.0 (1).jar//com.viaversion.viaversion.api.data.MappingDataBase.loadFullOrBiMappings(MappingDataBase.java:167) ~[?:?]
+	at ViaVersion-5.11.0 (1).jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:95) ~[?:?]
+	at ViaVersion-5.11.0 (1).jar//com.viaversion.viaversion.api.protocol.AbstractProtocol.loadMappingData(AbstractProtocol.java:213) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825) ~[?:?]
+	... 5 more
+[07:53:08] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:53:08] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[07:53:08] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.3+1704422
+[07:53:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@10664338]
+[07:53:10] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[07:53:10] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[07:53:10] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
+[07:53:10] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[07:53:10] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.16.2
+[07:53:10] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+[07:53:10] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.2.3
+[07:53:10] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[07:53:10] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.2.0) has not yet been tested! Proceed with caution.
+[07:53:10] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.10.1
+[07:53:10] [Server thread/INFO]: [pvp-plus] Loading server plugin pvp-plus v1.2
+[07:53:10] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.2
+[07:53:10] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.25.1
+[07:53:10] [Server thread/INFO]: [ChatEx] Loading server plugin ChatEx v3.2.2
+[07:53:10] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.4
+[07:53:10] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.3
+[07:53:10] [Server thread/INFO]: [MVPLogging] Loading server plugin Multiverse-NetherPortals v5.0.5
+[07:53:10] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.43-SNAPSHOT (build 4211)
+[07:53:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:53:10] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
+[07:53:11] [Server thread/INFO]:         __    
+[07:53:11] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
+[07:53:11] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:53:11] [Server thread/INFO]: 
+[07:53:11] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:53:12] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:53:12] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:53:12] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2234ms)
+[07:53:12] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[07:53:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[07:53:13] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:53:13] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[07:53:13] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[07:53:13] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.3+1704422
+[07:53:13] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[07:53:13] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[07:53:13] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:53:13] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[07:53:14] [Server thread/WARN]: 
 **********************************************
 ** This FastAsyncWorldEdit version does not fully support your version of Bukkit.
 ** You can fix this by:
@@ -91,29 +113,29 @@
 ** and block property-related functions.
 **********************************************
 
-[06:56:51] [Server thread/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-[06:56:51] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:237)
-[06:56:51] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466)
-[06:56:51] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48)
-[06:56:51] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156)
-[06:56:51] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132)
-[06:56:51] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124)
-[06:56:51] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84)
-[06:56:51] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329)
-[06:56:51] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428)
-[06:56:51] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295)
-[06:56:51] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264)
-[06:56:51] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
-[06:56:51] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201)
-[06:56:51] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
-[06:56:51] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519)
-[06:56:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633)
-[06:56:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590)
-[06:56:51] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298)
-[06:56:51] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267)
-[06:56:51] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
-[06:56:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
-[06:56:51] [Server thread/WARN]: Failed to load the built-in legacy id registry
+[07:53:14] [Server thread/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+[07:53:14] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:237)
+[07:53:14] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466)
+[07:53:14] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48)
+[07:53:14] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156)
+[07:53:14] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132)
+[07:53:14] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124)
+[07:53:14] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84)
+[07:53:14] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329)
+[07:53:14] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428)
+[07:53:14] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295)
+[07:53:14] [Server thread/WARN]: 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264)
+[07:53:14] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
+[07:53:14] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201)
+[07:53:14] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[07:53:14] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519)
+[07:53:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633)
+[07:53:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590)
+[07:53:14] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298)
+[07:53:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267)
+[07:53:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[07:53:14] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[07:53:14] [Server thread/WARN]: Failed to load the built-in legacy id registry
 java.lang.ExceptionInInitializerError
 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
@@ -141,17 +163,17 @@ Caused by: java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException:
 Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:237) ~[?:?]
 	... 20 more
-[06:56:51] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[06:56:51] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
-[06:56:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:56:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:56:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:56:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:56:51] [Server thread/INFO]: Preparing level "world"
-[06:56:52] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] A new release for FastAsyncWorldEdit is available: 2.15.4. You are currently on 2.15.3.
+[07:53:14] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[07:53:14] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
+[07:53:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:53:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:53:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:53:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:53:14] [Server thread/INFO]: Preparing level "world"
+[07:53:14] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] A new release for FastAsyncWorldEdit is available: 2.15.4. You are currently on 2.15.3.
 Download from https://modrinth.com/plugin/fastasyncworldedit or https://hangar.papermc.io/IntellectualSites/FastAsyncWorldEdit
-[06:56:52] [Server thread/WARN]: Failed to load biomes via adapter (not present). Will load via bukkit
-[06:56:52] [Server thread/ERROR]: Could not pass event WorldInitEvent to FastAsyncWorldEdit v2.15.3+1704422
+[07:53:15] [Server thread/WARN]: Failed to load biomes via adapter (not present). Will load via bukkit
+[07:53:15] [Server thread/ERROR]: Could not pass event WorldInitEvent to FastAsyncWorldEdit v2.15.3+1704422
 java.util.NoSuchElementException: No value present
 	at java.base/java.util.Optional.get(Optional.java:143) ~[?:?]
 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupWorldData(WorldEditPlugin.java:304) ~[?:?]
@@ -169,235 +191,235 @@ java.util.NoSuchElementException: No value present
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-[06:56:52] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[06:56:52] [Server thread/INFO]: Prepared spawn area in 1 ms
-[06:56:52] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[06:56:52] [Server thread/INFO]: Prepared spawn area in 0 ms
-[06:56:52] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[06:56:52] [Server thread/INFO]: Prepared spawn area in 0 ms
-[06:56:52] [Server thread/INFO]: Done preparing level "world" (0.846s)
-[06:56:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
-[06:56:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
-[06:56:52] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
-[06:56:53] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[06:56:53] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[06:56:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[06:56:53] [Server thread/INFO]: [WorldGuard] Loading region data...
-[06:56:53] [Server thread/WARN]: [WorldGuard] "WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193" has registered a listener for org.bukkit.event.entity.PigZapEvent on method "public void com.sk89q.worldguard.bukkit.listener.WorldGuardEntityListener.onPigZap(org.bukkit.event.entity.PigZapEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [].
-[06:56:53] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
-[06:56:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.1]
-[06:56:56] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[06:56:56] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[06:56:56] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[06:56:56] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
-[06:56:56] [Server thread/INFO]: [Skript] Enabling Skript v2.16.0-pre1
-[06:56:57] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.16.2 (you're currently running 2.16.0-pre1)
-[06:56:57] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: https://github.com/SkriptLang/Skript/releases/download/2.16.2/Skript-2.16.2.jar
-[06:57:02] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[06:57:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
-[06:57:03] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[06:57:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[06:57:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[06:57:03] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
-[06:57:03] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[06:57:03] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[06:57:04] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
-[06:57:04] [Server thread/INFO]: [Essentials] Using locale en
-[06:57:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[06:57:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[06:57:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[06:57:05] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[06:57:05] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.2.3
-[06:57:05] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[06:57:05] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
-[06:57:05] [Server thread/INFO]: [Multiverse-Portals] Version 5.2.3 (API v5.2) Enabled - By Rigby, fernferret and benwoo1110
-[06:57:05] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.10.1
-[06:57:06] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v26_2 (26.2).
-[06:57:06] [Server thread/INFO]: [DecentHolograms] Loading default attribute values...
-[06:57:06] [Server thread/INFO]: [DecentHolograms] Loaded 23 default attribute values!
-[06:57:06] [Server thread/INFO]: [DecentHolograms] Loading displays...
-[06:57:06] [Server thread/INFO]: [DecentHolograms] Loaded 0 displays!
-[06:57:06] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 26.2.build.53! Trying to find NMS support
-[06:57:06] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(26.2.build.53-alpha) is not supported by this NBT-API Version(2.15.7) located in DecentHolograms. The NBT-API will try to work as good as it can! Some functions may not work!
-[06:57:06] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[06:57:06] [Server thread/WARN]: [DecentHolograms] NBT-API could not be loaded. Custom NBT in items may not work as expected.
-[06:57:06] [Server thread/INFO]: [pvp-plus] Enabling pvp-plus v1.2
-[06:57:07] [Server thread/INFO]: [pvp-plus] PvP Plugin Loaded!
-[06:57:07] [Server thread/INFO]: [SkBee] Enabling SkBee v3.25.1
-[06:57:07] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[06:57:07] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 26.2.build.53! Trying to find NMS support
-[06:57:07] [Server thread/INFO]: [SkBee] Failed to load NBTApi!
-[06:57:07] [Server thread/INFO]: [SkBee] NBT Elements DISABLED!
-[06:57:07] [Server thread/INFO]: [SkBee]  - Your server version [26.2] is not currently supported by the NBT-API
-[06:57:07] [Server thread/INFO]: [SkBee]  - This is not a bug!
-[06:57:07] [Server thread/INFO]: [SkBee]  - NBT elements will resume once the API is updated to work with [26.2]
-[06:57:07] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[06:57:07] [Server thread/INFO]: [SkBee] BossBar Elements disabled
-[06:57:07] [Server thread/INFO]: [SkBee] It appears another Skript addon may have registered BossBar syntax.
-[06:57:07] [Server thread/INFO]: [SkBee] To use SkBee BossBars, please remove the addon which has registered BossBars already.
-[06:57:07] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[06:57:07] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[06:57:07] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[06:57:07] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[06:57:07] [Server thread/INFO]: [SkBee] Dialog Elements successfully loaded
-[06:57:07] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[06:57:07] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[06:57:07] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[06:57:08] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[06:57:08] [Server thread/INFO]: [SkBee] Loaded SkBee (566) elements:
-[06:57:08] [Server thread/INFO]: [SkBee]  - 76 types
-[06:57:08] [Server thread/INFO]: [SkBee]  - 2 structures
-[06:57:08] [Server thread/INFO]: [SkBee]  - 69 events
-[06:57:08] [Server thread/INFO]: [SkBee]  - 59 sections
-[06:57:08] [Server thread/INFO]: [SkBee]  - 73 effects
-[06:57:08] [Server thread/INFO]: [SkBee]  - 248 expressions
-[06:57:08] [Server thread/INFO]: [SkBee]  - 28 conditions
-[06:57:08] [Server thread/INFO]: [SkBee]  - 11 properties
-[06:57:08] [Server thread/INFO]: [SkBee] Checking for update...
-[06:57:08] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5750 aliases in 6556ms
-[06:57:08] [Server thread/INFO]: [SkBee] Plugin is not up to date!
-[06:57:08] [Server thread/INFO]: [SkBee]  - Current version: v3.25.1
-[06:57:08] [Server thread/INFO]: [SkBee]  - Available update: v3.25.4
-[06:57:08] [Server thread/INFO]: [SkBee]  - Download at: https://modrinth.com/plugin/skbee/version/3.25.4
-[06:57:08] [Server thread/INFO]: [SkBee] Successfully enabled v3.25.1 in 1.64 seconds
-[06:57:08] [Server thread/INFO]: [ChatEx] Enabling ChatEx v3.2.2
-[06:57:08] [Server thread/INFO]: [ChatEx] Successfully hooked into: LuckPerms
-[06:57:08] [Server thread/INFO]: [ChatEx] Hooked into PlaceholderAPI
-[06:57:08] [Server thread/INFO]: [ChatEx] Server version:26.2-53-3a3d1c0 (MC: 26.2)
-[06:57:08] [Server thread/INFO]: [ChatEx] Version is later than 1.16. Loading RGB ColorCodes!
-[06:57:08] [Server thread/INFO]: [ChatEx] Thanks for using bstats, it was enabled!
-[06:57:08] [Server thread/INFO]: [ChatEx] Is now enabled!
-[06:57:08] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.4
-[06:57:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.3.4]
-[06:57:09] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[06:57:09] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.4 (API v5.3) Enabled - By dumptruckman and benwoo1110
-[06:57:09] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.3
-[06:57:10] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.5
-[06:57:10] [Server thread/INFO]: [Multiverse-NetherPortals] Version 5.0.5 (API v5.0) Enabled - By Rigby, fernferret and benwoo1110
-[06:57:10] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.43-SNAPSHOT (build 4211)
-[06:57:11] [Server thread/INFO]: [Citizens] Loaded 2 templates.
-[06:57:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizens [1.0.0]
-[06:57:11] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[06:57:13] [Server thread/INFO]: [spark] Starting background profiler...
-[06:57:15] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
-[06:57:16] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[06:57:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:57:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06:57:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06:57:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:57:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:57:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:57:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06:57:17] [Server thread/INFO]: Running delayed init tasks
-[06:57:17] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
-[06:57:17] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] Checking for update...
-[06:57:17] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[06:57:17] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
-[06:57:17] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
-[06:57:17] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
-[06:57:17] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
-[06:57:17] [Server thread/INFO]: [Skript]     Loaded regions hook for WorldGuard. Please note that Skript's region hooks are deprecated and will be removed in a future release. For WorldGuard support, we recommend using skript-worldguard: https://github.com/SkriptLang/skript-worldguard
-[06:57:17] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] Version installed is 3.2.2
-[06:57:17] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] Latest version found online is 3.3.0
-[06:57:17] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] Update found! Please consider installing the latest version from https://www.spigotmc.org/resources/71041/updates
-[06:57:18] [Server thread/INFO]: [Skript] Loading variables...
-[06:57:18] [Server thread/INFO]: [Skript] Loaded 368 variables in 0.8 seconds
-[06:57:21] [Server thread/INFO]: [Skript] Line 2: (Utility/Center.sk)
-[06:57:21] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
-[06:57:21] [Server thread/INFO]:     Line: if 1 = 1:
-[06:57:21] [Server thread/INFO]:  
-[06:57:24] [Server thread/INFO]: [Skript] Line 39: (Utility/orbitalrod.sk)
-[06:57:24] [Server thread/INFO]:     the 2nd argument is already a text, so you should not put it in one (e.g. the 2nd argument instead of "%the 2nd argument%")
-[06:57:24] [Server thread/INFO]:     Line: set lore of {_m} to "%arg-2%"
-[06:57:24] [Server thread/INFO]:  
-[06:57:25] [Server thread/INFO]: [Skript] Line 3: (HAX/lol.sk)
-[06:57:25] [Server thread/INFO]:     Unreachable code. The previous statement stops further execution.
-[06:57:25] [Server thread/INFO]:     Line: if player's chestplate is elytra:
-[06:57:25] [Server thread/INFO]:  
-[06:57:26] [Server thread/INFO]: [Skript] Line 12: (PvP/anticombatlog.sk)
-[06:57:26] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.enemy.%the attacked entity%} will be lost when the server stops.
-[06:57:26] [Server thread/INFO]:     Line: set {pvp.enemy.%victim%} to attacker
-[06:57:26] [Server thread/INFO]:  
-[06:57:26] [Server thread/INFO]: [Skript] Line 13: (PvP/anticombatlog.sk)
-[06:57:26] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.enemy.%the attacker%} will be lost when the server stops.
-[06:57:26] [Server thread/INFO]:     Line: set {pvp.enemy.%attacker%} to victim
-[06:57:26] [Server thread/INFO]:  
-[06:57:26] [Server thread/INFO]: [Skript] Line 20: (PvP/help.sk)
-[06:57:26] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvppractice.stunned::*} will be lost when the server stops.
-[06:57:26] [Server thread/INFO]:     Line: add victim to {pvppractice.stunned::*}
-[06:57:26] [Server thread/INFO]:  
-[06:57:26] [Server thread/INFO]: [Skript] Line 28: (PvP/help.sk)
-[06:57:26] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvppractice.stunned::*} will be lost when the server stops.
-[06:57:26] [Server thread/INFO]:     Line: add victim to {pvppractice.stunned::*}
-[06:57:26] [Server thread/INFO]:  
-[06:57:28] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[06:57:28] [Server thread/INFO]: [Skript] Loaded 29 scripts with a total of 104 structures in 9.62 seconds
-[06:57:28] [Server thread/INFO]: [Skript] Finished loading.
-[06:57:28] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[06:57:28] [Server thread/INFO]: [Citizens] Loaded 7 NPCs.
-[06:57:28] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.11.0, you're on: 5.10.0
-[06:57:28] [Server thread/INFO]: Done (77.233s)! For help, type "help"
-[06:57:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
-[06:57:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: world [1.2.3]
-[06:57:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
-[06:57:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
-[06:57:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[06:57:29] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
-[06:57:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: ViaVersion [2.0.0]
-[06:57:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.1.0]
-[06:57:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: skript [1.8.8]
-[06:57:29] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
-[06:57:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
-[06:57:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: servertime [3.2]
-[06:57:29] [Server thread/ERROR]: [PlaceholderAPI] Failed to create expansion instance for class io.github.tanguygab.absorptionexpansion.AbsorptionExpansion.
+[07:53:15] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[07:53:15] [Server thread/INFO]: Preparing spawn area: 100%
+[07:53:15] [Server thread/INFO]: Prepared spawn area in 5 ms
+[07:53:15] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[07:53:15] [Server thread/INFO]: Preparing spawn area: 100%
+[07:53:15] [Server thread/INFO]: Prepared spawn area in 2 ms
+[07:53:15] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[07:53:15] [Server thread/INFO]: Preparing spawn area: 100%
+[07:53:15] [Server thread/INFO]: Prepared spawn area in 4 ms
+[07:53:15] [Server thread/INFO]: Done preparing level "world" (0.960s)
+[07:53:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[07:53:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[07:53:15] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[07:53:16] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[07:53:16] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[07:53:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[07:53:16] [Server thread/INFO]: [WorldGuard] Loading region data...
+[07:53:16] [Server thread/WARN]: [WorldGuard] "WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193" has registered a listener for org.bukkit.event.entity.PigZapEvent on method "public void com.sk89q.worldguard.bukkit.listener.WorldGuardEntityListener.onPigZap(org.bukkit.event.entity.PigZapEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [].
+[07:53:17] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
+[07:53:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.1]
+[07:53:19] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[07:53:19] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[07:53:19] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[07:53:19] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[07:53:19] [Server thread/INFO]: [Skript] Enabling Skript v2.16.2
+[07:53:20] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[07:53:26] [Server thread/INFO]: [Skript] Loaded 5750 aliases in 3166ms
+[07:53:26] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[07:53:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
+[07:53:26] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[07:53:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[07:53:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[07:53:27] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[07:53:27] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
+[07:53:27] [Server thread/INFO]: [Essentials] Using locale en
+[07:53:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[07:53:28] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[07:53:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[07:53:28] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[07:53:28] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.2.3
+[07:53:28] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[07:53:28] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
+[07:53:28] [Server thread/INFO]: [Multiverse-Portals] Version 5.2.3 (API v5.2) Enabled - By Rigby, fernferret and benwoo1110
+[07:53:28] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.10.1
+[07:53:28] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v26_2 (26.2).
+[07:53:29] [Server thread/INFO]: [DecentHolograms] Loading default attribute values...
+[07:53:29] [Server thread/INFO]: [DecentHolograms] Loaded 23 default attribute values!
+[07:53:29] [Server thread/INFO]: [DecentHolograms] Loading displays...
+[07:53:29] [Server thread/INFO]: [DecentHolograms] Loaded 0 displays!
+[07:53:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 26.2.build.53! Trying to find NMS support
+[07:53:29] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(26.2.build.53-alpha) is not supported by this NBT-API Version(2.15.7) located in DecentHolograms. The NBT-API will try to work as good as it can! Some functions may not work!
+[07:53:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[07:53:29] [Server thread/WARN]: [DecentHolograms] NBT-API could not be loaded. Custom NBT in items may not work as expected.
+[07:53:29] [Server thread/INFO]: [pvp-plus] Enabling pvp-plus v1.2
+[07:53:29] [Server thread/INFO]: [pvp-plus] PvP Plugin Loaded!
+[07:53:29] [Server thread/INFO]: [SkBee] Enabling SkBee v3.25.1
+[07:53:30] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[07:53:30] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 26.2.build.53! Trying to find NMS support
+[07:53:30] [Server thread/INFO]: [SkBee] Failed to load NBTApi!
+[07:53:30] [Server thread/INFO]: [SkBee] NBT Elements DISABLED!
+[07:53:30] [Server thread/INFO]: [SkBee]  - Your server version [26.2] is not currently supported by the NBT-API
+[07:53:30] [Server thread/INFO]: [SkBee]  - This is not a bug!
+[07:53:30] [Server thread/INFO]: [SkBee]  - NBT elements will resume once the API is updated to work with [26.2]
+[07:53:30] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] BossBar Elements disabled
+[07:53:30] [Server thread/INFO]: [SkBee] It appears another Skript addon may have registered BossBar syntax.
+[07:53:30] [Server thread/INFO]: [SkBee] To use SkBee BossBars, please remove the addon which has registered BossBars already.
+[07:53:30] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[07:53:30] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[07:53:30] [Server thread/INFO]: [SkBee] Dialog Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[07:53:30] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[07:53:30] [Server thread/INFO]: [SkBee] Loaded SkBee (566) elements:
+[07:53:30] [Server thread/INFO]: [SkBee]  - 76 types
+[07:53:30] [Server thread/INFO]: [SkBee]  - 2 structures
+[07:53:30] [Server thread/INFO]: [SkBee]  - 69 events
+[07:53:30] [Server thread/INFO]: [SkBee]  - 59 sections
+[07:53:30] [Server thread/INFO]: [SkBee]  - 73 effects
+[07:53:30] [Server thread/INFO]: [SkBee]  - 248 expressions
+[07:53:30] [Server thread/INFO]: [SkBee]  - 28 conditions
+[07:53:30] [Server thread/INFO]: [SkBee]  - 11 properties
+[07:53:30] [Server thread/INFO]: [SkBee] Checking for update...
+[07:53:30] [Server thread/INFO]: [SkBee] Plugin is not up to date!
+[07:53:30] [Server thread/INFO]: [SkBee]  - Current version: v3.25.1
+[07:53:30] [Server thread/INFO]: [SkBee]  - Available update: v3.25.4
+[07:53:30] [Server thread/INFO]: [SkBee]  - Download at: https://modrinth.com/plugin/skbee/version/3.25.4
+[07:53:30] [Server thread/INFO]: [SkBee] Successfully enabled v3.25.1 in 0.94 seconds
+[07:53:30] [Server thread/INFO]: [ChatEx] Enabling ChatEx v3.2.2
+[07:53:30] [Server thread/INFO]: [ChatEx] Successfully hooked into: LuckPerms
+[07:53:30] [Server thread/INFO]: [ChatEx] Hooked into PlaceholderAPI
+[07:53:30] [Server thread/INFO]: [ChatEx] Server version:26.2-53-3a3d1c0 (MC: 26.2)
+[07:53:30] [Server thread/INFO]: [ChatEx] Version is later than 1.16. Loading RGB ColorCodes!
+[07:53:30] [Server thread/INFO]: [ChatEx] Thanks for using bstats, it was enabled!
+[07:53:30] [Server thread/INFO]: [ChatEx] Is now enabled!
+[07:53:30] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.4
+[07:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.3.4]
+[07:53:31] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[07:53:31] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.4 (API v5.3) Enabled - By dumptruckman and benwoo1110
+[07:53:31] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.3
+[07:53:32] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.5
+[07:53:32] [Server thread/INFO]: [Multiverse-NetherPortals] Version 5.0.5 (API v5.0) Enabled - By Rigby, fernferret and benwoo1110
+[07:53:32] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.43-SNAPSHOT (build 4211)
+[07:53:33] [Server thread/INFO]: [Citizens] Loaded 2 templates.
+[07:53:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizens [1.0.0]
+[07:53:33] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[07:53:34] [Server thread/INFO]: [spark] Starting background profiler...
+[07:53:34] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[07:53:34] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[07:53:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:53:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07:53:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07:53:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:53:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:53:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:53:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:53:34] [Server thread/INFO]: Running delayed init tasks
+[07:53:35] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[07:53:35] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] Checking for update...
+[07:53:35] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[07:53:35] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[07:53:35] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[07:53:35] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] Version installed is 3.2.2
+[07:53:35] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] Latest version found online is 3.3.0
+[07:53:35] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] Update found! Please consider installing the latest version from https://www.spigotmc.org/resources/71041/updates
+[07:53:35] [Server thread/INFO]: [Skript]     Loaded regions hook for WorldGuard. Please note that Skript's region hooks are deprecated and will be removed in a future release. For WorldGuard support, we recommend using skript-worldguard: https://github.com/SkriptLang/skript-worldguard
+[07:53:35] [Server thread/INFO]: [Skript] Loading variables...
+[07:53:35] [Server thread/INFO]: [Skript] Loaded 532 variables in 0.1 seconds
+[07:53:36] [Server thread/INFO]: [Skript] Line 2: (Utility/Center.sk)
+[07:53:36] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[07:53:36] [Server thread/INFO]:     Line: if 1 = 1:
+[07:53:36] [Server thread/INFO]:  
+[07:53:37] [Server thread/INFO]: [Skript] Line 41: (Utility/orbitalrod.sk)
+[07:53:37] [Server thread/INFO]:     the 2nd argument is already a text, so you should not put it in one (e.g. the 2nd argument instead of "%the 2nd argument%")
+[07:53:37] [Server thread/INFO]:     Line: set lore of {_m} to "%arg-2%"
+[07:53:37] [Server thread/INFO]:  
+[07:53:38] [Server thread/INFO]: [Skript] Line 3: (HAX/lol.sk)
+[07:53:38] [Server thread/INFO]:     Unreachable code. The previous statement stops further execution.
+[07:53:38] [Server thread/INFO]:     Line: if player's chestplate is elytra:
+[07:53:38] [Server thread/INFO]:  
+[07:53:38] [Server thread/INFO]: [Skript] Line 12: (PvP/anticombatlog.sk)
+[07:53:38] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.enemy.%the attacked entity%} will be lost when the server stops.
+[07:53:38] [Server thread/INFO]:     Line: set {pvp.enemy.%victim%} to attacker
+[07:53:38] [Server thread/INFO]:  
+[07:53:38] [Server thread/INFO]: [Skript] Line 13: (PvP/anticombatlog.sk)
+[07:53:38] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.enemy.%the attacker%} will be lost when the server stops.
+[07:53:38] [Server thread/INFO]:     Line: set {pvp.enemy.%attacker%} to victim
+[07:53:38] [Server thread/INFO]:  
+[07:53:38] [Server thread/INFO]: [Skript] Line 20: (PvP/help.sk)
+[07:53:38] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvppractice.stunned::*} will be lost when the server stops.
+[07:53:38] [Server thread/INFO]:     Line: add victim to {pvppractice.stunned::*}
+[07:53:38] [Server thread/INFO]:  
+[07:53:38] [Server thread/INFO]: [Skript] Line 28: (PvP/help.sk)
+[07:53:38] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvppractice.stunned::*} will be lost when the server stops.
+[07:53:38] [Server thread/INFO]:     Line: add victim to {pvppractice.stunned::*}
+[07:53:38] [Server thread/INFO]:  
+[07:53:40] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[07:53:40] [Server thread/INFO]: [Skript] Loaded 29 scripts with a total of 101 structures in 5.55 seconds
+[07:53:40] [Server thread/INFO]: [Skript] Finished loading.
+[07:53:40] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[07:53:41] [Server thread/INFO]: [Citizens] Loaded 7 NPCs.
+[07:53:41] [Server thread/INFO]: Done (51.659s)! For help, type "help"
+[07:53:41] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
+[07:53:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[07:53:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: world [1.2.3]
+[07:53:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[07:53:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[07:53:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[07:53:41] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
+[07:53:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: ViaVersion [2.0.0]
+[07:53:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.1.0]
+[07:53:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: skript [1.8.8]
+[07:53:41] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[07:53:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[07:53:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: servertime [3.2]
+[07:53:41] [Server thread/ERROR]: [PlaceholderAPI] Failed to create expansion instance for class io.github.tanguygab.absorptionexpansion.AbsorptionExpansion.
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
@@ -428,17 +450,33 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 	at io.github.tanguygab.absorptionexpansion.AbsorptionExpansion.<init>(AbsorptionExpansion.java:17) ~[?:?]
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
 	... 24 more
-[06:57:29] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion abilitywar due to an unknown issue.
-[06:57:29] [Server thread/INFO]: 10 placeholder hook(s) registered!
-[06:57:29] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 70 builds behind ***
-[06:57:29] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[06:58:10] [User Authenticator #0/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[06:58:10] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib, WorldGuard]
-[06:58:12] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[06:58:12] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.16.2->1.16.1) Unknown legacy biome: dripstone_caves
-[06:58:13] [Server thread/INFO]: EntityZ096x[/127.0.0.1:40508] logged in with entity id 1 at ([minecraft:overworld]2707.387122005852, 105.18612931773362, 2892.3152631535263)
-[06:58:13] [Server thread/INFO]: [+] EntityZ096x
-[06:58:15] [Server thread/ERROR]: Could not pass event PlayerItemHeldEvent to FastAsyncWorldEdit v2.15.3+1704422
+[07:53:41] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion abilitywar due to an unknown issue.
+[07:53:41] [Server thread/INFO]: 10 placeholder hook(s) registered!
+[07:53:41] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 70 builds behind ***
+[07:53:41] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[07:53:41] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
+[07:53:48] [User Authenticator #0/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:53:48] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib, WorldGuard]
+[07:53:56] [Server thread/INFO]: EntityZ096x (2ee83cb0-186f-329d-bb3e-2dd2a293057c) lost connection: Disconnected
+[07:53:59] [User Authenticator #1/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:54:02] [Netty Epoll IO #2/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[07:54:02] [Server thread/INFO]: [+] EntityZ096x
+[07:54:02] [Server thread/INFO]: EntityZ096x[/127.0.0.1:56826] logged in with entity id 4 at ([minecraft:overworld]105.5, 74.0, 519.5)
+[07:54:09] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[07:54:09] [Server thread/INFO]: EntityZ096x died
+[07:55:15] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[07:55:15] [Server thread/INFO]: EntityZ096x fell from a high place
+[07:55:18] [Server thread/INFO]: EntityZ096x issued server command: /kit
+[07:55:20] [Server thread/INFO]: EntityZ096x issued server command: /kit
+[07:55:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[07:55:29] [Server thread/WARN]: EntityZ096x moved too quickly! 7.624624235304964,1.676470876144279,6.564420598998822
+[07:55:33] [Server thread/INFO]: EntityZ096x issued server command: /kit
+[07:55:36] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[07:55:36] [Server thread/INFO]: EntityZ096x fell from a high place
+[07:55:36] [Server thread/INFO]: Kit Mace has loaded!
+[07:55:36] [Server thread/INFO]: EntityZ096x has completed the challenge [Cover Me in Debris]
+[07:55:36] [Server thread/INFO]: EntityZ096x has reached the goal [Sky's the Limit]
+[07:55:38] [Server thread/ERROR]: Could not pass event PlayerItemHeldEvent to FastAsyncWorldEdit v2.15.3+1704422
 java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypes
 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.init(CachedBukkitAdapter.java:36) ~[?:?]
 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asItemType(CachedBukkitAdapter.java:58) ~[?:?]
@@ -458,9 +496,9 @@ java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.w
 	at net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket.handle(ServerboundSetCarriedItemPacket.java:8) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.runAllTasksAtTickStart(MinecraftServer.java:1192) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1349) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
 Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "Server thread"]
@@ -483,7 +521,7 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionI
 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	... 2 more
-[06:58:15] [Server thread/ERROR]: [com.fastasyncworldedit.bukkit.FaweBukkit] Persistent Brushes Failed
+[07:55:38] [Server thread/ERROR]: [com.fastasyncworldedit.bukkit.FaweBukkit] Persistent Brushes Failed
 java.lang.NullPointerException
 	at java.base/java.util.Objects.requireNonNull(Objects.java:220) ~[?:?]
 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.util.ItemUtil.<init>(ItemUtil.java:30) ~[?:?]
@@ -491,18 +529,753 @@ java.lang.NullPointerException
 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.util.BukkitItemStack.getNativeItem(BukkitItemStack.java:37) ~[?:?]
 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.LocalSession.getTool(LocalSession.java:1247) ~[?:?]
 	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.LocalSession.getTool(LocalSession.java:1240) ~[?:?]
-	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.listener.BrushListener.onPlayerItemHoldEvent(BrushListener.java:33) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:525) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.handleRightClick(WorldEdit.java:757) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:174) ~[?:?]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleSetCarriedItem(ServerGamePacketListenerImpl.java:2320) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket.handle(ServerboundSetCarriedItemPacket.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket.handle(ServerboundSetCarriedItemPacket.java:8) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:657) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:618) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:614) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:610) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItem(ServerGamePacketListenerImpl.java:2209) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:48) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:9) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.runAllTasksAtTickStart(MinecraftServer.java:1195) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[07:55:44] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[07:56:31] [User Authenticator #2/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[07:56:31] [Server thread/INFO]: [+] Clstial
+[07:56:31] [Server thread/INFO]: Clstial[/127.0.0.1:34764] logged in with entity id 25990 at ([minecraft:overworld]110.5, 71.0, 528.5)
+[07:56:35] [Async Chat Thread - #0/INFO]: [Not Secure] Clstial » ohhh
+[07:56:37] [Server thread/INFO]: Clstial issued server command: /kit
+[07:56:39] [Server thread/INFO]: Clstial has completed the challenge [Cover Me in Debris]
+[07:56:39] [Server thread/INFO]: Clstial has reached the goal [Sky's the Limit]
+[07:56:41] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ?
+[07:56:42] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » what
+[07:56:55] [Server thread/INFO]: EntityZ096x has reached the goal [Postmortal]
+[07:56:55] [Server thread/INFO]: Clstial issued server command: /tp en
+[07:57:06] [Server thread/INFO]: EntityZ096x has completed the challenge [Over-Overkill]
+[07:57:11] [Server thread/INFO]: Clstial has made the advancement [Who Needs Rockets?]
+[07:57:14] [Server thread/INFO]: Clstial has completed the challenge [Over-Overkill]
+[07:57:48] [Async Chat Thread - #3/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » fuh u
+[07:58:30] [Async Chat Thread - #2/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » igtg
+[07:58:33] [Async Chat Thread - #3/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » go to school
+[07:58:37] [Async Chat Thread - #2/INFO]: [Not Secure] Clstial » alr
+[07:58:39] [Async Chat Thread - #3/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » haf fun
+[07:58:42] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[07:58:42] [Server thread/INFO]: EntityZ096x was killed
+[07:58:42] [Server thread/INFO]: PvP » EntityZ096x tried to escape combat!
+[07:58:42] [Server thread/INFO]: [-] EntityZ096x
+[07:58:42] [Server thread/INFO]: That player is not online!
+[07:58:50] [Server thread/INFO]: Clstial has reached the goal [Postmortal]
+[07:58:54] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast also ur a good boy
+[07:58:56] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast nigga
+[07:59:00] [Async Chat Thread - #2/INFO]: [Not Secure] Clstial » BREH
+[07:59:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast lol
+[07:59:08] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast BRUH*
+[07:59:13] [Async Chat Thread - #3/INFO]: [Not Secure] Clstial » NAH
+[07:59:16] [Async Chat Thread - #2/INFO]: [Not Secure] Clstial » GO TO SCHOOL
+[07:59:19] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast BruhBruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruh
+[07:59:22] [Server thread/INFO]: Unknown or incomplete command. See below for error
+nuh uh<--[HERE]
+[07:59:25] [Server thread/INFO]: Clstial issued server command: /boss
+[07:59:28] [Server thread/INFO]: Clstial was shot by Bedrock Skeleton using [180 Calibre Sniper Rifle]
+[07:59:28] [Server thread/INFO]: Kit Mace has loaded!
+[07:59:29] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast why boss
+[07:59:30] [Server thread/INFO]: Clstial was shot by Bedrock Skeleton using [180 Calibre Sniper Rifle]
+[07:59:30] [Server thread/INFO]: Kit Mace has loaded!
+[07:59:31] [Server thread/INFO]: Clstial was shot by Bedrock Skeleton using [180 Calibre Sniper Rifle]
+[07:59:31] [Server thread/INFO]: Kit Mace has loaded!
+[07:59:33] [Server thread/INFO]: Clstial was shot by Bedrock Skeleton using [180 Calibre Sniper Rifle]
+[07:59:33] [Server thread/INFO]: Kit Mace has loaded!
+[07:59:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast skill issue
+[07:59:35] [Async Chat Thread - #2/INFO]: [Not Secure] Clstial » AAH
+[07:59:36] [Server thread/INFO]: Clstial was shot by Bedrock Skeleton using [180 Calibre Sniper Rifle]
+[07:59:36] [Server thread/INFO]: Kit Mace has loaded!
+[07:59:37] [Server thread/INFO]: Clstial was shot by Bedrock Skeleton using [180 Calibre Sniper Rifle]
+[07:59:37] [Server thread/INFO]: Kit Mace has loaded!
+[07:59:38] [Server thread/INFO]: Named entity Skeleton['Bedrock Skeleton'/83925, uuid='fbf53c8c-f931-4eb0-8ef4-0aef7e066ef6', l='ServerLevel[world]', x=2806.90, y=75.00, z=2921.74, cpos=[175, 182], tl=252, v=true] died: Bedrock Skeleton was killed
+[07:59:38] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[07:59:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /i fucklag
+[07:59:41] [Server thread/INFO]: Error: Only in-game players can use i.
+[07:59:41] [Async Chat Thread - #3/INFO]: [Not Secure] Clstial » ty
+[07:59:47] [Async Chat Thread - #2/INFO]: [Not Secure] Clstial » how zombie
+[07:59:51] [Server thread/INFO]: Clstial issued server command: /boos
+[07:59:55] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast dont get instakilled by bedrock sniper again
+[08:00:01] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast imma head out now
+[08:00:03] [Async Chat Thread - #3/INFO]: [Not Secure] Clstial » how for zombie
+[08:00:05] [Async Chat Thread - #2/INFO]: [Not Secure] Clstial » how for zombie
+[08:00:06] [Async Chat Thread - #2/INFO]: [Not Secure] Clstial » how for zombie
+[08:00:06] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast not
+[08:00:09] [Async Chat Thread - #2/INFO]: [Not Secure] Clstial » pwease
+[08:00:10] [Async Chat Thread - #3/INFO]: [Not Secure] Clstial » pwease
+[08:00:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast i didnt code uet
+[08:00:10] [Async Chat Thread - #3/INFO]: [Not Secure] Clstial » pwease
+[08:00:13] [Async Chat Thread - #2/INFO]: [Not Secure] Clstial » PLEASE
+[08:00:16] [Async Chat Thread - #2/INFO]: [Not Secure] Clstial » HOW TO SUMON
+[08:00:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast anyway byw
+[08:00:24] [Async Chat Thread - #2/INFO]: [Not Secure] Clstial » NOOOO
+[08:00:34] [Server thread/INFO]: Clstial issued server command: /gmc
+[08:00:36] [Server thread/INFO]: Clstial issued server command: /gms
+[08:01:03] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:03] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:04] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:04] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:05] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:05] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:05] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:05] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:05] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:05] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:06] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:06] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:06] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:06] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:08] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:08] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:09] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:09] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:09] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:09] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:10] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:10] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:10] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:10] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:11] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:11] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:11] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:11] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:12] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:12] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:12] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:12] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:13] [Server thread/INFO]: Clstial issued server command: /summon zombie
+[08:01:13] [Server thread/INFO]: [Clstial: Summoned new Zombie]
+[08:01:28] [Server thread/INFO]: Clstial has made the advancement [Monster Hunter]
+[08:02:37] [Server thread/INFO]: Clstial issued server command: /boss zombie
+[08:03:05] [Async Chat Thread - #4/INFO]: [Not Secure] Clstial » BLA
+[08:03:10] [Server thread/INFO]: Clstial issued server command: /boss
+[08:03:13] [Server thread/INFO]: Clstial was shot by Bedrock Skeleton using [180 Calibre Sniper Rifle]
+[08:03:13] [Server thread/INFO]: Kit Mace has loaded!
+[08:03:14] [Server thread/INFO]: Clstial issued server command: /gmc
+[08:03:25] [Server thread/INFO]: Named entity Skeleton['Bedrock Skeleton'/147785, uuid='bd026510-6cd8-4f49-b313-a1601a403041', l='ServerLevel[world]', x=2808.81, y=81.00, z=2951.24, cpos=[175, 184], tl=303, v=true] died: Bedrock Skeleton was smashed by Clstial with [Density Mace]
+[08:05:16] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » WWE
+[08:06:05] [Server thread/ERROR]: Could not pass event EntityInteractEvent to WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypesCache
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asBlockType(CachedBukkitAdapter.java:68) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.asBlockType(BukkitAdapter.java:421) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:68) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.hasInteractBypass(EventAbstractionListener.java:1313) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onEntityInteract(EventAbstractionListener.java:624) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.event.Event.callEvent(Event.java:46) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.lambda$create$2(InteractWithDoor.java:78) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.trigger(BehaviorBuilder.java:46) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.ai.behavior.OneShot.tryStart(OneShot.java:17) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.ai.Brain.startEachNonRunningBehavior(Brain.java:419) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.ai.Brain.tick(Brain.java:388) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.npc.villager.Villager.customServerAiStep(Villager.java:266) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.npc.villager.Villager.customServerAiStep(Villager.java:260) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:846) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3731) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:527) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:217) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3437) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:405) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.entity.npc.villager.Villager.tick(Villager.java:307) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1404) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1522) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$0(ServerLevel.java:903) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:885) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1824) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1621) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1679) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1349) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
 	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1 [in thread "Server thread"]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:278) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	... 2 more
+[08:07:55] [Server thread/INFO]: Clstial issued server command: /boss
+[08:07:59] [Server thread/INFO]: Named entity Skeleton['Bedrock Skeleton'/244593, uuid='035bc650-83a0-41fc-8754-bc7327c5b01e', l='ServerLevel[world]', x=2896.33, y=79.00, z=3024.04, cpos=[181, 189], tl=80, v=true] died: Bedrock Skeleton was smashed by Clstial with [Density Mace]
+[08:08:03] [Server thread/INFO]: Clstial issued server command: /boss
+[08:08:05] [Server thread/INFO]: Named entity Skeleton['Bedrock Skeleton'/245571, uuid='7e0e9c38-2389-4a9a-b3bd-3a8c5f604552', l='ServerLevel[world]', x=2897.34, y=79.00, z=3025.60, cpos=[181, 189], tl=37, v=true] died: Bedrock Skeleton was smashed by Clstial with [Density Mace]
+[08:08:09] [Server thread/INFO]: Clstial issued server command: /boss
+[08:08:39] [Server thread/INFO]: Named entity Skeleton['Bedrock Skeleton'/246279, uuid='cc0be4b6-917d-47cb-a3c6-c725c97fa4d1', l='ServerLevel[world]', x=2891.51, y=79.00, z=3032.91, cpos=[180, 189], tl=598, v=true] died: Bedrock Skeleton was smashed by Clstial with [Density Mace]
+[08:09:07] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:07] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:20] [Async Chat Thread - #8/INFO]: [Not Secure] Clstial » btw Zilver2 is saying me to do this if you want to know
+[08:09:23] [Server thread/INFO]: Clstial issued server command: /summon tnt/gmc
+[08:09:25] [Server thread/INFO]: Clstial issued server command: /gmc
+[08:09:28] [Server thread/INFO]: Clstial issued server command: /gms
+[08:09:32] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:32] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:34] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:34] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:41] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:41] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:41] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:41] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:42] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:42] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:42] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:42] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:43] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:43] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:45] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:45] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:45] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:45] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:54] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:54] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:55] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:55] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:57] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:57] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:58] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:58] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:58] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:58] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:59] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:59] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:09:59] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:09:59] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:10:00] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:10:00] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:10:00] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:10:00] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:10:01] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:10:01] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:10:01] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:10:01] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:10:02] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:10:02] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:10:02] [Server thread/INFO]: Clstial issued server command: /summon tnt
+[08:10:02] [Server thread/INFO]: [Clstial: Summoned new Primed TNT]
+[08:10:04] [Server thread/INFO]: Clstial lost connection: Disconnected
+[08:10:04] [Server thread/INFO]: [-] Clstial
+[08:15:09] [User Authenticator #3/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[08:15:09] [Server thread/INFO]: Clstial[/127.0.0.1:59480] logged in with entity id 263640 at ([minecraft:overworld]2825.144369174127, 57.19849581775695, 3027.675744955308)
+[08:15:09] [Server thread/INFO]: [+] Clstial
+[08:15:10] [Server thread/INFO]: Clstial has made the advancement [Stone Age]
+[08:15:38] [User Authenticator #4/INFO]: UUID of player Zilver2 is d05767b2-a022-3dfc-844f-86f7ee80a31f
+[08:15:38] [Server thread/INFO]: Zilver2[/127.0.0.1:44216] logged in with entity id 269602 at ([minecraft:overworld]102.5, 72.0, 536.5)
+[08:15:39] [Server thread/INFO]: [+] Zilver2
+[08:15:42] [Server thread/INFO]: Zilver2 issued server command: /gmc
+[08:15:42] [Server thread/INFO]: [Essentials] Zilver2 was denied access to command.
+[08:15:45] [Server thread/INFO]: Clstial issued server command: /tpahere Zilver2
+[08:15:49] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[08:15:53] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:15:56] [Server thread/INFO]: Zilver2 has completed the challenge [Cover Me in Debris]
+[08:15:56] [Server thread/INFO]: Zilver2 has reached the goal [Sky's the Limit]
+[08:16:16] [Server thread/INFO]: Clstial issued server command: /give Zilver2 totem
+[08:16:23] [Server thread/INFO]: Clstial issued server command: /give Zilver2 totem
+[08:18:08] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:18:11] [Server thread/INFO]: Zilver2 has made the advancement [Ice Bucket Challenge]
+[08:18:12] [Server thread/INFO]: Zilver2 has reached the goal [Postmortal]
+[08:18:21] [Server thread/WARN]: Clstial moved wrongly!
+[08:19:13] [Async Chat Thread - #10/INFO]: [Not Secure] Zilver2 » r
+[08:19:29] [Server thread/INFO]: Clstial issued server command: /kit
+[08:19:40] [Server thread/INFO]: Clstial issued server command: /kit
+[08:19:42] [Server thread/INFO]: Zilver2 has made the advancement [Stone Age]
+[08:19:43] [Server thread/INFO]: Zilver2 issued server command: /ec
+[08:19:43] [Server thread/INFO]: [Essentials] Zilver2 was denied access to command.
+[08:19:50] [Server thread/WARN]: Clstial moved wrongly!
+[08:19:51] [Server thread/WARN]: Clstial moved wrongly!
+[08:19:52] [Server thread/WARN]: Clstial moved wrongly!
+[08:19:52] [Server thread/WARN]: Clstial moved wrongly!
+[08:20:59] [Server thread/INFO]: Clstial issued server command: /spawn
+[08:21:00] [Server thread/INFO]: Clstial issued server command: /suicide
+[08:21:00] [Server thread/INFO]: Clstial died
+[08:21:00] [Server thread/INFO]: Kit Mace has loaded!
+[08:21:06] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[08:21:43] [Server thread/WARN]: Clstial moved wrongly!
+[08:21:53] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[08:22:16] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypesCache
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asBlockType(CachedBukkitAdapter.java:68) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.asBlockType(BukkitAdapter.java:421) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:68) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.hasInteractBypass(EventAbstractionListener.java:1313) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.isBlockModifiedOnClick(EventAbstractionListener.java:1325) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:557) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:657) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:520) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2133) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1 [in thread "Server thread"]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:278) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	... 2 more
+[08:22:17] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypesCache
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asBlockType(CachedBukkitAdapter.java:68) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.asBlockType(BukkitAdapter.java:421) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:68) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.hasInteractBypass(EventAbstractionListener.java:1313) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.isBlockModifiedOnClick(EventAbstractionListener.java:1325) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:557) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:657) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:520) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2133) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1 [in thread "Server thread"]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:278) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	... 2 more
+[08:22:17] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[08:22:19] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypesCache
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asBlockType(CachedBukkitAdapter.java:68) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.asBlockType(BukkitAdapter.java:421) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:68) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.hasInteractBypass(EventAbstractionListener.java:1313) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.isBlockModifiedOnClick(EventAbstractionListener.java:1325) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:557) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:657) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:520) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2133) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1 [in thread "Server thread"]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:278) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	... 2 more
+[08:22:26] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypesCache
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asBlockType(CachedBukkitAdapter.java:68) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.asBlockType(BukkitAdapter.java:421) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:68) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.hasInteractBypass(EventAbstractionListener.java:1313) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.isBlockModifiedOnClick(EventAbstractionListener.java:1325) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:557) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:657) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:520) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2133) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1 [in thread "Server thread"]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:278) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	... 2 more
+[08:22:34] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypesCache
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asBlockType(CachedBukkitAdapter.java:68) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.asBlockType(BukkitAdapter.java:421) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:68) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.hasInteractBypass(EventAbstractionListener.java:1313) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.isBlockModifiedOnClick(EventAbstractionListener.java:1325) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:557) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:657) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:520) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2133) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1 [in thread "Server thread"]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:278) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	... 2 more
+[08:22:36] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypesCache
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asBlockType(CachedBukkitAdapter.java:68) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.asBlockType(BukkitAdapter.java:421) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:68) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.hasInteractBypass(EventAbstractionListener.java:1313) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.isBlockModifiedOnClick(EventAbstractionListener.java:1325) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:557) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:657) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:520) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2133) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1 [in thread "Server thread"]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:278) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	... 2 more
+[08:22:36] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypesCache
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asBlockType(CachedBukkitAdapter.java:68) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.asBlockType(BukkitAdapter.java:421) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:68) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.hasInteractBypass(EventAbstractionListener.java:1313) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.isBlockModifiedOnClick(EventAbstractionListener.java:1325) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:557) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:657) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:520) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2133) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1 [in thread "Server thread"]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:278) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	... 2 more
+[08:22:37] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypesCache
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asBlockType(CachedBukkitAdapter.java:68) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.asBlockType(BukkitAdapter.java:421) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:68) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.hasInteractBypass(EventAbstractionListener.java:1313) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.isBlockModifiedOnClick(EventAbstractionListener.java:1325) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:557) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:657) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:520) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2133) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1 [in thread "Server thread"]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:278) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	... 2 more
+[08:22:38] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+java.lang.NoClassDefFoundError: Could not initialize class com.sk89q.worldedit.world.block.BlockTypesCache
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.fastasyncworldedit.bukkit.adapter.CachedBukkitAdapter.asBlockType(CachedBukkitAdapter.java:68) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.BukkitAdapter.asBlockType(BukkitAdapter.java:421) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:68) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.hasInteractBypass(EventAbstractionListener.java:1313) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.isBlockModifiedOnClick(EventAbstractionListener.java:1325) ~[?:?]
+	at worldguard-bukkit-7.0.18-SNAPSHOT-dist.jar//com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:557) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:657) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:520) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2133) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1 [in thread "Server thread"]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypesCache.<clinit>(BlockTypesCache.java:278) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.init(BlockTypes.java:2466) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockTypes.<clinit>(BlockTypes.java:48) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:156) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.block.BlockState.get(BlockState.java:132) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:124) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:84) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:329) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:428) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:295) ~[?:?]
+	at FastAsyncWorldEdit-Bukkit-2.15.3.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:264) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	... 2 more
+[08:23:08] [Server thread/INFO]: Clstial issued server command: /hax
+[08:23:21] [Server thread/INFO]: Zilver2 was smashed by Clstial with [Density Mace]
+[08:23:21] [Server thread/INFO]: Kit Mace has loaded!
+[08:23:37] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:39] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:40] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:41] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:42] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:42] [Server thread/WARN]: Clstial moved wrongly!
+[08:23:43] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:45] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:45] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:46] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:49] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:49] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:50] [Server thread/INFO]: Clstial issued server command: /kit
+[08:23:50] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:56] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:23:58] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:24:20] [Server thread/INFO]: Clstial issued server command: /kit
+[08:24:25] [Server thread/INFO]: Clstial has made the advancement [Take Aim]
+[08:24:27] [Server thread/INFO]: Zilver2 was shot by Clstial using [50 Calibre Sniper Rifle]
+[08:24:27] [Server thread/INFO]: Kit Mace has loaded!
+[08:24:31] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:24:33] [Server thread/INFO]: Clstial issued server command: /kit
+[08:24:38] [Server thread/INFO]: Zilver2 was shot by Clstial using [50 Calibre Sniper Rifle]
+[08:24:38] [Server thread/INFO]: Kit Mace has loaded!
+[08:24:42] [Server thread/INFO]: Zilver2 has made the advancement [Not Today, Thank You]
+[08:25:09] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:25:23] [Server thread/INFO]: Zilver2 was shot by Clstial using [50 Calibre Sniper Rifle]
+[08:25:23] [Server thread/INFO]: Kit Mace has loaded!
+[08:25:29] [Server thread/INFO]: Clstial issued server command: /kit
+[08:25:32] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:25:40] [Server thread/INFO]: Zilver2 was smashed by Clstial with [Density Mace]
+[08:25:40] [Server thread/INFO]: Kit Mace has loaded!
+[08:25:42] [Server thread/INFO]: Zilver2 issued server command: /kiot
+[08:25:44] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:25:44] [Server thread/WARN]: Clstial moved wrongly!
+[08:26:02] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[08:26:10] [Server thread/INFO]: Clstial issued server command: /lag?
+[08:26:12] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[08:26:16] [Server thread/INFO]: Zilver2 issued server command: /kit
+[08:26:34] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[08:28:13] [Server thread/INFO]: Clstial lost connection: Disconnected
+[08:28:13] [Server thread/INFO]: [-] Clstial
+[08:28:17] [Server thread/INFO]: Zilver2 lost connection: Disconnected
+[08:28:17] [Server thread/INFO]: [-] Zilver2

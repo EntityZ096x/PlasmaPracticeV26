@@ -10,5 +10,11 @@
     "name": "EntityZ096x",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "81c70caa-9b97-31ee-9ae5-18b3ee16e1e1",
+    "name": "Clstial",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

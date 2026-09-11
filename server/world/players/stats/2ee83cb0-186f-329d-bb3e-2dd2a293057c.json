@@ -1,67 +1,34 @@
 {
   "stats": {
-    "minecraft:dropped": {
-      "minecraft:sand": 58,
-      "minecraft:shield": 1
-    },
-    "minecraft:killed": {
-      "minecraft:skeleton": 2,
-      "minecraft:parched": 11
-    },
-    "minecraft:killed_by": {
-      "minecraft:skeleton": 7,
-      "minecraft:player": 4
-    },
-    "minecraft:picked_up": {
-      "minecraft:sand": 59,
-      "minecraft:sandstone": 65,
-      "minecraft:gravel": 24,
-      "minecraft:bone": 4,
-      "minecraft:arrow": 3
-    },
-    "minecraft:used": {
-      "minecraft:sand": 1,
-      "minecraft:elytra": 46,
-      "minecraft:netherite_chestplate": 42,
-      "minecraft:enchanted_golden_apple": 13,
-      "minecraft:totem_of_undying": 12,
-      "minecraft:bow": 500,
-      "minecraft:mace": 4,
-      "minecraft:firework_rocket": 30,
-      "minecraft:fishing_rod": 5
+    "minecraft:mined": {
+      "minecraft:tall_dry_grass": 2,
+      "minecraft:short_dry_grass": 1
     },
     "minecraft:custom": {
       "minecraft:time_since_rest": 0,
-      "minecraft:leave_game": 4,
-      "minecraft:mob_kills": 14,
-      "minecraft:damage_taken": 20587,
-      "minecraft:damage_absorbed": 1570,
+      "minecraft:walk_one_cm": 10898,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 1536,
+      "minecraft:play_time": 5466,
+      "minecraft:damage_dealt": 190,
+      "minecraft:damage_absorbed": 88,
+      "minecraft:jump": 117,
       "minecraft:time_since_death": 0,
-      "minecraft:aviate_one_cm": 120610,
-      "minecraft:damage_dealt_absorbed": 715,
-      "minecraft:total_world_time": 50431,
-      "minecraft:swim_one_cm": 1587,
-      "minecraft:crouch_one_cm": 269,
-      "minecraft:deaths": 18,
-      "minecraft:player_kills": 11,
-      "minecraft:damage_resisted": 4256,
-      "minecraft:walk_one_cm": 67459,
-      "minecraft:walk_under_water_one_cm": 8044,
-      "minecraft:play_time": 50431,
-      "minecraft:damage_dealt": 494,
-      "minecraft:jump": 625,
-      "minecraft:drop": 2,
-      "minecraft:sprint_one_cm": 48893,
-      "minecraft:fall_one_cm": 207563,
-      "minecraft:fly_one_cm": 354354,
-      "minecraft:walk_on_water_one_cm": 1535,
-      "minecraft:sneak_time": 288
+      "minecraft:aviate_one_cm": 82922,
+      "minecraft:damage_dealt_absorbed": 481,
+      "minecraft:sprint_one_cm": 4947,
+      "minecraft:fall_one_cm": 62999,
+      "minecraft:total_world_time": 5466,
+      "minecraft:fly_one_cm": 72534,
+      "minecraft:deaths": 4
     },
-    "minecraft:broken": {
-      "minecraft:netherite_leggings": 1,
-      "minecraft:netherite_chestplate": 1,
-      "minecraft:netherite_helmet": 1,
-      "minecraft:netherite_boots": 1
+    "minecraft:used": {
+      "minecraft:golden_apple": 1,
+      "minecraft:elytra": 63,
+      "minecraft:netherite_chestplate": 63,
+      "minecraft:totem_of_undying": 3,
+      "minecraft:mace": 16,
+      "minecraft:firework_rocket": 44
     }
   },
   "DataVersion": 4903

@@ -369,7 +369,7 @@ databases:
 		
 		# ==== Settings that should not be changed ====
 		
-version: 2.16.0-pre1
+version: 2.16.2
 # DO NOT CHANGE THIS VALUE MANUALLY!
 # This saves for which version of Skript this configuration was written for.
 # If it does not match the version of the .jar file then the config will be updated automatically.

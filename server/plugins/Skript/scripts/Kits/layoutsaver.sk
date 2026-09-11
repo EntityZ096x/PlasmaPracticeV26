@@ -1,38 +1,49 @@
 # =========================================================
-# CLICK
+# LAYOUT CLICK
 # =========================================================
 
 on inventory click:
+
     if name of event-inventory contains "&8Edit Layout: ":
 
         # SAVE
         if event-slot is 49:
             cancel event
 
-            set {_kit} to {kiteditor::%player%::kit}
+            set {_kit} to {kitlayouteditor::%player%::kit}
 
+            if {_kit} is not set:
+                send "&cERROR: No kit is currently being edited!"
+                close player's inventory
+                stop
+
+            # Delete old layout
             delete {kitlayout::%player%::%{_kit}%::*}
 
-            # Check every editable GUI slot
+            # Save the new layout
             loop 41 times:
-                set {_item} to slot (loop-number - 1) of event-inventory
+
+                set {_destination} to loop-number
+                set {_item} to slot ({_destination} - 1) of event-inventory
 
                 if {_item} is not air:
 
-                    # Search lore for Parent Slot
                     loop lore of {_item}:
+
                         if loop-value-2 contains "&8Parent Slot:":
 
                             set {_parts::*} to split loop-value-2 at ": "
                             set {_source} to last element of {_parts::*}
 
-                            # Destination -> Original source
-                            set {kitlayout::%player%::%{_kit}%::%loop-number%} to {_source}
+                            set {kitlayout::%player%::%{_kit}%::%{_destination}%} to {_source}
 
-            delete {kiteditor::%player%::*}
-            close player's inventory
+                            stop loop
 
             send "&aYour &e%{_kit}% &akit layout has been saved!"
+
+            delete {kitlayouteditor::%player%::*}
+
+            close player's inventory
             stop
 
 
@@ -40,47 +51,37 @@ on inventory click:
         if event-slot is 53:
             cancel event
 
-            delete {kiteditor::%player%::*}
+            delete {kitlayouteditor::%player%::*}
+
             close player's inventory
 
             send "&cKit layout editing cancelled!"
             stop
 
 
-        # Prevent bottom row
+        # PREVENT INTERACTION WITH BOTTOM ROW
         if event-slot >= 41:
             cancel event
             stop
 
+        # IMPORTANT:
+        # Slots 0-40 are NOT cancelled.
+        # This allows normal dragging/moving of the kit items.
+
 
 # =========================================================
-# DRAG
+# LAYOUT DRAG
 # =========================================================
 
 on inventory drag:
+
     if name of event-inventory contains "&8Edit Layout: ":
+
+        # Only prevent dragging into the bottom row.
         loop event-slots:
+
             if loop-value >= 41:
                 cancel event
                 stop
 
-
-# =========================================================
-# CLOSE WITHOUT SAVING
-# =========================================================
-
-on inventory close:
-    if name of event-inventory contains "&8Edit Layout: ":
-        if {kiteditor::%player%::kit} is set:
-            delete {kiteditor::%player%::*}
-            send "&cKit layout editing cancelled!"
-
-on leave:
-    if {kiteditor::%player%::kit} is set:
-        delete {kiteditor::%player%::*}
-        send "&cKit layout editing cancelled!"
-
-on death:
-    if {kiteditor::%victim%::kit} is set:
-        delete {kiteditor::%victim%::*}
-        send "&cKit layout editing cancelled!" to victim
+        # Slots 0-40 are allowed.

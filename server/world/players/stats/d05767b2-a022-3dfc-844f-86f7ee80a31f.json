@@ -1,0 +1,75 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:sandstone": 26,
+      "minecraft:deepslate": 1,
+      "minecraft:sand": 2,
+      "minecraft:stone": 5
+    },
+    "minecraft:custom": {
+      "minecraft:damage_blocked_by_shield": 18216,
+      "minecraft:time_since_rest": 3144,
+      "minecraft:walk_one_cm": 37779,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 3660,
+      "minecraft:damage_taken": 16208,
+      "minecraft:play_time": 15144,
+      "minecraft:damage_dealt": 72,
+      "minecraft:damage_absorbed": 1340,
+      "minecraft:jump": 163,
+      "minecraft:time_since_death": 3144,
+      "minecraft:aviate_one_cm": 248117,
+      "minecraft:damage_dealt_absorbed": 284,
+      "minecraft:drop": 8,
+      "minecraft:sprint_one_cm": 16109,
+      "minecraft:fall_one_cm": 22483,
+      "minecraft:total_world_time": 15144,
+      "minecraft:swim_one_cm": 118,
+      "minecraft:fly_one_cm": 34871,
+      "minecraft:walk_on_water_one_cm": 352,
+      "minecraft:deaths": 5
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 5
+    },
+    "minecraft:picked_up": {
+      "minecraft:cobblestone": 1,
+      "minecraft:firework_rocket": 64,
+      "minecraft:sand": 18,
+      "minecraft:terracotta": 13,
+      "minecraft:stone": 5,
+      "minecraft:sandstone": 16,
+      "minecraft:elytra": 1,
+      "minecraft:cobbled_deepslate": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:totem_of_undying": 2,
+      "minecraft:elytra": 1,
+      "minecraft:netherite_boots": 1,
+      "minecraft:golden_carrot": 64,
+      "minecraft:netherite_helmet": 1,
+      "minecraft:shield": 1,
+      "minecraft:firework_rocket": 64
+    },
+    "minecraft:used": {
+      "minecraft:wind_charge": 6,
+      "minecraft:shield": 12,
+      "minecraft:respawn_anchor": 3,
+      "minecraft:end_crystal": 52,
+      "minecraft:diamond_sword": 5,
+      "minecraft:firework_rocket": 53,
+      "minecraft:golden_carrot": 2,
+      "minecraft:golden_apple": 4,
+      "minecraft:elytra": 10,
+      "minecraft:experience_bottle": 14,
+      "minecraft:netherite_chestplate": 6,
+      "minecraft:totem_of_undying": 24,
+      "minecraft:netherite_pickaxe": 34,
+      "minecraft:netherite_spear": 5,
+      "minecraft:ender_pearl": 24,
+      "minecraft:obsidian": 17,
+      "minecraft:fishing_rod": 2
+    }
+  },
+  "DataVersion": 4903
+}
