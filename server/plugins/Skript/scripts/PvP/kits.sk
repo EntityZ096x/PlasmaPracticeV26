@@ -4,6 +4,4 @@ on death of player:
     force victim to respawn
     wait 1 tick
     teleport victim to location at 2802, 77, 2930 in world "world"
-    execute victim command "/kit load mace"
-    if victim is "EntityZ096x":
-        execute victim command "/kit load mace.EntityZ096x"
+    execute console command "/kit load Mace %victim%"

@@ -3,8 +3,8 @@ on damage:
     victim is a player
     if attacker is victim:
         stop
-    set {pvp.time.%victim%} to 20 * 15
-    set {pvp.time.%attacker%} to 20 * 15
+    set {pvp.time.%victim%} to 1 * 15
+    set {pvp.time.%attacker%} to 1 * 15
     if {pvp.enemy.%victim%} is not attacker:
         send "&c&lPvP&r &8»&c You have been attacked by &e%attacker%&c! Do not log off!" to victim
     if {pvp.enemy.%attacker%} is not victim:
@@ -12,16 +12,16 @@ on damage:
     set {pvp.enemy.%victim%} to attacker
     set {pvp.enemy.%attacker%} to victim
 
-every tick:
+every second:
     loop all players:
         if {pvp.time.%loop-player%} is set:
             add -1 to {pvp.time.%loop-player%}
             delete {_bar::*}
             add "&r&c" to {_bar::*}
-            loop ceiling({pvp.time.%loop-player%} / 20) - 1 times:
+            loop ceiling({pvp.time.%loop-player%} / 1) - 1 times:
                 add "|" to {_bar::*}
             add "&r&c&l|&r&7" to {_bar::*}
-            loop 15 - (ceiling({pvp.time.%loop-player%} / 20) - 1) times:
+            loop 15 - (ceiling({pvp.time.%loop-player%} / 1) - 1) times:
                 add "|" to {_bar::*}
 
             set {_bar} to join {_bar::*} with ""

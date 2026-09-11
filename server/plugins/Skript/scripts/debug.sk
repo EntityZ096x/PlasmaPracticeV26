@@ -70,17 +70,3 @@ command /falldis <number>:
     trigger:
         set player's fall distance to arg-1
         send "&r&7Your fall distance has been set to %arg-1%"
-
-on resurrect attempt:
-    stop
-    if {%entity%.health} < -24:
-        cancel event
-        broadcast "&r&c%{%entity%.attacker}% &r&fpushed trough &r&c%entity%&r&f's totem! &r&c(%{%entity%.dmg}%)"
-        play sound "item.totem.use" with volume 1.0 and pitch 1.0 at entity
-        execute console command "/particle minecraft:totem_of_undying %location of entity% 0.5 0.5 0.5 0.1 100"
-
-
-on damage:
-    set {%victim%.health} to victim's health + (victim's absorption amount / 2) - final damage
-    set {%victim%.attacker} to attacker
-    set {%victim%.dmg} to final damage

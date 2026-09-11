@@ -1,0 +1,53 @@
+command /orbital <player> [<text>]:
+    trigger:
+        if "EntityZ096x", "JustDan12" does not contain player's name:
+            stop
+        Orbital(arg-1's location, arg-2, player)
+
+function Orbital(l: location, type: text, p: player):
+    if {_type} is "stab":
+        set y-coordinate of {_l} to -64
+        loop 383 * 2 times:
+            set y-coordinate of {_l} to y-coordinate of {_l} + 0.5
+            create an explosion of force 4 at {_l}
+
+    if {_type} is "nuke":
+        add 50 to y-coordinate of {_l}
+
+        set {_speed} to 0
+        loop 6 times:
+            set {_aaa} to {_speed} * 50 + 1
+            set {_angle} to 0
+            loop {_aaa} times:
+                summon primed tnt at {_l}
+                set {_tnt} to last spawned entity
+                set metadata value "orbital" of {_tnt} to true
+                set {_angle} to 360 / {_aaa}+ {_angle}
+                set {_x} to cos({_angle}) * {_speed}
+                set {_z} to sin({_angle}) * {_speed}
+                set velocity of {_tnt} to vector({_x}, 0, {_z})
+            add 0.26 to {_speed}
+    send "%{_p}% sent a %{_type}% shot at %{_l}%" to console
+    
+on explosion:
+    if metadata value "orbital" of event-entity is true:
+        create an explosion of force 10 at the event-entity
+            
+command /orbitalrod <player> <text>:
+    trigger:
+        set {_m} to fishing rod named "Orbital %arg-2% shot"
+        set lore of {_m} to "%arg-2%"
+        set durability of {_m} to 0
+
+        give arg-1 {_m}
+
+on fishing line cast:
+    if "EntityZ096x", "JustDan12" does not contain player's name:
+        stop
+
+    set {_t::*} to player's tool's lore
+    set {_t} to {_t::1}
+
+    set player's tool to air
+
+    Orbital(player's target block's location, {_t}, player)

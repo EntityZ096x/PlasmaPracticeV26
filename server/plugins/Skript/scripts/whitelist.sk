@@ -1,0 +1,6 @@
+on join:
+    set {whitelist::*} to "Zilver2", "EntityZ096x", "JustDan12","Clstial"
+    add "QuantumEcho" to {whitelist::*}
+
+    if {whitelist::*} does not contain player's name:
+        kick player
