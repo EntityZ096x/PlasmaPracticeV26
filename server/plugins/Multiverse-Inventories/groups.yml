@@ -10,18 +10,3 @@ groups:
     - world_the_end
     shares:
     - all
-  LifeSteal:
-    worlds:
-    - lifesteal_lobby
-    - lifesteal
-    - lifesteal_nether
-    - lifesteal_the_end
-    shares:
-    - all
-  UHCS:
-    worlds:
-    - uhcsurvival
-    - uhcsurvival_nether
-    - uhcsurvival_the_end
-    shares:
-    - all

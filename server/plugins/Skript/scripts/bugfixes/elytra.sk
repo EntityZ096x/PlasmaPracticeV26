@@ -1,3 +1,0 @@
-on jump:
-    if player is not on the ground:
-        send "l"
