@@ -51,3 +51,233 @@ java.lang.IllegalArgumentException: Image is not 64x64 (found 183x178)
 [06:56:23] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
 [06:58:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36610) has connected
 [06:58:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:04:34] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:39250) has connected
+[07:04:34] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[07:10:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:39250) has disconnected
+[07:10:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[07:18:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:40012) has connected
+[07:18:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[07:23:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:40012) has disconnected
+[07:23:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[07:30:37] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:59550) has connected
+[07:30:37] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[07:33:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:59550) has disconnected: An internal error occurred in your connection.
+[07:33:11] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:59550): read timed out
+[07:33:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[07:38:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:35602) has connected
+[07:38:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[07:45:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36610): kicked from server mainserver: Server closed
+[07:45:50] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:35602): kicked from server mainserver: Server closed
+[07:45:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:45:50] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[07:45:50] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:35602) has disconnected: You were kicked from mainserver: Server closed
+[07:45:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36610) has disconnected: You were kicked from mainserver: Server closed
+[07:46:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:44300) has connected
+[07:46:13] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:44300): unable to connect to server mainserver
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:360) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:761) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:738) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:608) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:469) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:307) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:489) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:444) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:206) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:177) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[07:46:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:44300) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:46:42] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:41456) has connected
+[07:46:42] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[07:46:48] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:41456) has disconnected
+[07:46:48] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[07:46:50] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:35820) has connected
+[07:46:50] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[07:46:52] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:35820) has disconnected
+[07:46:52] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[07:47:41] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42390) has connected
+[07:47:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:47:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:47:42] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42390): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:47:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42390) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:47:46] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42394) has connected
+[07:47:46] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:47:46] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:47:46] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42394): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:47:46] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42394) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:47:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42408) has connected
+[07:47:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:47:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:47:49] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42408): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:47:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42408) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:47:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:54432) has connected
+[07:47:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:47:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:47:52] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:54432): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:47:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:54432) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:47:56] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:54452) has connected
+[07:47:56] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:47:56] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:47:56] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:54452): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:47:56] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:54452) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:48:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33424) has connected
+[07:48:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:48:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:48:00] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33424): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:48:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33424) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:48:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33442) has connected
+[07:48:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:48:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:48:04] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33442): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:48:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33442) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:48:08] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33470) has connected
+[07:48:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:48:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:48:09] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33470): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:48:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33470) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:48:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:51494) has connected
+[07:48:26] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:51494): unable to connect to server mainserver
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:360) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:761) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:738) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:608) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:469) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:307) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:489) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:444) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:206) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:177) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[07:48:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:51494) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:49:19] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:58076) has connected
+[07:49:19] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[07:49:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:58076) has disconnected
+[07:49:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[07:49:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:54458) has connected
+[07:49:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[07:49:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[07:49:25] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:54458): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:49:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:54458) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:49:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34702) has connected
+[07:49:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:49:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:49:36] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34702): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:49:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34702) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:49:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:32954) has connected
+[07:49:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:49:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:49:41] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:32954): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:49:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:32954) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:49:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:32966) has connected
+[07:49:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:49:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:49:48] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:32966): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:49:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:32966) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:49:52] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:56808) has connected
+[07:49:52] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:49:52] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:49:52] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:56808): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:49:52] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:56808) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:49:59] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49048) has connected
+[07:49:59] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:49:59] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:49:59] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49048): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:49:59] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49048) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:50:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49068) has connected
+[07:50:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:50:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:50:05] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49068): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:50:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49068) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:50:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:51084) has connected
+[07:50:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[07:50:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[07:50:21] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:51084): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:50:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:51084) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:50:35] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:47844) has connected
+[07:50:35] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:50:35] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:50:35] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:47844): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:50:35] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:47844) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:50:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:44212) has connected
+[07:50:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[07:50:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[07:50:40] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:44212): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:50:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:44212) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:50:43] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44238) has connected
+[07:50:43] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:50:43] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:50:43] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44238): unable to connect to server mainserver
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+[07:50:43] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44238) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:53:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:45426) has connected
+[07:53:02] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:45426): unable to connect to server mainserver
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:360) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:761) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:738) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:608) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:469) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:307) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:489) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:444) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:206) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:177) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[07:53:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:45426) has disconnected: Unable to connect you to mainserver. Please try again later.
+[07:53:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:51026) has connected
+[07:53:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:53:56] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:51026) has disconnected
+[07:53:56] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[07:53:58] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33490) has connected
+[07:53:59] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[07:56:31] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:38466) has connected
+[07:56:31] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[07:58:42] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33490) has disconnected
+[07:58:42] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[08:10:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:38466) has disconnected
+[08:10:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[08:15:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:60164) has connected
+[08:15:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has connected
+[08:15:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Zilver2 (/[0:0:0:0:0:0:0:1]:38384) has connected
+[08:15:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Zilver2 -> mainserver has connected
+[08:28:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Clstial (/[0:0:0:0:0:0:0:1]:60164) has disconnected
+[08:28:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clstial -> mainserver has disconnected
+[08:28:17] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Zilver2 (/[0:0:0:0:0:0:0:1]:38384) has disconnected
+[08:28:17] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Zilver2 -> mainserver has disconnected

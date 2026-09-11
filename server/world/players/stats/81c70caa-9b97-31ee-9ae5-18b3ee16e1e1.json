@@ -1,0 +1,68 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:tall_dry_grass": 1,
+      "minecraft:leaf_litter": 2
+    },
+    "minecraft:killed": {
+      "minecraft:zombie": 16,
+      "minecraft:skeleton": 4,
+      "minecraft:parched": 7,
+      "minecraft:cow": 1
+    },
+    "minecraft:custom": {
+      "minecraft:damage_blocked_by_shield": 1000,
+      "minecraft:time_since_rest": 8665,
+      "minecraft:walk_one_cm": 66057,
+      "minecraft:leave_game": 2,
+      "minecraft:walk_under_water_one_cm": 4089,
+      "minecraft:mob_kills": 28,
+      "minecraft:damage_taken": 6120,
+      "minecraft:play_time": 31882,
+      "minecraft:damage_dealt": 7218,
+      "minecraft:damage_absorbed": 1192,
+      "minecraft:jump": 408,
+      "minecraft:time_since_death": 8665,
+      "minecraft:aviate_one_cm": 567496,
+      "minecraft:damage_dealt_absorbed": 2748,
+      "minecraft:sprint_one_cm": 22722,
+      "minecraft:fall_one_cm": 176833,
+      "minecraft:total_world_time": 31882,
+      "minecraft:swim_one_cm": 1199,
+      "minecraft:fly_one_cm": 184955,
+      "minecraft:walk_on_water_one_cm": 2691,
+      "minecraft:crouch_one_cm": 312,
+      "minecraft:sneak_time": 316,
+      "minecraft:deaths": 8,
+      "minecraft:player_kills": 5
+    },
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 7
+    },
+    "minecraft:picked_up": {
+      "minecraft:leaf_litter": 4,
+      "minecraft:cobblestone": 23,
+      "minecraft:terracotta": 17,
+      "minecraft:deepslate": 1
+    },
+    "minecraft:used": {
+      "minecraft:wind_charge": 83,
+      "minecraft:shield": 20,
+      "minecraft:netherite_sword": 17,
+      "minecraft:cobweb": 3,
+      "minecraft:netherite_axe": 16,
+      "minecraft:mace": 112,
+      "minecraft:firework_rocket": 179,
+      "minecraft:golden_carrot": 5,
+      "minecraft:golden_apple": 17,
+      "minecraft:elytra": 175,
+      "minecraft:splash_potion": 4,
+      "minecraft:netherite_chestplate": 174,
+      "minecraft:totem_of_undying": 13,
+      "minecraft:netherite_spear": 2,
+      "minecraft:ender_pearl": 38,
+      "minecraft:bow": 92
+    }
+  },
+  "DataVersion": 4903
+}
