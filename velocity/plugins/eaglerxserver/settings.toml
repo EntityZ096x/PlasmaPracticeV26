@@ -112,7 +112,7 @@ debug_log_client_brands = false
 	max_minecraft_protocol_v5 = -1
 	# Default value is 340, sets the maximum Minecraft protocol version that
 	# EaglercraftX-based clients are allowed to connect with (340 = 1.12.2)
-	max_minecraft_protocol = 340
+	max_minecraft_protocol = 774
 	# If v5 clients should be allowed to join.
 	protocol_v5_allowed = true
 	# If v1 and v2 clients should be allowed to join.
