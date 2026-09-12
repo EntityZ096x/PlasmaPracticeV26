@@ -1,0 +1,41 @@
+on right click with firework rocket:
+    if chestplate of player is elytra:
+        if player is not on the ground:
+            if {hax.fastelytra.%player%} is "enabled":
+                set gliding of player to true
+            else if {client.%player%} is "eagler":
+                set gliding of player to true
+
+on resurrect attempt:
+    wait 1 tick
+    if player's inventory contains totem of undying:
+        if player's offhand item is air:
+            if {hax.instatotem.%player%} is "enabled":
+                remove 1 of totem of undying from player's inventory
+                set player's offhand item to totem of undying
+
+on damage:
+    if attacker's tool is mace:
+        if gliding of attacker is true:
+            if {hax.elytramace.%attacker%} is "enabled":
+                set gliding of attacker to false
+                wait 1 tick
+                set gliding of attacker to true
+
+on damage:
+    if attacker's tool is mace:
+        if {hax.alwaysslam.%attacker%} is "enabled":
+            if gliding of attacker is true:
+                set gliding of attacker to false
+            if attacker's fall distance < 2:
+                set attacker's fall distance to 2
+            if victim's tool is a shield:
+                cancel event
+                delete {hax.alwaysslam.%attacker%}
+                set attacker's current hotbar slot to 1
+                make attacker attack victim
+                wait 1 tick
+                set attacker's current hotbar slot to 0
+                make attacker attack victim
+                wait 1 tick
+                set {hax.alwaysslam.%attacker%} to "enabled"

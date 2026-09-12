@@ -1,0 +1,74 @@
+
+command /rtp:
+    trigger:
+        open chest inventory with 3 rows named "&r<#FF0000>&lRTP &r&8» &r&8Select a Dimension." to player
+
+        # Overworld
+        set slot 11 of player's current inventory to grass block named "&a&lOverworld" with lore "&7Click to randomly teleport in the Overworld."
+
+        # Nether
+        set slot 13 of player's current inventory to netherrack named "&c&lNether" with lore "&7Click to randomly teleport in the Nether."
+
+        # End
+        set slot 15 of player's current inventory to end stone named "&5&lThe End" with lore "&7Click to randomly teleport in The End."
+
+
+on inventory click:
+    if name of event-inventory is "&r<#FF0000>&lRTP &r&8» &r&8Select a Dimension.":
+        cancel event
+
+        if clicked slot is 11:
+            close player's inventory
+            rtp(player, world "Survival")
+
+        else if clicked slot is 13:
+            close player's inventory
+            rtp(player, world "Survival_nether")
+
+        else if clicked slot is 15:
+            close player's inventory
+            rtp(player, world "Survival_the_end")
+
+
+function rtp(p: player, w: world):
+    set {_s} to 5
+
+    loop 5 times:
+        send action bar "&r<#FF0000>&lRTP &r&8» &r&fRandom Teleporting in <#FF0000>%{_s}%s" to {_p}
+        wait 1 second
+        remove 1 from {_s}
+
+    send action bar "&r<#FF0000>&lRTP &r&8» &r&fTeleporting..." to {_p}
+
+    wait 1 tick
+
+    set {_unsafe::*} to lava, water, fire, soul fire, magma block, cactus, campfire, soul campfire, sweet berry bush, powder snow, pointed dripstone
+
+    loop 10 times:
+        set {_x} to random integer between -50000 and 50000
+        set {_z} to random integer between -50000 and 50000
+
+        if {_world} is world "Survival_nether":
+            set {_y} to 125
+        else:
+            set {_y} to 320
+
+        loop 320 times:
+            set {_l} to location({_x}, {_y}, {_z}, {_w})
+
+            set {_ground} to block at {_l}
+            set {_feet} to block at location({_x}, {_y} + 1, {_z}, {_w})
+            set {_head} to block at location({_x}, {_y} + 2, {_z}, {_w})
+
+            if {_ground} is not air:
+                if {_ground} is not in {_unsafe::*}:
+                    if {_feet} is air:
+                        if {_head} is air:
+                            teleport {_p} to location({_x}, {_y} + 1, {_z}, {_w})
+                            send action bar "&r<#FF0000>&lRTP &r&8» &r&fTeleported!" to {_p}
+                            stop
+
+            remove 1 from {_y}
+
+    send action bar "&r<#FF0000>&lRTP &r&8» &r&cCannot find a safe location! Please try again." to {_p}
+

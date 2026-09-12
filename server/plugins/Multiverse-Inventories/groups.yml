@@ -10,3 +10,11 @@ groups:
     - world_the_end
     shares:
     - all
+  Survival:
+    worlds:
+    - survival
+    - survival_nether
+    - survival_the_end
+    - survival_spawn
+    shares:
+    - all

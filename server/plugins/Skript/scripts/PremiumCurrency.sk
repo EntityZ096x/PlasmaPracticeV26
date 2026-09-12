@@ -1,0 +1,22 @@
+command //prec <text> <number> [<player>]:
+    permission: prec.admin
+    permission message: "<red>You don't have permission to use this command."
+    trigger:
+        set {_target} to arg-3
+        if {_target} is not set:
+            set {_target} to player
+
+        if arg-1 is "add":
+            add arg-2 to {CurrencyPremium.%{_target}'s name%}
+            set {_action} to "gained"
+        else if arg-1 is "remove":
+            remove arg-2 from {CurrencyPremium.%{_target}'s name%}
+            set {_action} to "lost"
+        else if arg-1 is "set":
+            set {CurrencyPremium.%{_target}'s name%} to arg-2
+            set {_action} to "set to"
+
+        send "<gradient:#9E00FF:#FF00B3>%{_target}% has %{_action}% %arg-2% ✦ Prisms!</gradient>" to player
+
+on tab complete of "//prec":
+    set tab completions for position 1 to "set", "remove", "add"

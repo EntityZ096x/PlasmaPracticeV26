@@ -5,7 +5,7 @@ on join:
     if {client.%player%} is "eagler":
         broadcast formatted "&r&7[&r&a+&r&7] &r<hover:show_text:'&7This is a Eaglercraft player'>&r&e%player%"
     else:
-        broadcast "&r&7[&r&c+&r&7] &r%player%"
+        broadcast "&r&7[&r&a+&r&7] &r%player%"
 
 on quit:
 	set the quit message to "&r&7[&r&c-&r&7] &r&e%player%"
