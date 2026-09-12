@@ -92,7 +92,7 @@ webview_message_ratelimit = 120
 # Eaglercraft listeners to the console, can be useful for diagnosing certain
 # connection issues. Connection issues are your problem if there's nothing printed
 # in the console with this setting enabled.
-debug_log_new_channels = false
+debug_log_new_channels = true
 # Default value is false, if the server should log IP forwarding headers to the
 # console, for verifying if IP forwarding is set up correctly.
 debug_log_real_ip_headers = false
@@ -101,7 +101,7 @@ debug_log_real_ip_headers = false
 debug_log_origin_headers = false
 # Default value is false, if the server should log client brand information to the
 # console. Can be nice for keeping track of what clients your players are using.
-debug_log_client_brands = false
+debug_log_client_brands = true
 
 # Sets the protocol versions Eaglercraft players should be allowed to join this
 # server with.

@@ -1,42 +1,45 @@
 MyAnimation1:
   change-interval: 100
   texts:
-  - '&f-&4--------------'
-  - '&c-&f-&4-------------'
-  - '&4-&c-&f-&4------------'
-  - '&4--&c-&f-&4-----------'
-  - '&4---&c-&f-&4----------'
-  - '&4----&c-&f-&4---------'
-  - '&4-----&c-&f-&4--------'
-  - '&4------&c-&f-&4-------'
-  - '&4-------&c-&f-&4------'
-  - '&4--------&c-&f-&4-----'
-  - '&4---------&c-&f-&4----'
-  - '&4----------&c-&f-&4---'
-  - '&4-----------&c-&f-&4--'
-  - '&4------------&c-&f-&4-'
-  - '&4-------------&c-&f-'
-  - '&4-------------&f-&c-'
-  - '&4------------&c-&f-&4-'
-  - '&4-----------&f-&c-&4--'
-  - '&4----------&f-&c-&4---'
-  - '&4---------&f-&c-&4----'
-  - '&4--------&f-&c-&4-----'
-  - '&4-------&f-&c-&4------'
-  - '&4------&f-&c-&4-------'
-  - '&4-----&f-&c-&4--------'
-  - '&4----&f-&c-&4---------'
-  - '&4---&f-&c-&4----------'
-  - '&4--&f-&c-&4-----------'
-  - '&4-&f-&c-&4------------'
-  - '&f-&c-&4-------------'
+  - '<#ffffff>-<#ff0000>---------------------'
+  - '<#ffcccc>-<#ffffff>-<#ff0000>--------------------'
+  - '<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-------------------'
+  - '<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-----------------'
+  - '<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>----------------'
+  - '<#ff0000>-<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>---------------'
+  - '<#ff0000>--<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>--------------'
+  - '<#ff0000>---<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-------------'
+  - '<#ff0000>----<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>------------'
+  - '<#ff0000>-----<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-----------'
+  - '<#ff0000>------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>----------'
+  - '<#ff0000>-------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>---------'
+  - '<#ff0000>--------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>--------'
+  - '<#ff0000>---------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-------'
+  - '<#ff0000>----------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>------'
+  - '<#ff0000>-----------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-----'
+  - '<#ff0000>------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>----'
+  - '<#ff0000>-------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>---'
+  - '<#ff0000>--------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>--'
+  - '<#ff0000>---------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-'
+  - '<#ff0000>----------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>'
+  - '<#ff0000>-----------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-'
+  - '<#ff0000>------------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-'
+  - '<#ff0000>-------------------<#ff0000>-<#ff3333>-<#ff6666>-'
+  - '<#ff0000>--------------------<#ff0000>-<#ff3333>-'
+  - '<#ff0000>---------------------<#ff0000>-'
+  - '<#ff0000>----------------------'
+
+
+
+
+
+ServerName:
+  change-interval: 999
+  texts:
+  - '&r&l&o<#941800>Plasma</#ff0000>&o<#A3A3A3>Network</#666666>'
 web:
   change-interval: 100
   texts:
-  - '&ePlasmaNetwork.com'
-  - '&ePlasmaNetwork.com'
-  - '&ePlasmaNetwork.com'
-  - '&ePlasmaNetwork.com'
   - '&ePlasmaNetwork.com'
   - '&ePlasmaNetwork.com'
   - '&6P&elasmaNetwork.com'
@@ -59,47 +62,46 @@ web:
   - '&ePlasmaNetwork.com'
   - '&ePlasmaNetwork.com'
   - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
 Welcome:
   change-interval: 400
   texts:
-  - '&7W_'
-  - '&7W_'
-  - '&7We_'
-  - '&7Wel_'
-  - '&7Welc_'
-  - '&7Welco_'
-  - '&7Welcom_'
-  - '&7Welcome_'
-  - '&7Welcome_'
-  - '&7Welcome_'
-  - '&7Welcome_'
-  - '&7Welcom_'
-  - '&7Welco_'
-  - '&7Welc_'
-  - '&7Wel_'
-  - '&7We_'
-  - '&7W_'
-  - '&7W_'
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
 time:
-  change-interval: 900
+  change-interval: 3000
   texts:
-  - '&7Time &c%time%'
-  - '&7> Time &c%time% &7<'
-  - '&7>> Time &c%time% &7<<'
-  - '&7>>> Time &c%time% &7<<<'
-  - '&7Date &c%date%'
-  - '&7> Date &c%date% &7<'
-  - '&7>> Date &c%date% &7<<'
-  - '&7>>> Date &c%date% &7<<<'
-ping-tps:
-  change-interval: 5000
-  texts:
-  - '&cPing: &f&n%ping%&c &cms'
-  - '&cServer TPS: &r%tps%'
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
 barcolors:
   change-interval: 1000
   texts:
-  - RED
-  - BLUE
-  - GREEN
-  - YELLOW
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

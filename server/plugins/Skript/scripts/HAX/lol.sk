@@ -1,5 +1,0 @@
-on jump:
-    stop
-    if player's chestplate is elytra:
-        set gliding of player to true
-        push player upwards
