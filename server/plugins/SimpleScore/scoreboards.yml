@@ -56,7 +56,7 @@
 default:
   titles: '&r&l&o<gradient:#941800:#ff0000>Plasma</gradient>&o<gradient:#A3A3A3:#666666>Network</gradient>'
   scores:
-    10: ' &r<gradient:#404040:#D1D1D1>----&l»</gradient> &r&l<gradient:#00E1FF:#0055FF>ѕᴜʀᴠɪᴠᴀʟ</gradient> &r&l<#D1D1D1>«&r<gradient:#A6A6A6:#404040>----</#404040>'
+    10: ' &r<gradient:#404040:#D1D1D1>----&l»</gradient> &r&l<gradient:#00E1FF:#0055FF>ѕᴜʀᴠɪᴠᴀʟ</gradient> &r&l<#D1D1D1>«&r<gradient:#A6A6A6:#404040>----</gradient>'
     9: '%animation:MyAnimation1%'
     8: '* &r&a&l$&r&a Money: &r&a%vault_eco_balance%'
     7: '* &r<gradient:#9E00FF:#FF00B3>✦ Prisms: %skript_CurrencyPremium.{player}%</gradient>'
@@ -64,7 +64,7 @@ default:
     5: ' &r&6💀 Deaths: %statistic_deaths%'
     4: '* &r<#FFD700>🜲 Rank: %luckperms_primary_group_name%'
     3: '* &r&b⌚ Playtime: %statistic_time_played%'
-    2: '* &7Ping: %ping%ms'
+    2: '* &7Ping: %player_ping%ms'
     1: '%animation:MyAnimation1%'
   # Hide scoreboard score numbers on supported versions.
   defaultHideNumber: true
