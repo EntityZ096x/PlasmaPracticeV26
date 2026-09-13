@@ -1,67 +1,85 @@
 {
   "stats": {
-    "minecraft:mined": {
-      "minecraft:tall_dry_grass": 1,
-      "minecraft:leaf_litter": 2
+    "minecraft:dropped": {
+      "minecraft:tipped_arrow": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:tipped_arrow": 3,
+      "minecraft:leaf_litter": 4,
+      "minecraft:string": 3,
+      "minecraft:cobblestone": 23,
+      "minecraft:cobweb": 3,
+      "minecraft:terracotta": 17,
+      "minecraft:deepslate": 1,
+      "minecraft:bone": 1,
+      "minecraft:arrow": 2,
+      "minecraft:rotten_flesh": 13
     },
     "minecraft:killed": {
-      "minecraft:zombie": 16,
+      "minecraft:zombie": 24,
       "minecraft:skeleton": 4,
-      "minecraft:parched": 7,
+      "minecraft:parched": 11,
       "minecraft:cow": 1
     },
-    "minecraft:custom": {
-      "minecraft:damage_blocked_by_shield": 1000,
-      "minecraft:time_since_rest": 8665,
-      "minecraft:walk_one_cm": 66057,
-      "minecraft:leave_game": 2,
-      "minecraft:walk_under_water_one_cm": 4089,
-      "minecraft:mob_kills": 28,
-      "minecraft:damage_taken": 6120,
-      "minecraft:play_time": 31882,
-      "minecraft:damage_dealt": 7218,
-      "minecraft:damage_absorbed": 1192,
-      "minecraft:jump": 408,
-      "minecraft:time_since_death": 8665,
-      "minecraft:aviate_one_cm": 567496,
-      "minecraft:damage_dealt_absorbed": 2748,
-      "minecraft:sprint_one_cm": 22722,
-      "minecraft:fall_one_cm": 176833,
-      "minecraft:total_world_time": 31882,
-      "minecraft:swim_one_cm": 1199,
-      "minecraft:fly_one_cm": 184955,
-      "minecraft:walk_on_water_one_cm": 2691,
-      "minecraft:crouch_one_cm": 312,
-      "minecraft:sneak_time": 316,
-      "minecraft:deaths": 8,
-      "minecraft:player_kills": 5
+    "minecraft:used": {
+      "minecraft:wind_charge": 96,
+      "minecraft:shield": 20,
+      "minecraft:netherite_sword": 58,
+      "minecraft:cobweb": 18,
+      "minecraft:end_crystal": 44,
+      "minecraft:diamond_sword": 3,
+      "minecraft:netherite_axe": 16,
+      "minecraft:mace": 289,
+      "minecraft:firework_rocket": 678,
+      "minecraft:golden_carrot": 5,
+      "minecraft:golden_apple": 52,
+      "minecraft:elytra": 748,
+      "minecraft:water_bucket": 2,
+      "minecraft:bucket": 1,
+      "minecraft:splash_potion": 10,
+      "minecraft:netherite_chestplate": 747,
+      "minecraft:glowstone": 2,
+      "minecraft:totem_of_undying": 19,
+      "minecraft:netherite_spear": 2,
+      "minecraft:ender_pearl": 40,
+      "minecraft:bow": 92,
+      "minecraft:obsidian": 5
+    },
+    "minecraft:mined": {
+      "minecraft:tall_dry_grass": 1,
+      "minecraft:leaf_litter": 2,
+      "minecraft:cobweb": 5,
+      "minecraft:dead_bush": 1
     },
     "minecraft:killed_by": {
       "minecraft:skeleton": 7
     },
-    "minecraft:picked_up": {
-      "minecraft:leaf_litter": 4,
-      "minecraft:cobblestone": 23,
-      "minecraft:terracotta": 17,
-      "minecraft:deepslate": 1
-    },
-    "minecraft:used": {
-      "minecraft:wind_charge": 83,
-      "minecraft:shield": 20,
-      "minecraft:netherite_sword": 17,
-      "minecraft:cobweb": 3,
-      "minecraft:netherite_axe": 16,
-      "minecraft:mace": 112,
-      "minecraft:firework_rocket": 179,
-      "minecraft:golden_carrot": 5,
-      "minecraft:golden_apple": 17,
-      "minecraft:elytra": 175,
-      "minecraft:splash_potion": 4,
-      "minecraft:netherite_chestplate": 174,
-      "minecraft:totem_of_undying": 13,
-      "minecraft:netherite_spear": 2,
-      "minecraft:ender_pearl": 38,
-      "minecraft:bow": 92
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 49475,
+      "minecraft:leave_game": 4,
+      "minecraft:mob_kills": 41,
+      "minecraft:damage_taken": 12159,
+      "minecraft:damage_absorbed": 2476,
+      "minecraft:time_since_death": 49475,
+      "minecraft:aviate_one_cm": 1132460,
+      "minecraft:damage_dealt_absorbed": 8805,
+      "minecraft:total_world_time": 72692,
+      "minecraft:swim_one_cm": 1374,
+      "minecraft:crouch_one_cm": 738,
+      "minecraft:deaths": 8,
+      "minecraft:player_kills": 8,
+      "minecraft:damage_blocked_by_shield": 1000,
+      "minecraft:walk_one_cm": 175368,
+      "minecraft:walk_under_water_one_cm": 4132,
+      "minecraft:play_time": 72692,
+      "minecraft:damage_dealt": 11167,
+      "minecraft:jump": 935,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 58318,
+      "minecraft:fall_one_cm": 599366,
+      "minecraft:fly_one_cm": 437277,
+      "minecraft:walk_on_water_one_cm": 3248,
+      "minecraft:sneak_time": 694
     }
   },
   "DataVersion": 4903
