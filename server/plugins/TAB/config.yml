@@ -76,30 +76,29 @@ bossbar:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
 scoreboard:
-  enabled: false
+  enabled: true
   toggle-command: /sb
   remember-toggle-choice: false
   hidden-by-default: false
   delay-on-join-milliseconds: 0
   scoreboards:
+    pvp:
+      display-condition: inpvp
+      title: "&r&l&o<#941800>Plasma</#ff0000>&o<#A3A3A3>Network</#666666>"
+      lines:
+        - " &r<#404040>----&l»</#D1D1D1> %animation:survivalpvp% &r&l<#D1D1D1>«&r<#A6A6A6>----</#404040>"
+        - "%animation:MyAnimation1%"
+        - "* &r&4Enemy: %skript_pvp.enemy.{victim}/5%"
+        - "* &r<#ff0000>Time: %skript_pvp.time.{victim}/5%"
+        - "* &r<#9E00FF>✦ Prisms: %skript_CurrencyPremium.{player}%</#FF00B3>"
+        - "* &r<#ff0000>🗡 Kills: %statistic_player_kills%"
+        - "* &r&6💀 Deaths: %statistic_deaths%"
+        - "* &7Ping: %ping%ms"
+        - "%animation:MyAnimation1%"
     scoreboard:
       title: "&r&l&o<#941800>Plasma</#ff0000>&o<#A3A3A3>Network</#666666>"
       lines:
         - " &r<#404040>----&l»</#D1D1D1> &r&l<#00E1FF>ѕᴜʀᴠɪᴠᴀʟ</#0055FF> &r&l<#D1D1D1>«&r<#A6A6A6>----</#404040>"
-        - "%animation:MyAnimation1%"
-        - "* &r&a&l$&r&a Money: &r&a%vault_eco_balance%"
-        - "* &r<#9E00FF>✦ Prisms: %skript_CurrencyPremium.{player}%</#FF00B3>"
-        - "* &r<#ff0000>🗡 Kills: %statistic_player_kills%"
-        - "* &r&6💀 Deaths: %statistic_deaths%"
-        - "* &r<#FFD700>🜲 Rank: %luckperms_primary_group_name%"
-        - "* &r&b⌚ Playtime: %statistic_time_played%"
-        - "* &7Ping: %ping%ms"
-        - "%animation:MyAnimation1%"
-    pvp:
-      display-condition: "%skript_pvp.time.{player}%>0"
-      title: "&r&l&o<#941800>Plasma</#ff0000>&o<#A3A3A3>Network</#666666>"
-      lines:
-        - " &r<#404040>----&l»</#D1D1D1> &r&l<#BD0000>ѕᴜʀᴠɪᴠᴀʟ</#590000> &r&l<#D1D1D1>«&r<#A6A6A6>----</#404040>"
         - "%animation:MyAnimation1%"
         - "* &r&a&l$&r&a Money: &r&a%vault_eco_balance%"
         - "* &r<#9E00FF>✦ Prisms: %skript_CurrencyPremium.{player}%</#FF00B3>"
@@ -186,11 +185,13 @@ placeholder-output-replacements:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Conditional-placeholders
 conditions:
-  nick: # use it with %condition:nick%
+  nick:
     conditions:
       - "%player%=%essentials_nickname%"
-    true: "%player%"
-    false: "~%essentials_nickname%"
+  inpvp:
+    conditions:
+      - "%skript_pvp.time.{uuid}%=N/A"
+
 
 placeholder-refresh-intervals:
   default-refresh-interval: 500

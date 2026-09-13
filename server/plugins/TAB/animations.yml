@@ -34,7 +34,7 @@ MyAnimation1:
 
 
 ServerName:
-  change-interval: 999
+  change-interval: 1000
   texts:
   - '&r&l&o<#941800>Plasma</#ff0000>&o<#A3A3A3>Network</#666666>'
 web:
@@ -65,43 +65,19 @@ web:
   - '&ePlasmaNetwork.com'
   - '&ePlasmaNetwork.com'
 
-vote:
-  change-interval: 1000
+survivalpvp:
+  change-interval: 100
   texts:
-  - '&avote.domain.com'
-  - '&a&nvote.domain.com'
-  - '&5vote.domain.com'
-  - '&5&nvote.domain.com'
-Welcome:
-  change-interval: 400
-  texts:
-  - '&7&lW_'
-  - '&7&lW_'
-  - '&7&lWe_'
-  - '&7&lWel_'
-  - '&7&lWelc_'
-  - '&7&lWelco_'
-  - '&7&lWelcom_'
-  - '&7&lWelcome_'
-  - '&7&lWelcome_'
-  - '&7&lWelcome_'
-  - '&7&lWelcome_'
-  - '&7&lWelcom_'
-  - '&7&lWelco_'
-  - '&7&lWelc_'
-  - '&7&lWel_'
-  - '&7&lWe_'
-  - '&7&lW_'
-  - '&7&lW_'
-time:
-  change-interval: 3000
-  texts:
-    - '&7Time &b%time%'
-    - '&7Date &b%date%'
-barcolors:
-  change-interval: 1000
-  texts:
-    - RED
-    - BLUE
-    - GREEN
-    - YELLOW
+    - "&r&l<#FFD700>ѕᴜʀᴠɪᴠᴀʟ</#FFD700>"
+    - "&r&l<#E8B000>ѕᴜʀᴠɪᴠᴀʟ</#C99A00>"
+    - "&r&l<#D88A00>ѕᴜʀᴠɪᴠᴀʟ</#9B6A00>"
+    - "&r&l<#CC5C00>ѕᴜʀᴠɪᴠᴀʟ</#754500>"
+    - "&r&l<#C53600>ѕᴜʀᴠɪᴠᴀʟ</#653000>"
+    - "&r&l<#BD0000>ѕᴜʀᴠɪᴠᴀʟ</#590000>"
+    - "&r&l<#BD0000>ѕᴜʀᴠɪᴠᴀʟ</#590000>"
+    - "&r&l<#BD0000>ѕᴜʀᴠɪᴠᴀʟ</#590000>"
+    - "&r&l<#BD0000>ѕᴜʀᴠɪᴠᴀʟ</#590000>"
+    - "&r&l<#BD0000>ѕᴜʀᴠɪᴠᴀʟ</#590000>"
+
+
+

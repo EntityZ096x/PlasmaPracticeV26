@@ -1213,3 +1213,276 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
 	... 24 more
 [09:22:57] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion abilitywar due to an unknown issue.
+[09:24:26] [Server thread/INFO]: EntityZ096x issued server command: /simplescore:sb reload
+[09:25:39] [Server thread/INFO]: EntityZ096x issued server command: /simplescore:sb reload
+[09:29:19] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:29:19] [Server thread/INFO]: [TAB] Disabled in 4ms
+[09:29:19] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Scoreboard "scoreboard" has no display condition set, however, there is another scoreboard in the chain (pvp). Scoreboards are checked from top to bottom until a scoreboard with meeting condition or no condition is found. Because of this, the scoreboard (pvp) after the no-condition scoreboard (scoreboard) will never be displayed. Unless this is intentional to externally display the scoreboard (commands, API), this is a mistake.
+[09:29:19] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ServerName: Animation "ServerName" has refresh interval of 999, which is not divisible by 50! Using 1000.
+[09:29:19] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[09:29:19] [Server thread/INFO]: [TAB] Enabled in 84ms
+[09:29:19] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{player}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:29:19] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{player}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:31:16] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:31:16] [Server thread/INFO]: [TAB] Disabled in 6ms
+[09:31:16] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Scoreboard "scoreboard" has no display condition set, however, there is another scoreboard in the chain (pvp). Scoreboards are checked from top to bottom until a scoreboard with meeting condition or no condition is found. Because of this, the scoreboard (pvp) after the no-condition scoreboard (scoreboard) will never be displayed. Unless this is intentional to externally display the scoreboard (commands, API), this is a mistake.
+[09:31:16] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ServerName: Animation "ServerName" has refresh interval of 999, which is not divisible by 50! Using 1000.
+[09:31:16] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[09:31:16] [Server thread/INFO]: [TAB] Enabled in 23ms
+[09:31:25] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:31:25] [Server thread/INFO]: [TAB] Disabled in 4ms
+[09:31:25] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Scoreboard "scoreboard" has no display condition set, however, there is another scoreboard in the chain (pvp). Scoreboards are checked from top to bottom until a scoreboard with meeting condition or no condition is found. Because of this, the scoreboard (pvp) after the no-condition scoreboard (scoreboard) will never be displayed. Unless this is intentional to externally display the scoreboard (commands, API), this is a mistake.
+[09:31:25] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ServerName: Animation "ServerName" has refresh interval of 999, which is not divisible by 50! Using 1000.
+[09:31:25] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[09:31:25] [Server thread/INFO]: [TAB] Enabled in 29ms
+[09:32:35] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:32:35] [Server thread/INFO]: [TAB] Disabled in 4ms
+[09:32:35] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Scoreboard "scoreboard" has no display condition set, however, there is another scoreboard in the chain (pvp). Scoreboards are checked from top to bottom until a scoreboard with meeting condition or no condition is found. Because of this, the scoreboard (pvp) after the no-condition scoreboard (scoreboard) will never be displayed. Unless this is intentional to externally display the scoreboard (commands, API), this is a mistake.
+[09:32:35] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ServerName: Animation "ServerName" has refresh interval of 999, which is not divisible by 50! Using 1000.
+[09:32:35] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[09:32:35] [Server thread/INFO]: [TAB] Enabled in 28ms
+[09:33:04] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:33:04] [Server thread/INFO]: [TAB] Disabled in 2ms
+[09:33:04] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Scoreboard "scoreboard" has no display condition set, however, there is another scoreboard in the chain (pvp). Scoreboards are checked from top to bottom until a scoreboard with meeting condition or no condition is found. Because of this, the scoreboard (pvp) after the no-condition scoreboard (scoreboard) will never be displayed. Unless this is intentional to externally display the scoreboard (commands, API), this is a mistake.
+[09:33:04] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[09:33:04] [Server thread/INFO]: [TAB] Enabled in 25ms
+[09:34:27] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:34:27] [Server thread/INFO]: [TAB] Disabled in 3ms
+[09:34:27] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Scoreboard "scoreboard" has no display condition set, however, there is another scoreboard in the chain (pvp). Scoreboards are checked from top to bottom until a scoreboard with meeting condition or no condition is found. Because of this, the scoreboard (pvp) after the no-condition scoreboard (scoreboard) will never be displayed. Unless this is intentional to externally display the scoreboard (commands, API), this is a mistake.
+[09:34:27] [Server thread/INFO]: [TAB] [WARN] Line "inpvp" is not a valid conditional expression.
+[09:34:27] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[09:34:27] [Server thread/INFO]: [TAB] Enabled in 23ms
+[09:36:24] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:36:24] [Server thread/INFO]: [TAB] Disabled in 3ms
+[09:36:24] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Scoreboard "scoreboard" has no display condition set, however, there is another scoreboard in the chain (pvp). Scoreboards are checked from top to bottom until a scoreboard with meeting condition or no condition is found. Because of this, the scoreboard (pvp) after the no-condition scoreboard (scoreboard) will never be displayed. Unless this is intentional to externally display the scoreboard (commands, API), this is a mistake.
+[09:36:24] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[09:36:24] [Server thread/INFO]: [TAB] Enabled in 28ms
+[09:36:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{player}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:36:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{player}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:39:02] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[09:39:18] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 1
+[09:39:30] [Server thread/INFO]: EntityZ096x issued server command: /enchant density 100
+[09:41:25] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:41:25] [Server thread/INFO]: [TAB] Disabled in 2ms
+[09:41:25] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{player}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:41:25] [Server thread/INFO]: [TAB] Enabled in 12ms
+[09:42:01] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:42:01] [Server thread/INFO]: [TAB] Disabled in 3ms
+[09:42:01] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{player}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:42:01] [Server thread/INFO]: [TAB] Enabled in 18ms
+[09:42:05] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /PvP/
+[09:45:01] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:45:01] [Server thread/INFO]: [TAB] Disabled in 3ms
+[09:45:01] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:45:01] [Server thread/INFO]: [TAB] Enabled in 11ms
+[09:45:20] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:45:20] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:45:20] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:45:34] [User Authenticator #5/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[09:45:34] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:45:34] [Server thread/INFO]: Clstial[/127.0.0.1:47018] logged in with entity id 1398656 at ([minecraft:overworld]2879.31920219166, 79.0, 3001.485965540765)
+[09:45:34] [Server thread/INFO]: [+] Clstial
+[09:45:40] [Server thread/INFO]: Clstial issued server command: /kit
+[09:45:43] [Server thread/INFO]: Clstial issued server command: /kit
+[09:46:09] [Server thread/WARN]: Clstial moved wrongly!
+[09:46:24] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » yo
+[09:46:40] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /PvP/
+[09:46:47] [Async Chat Thread - #17/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » .
+[09:46:47] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » yo
+[09:46:56] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » ?
+[09:46:57] [Async Chat Thread - #17/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » its in progress
+[09:50:10] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:50:10] [Server thread/INFO]: [TAB] Disabled in 3ms
+[09:50:10] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .survivalpvp: Configuration section ".survivalpvp" has unknown key "text". Valid keys: [change-interval, texts]
+[09:50:10] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .survivalpvp: Missing configuration section ".survivalpvp.texts" of type List, using default value [<Animation does not have any texts>].
+[09:50:10] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:50:10] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:50:10] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[09:50:10] [Server thread/INFO]: [TAB] Enabled in 41ms
+[09:50:19] [Async Chat Thread - #18/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » come here
+[09:50:20] [Async Chat Thread - #18/INFO]: [Not Secure] Clstial » yo
+[09:50:24] [Async Chat Thread - #19/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ...
+[09:50:24] [Async Chat Thread - #19/INFO]: [Not Secure] Clstial » ?
+[09:50:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:50:35] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:50:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:50:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:50:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:50:35] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:50:36] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:50:36] [Server thread/INFO]: [TAB] Disabled in 2ms
+[09:50:36] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:50:36] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:50:36] [Server thread/INFO]: [TAB] Enabled in 29ms
+[09:50:43] [Async Chat Thread - #19/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » look
+[09:50:47] [Async Chat Thread - #18/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » scoreboard
+[09:50:58] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:50:58] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:50:58] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:50:58] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:50:58] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:50:58] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:51:06] [Server thread/INFO]: Clstial issued server command: /rank
+[09:51:34] [Server thread/INFO]: Clstial issued server command: /fucklag
+[09:51:34] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[09:51:37] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:51:37] [Server thread/INFO]: [TAB] Disabled in 4ms
+[09:51:37] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:51:37] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:51:37] [Server thread/INFO]: [TAB] Enabled in 22ms
+[09:51:44] [Async Chat Thread - #18/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » com here
+[09:51:44] [Server thread/INFO]: Clstial issued server command: /dummy
+[09:52:01] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:52:01] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:52:01] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:52:01] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:52:01] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:52:01] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:52:20] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:52:20] [Server thread/INFO]: [TAB] Disabled in 1ms
+[09:52:20] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:52:20] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:52:20] [Server thread/INFO]: [TAB] Enabled in 18ms
+[09:52:37] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:52:37] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:52:37] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:52:37] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:52:37] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:52:37] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:52:42] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:52:42] [Server thread/INFO]: [TAB] Disabled in 3ms
+[09:52:42] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:52:42] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:52:42] [Server thread/INFO]: [TAB] Enabled in 18ms
+[09:53:01] [Server thread/INFO]: Clstial issued server command: /heal
+[09:53:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:53:02] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:53:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:53:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:53:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:53:02] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:53:03] [Server thread/INFO]: Clstial issued server command: /heal
+[09:53:07] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:53:07] [Server thread/INFO]: [TAB] Disabled in 2ms
+[09:53:07] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:53:07] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:53:07] [Server thread/INFO]: [TAB] Enabled in 24ms
+[09:53:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:53:25] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:53:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:53:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:53:25] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:53:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:53:39] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:53:43] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:53:43] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:53:43] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:53:43] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:53:43] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:53:43] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:53:46] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:53:46] [Server thread/INFO]: [TAB] Disabled in 2ms
+[09:53:46] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .survivalpvp: Animation "survivalpvp" has refresh interval of 90, which is not divisible by 50! Using 100.
+[09:53:46] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:53:46] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:53:46] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[09:53:46] [Server thread/INFO]: [TAB] Enabled in 26ms
+[09:54:04] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:54:04] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:54:04] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:54:04] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:54:04] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:54:04] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:54:17] [Async Chat Thread - #20/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » \s
+[09:54:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:54:35] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:54:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:54:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:54:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:54:35] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:54:35] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:54:35] [Server thread/INFO]: [TAB] Disabled in 1ms
+[09:54:35] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .survivalpvp: Animation "survivalpvp" has refresh interval of 110, which is not divisible by 50! Using 100.
+[09:54:35] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:54:35] [Server thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:54:35] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[09:54:35] [Server thread/INFO]: [TAB] Enabled in 20ms
+[09:54:57] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:54:57] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:54:57] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:54:57] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:54:57] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:54:57] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:55:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:55:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:55:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:55:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:55:24] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[09:55:24] [TAB Scoreboard Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[09:55:54] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:55:54] [Server thread/INFO]: [TAB] Disabled in 2ms
+[09:55:54] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .survivalpvp: Animation "survivalpvp" has refresh interval of 110, which is not divisible by 50! Using 100.
+[09:55:54] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[09:55:54] [Server thread/INFO]: [TAB] Enabled in 23ms
+[09:56:07] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:56:07] [Server thread/INFO]: [TAB] Disabled in 2ms
+[09:56:07] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .survivalpvp: Animation "survivalpvp" has refresh interval of 110, which is not divisible by 50! Using 100.
+[09:56:08] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[09:56:08] [Server thread/INFO]: [TAB] Enabled in 12ms
+[09:57:02] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[09:57:02] [Server thread/INFO]: [TAB] Disabled in 3ms
+[09:57:02] [Server thread/INFO]: [TAB] Enabled in 33ms
+[09:57:41] [Server thread/INFO]: Clstial issued server command: /fucklag
+[09:57:41] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[09:57:45] [Server thread/INFO]: Clstial issued server command: /dummy
+[09:58:24] [Async Chat Thread - #23/INFO]: [Not Secure] Clstial » BGYUI
+[09:58:29] [Async Chat Thread - #23/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ??
+[09:58:40] [Async Chat Thread - #22/INFO]: [Not Secure] Clstial » i had a chain mace of like 6
+[09:59:05] [Server thread/INFO]: Clstial issued server command: /kit
+[09:59:06] [Async Chat Thread - #23/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » amateurv
+[09:59:13] [Async Chat Thread - #22/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » amateur*
+[09:59:16] [Async Chat Thread - #23/INFO]: [Not Secure] Clstial » you want to just fight
+[09:59:19] [Async Chat Thread - #23/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » nah
+[09:59:21] [Async Chat Thread - #23/INFO]: [Not Secure] Clstial » neth smp
+[09:59:34] [Server thread/INFO]: EntityZ096x issued server command: /god
+[09:59:41] [Async Chat Thread - #22/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » lol
+[09:59:44] [Async Chat Thread - #22/INFO]: [Not Secure] Clstial » come on
+[09:59:47] [Async Chat Thread - #22/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » nah
+[09:59:49] [Async Chat Thread - #23/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » im codin
+[09:59:50] [Async Chat Thread - #22/INFO]: [Not Secure] Clstial » fight
+[09:59:53] [Async Chat Thread - #23/INFO]: [Not Secure] Clstial » breh
+[10:02:10] [Async Chat Thread - #24/INFO]: [Not Secure] Clstial » im going to lamp
+[10:02:11] [Server thread/INFO]: Clstial lost connection: Disconnected
+[10:02:11] [Server thread/INFO]: [-] Clstial
+[10:06:58] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[10:06:59] [Server thread/INFO]: [TAB] Disabled in 2ms
+[10:06:59] [Server thread/INFO]: [TAB] Enabled in 13ms
+[10:07:19] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[10:07:19] [Server thread/INFO]: [TAB] Disabled in 2ms
+[10:07:19] [Server thread/INFO]: [TAB] Enabled in 13ms
+[10:08:10] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[10:08:10] [Server thread/INFO]: [TAB] Disabled in 2ms
+[10:08:10] [Server thread/INFO]: [TAB] Enabled in 23ms
+[10:08:17] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[10:08:17] [Server thread/INFO]: [TAB] Disabled in 2ms
+[10:08:17] [Server thread/INFO]: [TAB] Enabled in 16ms
+[10:11:26] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[10:11:26] [Server thread/INFO]: [TAB] Disabled in 3ms
+[10:11:26] [Server thread/INFO]: [TAB] Enabled in 10ms
+[10:13:00] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[10:13:00] [Server thread/INFO]: [TAB] Disabled in 2ms
+[10:13:00] [Server thread/INFO]: [TAB] Enabled in 9ms
+[10:13:39] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[10:13:39] [Server thread/INFO]: [TAB] Disabled in 2ms
+[10:13:39] [Server thread/INFO]: [TAB] Enabled in 11ms
+[10:15:08] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
+[10:15:08] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[10:15:08] [Server thread/INFO]: [-] EntityZ096x
+[10:15:26] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[10:15:27] [Server thread/INFO]: EntityZ096x[/127.0.0.1:46316] logged in with entity id 1960636 at ([minecraft:overworld]2710.8061840643545, 64.73671025183636, 2949.88172731443)
+[10:15:27] [Server thread/INFO]: [+] EntityZ096x
+[10:15:52] [Server thread/INFO]: EntityZ096x issued server command: /tab reload
+[10:15:52] [Server thread/INFO]: [TAB] Disabled in 3ms
+[10:15:52] [Server thread/INFO]: [TAB] Enabled in 10ms
+[10:16:00] [Server thread/INFO]: EntityZ096x issued server command: /sb
+[10:16:02] [Server thread/INFO]: EntityZ096x issued server command: /sb
