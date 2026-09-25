@@ -32,13 +32,13 @@ npc:
       - 360.0
     location:
       world: Lobby
-      worldid: 28cd48bc-3490-4a7d-ad5d-df1671b7e3ba
+      worldid: 858bc06c-5ed4-4219-af2d-923ffffbdd07
       x: 0.5
-      y: 21.0
+      y: -60.0
       z: 11.5
-      bodyYaw: -143.79315
-      pitch: 11.3351
-      yaw: -143.7932
+      bodyYaw: -172.5958
+      pitch: 0.0
+      yaw: -172.5958
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&c&lLifeSteal'
@@ -73,13 +73,13 @@ npc:
       - 360.0
     location:
       world: Lobby
-      worldid: 28cd48bc-3490-4a7d-ad5d-df1671b7e3ba
+      worldid: 858bc06c-5ed4-4219-af2d-923ffffbdd07
       x: 2.5
-      y: 21.0
+      y: -60.0
       z: 11.5
-      bodyYaw: -166.76414
-      pitch: 13.595
-      yaw: -166.7641
+      bodyYaw: 142.5667
+      pitch: 0.0
+      yaw: 151.8623
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&6&lKitPvP'
@@ -114,13 +114,13 @@ npc:
       - 360.0
     location:
       world: Lobby
-      worldid: 28cd48bc-3490-4a7d-ad5d-df1671b7e3ba
+      worldid: 858bc06c-5ed4-4219-af2d-923ffffbdd07
       x: 4.5
-      y: 21.0
+      y: -60.0
       z: 10.5
-      bodyYaw: 140.80455
-      pitch: 17.337
-      yaw: 160.8046
+      bodyYaw: 125.04489
+      pitch: 0.0
+      yaw: 119.0988
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&d&lDuels'
@@ -159,13 +159,13 @@ npc:
       - 360.0
     location:
       world: Lobby
-      worldid: 28cd48bc-3490-4a7d-ad5d-df1671b7e3ba
+      worldid: 858bc06c-5ed4-4219-af2d-923ffffbdd07
       x: -3.5
-      y: 21.0
+      y: -60.0
       z: 10.5
-      bodyYaw: -113.53259
-      pitch: 7.5184
-      yaw: -113.5326
+      bodyYaw: -114.58177
+      pitch: 0.0
+      yaw: -114.5818
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&b&lBedwars'
@@ -199,13 +199,13 @@ npc:
       - 360.0
     location:
       world: Lobby
-      worldid: 28cd48bc-3490-4a7d-ad5d-df1671b7e3ba
+      worldid: 858bc06c-5ed4-4219-af2d-923ffffbdd07
       x: -5.5
-      y: 21.0
+      y: -60.0
       z: 9.5
-      bodyYaw: -102.75484
-      pitch: 6.2215
-      yaw: -102.7548
+      bodyYaw: -98.96875
+      pitch: 0.0
+      yaw: -98.9687
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&a&lOneBlock'
@@ -240,13 +240,13 @@ npc:
       - 360.0
     location:
       world: Lobby
-      worldid: 28cd48bc-3490-4a7d-ad5d-df1671b7e3ba
+      worldid: 858bc06c-5ed4-4219-af2d-923ffffbdd07
       x: 6.5
-      y: 21.0
+      y: -60.0
       z: 9.5
-      bodyYaw: 103.55678
-      pitch: 15.2663
-      yaw: 123.5568
+      bodyYaw: 109.95169
+      pitch: 0.0
+      yaw: 100.1944
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&a&lManhunt'
@@ -285,13 +285,13 @@ npc:
       - 360.0
     location:
       world: Lobby
-      worldid: 28cd48bc-3490-4a7d-ad5d-df1671b7e3ba
+      worldid: 858bc06c-5ed4-4219-af2d-923ffffbdd07
       x: -1.5
-      y: 21.0
+      y: -60.0
       z: 11.5
-      bodyYaw: -129.13562
-      pitch: 8.9114
-      yaw: -129.1356
+      bodyYaw: -141.52583
+      pitch: 0.0
+      yaw: -141.5258
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&4&lUHC Survival'

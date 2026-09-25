@@ -190,7 +190,7 @@ conditions:
       - "%player%=%essentials_nickname%"
   inpvp:
     conditions:
-      - "%skript_pvp.time.{uuid}%=N/A"
+      - "%skript_pvp.time.{uuid}%>0"
 
 
 placeholder-refresh-intervals:

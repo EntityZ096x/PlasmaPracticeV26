@@ -8,15 +8,18 @@ on spawn:
     if {_e} >= 0:
         cancel event
 
+on right click on entity:
+    set {interacted::%uuid of event-entity%} to true
+
+on damage:
+    if attacker is a player:
+        set {interacted::%uuid of victim%} to true
+
 command /fucklag:
     trigger:
         loop all entities:
             loop-entity is not a player
             loop-entity is not a villager
-            kill loop-entity
-        wait 1 tick
-        loop all entities:
-            loop-entity is not a player
-            loop-entity is not a villager
-            kill loop-entity
+            if {interacted::%uuid of loop-entity%} is not set:
+                delete loop-entity
         broadcast "&r&d&lClearlag &r&8»&r &aCleared all wild mobs & items."
