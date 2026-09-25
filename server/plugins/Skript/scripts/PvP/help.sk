@@ -5,30 +5,6 @@ on left click:
         stop
     send "&c&lPvP&r &8»&a You have succesfully done a attribute swap!" to player
 
-on damage:
-    attacker is a player
-    victim is not a player
-
-    set {_axes::*} to wooden axe, stone axe, iron axe, golden axe, diamond axe and netherite axe
-
-    if {pvppractice.stunned::*} contains victim:
-        stop
-    if victim's held item is shield:
-        cancel event
-        play sound "item.shield.block" at victim
-        if {_axes::*} contains attacker's tool:
-            add victim to {pvppractice.stunned::*}
-            play sound "entity.item.break" at victim
-            wait 1 second
-            remove victim from {pvppractice.stunned::*}
-    if victim's offhand item is shield:
-        cancel event
-        play sound "item.shield.block" at victim
-        if {_axes::*} contains attacker's tool:
-            add victim to {pvppractice.stunned::*}
-            play sound "entity.item.break" at victim
-            wait 1 seconds
-            remove victim from {pvppractice.stunned::*}
 
 
 command /dummy [<text>]:
@@ -65,3 +41,24 @@ command /dummy [<text>]:
 
 on tab complete of "/dummy":
     set tab completions for position 1 to "shield", "AI", "tiny"
+
+
+on damage:
+    if victim is a living entity:
+        if victim's held item is shield:
+            if victim is a zombie:
+                if {shieldDisabled::%uuid of victim%} is not set:
+                    cancel event
+                    play sound "item.shield.block" at victim
+
+                    if netherite axe, diamond axe, golden axe, stone axe, copper axe and wooden axe contains attacker's tool:
+                        set {shieldDisabled::%uuid of victim%} to true
+
+                        play sound "item.shield.break" at victim
+
+                        wait 1 second
+
+                        if victim is alive:
+                            if victim's held item is shield:
+                                delete {shieldDisabled::%uuid of victim%}
+
