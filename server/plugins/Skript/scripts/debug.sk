@@ -1,7 +1,9 @@
 on command:
     if command contains "debug":
         if command is not "debug":
-            if {debug.%player%} is not "enabled":
+            if {debug.%player%} is not "enabled": 
+                if sender is console:
+                    stop
                 send "&r&4You're not allowed to use this command."
                 cancel event
 
@@ -79,9 +81,12 @@ command /debug.falldis <number>:
         set player's fall distance to arg-1
         send "&r&7Your fall distance has been set to %arg-1%"
 
-command /debug.whatismyuuid:
+command /debug.whatismyuuid [<player>]:
     trigger:
-        send player's uuid to player
+        if arg-1 is set:
+            send arg-1's uuid
+        else:
+            send player's uuid
 
 command /debug.testvar <text>:
     trigger:

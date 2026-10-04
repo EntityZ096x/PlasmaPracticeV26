@@ -1,4 +1,5 @@
 on join:
+    teleport player to location(0.5, 64, 0.5, world "voidworld")
     set {login.timer.%player%} to 60
 
     if {login.password.%player%} is set:
@@ -7,14 +8,9 @@ on join:
         send title "&r&l&o<gradient:#941800:#ff0000>Plasma</gradient><gradient:#A3A3A3:#666666>Network</gradient>" with subtitle "&r&7Use <#ff0000>/register <password> <confirm>." to player for 999 seconds
 
     while {login.timer.%player%} > 0:
-
         send action bar "&r&7You have <#ff0000>%{login.timer.%player%}%s<reset>&7 to login/register" to player
         wait 1 second
-        
-
-        if {login.timer.%player%} is set:
-            if {login.timer.%player%} is not "logged":
-                remove 1 from {login.timer.%player%}
+        remove 1 from {login.timer.%player%}
 
     wait 1 tick
     if {login.timer.%player%} is "logged":
@@ -22,7 +18,6 @@ on join:
         execute player command "/lobby"
         set player's walk speed to 0.2
         send action bar "&r&aYou have succesfully logged in." to player
-        set player's gamemode to survival
         stop
 
     delete {login.timer.%player%}
@@ -33,23 +28,21 @@ on join:
 on quit:
     delete {login.timer.%player%}
 
-
 command /login [<text>]:
     aliases: /l
     trigger:
         if {login.timer.%player%} is not set:
             send "<#ff0000>You're already logged in." to player
             stop
-
         if {login.password.%player%} is not set:
             send "&r&7Use <#ff0000>/register <password> <confirm>&r&7 to set a password first."
             stop
-
         if arg-1 is not set:
             send "<#ff0000>Please type your password." to player
             stop
 
         if arg-1 is {login.password.%player%}:
+            set {login.lastip.%player%} to player's ip
             set {login.timer.%player%} to "logged"
             send action bar "&r&aYou have succesfully logged in." to player
             send title "" with subtitle "&r&aYou've successfully logged in." to player for 1 second
