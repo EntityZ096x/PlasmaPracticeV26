@@ -1,0 +1,13 @@
+on tab complete of "/backport.spawnmob":
+    set tab completions for position 1 to "sulfur_cube"
+
+command /backport.spawnmob <text>:
+    trigger:
+        if arg-1 is "sulfur_cube":
+            spawn a slime at player
+            set {_name} to "Sulfur Cube"
+            set entity size of last spawned entity to 2
+            
+        set {_m} to last spawned entity
+        set data tag "BACKPORT.mob" of {_m} to arg-1
+        set name of {_m} to {_name}

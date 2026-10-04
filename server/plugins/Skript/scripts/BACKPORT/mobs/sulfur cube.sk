@@ -1,0 +1,11 @@
+on entity jump:
+    if data tag "BACKPORT.mob" of event-entity is "sulfur_cube":
+        cancel event
+
+on slime split:
+    if data tag "BACKPORT.mob" of event-entity is "sulfur_cube":
+        set data tag "backport:mob" of loop-entity to "sulfur_cube"
+
+on spawn of slime:
+    if spawn reason is slime split:
+        set data tag "backport:mob" of event-entity to "sulfur_cube"

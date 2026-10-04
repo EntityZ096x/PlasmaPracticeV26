@@ -1,5 +1,5 @@
 on load:
-    set {_golden} to dandelion with custom nbt from "{backport_item:""golden_dandelion""}"
+    set {_golden} to dandelion with custom nbt from "{BACKPORT.item:""golden_dandelion""}"
     set name of {_golden} to "&6Golden Dandelion"
 
     register shaped recipe:
@@ -13,7 +13,7 @@ on load:
 
 on right click on entity:
     # Check for our tagged Golden Dandelion
-    if string tag "backport_item" of custom nbt of player's tool is "golden_dandelion":
+    if string tag "BACKPORT.item" of custom nbt of player's tool is "golden_dandelion":
 
         # Only living entities
         if clicked entity is a living entity:
@@ -54,13 +54,13 @@ on right click on entity:
                                                 make 1 of happy villager at {_loc}
 
 on place of dandelion:
-    if string tag "backport_item" of custom nbt of event-itemstack is "golden_dandelion":
-        set string tag "backport_item" of custom nbt of event-block to "golden_dandelion"
+    if string tag "BACKPORT.item" of custom nbt of event-itemstack is "golden_dandelion":
+        set string tag "BACKPORT.item" of custom nbt of event-block to "golden_dandelion"
 
 
 on break of dandelion:
-    if string tag "backport_item" of custom nbt of event-block is "golden_dandelion":
-        set {_golden} to dandelion with custom nbt from "{backport_item:""golden_dandelion""}"
+    if string tag "BACKPORT.item" of custom nbt of event-block is "golden_dandelion":
+        set {_golden} to dandelion with custom nbt from "{BACKPORT.item:""golden_dandelion""}"
         set name of {_golden} to "&6Golden Dandelion"
 
         cancel event
