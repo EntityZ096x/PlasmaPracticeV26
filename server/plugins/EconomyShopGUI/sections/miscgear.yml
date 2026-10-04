@@ -1,0 +1,18 @@
+enable: true
+title: '         &8<---- <#6B4F70>&lMisc &8---->'
+slot: 13
+hidden: true
+sub-section: true
+item:
+  material: NETHERITE_PICKAXE
+  displayname: <#6B4F70>&lPvP
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 0 0 1 1 1 0 0 0'
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 0 0 0 0 0 0 0 0'

@@ -1,5 +1,5 @@
-on left click:
-    {client.%player%} is "eagler"
+on left click: 
+    {protocol::%player%} < 774
     set {_o::*} to player's tool's enchantments
     wait 1 tick
     if player's tool's enchantments contains lunge:

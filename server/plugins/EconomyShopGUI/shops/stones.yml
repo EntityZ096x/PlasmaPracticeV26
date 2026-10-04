@@ -1,0 +1,115 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: STONE
+        buy: 1.0
+        sell: -1.0
+      '2':
+        material: COBBLESTONE
+        buy: 1.0
+        sell: -1.0
+      '3':
+        material: STONE_BRICKS
+        buy: 1.0
+        sell: -1.0
+      '4':
+        material: CRACKED_STONE_BRICKS
+        buy: 1.0
+        sell: -1.0
+      '5':
+        material: CHISELED_STONE_BRICKS
+        buy: 1.0
+        sell: -1.0
+      '6':
+        material: MOSSY_STONE_BRICKS
+        buy: 1.0
+        sell: -1.0
+      '7':
+        material: MOSSY_COBBLESTONE
+        buy: 1.0
+        sell: -1.0
+      '8':
+        material: STONE_STAIRS
+        buy: 1.0
+        sell: -1.0
+      '9':
+        material: COBBLESTONE_STAIRS
+        buy: 1.0
+        sell: -1.0
+      '10':
+        material: STONE_BRICK_STAIRS
+        buy: 1.0
+        sell: -1.0
+      '11':
+        material: STONE_BRICK_STAIRS
+        buy: 1.0
+        sell: -1.0
+      '12':
+        material: STONE_BRICK_STAIRS
+        buy: 1.0
+        sell: -1.0
+      '13':
+        material: MOSSY_STONE_BRICK_STAIRS
+        buy: 1.0
+        sell: -1.0
+      '14':
+        material: MOSSY_COBBLESTONE_STAIRS
+        buy: 1.0
+        sell: -1.0
+      '15':
+        material: STONE_SLAB
+        buy: 0.5
+        sell: -1.0
+      '16':
+        material: COBBLESTONE_SLAB
+        buy: 0.5
+        sell: -1.0
+      '17':
+        material: STONE_BRICK_SLAB
+        buy: 0.5
+        sell: -1.0
+      '18':
+        material: STONE_BRICK_SLAB
+        buy: 0.5
+        sell: -1.0
+      '19':
+        material: STONE_BRICK_SLAB
+        buy: 0.5
+        sell: -1.0
+      '20':
+        material: MOSSY_COBBLESTONE_SLAB
+        buy: 0.5
+        sell: -1.0
+      '21':
+        material: MOSSY_STONE_BRICK_SLAB
+        buy: 0.5
+        sell: -1.0
+      '22':
+        material: STONE_BRICK_WALL
+        buy: 1.0
+        sell: -1.0
+      '23':
+        material: COBBLESTONE_WALL
+        buy: 1.0
+        sell: -1.0
+      '24':
+        material: STONE_BRICK_WALL
+        buy: 1.0
+        sell: -1.0
+      '25':
+        material: STONE_BRICK_WALL
+        buy: 1.0
+        sell: -1.0
+      '26':
+        material: STONE_BRICK_WALL
+        buy: 1.0
+        sell: -1.0
+      '27':
+        material: MOSSY_COBBLESTONE_WALL
+        buy: 1.0
+        sell: -1.0
+      '28':
+        material: MOSSY_STONE_BRICK_WALL
+        buy: 1.0
+        sell: -1.0

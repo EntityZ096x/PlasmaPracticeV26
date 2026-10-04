@@ -1,18 +1,20 @@
 on join:
     teleport player to location(0.5, 64, 0.5, world "voidworld")
     set player's walk speed to 0
-
-    if {login.password.%player%} is set:
-        send title "&r&l&o<gradient:#941800:#ff0000>Plasma</gradient><gradient:#A3A3A3:#666666>Network</gradient>" with subtitle "&r&7Use <#ff0000>/login <password>." to player for 30 seconds
-    else:
-        send title "&r&l&o<gradient:#941800:#ff0000>Plasma</gradient><gradient:#A3A3A3:#666666>Network</gradient>" with subtitle "&r&7Use <#ff0000>/register <password> <confirm>." to player for 30 seconds
+    set player's gamemode to spectator
 
     set {login.timer.%player%} to 60
+
+    if {login.password.%player%} is set:
+        send title "&r&l&o<gradient:#941800:#ff0000>Plasma</gradient><gradient:#A3A3A3:#666666>Network</gradient>" with subtitle "&r&7Use <#ff0000>/login <password>." to player for 999 seconds
+    else:
+        send title "&r&l&o<gradient:#941800:#ff0000>Plasma</gradient><gradient:#A3A3A3:#666666>Network</gradient>" with subtitle "&r&7Use <#ff0000>/register <password> <confirm>." to player for 999 seconds
 
     while {login.timer.%player%} > 0:
 
         send action bar "&r&7You have <#ff0000>%{login.timer.%player%}%s<reset>&7 to login/register" to player
         wait 1 second
+        
 
         if {login.timer.%player%} is set:
             if {login.timer.%player%} is not "logged":
@@ -23,7 +25,8 @@ on join:
         delete {login.timer.%player%}
         execute player command "/lobby"
         set player's walk speed to 0.2
-        send action bar "" to player
+        send action bar "&r&aYou have succesfully logged in." to player
+        set player's gamemode to survival
         stop
 
     delete {login.timer.%player%}
@@ -52,6 +55,7 @@ command /login [<text>]:
 
         if arg-1 is {login.password.%player%}:
             set {login.timer.%player%} to "logged"
+            send action bar "&r&aYou have succesfully logged in." to player
             send title "" with subtitle "&r&aYou've successfully logged in." to player for 1 second
         else:
             kick player due to "<#ff0000>Incorrect password."
@@ -80,6 +84,7 @@ command /register [<text>] [<text>]:
         if arg-1 is arg-2:
             set {login.timer.%player%} to "logged"
             set {login.password.%player%} to arg-1
+            send action bar "&r&aYou have succesfully registered." to player
             send title "" with subtitle "&r&aYou've successfully registered." to player for 1 second
         else:
             send "<#ff0000>Please confirm your password correctly."
@@ -112,3 +117,8 @@ on command:
         if command is not "login" or "l" or "register" or "r":
             cancel event
             send "<#ff0000>Login/register first." to player
+
+on chat:
+    if {login.timer.%player%} is set:
+        cancel event
+        send "<#ff0000>Login/register first." to player

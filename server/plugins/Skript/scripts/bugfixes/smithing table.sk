@@ -1,6 +1,6 @@
 on right click:
     if clicked block is smithing table:
-        if {client.%player%} is not "eagler":
+        if {protocol::%player%} >= 763:
             stop    
         
         close player's inventory

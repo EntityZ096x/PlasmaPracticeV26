@@ -4,7 +4,7 @@ config-version = "2.9"
 bind = "0.0.0.0:25567"
 # What should be the MOTD? This gets displayed when the player adds your server to
 # their server list. Only MiniMessage format is accepted.
-motd = "<#09add3>A Velocity Server"
+motd = "<#AA0000><bold>--<#FF5555><bold>------<#FFFFFF><bold>--<#AAAAAA><bold>[ <#FF5555><bold>Plasma Practice <#AAAAAA><bold>]<#FFFFFF><bold>--<#FF5555><bold>------<#AA0000><bold>-- <#FF55FF><bold>1.21 PvP Practice Server"
 # What should we display for the maximum number of players? (Velocity does not support a cap
 # on the number of players online.)
 show-max-players = -1
@@ -149,6 +149,6 @@ enable-player-address-logging = true
 	# Should Velocity pass the description from the backend server when responding to server list ping requests?
 	description = false
 	# Should Velocity pass the favicon (also known as the server icon) from the backend server when responding to server list ping requests?
-	favicon = false
+	favicon = true
 	# Should Velocity pass the mod list from the backend server when responding to server list ping requests?
 	modinfo = false

@@ -1,0 +1,69 @@
+on load:
+    set {_golden} to dandelion with custom nbt from "{backport_item:""golden_dandelion""}"
+    set name of {_golden} to "&6Golden Dandelion"
+
+    register shaped recipe:
+        id: "backport:golden_dandelion"
+        result: {_golden}
+        shape: "GGG", "GDG", "GGG"
+        ingredients:
+            set ingredient of "G" to gold nugget
+            set ingredient of "D" to dandelion
+
+
+on right click on entity:
+    # Check for our tagged Golden Dandelion
+    if string tag "backport_item" of custom nbt of player's tool is "golden_dandelion":
+
+        # Only living entities
+        if clicked entity is a living entity:
+
+            # Only babies
+            if clicked entity is a baby:
+
+                # Don't affect villagers or undead
+                if clicked entity is not a villager:
+                    if clicked entity is not a zombie:
+                        if clicked entity is not a zombie villager:
+                            if clicked entity is not a husk:
+                                if clicked entity is not a drowned:
+                                    if clicked entity is not a zombified piglin:
+                                        cancel event
+
+                                        # Toggle growth
+                                        if clicked entity can age:
+                                            lock age of clicked entity
+
+                                            # Spread particles around mob
+                                            loop 12 times:
+                                                set {_loc} to location of clicked entity
+                                                add random number between -0.5 and 0.5 to x-coordinate of {_loc}
+                                                add random number between 0.2 and 1.2 to y-coordinate of {_loc}
+                                                add random number between -0.5 and 0.5 to z-coordinate of {_loc}
+                                                make 1 of happy villager at {_loc}
+
+                                        else:
+                                            unlock age of clicked entity
+
+                                            # Spread particles around mob
+                                            loop 12 times:
+                                                set {_loc} to location of clicked entity
+                                                add random number between -0.5 and 0.5 to x-coordinate of {_loc}
+                                                add random number between 0.2 and 1.2 to y-coordinate of {_loc}
+                                                add random number between -0.5 and 0.5 to z-coordinate of {_loc}
+                                                make 1 of happy villager at {_loc}
+
+on place of dandelion:
+    if string tag "backport_item" of custom nbt of event-itemstack is "golden_dandelion":
+        set string tag "backport_item" of custom nbt of event-block to "golden_dandelion"
+
+
+on break of dandelion:
+    if string tag "backport_item" of custom nbt of event-block is "golden_dandelion":
+        set {_golden} to dandelion with custom nbt from "{backport_item:""golden_dandelion""}"
+        set name of {_golden} to "&6Golden Dandelion"
+
+        cancel event
+        set block at event-block to air
+        drop {_golden} at event-block
+

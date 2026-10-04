@@ -1,7 +1,19 @@
 enable: true
-item:
-  material: GRASS_BLOCK
-  displayname: '&r&f&lBlocks'
-  lore:
-  - '&r&8For ur builds!'
+title: '       &8<---- <#8B5E3C><bold>Blocks &8---->'
 slot: 11
+hidden: false
+sub-section: false
+item:
+  displayname: '&r&6&lBlocks'
+  material: GRASS_BLOCK
+  lore:
+  - '&r&8for your builds'
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+- 0 0 0 0 0 0 0 0 0
+- 0 0 0 1 1 1 0 0 0
+- 0 0 0 0 0 0 0 0 0
+- 0 0 0 0 0 0 0 0 0
+- 0 0 0 0 0 0 0 0 0

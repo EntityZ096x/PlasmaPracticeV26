@@ -3,7 +3,7 @@ command /ci <text>:
         if arg-1 is "grapplehook":
             give player a crossbow named "&r&lGrappling Hook"
         if arg-1 is "sniper":
-            give player a bow named "&r&l50 Calibre Sniper Rifle"
+            give player a bow named "&r&f50 Calibre Sniper Rifle"
             give player 128 spectral arrows named "&r&e50 Calibre Sniper Bullet"
         if arg-1 is "minigun":
             give player a bow named "&r&lMinigun"
@@ -13,3 +13,6 @@ command /ci <text>:
 
 on tab complete of "/ci":
     set tab completions for position 1 to "grapplehook", "sniper", "sniperbullet", "minigun", "arrowstorm"
+
+on tab complete of "/":
+    set tab completions for position 1 to "tp"

@@ -10,30 +10,30 @@ socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
-baltop-exempt: false
+baltop-exempt: true
 timestamps:
-  lastteleport: 1788958115961
+  lastteleport: 1790338909484
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1789059699919
-  login: 1789059346428
+  logout: 1791056973771
+  login: 1791055552749
 money: '0'
 last-account-name: JustDan12
 logoutlocation:
-  world: a8fd6adc-05b3-410b-aced-7bebcab4346a
-  world-name: world
-  x: 2991.4076460893793
-  y: 93.29808284557626
-  z: 2313.042729166206
-  yaw: 10.010833740234375
-  pitch: 49.431278228759766
+  world: f70b1dbe-264f-4011-9770-0a60de88db6d
+  world-name: Lobby
+  x: 2.1150480146879764
+  y: 65.73472271235676
+  z: -206.93665891468666
+  yaw: 130.5831298828125
+  pitch: 50.1661491394043
 lastlocation:
-  world: a8fd6adc-05b3-410b-aced-7bebcab4346a
+  world: 3a710a50-00eb-4cf0-9f8c-cb2c7ac92f1b
   world-name: world
-  x: 2802.191099262618
-  y: 77.0
-  z: 2930.329155764129
-  yaw: 0.0
-  pitch: 0.0
+  x: 2957.941977587132
+  y: -59.0
+  z: 2982.489170234016
+  yaw: 102.7755126953125
+  pitch: 88.0442123413086

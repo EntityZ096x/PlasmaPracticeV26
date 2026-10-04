@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 839,
+      "minecraft:time_since_rest": 202,
+      "minecraft:fall_one_cm": 267,
+      "minecraft:walk_one_cm": 419,
+      "minecraft:total_world_time": 818,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 3753,
+      "minecraft:play_time": 818,
+      "minecraft:deaths": 1,
+      "minecraft:jump": 16,
+      "minecraft:time_since_death": 202
+    },
+    "minecraft:used": {
+      "minecraft:elytra": 3,
+      "minecraft:netherite_chestplate": 2
+    }
+  },
+  "DataVersion": 4903
+}

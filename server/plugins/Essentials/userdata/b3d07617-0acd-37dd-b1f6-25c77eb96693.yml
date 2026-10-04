@@ -12,12 +12,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1790682576528
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1788886561398
+  logout: 1790972876064
+  login: 1790972861609
 money: '0'
 last-account-name: QuantumEcho
+logoutlocation:
+  world: f70b1dbe-264f-4011-9770-0a60de88db6d
+  world-name: Lobby
+  x: 0.1297314601746588
+  y: 64.0
+  z: 1.1736668292294066
+  yaw: 174.75
+  pitch: -3.6000001430511475
+lastlocation:
+  world: 11deaa68-2800-4aa2-8a82-ebe0b914079b
+  world-name: Survival
+  x: 1.4653017239322172
+  y: -59.0
+  z: 3.079773525939115
+  yaw: 112.19998931884766
+  pitch: -34.80000305175781

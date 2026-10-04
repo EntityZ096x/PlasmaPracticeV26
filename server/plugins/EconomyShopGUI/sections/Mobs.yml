@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: GUNPOWDER
+  displayname: '&r&6&lMobs'
+slot: 31

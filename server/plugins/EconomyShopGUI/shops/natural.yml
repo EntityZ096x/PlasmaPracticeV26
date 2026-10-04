@@ -1,0 +1,115 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: GRASS_BLOCK
+        buy: 1.0
+        sell: 0.25
+      '2':
+        material: PODZOL
+        buy: 1.0
+        sell: 0.25
+      '3':
+        material: MYCELIUM
+        buy: 1.0
+        sell: 0.25
+      '4':
+        material: DIRT
+        buy: 1.0
+        sell: 0.25
+      '5':
+        material: MUD
+        buy: 1.0
+        sell: 0.25
+      '6':
+        material: CLAY
+        buy: 1.0
+        sell: 0.25
+      '7':
+        material: GRAVEL
+        buy: 1.0
+        sell: 0.25
+      '8':
+        material: SAND
+        buy: 1.0
+        sell: 0.25
+      '9':
+        material: SANDSTONE
+        buy: 2.0
+        sell: 0.5
+      '10':
+        material: RED_SAND
+        buy: 1.0
+        sell: 0.25
+      '11':
+        material: RED_SANDSTONE
+        buy: 2.0
+        sell: 0.5
+      '12':
+        material: ICE
+        buy: 1.0
+        sell: 0.25
+      '13':
+        material: PACKED_ICE
+        buy: 9.0
+        sell: 2.25
+      '14':
+        material: BLUE_ICE
+        buy: 81.0
+        sell: 20.25
+      '15':
+        material: SNOW_BLOCK
+        buy: 1.0
+        sell: 0.25
+      '16':
+        material: MOSS_BLOCK
+        buy: 1.0
+        sell: 0.25
+      '17':
+        material: PALE_MOSS_BLOCK
+        buy: 1.0
+        sell: 0.25
+      '18':
+        material: STONE
+        buy: 1.0
+        sell: 0.25
+      '19':
+        material: DEEPSLATE
+        buy: 2.0
+        sell: 0.5
+      '20':
+        material: GRANITE
+        buy: 1.0
+        sell: 0.25
+      '21':
+        material: DIORITE
+        buy: 1.0
+        sell: 0.25
+      '22':
+        material: ANDESITE
+        buy: 1.0
+        sell: 0.25
+      '23':
+        material: CALCITE
+        buy: 1.0
+        sell: 0.25
+      '24':
+        material: TUFF
+        buy: 1.0
+        sell: 0.25
+      '25':
+        material: DRIPSTONE_BLOCK
+        buy: 1.0
+        sell: 0.25
+      '26':
+        material: MAGMA_BLOCK
+        buy: 1.0
+        sell: 0.25
+      '27':
+        material: OBSIDIAN
+        buy: 100.0
+        sell: 25.0
+      '28':
+        material: CRYING_OBSIDIAN
+        buy: 1.0
+        sell: 0.25

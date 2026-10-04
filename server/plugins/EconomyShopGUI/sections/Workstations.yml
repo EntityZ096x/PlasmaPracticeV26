@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: CRAFTING_TABLE
+  displayname: '&r&6&lWorkstations'
+slot: 33
