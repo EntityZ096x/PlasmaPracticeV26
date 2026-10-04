@@ -770,3 +770,127 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 [19:44:09] [Server thread/INFO]: JustDan12 issued server command: //pos2
 [19:44:11] [Server thread/INFO]: JustDan12 issued server command: //set air
 [19:45:04] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:47:23] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:47:27] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 13
+[19:47:37] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:47:44] [Server thread/INFO]: JustDan12 issued server command: //brush sphere 33%bone_block,33%calcite,34%pale_oak_wood 13
+[19:48:43] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:48:44] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:48:44] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:48:44] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:49:09] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:49:13] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:49:17] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:50:47] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:51:24] [Server thread/INFO]: JustDan12 issued server command: //pos1
+[19:51:37] [Server thread/INFO]: JustDan12 issued server command: //pos2
+[19:51:39] [Server thread/INFO]: JustDan12 issued server command: //set air
+[19:52:12] [User Authenticator #6/INFO]: UUID of player QuantumEcho is b3d07617-0acd-37dd-b1f6-25c77eb96693
+[19:52:13] [Server thread/INFO]: [+] QuantumEcho
+[19:52:13] [Server thread/INFO]: QuantumEcho[/127.0.0.1:35686] logged in with entity id 960 at ([minecraft:lobby]0.1297314601746588, 64.0, 1.1736668292294066)
+[19:52:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[19:52:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[19:52:15] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » yo
+[19:52:19] [Server thread/INFO]: QuantumEcho issued server command: /login creeper45
+[19:52:22] [Async Chat Thread - #1/INFO]: [Not Secure] QuantumEcho » yo
+[19:52:30] [Server thread/INFO]: QuantumEcho lost connection: Disconnected
+[19:52:30] [Server thread/INFO]: [-] QuantumEcho
+[19:52:31] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » im building unstable inspired castle
+[19:52:35] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » dallllright
+[19:53:57] [User Authenticator #7/INFO]: UUID of player QuantumEcho is b3d07617-0acd-37dd-b1f6-25c77eb96693
+[19:53:58] [Server thread/INFO]: [+] QuantumEcho
+[19:53:58] [Server thread/INFO]: QuantumEcho[/127.0.0.1:34588] logged in with entity id 994 at ([minecraft:lobby]2.983767939124266, 64.0, -5.0029921298338245)
+[19:53:58] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[19:53:58] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[19:54:05] [Server thread/INFO]: QuantumEcho issued server command: /login creeper45
+[19:54:19] [Async Chat Thread - #3/INFO]: [Not Secure] Admin || JustDan12 || » yk unstable smp spawn cindercrest castle?
+[19:54:40] [Async Chat Thread - #3/INFO]: [Not Secure] Admin || JustDan12 || » yk unstable smp spawn cindercrest castle?
+[19:54:41] [Async Chat Thread - #2/INFO]: [Not Secure] Admin || JustDan12 || » yk unstable smp spawn cindercrest castle?
+[19:54:41] [Async Chat Thread - #2/INFO]: [Not Secure] Admin || JustDan12 || » yk unstable smp spawn cindercrest castle?
+[19:54:42] [Async Chat Thread - #2/INFO]: [Not Secure] Admin || JustDan12 || » yk unstable smp spawn cindercrest castle?
+[19:54:58] [Server thread/INFO]: JustDan12 issued server command: /tp QuantumEcho JustDan12
+[19:55:03] [Async Chat Thread - #2/INFO]: [Not Secure] Admin || JustDan12 || » ima build it
+[19:55:07] [Async Chat Thread - #3/INFO]: [Not Secure] Admin || JustDan12 || » atleast
+[19:55:18] [Async Chat Thread - #2/INFO]: [Not Secure] Admin || JustDan12 || » try to replicate it kinda
+[19:55:37] [Server thread/INFO]: JustDan12 issued server command: //brush sphere 33%bone_block,33%calcite,34%pale_oak_wood 15
+[19:57:24] [Async Chat Thread - #4/INFO]: [Not Secure] QuantumEcho » yo
+[19:57:27] [Async Chat Thread - #4/INFO]: [Not Secure] Admin || JustDan12 || » yo
+[19:57:29] [Server thread/INFO]: JustDan12 issued server command: //pos1
+[19:57:30] [Async Chat Thread - #5/INFO]: [Not Secure] QuantumEcho » what u replicate
+[19:57:39] [Server thread/INFO]: JustDan12 issued server command: //pos2
+[19:57:40] [Server thread/INFO]: JustDan12 issued server command: //set air
+[19:57:49] [Async Chat Thread - #4/INFO]: [Not Secure] Admin || JustDan12 || » unstable spawn cindercrest castle
+[19:58:10] [Server thread/INFO]: JustDan12 issued server command: /fly
+[19:58:13] [Server thread/INFO]: JustDan12 issued server command: /fly
+[19:58:15] [Server thread/INFO]: JustDan12 issued server command: /fly QuantumEcho
+[19:58:27] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » zelu unopped u idk why
+[19:58:42] [Server thread/INFO]: JustDan12 issued server command: //brush sphere 33%bone_block,33%calcite,34%pale_oak_wood 13
+[19:58:47] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:58:50] [Server thread/INFO]: JustDan12 issued server command: //brush sphere 33%bone_block,33%calcite,34%pale_oak_wood 10
+[19:59:01] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:59:20] [Async Chat Thread - #5/INFO]: [Not Secure] QuantumEcho » he deopped me bc i killed his dog
+[19:59:25] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » dallright
+[19:59:43] [Async Chat Thread - #5/INFO]: [Not Secure] QuantumEcho » i have him 1 dolla dolla just to join
+[19:59:45] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:59:47] [Async Chat Thread - #4/INFO]: [Not Secure] QuantumEcho » HELP
+[20:00:07] [Async Chat Thread - #4/INFO]: [Not Secure] QuantumEcho » can u put me in creative?
+[20:00:10] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » nah
+[20:00:15] [Async Chat Thread - #5/INFO]: [Not Secure] QuantumEcho » why?
+[20:00:18] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » zelu would deop me
+[20:00:20] [Server thread/INFO]: JustDan12 issued server command: //undo
+[20:00:34] [Async Chat Thread - #4/INFO]: [Not Secure] QuantumEcho » pls i want to make some armor
+[20:00:36] [Async Chat Thread - #4/INFO]: [Not Secure] Admin || JustDan12 || » why
+[20:00:44] [Async Chat Thread - #5/INFO]: [Not Secure] QuantumEcho » idk
+[20:00:48] [Async Chat Thread - #4/INFO]: [Not Secure] QuantumEcho » i just want to
+[20:00:56] [Async Chat Thread - #5/INFO]: [Not Secure] QuantumEcho » HELP
+[20:01:23] [Async Chat Thread - #6/INFO]: [Not Secure] QuantumEcho » DAN HELP
+[20:01:26] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » nah
+[20:01:29] [Async Chat Thread - #6/INFO]: [Not Secure] QuantumEcho » WHY
+[20:01:31] [Server thread/INFO]: JustDan12 issued server command: /tp QuantumEcho JustDan12
+[20:01:41] [Server thread/INFO]: JustDan12 issued server command: //pos1
+[20:01:49] [Async Chat Thread - #6/INFO]: [Not Secure] QuantumEcho » can ui have creative pls
+[20:01:53] [Server thread/INFO]: JustDan12 issued server command: //pos2
+[20:01:54] [Server thread/INFO]: JustDan12 issued server command: //set air
+[20:02:18] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » u cant even place why u need it
+[20:02:25] [Async Chat Thread - #5/INFO]: [Not Secure] QuantumEcho » to make armor
+[20:02:28] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » nah
+[20:02:33] [Async Chat Thread - #5/INFO]: [Not Secure] QuantumEcho » why?
+[20:02:33] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » u dont need armor
+[20:02:43] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » i gtg to sleep
+[20:02:48] [Async Chat Thread - #5/INFO]: [Not Secure] QuantumEcho » but i want to
+[20:03:03] [Server thread/INFO]: JustDan12 issued server command: //brush sphere 33%bone_block,33%calcite,34%pale_oak_wood 5
+[20:03:08] [Server thread/INFO]: JustDan12 issued server command: /fly QuantumEcho
+[20:03:10] [Server thread/INFO]: JustDan12 issued server command: /fly QuantumEcho
+[20:03:11] [Async Chat Thread - #5/INFO]: [Not Secure] QuantumEcho » bro pls
+[20:03:37] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » ask zelu
+[20:03:57] [Async Chat Thread - #5/INFO]: [Not Secure] QuantumEcho » can u ask him tomorrow
+[20:03:59] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » fine
+[20:04:03] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » BUT ONLY FOR THIS
+[20:04:05] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » wait
+[20:04:08] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » u cant even place
+[20:04:10] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » or break
+[20:04:11] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » so no
+[20:04:16] [Async Chat Thread - #6/INFO]: [Not Secure] QuantumEcho » WHY
+[20:04:27] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » cus i needed ur help in building but u cant so no
+[20:04:43] [Async Chat Thread - #6/INFO]: [Not Secure] QuantumEcho » ok ill help
+[20:04:51] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » u cant break or place
+[20:05:00] [Async Chat Thread - #6/INFO]: [Not Secure] QuantumEcho » then make me be able
+[20:05:03] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » i cant
+[20:05:09] [Async Chat Thread - #6/INFO]: [Not Secure] QuantumEcho » why
+[20:05:13] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » only owner rank can op other ppl
+[20:05:20] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » any zelu sees in logs
+[20:05:30] [Async Chat Thread - #6/INFO]: [Not Secure] QuantumEcho » u need to be opped for that?
+[20:05:32] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » ye
+[20:06:46] [Async Chat Thread - #7/INFO]: [Not Secure] QuantumEcho » why do u need e gapple to make a banner pattern
+[20:06:55] [Async Chat Thread - #7/INFO]: [Not Secure] Admin || JustDan12 || » idk
+[20:07:27] [Async Chat Thread - #7/INFO]: [Not Secure] QuantumEcho » thats up
+[20:07:57] [Server thread/INFO]: JustDan12 issued server command: /fly QuantumEcho
+[20:08:03] [Async Chat Thread - #7/INFO]: [Not Secure] QuantumEcho » dang bro doenst like it to be destroyed
+[20:08:05] [Async Chat Thread - #7/INFO]: [Not Secure] Admin || JustDan12 || » cya
+[20:08:10] [Async Chat Thread - #8/INFO]: [Not Secure] QuantumEcho » WHY
+[20:08:17] [Async Chat Thread - #7/INFO]: [Not Secure] Admin || JustDan12 || » i gtg cya
+[20:08:20] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[20:08:20] [Server thread/INFO]: [-] JustDan12
+[20:08:25] [Async Chat Thread - #7/INFO]: [Not Secure] QuantumEcho » NOOOOOOOOOOOOOOOOOOOOOO
+[20:08:54] [Server thread/INFO]: QuantumEcho lost connection: Disconnected
+[20:08:54] [Server thread/INFO]: [-] QuantumEcho
