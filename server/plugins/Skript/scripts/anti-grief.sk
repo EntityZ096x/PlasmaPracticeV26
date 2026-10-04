@@ -1,0 +1,17 @@
+on block break:
+    if world is "Lobby":
+        if {debug.%player%} is not "enabled":
+            send "<#ff0000>You're not allowed to do that."
+            cancel event
+
+on block place:
+    if world is "Lobby":
+        if {debug.%player%} is not "enabled":
+            send "<#ff0000>You're not allowed to do that."
+            cancel event
+
+on damage:
+    if world is "Lobby":
+        if {debug.%attacker%} is not "enabled":
+            send "<#ff0000>You're not allowed to do that." to attacker
+            cancel event

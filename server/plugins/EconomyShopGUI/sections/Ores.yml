@@ -1,7 +1,19 @@
 enable: true
+title: '        &8<---- <#6B4F70>&lOres &8---->'
+slot: 15
+hidden: false
 item:
   material: DIAMOND
   displayname: '&r&b&lOres'
   lore:
   - '&r&8Dihmonds!'
-slot: 13
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 0 0 1 1 1 0 0 0'
+  - '0 0 0 1 1 1 0 0 0'
+  - '0 0 0 1 1 1 0 0 0'
+  - '0 0 0 1 1 1 0 0 0'
+  - '0 0 0 0 0 0 0 0 0'

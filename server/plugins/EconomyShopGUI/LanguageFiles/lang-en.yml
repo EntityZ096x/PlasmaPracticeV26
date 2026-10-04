@@ -39,9 +39,20 @@ economy-providers-loaded: Completed loading %total% economy provider(s) for all 
 section-economy-provider-loaded: Using '%economy%' as default economy for shop '%shop%'
 loaded-shop-stand-module: Completed loading %count% shop stand(s) from stands.json
 saving-shop-stands: Saving %count% shop stands to 'stands.json'...
+loading-language-files: Loading language files from LanguageFiles folder...
+failed-to-load-language-file: Failed to load language file '%fileName%', skipping...
+failed-to-get-locale: Failed to get language for file name '%fileName%', skipping...
+loaded-language-files: Successfully loaded %amount% language files from /LanguageFiles/ folder
+failed-to-load-language-files: Failed to load per player languages because LanguageFiles folder cannot be found
+error-loading-bedrock-icons: 'Failed to load bedrock item icons with reason: %reason%'
+cannot-get-geyser-palette: Could not get the latest Geyser item palette, icons for items in bedrock forms will not load!
+successfully-loaded-bedrock-icons: Successfully loaded %amount% item icon ids for bedrock forms
+loading-item-ids-from-geyser: Loading bedrock item ids from installed Geyser instance(%instanceVersion%)...
+error-loading-enchantment-costs: Failed to load enchantment variations because the enchant-costs.yml config cannot be read
+enchantment-costs-loaded: Successfully loaded %amount% enchantment costs from enchant-costs.yml
 
 #Shop prefix
-shop-prefix: '&9&lShop &8&l>> '
+shop-prefix: '<#ff0000>&lShop &8»&r '
 
 #Main Shop Inventory
 inventory-main-shop-title: '&8&lServer Shop'
@@ -73,6 +84,7 @@ transaction-screen-total-price: '&3%price%'
 transaction-screen-total-amount: '&5x %amount%'
 max-amount-reached: '&cMax amount reached'
 min-amount-reached: '&cMin amount reached'
+selected-amount: '&aAmount'
 
 # ShopStands transactions
 shopstand-buy-screen-title: '&8Buying &a&l> &r&8%item%'
@@ -98,8 +110,8 @@ created-new-shop-stand: '&aSuccessfully created new ShopStand for &f%item%'
 error-creating-new-shop-stand: '&cFailed to create a new shop stand: %reason%'
 
 #All Inventory's
-back: '&4Back'
-cancel: '&4Cancel'
+back: '&c&lBack'
+cancel: '&c&lCancel'
 
 #Previous/Next/Current page
 previous-page: '&dPrevious Page'
@@ -122,6 +134,7 @@ decoration-lore: '\n &e&lUsage:'
 decoration-lore-buy: '&e ╚&e&l» &fLeft click to buy'
 decoration-lore-sell-all: '&e ╚&e&l» &fShift + Right Click to sell all'
 decoration-lore-sell: '&e ╚&e&l» &fRight click to sell'
+decoration-lore-view: '&e ╚&e&l» &fClick to view\n '
 time-requirement-lore: '&c&lCan only be purchased between\n&c%minTime% &land &c%maxTime% &lingame time.'
 quest-requirement-lore: '&c&lRequires to complete quest &b&l%questName%'
 region-requirement-lore: '&c&lRequires to be inside region &b&l%regionName%'

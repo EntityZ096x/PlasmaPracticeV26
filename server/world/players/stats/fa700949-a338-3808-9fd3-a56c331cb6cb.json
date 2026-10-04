@@ -1,0 +1,96 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:netherite_helmet": 1,
+      "minecraft:elytra": 7,
+      "minecraft:crafting_table": 1,
+      "minecraft:netherite_boots": 1,
+      "minecraft:netherite_chestplate": 6,
+      "minecraft:totem_of_undying": 3,
+      "minecraft:fire_charge": 4,
+      "minecraft:mace": 24,
+      "minecraft:firework_rocket": 20,
+      "minecraft:fishing_rod": 13
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 4298,
+      "minecraft:leave_game": 6,
+      "minecraft:mob_kills": 15,
+      "minecraft:damage_taken": 5080,
+      "minecraft:damage_absorbed": 160,
+      "minecraft:time_since_death": 4278,
+      "minecraft:aviate_one_cm": 181048,
+      "minecraft:damage_dealt_absorbed": 468,
+      "minecraft:total_world_time": 50967,
+      "minecraft:swim_one_cm": 867,
+      "minecraft:crouch_one_cm": 695,
+      "minecraft:climb_one_cm": 1826,
+      "minecraft:deaths": 26,
+      "minecraft:player_kills": 1,
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:walk_one_cm": 28948,
+      "minecraft:walk_under_water_one_cm": 11849,
+      "minecraft:play_time": 50967,
+      "minecraft:damage_dealt": 1258,
+      "minecraft:jump": 362,
+      "minecraft:drop": 25,
+      "minecraft:sprint_one_cm": 38043,
+      "minecraft:fall_one_cm": 51474,
+      "minecraft:fly_one_cm": 184279,
+      "minecraft:walk_on_water_one_cm": 7549,
+      "minecraft:sneak_time": 671
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:wooden_sword": 1,
+      "minecraft:birch_planks": 8,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 8,
+      "minecraft:tall_grass": 3,
+      "minecraft:dandelion": 1,
+      "minecraft:birch_log": 2,
+      "minecraft:leaf_litter": 2,
+      "minecraft:birch_leaves": 3,
+      "minecraft:pink_petals": 2,
+      "minecraft:structure_void": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:totem_of_undying": 1,
+      "minecraft:fishing_rod": 1,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:mace": 19,
+      "minecraft:dandelion": 2,
+      "minecraft:brown_wool": 1
+    },
+    "minecraft:broken": {
+      "minecraft:fishing_rod": 4
+    },
+    "minecraft:killed": {
+      "minecraft:chicken": 4,
+      "minecraft:sheep": 4,
+      "minecraft:cow": 4,
+      "minecraft:wolf": 3
+    },
+    "minecraft:picked_up": {
+      "minecraft:cobblestone": 16,
+      "minecraft:totem_of_undying": 1,
+      "minecraft:brown_wool": 4,
+      "minecraft:feather": 4,
+      "minecraft:chicken": 3,
+      "minecraft:beef": 3,
+      "minecraft:leaf_litter": 6,
+      "minecraft:mace": 20,
+      "minecraft:dandelion": 9,
+      "minecraft:birch_log": 2,
+      "minecraft:wheat_seeds": 6,
+      "minecraft:mutton": 4,
+      "minecraft:pink_petals": 91
+    }
+  },
+  "DataVersion": 4903
+}

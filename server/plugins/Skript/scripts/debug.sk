@@ -1,10 +1,26 @@
-command /whatblockisthis:
+on command:
+    if command contains "debug":
+        if command is not "debug":
+            if {debug.%player%} is not "enabled":
+                send "&r&4You're not allowed to use this command."
+                cancel event
+
+command /debug.whatblockisthis:
     trigger:
         send player's targeted block to player
 
-command /whatitemisthis:
+command /debug.whatitemisthis:
     trigger:
         send player's tool to player
+
+command /debug.whatworldamiin:
+    trigger:
+        send player's world to player
+
+command /debug.whatlightlevelisthisblock:
+    trigger:
+        send light level of player's targeted block to player
+
 
 command /debug:
     trigger:
@@ -29,16 +45,8 @@ on chat:
 
 command /debug.reload:
     trigger:
-        if {debug.%player%} is not "enabled":
-            send "&r&4You're not allowed to use this command."
-            stop
         execute player command "/sk reload debug.sk"
 
-command /debug.titan: 
-    trigger:
-        if {debug.%player%} is not "enabled":
-            send "&r&4You're not allowed to use this command."
-            stop
             
 on damage:
     wait 1 tick
@@ -54,19 +62,32 @@ on damage:
             add amount of victim's offhand item to {_totems}
 
         send "&r&7Totems:&r&a %{_totems}%" to attacker
-        send "&r&7Absorption:&r&6 %victim's absorption amount%" to attacker
+        send "&r&7Absorption:&r&6 %victim's absorption amount / 2%" to attacker
 
-command /ghostblockify:
+command /debug.ghostblockify:
     trigger:
         set {_loc} to player's target block's location
         make player see {_loc} as air
 
-command /unghostblockify:
+command /debug.unghostblockify:
     trigger:
         set {_loc} to player's target block's location
         make player see {_loc} as block at {_loc}
 
-command /falldis <number>:
+command /debug.falldis <number>:
     trigger:
         set player's fall distance to arg-1
         send "&r&7Your fall distance has been set to %arg-1%"
+
+command /debug.whatismyuuid:
+    trigger:
+        send player's uuid to player
+
+command /debug.testvar <text>:
+    trigger:
+        send "%{%arg-1%}%" to player
+
+
+command /debug.cnbtcheck:
+    trigger:
+        send "%custom nbt of player's tool%" to player

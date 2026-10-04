@@ -60,7 +60,7 @@ reset-nick-on-name-change: false
 hide-displayname-in-vanish: true
 
 # Disable this if you have any other plugin that modifies the display name of a player.
-change-displayname: true
+change-displayname: false
 
 # This option will cause Essentials to show players' display names instead of usernames when tab completing Essentials commands.
 # If your tab completions include prefixes and suffixes, set this option to false.
@@ -182,6 +182,10 @@ overridden-commands:
 disabled-commands:
   - kit
   - create
+  - kits
+  - createkit
+  - deletekit
+  - sell
 
 # Whether Essentials should show detailed command usages.
 # If set to false, Essentials will collapse all usages in to one single usage message.

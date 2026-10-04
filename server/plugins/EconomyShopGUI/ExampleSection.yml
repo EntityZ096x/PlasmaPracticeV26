@@ -18,6 +18,10 @@ slot: 5
 title: "&c&lExample_Shop"
 # Defaults to the item name if empty
 
+# The title of this shop only shown in bedrock forms
+bedrock-title: "&dOnly shown for bedrock players"
+# Defaults to the shop title if empty
+
 # Whether this shop section can be seen and accessed via the main shop
 # If a section is hidden, it will be only accessible through the direct shop command (/shop <shopName>)
 hidden: false
@@ -31,9 +35,13 @@ sub-section: false
 # neither will this section be accessible via /shop <shopName>
 display-item: true
 
+# Hides this shop's item from the main menu if the player
+# does not have permissions to this shop
+hide-if-no-perms: true
+
 # The economy used within this section, this is the same format as the config.yml uses
 # See a list of all available economy types here: https://wiki.gpplugins.com/economyshopgui/file-configuration/config.yml#economy-provider
-economy: "ITEM:material:EMERALD name:&a&lGems"
+economy: "ZESSENTIALS:Gems"
 
 # The section fill item
 # This item will be added to every empty slot inside the section
@@ -63,6 +71,19 @@ click-mappings:
   BUY: LEFT
   SELL: RIGHT
   SELL_ALL: SHIFT_RIGHT
+
+# Allows shop items within this shop category to be sold with additional enchantments that add a sell price on top of the item's price
+enchanted-variants: true
+
+damaged-items:
+  # Enable or disable this
+  # When disabled, items that are damaged cannot be sold to this shop unless added separately
+  enabled: true
+
+  # Formula: (original price * durability percent) * price diff
+  # For example a diamond sword that has only half the durability left and with a price difference of 100%(eg 1)
+  # where a regular diamond sword costs 2000, will now cost only 1000 for the damaged sword
+  price-difference: 0.85
 
 # The navigation bar which defaults to this section
 # Leave empty to make this section inherit its navigation bar from the fall-back nav bar at the config.yml

@@ -1,11 +1,3 @@
-on right click with firework rocket:
-    if chestplate of player is elytra:
-        if player is not on the ground:
-            if {hax.fastelytra.%player%} is "enabled":
-                set gliding of player to true
-            else if {client.%player%} is "eagler":
-                set gliding of player to true
-
 on resurrect attempt:
     wait 1 tick
     if player's inventory contains totem of undying:

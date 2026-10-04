@@ -1,0 +1,45 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "minecraft:bow": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 28
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 6460,
+      "minecraft:walk_one_cm": 12518,
+      "minecraft:leave_game": 4,
+      "minecraft:damage_taken": 44542,
+      "minecraft:play_time": 25601,
+      "minecraft:jump": 27,
+      "minecraft:time_since_death": 6458,
+      "minecraft:damage_dealt_absorbed": 400,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 956,
+      "minecraft:fall_one_cm": 90964,
+      "minecraft:total_world_time": 25601,
+      "minecraft:fly_one_cm": 5578,
+      "minecraft:deaths": 30,
+      "minecraft:player_kills": 3
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1
+    },
+    "minecraft:used": {
+      "minecraft:totem_of_undying": 1,
+      "minecraft:bow": 136
+    },
+    "minecraft:broken": {
+      "minecraft:netherite_leggings": 1,
+      "minecraft:netherite_helmet": 1,
+      "minecraft:netherite_chestplate": 1,
+      "minecraft:netherite_boots": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:bow": 1,
+      "minecraft:pink_petals": 4
+    }
+  },
+  "DataVersion": 4903
+}

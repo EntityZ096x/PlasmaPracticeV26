@@ -36,14 +36,17 @@
 #                                                                                  #
 ####################################################################################
 #
-config-version: 2.0.1.6
+config-version: 2.0.1.9
 # WARNING: Do not change this value as this might end up in a plugin that does not work!!
 #----------------------------------------------Language-------------------------------------------------
 
 # Here you can change the language of the plugin.
 language-file: lang-en.yml
-
 # See this link for all available language files: https://wiki.gpplugins.com/economyshopgui/file-configuration/languages#currently-supported-languages
+
+# If enabled, chat messages, gui titles and item lore used with %translations-<message>% placeholders will be translated in the players client language
+# If a message is not translated into the players locale or the language file does not exist for the players client language, it will use the language file configured above
+per-player-languages: false
 
 
 #-----------------------------------------------Locale--------------------------------------------------
@@ -55,7 +58,7 @@ language-file: lang-en.yml
 locale: en-US
 # Note: This is not the locale at which messages will be translated, see the above option for that.
 # The locale is set in BCP 47 language tag.
-# See this website for some example BCP 47 language tag you can use: https://appmakers.dev/bcp-47-language-codes-list/
+# See this website for some example BCP 47 language tag you can use: https://gist.github.com/typpo/b2b828a35e683b9bf8db91b5404f1bd1
 
 # Currency format
 currency-format: '#,##0.00'
@@ -138,7 +141,7 @@ shop-stands:
 
 # The setting below enables or disables the disabled commands inside certain worlds feature
 # When this option is true, the commands that are added to the world inside the list below will be disabled
-enable-disabled-worlds: true
+enable-disabled-worlds: false
 
 # List of commands with disabled worlds
 # Each command has its own list of worlds that will be disabled.
@@ -165,10 +168,11 @@ disabled-worlds-per-command:
 # Use this to set a different economy provider other than vault
 # Supported economy types:
 # VAULT = Economy API which requires a separate economy plugin to be installed like Essentials or CMI
+# VAULTUNLOCKED = A fork of the original Vault supporting multi currency economy plugins using 'VAULTUNLOCKED:<currency>'
 # PLAYER_POINTS = Economy provider which supports MySQL
 # GEMS_ECONOMY = Economy provider which supports multiple currencies using 'GEMS_ECONOMY:<currency>'
 # ULTRA_ECONOMY = Economy provider which supports multiple currencies using 'ULTRA_ECONOMY:<currency>'
-# COINS_ENGINE = Economy provider(formerly known as GamePoints) which supports multiple currencies using 'COINS_ENGINE:<currency>'
+# EXCELLENT_ECONOMY = Economy provider(formerly known as GamePoints) which supports multiple currencies using 'COINS_ENGINE:<currency>'
 # VOTING_PLUGIN = Points economy from VotingPlugin
 # ZESSENTIALS = Alternative essentials plugin supporting multiple currencies using 'ZESSENTIALS:<currency>'
 # EXP = Raw XP points used to enchant items
@@ -212,6 +216,7 @@ currency-formats:
 # SPAWNERMETA = An external spawner provider that can stack & upgrade spawners
 # SPAWNERLEGACY = The premium version of SpawnerMeta with more features/customize-ability
 # SMART_SPAWNER = A spawner provider which supports stacking spawners
+# PURPUR = Build in spawner provider in Purpur servers
 spawner-provider: AUTO
 # NOTE: When there is no spawner provider set, the default will be used
 
@@ -299,6 +304,54 @@ use-item-name: true
 
 #-----------------------------------------------Bedrock--------------------------------------------------
 
+# NOTE: All features related to bedrock require Floodgate to be installed on the same server ESGUI runs
+
+bedrock-forms:
+  # When enabled, bedrock players will be shown the shop menus as Bedrock Forms
+  enable: true
+
+  # When enabled, uses the custom JSON forms pack for Geyser, overriding the list style of vanilla forms
+  # This solves several issues which Geyser's default menus cannot:
+  # - Bedrock players with small screens do not have the inventory contents scrambled
+  # - Supports all GUI sizes (Unlike Geyser's translated menus which only support a full sized or a half sized chest)
+  # - Easy support for custom GUI textures for bedrock players
+  # - No floating chest above your screen when opening a /shop menu
+  use-grid-forms: false
+  # When this is disabled, it will show the forms regularly in a list style
+  # NOTE that this feature requires to install and setup the ShopForms pack, else this will show the regular forms
+  # see more info here:
+
+  # Originally the bedrock forms were added to solve one big issue for bedrock players:
+  # Devices that use tap/toutch to interact and have smaller screens like phones, have the GUI/chest menus squashed
+  # which ruins the experience as buttons do not appear on the places they should be and the whole grid gets scrambled
+  # So enabling this will only display the bedrock Forms for such players and use the
+  # regular/default translated chest GUI from Geyser for players that can hover over items with a mouse like Bedrock for Windows
+  only-enable-for-touch-devices: false
+
+  # On bedrock clients which rely on touch to interact (Like on phones, ipads, ...)
+  # Clicking a item would normally execute its actions without the bedrock player getting a chance to see its tooltip
+  # So when this is enabled, bedrock clients require to double click a item to execute its action, whereas the first click
+  # selects the item and shows its tooltip, that way they can see a shop/section item's item name/lore
+  use-double-click-for-touch-devices: true
+
+  # The settings below are only used when Geyser is not installed
+  # on the backend server where ESGUI runs and instead runs on the proxy server
+  item-ids:
+    # Bedrock forms use item icons, unlike chests which use actual items
+    # These icons ID's are directly resolved from Geyser, but when not installed on the same server as the plugin,
+    # it will automatically download the latest version from their github
+    # Use below interval to prevent the server from downloading the file over again on every plugin load
+    # and cache them for a certain amount of hours, set to -1 to disable caching and to make sure the server downloads a fresh copy every reboot
+    # When a new version of bedrock is released, icon id's can change, so if these id's aren't up to date, item textures might be mixed for something else or new items might fail to load their icon
+    # Redownloading these files happens async and is not noticeable at all in server performance, so leave these at the default settings if you don't know what you're doing
+    cache: 48
+    # By default the plugin uses the latest version of the item id's, but if for whatever reason this does not work or item textures get mixed up,
+    # you may override this by setting the value below to a specific version, like '26_0' or '26_40'
+    geyser-palette-version: ''
+    # Set to true to force update the cache on next /sreload or server restart, ignoring the expiry time
+    # When a force update completes, this config option disables itself automatically to prevent entering a loop and skipping the cache time
+    force-update: false
+
 # When this option is true, all GUI screens opened for bedrock players will default to a full sized inventory
 resize-gui-for-bedrock: true
 
@@ -325,9 +378,13 @@ custom-bedrock-player-profile:
 
 #---------------------------------------------Inventory's------------------------------------------------
 
+# The delay between clicks in GUI's in milliseconds
+click-cooldown: 125
+# Note: This option requires a server restart for changes
+
 # Whether the previous GUI menu should open when pressing the escape button
 # Example: Pressing escape to close the inventory when inside the buy/sell screen, will open the shop page of the shop section from this item
-escape-back: true
+escape-back: false
 # This won't work when the back button is disabled
 # Note: This option requires a server restart for changes
 
@@ -352,6 +409,7 @@ click-mappings:
 # These are globally specified mappings, meaning if a section does not override these mappings, it will default to this
 
 # Inventory settings for the /sellgui screen
+# Note: This option requires a server restart for changes
 sellgui-screen:
   gui-rows: 6
 #  items:
@@ -391,9 +449,9 @@ main-menu-nav-bar:
     1:
       material: player_head
       skullowner: '%player_name%'
-      name: '&f%player_name%'
+      name: '%player_displayname%'
       lore:
-      - '&ebalance: &r&a%player_balance%'
+      - '%translations-money%: &c%player_balance%'
     2:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
@@ -417,12 +475,8 @@ main-menu-nav-bar:
       name: ' '
     9:
       material: BARRIER
-      name: '&cCancel'
+      name: '%translations-cancel%'
       action: BACK
-  fill-item:
-    material: GRAY_STAINED_GLASS_PANE
-    name: ' '
-    enable: true
 
 # The 'default' navigation bar for every shop category
 # Note that disabling the navigation bar here, will also disable it for every shop category which does not have its own navigation bar configured
@@ -430,11 +484,8 @@ shops-nav-bar:
   enabled: true
   items:
     1:
-      material: player_head
-      skullowner: '%player_name%'
-      name: '&f%player_name%'
-      lore:
-      - '&ebalance: &r&a%player_balance%'
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
     2:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
@@ -444,7 +495,7 @@ shops-nav-bar:
     4:
       material: player_head
       skullowner: MHF_ArrowLeft
-      name: '&r&e<< Previous page'
+      name: '%translations-previous-page%'
       action: PAGE_BACK
       paginated:
         enabled: true
@@ -457,7 +508,7 @@ shops-nav-bar:
     6:
       material: player_head
       skullowner: MHF_ArrowRight
-      name: '&r&eNext Page >>'
+      name: '%translations-next-page%'
       action: PAGE_NEXT
       paginated:
         enabled: true
@@ -472,12 +523,8 @@ shops-nav-bar:
       name: ' '
     9:
       material: BARRIER
-      name: '&cBack'
+      name: '%translations-back%'
       action: BACK
-  fill-item:
-    material: GRAY_STAINED_GLASS_PANE
-    name: ' '
-    enable: true
 
 # The navigation bar that appears in the buy/sell screens and the buy stacks screen
 # Available action: 'TOGGLE_MODE' - Switches between buy/sell mode
@@ -487,9 +534,9 @@ transaction-screens-nav-bar:
     1:
       material: player_head
       skullowner: '%player_name%'
-      name: '&f%player_name%'
+      name: '%player_displayname%'
       lore:
-      - '&ebalance: &r&a%player_balance%'
+      - '%translations-money%: &c%player_balance%'
     2:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
@@ -520,12 +567,8 @@ transaction-screens-nav-bar:
       name: ' '
     9:
       material: BARRIER
-      name: '&cBack'
+      name: '%translations-back%'
       action: BACK
-  fill-item:
-    material: GRAY_STAINED_GLASS_PANE
-    name: ' '
-    enable: true
 
 # The navigation bar that appears in the buy/sell screens from the shop stands
 # Available action: 'TOGGLE_MODE' - Switches between buy/sell mode
@@ -535,7 +578,7 @@ shopstands-transaction-screens-nav-bar:
     1:
       material: player_head
       skullowner: '%player_name%'
-      name: '&f%player_name%'
+      name: '%player_displayname%'
       lore:
       - '%translations-money%: &c%player_balance%'
     2:
@@ -557,7 +600,7 @@ shopstands-transaction-screens-nav-bar:
       material: air
     9:
       material: BARRIER
-      name: '&cClose'
+      name: '%translations-close%'
       action: CLOSE
 
 # The navigation bar that appears in the /sellGUI screen
@@ -578,12 +621,12 @@ sellgui-nav-bar:
       name: ' '
     5:
       material: NETHER_STAR
-      name: '&a&lSellGUI'
+      name: '&f&lSellGUI'
       lore:
-      - '&6Drop items in to sell'
-      - '&6upon closing, everything will be sold.'
-      - '&eItems that couldn''t be sold'
-      - '&ewill be given back to you.'
+      - '&8Drop items in to sell'
+      - '&8upon closing, everything will be sold.'
+      - '&8Items that couldn''t be sold'
+      - '&8will be given back to you.'
     6:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
@@ -732,6 +775,23 @@ visual-transaction-limits:
 # Globally enable or disable the feature to use Shift-Right-Click to sell all items
 shift-right-click-sell-all: true
 
+# When enabled, items that are sold to shop can have additional enchantments on top of the matched shop item,
+# adding a price on top of the base item's sell price for each enchantment.
+# The cost of each enchantment can be configured inside 'enchant-costs.yml'
+enchanted-variants: false
+# !! NOTE that this option allows all shop items to be sold with additional prices for enchants, instead look at per shop or per item settings if needed!
+
+# !! NOTE that the options below allow all shop items to sell damaged variants, instead look at per shop settings if needed!
+damaged-items:
+  # Enable or disable this
+  # When disabled, items that are damaged cannot be sold to shop unless added separately
+  enabled: true
+
+  # Formula: (original price * durability percent) * price diff
+  # For example a diamond sword that has only half the durability left and with a price difference of 100%(eg 1)
+  # where a regular diamond sword costs 2000, will now cost only 1000 for the damaged sword
+  price-difference: 0.85
+
 # The NBT Tags listed below will be ignored when a item gets sold to the shop
 # For example:
 # When a tool/armor is damaged it cannot be sold to the server by default, if you add the 'Damage' tag to the list below. A damaged item can be sold to the shop
@@ -767,40 +827,40 @@ buy-screen:
     name: ' '
   items:
     1:
-      material: RED_CONCRETE
+      material: redstone_block
       name: '%translations-min-thirty-two%'
       stack-size: 32
       action: REMOVE32
       slot: 19
 
     2:
-      material: RED_STAINED_GLASS_PANE
+      material: deepslate_redstone_ore
       name: '%translations-min-sixteen%'
       stack-size: 16
       action: REMOVE16
       slot: 20
 
     3:
-      material: RED_DYE
+      material: redstone
       name: '%translations-min-one%'
       action: REMOVE1
       slot: 21
 
     4:
-      material: LIME_DYE
+      material: emerald
       name: '%translations-plus-one%'
       action: ADD1
       slot: 23
 
     5:
-      material: LIME_STAINED_GLASS_PANE
+      material: deepslate_emerald_ore
       name: '%translations-plus-sixteen%'
       stack-size: 16
       action: ADD16
       slot: 24
 
     6:
-      material: LIME_CONCRETE
+      material: emerald_block
       name: '%translations-plus-thirty-two%'
       stack-size: 32
       action: ADD32
@@ -828,42 +888,45 @@ buy-screen:
 # Sell screen
 sell-screen:
   menu-size: 5
+  fill-item:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
   items:
     1:
-      material: RED_CONCRETE
+      material: magenta_stained_glass_pane
       name: '%translations-min-thirty-two%'
       stack-size: 32
       action: REMOVE32
       slot: 19
 
     2:
-      material: RED_STAINED_GLASS_PANE
+      material: magenta_stained_glass_pane
       name: '%translations-min-sixteen%'
       stack-size: 16
       action: REMOVE16
       slot: 20
 
     3:
-      material: RED_DYE
+      material: magenta_stained_glass_pane
       name: '%translations-min-one%'
       action: REMOVE1
       slot: 21
 
     4:
-      material: LIME_DYE
+      material: light_blue_stained_glass_pane
       name: '%translations-plus-one%'
       action: ADD1
       slot: 23
 
     5:
-      material: LIME_STAINED_GLASS_PANE
+      material: light_blue_stained_glass_pane
       name: '%translations-plus-sixteen%'
       stack-size: 16
       action: ADD16
       slot: 24
 
     6:
-      material: LIME_CONCRETE
+      material: light_blue_stained_glass_pane
       name: '%translations-plus-thirty-two%'
       stack-size: 32
       action: ADD32
@@ -896,40 +959,40 @@ buy-stacks-screen:
     name: ' '
   items:
     1:
-      material: RED_CONCRETE
+      material: magenta_stained_glass
       name: '%translations-min-thirty-two%'
       stack-size: 32
       action: REMOVE32
       slot: 19
 
     2:
-      material: RED_STAINED_GLASS_PANE
+      material: magenta_stained_glass
       name: '%translations-min-sixteen%'
       stack-size: 16
       action: REMOVE16
       slot: 20
 
     3:
-      material: RED_DYE
+      material: magenta_stained_glass
       name: '%translations-min-one%'
       action: REMOVE1
       slot: 21
 
     4:
-      material: LIME_DYE
+      material: light_blue_stained_glass
       name: '%translations-plus-one%'
       action: ADD1
       slot: 23
 
     5:
-      material: LIME_STAINED_GLASS_PANE
+      material: light_blue_stained_glass
       name: '%translations-plus-sixteen%'
       stack-size: 16
       action: ADD16
       slot: 24
 
     6:
-      material: LIME_CONCRETE
+      material: light_blue_stained_glass
       name: '%translations-plus-thirty-two%'
       stack-size: 32
       action: ADD32
@@ -1209,21 +1272,13 @@ discounts:
 #--------------------------------------------SellMultipliers--------------------------------------------
 
 # Enable or disable sell multipliers
-enable-sell-multipliers: false
+enable-sell-multipliers: true
 
 # Configure this option to use sell multipliers
 # Every entry is a shop section that holds the permission nodes with its multipliers
 sell-multipliers:
   all:
-    # Players with the permission 'EconomyShopGUI.sell-multipliers.vip' will get an 20% multiplier on any item
-    vip: 20
-    # Players with the permission 'EconomyShopGUI.sell-multipliers.gold' will get an 2.5% multiplier on any item
-    gold: 2.5
-    # Players with the permission 'EconomyShopGUI.sell-multipliers.coal' will get an 1% multiplier on any item
-    coal: 1
-  Spawners:
-    # Players with the permission 'EconomyShopGUI.sell-multipliers.gold' will get an extra 10% multiplier in this section
-    gold: 12.5
+    affectedbyinflation: 0
 # If a player has for example access to 2 sell multipliers inside the same shop section, the multiplier with the highest value will be active
 
 
@@ -1276,6 +1331,7 @@ sellall-commands:
 # Set different aliases for the sellgui command, defaults to /sellgui if empty
 sellgui-commands:
 - 'sellgui'
+- 'sell'
 
 
 #-------------------------------------------DisableBackButton-------------------------------------------
@@ -1342,6 +1398,7 @@ spawner-break-tools:
     material: IRON_PICKAXE
     enchantments:
     - 'SILK_TOUCH'
+    - 'EFFICIENCY:2'
   3:
     material: NETHERITE_PICKAXE
     enchantments:

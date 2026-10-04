@@ -18,6 +18,9 @@ on tab complete of "/kit":
 
 command /kit [<text>] [<text>] [<text>]:
     trigger:
+        if {debug.%player%} is not "enabled":
+            send "<#ff0000>You're not allowed to do that."
+            stop
 
         # =================================================
         # SAVE

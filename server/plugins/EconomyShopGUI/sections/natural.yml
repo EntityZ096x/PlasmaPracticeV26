@@ -1,0 +1,18 @@
+enable: true
+title: '      &8<---- <#008800><bold>Natural &8---->'
+slot: 11
+hidden: true
+sub-section: true
+item:
+  displayname: '<#008800><bold>Natural'
+  material: GRASS_BLOCK
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 0 0 0 0 0 0 0 0'

@@ -19,8 +19,9 @@ on right click:
                 push {_bullet} in direction of player at speed 3
             wait 1 tick
             play sound "entity.zombie.attack_iron_door" with volume 0.2 and pitch 15 at player
-                
+
 on shoot:
-    wait 1 second
     if metadata value "minigun_bullet" of projectile is true:
-        delete projectile
+        wait 20 ticks
+        if projectile is alive:
+            delete projectile

@@ -1,36 +1,43 @@
 command /lobby:
+    aliases: hub
     trigger:
-        if player's world contains "LifeSteal":
-            set {lastloc.%player%.LifeSteal} to player's location
-        else if player's world contains "UHCsurvival":
-            set {lastloc.%player%.UHCS} to player's location
+        if player's world contains "Survival":
+            set {lastloc.%player%.Survival} to player's location
+        else if player's world contains "world":
+            set {lastloc.%player%.world} to player's location
             
         else:
             set {lastloc.%player%.%player's world%} to player's location
-        teleport player to location(0.5, 21, 0.5, world "Lobby")
 
-command /hub:
-    trigger: 
-        execute player command "/lobby"
+        set {_loc} to location(0.5, 64, 0.5, world "Lobby")
+        set yaw of {_loc} to 180
+        set pitch of {_loc} to 0
+        teleport player to {_loc}
 
 command /worldswitch [<text>] [<player>]:
     trigger:
-        if arg-1 is "LifeSteal":
-            if {lastloc.%player%.LifeSteal} is set:
-                teleport player to {lastloc.%player%.LifeSteal}
+        set {_p} to arg-2
+        if arg-2 is not set:
+            set {_p} to player
+        if command sender is not console:
+            if {debug.%player%} is not "enabled":
+                stop
+        if arg-1 is "Survival":
+            if {lastloc.%{_p}%.Survival} is set:
+                teleport {_p} to {lastloc.%{_p}%.Survival}
             else:
-                execute console command "/mvtp %player% LifeSteal_lobby"
+                execute console command "/mvtp %{_p}% Survival_spawn"
             stop
-        if arg-1 is "UHCS":
-            if {lastloc.%player%.UHCS} is set:
-                teleport player to {lastloc.%player%.UHCS}
+        if arg-1 is "world":
+            if {lastloc.%{_p}%.world} is set:
+                teleport {_p} to {lastloc.%{_p}%.world}
             else:
-                execute console command "/mvtp %player% UHCsurvival"
+                execute console command "/mvtp %{_p}% world"
             stop
-        if {lastloc.%player%.%arg-1%} is set:
-            teleport player to {lastloc.%player%.%arg-1%}
+        if {lastloc.%{_p}%.%arg-1%} is set:
+            teleport {_p} to {lastloc.%{_p}%.%arg-1%}
         else:
-            execute console command "/mvtp %player% %arg-1%"
+            execute console command "/mvtp %{_p}% %arg-1%"
 
 on tab complete of "/worldswitch":
     set tab completions for position 1 to all worlds

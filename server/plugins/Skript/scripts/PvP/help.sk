@@ -1,23 +1,12 @@
-on left click:
-    set {_i} to player's tool
-    wait 1 tick
-    if {_i} is player's tool:
-        stop
-    send "&c&lPvP&r &8»&a You have succesfully done a attribute swap!" to player
-
-
-
 command /dummy [<text>]:
     trigger:
-        if arg-1 does not contain "tiny":
-            if arg-1 does not contain "small":
-                spawn a adult zombie at player
-            else:
-                spawn a baby zombie at player
+        if arg-1 does not contain "small":
+            spawn a adult zombie at player
         else:
-            spawn a chicken at player
+            spawn a baby zombie at player
         set ai of last spawned entity to false
         set {_m} to last spawned entity
+        add "dummy" to scoreboard tags of {_m}
 
         set {_armor::1} to netherite helmet
         set {_armor::2} to netherite chestplate
@@ -40,11 +29,11 @@ command /dummy [<text>]:
         set {_m}'s boots to {_armor::4}
 
 on tab complete of "/dummy":
-    set tab completions for position 1 to "shield", "AI", "tiny"
+    set tab completions for position 1 to "shield", "AI", "small"
 
 
 on damage:
-    if victim is a living entity:
+    if attacker is a entity:
         if victim's held item is shield:
             if victim is a zombie:
                 if {shieldDisabled::%uuid of victim%} is not set:
@@ -62,3 +51,37 @@ on damage:
                             if victim's held item is shield:
                                 delete {shieldDisabled::%uuid of victim%}
 
+on resurrect:
+    if scoreboard tags of entity contains "dummy":
+        set {_m} to event-entity
+
+        set health of {_m} to max health of {_m}
+
+        # Reset armor to full durability
+        set {_helmet} to netherite helmet
+        set {_chestplate} to netherite chestplate
+        set {_leggings} to netherite leggings
+        set {_boots} to netherite boots
+
+        set level of protection of {_helmet} to 4
+        set level of unbreaking of {_helmet} to 999
+        set level of protection of {_chestplate} to 4
+        set level of unbreaking of {_chestplate} to 999
+        set level of protection of {_leggings} to 4
+        set level of unbreaking of {_leggings} to 999
+        set level of protection of {_boots} to 4
+        set level of unbreaking of {_boots} to 999
+
+        set {_m}'s helmet to {_helmet}
+        set {_m}'s chestplate to {_chestplate}
+        set {_m}'s leggings to {_leggings}
+        set {_m}'s boots to {_boots}
+
+        # Give it another stack of totems
+        set {_m}'s offhand item to 64 totem of undying
+
+command /deldummy:
+    trigger:
+        loop all entities:
+            if scoreboard tags of loop-entity contains "dummy":
+                delete loop-entity

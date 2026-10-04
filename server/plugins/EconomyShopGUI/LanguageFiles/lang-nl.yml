@@ -19,17 +19,21 @@ updating-configs: "De configuraties bijwerken omdat er een nieuwere versie is ge
 creating-backup: "Een back-up maken van het oude %fileName%, het bestand kan worden gevonden in de map met back-ups in de EconomyShopGUI plugin map."
 discounts-feature-unavailable: "De kortingen functie kan niet worden gebruikt omdat er geen permissies plugin gevonden is."
 cannot-hook-permissions: "Mislukt om een ondersteunde permissie plugin te vinden"
+
 #Main Shop Inventory
 inventory-main-shop-title: "&8&lServer Shop"
 profile: "&aProfiel"
 name: "&6Naam"
 money: "&6Balans"
 level: "&6Level"
-#SellGUI inventory
+
+# SellGUI inventory
 inventory-sellgui-title: "&8&lVerkoopGUI Inventaris"
+
 #Buystacks Inventory title
 inventory-buystacks-title: "&8Kies de hoeveelheid &lstacks"
-#Transaction screen
+
+# Transaction screen
 inventory-howmuchsell-title: "&8Kies hoeveel je wil &lverkopen"
 inventory-howmuchbuy-title: "&8Kies hoeveel je wil &lkopen"
 plus-one: "&b+1"
@@ -45,25 +49,78 @@ buy-stacks: "&aKlik om meer te kopen"
 transaction-screen-total-price: "Totaal prijs: &3%price%"
 transaction-screen-total-amount: "Totale hoeveelheid: &5x %amount%"
 max-amount-reached: "&cMaximale hoeveelheid bereikt"
+min-amount-reached: "&cMin. houveelheid bereikt"
+selected-amount: "&aHoeveelheid"
+
+# ShopStands transactions
+shopstand-buy-screen-title: "&8Kopen &a&l> &r&8%item%"
+shopstand-sell-screen-title: "&8Verkopen &c&l> &r&8%item%"
+shopstand-click-to-buy: "&aKlik om %amount% te kopen"
+shopstand-click-to-sell: "&aKlik om %amount% te verkopen"
+shopstand-total-price: "&cTotaal prijs: &7%price%"
+
+# Shop stands module
+default-shop-stand-item-name: "&eShopStand"
+default-shop-stand-item-lore: "&fPlaats dit item op de grond om een
+
+  &fnieuwe &6ShopStand &fte maken op de locatie
+
+  &fvoor het shop item &c%item%"
+shop-stands-management-inventory-title: "&8&lStand management"
+shop-stand-info-item-name: "&6&lShopStand info:"
+shop-stand-info-item-lore: "&aStand ID: &f%id%
+
+  &aLocatie: &f%location%
+
+  &aShop item: &f%item%
+
+  &aStand tiepe: &f%type%
+
+  &aIs geladen: &f%loaded%"
+force-reload-stand-item-name: "&e&lHerlaad de stand"
+force-reload-stand-item-lore: "&fAls je hier klikt wordt de stand herladen
+
+  &fen zal het display item en de stand her-maken"
+destroy-stand-item-name: "&4&lVerwijder shop stand"
+destroy-stand-item-lore: "&eKlik om deze shop stand te verwijderen"
+reload-shop-stand: "&aForceer het herladen van shop stand met ID %id%"
+shop-stand-browse-inventory-title: "&8&lStand lijst"
+shop-stand-location-format: "Wereld '%world%', x%pos_x%, y%pos_y%, z%pos_z%"
+created-new-shop-stand: "&aMet success een nieuwe ShopStand gemaakt voor &f%item%"
+error-creating-new-shop-stand: "&cEr is een fout opgetreden bij het maken van een ShopStand: %reason%"
+
 #All Inventory's
 back: "&4Terug"
 cancel: "&4Annuleer"
+
 #Previous/Next/Current page
 previous-page: "&dVorige pagina"
 next-page: "&bVolgende pagina"
-current-page: "&7Pagina:"
-#ShopItem lore
-left-click-buy: "&aLinks Klik: Kopen: &c%buyPrice%"
-seasonal-buy-price: "&aLinker klik: Koop: &c&m%buyPrice%&r &a%seasonalBuyPrice%"
-discounted-buy-price: "&aLinker klik: Koop: &c&m%buyPrice%&r &a%discountedPrice%"
-right-click-sell: "&6Rechter Klik: Verkopen: &c%sellPrice%"
-seasonal-sell-price: "&6Rechter Klik: Verkopen: &c&m%sellPrice%&r &a%seasonalSellPrice%"
-multiplied-sell-price: "&6Rechter klik: Verkoop: &c&m%sellPrice%&r &a%multipliedPrice%"
+current-page: "&7Pagina: %page%/%pages%"
+
+# ShopItem lore
+left-click-buy: "\\n &a&lKoop prijs\\n &a■ &6&l&f%buyPrice%"
+seasonal-buy-price: "\\n &a&lKoop prijs\\n &a■ &f&m%buyPrice%&r &f%seasonalBuyPrice%"
+discounted-buy-price: "\\n &a&lKoop prijs\\n &a■ &f&m%buyPrice%&r &f%discountedPrice%"
+right-click-sell: "\\n &c&lVerkoop prijs\\n &c■ &6&f%sellPrice%"
+seasonal-sell-price: "\\n &c&lVerkoop prijs\\n &c■ &6&f%sellPrice%&r &f%seasonalSellPrice%"
+multiplied-sell-price: "\\n &c&lVerkoop prijs\\n &c■ &6&f%sellPrice%&r &f%multipliedPrice%"
 shift-right-click-sell-all: "&bShift + Rechter Click: Verkoop Alles"
 item-location-in-shop: "&8Section: %shopsection%, Index: %itemLoc%"
 item-cannot-be-bought: "&cItem kan niet gekocht worden"
 item-cannot-be-sold: "&cItem kan niet verkocht worden"
 item-seasonal-price: "&e&lSeizoensprijs %season-icon%"
+decoration-lore: "\n &e&lGebruik:"
+decoration-lore-buy: "&e ╚&e&l» &fKlik met links om te kopen"
+decoration-lore-sell-all: "&e ╚&e&l» &fShift + Klik met rechts om alles te verkopen"
+decoration-lore-sell: "&e ╚&e&l» &fKlik met rechts om te verkopen"
+decoration-lore-view: "&e ╚&e&l» &fKlik om te bekijken\n "
+time-requirement-lore: "&c&lKan alleen gekocht worden tussen
+
+  &c%minTime% &len &c%maxTime% &lingame tijd"
+quest-requirement-lore: "&c&lVereist het voltooien van de &b&l%questName% quest"
+region-requirement-lore: "&c&lVereist om in de &b&l%regionName% regio te zijn"
+
 #Buy/Sell Messages
 discord-srv-player-transaction: "%player_name% %bought/sold% %amount% x %items% voor %price%"
 pay-confirmation: "&aJe hebt met succes &1%amount% x &b%material% &agekocht voor &c%amounttopay%"
@@ -74,6 +131,9 @@ cannot-purchase-item: "&cDit item kan niet gekocht worden."
 cannot-sell-item: "&cDit item kan niet worden verkocht."
 player-made-transaction: "%playername% %bought/sold% %amount% x %material% voor %amountofmoney% met het %buy/sell-method%."
 player-made-transaction-multiple-items: "%playername% %bought/sold% %items% voor %amountofmoney% met de %buy/sell-method%."
+time-requirement-not-met: "&cDit item kan alleen gekocht/verkocht worden tussen &f%minTime% &cen &f%maxTime%&c ingame tijd, huidige tijd is &f%progress%&c. Kom binnekort terug!"
+quest-requirement-not-met: "&cDit item kan alleen gekocht/verkocht worden wanneer je de quest &b&l%questName%&c hebt voltooid, kom terug als je het voltooid hebt!"
+region-requirement-not-met: "&cJe kan dit item alleen kopen/verkopen in de %regionName% regio"
 buy-screen: "Aankoopscherm"
 sell-screen: "Verkoopscherm"
 buystacks-screen: "koop stacks scherm"
@@ -82,15 +142,26 @@ sellall-command: "verkoop alle commando"
 sellgui-screen: "Verkoop GUI"
 quick-buy: "Snelle aankoopscherm"
 quick-sell: "Snelle verkoopscherm"
+shopstand-buy-screen: "&8&lKopen"
+shopstand-sell-screen: "winkel verkoop scherm"
 auto-sell-chest: "Verkoopkist"
 bought: "kocht"
 sold: "verkocht"
+on-screen-title-sold: "&a+%price%"
+on-screen-title-bought: "&c-%price%"
+
 #CurrencySymbol
 currencysymbol: "€%price%"
 symbol-pricing-format: "%symbol%%price%"
 named-pricing-format: "%price% &l%currency-format%"
+
+# XP Currency name format
+xp-currency-name-singular: "XP punt"
+xp-currency-name-plural: "XP punten"
+
 #All commands
 command-disabled-in-world: "&cDeze command is uitgeschakeld in deze wereld."
+
 #Edit-shop subcommand descriptions
 editshop-add-item-subcommand-desc: "&aVoeg een item toe aan de shop."
 editshop-edit-item-subcommand-desc: "&aBewerk een bestaand item in de shop."
@@ -100,6 +171,8 @@ editshop-add-hand-item-subcommand-desc: "&aVoeg een item van je hand toe aan de 
 editshop-add-section-subcommand-desc: "&aVoeg een winkelsectie toe aan de winkel."
 editshop-edit-section-subcommand-desc: "&aBewerk een bestaande winkelsectie."
 editshop-remove-section-subcommand-desc: "&aVerwijder een bestaande winkelsectie van de winkel."
+editshop-migrate-subcommand-desc: "&aStaat toe om de data van een andere plugin te migreren"
+
 #Edit-shop subcommand syntaxes
 editshop-add-item-subcommand-syntax: "&a/editshop additem <sectie> <item> <koopprijs> <verkoopprijs> [displayname]"
 editshop-edit-item-subcommand-syntax: "&a/editshop edititem <sectie> <item> <actie> <kernwaarde> <waarde>"
@@ -109,6 +182,7 @@ editshop-add-hand-item-subcommand-syntax: "&a/editshop addhanditem <sectie> <koo
 editshop-add-section-subcommand-syntax: "&a/editshop addsection <sectie> <item> <weergavenaam> <plek>"
 editshop-edit-section-subcommand-syntax: "&a/editshop editsection <sectie> <actie> <kernwaarde> <waarde>"
 editshop-remove-section-subcommand-syntax: "&a/editshop deletesection <sectie>"
+
 #Edit-shop command messages
 editshop-adding-item: "&aHet nieuwe item toevoegen aan shops.yml..."
 editshop-add-item-successful: "&aHet item is met succes toegevoegd aan de winkel onder '%itemPath%'."
@@ -123,10 +197,15 @@ editshop-removing-section: "&aDe winkelsectie uit de winkel verwijderen..."
 editshop-removed-section: "&a'%itemPath%' is succesvol uit de winkel verwijderd."
 editshop-reload-shop-to-see-changes: "&aGebruik command /sreload om de wijzigingen in de shop te laden."
 file-replaced: "&aHet oude %fileName% is vervangen met de nieuwe, het oude bestand kan teruggevonden worden in de backups map als je het nodig hebt."
+
 #Edit-shop command errors
 section-does-not-contain-item: "&cSectie '%shopsection%' bevat niet het item '%itemLoc%'."
-no-valid-action: "&cGeen geldige actie '%action%'. \nBeschikbare acties: %actions%."
-no-valid-key: "&cGeen geldige key '%key%'. \nBeschikbare keys: %keys%."
+no-valid-action: "&cGeen geldige actie '%action%'.\ 
+
+  Beschikbare acties: %actions%."
+no-valid-key: "&cGeen geldige key '%key%'.\ 
+
+  Beschikbare keys: %keys%."
 action-not-valid-on-key: "&cKan de '%key%' key niet %action%."
 edit-item-material-invalid: "&cHet materiaal van het item dat u probeert te bewerken, is ongeldig. '%material%'"
 key-already-defined: "&cDe '%key%' key is al gebruikt voor het item, u kunt deze niet twee keer toevoegen."
@@ -134,21 +213,28 @@ key-is-not-found: "&cDe '%key%' key kan niet uit het item worden verwijderd omda
 plugin-not-found: "&cKan geen plugin met die naam vinden, controleer of wij deze plugin ondersteunen."
 file-not-found: "&cKan het bestand: %fileName% niet vinden in de plugin map van %pluginName%."
 no-valid-slot-for-item: "&cHet item kon niet op slot '%slot%' geplaatst worden omdat de maximum positie '%maxShopSize%' is."
-slot-already-in-use: "&cDeze plek voor de winkelsectie is al bezet.\nAlle beschikbare plekken: %available-slots%"
+slot-already-in-use: "&cDeze plek voor de winkelsectie is al bezet.
+
+  Alle beschikbare plekken: %available-slots%"
 slot-needs-to-be-number: "&cDe plek van het item in het hoofdmenu, moet een nummer zijn."
+
 #Reload Command
 configs-reloaded: "&aAlle configruatie bestanden zijn herladen."
-#Sellall command usages
+
+# Sellall command usages
 sellall-command-usages: "&aGebruik(en) van de commando's:"
 sellall-inventory-command-usage: "&7/sellall inventory &f- &7Verkoopt alle items in uw inventaris"
 sellall-hand-command-usage: "&7/sellall hand &8[amount] &f- &7Verkoopt alle items in uw hand."
 sellall-item-command-usage: "&7/sellall <item> &8[amount] &f- &7Verkoopt alle items in uw inventaris met een overeenkomende naam."
+
 #Balance Command
 check-balance: "&bJe hebt nu &c%amountofmoney%&b."
 check-balance-other-player: "&b%playername% &aheeft nu &c%amountofmoney%&a."
+
 #Givemoney Command
 givemoneycommand-example: "&9/givemoney <speler> <aantal>"
 givemoney-complete: "&aGivemoney compleet."
+
 #Pay Command
 minimum-amount: "&cHet minimum aantal om een speler te betalen is %minimumamount%."
 payment-complete: "&aGeld overdracht compleet."
@@ -156,14 +242,18 @@ player-received-money: "&aJe hebt &c%amounttogive% &agekregen van &2%playername%
 need-player-and-amount: "&9Je moet een speler en een aantal van geld opgeven."
 need-amount: "&9Je moet een aantal van geld opgeven."
 paycommand-example: "&9/pay <speler> <aantal>"
+
 #Player breaks spawner
 default-spawner-name: "&9&l%spawner-type% &rSpawner"
 spawner-broke-and-applied-to-inventory: "&aJe hebt een &9%spawner-type% &agemined, het item is toegevoegd aan je inventory."
 need-silk-touch: "&cJe hebt een silk touch pickaxe nodig om dit te hakken!"
+
 #JoinMessage
 join-message: "&2Welkom, je geldsaldo is &c%balance%!"
+
 #Level event
 level-event-message: "&2[Levels] &c%amount% &5is toegevoegd aan je saldo!"
+
 #Item error's
 displayname-null: "Kan de naam van het item niet vinden."
 item-name-null: "Kan de naam van het item niet ophalen."
@@ -196,10 +286,12 @@ material-needs-to-be-book: "Om een recept op het item toe te passen, moet het ma
 need-skullowner: "Kan geen PlayerHead maken zonder een gespecificeerde speler (Skull Owner)."
 material-needs-to-be-skull: "Om een schedeltextuur (Skull Owner) op het item aan te brengen, moet het material van het item een ​​Player Head zijn."
 material-needs-to-be-leather-armor: "Om een kleur op een item aan te brengen, moet het materiaal ook leather armor zijn."
+
 #Item path
 items-path-in-shops-config: "Item locatie in shops.yml: %location%"
 items-path-in-sections-config: "Item locatie in sections.yml: %location%"
 items-path-in-config: "Item locatie in config.yml: %location%"
+
 #Compatibility
 mineablespawners-compatibility-enabled: "Compatibiliteit van MineableSpawners is ingeschakeld in de configuratie"
 mineablespawners-found: "MineableSpawners gevonden, integreren..."
@@ -226,12 +318,14 @@ spawner-provider-not-found: "kon %provider% niet vinden"
 spawner-provider-found: "%provider% gevonden, integreren..."
 failed-spawner-provider-integration: "Kon niet integreren met %provider%"
 using-external-spawners: "De spawners van %provider% gebruiken."
+
 silkspawners-compatibility-enabled: "Compatibiliteit van SilkSpawners is ingeschakeld in de configuratie."
 silkspawners-not-found: "SilkSpawners is niet gevonden"
 silkspawners-found: "SilkSpawners gevonden, integreren..."
 could-not-integrate-with-silkspawners: "Kon niet integreren met SilkSpawners."
 using-silkspawners-spawners: "SilkSpawners spawners gebruiken..."
 using-default-spawners: "Standaard spawners van plugin gebruiken..."
+
 #Error's
 cannot-find-discounted-section: "Kan geen kortingen voorzien voor %section%, ofwel is de shop sectie uitgeschakelt of niet gevonden."
 cannot-find-discounted-group: "Kan geen kortingen voorzien voor permissies groep %permsGroup%, kijk de spelling na en als de group wel bestaat in u permissies plugin."

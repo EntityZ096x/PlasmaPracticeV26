@@ -1,0 +1,18 @@
+enable: true
+title: '        &8<---- &r&6&lFood &8---->'
+slot: 29
+hidden: false
+sub-section: false
+item:
+  material: COOKED_BEEF
+  displayname: '&r&6&lFood'
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 0 0 0 0 0 0 0 0'

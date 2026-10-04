@@ -1,4 +1,5 @@
-#Help translate this file over on our Crowdin: https://crowdin.com/project/economyshopgui
+# Help translate this file over on our Crowdin: https://crowdin.com/project/economyshopgui
+
 #StartUp/Reload
 creating-latest-shops: "Erstellt Standard Laden für die neueste Version, weil kein existierendes Layout für die passende Server Version %version% gefunden wurde, bitte benutze eine unterstützte Serverversion."
 default-shops-created: "Standard-Shop-Layout, kompatibel mit %version%, erstellt unter %path%"
@@ -38,19 +39,24 @@ economy-providers-loaded: "Das Laden von %total% Währungs-Anbieter für alle %s
 section-economy-provider-loaded: "Benutze '%economy%' als Standardwirtschaft für Laden '%shop%'"
 loaded-shop-stand-module: "Fertig mit dem Laden von %count% Shop-Ständer(n) aus stands.json"
 saving-shop-stands: "Speichere %count% Shop-Ständer in 'stands.json'..."
+
 #Shop prefix
-shop-prefix: "&9&lLaden &8%l>> "
+shop-prefix: "&9&lLaden &8&l>> "
+
 #Main Shop Inventory
 inventory-main-shop-title: "Server Shop"
 profile: "&aProfil"
 name: "&6Name"
 money: "&6Geld"
 level: "&6Level"
-#SellGUI inventory
+
+# SellGUI inventory
 inventory-sellgui-title: "&8&lVerkauf-GUI"
+
 #Buystacks Inventory title
 inventory-buystacks-title: "&8Wähle die Anzahl der &lstacks"
-#Transaction screen
+
+# Transaction screen
 inventory-howmuchsell-title: "&8Wie viel willst du &cverkaufen&8?"
 inventory-howmuchbuy-title: "&8Wie viel willst du &ckaufen&8?"
 plus-one: "&b+1"
@@ -67,20 +73,36 @@ transaction-screen-total-price: "&3%price%"
 transaction-screen-total-amount: "&5x %amount%"
 max-amount-reached: "&cMaximale Anzahl erreicht"
 min-amount-reached: "&cMin Anzahl erreicht"
-#ShopStands transactions
+
+# ShopStands transactions
 shopstand-buy-screen-title: "&8Kaufe &a&l> &r&8%item%"
 shopstand-sell-screen-title: "&8Verkaufe &c&l> &r&8%item%"
 shopstand-click-to-buy: "&aKlicke um %amount% zu kaufen"
 shopstand-click-to-sell: "&aKlicke um %amount% zu verkaufen"
 shopstand-total-price: ""
-#Shop stands module
+
+# Shop stands module
 default-shop-stand-item-name: "&eShop-Stand"
-default-shop-stand-item-lore: "&fPlatziere dieses Item, um\n&feinen neuen &6ShopStand &fam platzierten Standort zu erstellen\n&ffür den Shop-Artikel &c%item%"
+default-shop-stand-item-lore: "&fPlatziere dieses Item, um
+
+  &feinen neuen &6ShopStand &fam platzierten Standort zu erstellen
+
+  &ffür den Shop-Artikel &c%item%"
 shop-stands-management-inventory-title: "&8&lStand Verwaltung"
 shop-stand-info-item-name: "&6&lShop-Ständer-Info:"
-shop-stand-info-item-lore: "&aStänder-ID: &f%id%\n&aStandort: &f%location%\n&aShop-Artikel: &f%item%\n&aStändertyp: &f%type%\n&aIst geladen: &f%loaded%"
+shop-stand-info-item-lore: "&aStänder-ID: &f%id%
+
+  &aStandort: &f%location%
+
+  &aShop-Artikel: &f%item%
+
+  &aStändertyp: &f%type%
+
+  &aIst geladen: &f%loaded%"
 force-reload-stand-item-name: "&e&lStänder neu laden erzwingen"
-force-reload-stand-item-lore: "&fEin Klick hierauf lädt den Shop-Ständer neu\n&fund erstellt das Anzeige-Item und den Ständer neu"
+force-reload-stand-item-lore: "&fEin Klick hierauf lädt den Shop-Ständer neu
+
+  &fund erstellt das Anzeige-Item und den Ständer neu"
 destroy-stand-item-name: "&4&lShop-Ständer zerstören"
 destroy-stand-item-lore: "&eKlicke, um diesen Shop-Ständer zu zerstören"
 reload-shop-stand: "&aShop-Ständer mit der ID %id% wurde zwangsweise neu geladen"
@@ -88,20 +110,39 @@ shop-stand-browse-inventory-title: "&8&lStänder-Liste"
 shop-stand-location-format: "Welt '%world%', x%pos_x%, y%pos_y%, z%pos_z%"
 created-new-shop-stand: "&aErfolgreich neuen Shop-Ständer für &f%item% erstellt"
 error-creating-new-shop-stand: "&cFehler beim Erstellen eines neuen Shop-Ständers: %reason%"
+
 #All Inventory's
 back: "&4Zurück"
 cancel: "&4Abbrechen"
+
 #Previous/Next/Current page
 previous-page: "&dZurück"
 next-page: "&bWeiter"
-current-page: "&7Seite:"
-#ShopItem lore
+current-page: "&7Page: %page%/%pages%"
+
+# ShopItem lore
 left-click-buy: "\"\\n &a&lKaufpreis\\n &a■ &f%buyPrice%\""
-seasonal-buy-price: "\n&a&lKaufpreis\n &a■ &f&m%buyPrice%&r &f%seasonalBuyPrice%"
-discounted-buy-price: "\n&a&lKaufpreis\n &a■ &f&m%buyPrice%&r &f%discountedPrice%"
+seasonal-buy-price: "
+
+  &a&lKaufpreis
+
+  \ &a■ &f&m%buyPrice%&r &f%seasonalBuyPrice%"
+discounted-buy-price: "
+
+  &a&lKaufpreis
+
+  \ &a■ &f&m%buyPrice%&r &f%discountedPrice%"
 right-click-sell: "\\n &c&lVerkaufspreis\\n &c■ &f%sellPrice%"
-seasonal-sell-price: "\n&c&lVerkaufspreis\n &c■ &f&m%sellPrice%&r &f%seasonalSellPrice%"
-multiplied-sell-price: "\n&c&lVerkaufspreis\n &c■ &f&m%sellPrice%&r &f%multipliedPrice%"
+seasonal-sell-price: "
+
+  &c&lVerkaufspreis
+
+  \ &c■ &f&m%sellPrice%&r &f%seasonalSellPrice%"
+multiplied-sell-price: "
+
+  &c&lVerkaufspreis
+
+  \ &c■ &f&m%sellPrice%&r &f%multipliedPrice%"
 shift-right-click-sell-all: "&bShift + Rechtsklick: Alles Verkaufen"
 item-location-in-shop: "&8Sektion %shopsection%, Index: %itemLoc%"
 item-cannot-be-bought: "&cDieses Item kann nicht gekauft werden."
@@ -111,7 +152,12 @@ decoration-lore: "\n &e&lBenutzung:"
 decoration-lore-buy: "&e ╚&e&l» &fLinksklick um zu kaufen"
 decoration-lore-sell-all: "&e ╚&e&l» &fShift + Rechtsklick um alles zu verkaufen"
 decoration-lore-sell: "&e ╚&e&l» &fRechtsklick um zu verkaufen"
-time-requirement-lore: "&c&lKann nur zwischen\n&c%minTime% &lund &c%maxTime% &lingame-Zeit gekauft werden."
+time-requirement-lore: "&c&lKann nur zwischen
+
+  &c%minTime% &lund &c%maxTime% &lingame-Zeit gekauft werden."
+quest-requirement-lore: "&c&lNotwendig um die Aufgabe zu erfüllen &b&l%questName%"
+region-requirement-lore: "&c&lNotwendig innerhalb von der Region &b&l%regionName%"
+
 #Buy/Sell Messages
 discord-srv-player-transaction: "%player_name% %bought/sold% %amount% x %items% für %price%"
 pay-confirmation: "&aDu hast &1%amount% x &b%material% &afür &c%amounttopay% &agekauft."
@@ -123,6 +169,8 @@ cannot-sell-item: "&cDieser Gegenstand kann nicht verkauft werden."
 player-made-transaction: "%playername% hat %amount% x %material% für %amountofmoney% mit der %buy/sell-method% %bought/sold%."
 player-made-transaction-multiple-items: "%playername% %bought/sold% %items% für %amountofmoney% mit der %buy/sell-method%."
 time-requirement-not-met: "&cDieser Artikel kann nur zwischen &f%minTime% &cund &f%maxTime% &cIngame-Zeit gekauft/verkauft werden, die aktuelle Zeit ist &f%progress%&c. Komm bald wieder!"
+quest-requirement-not-met: "&cDieses Item kann nur gekauft / verkauft werden, wenn sie die Aufgabe &b&l%questName%&c erfüllt haben. Kommen sie zurück, wenn sie diese erfüllt haben"
+region-requirement-not-met: "&cSie können dieses Item nur in der Region %regionName% kaufen/verkaufen"
 buy-screen: "Items kaufen"
 sell-screen: "Items verkaufen"
 buystacks-screen: "Stacks kaufen"
@@ -138,15 +186,19 @@ bought: "gekauft"
 sold: "verkauft"
 on-screen-title-sold: "%price%+&a"
 on-screen-title-bought: "%price%-&c"
+
 #CurrencySymbol
 currencysymbol: "%price%€"
 symbol-pricing-format: "%price%%symbol%"
 named-pricing-format: "%price% &l%currency-format%"
-#XP Currency name format
+
+# XP Currency name format
 xp-currency-name-singular: "XP Punkt"
 xp-currency-name-plural: "XP Punkte"
+
 #All commands
 command-disabled-in-world: "&cDieser Befehl ist in dieser Welt deaktiviert."
+
 #Edit-shop subcommand descriptions
 editshop-add-item-subcommand-desc: "&aItem zum Shop hinzufügen."
 editshop-edit-item-subcommand-desc: "&aItem im Shop bearbeiten."
@@ -161,6 +213,7 @@ editshop-shopstands-subcommand-desc: "&aVerwalte bestehende oder erstelle neue S
 editshop-shopstands-give-subcommand-desc: "&aGibt ein neues Shop-Ständer-Item zum Platzieren aus"
 editshop-shopstands-destroy-subcommand-desc: "&aZerstört einen Shop-Ständer an seinem aktuellen Standort anhand seiner ID"
 editshop-shopstands-browse-subcommand-desc: "&aÖffnet eine GUI mit allen bestehenden Shop-Ständern"
+
 #Edit-shop subcommand syntaxes
 editshop-add-item-subcommand-syntax: "&a/editshop additem <Bereich> <Item-Typ> <Kaufpreis> <Verkaufspreis> [Anzeigename]"
 editshop-edit-item-subcommand-syntax: "&a/editshop edititem <Bereich> <Item> <Aktion> <Name des Werts> <Neuer Wert>"
@@ -175,6 +228,7 @@ editshop-shopstands-subcommand-syntax: "&a/editshop shopstands <geben/zerstören
 editshop-shopstands-give-subcommand-syntax: "&a/editshop shopstands give <ständerTyp> <Bereich> <index>"
 editshop-shopstands-destroy-subcommand-syntax: "&a/eshop shopstands destroy <standID>"
 editshop-shopstands-browse-subcommand-syntax: "&a/eshop shopstands durchsuchen"
+
 #Edit-shop command messages
 editshop-adding-item: "&aFügt das neue Item in die shops.yml hizu..."
 editshop-add-item-successful: "&aDas Item wurde erfolgreich zur Seite '%itemPath%' hinzugefügt."
@@ -190,10 +244,15 @@ editshop-removed-section: "&a&aErfolgreich '%itemPath%' vom Shop entfernt."
 editshop-reload-shop-to-see-changes: "&aNutze /sreload, um die Änderungen in den Shop zu laden."
 file-replaced: "&aDie alte Datei %fileName% ist ersetzt worden mit der neuen Datei, bei Problemen kann die alte Datei noch im Backupordner gefunden werden."
 shop-stand-item-received: "&aDu hast &c%amount%x &aShop-Ständer für den Shop-Artikel &f%item% erhalten"
+
 #Edit-shop command errors
 section-does-not-contain-item: "&cSeite '%shopsection%' beinhaltet nicht das Item '%itemLoc%'."
-no-valid-action: "&cDie Aktion '%action%' ist nicht verfügbar. \nVerfügbare Aktionen: %actions%."
-no-valid-key: "&cDer key '%key%' ist nicht verfügbar. \nVerfügbare keys: %keys%."
+no-valid-action: "&cDie Aktion '%action%' ist nicht verfügbar.\ 
+
+  Verfügbare Aktionen: %actions%."
+no-valid-key: "&cDer key '%key%' ist nicht verfügbar.\ 
+
+  Verfügbare keys: %keys%."
 action-not-valid-on-key: "&cKann den %key% nicht %action%."
 edit-item-material-invalid: "&cDas Material, das du bearbeitest, ist ungültig. '%material%'"
 key-already-defined: "&cDer '%key%' key ist auf diesem Item bereits definiert. Jeder key darf nur 1 mal vorkommen."
@@ -201,27 +260,35 @@ key-is-not-found: "&cDer '%key%' key kann nicht entfernt werden, weil er nicht e
 plugin-not-found: "&cKann ein Plugin mit dem Namen nicht finden, bitte prüfen ob das Plugin unterstützt wird."
 file-not-found: "&cEine Datei mit dem Namen %fileName% konnte im Plugin-Ordner von %pluginName% nicht gefunden werden."
 no-valid-slot-for-item: "&cDas Item konnte nicht in den Slot %slot% gesetzt werden können! Der Slot muss zwischen 1 und %maxShopSize% liegen (inklusive)."
-slot-already-in-use: "&cDer Slot für diese Section ist bereits belegt.\nAlle verfügbaren slots: %available-slots%"
+slot-already-in-use: "&cDer Slot für diese Section ist bereits belegt.
+
+  Alle verfügbaren slots: %available-slots%"
 slot-needs-to-be-number: "&cDer Slot des Items im Hauptmenü muss eine Zahl sein."
 invalid-shop-stand-type: "&cUngültiger Shop-Ständer-Typ, gültige Werte: %values%"
 unknown-shop-stand-id: "&cKein Shop-Ständer mit der ID &f%id% gefunden"
 stand-type-not-supported: "&cShop-Ständer-Typ &f%type% &cwird in der aktuellen Minecraft-Version nicht unterstützt"
+
 #Reload Command
 configs-reloaded: "&aConfigs neu geladen."
-#Sellall command usages
+
+# Sellall command usages
 sellall-command-usages: "&aBefehlsverwendung(en):"
 sellall-inventory-command-usage: "&7/sellall inventory &f- &7Verkauft alle Items in deinem Inventar"
 sellall-hand-command-usage: "&7/sellall hand &8[amount] &f- &7Verkauft alle Items in deiner Hand"
 sellall-item-command-usage: "&7/sellall <item> &8[amount] &f- &7Verkauft alle Items in deinem Inventar, die dem angegebenen Item-Namen entsprechen"
-#ShopGive command
+
+# ShopGive command
 shop-item-given: "&aDir wurden &c%amount% &ax &6%material% übergeben"
 shop-item-received: "&aDu hast &c%amount% &ax den Gegenstand aus dem Abschnitt &6%section% &aund dem Gegenstandsindex &6%itemIndex% erhalten"
+
 #Balance Command
 check-balance: "&aKontostand: &c%amountofmoney%&b."
 check-balance-other-player: "&aKontostand von &b%playername%&a: &c%amountofmoney%&a."
+
 #Givemoney Command
 givemoneycommand-example: "&9/givemoney <Spieler> <Anzahl>"
 givemoney-complete: "&aDu hast Geld verteilt."
+
 #Pay Command
 minimum-amount: "&cDu musst mindestens %minimumamount% überweisen."
 payment-complete: "&aÜberweisung abgeschlossen."
@@ -229,14 +296,18 @@ player-received-money: "&a%playername% hat dir %amounttogive% überwiesen!"
 need-player-and-amount: "&cDu musst einen Spieler und eine Anzahl angeben."
 need-amount: "&cDas ist keine Zahl! (Denk dran: Kommazahlen mit Punkt!)"
 paycommand-example: "&9/pay <Spieler> <Anzahl>"
+
 #Player breaks spawner
 default-spawner-name: "&9&l%spawner-type% &rSpawner"
 spawner-broke-and-applied-to-inventory: "&aDu hast einen &9%spawner-type% &aspawner abgebaut und das Item bekommen."
 need-silk-touch: "&cDu kannst spawner nur mit Silk Touch abbauen!"
+
 #JoinMessage
 join-message: "&2Willkommen, dein Kontostand ist &c%balance%!"
+
 #Level event
 level-event-message: "&2[Levels] &5Du hast &c%amount% &5erhalten!"
+
 #Item error's
 displayname-null: "Der Anzeigename wurde nicht erkannt."
 item-name-null: "Der Name des Items ist nicht angegeben!"
@@ -276,10 +347,12 @@ invalid-spawn-potential: "Ungültiger Eintrag für Spawn-Potenzial '%spawn_poten
 invalid-material-for-item-option: "Material des Artikels sollte %material% sein, um %item-option% zu setzen"
 invalid-ominous-bottle-strength: "Ungültige Stärke für die ominöse Flasche, muss zwischen 1 und 5 liegen, aber hat: %strength%"
 error-setting-item-option: "Fehler beim Festlegen von %item-option% für den Artikel mit dem Fehler:"
+
 #Item path
 items-path-in-shops-config: "Item Pfad in der shops.yml: %location%"
 items-path-in-sections-config: "Item Pfad in der sections.yml: %location%"
 items-path-in-config: "Item Pfad in der config.yml: %location%"
+
 #Compatibility
 mineablespawners-compatibility-enabled: "Spawner provider ist in den Einstellungen umgestellt worden auf MineableSpawners"
 mineablespawners-found: "Abbaubare Spawner gefunden, integriere ..."
@@ -306,12 +379,14 @@ spawner-provider-not-found: "%provider% konnte nicht gefunden werden"
 spawner-provider-found: "Integriere in %provider%..."
 failed-spawner-provider-integration: "Integration mit %provider% fehlgeschlagen"
 using-external-spawners: "Das Plugin verwendet jetzt die Spawner von %provider%."
+
 silkspawners-compatibility-enabled: "Kompatibilität mit SilkSpawners wurde in der Config aktivert."
 silkspawners-not-found: "SilkSpawners konnte nicht gefunden werden"
 silkspawners-found: "Integriere in SilkSpawners..."
 could-not-integrate-with-silkspawners: "Integration in SilkSpawners fehlgeschlagen."
 using-silkspawners-spawners: "Verwenden von SilkSpawners Spawnern..."
 using-default-spawners: "Benutze die internen Spawner..."
+
 #Error's
 cannot-find-discounted-section: "Die Rabatte für die Seite '%section%' konnten nicht eingestellt werden, weil sie deaktiviert ist oder sie nicht existiert."
 cannot-find-discounted-group: "Rabatte für die Gruppe '%permsGroup%' konnten nicht eingestellt werden, bitte überprüfe, ob sie in deinem Berechtigungsplugin existiert und du sie richtig geschrieben hast."
@@ -355,7 +430,7 @@ cannot-load-economy-provider: "Laden des economy provider für Shop '%shop%' mit
 cannot-find-economy-provider: "Kann economy provider für Shop '%shop%' wie '%type%' nicht finden, benutze Standard..."
 cannot-find-default-economy-provider: "Kann economy Typ nicht spezifizieren in der config.yml wie '%economy%', versuche automatisiert einen unterstützten economy Typ zu finden..."
 cannot-load-default-economy-provider: "Laden des economy provider fehlgeschlagen, mit Grund '%reason%', versuche automatisiert unterstützten economy provider zu finden"
-removed-shop-stand: "Shop-Ständer vom Standort %location% entfernt"
+removed-shop-stand: "&Shop-Ständer vom Standort %location% entfernt"
 shop-stand-load-failed: "Fehler beim Laden des Shop-Ständers mit der ID '%id%': %reason%"
 shop-stand-unload-failed: "Fehler beim Entladen des Shop-Ständers mit der ID '%id%': %reason%"
 shop-stand-inside-unloaded-chunk: "Shop-Ständer befindet sich in einem nicht geladenen Chunk"

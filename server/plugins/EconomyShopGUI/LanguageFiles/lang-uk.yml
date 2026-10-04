@@ -1,4 +1,5 @@
-#Help translate this file over on our Crowdin: https://crowdin.com/project/economyshopgui
+# Help translate this file over on our Crowdin: https://crowdin.com/project/economyshopgui
+
 #StartUp/Reload
 creating-latest-shops: "Створення магазинів за замовчуванням для останньої версії, оскільки не знайдено існуючого макета, що відповідає версії сервера %version%, будь ласка, використовуйте підтримувану версію сервера."
 default-shops-created: "Макет магазинів за замовчуванням, сумісний із %version%, створеним у %path%"
@@ -38,19 +39,24 @@ economy-providers-loaded: "Завершено завантаження %total% �
 section-economy-provider-loaded: "Використання '%economy%' як економії за замовчуванням для магазину '%shop%'"
 loaded-shop-stand-module: "Завершено завантаження %count% торгових стендів зі stands.json"
 saving-shop-stands: "Збереження %count% торгових стендів до 'stands.json'..."
+
 #Shop prefix
 shop-prefix: "&9&lМагазин &8&l>> "
+
 #Main Shop Inventory
 inventory-main-shop-title: "&8&lМагазин сервера"
 profile: "&aПрофиль"
 name: "&6Ім'я"
 money: "&6Баланс"
 level: "&6Рівень"
-#SellGUI inventory
+
+# SellGUI inventory
 inventory-sellgui-title: "&8&lМеню продажу"
+
 #Buystacks Inventory title
 inventory-buystacks-title: "&8Купівля стаків &a&l> &r&8%item%"
-#Transaction screen
+
+# Transaction screen
 inventory-howmuchsell-title: "&8Продаж &c&l> &r&8%item%"
 inventory-howmuchbuy-title: "&8Купівля &a&l> &r&8%item%"
 plus-one: "&b+1"
@@ -67,20 +73,36 @@ transaction-screen-total-price: "&3%price%"
 transaction-screen-total-amount: "&5x %amount%"
 max-amount-reached: "&cДосягнуто максимальної суми"
 min-amount-reached: "&cДосягнуто мінімальної кількості"
-#ShopStands transactions
+
+# ShopStands transactions
 shopstand-buy-screen-title: "&8Купівля &a&l> &r&8%item%"
 shopstand-sell-screen-title: "&8Продаж &c&l> &r&8%item%"
 shopstand-click-to-buy: "&aНатисніть, щоб придбати %amount%"
 shopstand-click-to-sell: "&aНатисніть, щоб продати %amount%"
 shopstand-total-price: "&cЗагальна ціна: &7%price%"
-#Shop stands module
+
+# Shop stands module
 default-shop-stand-item-name: "&eТорговийСтенд"
-default-shop-stand-item-lore: "&fПоставте цей предмет, щоб створити\n&fa новий &6ТорговийСтенд &fу вказаному місці\n&fдля предмета магазину: &c%item%"
+default-shop-stand-item-lore: "&fПоставте цей предмет, щоб створити
+
+  &fa новий &6ТорговийСтенд &fу вказаному місці
+
+  &fдля предмета магазину: &c%item%"
 shop-stands-management-inventory-title: "&8&lКерування стендом"
 shop-stand-info-item-name: "&6&lІнформація про торговий стенд:"
-shop-stand-info-item-lore: "&a ID Стенду: &f%id%\n&aМісцерозташування: &f%location%\n&aПредмет Магазину: &f%item%\n&aТип Стенду: &f%type%\n&aЗавантажений: &f%loaded%"
+shop-stand-info-item-lore: "&a ID Стенду: &f%id%
+
+  &aМісцерозташування: &f%location%
+
+  &aПредмет Магазину: &f%item%
+
+  &aТип Стенду: &f%type%
+
+  &aЗавантажений: &f%loaded%"
 force-reload-stand-item-name: "&e&lПримусово перезавантажити стенд"
-force-reload-stand-item-lore: "&fНатискання на це перезавантажить торговий стенд,\n&fщо заново створить відображуваний предмет і стенд"
+force-reload-stand-item-lore: "&fНатискання на це перезавантажить торговий стенд,
+
+  &fщо заново створить відображуваний предмет і стенд"
 destroy-stand-item-name: "&4&lЗнищити торговий стенд"
 destroy-stand-item-lore: "&eНатисніть, щоб знищити цей торговий стенд"
 reload-shop-stand: "&aПримусово перезавантажено торговий стенд з ID %id%"
@@ -88,14 +110,16 @@ shop-stand-browse-inventory-title: "&8&lСписок стендів"
 shop-stand-location-format: "Світ: '%world%', x%pos_x%, y%pos_y%, z%pos_z%"
 created-new-shop-stand: "&aУспішно створено новий торговий стенд для &f%item%"
 error-creating-new-shop-stand: "&cНе вдалося створити новий торговий стенд: %reason%"
+
 #All Inventory's
 back: "&4Назад"
 cancel: "&4Вийти"
+
 #Previous/Next/Current page
 previous-page: "&dПопередня сторінка"
 next-page: "&bНаступна сторінка"
-current-page: "&7Сторінка:"
-#ShopItem lore
+
+# ShopItem lore
 left-click-buy: "\\n &a&lЦіна Купівлі\\n &a■ &f%buyPrice%"
 seasonal-buy-price: "\\n &a&lЦіна Купівлі\\n &a■ &f&m%buyPrice%&r &f%seasonalBuyPrice%"
 discounted-buy-price: "\\n &a&lЦіна Купівлі\\n &a■ &f&m%buyPrice%&r &f%discountedPrice%"
@@ -111,7 +135,12 @@ decoration-lore: "\n &e&lВикористання:"
 decoration-lore-buy: "&e ╚&e&l» &fЛКМ щоб купити"
 decoration-lore-sell-all: "&e ╚&e&l» &fShift + ПКМ щоб продати все"
 decoration-lore-sell: "&e ╚&e&l» &fПКМ щоб продати"
-time-requirement-lore: "&c&lМоже бути придбано лише між\n&c%minTime% &lта &c%maxTime% &lігровими годинами."
+time-requirement-lore: "&c&lМоже бути придбано лише між
+
+  &c%minTime% &lта &c%maxTime% &lігровими годинами."
+quest-requirement-lore: "&c&lНеобхідно для завершення квесту &b&l%questName%"
+region-requirement-lore: "&c&lПотрібно бути всередині регіону &b&l%regionName%"
+
 #Buy/Sell Messages
 discord-srv-player-transaction: "%player_name% %bought/sold% %amount% x %items% за %price%"
 pay-confirmation: "&aВи успішно купили &1%amount% x &b%material% &aза &c%amounttopay%"
@@ -123,6 +152,8 @@ cannot-sell-item: "&cЦей предмет неможливо продати."
 player-made-transaction: "%playername% %bought/sold% %amount% x %material% за %amountofmoney% з %buy/sell-method%."
 player-made-transaction-multiple-items: "%playername% %bought/sold% %items% за %amountofmoney% з %buy/sell-method%."
 time-requirement-not-met: "&cЦей предмет можна придбати/продати лише між &f%minTime% &cта &f%maxTime%&c ігровими годинами, поточний час &f%progress%&c. Повертайтеся незабаром!"
+quest-requirement-not-met: "&cЦей предмет можна купити/продати лише після завершення квесту &b&l%questName%&c, поверніться після його завершення"
+region-requirement-not-met: "&cВи можете купувати/продавати цей товар тільки в межах регіону %regionName%"
 buy-screen: "купити через меню"
 sell-screen: "продати через меню"
 buystacks-screen: "купити стаки через меню"
@@ -138,15 +169,19 @@ bought: "куплено"
 sold: "продано"
 on-screen-title-sold: "&a+%price%"
 on-screen-title-bought: "&c-%price%"
+
 #CurrencySymbol
 currencysymbol: "%price%₴"
 symbol-pricing-format: "%price%%symbol%"
 named-pricing-format: "%price% &l%currency-format%"
-#XP Currency name format
+
+# XP Currency name format
 xp-currency-name-singular: "Бал XP"
 xp-currency-name-plural: "Бали XP"
+
 #All commands
 command-disabled-in-world: "&cЦя команда вимкнена в цьому світі."
+
 #Edit-shop subcommand descriptions
 editshop-add-item-subcommand-desc: "&aДодати товар до магазину."
 editshop-edit-item-subcommand-desc: "&aРедагувати наявний товар у магазині."
@@ -161,6 +196,7 @@ editshop-shopstands-subcommand-desc: "&aКерувати наявним, чи с
 editshop-shopstands-give-subcommand-desc: "&aДає новий предмет торгового стенда для встановлення"
 editshop-shopstands-destroy-subcommand-desc: "&aЗнищує торговий стенд у його поточному місці за його ID"
 editshop-shopstands-browse-subcommand-desc: "&aВідкриває GUI з усіма наявними торговими стендами"
+
 #Edit-shop subcommand syntaxes
 editshop-add-item-subcommand-syntax: "&a/editshop additem <розділ> <матеріал> <ціна покупки> <ціна продажу> [показуване ім'я]"
 editshop-edit-item-subcommand-syntax: "&a/editshop edititem <розділ> <предмет> <дія> <ключ> <значення>"
@@ -175,6 +211,7 @@ editshop-shopstands-subcommand-syntax: "&a/editshop shopstands <give/destroy> ..
 editshop-shopstands-give-subcommand-syntax: "&a/editshop shopstands give <standType> <section> <index>"
 editshop-shopstands-destroy-subcommand-syntax: "&a/eshop shopstands destroy <standID>"
 editshop-shopstands-browse-subcommand-syntax: "&a/eshop shopstands browse"
+
 #Edit-shop command messages
 editshop-adding-item: "&aДодавання нового товару в магазин %shop%..."
 editshop-add-item-successful: "&aУспішно додано до магазину %shop% товар %itemPath%."
@@ -190,10 +227,15 @@ editshop-removed-section: "&a&a'%itemPath%' успішно видалено з �
 editshop-reload-shop-to-see-changes: "&aВикористовуйте команду /sreload щоб завантажити зміни всередині магазину."
 file-replaced: "&aСтарий %fileName% було замінено на новий файл, старий файл можна знайти в папці резервних копій, якщо ви щось наплутали."
 shop-stand-item-received: "&aВи отримали &c%amount%x &aShopStand для торгового предмета &f%item%"
+
 #Edit-shop command errors
 section-does-not-contain-item: "&cРозділ '%shopsection%' не містить елемента '%itemLoc%'."
-no-valid-action: "&cНедійсна дія '%action%'. \nДоступні дії: %actions%."
-no-valid-key: "&cНедійсний ключ '%key%'. \nДоступні ключі: %keys%."
+no-valid-action: "&cНедійсна дія '%action%'.\ 
+
+  Доступні дії: %actions%."
+no-valid-key: "&cНедійсний ключ '%key%'.\ 
+
+  Доступні ключі: %keys%."
 action-not-valid-on-key: "&cНеможливо %action% ключ '%key%'."
 edit-item-material-invalid: "&cМатеріал із елемента, який ви намагаєтеся редагувати, недійсний. '%material%'"
 key-already-defined: "&cКлюч '%key%' вже визначено в елементі, ви не можете додати його двічі."
@@ -201,27 +243,35 @@ key-is-not-found: "&cКлюч '%key%' неможливо видалити з е�
 plugin-not-found: "&cНе вдається знайти плагін із такою назвою. Перевірте, чи підтримуємо ми цей плагін."
 file-not-found: "&cНе вдається знайти файл із назвою %fileName% у папці плагіна %pluginName%."
 no-valid-slot-for-item: "&cЕлемент не вдалося розмістити в слот '%slot%'. Слот має бути 1 - %maxShopSize%."
-slot-already-in-use: "&cСлот для цього розділу вже зайнято.\nУсі доступні слоти: %available-slots%"
+slot-already-in-use: "&cСлот для цього розділу вже зайнято.
+
+  Усі доступні слоти: %available-slots%"
 slot-needs-to-be-number: "&cСлот для пункту в головному меню має бути номером."
 invalid-shop-stand-type: "&cНедійсний тип торгового стенда, правильні значення: %values%"
 unknown-shop-stand-id: "&cНе знайдено торгового стенда з ID &f%id%"
 stand-type-not-supported: "&cТип торгового стенда &f%type% &cне підтримується чинною версією Minecraft"
+
 #Reload Command
 configs-reloaded: "&aУсі конфігурації перезавантажено."
-#Sellall command usages
+
+# Sellall command usages
 sellall-command-usages: "&aВикористання команди:"
 sellall-inventory-command-usage: "&7/sellall inventory &f- &7Продає всі предмети у вашому інвентарі"
 sellall-hand-command-usage: "&7/sellall hand &8[amount] &f- &7Продає всі предмети у вас в руці"
 sellall-item-command-usage: "&7/sellall <item> &8[amount] &f- &7Продає всі предмети у вашому інвентарі, що відповідають вказаній назві предмета"
-#ShopGive command
+
+# ShopGive command
 shop-item-given: "&aВам дали &c%amount% &ax &6%material%"
 shop-item-received: "&aВи отримали &c%mount% &ax товар з розділу &6%section% &a та індекс товару &6%itemIndex%"
+
 #Balance Command
 check-balance: "&bВи зараз маєте &c%amountofmoney%&b."
 check-balance-other-player: "&b%playername% &aна даний момент має &c%amountofmoney%&a."
+
 #Givemoney Command
 givemoneycommand-example: "&9/givemoney <гравець> <кількість>"
 givemoney-complete: "&aGivemoney виконано."
+
 #Pay Command
 minimum-amount: "&cМінімальна сума, яку потрібно заплатити гравцеві %minimumamount%."
 payment-complete: "&aОплату виконано."
@@ -229,14 +279,18 @@ player-received-money: "&aВи отримали &c%amounttogive% &від &2%play
 need-player-and-amount: "&9Потрібно ввести нік гравця та суму грошей."
 need-amount: "&9Потрібно дати певну суму грошей."
 paycommand-example: "&9/pay <гравець> <кількість>"
+
 #Player breaks spawner
 default-spawner-name: "&9&l%spawner-type% &rСпавнер"
 spawner-broke-and-applied-to-inventory: "&aВи успішно видобули &9%spawner-type%&a, предмет застосовано до вашого інвентарю."
 need-silk-touch: "&cЩоб видобути це, вам потрібно використовувати кайло з шовковим дотиком!"
+
 #JoinMessage
 join-message: "&2Ласкаво просимо, ваш баланс складає &c%balance%!"
+
 #Level event
 level-event-message: "&2[Рівнів] &c%amount% &5було додано на ваш баланс!"
+
 #Item error's
 displayname-null: "Не вдалося отримати ім'я для відображення."
 item-name-null: "Не вдалося отримати назву предмета."
@@ -276,10 +330,12 @@ invalid-spawn-potential: "Недійсне значення для потенц�
 invalid-material-for-item-option: "Матеріал предмету має бути %material%, щоб встановити %item-option%"
 invalid-ominous-bottle-strength: "Недійсна сила для зловісної пляшки, має бути між 1 і 5, але отримано %strength%"
 error-setting-item-option: "Не вдалося встановити %item-option% для предмета з помилкою:"
+
 #Item path
 items-path-in-shops-config: "Шлях предмета в shops.yml: %location%"
 items-path-in-sections-config: "Шлях елемента в sections.yml: %location%"
 items-path-in-config: "Шлях елемента в config.yml: %location%"
+
 #Compatibility
 mineablespawners-compatibility-enabled: "У конфігурації для постачальника Spawner встановлено значення MineableSpawners"
 mineablespawners-found: "Знайдено MineableSpawners, інтеграція..."
@@ -306,12 +362,14 @@ spawner-provider-not-found: "%provider% не знайдено"
 spawner-provider-found: "%provider% знайдено, інтеграція..."
 failed-spawner-provider-integration: "Не вдалося інтегрувати з %provider%"
 using-external-spawners: "Використання %provider% як постачальника спавнера."
+
 silkspawners-compatibility-enabled: "Сумісність із SilkSpawners увімкнено в конфігурації."
 silkspawners-not-found: "SilkSpawners не знайдено"
 silkspawners-found: "SilkSpawners знайшли, інтеграція..."
 could-not-integrate-with-silkspawners: "Не вдалося інтегруватися з SilkSpawners."
 using-silkspawners-spawners: "Використання спавнерів SilkSpawners..."
 using-default-spawners: "Використання плагінів за замовчуванням..."
+
 #Error's
 cannot-find-discounted-section: "Не вдається додати знижки для розділу '%section%', або розділ магазину вимкнено, або його не знайдено."
 cannot-find-discounted-group: "Не вдається додати знижки для групи дозволів '%permsGroup%', будь ласка, перевірте правопис і чи існує вона у вашому плагіні дозволів."
@@ -355,7 +413,7 @@ cannot-load-economy-provider: "Не вдалося завантажити еко
 cannot-find-economy-provider: "Не вдалося знайти економічного постачальника для магазину '%shop%', такого як '%type%', використовується тип за замовчуванням..."
 cannot-find-default-economy-provider: "Не вдалося знайти тип економіки, вказаний у файлі config.yml, наприклад, '%economy%', спроба автоматично знайти підтримуваний тип економіки..."
 cannot-load-default-economy-provider: "Не вдалося завантажити економ-провайдера за замовчуванням з причиною \"%reason%\", спроба автоматично знайти підтримуваного економ-провайдера"
-removed-shop-stand: "Прибрано торговий стенд розташований на %location%"
+removed-shop-stand: "&cВидалено торговий стенд з локації %location%"
 shop-stand-load-failed: "Не вдалося завантажити торговий стенд з ID '%id%': %reason%"
 shop-stand-unload-failed: "Не вдалося вивантажити торговий стенд з ID '%id%': %reason%"
 shop-stand-inside-unloaded-chunk: "Торговий стенд знаходиться в не завантаженому чанку"
