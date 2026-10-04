@@ -39,5 +39,17 @@ command /worldswitch [<text>] [<player>]:
         else:
             execute console command "/mvtp %{_p}% %arg-1%"
 
+on quit:
+    if player's world contains "Survival":
+        set {lastloc.%player%.Survival} to player's location
+    else if player's world contains "world":
+        set {lastloc.%player%.world} to player's location
+    else:
+        set {lastloc.%player%.%player's world%} to player's location
+    teleport player to location(0.5, 64, 0.5, world "voidworld")
+    set player's walk speed to 0
+    set player's gamemode to spectator
+    
+
 on tab complete of "/worldswitch":
     set tab completions for position 1 to all worlds
