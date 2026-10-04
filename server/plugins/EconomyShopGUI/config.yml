@@ -74,13 +74,19 @@ abbreviations:
   - 'm'
   - 'b'
   - 't'
-  - 'q'
+  - 'qua'
+  - 'qui'
+  - 'sex'
+  - 'sep'
+  - 'oct'
+  - 'non'
+  - 'dec'
 
 
 #-----------------------------------------------Updates-------------------------------------------------
 
 # This option enables or disables the automatic checking of updates for the plugin on startup or reload of the plugin
-update-checking: true
+update-checking: false
 
 
 #----------------------------------------------DebugMode------------------------------------------------

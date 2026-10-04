@@ -48,7 +48,6 @@ on quit:
         set {lastloc.%player%.%player's world%} to player's location
     teleport player to location(0.5, 64, 0.5, world "voidworld")
     set player's walk speed to 0
-    set player's gamemode to spectator
     
 
 on tab complete of "/worldswitch":

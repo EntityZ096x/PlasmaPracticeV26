@@ -26,7 +26,7 @@
 	# CloudFlare) to the BungeeCord server. This is required for EaglerXBungee's rate
 	# limiting and a lot of plugins to work correctly if they are used behind a
 	# reverse HTTP proxy or CloudFlare.
-	forward_ip = false
+	forward_ip = true
 	# Default value is 'X-Real-IP', sets the name of the request header that contains
 	# the player's real IP address if the forward_ip option is enabled. This option is
 	# commonly set to X-Forwarded-For or CF-Connecting-IP for a lot of server setups.
