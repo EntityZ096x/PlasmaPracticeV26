@@ -4,8 +4,15 @@ on entity jump:
 
 on slime split:
     if data tag "BACKPORT.mob" of event-entity is "sulfur_cube":
-        set data tag "backport:mob" of loop-entity to "sulfur_cube"
+        cancel event
+        if event-entity's entity size > 1:
 
-on spawn of slime:
-    if spawn reason is slime split:
-        set data tag "backport:mob" of event-entity to "sulfur_cube"
+        set {_loc} to location of event-entity
+
+        loop 2 times:
+            spawn a slime at {_loc}
+            set {_child} to last spawned entity
+
+            set entity size of {_child} to 1
+            set data tag "BACKPORT.mob" of {_child} to "sulfur_cube"
+            set name of {_child} to "Sulfur Cube"

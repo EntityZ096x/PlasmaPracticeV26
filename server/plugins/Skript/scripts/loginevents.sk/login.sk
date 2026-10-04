@@ -1,8 +1,4 @@
 on join:
-    teleport player to location(0.5, 64, 0.5, world "voidworld")
-    set player's walk speed to 0
-    set player's gamemode to spectator
-
     set {login.timer.%player%} to 60
 
     if {login.password.%player%} is set:
