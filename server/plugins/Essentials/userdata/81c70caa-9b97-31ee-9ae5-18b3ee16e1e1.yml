@@ -17,18 +17,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1791227073809
+  logout: 1791227209850
   login: 1791227102767
 money: '0'
 last-account-name: Clstial
 logoutlocation:
   world: f70b1dbe-264f-4011-9770-0a60de88db6d
   world-name: Lobby
-  x: 0.8840339266716526
-  y: 113.0
-  z: -242.29967249817435
-  yaw: 97.50154876708984
-  pitch: 87.74996185302734
+  x: 0.9721581782199955
+  y: 103.0
+  z: -186.09454871721877
+  yaw: -12.300027847290039
+  pitch: 71.85000610351562
 lastlocation:
   world: f70b1dbe-264f-4011-9770-0a60de88db6d
   world-name: Lobby

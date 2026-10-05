@@ -2817,3 +2817,374 @@ Reason: The Ban Hammer has spoken!
 [19:05:13] [Server thread/INFO]: Clstial issued server command: /gmc
 [19:05:15] [Server thread/INFO]: EntityZ096x (as console): why did u guys ban me
 [19:05:18] [Async Chat Thread - #69/INFO]: [Not Secure] Admin || Clstial || » why did you ban me
+[19:05:23] [Async Chat Thread - #68/INFO]: [Not Secure] Admin || Clstial || » D:
+[19:05:24] [Server thread/INFO]: EntityZ096x (as console): no justdan ip ban me
+[19:05:30] [Async Chat Thread - #69/INFO]: [Not Secure] Admin || Clstial || » wut?
+[19:05:30] [Server thread/INFO]: EntityZ096x (as console): aka ip ban whole server
+[19:05:35] [Async Chat Thread - #69/INFO]: [Not Secure] Admin || Clstial || » breh
+[19:05:42] [Server thread/INFO]: EntityZ096x (as console): hes such a dumbass
+[19:05:52] [Server thread/INFO]: EntityZ096x (as console): imma get rid of his ipban perms
+[19:05:54] [Server thread/INFO]: Unknown or incomplete command. See below for error
+rq<--[HERE]
+[19:05:59] [Server thread/INFO]: EntityZ096x (as console): wait rq
+[19:06:02] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
+[19:06:02] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
+[19:06:02] [luckperms-command-executor/INFO]: https://luckperms.net/editor/zXuFT6ZZz9
+[19:06:10] [luckperms-worker-9/INFO]: [LP] An editor window has connected, but it is not yet trusted.
+[19:06:10] [luckperms-worker-9/INFO]: [LP] (session id = 773e-e855, browser = Chrome on Chrome OS)
+[19:06:10] [luckperms-worker-9/INFO]: [LP] If it was you, run /lp trusteditor 773e-e855 to trust the session!
+[19:06:22] [luckperms-command-executor/INFO]: [LP] The editor session has been marked as trusted.
+[19:06:22] [luckperms-command-executor/INFO]: [LP] In the future, connections from the same browser will be trusted automatically.
+[19:06:22] [luckperms-command-executor/INFO]: [LP] The plugin will now attempt to establish a connection with the editor...
+[19:06:22] [luckperms-worker-9/INFO]: [LP] Editor window connected successfully.
+[19:06:48] [luckperms-worker-9/INFO]: [LP] Changes have been received from the connected web editor session.
+[19:06:48] [luckperms-worker-9/INFO]: [LP] Web editor data was applied to group owner (Owner) successfully.
+[19:06:48] [luckperms-worker-9/INFO]: [LP] (1 addition and 0 deletions)
+[19:06:48] [luckperms-worker-9/INFO]: +  * (true)
+[19:06:49] [Server thread/INFO]: Clstial lost connection: Disconnected
+[19:06:49] [Server thread/INFO]: [-] Clstial
+[19:09:54] [User Authenticator #28/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[19:09:54] [Server thread/INFO]: [+] JustDan12
+[19:09:54] [Server thread/INFO]: JustDan12[/127.0.0.1:40794] logged in with entity id 82325 at ([minecraft:lobby]-3.222529878315012, 63.5, -0.4430655830411287)
+[19:09:54] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[19:09:54] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[19:09:58] [Server thread/INFO]: JustDan12 issued server command: /login poopyboy
+[19:09:59] [Server thread/INFO]: EntityZ096x (as console): danile
+[19:10:03] [Server thread/INFO]: EntityZ096x (as console): jij domme neger
+[19:10:08] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || JustDan12 || » ur not my friend anymore
+[19:10:09] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[19:10:12] [Server thread/INFO]: EntityZ096x (as console): als jij IEMAND ipban
+[19:10:17] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || JustDan12 || » ik weet
+[19:10:22] [Server thread/INFO]: EntityZ096x (as console): ban-t je IEDEREEN
+[19:10:27] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || JustDan12 || » ik was zo: /banip EntityZ096
+[19:10:28] [Server thread/INFO]: EntityZ096x (as console): bec we have same ip
+[19:10:32] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || JustDan12 || » je bent toch thuis?
+[19:10:34] [Server thread/INFO]: EntityZ096x (as console): ja
+[19:10:37] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || JustDan12 || » dan wordt alleen jouw wifi gebant
+[19:10:52] [Server thread/INFO]: EntityZ096x (as console): the proxy exposes us as all 172.0.0.1
+[19:10:56] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || JustDan12 || » alr
+[19:10:57] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || JustDan12 || » nice
+[19:11:00] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || JustDan12 || » if i go out
+[19:11:05] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || JustDan12 || » im taking you with me
+[19:11:07] [Server thread/INFO]: EntityZ096x (as console): so the server is like: oh this guy is on ban list
+[19:11:14] [Server thread/INFO]: EntityZ096x (as console): and then u get ban
+[19:11:14] [Server thread/INFO]: JustDan12 issued server command: /gms
+[19:11:17] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || JustDan12 || » im taking you with me
+[19:11:17] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || JustDan12 || » im taking you with me
+[19:11:17] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || JustDan12 || » im taking you with me
+[19:11:21] [Server thread/INFO]: EntityZ096x (as console): dummyboy
+[19:11:24] [Server thread/INFO]: EntityZ096x (as console): well
+[19:11:29] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[19:11:31] [Server thread/INFO]: JustDan12 issued server command: /clear
+[19:11:36] [Server thread/INFO]: EntityZ096x (as console): thankfully u didnt do much damage
+[19:11:49] [Server thread/INFO]: EntityZ096x (as console): never ip ban someone begrepen?
+[19:12:04] [Server thread/INFO]: JustDan12 issued server command: //brush cylinder
+[19:12:12] [Server thread/INFO]: EntityZ096x (as console): u working on the castle?
+[19:12:24] [Server thread/INFO]: JustDan12 issued server command: //brush cyl air 26
+[19:12:30] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:12:34] [Server thread/INFO]: JustDan12 issued server command: //brush cyl air 20
+[19:12:38] [Server thread/INFO]: EntityZ096x (as console): im gettting ignored :(((
+[19:12:48] [Async Chat Thread - #73/INFO]: [Not Secure] Admin || JustDan12 || » ye
+[19:12:58] [Server thread/INFO]: EntityZ096x (as console): :(
+[19:13:08] [Server thread/INFO]: EntityZ096x (as console): i shall never see the light of day ever agian
+[19:14:15] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 18
+[19:15:14] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[19:15:14] [Server thread/INFO]: Line 53: (chat.sk)
+[19:15:14] [Server thread/INFO]:     Can't understand this condition/effect: replace all ":hakenkruis:" with "卐"
+[19:15:14] [Server thread/INFO]:     Line: replace all ":hakenkruis:" with "卐"
+[19:15:14] [Server thread/INFO]:  
+[19:15:14] [Server thread/INFO]:     Encountered 1 error while reloading chat.sk! (48ms)
+[19:15:27] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[19:15:27] [Server thread/INFO]: Successfully reloaded chat.sk. (54ms)
+[19:15:45] [Server thread/INFO]: EntityZ096x (as console): 卐 NAZI 卐 SHALL RISE AGAIN
+[19:16:11] [Server thread/INFO]: EntityZ096x (as console): i hate my life
+[19:16:23] [Server thread/INFO]: EntityZ096x (as console): imma close console now bye
+[19:18:22] [Async Chat Thread - #74/INFO]: [Not Secure] Admin || JustDan12 || » how do i copy and rotate again?
+[19:18:40] [Server thread/INFO]: EntityZ096x (as console): srry wasnt looking
+[19:18:42] [Server thread/INFO]: EntityZ096x (as console): erm
+[19:18:49] [Async Chat Thread - #74/INFO]: [Not Secure] Admin || JustDan12 || » np
+[19:18:50] [Server thread/INFO]: EntityZ096x (as console): //pos1 //pos2
+[19:18:50] [Async Chat Thread - #74/INFO]: [Not Secure] Admin || JustDan12 || » i got id
+[19:18:54] [Server thread/INFO]: JustDan12 issued server command: //wand
+[19:18:54] [Server thread/INFO]: EntityZ096x (as console): //copy
+[19:19:00] [Server thread/INFO]: EntityZ096x (as console): //flip <dir>
+[19:19:06] [Server thread/INFO]: EntityZ096x (as console): //rotate
+[19:19:17] [Server thread/INFO]: JustDan12 issued server command: //copy
+[19:19:19] [Server thread/INFO]: EntityZ096x (as console): u can only do flip and rotate aftere u copy
+[19:19:24] [Server thread/INFO]: JustDan12 issued server command: //past
+[19:19:25] [Server thread/INFO]: EntityZ096x (as console): thern just //paste
+[19:19:26] [Server thread/INFO]: JustDan12 issued server command: //paste
+[19:19:38] [Server thread/INFO]: JustDan12 issued server command: //rotate 90
+[19:19:42] [Server thread/INFO]: JustDan12 issued server command: /undo
+[19:19:45] [Server thread/INFO]: JustDan12 issued server command: //paste
+[19:19:46] [Server thread/INFO]: EntityZ096x (as console): TEST: die Aufgabe | die Aufgaben TRASNLATE THIS
+[19:19:48] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:19:53] [Server thread/INFO]: JustDan12 issued server command: //rotate -90
+[19:19:55] [Server thread/INFO]: EntityZ096x (as console): 3
+[19:19:57] [Server thread/INFO]: EntityZ096x (as console): 2
+[19:19:59] [Server thread/INFO]: JustDan12 issued server command: //paste
+[19:19:59] [Server thread/INFO]: EntityZ096x (as console): 1
+[19:20:04] [Async Chat Thread - #76/INFO]: [Not Secure] Admin || JustDan12 || » ?
+[19:20:04] [Server thread/INFO]: EntityZ096x (as console): de opdracht
+[19:20:07] [Async Chat Thread - #76/INFO]: [Not Secure] Admin || JustDan12 || » de opdracht
+[19:20:09] [Server thread/INFO]: EntityZ096x (as console): U FAILED
+[19:20:10] [Server thread/INFO]: JustDan12 issued server command: //paste
+[19:20:21] [Server thread/INFO]: EntityZ096x (as console): ok now back to learn
+[19:20:24] [Server thread/INFO]: JustDan12 issued server command: //copy
+[19:20:29] [Server thread/INFO]: JustDan12 issued server command: //rotate -90
+[19:20:31] [Server thread/INFO]: JustDan12 issued server command: //paste
+[19:20:45] [Server thread/INFO]: EntityZ096x (as console): if u need me just spam something in the chat i can see that
+[19:21:40] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:21:51] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 17
+[19:21:55] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:22:09] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 16
+[19:22:30] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 15
+[19:22:58] [Server thread/INFO]: JustDan12 issued server command: //pos2
+[19:23:00] [Server thread/INFO]: JustDan12 issued server command: //set air
+[19:23:09] [Server thread/INFO]: JustDan12 issued server command: //set air
+[19:23:27] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 14
+[19:23:30] [Server thread/INFO]: EntityZ096x (as console): TEST: die Lösung | die Lösungen TRANSLATE IT
+[19:23:34] [Server thread/INFO]: EntityZ096x (as console): 5
+[19:23:35] [Async Chat Thread - #78/INFO]: [Not Secure] Admin || JustDan12 || » de oplossing
+[19:23:35] [Server thread/INFO]: Unknown or incomplete command. See below for error
+t4<--[HERE]
+[19:23:37] [Async Chat Thread - #78/INFO]: [Not Secure] Admin || JustDan12 || » i win
+[19:23:39] [Server thread/INFO]: EntityZ096x (as console): nice
+[19:23:47] [Async Chat Thread - #79/INFO]: [Not Secure] Admin || JustDan12 || » ik weet lektion 1-4 behalve 3
+[19:23:52] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 13
+[19:23:53] [Server thread/INFO]: EntityZ096x (as console): dayum
+[19:24:15] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 12
+[19:24:21] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 11
+[19:24:36] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 10
+[19:24:49] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 9
+[19:25:10] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 8
+[19:25:16] [Server thread/INFO]: EntityZ096x (as console): TEST: schaffen
+[19:25:18] [Server thread/INFO]: EntityZ096x (as console): 5
+[19:25:20] [Server thread/INFO]: EntityZ096x (as console): 4
+[19:25:21] [Server thread/INFO]: EntityZ096x (as console): 3
+[19:25:21] [Async Chat Thread - #80/INFO]: [Not Secure] Admin || JustDan12 || » idgaf
+[19:25:25] [Server thread/INFO]: EntityZ096x (as console): :(
+[19:25:35] [Server thread/INFO]: EntityZ096x (as console): lukken, voorelkaar krijgen
+[19:25:59] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 7
+[19:26:19] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 6
+[19:26:42] [Server thread/INFO]: JustDan12 issued server command: //undo 10
+[19:26:42] [Server thread/INFO]: JustDan12 issued server command: //undo 10
+[19:26:43] [Server thread/INFO]: JustDan12 issued server command: //undo 10
+[19:27:18] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 18
+[19:28:08] [Server thread/INFO]: JustDan12 issued server command: //sel
+[19:28:10] [Server thread/INFO]: JustDan12 issued server command: //sel convex
+[19:28:15] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:28:22] [Server thread/INFO]: JustDan12 issued server command: //wand
+[19:28:25] [Server thread/INFO]: JustDan12 issued server command: //sel
+[19:28:28] [Server thread/INFO]: JustDan12 issued server command: //sel convex
+[19:28:29] [Server thread/INFO]: EntityZ096x (as console): btw to go back use //sel cuboid if u didnt know alr
+[19:28:53] [Server thread/INFO]: JustDan12 issued server command: //set black_wool
+[19:29:15] [Server thread/INFO]: JustDan12 issued server command: //sel
+[19:29:32] [Server thread/INFO]: JustDan12 issued server command: //pos1
+[19:29:34] [Server thread/INFO]: Incorrect argument for command
+...tityZ096x [+]<--[HERE]
+[19:29:42] [Server thread/INFO]: JustDan12 issued server command: //pos2
+[19:29:45] [Server thread/INFO]: JustDan12 issued server command: //copy
+[19:29:49] [Server thread/INFO]: JustDan12 issued server command: //rotate 90
+[19:29:55] [Server thread/INFO]: JustDan12 issued server command: //paste
+[19:29:58] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:29:59] [Server thread/INFO]: EntityZ096x (as console): im sad
+[19:30:04] [Server thread/INFO]: JustDan12 issued server command: //paste
+[19:30:07] [Server thread/INFO]: JustDan12 issued server command: //undo
+[19:30:13] [Server thread/INFO]: JustDan12 issued server command: //sel
+[19:30:21] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[19:30:21] [Server thread/INFO]: [-] JustDan12
+[19:30:23] [User Authenticator #29/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[19:30:23] [Server thread/INFO]: [+] JustDan12
+[19:30:23] [Server thread/INFO]: JustDan12[/127.0.0.1:52770] logged in with entity id 82442 at ([minecraft:lobby]-13.927813444114923, 67.48165178496052, -183.74357820643988)
+[19:30:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[19:30:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[19:30:29] [Server thread/INFO]: JustDan12 issued server command: /login poopyboy
+[19:30:32] [Server thread/INFO]: EntityZ096x (as console): wochenende = weekeinde
+[19:30:34] [Server thread/INFO]: JustDan12 issued server command: //wand
+[19:30:35] [Server thread/INFO]: EntityZ096x (as console): logical
+[19:30:37] [Async Chat Thread - #83/INFO]: [Not Secure] Admin || JustDan12 || » yep
+[19:30:45] [Server thread/INFO]: JustDan12 issued server command: //wand
+[19:31:27] [Server thread/INFO]: JustDan12 issued server command: //copy
+[19:31:31] [Server thread/INFO]: JustDan12 issued server command: //sel
+[19:31:34] [Server thread/INFO]: JustDan12 issued server command: //sel cuboid
+[19:31:49] [Server thread/INFO]: JustDan12 issued server command: //copy
+[19:31:55] [Server thread/INFO]: JustDan12 issued server command: //rotate 90
+[19:31:57] [Server thread/INFO]: JustDan12 issued server command: //paste
+[19:31:57] [Server thread/INFO]: EntityZ096x (as console): wrm is mittwoch woensdag terwijl donderdag de midden van de week is
+[19:32:08] [Server thread/INFO]: JustDan12 issued server command: //rotate 90
+[19:32:11] [Server thread/INFO]: JustDan12 issued server command: //paste
+[19:32:15] [Server thread/INFO]: JustDan12 issued server command: //rotate 90
+[19:32:17] [Server thread/INFO]: JustDan12 issued server command: //paste
+[19:32:33] [Server thread/INFO]: JustDan12 issued server command: //line black_wool
+[19:32:43] [Server thread/INFO]: JustDan12 issued server command: //line black_wool
+[19:32:51] [Server thread/INFO]: JustDan12 issued server command: //line black_wool
+[19:32:55] [Server thread/INFO]: EntityZ096x (as console): can i log on to see what my daddy sempai has been building for the past few minutes? >w<
+[19:32:57] [Server thread/INFO]: JustDan12 issued server command: //line black_wool
+[19:33:00] [Server thread/INFO]: EntityZ096x (as console): holy wind
+[19:33:13] [Server thread/INFO]: EntityZ096x (as console): hurricane at this point
+[19:33:47] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 light
+[19:33:52] [Server thread/INFO]: EntityZ096x (as console): immma log on >v<
+[19:33:57] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » dallright
+[19:34:01] [Server thread/INFO]: EntityZ096x (as console): what
+[19:34:13] [Server thread/INFO]: JustDan12 issued server command: /effect give JustDan12 minecraft:night_vision infinite 255
+[19:34:13] [Server thread/INFO]: [JustDan12: Applied effect Night Vision to JustDan12]
+[19:34:14] [Server thread/INFO]: EntityZ096x (as console): whats wrong with >v< its just a face
+[19:34:18] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » idk
+[19:34:20] [Server thread/INFO]: JustDan12 issued server command: /clear
+[19:34:23] [Server thread/INFO]: EntityZ096x (as console): wait should i add /nv
+[19:34:23] [Server thread/INFO]: JustDan12 issued server command: //wand
+[19:34:44] [User Authenticator #30/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[19:34:45] [Server thread/INFO]: [+] EntityZ096x
+[19:34:45] [Server thread/INFO]: EntityZ096x[/127.0.0.1:36804] logged in with entity id 82492 at ([minecraft:survival]-1.5461152325664056, 66.0, -5.159681670645609)
+[19:34:45] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[19:34:45] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[19:34:52] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[19:35:01] [Server thread/INFO]: EntityZ096x issued server command: /tp JustDan12
+[19:35:03] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[19:35:09] [Server thread/INFO]: EntityZ096x issued server command: /tp JustDan12
+[19:35:16] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » whats this? >v<
+[19:35:23] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » uwu
+[19:35:30] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » tf
+[19:35:35] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » what >W<
+[19:35:48] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » between these 2 points replace all black_wool wiht
+[19:35:56] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ?
+[19:35:57] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » ehm
+[19:36:25] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » nether wart block, red concrete, red wool
+[19:36:32] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » alr?w
+[19:36:37] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ok
+[19:36:39] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » this wool
+[19:36:42] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » come
+[19:36:46] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » this
+[19:36:52] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » disney castle ahh
+[19:36:56] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » DALLRIGHTTT
+[19:37:01] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » to this
+[19:37:15] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » 33% everything
+[19:37:32] [Server thread/INFO]: EntityZ096x issued server command: //replace black_wool 33%nether_wart_block,33%red_concrete,33%red_wool
+[19:37:36] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » ye ty
+[19:37:47] [Server thread/INFO]: EntityZ096x issued server command: //replace black_wool 33%nether_wart_block,33%red_concrete,33%red_wool
+[19:38:01] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » lets play sumo
+[19:38:02] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » .//replace black_wool 33%nether_wart_block,33%red_concrete,33%red_wool
+[19:38:06] [Server thread/INFO]: JustDan12 issued server command: //kit load sumo
+[19:38:07] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ok
+[19:38:11] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[19:38:13] [Server thread/INFO]: JustDan12 issued server command: /gms
+[19:38:14] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[19:38:14] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[19:38:14] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[19:38:16] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[19:38:36] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nigger
+[19:38:47] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wait
+[19:38:49] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » lemme do smth
+[19:38:50] [Server thread/INFO]: EntityZ096x issued server command: /kit
+[19:39:05] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[19:39:05] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[19:39:05] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[19:39:11] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » come
+[19:39:17] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » oops
+[19:39:36] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » oops
+[19:40:04] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » oops
+[19:40:12] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » oops
+[19:40:28] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » bros trash
+[19:40:46] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » OOP
+[19:41:09] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » oops
+[19:41:21] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » LOL
+[19:41:27] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » LMAO
+[19:41:36] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » oops
+[19:41:43] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[19:41:45] [Server thread/INFO]: JustDan12 issued server command: /tp EntityZ096x JustDan12
+[19:42:09] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK U
+[19:42:10] [Server thread/INFO]: EntityZ096x issued server command: /fly
+[19:42:23] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[19:42:23] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » HEY
+[19:42:24] [Server thread/INFO]: EntityZ096x issued server command: /fly
+[19:42:25] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » NO FLYING
+[19:42:45] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » lol
+[19:43:19] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » HA
+[19:43:20] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUH
+[19:43:23] [Server thread/INFO]: EntityZ096x issued server command: /kit
+[19:43:34] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[19:43:34] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[19:43:34] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[19:44:01] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » HA
+[19:44:03] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || JustDan12 || » get better
+[19:44:11] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » git gut
+[19:44:14] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » NIGGER
+[19:44:30] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » oops
+[19:44:31] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » NOOOOOOOOOOOOOOOOO
+[19:44:34] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || JustDan12 || » wheres bro pearl going
+[19:45:49] [Async Chat Thread - #86/INFO]: [Not Secure] Admin || JustDan12 || » ankles
+[19:45:54] [Async Chat Thread - #86/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ..
+[19:46:06] [Async Chat Thread - #86/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » l
+[19:46:07] [Async Chat Thread - #87/INFO]: [Not Secure] Admin || JustDan12 || » ha
+[19:46:10] [Async Chat Thread - #87/INFO]: [Not Secure] Admin || JustDan12 || » close
+[19:46:18] [Async Chat Thread - #86/INFO]: [Not Secure] Admin || JustDan12 || » ahh
+[19:46:18] [Async Chat Thread - #86/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » close
+[19:46:45] [Async Chat Thread - #86/INFO]: [Not Secure] Admin || JustDan12 || » i gtg
+[19:46:48] [Async Chat Thread - #86/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nooo
+[19:46:49] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[19:46:52] [Server thread/INFO]: JustDan12 issued server command: /enchant density 5
+[19:47:41] [Async Chat Thread - #86/INFO]: [Not Secure] Admin || JustDan12 || » BRO
+[19:47:41] [Async Chat Thread - #86/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » close
+[19:47:54] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 mace
+[19:48:28] [Server thread/INFO]: JustDan12 issued server command: /enchant density 5
+[19:48:46] [Async Chat Thread - #88/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » LOL
+[19:48:57] [Server thread/INFO]: JustDan12 issued server command: /tp JustDan12 EntityZ096x
+[19:49:06] [Async Chat Thread - #88/INFO]: [Not Secure] Admin || JustDan12 || » BRO
+[19:49:06] [Async Chat Thread - #88/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » yala
+[19:49:21] [Server thread/INFO]: JustDan12 issued server command: /
+[19:49:27] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[19:50:20] [Server thread/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » *MOAN*
+[19:50:20] [Server thread/INFO]: EntityZ096x was brutally SMASHED by JustDan12 and liked it...
+[19:50:22] [Async Chat Thread - #91/INFO]: [Not Secure] Admin || JustDan12 || » OH
+[19:50:23] [Async Chat Thread - #91/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » WHAT
+[19:50:26] [Server thread/INFO]: EntityZ096x issued server command: /tp JustDan12
+[19:50:30] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[19:51:01] [Async Chat Thread - #91/INFO]: [Not Secure] Admin || JustDan12 || » i gtg
+[19:51:04] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[19:51:04] [Server thread/INFO]: [-] JustDan12
+[19:51:09] [Async Chat Thread - #90/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ts so funny
+[19:52:04] [Async Chat Thread - #90/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » fucklag
+[19:52:07] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[19:52:07] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[19:54:02] [Server thread/INFO]: EntityZ096x issued server command: /kit load SniperSnipesSniper
+[19:55:04] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[19:55:05] [Server thread/INFO]: [-] EntityZ096x
+[19:56:16] [User Authenticator #31/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[19:56:17] [Server thread/INFO]: [+] EntityZ096x
+[19:56:17] [Server thread/INFO]: EntityZ096x[/127.0.0.1:37378] logged in with entity id 83411 at ([minecraft:lobby]5.320867088445013, 124.0, -215.99776240182416)
+[19:56:17] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[19:56:17] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[19:56:20] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[19:56:27] [Server thread/INFO]: EntityZ096x issued server command: /rtp
+[19:56:44] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:44] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:44] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:44] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:45] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:45] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:45] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:46] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:46] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:46] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:46] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:46] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:56:46] [Server thread/WARN]: EntityZ096x moved wrongly!
+[19:57:06] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:locate biome minecraft:plains
+[19:57:06] [Server thread/INFO]: Locating element minecraft:plains took 12 ms
+[19:57:09] [Server thread/INFO]: EntityZ096x issued server command: /tp @s 21373 71 9671
+[19:57:21] [Server thread/INFO]: EntityZ096x issued server command: /kit load mace
+[19:57:24] [Server thread/INFO]: EntityZ096x issued server command: /dummy shield
+[19:59:18] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[20:00:53] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[20:01:03] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[20:02:31] [Server thread/INFO]: EntityZ096x fell from a high place
+[20:02:45] [Server thread/INFO]: EntityZ096x issued server command: /dummy shield
+[20:02:49] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 10
+[20:02:49] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 10.0 per second]
+[20:02:54] [Server thread/INFO]: EntityZ096x issued server command: /time set day
+[20:04:07] [Server thread/INFO]: EntityZ096x fell from a high place
+[20:04:13] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totme
+[20:04:17] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
+[20:04:20] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
+[20:04:21] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
