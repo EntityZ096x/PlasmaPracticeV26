@@ -110,7 +110,7 @@ scoreboard:
         - "* &r<#9E00FF>✦ Prisms: %skript_CurrencyPremium.{player}%</#FF00B3>"
         - "* &r<#ff0000>🗡 Kills: %statistic_player_kills%"
         - "* &r&6💀 Deaths: %statistic_deaths%"
-        - "* &r<#FFD700>🜲 Rank: %luckperms_primary_group_name%"
+        - "* &r<#FFD700>🜲 Team: &r&7[%skript_team.{uuid}%&r&7]"
         - "* &r&b⌚ Playtime: %statistic_time_played%"
         - "* &7Ping: %ping%ms"
         - "%animation:MyAnimation1%"

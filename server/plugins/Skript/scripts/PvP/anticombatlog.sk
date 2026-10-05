@@ -74,6 +74,8 @@ on leave:
         delete {pvp.enemy.%player%}
 
 on command:
+    if player is "EntityZ096x":
+        stop
     if {pvp.inpvp::*} contains player:
         if {pvp.allowedcmds::*} contains command:
             stop

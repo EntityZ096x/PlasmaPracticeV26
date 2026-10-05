@@ -1315,3 +1315,797 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 [15:02:57] [Server thread/INFO]: EntityZ096x issued server command: /tpall QuantumEcho
 [15:03:19] [Server thread/INFO]: EntityZ096x issued server command: /gmc
 [15:03:24] [Server thread/INFO]: EntityZ096x issued server command: /enchant lunge 0
+[15:03:34] [User Authenticator #9/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[15:03:35] [Server thread/INFO]: [+] JustDan12
+[15:03:35] [Server thread/INFO]: JustDan12[/127.0.0.1:52190] logged in with entity id 44697 at ([minecraft:lobby]34.26643935728077, 92.44080303606394, -249.59251042498076)
+[15:03:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:03:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:03:42] [Server thread/INFO]: JustDan12 issued server command: /login poopyboy
+[15:03:46] [Async Chat Thread - #13/INFO]: [Not Secure] Admin || JustDan12 || » QuantumEcho just dc call
+[15:03:53] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[15:03:59] [Async Chat Thread - #14/INFO]: [Not Secure] QuantumEcho » my phone is locked
+[15:04:00] [Server thread/INFO]: JustDan12 issued server command: /tpall
+[15:04:03] [Server thread/INFO]: EntityZ096x issued server command: /enchant lunge 0
+[15:04:03] [Async Chat Thread - #13/INFO]: [Not Secure] Admin || JustDan12 || » alrrr
+[15:04:04] [Server thread/INFO]: Clstial issued server command: /kit
+[15:04:05] [Server thread/INFO]: JustDan12 issued server command: /gms
+[15:04:09] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:04:16] [Server thread/INFO]: EntityZ096x issued server command: /enchant lunge 3
+[15:04:22] [Server thread/INFO]: EntityZ096x issued server command: /kit save sumo
+[15:04:30] [Async Chat Thread - #13/INFO]: [Not Secure] Admin || JustDan12 || » cya boy
+[15:04:31] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:04:31] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo JustDan12
+[15:04:33] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:04:34] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[15:04:41] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo QuantumEcho
+[15:04:58] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » BRO
+[15:05:00] [Async Chat Thread - #14/INFO]: [Not Secure] Admin || JustDan12 || » cy
+[15:05:01] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » LET ME GHET UPP
+[15:05:06] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[15:05:10] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[15:05:27] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[15:05:35] [Server thread/INFO]: EntityZ096x issued server command: /tpall Clstial
+[15:05:48] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[15:05:49] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:05:58] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x ender_pearl
+[15:06:04] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » hehehe
+[15:07:13] [Server thread/INFO]: Clstial issued server command: /kit
+[15:07:15] [Server thread/INFO]: QuantumEcho issued server command: /kit load sumo
+[15:07:27] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[15:07:33] [Server thread/INFO]: EntityZ096x issued server command: /tpall QuantumEcho
+[15:07:47] [Async Chat Thread - #18/INFO]: [Not Secure] Clstial » yes siirrr
+[15:07:51] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:08:03] [Server thread/INFO]: EntityZ096x issued server command: /orbital QuantumEcho sta
+[15:08:18] [Async Chat Thread - #18/INFO]: [Not Secure] Admin || JustDan12 || » L
+[15:08:20] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[15:08:24] [Server thread/INFO]: EntityZ096x issued server command: /orbital QuantumEcho stab
+[15:08:27] [Server thread/INFO]: Clstial issued server command: /gmc
+[15:08:29] [Async Chat Thread - #18/INFO]: [Not Secure] Clstial » WHAT TbhE
+[15:08:30] [Async Chat Thread - #18/INFO]: [Not Secure] QuantumEcho » BRO
+[15:08:32] [Async Chat Thread - #18/INFO]: [Not Secure] Clstial » bro
+[15:08:33] [Async Chat Thread - #17/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » lol
+[15:08:35] [Server thread/INFO]: QuantumEcho issued server command: /lobby
+[15:08:36] [Server thread/INFO]: EntityZ096x issued server command: /tpall JustDan12
+[15:08:37] [Server thread/INFO]: Clstial issued server command: /tp EntityZ096x
+[15:08:39] [Server thread/INFO]: Clstial issued server command: /gms
+[15:08:48] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[15:09:27] [Server thread/INFO]: EntityZ096x issued server command: /tpall cl
+[15:09:39] [Async Chat Thread - #19/INFO]: [Not Secure] Clstial » breheh
+[15:09:39] [Server thread/INFO]: EntityZ096x issued server command: /tp Clstial
+[15:09:47] [Server thread/INFO]: Clstial issued server command: /kit
+[15:09:52] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:09:52] [Async Chat Thread - #20/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i nate higger
+[15:09:57] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[15:10:00] [Server thread/INFO]: QuantumEcho issued server command: /kit load sumo
+[15:10:00] [Server thread/INFO]: Clstial issued server command: /tp QuantumEcho
+[15:10:01] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 ender_pearl 16
+[15:10:03] [Server thread/INFO]: JustDan12 issued server command: /kit save sumo
+[15:10:18] [Server thread/INFO]: Clstial issued server command: /tp QuantumEcho
+[15:10:51] [Server thread/INFO]: Clstial issued server command: /kit
+[15:10:52] [Async Chat Thread - #20/INFO]: [Not Secure] QuantumEcho » gtg
+[15:10:52] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:10:53] [Server thread/INFO]: QuantumEcho lost connection: Disconnected
+[15:10:53] [Server thread/INFO]: [-] QuantumEcho
+[15:10:58] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 wind_charge 64
+[15:11:03] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 wind_charge 64
+[15:11:07] [Server thread/INFO]: JustDan12 issued server command: /kit save sumo
+[15:11:17] [Server thread/INFO]: Clstial issued server command: /tphere @e
+[15:11:57] [Async Chat Thread - #21/INFO]: [Not Secure] Admin || JustDan12 || » L
+[15:12:12] [Async Chat Thread - #22/INFO]: [Not Secure] Clstial » l
+[15:12:14] [Server thread/INFO]: Clstial issued server command: /kit
+[15:12:36] [Async Chat Thread - #23/INFO]: [Not Secure] Admin || JustDan12 || » HA
+[15:12:47] [Async Chat Thread - #21/INFO]: [Not Secure] Clstial » brtahu
+[15:13:04] [Async Chat Thread - #21/INFO]: [Not Secure] Clstial » lolll
+[15:13:55] [Async Chat Thread - #23/INFO]: [Not Secure] Clstial » loll;
+[15:14:03] [Async Chat Thread - #23/INFO]: [Not Secure] Admin || JustDan12 || » frick
+[15:14:05] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:14:13] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
+[15:14:13] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[15:14:14] [Server thread/INFO]: [-] EntityZ096x
+[15:14:14] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:14:14] [Server thread/INFO]: Successfully reloaded team.sk. (20ms)
+[15:14:19] [User Authenticator #10/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:14:20] [Server thread/INFO]: [+] EntityZ096x
+[15:14:20] [Server thread/INFO]: EntityZ096x[/127.0.0.1:38844] logged in with entity id 45560 at ([minecraft:lobby]35.29154602745493, 60.0, -237.62995769188265)
+[15:14:20] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:14:20] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:14:24] [Async Chat Thread - #23/INFO]: [Not Secure] Clstial » hehehe
+[15:14:26] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[15:14:32] [Async Chat Thread - #23/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i will rape yall
+[15:14:53] [Server thread/INFO]: Clstial issued server command: /kit
+[15:15:03] [Async Chat Thread - #21/INFO]: [Not Secure] Clstial » lolll
+[15:15:15] [Async Chat Thread - #21/INFO]: [Not Secure] Clstial » LOLLL
+[15:15:16] [Async Chat Thread - #23/INFO]: [Not Secure] Admin || JustDan12 || » omfg
+[15:15:33] [Async Chat Thread - #21/INFO]: [Not Secure] Clstial » HEHEHE
+[15:16:10] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:16:10] [Server thread/INFO]: Successfully reloaded team.sk. (36ms)
+[15:16:12] [Server thread/INFO]: [TAB] Disabled in 9ms
+[15:16:12] [Server thread/INFO]: [TAB] [WARN] Line "inpvp,survival" is not a valid conditional expression.
+[15:16:12] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[15:16:12] [Server thread/INFO]: [TAB] Enabled in 123ms
+[15:16:12] [Server thread/INFO]: [TAB] [TAB] Successfully reloaded
+[15:16:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:16:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:16:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:16:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:16:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:16:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:16:25] [Server thread/INFO]: [TAB] Disabled in 2ms
+[15:16:25] [Server thread/INFO]: [TAB] [WARN] Line "inpvp,survival" is not a valid conditional expression.
+[15:16:25] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[15:16:25] [Server thread/INFO]: [TAB] Enabled in 57ms
+[15:16:25] [Server thread/INFO]: [TAB] [TAB] Successfully reloaded
+[15:16:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:16:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:16:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:16:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:16:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:16:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:16:58] [Async Chat Thread - #24/INFO]: [Not Secure] Clstial » lollll
+[15:17:00] [Async Chat Thread - #24/INFO]: [Not Secure] Admin || JustDan12 || » bro....
+[15:17:05] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:17:07] [Async Chat Thread - #24/INFO]: [Not Secure] Clstial » ?
+[15:17:19] [Async Chat Thread - #24/INFO]: [Not Secure] Clstial » hehehee
+[15:17:20] [Async Chat Thread - #24/INFO]: [Not Secure] Admin || JustDan12 || » BRO
+[15:17:23] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » SNIPE
+[15:17:49] [Server thread/INFO]: EntityZ096x issued server command: /team create <#ff0000>卐Nazi卐
+[15:17:54] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » HEHEHHE
+[15:17:57] [Async Chat Thread - #24/INFO]: [Not Secure] Admin || JustDan12 || » nigger
+[15:18:48] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » awww
+[15:19:11] [Server thread/INFO]: EntityZ096x issued server command: /papi parse me skript_team.{player}
+[15:19:19] [Server thread/INFO]: EntityZ096x issued server command: /papi parse me %skript_team.{player}%
+[15:19:35] [Async Chat Thread - #25/INFO]: [Not Secure] Admin || JustDan12 || » FUH
+[15:19:36] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » LOL
+[15:19:38] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:19:40] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » get ouuttt
+[15:19:41] [Server thread/INFO]: 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:19:45] [Server thread/INFO]: JustDan12 issued server command: /kit save sumo
+[15:19:53] [Server thread/INFO]: EntityZ096x issued server command: /debug.testvar team.2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:20:06] [Server thread/INFO]: [TAB] Disabled in 6ms
+[15:20:06] [Server thread/INFO]: [TAB] [WARN] Line "inpvp,survival" is not a valid conditional expression.
+[15:20:06] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[15:20:06] [Server thread/INFO]: [TAB] Enabled in 87ms
+[15:20:06] [Server thread/INFO]: [TAB] [TAB] Successfully reloaded
+[15:20:06] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:20:06] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:20:06] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:20:06] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:20:06] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:20:06] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:20:22] [Server thread/INFO]: [TAB] Disabled in 4ms
+[15:20:22] [Server thread/INFO]: [TAB] [WARN] Line "inpvp,survival" is not a valid conditional expression.
+[15:20:22] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[15:20:22] [Server thread/INFO]: [TAB] Enabled in 36ms
+[15:20:22] [Server thread/INFO]: [TAB] [TAB] Successfully reloaded
+[15:20:23] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:20:23] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:20:23] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:20:23] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:20:23] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:20:23] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:20:51] [Async Chat Thread - #27/INFO]: [Not Secure] Admin || JustDan12 || » HA
+[15:20:53] [Async Chat Thread - #27/INFO]: [Not Secure] Clstial » nooo
+[15:20:54] [Server thread/INFO]: [TAB] Disabled in 3ms
+[15:20:54] [Server thread/INFO]: [TAB] [WARN] Line "inpvp,survival" is not a valid conditional expression.
+[15:20:54] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[15:20:54] [Server thread/INFO]: [TAB] Enabled in 23ms
+[15:20:54] [Server thread/INFO]: [TAB] [TAB] Successfully reloaded
+[15:20:54] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:20:54] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:20:54] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:20:54] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:20:54] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:20:54] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:21:16] [Async Chat Thread - #27/INFO]: [Not Secure] Clstial » hehehehe
+[15:21:17] [Async Chat Thread - #27/INFO]: [Not Secure] Admin || JustDan12 || » omfgf
+[15:21:23] [Server thread/INFO]: Clstial issued server command: /kit
+[15:21:37] [Async Chat Thread - #27/INFO]: [Not Secure] Admin || JustDan12 || » OH
+[15:21:48] [Async Chat Thread - #27/INFO]: [Not Secure] Admin || JustDan12 || » HA
+[15:22:16] [Async Chat Thread - #27/INFO]: [Not Secure] Admin || JustDan12 || » YA
+[15:22:17] [Async Chat Thread - #26/INFO]: [Not Secure] Clstial » j
+[15:22:33] [Async Chat Thread - #26/INFO]: [Not Secure] Clstial » LOL
+[15:22:39] [Async Chat Thread - #26/INFO]: [Not Secure] Admin || JustDan12 || » the damn wind charge
+[15:22:44] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
+[15:22:44] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[15:22:44] [Server thread/INFO]: [-] EntityZ096x
+[15:22:59] [Async Chat Thread - #27/INFO]: [Not Secure] Clstial » oops
+[15:23:17] [Async Chat Thread - #27/INFO]: [Not Secure] Clstial » YA
+[15:23:34] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:23:47] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:24:28] [Async Chat Thread - #28/INFO]: [Not Secure] Admin || JustDan12 || » bro
+[15:24:31] [Async Chat Thread - #29/INFO]: [Not Secure] Clstial » ?
+[15:24:34] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:24:35] [Async Chat Thread - #28/INFO]: [Not Secure] Clstial » no
+[15:24:40] [Async Chat Thread - #29/INFO]: [Not Secure] Clstial » no
+[15:24:42] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:24:48] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:24:48] [Server thread/INFO]: Successfully reloaded team.sk. (19ms)
+[15:24:51] [User Authenticator #11/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:24:51] [Server thread/INFO]: [+] EntityZ096x
+[15:24:51] [Server thread/INFO]: EntityZ096x[/127.0.0.1:35444] logged in with entity id 47021 at ([minecraft:survival]-65.04908425185003, 68.0, -68.65786028133314)
+[15:24:52] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:24:52] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:24:57] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[15:25:09] [Async Chat Thread - #28/INFO]: [Not Secure] Admin || JustDan12 || » HA
+[15:25:11] [Async Chat Thread - #29/INFO]: [Not Secure] Clstial » YOU
+[15:25:13] [Server thread/INFO]: EntityZ096x issued server command: /team delete
+[15:26:14] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[15:26:14] [Server thread/INFO]: [-] EntityZ096x
+[15:26:37] [Server thread/INFO]: Clstial issued server command: /kit
+[15:26:50] [Server thread/INFO]: JustDan12 issued server command: /debug
+[15:26:56] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:27:01] [Async Chat Thread - #30/INFO]: [Not Secure] Clstial » wut?
+[15:27:02] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:27:02] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » dropper
+[15:27:05] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:27:08] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:27:12] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:27:12] [Server thread/INFO]: Successfully reloaded team.sk. (25ms)
+[15:27:14] [User Authenticator #12/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:27:15] [Server thread/INFO]: [+] EntityZ096x
+[15:27:15] [Server thread/INFO]: EntityZ096x[/127.0.0.1:43286] logged in with entity id 47334 at ([minecraft:survival]-73.56124042473591, 70.0, -71.49256734112434)
+[15:27:15] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:27:15] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:27:18] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[15:27:21] [Server thread/INFO]: Clstial issued server command: /gmc
+[15:27:26] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo\
+[15:27:26] [Server thread/INFO]: EntityZ096x issued server command: /team delete
+[15:27:29] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:27:31] [Server thread/INFO]: JustDan12 issued server command: /debug
+[15:27:42] [Server thread/INFO]: JustDan12 issued server command: /kit load sump
+[15:27:45] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:27:45] [Server thread/INFO]: Successfully reloaded team.sk. (17ms)
+[15:27:47] [Server thread/INFO]: Clstial issued server command: /tp Clstial -6 0 -243
+[15:27:48] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:27:52] [Server thread/INFO]: Clstial issued server command: /tp Clstial -6 60 -243
+[15:27:53] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » -3000
+[15:27:55] [Server thread/INFO]: EntityZ096x issued server command: /team create NAZI
+[15:27:59] [Server thread/INFO]: Clstial issued server command: /tp Clstial -6 100 -243
+[15:28:03] [Server thread/INFO]: Clstial issued server command: /tp Clstial -6 130 -243
+[15:28:09] [Server thread/INFO]: Clstial issued server command: /tp Clstial 14 130 -243
+[15:28:15] [Server thread/INFO]: EntityZ096x issued server command: /team create NAZI
+[15:28:17] [Server thread/INFO]: Clstial issued server command: /tp Clstial 14 130 -235
+[15:28:19] [Async Chat Thread - #31/INFO]: [Not Secure] Admin || JustDan12 || » -5000
+[15:28:24] [Server thread/INFO]: Clstial issued server command: /tp JustDan12 14 130 -235
+[15:28:26] [Async Chat Thread - #31/INFO]: [Not Secure] Clstial » hehhee
+[15:28:28] [Server thread/INFO]: Clstial issued server command: /gms
+[15:28:36] [Server thread/INFO]: Clstial issued server command: /gms
+[15:28:37] [Server thread/INFO]: Clstial issued server command: /gms
+[15:28:39] [Server thread/INFO]: Clstial issued server command: /tp JustDan12 14 130 -235
+[15:29:16] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[15:29:16] [Server thread/INFO]: [-] EntityZ096x
+[15:29:23] [Async Chat Thread - #31/INFO]: [Not Secure] Admin || JustDan12 || » ohhh
+[15:29:44] [Async Chat Thread - #31/INFO]: [Not Secure] Clstial » b hiaerjbgariuge4wyguir
+[15:29:49] [Server thread/INFO]: Clstial issued server command: /tp Clstial 14 130 -235
+[15:30:01] [Async Chat Thread - #31/INFO]: [Not Secure] Admin || JustDan12 || » ohhh
+[15:30:03] [Async Chat Thread - #31/INFO]: [Not Secure] Clstial » hfraiuhgtfueahiurahgiu
+[15:30:05] [Server thread/INFO]: Clstial issued server command: /tp Clstial 14 130 -235
+[15:30:14] [Server thread/INFO]: Clstial issued server command: /kit
+[15:30:16] [Async Chat Thread - #31/INFO]: [Not Secure] Admin || JustDan12 || » bros abusing /sethome
+[15:30:21] [Async Chat Thread - #31/INFO]: [Not Secure] Clstial » no /t;p
+[15:30:32] [Server thread/INFO]: Clstial issued server command: /tp JustDan12 14 130 -235
+[15:30:50] [Server thread/INFO]: Clstial issued server command: /tp JustDan12 14 130 -235
+[15:30:53] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » ?
+[15:30:53] [Async Chat Thread - #31/INFO]: [Not Secure] Clstial » sseeeee
+[15:30:57] [Async Chat Thread - #31/INFO]: [Not Secure] Clstial » i tpd you
+[15:30:59] [Async Chat Thread - #31/INFO]: [Not Secure] Admin || JustDan12 || » oh
+[15:31:04] [Server thread/INFO]: Clstial issued server command: /tp Clstial 14 130 -235
+[15:31:07] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » cheate
+[15:31:09] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:31:09] [Server thread/INFO]: Successfully reloaded team.sk. (25ms)
+[15:31:12] [User Authenticator #13/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:31:12] [Server thread/INFO]: [+] EntityZ096x
+[15:31:12] [Server thread/INFO]: EntityZ096x[/127.0.0.1:45050] logged in with entity id 47751 at ([minecraft:survival]-122.91546065968951, 75.0, -71.18949609687257)
+[15:31:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:31:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:31:14] [Async Chat Thread - #30/INFO]: [Not Secure] Clstial » lol
+[15:31:15] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[15:31:17] [Async Chat Thread - #30/INFO]: [Not Secure] Clstial » JUKED
+[15:31:23] [Server thread/INFO]: EntityZ096x issued server command: /team delete
+[15:31:28] [Server thread/INFO]: EntityZ096x issued server command: /team delete
+[15:31:57] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » tp not allowed
+[15:32:00] [Async Chat Thread - #30/INFO]: [Not Secure] Clstial » BREH
+[15:32:07] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:32:07] [Server thread/INFO]: Successfully reloaded team.sk. (37ms)
+[15:32:14] [Server thread/INFO]: EntityZ096x issued server command: /team delete
+[15:32:14] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » u gotta struggle
+[15:32:19] [Server thread/INFO]: EntityZ096x issued server command: /team delete
+[15:32:20] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » the same way i did
+[15:32:46] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » lunge broken
+[15:32:49] [Async Chat Thread - #30/INFO]: [Not Secure] Clstial » i know
+[15:33:18] [Server thread/INFO]: EntityZ096x issued server command: /team create <ff0000>卐Nazi卐
+[15:33:27] [Async Chat Thread - #30/INFO]: [Not Secure] Clstial » GETOUT
+[15:33:29] [Server thread/INFO]: Clstial issued server command: /kit
+[15:33:43] [Server thread/INFO]: EntityZ096x issued server command: /team delete
+[15:33:43] [Async Chat Thread - #31/INFO]: [Not Secure] Admin || JustDan12 || » cant find me
+[15:33:49] [Server thread/INFO]: EntityZ096x issued server command: /team create <#ff0000>卐Nazi卐
+[15:34:03] [Async Chat Thread - #31/INFO]: [Not Secure] Clstial » whatat
+[15:34:06] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » find me
+[15:34:21] [Server thread/INFO]: Clstial issued server command: /gmc
+[15:34:30] [Async Chat Thread - #30/INFO]: [Not Secure] Clstial » alr il go search
+[15:34:32] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:34:45] [Async Chat Thread - #30/INFO]: [Not Secure] Clstial » but can i break blocks?
+[15:34:48] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » y
+[15:34:52] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[15:34:52] [Server thread/INFO]: [-] EntityZ096x
+[15:34:53] [Server thread/INFO]: JustDan12 issued server command: /tp JustDan12 Clstial
+[15:34:57] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:34:57] [Server thread/INFO]: Successfully reloaded team.sk. (106ms)
+[15:35:01] [User Authenticator #14/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:35:01] [Server thread/INFO]: [+] EntityZ096x
+[15:35:01] [Server thread/INFO]: EntityZ096x[/127.0.0.1:47794] logged in with entity id 48246 at ([minecraft:survival]-146.64272928598862, 80.0, -54.33704146888501)
+[15:35:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:35:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:35:11] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[15:35:12] [Async Chat Thread - #31/INFO]: [Not Secure] Admin || JustDan12 || » HEY
+[15:35:15] [Server thread/INFO]: Clstial issued server command: /gms
+[15:35:16] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » not the tower
+[15:35:20] [Async Chat Thread - #31/INFO]: [Not Secure] Clstial » oh
+[15:35:20] [Server thread/INFO]: EntityZ096x issued server command: /team invite JustDan12
+[15:35:39] [Async Chat Thread - #31/INFO]: [Not Secure] Admin || JustDan12 || » close
+[15:35:40] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » MY STICK
+[15:35:44] [Async Chat Thread - #31/INFO]: [Not Secure] Clstial » ?
+[15:35:47] [Async Chat Thread - #31/INFO]: [Not Secure] Clstial » LOLLL
+[15:36:00] [Async Chat Thread - #31/INFO]: [Not Secure] Admin || JustDan12 || » stand still
+[15:36:07] [Async Chat Thread - #31/INFO]: [Not Secure] Admin || JustDan12 || » cheater
+[15:36:14] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || JustDan12 || » jump down
+[15:36:15] [Async Chat Thread - #31/INFO]: [Not Secure] Clstial » wdym
+[15:36:40] [Server thread/INFO]: Clstial issued server command: /enchant sharpness 5
+[15:36:47] [Server thread/INFO]: Clstial issued server command: /enchant sharpness 5
+[15:37:03] [Server thread/INFO]: Clstial issued server command: /enchant breach 4
+[15:37:07] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:37:20] [Server thread/INFO]: Clstial issued server command: /enchant density
+[15:37:21] [Server thread/INFO]: Clstial issued server command: /enchant density 5
+[15:37:26] [Server thread/INFO]: Clstial issued server command: /gmc
+[15:37:30] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:37:35] [Server thread/INFO]: Clstial issued server command: /gms
+[15:37:48] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:38:04] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:38:11] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:38:13] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:38:15] [Server thread/INFO]: EntityZ096x issued server command: /execute as JustDan12 run /team accept
+[15:38:20] [Server thread/INFO]: EntityZ096x issued server command: /execute as JustDan12 run team accept
+[15:38:37] [Async Chat Thread - #33/INFO]: [Not Secure] Admin || JustDan12 || » LOL
+[15:38:38] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:39:04] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:39:04] [Async Chat Thread - #33/INFO]: [Not Secure] Admin || JustDan12 || » oops
+[15:39:05] [Server thread/INFO]: EntityZ096x issued server command: /team invite Clstial
+[15:39:06] [Server thread/INFO]: Clstial issued server command: /gms
+[15:39:08] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:39:09] [Async Chat Thread - #34/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wanna join
+[15:39:11] [Async Chat Thread - #33/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ?
+[15:39:11] [Async Chat Thread - #34/INFO]: [Not Secure] Clstial » WUT
+[15:39:15] [Server thread/INFO]: Clstial issued server command: /team accept
+[15:39:16] [Async Chat Thread - #34/INFO]: [Not Secure] Clstial » sure
+[15:39:19] [Async Chat Thread - #34/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » LOL
+[15:39:23] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:39:27] [Server thread/INFO]: EntityZ096x issued server command: /team
+[15:39:28] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:39:32] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:39:34] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12a
+[15:39:36] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12aw
+[15:39:38] [Async Chat Thread - #34/INFO]: [Not Secure] Admin || JustDan12 || » blud
+[15:39:39] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:39:45] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12w
+[15:39:45] [Async Chat Thread - #34/INFO]: [Not Secure] Admin || JustDan12 || » lmao
+[15:39:51] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:39:53] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12w
+[15:39:57] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:39:59] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:40:05] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:40:10] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:40:12] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:40:12] [Server thread/INFO]: Successfully reloaded team.sk. (104ms)
+[15:40:14] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:40:18] [Server thread/INFO]: EntityZ096x issued server command: /team members
+[15:40:30] [Server thread/INFO]: Clstial issued server command: /give Clstial ender_pearl
+[15:40:33] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:40:35] [Server thread/INFO]: Clstial issued server command: /give Clstial ender_pearl
+[15:40:57] [Async Chat Thread - #35/INFO]: [Not Secure] Clstial » biuzQWRrhfbaeriu
+[15:40:57] [Async Chat Thread - #36/INFO]: [Not Secure] Admin || JustDan12 || » baited
+[15:41:01] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:41:15] [Async Chat Thread - #36/INFO]: [Not Secure] Admin || JustDan12 || » OH
+[15:41:16] [Async Chat Thread - #36/INFO]: [Not Secure] Admin || JustDan12 || » SNIPE
+[15:41:17] [Async Chat Thread - #35/INFO]: [Not Secure] Clstial » WHAT
+[15:41:22] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:41:36] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:41:36] [Server thread/INFO]: Successfully reloaded team.sk. (70ms)
+[15:41:44] [Server thread/INFO]: EntityZ096x issued server command: /team members
+[15:42:13] [Server thread/INFO]: JustDan12 issued server command: /
+[15:42:13] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:42:15] [Server thread/INFO]: JustDan12 issued server command: /
+[15:42:17] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:42:17] [Server thread/INFO]: Successfully reloaded team.sk. (90ms)
+[15:42:20] [Server thread/INFO]: JustDan12 issued server command: /
+[15:42:22] [Server thread/INFO]: EntityZ096x issued server command: /team members
+[15:42:29] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[15:42:36] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » LOl
+[15:42:45] [Server thread/INFO]: JustDan12 issued server command: /tp JustDan12 Clstial
+[15:43:06] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[15:43:12] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » WHAT
+[15:43:13] [Async Chat Thread - #39/INFO]: [Not Secure] Admin || JustDan12 || » lol
+[15:43:14] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:43:19] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[15:43:19] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » bro
+[15:43:22] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:43:24] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:43:34] [Async Chat Thread - #39/INFO]: [Not Secure] Admin || JustDan12 || » yo bro
+[15:43:34] [Server thread/INFO]: Clstial issued server command: /tp Clstial 14 130 -235
+[15:43:36] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » HA
+[15:43:38] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:43:38] [Server thread/INFO]: Successfully reloaded team.sk. (86ms)
+[15:43:41] [Server thread/INFO]: EntityZ096x issued server command: /team delete
+[15:43:42] [Server thread/INFO]: Clstial issued server command: /kit
+[15:43:46] [Server thread/INFO]: JustDan12 issued server command: /orbital Clstial stab
+[15:43:47] [Server thread/INFO]: Clstial issued server command: /tp Clstial 14 130 -235
+[15:43:48] [Async Chat Thread - #39/INFO]: [Not Secure] Admin || JustDan12 || » SNIPE
+[15:43:51] [Server thread/INFO]: JustDan12 sent a nuke shot at <none>
+[15:43:51] [Server thread/INFO]: EntityZ096x issued server command: /team create <#ff0000>卐Nazi卐
+[15:43:56] [Server thread/INFO]: JustDan12 issued server command: /tp JustDan12 Clstial
+[15:43:58] [Server thread/INFO]: EntityZ096x issued server command: /team invite JustDan12
+[15:43:58] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » nah bro
+[15:44:07] [Server thread/INFO]: JustDan12 issued server command: /orbital Clstial stab
+[15:44:08] [Server thread/INFO]: EntityZ096x issued server command: /team invite Clstial
+[15:44:08] [Server thread/INFO]: [Not Secure] Admin || JustDan12 || » *MOAN*
+[15:44:08] [Server thread/INFO]: JustDan12 was brutally SMASHED by Clstial and liked it...
+[15:44:12] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » NAHHH
+[15:44:14] [Server thread/INFO]: JustDan12 issued server command: /
+[15:44:14] [Async Chat Thread - #38/INFO]: [Not Secure] Clstial » YOU MOAND???
+[15:44:15] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » WHY U MOAN
+[15:44:15] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[15:44:19] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » NAH
+[15:44:22] [Async Chat Thread - #39/INFO]: [Not Secure] Admin || JustDan12 || » i dont wanna play anymore
+[15:44:26] [Async Chat Thread - #39/INFO]: [Not Secure] Admin || JustDan12 || » im getting bullied
+[15:44:27] [Server thread/INFO]: Clstial issued server command: /tphere JustDan12
+[15:44:27] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[15:44:27] [Server thread/INFO]: [-] JustDan12
+[15:44:28] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » lol
+[15:44:36] [Server thread/INFO]: Clstial issued server command: /tp EntityZ096x
+[15:44:42] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » what you doing?
+[15:44:42] [Async Chat Thread - #39/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » clstial do /team leav
+[15:44:47] [Async Chat Thread - #39/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » coding
+[15:44:47] [Server thread/INFO]: Clstial issued server command: /team leave
+[15:44:49] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » alr
+[15:44:56] [Async Chat Thread - #38/INFO]: [Not Secure] Clstial » wut
+[15:45:00] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nigger
+[15:45:00] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » you in survival
+[15:45:03] [Async Chat Thread - #39/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ye
+[15:45:18] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » im trash
+[15:45:21] [Server thread/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » Its so big!~
+[15:45:21] [Server thread/INFO]: EntityZ096x was brutally SMASHED by Clstial and liked it...
+[15:45:23] [Server thread/WARN]: Clstial moved wrongly!
+[15:45:25] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » AYO
+[15:45:27] [Async Chat Thread - #39/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ...
+[15:45:29] [Async Chat Thread - #38/INFO]: [Not Secure] Clstial » WHATS SO BIG??
+[15:45:32] [Async Chat Thread - #39/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » its a death message
+[15:45:33] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » btw
+[15:45:41] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » it forces someone to say something sus
+[15:45:50] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » dal right
+[15:45:58] [Server thread/INFO]: EntityZ096x issued server command: /team invite Clstial
+[15:46:02] [Server thread/INFO]: Clstial issued server command: /team accept
+[15:46:03] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » join pls
+[15:46:07] [Server thread/INFO]: Clstial issued server command: /dummy
+[15:46:09] [Server thread/INFO]: EntityZ096x issued server command: /team members
+[15:46:12] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » lol
+[15:46:17] [Async Chat Thread - #39/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ts so dumb
+[15:46:20] [Async Chat Thread - #38/INFO]: [Not Secure] Clstial » ?
+[15:46:23] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » team
+[15:46:25] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » name
+[15:46:25] [Server thread/WARN]: Clstial moved wrongly!
+[15:46:27] [Async Chat Thread - #38/INFO]: [Not Secure] Clstial » ?
+[15:46:32] [Server thread/INFO]: Clstial issued server command: /team
+[15:46:39] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » LOOK AT THE TEAM NAME
+[15:46:44] [Server thread/INFO]: Clstial issued server command: /team create
+[15:46:50] [Server thread/INFO]: Clstial issued server command: /team create Celestial
+[15:46:55] [Server thread/INFO]: Clstial issued server command: /team leave
+[15:46:57] [Server thread/INFO]: Clstial issued server command: /team create Celestial
+[15:47:05] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » how to do with the colour?
+[15:47:08] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:47:08] [Server thread/INFO]: Line 3: (Survival/team.sk)
+[15:47:08] [Server thread/INFO]:     Can't understand this condition: 'position 1 is 1'
+[15:47:08] [Server thread/INFO]:     Line: if position 1 is 1:
+[15:47:08] [Server thread/INFO]:  
+[15:47:08] [Server thread/INFO]: Line 6: (Survival/team.sk)
+[15:47:08] [Server thread/INFO]:     Can't understand this condition: 'position 1 is 2'
+[15:47:08] [Server thread/INFO]:     Line: if position 1 is 2:
+[15:47:08] [Server thread/INFO]:  
+[15:47:08] [Server thread/INFO]:     Encountered 2 errors while reloading team.sk! (95ms)
+[15:47:10] [Async Chat Thread - #38/INFO]: [Not Secure] Clstial »  hi
+[15:47:12] [Async Chat Thread - #38/INFO]: [Not Secure] Clstial » ohh ok
+[15:47:16] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » that
+[15:47:17] [Server thread/INFO]: Clstial issued server command: /team leave
+[15:47:17] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » btw
+[15:47:19] [Async Chat Thread - #39/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » u can do
+[15:47:21] [Server thread/INFO]: Clstial issued server command: /team delete
+[15:47:28] [Async Chat Thread - #39/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » <#HEXCODE>
+[15:47:32] [Async Chat Thread - #39/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » it would work aswell
+[15:47:42] [Async Chat Thread - #38/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » <#ff0000> is red
+[15:47:54] [Server thread/INFO]: Clstial issued server command: /team create &l&9&k:::&9&lCelestial&9&l&k:::
+[15:47:56] [Server thread/INFO]: EntityZ096x issued server command: /tp Clstial
+[15:48:05] [Server thread/INFO]: EntityZ096x issued server command: /kit load mace
+[15:48:06] [Server thread/INFO]: Clstial issued server command: /team create &9&l&k:::&9&lCelestial&9&l&k:::
+[15:48:10] [Server thread/INFO]: Clstial issued server command: /team delete
+[15:48:12] [Server thread/INFO]: Clstial issued server command: /team create &9&l&k:::&9&lCelestial&9&l&k:::
+[15:48:15] [Server thread/INFO]: Clstial issued server command: /team delete
+[15:48:18] [Server thread/INFO]: Clstial issued server command: /team create &9&l&k:::&9&lCelestial&9&l&k::
+[15:48:29] [Async Chat Thread - #39/INFO]: [Not Secure] Clstial » breh
+[15:48:48] [Async Chat Thread - #39/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » holy lag
+[15:48:52] [Async Chat Thread - #39/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wait lemme delete my tabs
+[15:48:52] [Server thread/INFO]: Clstial issued server command: /fucklag
+[15:48:52] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[15:49:08] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:49:08] [Server thread/INFO]: Line 3: (Survival/team.sk)
+[15:49:08] [Server thread/INFO]:     Can't understand this condition: 'position 1 is 1'
+[15:49:08] [Server thread/INFO]:     Line: if position 1 is 1:
+[15:49:08] [Server thread/INFO]:  
+[15:49:08] [Server thread/INFO]: Line 6: (Survival/team.sk)
+[15:49:08] [Server thread/INFO]:     Can't understand this condition: 'position 1 is 2'
+[15:49:08] [Server thread/INFO]:     Line: if position 1 is 2:
+[15:49:08] [Server thread/INFO]:  
+[15:49:08] [Server thread/INFO]:     Encountered 2 errors while reloading team.sk! (76ms)
+[15:49:31] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:49:31] [Server thread/INFO]: Successfully reloaded team.sk. (67ms)
+[15:50:08] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /Survival/
+[15:50:15] [Server thread/INFO]: EntityZ096x issued server command: /team members
+[15:50:19] [Async Chat Thread - #41/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » yo
+[15:50:22] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » why u leave the team
+[15:50:31] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » do /team
+[15:50:34] [Server thread/INFO]: EntityZ096x issued server command: /team
+[15:50:37] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i cant
+[15:50:38] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » in combat
+[15:50:59] [Async Chat Thread - #41/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nigga cant stunslam
+[15:51:18] [Server thread/INFO]: Clstial issued server command: /kit
+[15:51:38] [Server thread/INFO]: Clstial issued server command: /kit
+[15:51:39] [Server thread/INFO]: EntityZ096x issued server command: /team
+[15:51:48] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nice team name btw
+[15:51:54] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » yeh
+[15:51:55] [Server thread/INFO]: Clstial issued server command: /team
+[15:52:12] [Server thread/INFO]: EntityZ096x was slain by Clstial
+[15:52:14] [Async Chat Thread - #41/INFO]: [Not Secure] Clstial » LOL
+[15:52:18] [Async Chat Thread - #41/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » fuck u
+[15:52:18] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » GETOUT
+[15:52:19] [Server thread/INFO]: EntityZ096x issued server command: /back
+[15:52:27] [Server thread/INFO]: EntityZ096x issued server command: /tp Clstial
+[15:52:28] [Server thread/INFO]: EntityZ096x issued server command: /god
+[15:52:31] [Server thread/INFO]: Clstial issued server command: /tphere EntityZ096x
+[15:52:32] [Server thread/INFO]: EntityZ096x issued server command: /clear
+[15:52:34] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[15:52:34] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[15:52:37] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » just do /kit
+[15:52:38] [Server thread/INFO]: EntityZ096x issued server command: /kit load mace
+[15:52:40] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ik
+[15:52:42] [Server thread/INFO]: EntityZ096x issued server command: /ungod
+[15:53:07] [User Authenticator #15/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[15:53:08] [Server thread/INFO]: [+] JustDan12
+[15:53:08] [Server thread/INFO]: JustDan12[/127.0.0.1:42922] logged in with entity id 49975 at ([minecraft:lobby]-18.5, 60.0, -288.5)
+[15:53:08] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:53:08] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:53:10] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » yo
+[15:53:11] [Server thread/INFO]: JustDan12 issued server command: /login poopyboy
+[15:53:13] [Async Chat Thread - #41/INFO]: [Not Secure] Clstial » hi dan
+[15:53:23] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:53:25] [Server thread/WARN]: EntityZ096x moved wrongly!
+[15:53:28] [Async Chat Thread - #41/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » bruh
+[15:53:49] [Server thread/INFO]: JustDan12 issued server command: /tp Clstial JustDan12
+[15:53:51] [Async Chat Thread - #41/INFO]: [Not Secure] Clstial » FUT
+[15:53:54] [Async Chat Thread - #41/INFO]: [Not Secure] Clstial » BRO
+[15:53:59] [Async Chat Thread - #41/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » what
+[15:54:04] [Server thread/INFO]: EntityZ096x issued server command: /orbital Clstial
+[15:54:09] [Server thread/INFO]: EntityZ096x issued server command: /orbital Clstial stab
+[15:54:21] [Server thread/INFO]: EntityZ096x issued server command: /tp Clstial
+[15:54:30] [Async Chat Thread - #41/INFO]: [Not Secure] Clstial » dan
+[15:54:35] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » WHAT DID YOU DO
+[15:54:38] [Server thread/INFO]: Clstial issued server command: /gms
+[15:54:40] [Server thread/INFO]: Clstial issued server command: /gmc
+[15:54:46] [Async Chat Thread - #41/INFO]: [Not Secure] Admin || JustDan12 || » BRO
+[15:54:50] [Server thread/INFO]: Clstial issued server command: /gms
+[15:54:51] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » WHAt
+[15:54:52] [Async Chat Thread - #41/INFO]: [Not Secure] Admin || JustDan12 || » i shall go down with him
+[15:55:02] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[15:55:02] [Server thread/INFO]: EntityZ096x was slain by JustDan12
+[15:55:06] [Server thread/INFO]: Clstial issued server command: /suicide
+[15:55:06] [Server thread/INFO]: Clstial was slain by EntityZ096x
+[15:55:08] [Server thread/INFO]: JustDan12 issued server command: /suicide
+[15:55:08] [Server thread/INFO]: JustDan12 died
+[15:55:16] [Server thread/INFO]: Clstial issued server command: /suicide
+[15:55:16] [Server thread/INFO]: Clstial died
+[15:55:20] [Server thread/INFO]: Clstial issued server command: /suicide
+[15:55:20] [Server thread/INFO]: Clstial suffocated in a wall
+[15:55:21] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[15:55:21] [Server thread/INFO]: EntityZ096x died
+[15:55:23] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[15:55:23] [Server thread/INFO]: EntityZ096x died
+[15:55:23] [Server thread/INFO]: Clstial issued server command: /lobby
+[15:55:24] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[15:55:24] [Server thread/INFO]: EntityZ096x died
+[15:55:25] [Server thread/INFO]: Clstial issued server command: /suicide
+[15:55:25] [Server thread/INFO]: Clstial suffocated in a wall
+[15:55:25] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[15:55:25] [Server thread/INFO]: EntityZ096x died
+[15:55:28] [Server thread/INFO]: Clstial issued server command: /gmc
+[15:55:31] [Async Chat Thread - #41/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » lol
+[15:55:39] [Server thread/INFO]: EntityZ096x issued server command: /rtp
+[15:55:40] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » >
+[15:55:41] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » ?
+[15:55:50] [Server thread/INFO]: Clstial issued server command: /gms
+[15:55:52] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[15:55:57] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » whut
+[15:55:58] [Server thread/INFO]: Clstial issued server command: /kit
+[15:55:59] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[15:56:08] [Server thread/INFO]: Clstial died
+[15:56:08] [Server thread/INFO]: EntityZ096x died
+[15:56:11] [Async Chat Thread - #41/INFO]: [Not Secure] Clstial » BRO
+[15:56:12] [Server thread/INFO]: Clstial issued server command: /kit
+[15:56:14] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » HAHAHA
+[15:56:15] [Server thread/INFO]: JustDan12 issued server command: /gms
+[15:56:15] [Server thread/INFO]: EntityZ096x was slain by Clstial
+[15:56:24] [Server thread/INFO]: JustDan12 issued server command: /tpall
+[15:56:28] [Async Chat Thread - #41/INFO]: [Not Secure] Admin || JustDan12 || » i win
+[15:56:31] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » NO ORBITALS
+[15:56:36] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[15:56:42] [Server thread/INFO]: Clstial died
+[15:56:45] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » lmao
+[15:56:46] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » BRO
+[15:56:48] [Async Chat Thread - #41/INFO]: [Not Secure] Clstial » NO ORBITALS
+[15:56:49] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -2253.5, y: 177.5, z: 4862.5, yaw: 0, pitch: 0 in 'Survival_nether'
+[15:56:50] [Server thread/INFO]: Clstial issued server command: /tp just
+[15:56:51] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[15:56:53] [Server thread/INFO]: Clstial blew up
+[15:56:56] [Server thread/INFO]: Clstial issued server command: /tp just
+[15:56:57] [Server thread/INFO]: Clstial died
+[15:57:01] [Server thread/INFO]: Clstial issued server command: /gmc
+[15:57:01] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » why
+[15:57:03] [Server thread/INFO]: Clstial issued server command: /tp just
+[15:57:05] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » BEC
+[15:57:07] [Server thread/INFO]: Clstial issued server command: /gmc
+[15:57:11] [Server thread/INFO]: JustDan12 died
+[15:57:12] [Async Chat Thread - #41/INFO]: [Not Secure] Clstial » YOU  KNOW
+[15:57:16] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » JUST STOPO
+[15:57:18] [Server thread/INFO]: JustDan12 issued server command: /kit load wemmbu
+[15:57:20] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » ITS NOT FUN
+[15:57:20] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
+[15:57:21] [Server thread/INFO]: JustDan12 issued server command: /tp JustDan12 Clstial
+[15:57:22] [Server thread/INFO]: Clstial issued server command: /kit
+[15:57:24] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ok
+[15:57:28] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » do neth smp
+[15:57:28] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -2267.5, y: 177.5, z: 4856.5, yaw: 0, pitch: 0 in 'Survival_nether'
+[15:57:31] [Server thread/INFO]: EntityZ096x issued server command: /kit load mace
+[15:57:33] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » ...
+[15:57:34] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » mb gang
+[15:57:36] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » gang
+[15:57:38] [Server thread/INFO]: Clstial issued server command: /gms
+[15:57:45] [Server thread/INFO]: EntityZ096x issued server command: /orbital JustDan12 stab
+[15:57:50] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » yall
+[15:57:52] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » u2 vs me
+[15:57:59] [Async Chat Thread - #43/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » no
+[15:58:02] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -2265.5, y: 177.5, z: 4864.5, yaw: 0, pitch: 0 in 'Survival_nether'
+[15:58:06] [Server thread/INFO]: EntityZ096x blew up
+[15:58:37] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » BRO
+[15:58:39] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » STOP
+[15:58:41] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » tiki tiki tiki edit
+[15:58:44] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » WITH THE ORBITALS
+[15:58:46] [Async Chat Thread - #43/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » tiki tiki tiki
+[15:58:48] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » why
+[15:58:53] [Server thread/INFO]: Clstial issued server command: /kit
+[15:58:55] [Server thread/INFO]: EntityZ096x issued server command: /team invite JustDan12
+[15:59:04] [Server thread/WARN]: JustDan12 moved wrongly!
+[15:59:11] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -2309.5, y: 177.5, z: 4840.5, yaw: 0, pitch: 0 in 'Survival_nether'
+[15:59:42] [Server thread/INFO]: Clstial died because of JustDan12
+[15:59:43] [Server thread/INFO]: [Skript] Reloading team.sk...
+[15:59:43] [Server thread/INFO]: Successfully reloaded team.sk. (70ms)
+[15:59:45] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » gg
+[15:59:46] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » BRO
+[15:59:47] [Server thread/INFO]: Clstial issued server command: /kit
+[15:59:49] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » alr fine
+[15:59:50] [Server thread/INFO]: [Skript] Reloading all scripts in PvP...
+[15:59:50] [Server thread/INFO]: Line 14: (PvP/anticombatlog.sk)
+[15:59:50] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.inpvp::*} will be lost when the server stops.
+[15:59:50] [Server thread/INFO]:     Line: add victim to {pvp.inpvp::*}
+[15:59:50] [Server thread/INFO]:  
+[15:59:50] [Server thread/INFO]: Line 16: (PvP/anticombatlog.sk)
+[15:59:50] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.inpvp::*} will be lost when the server stops.
+[15:59:50] [Server thread/INFO]:     Line: add attacker to {pvp.inpvp::*}
+[15:59:50] [Server thread/INFO]:  
+[15:59:50] [Server thread/INFO]: Line 23: (PvP/anticombatlog.sk)
+[15:59:50] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.enemy.%the attacked entity%} will be lost when the server stops.
+[15:59:50] [Server thread/INFO]:     Line: set {pvp.enemy.%victim%} to attacker
+[15:59:50] [Server thread/INFO]:  
+[15:59:50] [Server thread/INFO]: Line 24: (PvP/anticombatlog.sk)
+[15:59:50] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.enemy.%the attacker%} will be lost when the server stops.
+[15:59:50] [Server thread/INFO]:     Line: set {pvp.enemy.%attacker%} to victim
+[15:59:50] [Server thread/INFO]:  
+[15:59:50] [Server thread/INFO]: Successfully reloaded 3 scripts in PvP. (263ms)
+[15:59:50] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[15:59:50] [Server thread/INFO]: [-] EntityZ096x
+[15:59:52] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[15:59:54] [Server thread/INFO]: JustDan12 issued server command: /kit load JustDan12
+[15:59:55] [Server thread/INFO]: Clstial issued server command: /kit
+[15:59:56] [User Authenticator #16/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:59:56] [Server thread/INFO]: [+] EntityZ096x
+[15:59:56] [Server thread/INFO]: EntityZ096x[/127.0.0.1:58376] logged in with entity id 61195 at ([minecraft:survival]0.2981600946478088, 63.0, 4.701330105699037)
+[15:59:56] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:59:56] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:00:00] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[16:00:01] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » do neth smp
+[16:00:02] [Server thread/INFO]: JustDan12 issued server command: /kit load JustDan12
+[16:00:06] [Server thread/INFO]: EntityZ096x issued server command: /tp EntityZ096x JustDan12
+[16:00:07] [Server thread/INFO]: EntityZ096x issued server command: /god
+[16:00:18] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[16:00:19] [Server thread/INFO]: JustDan12 was slain by Clstial
+[16:00:25] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » huhhhhh
+[16:00:25] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » DONT
+[16:00:27] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » ENTITY
+[16:00:27] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i wont
+[16:00:28] [Server thread/INFO]: JustDan12 issued server command: /tp JustDan12 Clstial
+[16:00:29] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wait
+[16:00:30] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » alr
+[16:00:30] [Server thread/INFO]: EntityZ096x issued server command: /kit
+[16:00:35] [Server thread/INFO]: EntityZ096x issued server command: /kit
+[16:00:49] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » chillw
+[16:00:51] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » lemme pot
+[16:00:59] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » DO NETH SMP
+[16:01:25] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[16:01:30] [Server thread/INFO]: EntityZ096x issued server command: /orbital JustDan12 stab
+[16:01:30] [Server thread/INFO]: JustDan12 died
+[16:01:35] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » ....................................
+[16:01:36] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » dallright
+[16:01:37] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ?
+[16:01:39] [Server thread/INFO]: JustDan12 issued server command: /tp JustDan12 Clstial
+[16:01:39] [Server thread/INFO]: Clstial issued server command: /tp EntityZ096x
+[16:01:42] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » ENTITY
+[16:01:42] [Server thread/INFO]: JustDan12 issued server command: /kit load wemmbu
+[16:01:45] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » DONT CAP
+[16:01:46] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » some1 stab shot me
+[16:01:47] [Server thread/INFO]: [Not Secure] Clstial » Ahh! It feels so big!~
+[16:01:47] [Server thread/INFO]: Clstial was brutally SMASHED by EntityZ096x and liked it...
+[16:01:53] [Server thread/INFO]: Clstial issued server command: /tp EntityZ096x
+[16:01:54] [Server thread/INFO]: Clstial issued server command: /kit
+[16:01:54] [Async Chat Thread - #43/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » crazy death msg
+[16:01:56] [Server thread/INFO]: EntityZ096x issued server command: /debug
+[16:02:01] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » who stab shotted me
+[16:02:04] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » not me
+[16:02:09] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » mmm
+[16:02:27] [Server thread/INFO]: Clstial issued server command: /fucklag
+[16:02:27] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[16:02:32] [Server thread/INFO]: EntityZ096x issued server command: /orbital JustDan12 stab
+[16:02:33] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » hold on
+[16:02:34] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » my cat
+[16:02:41] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -2304.5, y: 177.5, z: 4818.5, yaw: 0, pitch: 0 in 'Survival_nether'
+[16:02:43] [Server thread/INFO]: Clstial issued server command: /fucklag
+[16:02:43] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[16:02:50] [Server thread/INFO]: JustDan12 died because of Clstial
+[16:02:53] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » bruh
+[16:02:55] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » AYO
+[16:02:57] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » i was playing with my car
+[16:02:58] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » lol
+[16:03:00] [Server thread/INFO]: JustDan12 issued server command: /tp JustDan12 Clstial
+[16:03:01] [Async Chat Thread - #43/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » carr
+[16:03:02] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -2294.5, y: 177.5, z: 4814.5, yaw: 0, pitch: 0 in 'Survival_nether'
+[16:03:03] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -2294.5, y: 177.5, z: 4814.5, yaw: 0, pitch: 0 in 'Survival_nether'
+[16:03:04] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -2294.5, y: 177.5, z: 4814.5, yaw: 0, pitch: 0 in 'Survival_nether'
+[16:03:09] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[16:03:09] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[16:03:13] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » bro
+[16:03:14] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » stop
+[16:03:16] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » STOP DOING THAT
+[16:03:17] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » if u do again
+[16:03:23] [Server thread/WARN]: Clstial moved too quickly! 12.715810256342138,12.93719191601403,23.30505101122617
+[16:03:25] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » STOP DOING THAT
+[16:03:28] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » why
+[16:03:28] [Async Chat Thread - #42/INFO]: [Not Secure] Clstial » DAN
+[16:03:29] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i will get rid of ur orbital priviliges
+[16:03:34] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » some1 stab shottede me
+[16:03:43] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » ill keep doing untill some1 says who it as
+[16:03:43] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » well
+[16:03:45] [Async Chat Thread - #43/INFO]: [Not Secure] Admin || JustDan12 || » was
+[16:03:47] [Async Chat Thread - #43/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » dont spam nukes
+[16:03:56] [Server thread/INFO]: EntityZ096x issued server command: /orbital JustDan12 stab
+[16:04:11] [Server thread/INFO]: Clstial died
+[16:04:14] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » BRLO
+[16:04:17] [Server thread/INFO]: Clstial issued server command: /tp EntityZ096x
+[16:04:18] [Server thread/INFO]: Clstial issued server command: /kit
+[16:04:21] [Async Chat Thread - #42/INFO]: [Not Secure] Admin || JustDan12 || » who stabshotted me
+[16:04:22] [Async Chat Thread - #43/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » NOT ME
+[16:04:24] [Async Chat Thread - #42/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » NIGGeR
+[16:04:25] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » IDK
+[16:04:27] [Async Chat Thread - #43/INFO]: [Not Secure] Clstial » NOT ME
