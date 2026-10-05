@@ -7,7 +7,8 @@ on load:
 command /orbital <player> [<text>]:
     trigger:
         if {orbitalperms::*} does not contain player's name:
-            stop
+            if sender is not console:
+                stop
         Orbital(arg-1's location, arg-2, player)
 
 function Orbital(l: location, type: text, p: player):
