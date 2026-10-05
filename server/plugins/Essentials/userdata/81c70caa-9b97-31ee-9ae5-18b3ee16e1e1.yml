@@ -12,7 +12,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1791212119267
+  lastteleport: 1791216257328
   lastheal: 0
   mute: 0
   jail: 0
@@ -30,13 +30,13 @@ logoutlocation:
   yaw: -94.491943359375
   pitch: 32.54995346069336
 lastlocation:
-  world: f70b1dbe-264f-4011-9770-0a60de88db6d
-  world-name: Lobby
-  x: 14.502072965811521
-  y: 113.0
-  z: -236.32044718496638
-  yaw: 133.18801879882812
-  pitch: 39.55259704589844
+  world: 2fa61f74-6ba8-4d4f-8e14-448148591117
+  world-name: Survival
+  x: 0.35460001162588606
+  y: 62.0
+  z: 6.0
+  yaw: 0.8999999761581421
+  pitch: -15.75
 homes:
   home:
     world: 3a710a50-00eb-4cf0-9f8c-cb2c7ac92f1b
