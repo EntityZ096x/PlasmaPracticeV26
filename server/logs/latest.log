@@ -19128,3 +19128,169 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 [10:12:58] [Server thread/INFO]: Villager Villager['Shepherd'/62105, uuid='57fad809-1bbd-4515-b8a2-6f86fc52f27d', l='ServerLevel[world]', x=6376.54, y=63.00, z=49589.22, cpos=[398, 3099], tl=1388, v=true] died, message: 'Shepherd was smashed by Clstial with [Density Mace]'
 [10:13:04] [Server thread/INFO]: Villager Villager['Villager'/62107, uuid='a94d1236-1080-4e2c-9263-0ba0ffd83ac1', l='ServerLevel[world]', x=6377.50, y=63.94, z=49604.98, cpos=[398, 3100], tl=1498, v=true] died, message: 'Villager was smashed by Clstial with [Density Mace]'
 [10:13:06] [Server thread/INFO]: Villager Villager['Villager'/62109, uuid='32d8402b-0885-43c3-b5f7-0624c0b1af6f', l='ServerLevel[world]', x=6379.80, y=63.00, z=49614.30, cpos=[398, 3100], tl=1544, v=true] died, message: 'Villager was smashed by Clstial with [Density Mace]'
+[10:13:31] [Server thread/INFO]: Villager Villager['Weaponsmith'/62101, uuid='862d3ebf-0dd0-4a01-b560-58ebf25a6e85', l='ServerLevel[world]', x=6398.51, y=64.00, z=49627.94, cpos=[399, 3101], tl=1965, v=true] died, message: 'Weaponsmith was smashed by Clstial with [Density Mace]'
+[10:13:42] [Server thread/INFO]: Clstial issued server command: /rtp
+[10:13:59] [Server thread/INFO]: Clstial issued server command: /gmc
+[10:14:01] [Server thread/INFO]: Clstial issued server command: /rtp
+[10:14:05] [Server thread/INFO]: Clstial issued server command: /kit
+[10:14:19] [Server thread/INFO]: Clstial issued server command: /dummy
+[10:15:00] [Server thread/INFO]: Clstial issued server command: /gms
+[10:15:03] [Server thread/INFO]: Clstial issued server command: /hax
+[10:15:09] [Server thread/INFO]: Clstial issued server command: /hax alwaysslam
+[10:15:41] [Server thread/INFO]: Clstial issued server command: /hax alwa
+[10:15:44] [Server thread/INFO]: Clstial issued server command: /hax alwaysslam
+[10:17:15] [Server thread/INFO]: Clstial issued server command: /kit
+[10:17:27] [Server thread/INFO]: Clstial sent a nuke shot at x: 7932.5, y: 161.5, z: -32922.5, yaw: 0, pitch: 0 in 'Survival'
+[10:17:42] [Server thread/INFO]: Clstial issued server command: /fucklag
+[10:17:42] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:17:48] [Server thread/INFO]: Clstial issued server command: /kit
+[10:17:56] [Server thread/INFO]: Clstial issued server command: /kit
+[10:18:22] [Server thread/INFO]: Clstial issued server command: /kit
+[10:18:47] [Server thread/INFO]: Clstial issued server command: /kit
+[10:21:34] [Server thread/INFO]: Clstial issued server command: /kit
+[10:21:41] [Server thread/INFO]: Clstial issued server command: /gmc
+[10:21:50] [Server thread/WARN]: Clstial moved too quickly! 0.02866788540268317,10.123787799644173,0.09651837666751817
+[10:21:55] [Server thread/INFO]: Clstial issued server command: /fucklag
+[10:21:55] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:22:06] [User Authenticator #14/INFO]: UUID of player Zilver2 is d05767b2-a022-3dfc-844f-86f7ee80a31f
+[10:22:06] [Server thread/INFO]: [+] Zilver2
+[10:22:06] [Server thread/INFO]: Zilver2[/127.0.0.1:45828] logged in with entity id 74113 at ([minecraft:survival]6443.0654407177735, 51.0, 49659.88394706578)
+[10:22:06] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Zilver2, which is not a valid number.
+[10:22:06] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Zilver2, which is not a valid number.
+[10:22:08] [Server thread/INFO]: Clstial issued server command: /kit
+[10:22:09] [Server thread/INFO]: Zilver2 issued server command: /login cyfcyf
+[10:22:15] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:22:22] [Server thread/INFO]: Clstial sent a nuke shot at x: 7926.5, y: 154.5, z: -32922.5, yaw: 0, pitch: 0 in 'Survival'
+[10:22:33] [Server thread/INFO]: Clstial issued server command: /fucklag
+[10:22:33] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:22:46] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:22:49] [Server thread/WARN]: Zilver2 moved too quickly! -7.55693010674986,8.043331129456305,-3.9135682366177207
+[10:23:01] [Server thread/INFO]: Zilver2 issued server command: /ec
+[10:23:01] [Server thread/INFO]: [Essentials] Zilver2 was denied access to command.
+[10:23:04] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:23:21] [Server thread/WARN]: Zilver2 moved too quickly! -12.021334677329833,6.074440785585253,-3.0056741130247246
+[10:23:25] [Server thread/WARN]: Zilver2 moved too quickly! -16.619124612551786,4.1064954583901425,-15.652151924710779
+[10:23:30] [Server thread/INFO]: Clstial sent a nuke shot at x: 7995.5, y: 143.5, z: -33013.5, yaw: 0, pitch: 0 in 'Survival'
+[10:23:32] [Server thread/INFO]: Zilver2 issued server command: /nuke
+[10:23:32] [Server thread/INFO]: [Essentials] Zilver2 was denied access to command.
+[10:23:35] [Server thread/INFO]: Villager Villager['Villager'/63411, uuid='16265ed8-ffab-4464-b731-d60ce1ff8b32', l='ServerLevel[world]', x=8007.50, y=97.00, z=-33027.50, cpos=[500, -2065], tl=478, v=true] died, message: 'Villager blew up'
+[10:23:35] [Server thread/INFO]: Villager Villager['Villager'/63330, uuid='df52c149-0788-47a2-9c1a-f7f8afffe35f', l='ServerLevel[world]', x=7990.50, y=99.00, z=-32990.50, cpos=[499, -2062], tl=519, v=true] died, message: 'Villager blew up'
+[10:23:35] [Server thread/INFO]: Villager Villager['Villager'/63387, uuid='c400341b-4de7-40a0-9199-dac1bfdf2821', l='ServerLevel[world]', x=8027.70, y=92.00, z=-32998.33, cpos=[501, -2063], tl=484, v=true] died, message: 'Villager blew up'
+[10:23:36] [Server thread/INFO]: Villager Villager['Villager'/63395, uuid='560e02f1-def2-49a1-826d-cf0bc61957d7', l='ServerLevel[world]', x=8033.70, y=93.00, z=-32984.54, cpos=[502, -2062], tl=419, v=true] died, message: 'Villager blew up'
+[10:23:36] [Server thread/INFO]: Villager Villager['Villager'/63388, uuid='67651044-34a7-447b-aa37-1b4cc5a1280b', l='ServerLevel[world]', x=8033.11, y=93.00, z=-32984.67, cpos=[502, -2062], tl=484, v=true] died, message: 'Villager blew up'
+[10:23:36] [Server thread/INFO]: Villager Villager['Villager'/63301, uuid='e648ea7c-194b-43dc-a553-9e5901e2a583', l='ServerLevel[world]', x=7983.50, y=99.00, z=-32977.50, cpos=[498, -2062], tl=775, v=true] died, message: 'Villager blew up'
+[10:23:40] [Server thread/INFO]: Villager Villager['Villager'/63421, uuid='53ddb821-6f0e-4599-8a0c-3b3812460990', l='ServerLevel[world]', x=8036.49, y=105.00, z=-33006.91, cpos=[502, -2063], tl=499, v=true] died, message: 'Villager blew up'
+[10:23:44] [Server thread/INFO]: Clstial issued server command: /fucklag
+[10:23:44] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:23:54] [Server thread/INFO]: Clstial issued server command: /kit
+[10:24:33] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:24:52] [Server thread/INFO]: Clstial issued server command: /kit
+[10:25:13] [Server thread/INFO]: Clstial issued server command: /fucklag
+[10:25:13] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:25:19] [Server thread/WARN]: Zilver2 moved wrongly!
+[10:25:22] [Server thread/WARN]: Zilver2 moved wrongly!
+[10:25:24] [Server thread/INFO]: Clstial sent a nuke shot at x: 7988.5, y: 19.5, z: -33030.5, yaw: 0, pitch: 0 in 'Survival'
+[10:25:36] [Server thread/INFO]: Clstial issued server command: /fucklag
+[10:25:36] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:25:43] [Server thread/WARN]: Zilver2 moved wrongly!
+[10:25:46] [Server thread/INFO]: Clstial issued server command: /kit
+[10:25:54] [Server thread/INFO]: Clstial issued server command: /tpahere Zilver2
+[10:25:58] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:26:01] [Server thread/INFO]: Clstial issued server command: /gms
+[10:26:07] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:26:26] [Server thread/INFO]: Clstial issued server command: /gmc
+[10:26:34] [Server thread/INFO]: Clstial issued server command: /tp Zilver2
+[10:26:38] [Server thread/INFO]: Clstial issued server command: /kit
+[10:26:47] [User Authenticator #15/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[10:26:47] [Server thread/INFO]: [+] JustDan12
+[10:26:47] [Server thread/INFO]: JustDan12[/127.0.0.1:53116] logged in with entity id 103447 at ([minecraft:lobby]-18.721852250818063, 83.46486916527255, -241.77525515394132)
+[10:26:47] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[10:26:47] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[10:26:54] [Server thread/INFO]: JustDan12 issued server command: /login poopyboy
+[10:28:45] [Async Chat Thread - #9/INFO]: [Not Secure] Admin || JustDan12 || » 87, 61
+[10:29:28] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:29:30] [Server thread/INFO]: JustDan12 issued server command: //brush circle light_gray_concrete 26
+[10:29:35] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:29:39] [Server thread/INFO]: JustDan12 issued server command: //undo
+[10:29:44] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:29:52] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:29:53] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:29:54] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:29:55] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:30:01] [Server thread/INFO]: JustDan12 issued server command: //undo
+[10:30:38] [Server thread/INFO]: JustDan12 issued server command: //undo
+[10:30:44] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:30:47] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:30:48] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:30:57] [Server thread/INFO]: JustDan12 issued server command: //undo
+[10:31:15] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:31:21] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:31:22] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:31:59] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:32:03] [Server thread/INFO]: JustDan12 issued server command: //undo
+[10:32:04] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:32:25] [Server thread/INFO]: Clstial issued server command: /gmc
+[10:32:39] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:33:28] [Server thread/INFO]: Zilver2 was slain by Clstial
+[10:33:34] [Server thread/INFO]: Zilver2 issued server command: /tp cls
+[10:33:34] [Server thread/INFO]: [Essentials] Zilver2 was denied access to command.
+[10:33:35] [Server thread/INFO]: Clstial issued server command: /kit
+[10:33:42] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:33:57] [Server thread/INFO]: [Not Secure] Zilver2 » Im stretched out~~
+[10:33:57] [Server thread/INFO]: Zilver2 was brutally SMASHED by Clstial and liked it...
+[10:34:05] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:34:14] [Server thread/INFO]: [Not Secure] Zilver2 » AHHHHhhhhh~~~
+[10:34:14] [Server thread/INFO]: Zilver2 was brutally SMASHED by Clstial and liked it...
+[10:34:22] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:34:54] [Server thread/INFO]: [Not Secure] Zilver2 » Its so big!~
+[10:34:54] [Server thread/INFO]: Zilver2 was brutally SMASHED by Clstial and liked it...
+[10:35:10] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:35:12] [Server thread/WARN]: Clstial moved wrongly!
+[10:35:16] [Server thread/INFO]: Clstial issued server command: /kit
+[10:35:20] [Server thread/INFO]: Clstial issued server command: /gmc
+[10:35:38] [Server thread/INFO]: Clstial issued server command: /kit
+[10:35:43] [Server thread/INFO]: JustDan12 issued server command: //line 33%calcite,33%bone_block,34%pale_oak_wood
+[10:35:51] [Server thread/INFO]: Clstial issued server command: /kit
+[10:35:56] [Server thread/INFO]: Clstial issued server command: /kit
+[10:35:57] [Server thread/INFO]: Clstial issued server command: /gms
+[10:36:01] [Server thread/INFO]: Clstial issued server command: /kit
+[10:36:10] [Server thread/INFO]: JustDan12 issued server command: //line 33%calcite,33%bone_block,34%pale_oak_wood
+[10:36:15] [Server thread/INFO]: JustDan12 issued server command: //line 33%calcite,33%bone_block,34%pale_oak_wood
+[10:36:25] [Server thread/INFO]: JustDan12 issued server command: //undo
+[10:36:28] [Server thread/INFO]: JustDan12 issued server command: //undo
+[10:36:31] [Server thread/INFO]: JustDan12 issued server command: //undo
+[10:36:32] [Server thread/INFO]: JustDan12 issued server command: //undo
+[10:36:48] [Server thread/INFO]: JustDan12 issued server command: //undo
+[10:36:54] [Server thread/INFO]: JustDan12 issued server command: //line 33%calcite,33%bone_block,34%pale_oak_wood
+[10:36:59] [Server thread/INFO]: JustDan12 issued server command: //line 33%calcite,33%bone_block,34%pale_oak_wood
+[10:37:10] [Server thread/INFO]: JustDan12 issued server command: //undo
+[10:37:17] [Server thread/INFO]: JustDan12 issued server command: //line 33%calcite,33%bone_block,34%pale_oak_wood
+[10:37:54] [Server thread/INFO]: JustDan12 issued server command: //line 33%calcite,33%bone_block,34%pale_oak_wood
+[10:38:08] [Server thread/INFO]: JustDan12 issued server command: //line 33%calcite,33%bone_block,34%pale_oak_wood
+[10:38:11] [Server thread/INFO]: [Not Secure] Zilver2 » Ahh! It feels so big!~
+[10:38:11] [Server thread/INFO]: Zilver2 was brutally SMASHED by Clstial and liked it...
+[10:38:22] [Server thread/INFO]: Clstial issued server command: /tphere Zilver2
+[10:38:23] [Server thread/INFO]: Clstial issued server command: /kit
+[10:38:28] [Server thread/INFO]: JustDan12 issued server command: //line 33%calcite,33%bone_block,34%pale_oak_wood
+[10:38:32] [Server thread/INFO]: JustDan12 issued server command: //line 33%calcite,33%bone_block,34%pale_oak_wood
+[10:38:35] [Server thread/INFO]: Clstial issued server command: /kit load Zilver2 nethsmp
+[10:38:41] [Server thread/INFO]: JustDan12 issued server command: //line 33%calcite,33%bone_block,34%pale_oak_wood
+[10:38:41] [Server thread/INFO]: Clstial issued server command: /kit load Zilver2 nethsmp
+[10:38:49] [Server thread/INFO]: Clstial issued server command: /kit load Zilver2 NethSMP
+[10:38:57] [Server thread/INFO]: Clstial issued server command: /kit
+[10:38:59] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[10:38:59] [Server thread/INFO]: [-] JustDan12
+[10:39:02] [Server thread/INFO]: Clstial issued server command: /kit Zilver2 mace
+[10:39:05] [Server thread/INFO]: Clstial issued server command: /kit Zilver2 mace
+[10:39:10] [Server thread/INFO]: Clstial issued server command: /kit
+[10:39:15] [Server thread/INFO]: Clstial issued server command: /gmc
+[10:39:29] [Server thread/INFO]: Clstial issued server command: /kit
+[10:39:52] [Server thread/INFO]: Clstial issued server command: /gms
+[10:39:56] [Server thread/INFO]: Clstial issued server command: /kit
+[10:40:52] [Server thread/INFO]: Clstial issued server command: /fucklag
+[10:41:09] [Server thread/INFO]: Zilver2 lost connection: Disconnected
+[10:41:09] [Server thread/INFO]: [-] Zilver2
+[10:41:45] [Server thread/INFO]: Clstial issued server command: /kit
+[10:41:50] [Server thread/INFO]: Clstial issued server command: /dummy
+[10:42:59] [Server thread/INFO]: Clstial lost connection: Disconnected
+[10:42:59] [Server thread/INFO]: [-] Clstial
