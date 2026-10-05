@@ -21,7 +21,7 @@ function Orbital(l: location, type: text, p: player):
         add 50 to y-coordinate of {_l}
         set {_speed} to 0
 
-        loop 7 times:
+        loop 12 times:
             set {_amount} to {_speed} * 50 + 1
             set {_angle} to 0
 
@@ -45,7 +45,7 @@ on explosion:
         cancel event
         set {_pos} to location of event-entity
         delete event-entity
-        create an explosion of force 6 at {_pos}
+        create an explosion of force 7 at {_pos}
 
 command /orbitalrod <player> <text>:
     trigger:

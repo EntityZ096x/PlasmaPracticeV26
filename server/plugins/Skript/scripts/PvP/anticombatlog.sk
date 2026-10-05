@@ -4,6 +4,7 @@ on damage:
     attacker is a player
     victim is a player
     if attacker is victim:
+        stop
         
 
     set {pvp.end.%victim%} to now + 15 seconds
