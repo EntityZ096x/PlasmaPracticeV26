@@ -39,3 +39,13 @@ on death:
         
     if attacker's tool's name is "&r&f50 Calibre Sniper Rifle":
         set death message to "%victim% got sniped by %attacker%."
+
+command /makesay <player> <text>:
+    trigger:
+        make arg-1 say arg-2
+
+command /t <text>:
+    trigger:
+        if sender is not console:
+            stop
+        broadcast "&r&cEntityZ096x (as console)&r: %arg-1%"

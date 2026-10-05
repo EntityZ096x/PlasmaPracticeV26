@@ -1,5 +1,6 @@
 on tab complete of "/kit":
-    set tab completions for position 1 to "load", "save", "delete", and "layout"
+    if tab arg-1 is not set:
+        set tab completions for position 1 to "load", "save", "delete", and "layout"
 
     if tab arg-1 is "layout":
         if tab arg-2 is not set:
@@ -11,16 +12,16 @@ on tab complete of "/kit":
 
     else if tab arg-1 is "load", "save", or "delete":
         set tab completions for position 2 to {kits::*}
-
-        if tab arg-2 is "load":
-            set tab completions for position 3 to all players
+        
+        set tab completions for position 3 to all players
 
 
 command /kit [<text>] [<text>] [<text>]:
     trigger:
         if {debug.%player%} is not "enabled":
-            send "<#ff0000>You're not allowed to do that."
-            stop
+            if sender is not console:
+                send "<#ff0000>You're not allowed to do that."
+                stop
 
         # =================================================
         # SAVE
@@ -75,6 +76,10 @@ command /kit [<text>] [<text>] [<text>]:
 
             if arg-3 is set:
                 set {_p} to arg-3 parsed as player
+                if arg-3 is "*":
+                    loop all players:
+                        execute console command "/kit load %arg-2% %loop-player%"
+                    stop
             else:
                 set {_p} to player
 
@@ -162,7 +167,7 @@ command /kit [<text>] [<text>] [<text>]:
                 set {_p}'s boots to {kit::%{_kit}%::boots}
                 set {_p}'s offhand item to {kit::%{_kit}%::offhand}
 
-            send "&aKit &e%{_kit}% &ahas loaded!"
+            send "&aKit &e%{_kit}% &ahas been loaded to %{_p}%!"
             stop
 
 
