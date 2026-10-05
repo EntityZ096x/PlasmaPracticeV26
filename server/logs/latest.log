@@ -6,3 +6,1312 @@
  - EconomyShopGUI (7.3.1), SkBee (3.26.0)
 [14:02:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (19):
  - Citizens (2.0.43-SNAPSHOT (build 4211)), DecentHolograms (2.10.1), Essentials (2.22.0), FastAsyncWorldEdit (2.15.5-SNAPSHOT+e7c4693), LuckPerms (5.5.57), Multiverse-Core (5.7.1), Multiverse-Inventories (5.3.4), Multiverse-NetherPortals (5.0.5), Multiverse-Portals (5.2.3), PlaceholderAPI (2.12.3), ProtocolLib (5.4.0), Skript (2.16.2), TAB (6.1.3), Vault (1.7.3-b131), ViaBackwards (5.12.0), ViaRewind (4.1.2), ViaVersion (5.12.0), WorldGuard (7.0.18-SNAPSHOT+2372-d1a3193), skript-reflect (2.6.3)
+[14:02:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14:02:59] [ServerMain/INFO]: Loaded 1585 recipes
+[14:02:59] [ServerMain/INFO]: Loaded 1688 advancements
+[14:02:59] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[14:03:00] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 816.9ms
+[14:03:01] [Server thread/INFO]: Starting minecraft server version 26.2
+[14:03:01] [Server thread/INFO]: Loading properties
+[14:03:01] [Server thread/INFO]: This server is running Paper version 26.2-53-main@3a3d1c0 (2026-07-06T18:15:12Z) (Implementing API version 26.2.build.53-alpha)
+[14:03:01] [Server thread/WARN]: Couldn't load server icon
+java.lang.IllegalArgumentException: BufferedImage must be 64 pixels wide (183)
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:192) ~[guava-33.6.0-jre.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.loadServerIcon0(CraftServer.java:2395) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.loadServerIcon0(CraftServer.java:2385) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.loadIcon(CraftServer.java:1107) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:471) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.players.PlayerList.<init>(PlayerList.java:144) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:16) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:233) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[14:03:01] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:03:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:03:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:03:02] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[14:03:03] [Server thread/INFO]: Default game type: SURVIVAL
+[14:03:03] [Server thread/INFO]: Generating keypair
+[14:03:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:03:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:03:03] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[14:03:11] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 4 libraries... please wait
+[14:03:11] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/ch/ethz/globis/phtree/phtree/2.8.2/phtree-2.8.2.jar
+[14:03:11] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/joml/joml/1.10.9/joml-1.10.9.jar
+[14:03:11] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/it/unimi/dsi/fastutil/8.5.16/fastutil-8.5.16.jar
+[14:03:11] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/team/unnamed/mocha/3.0.0/mocha-3.0.0.jar
+[14:03:11] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar
+[14:03:11] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[14:03:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.0
+[14:03:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.12.0 is now loaded. Registering protocol transformers and injecting...
+[14:03:17] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[14:03:17] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[14:03:18] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[14:03:18] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
+[14:03:18] [Via-Mappingloader-2/ERROR]: [ViaVersion] Error during loading of Protocol1_9To1_8
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Invalid version: 1
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1828) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1817) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Invalid version: 1
+	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataLoader.loadMappings(MappingDataLoader.java:219) ~[?:?]
+	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataLoader.loadMappings(MappingDataLoader.java:197) ~[?:?]
+	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataBase.loadMappings(MappingDataBase.java:163) ~[?:?]
+	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataBase.loadBiMappings(MappingDataBase.java:189) ~[?:?]
+	at ViaBackwards-5.12.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappingData.loadBiMappings(BackwardsMappingData.java:107) ~[?:?]
+	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataBase.loadFullMappings(MappingDataBase.java:177) ~[?:?]
+	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataBase.loadFullOrBiMappings(MappingDataBase.java:167) ~[?:?]
+	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:95) ~[?:?]
+	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.protocol.AbstractProtocol.loadMappingData(AbstractProtocol.java:214) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825) ~[?:?]
+	... 5 more
+[14:03:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:03:20] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[14:03:20] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.5-SNAPSHOT+e7c4693
+[14:03:20] [Server thread/WARN]: 
+**********************************************
+** You are using the Spigot-mapped FAWE jar on a modern Paper version.
+** This will result in slower first-run times and wasted disk space from plugin remapping.
+** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
+**********************************************
+[14:03:22] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@59598ccd]
+[14:03:22] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[14:03:22] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[14:03:22] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
+[14:03:22] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.12.0
+[14:03:22] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+[14:03:22] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.16.2
+[14:03:22] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.2.3
+[14:03:22] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.2
+[14:03:22] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.10.1
+[14:03:23] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v7.3.1
+[14:03:23] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.43-SNAPSHOT (build 4211)
+[14:03:23] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.3
+[14:03:23] [Server thread/INFO]: [MVPLogging] Loading server plugin Multiverse-NetherPortals v5.0.5
+[14:03:23] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.4
+[14:03:23] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.26.0
+[14:03:23] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[14:03:23] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.2.0) has not yet been tested! Proceed with caution.
+[14:03:24] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.1.3
+[14:03:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:03:24] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
+[14:03:25] [Server thread/INFO]:         __    
+[14:03:25] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
+[14:03:25] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:03:25] [Server thread/INFO]: 
+[14:03:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:03:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:03:27] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:03:28] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3466ms)
+[14:03:28] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:03:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:03:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:03:28] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:03:28] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:03:28] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.5-SNAPSHOT+e7c4693
+[14:03:28] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[14:03:28] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[14:03:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:03:29] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[14:03:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v26_2.PaperweightFaweAdapter as the Bukkit adapter
+[14:03:31] [Server thread/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] You are using a snapshot or a custom version of FAWE. This is not an official build distributed via https://ci.athion.net/job/FastAsyncWorldEdit/
+[14:03:31] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
+[14:03:31] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[14:03:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:03:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:03:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:03:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:03:31] [Server thread/INFO]: Preparing level "world"
+[14:03:32] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[14:03:32] [Server thread/INFO]: Preparing spawn area: 100%
+[14:03:32] [Server thread/INFO]: Prepared spawn area in 4 ms
+[14:03:32] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[14:03:32] [Server thread/INFO]: Prepared spawn area in 1 ms
+[14:03:32] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[14:03:32] [Server thread/INFO]: Prepared spawn area in 2 ms
+[14:03:32] [Server thread/INFO]: Done preparing level "world" (0.936s)
+[14:03:32] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.12.0
+[14:03:32] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[14:03:32] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[14:03:33] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:03:33] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[14:03:33] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:03:33] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:03:33] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:03:33] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:03:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:03:34] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:03:34] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:03:34] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:03:34] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:03:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:03:34] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:03:34] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:03:34] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:03:34] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:03:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:03:34] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:03:34] [Server thread/WARN]: [WorldGuard] "WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193" has registered a listener for org.bukkit.event.entity.PigZapEvent on method "public void com.sk89q.worldguard.bukkit.listener.WorldGuardEntityListener.onPigZap(org.bukkit.event.entity.PigZapEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [].
+[14:03:35] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
+[14:03:36] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lobby'...
+[14:03:36] [Server thread/INFO]: Prepared spawn area in 2 ms
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[14:03:36] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:survival'...
+[14:03:36] [Server thread/INFO]: Prepared spawn area in 4 ms
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is PERMITTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
+[14:03:36] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:survival_nether'...
+[14:03:36] [Server thread/INFO]: Prepared spawn area in 2 ms
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Survival_nether) TNT ignition is PERMITTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lighters are PERMITTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lava fire is PERMITTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] (Survival_nether) Fire spread is UNRESTRICTED.
+[14:03:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_nether'
+[14:03:37] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:survival_spawn'...
+[14:03:37] [Server thread/INFO]: Prepared spawn area in 3 ms
+[14:03:37] [Server thread/INFO]: [WorldGuard] (Survival_spawn) TNT ignition is PERMITTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] (Survival_spawn) Lighters are PERMITTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] (Survival_spawn) Lava fire is PERMITTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] (Survival_spawn) Fire spread is UNRESTRICTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_spawn'
+[14:03:37] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:survival_the_end'...
+[14:03:37] [Server thread/INFO]: Preparing spawn area: 100%
+[14:03:37] [Server thread/INFO]: Prepared spawn area in 4 ms
+[14:03:37] [Server thread/INFO]: [WorldGuard] (Survival_the_end) TNT ignition is PERMITTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Lighters are PERMITTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Lava fire is PERMITTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Fire spread is UNRESTRICTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_the_end'
+[14:03:37] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:voidworld'...
+[14:03:37] [Server thread/INFO]: Preparing spawn area: 100%
+[14:03:37] [Server thread/INFO]: Prepared spawn area in 3 ms
+[14:03:37] [Server thread/INFO]: [WorldGuard] (voidworld) TNT ignition is PERMITTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] (voidworld) Lighters are PERMITTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] (voidworld) Lava fire is PERMITTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] (voidworld) Fire spread is UNRESTRICTED.
+[14:03:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'voidworld'
+[14:03:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.1]
+[14:03:38] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[14:03:38] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[14:03:38] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[14:03:38] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.12.0
+[14:03:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
+[14:03:39] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[14:03:39] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:03:39] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[14:03:39] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[14:03:39] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[14:03:39] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[14:03:40] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
+[14:03:40] [Server thread/INFO]: [Essentials] Using locale en
+[14:03:40] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:03:40] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:03:40] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[14:03:40] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[14:03:40] [Server thread/INFO]: [Skript] Enabling Skript v2.16.2
+[14:03:42] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[14:03:47] [Server thread/INFO]: [Skript] Loaded 5750 aliases in 3339ms
+[14:03:47] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[14:03:47] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.2.3
+[14:03:47] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[14:03:48] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
+[14:03:48] [Server thread/INFO]: [Multiverse-Portals] Version 5.2.3 (API v5.2) Enabled - By Rigby, fernferret and benwoo1110
+[14:03:48] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.10.1
+[14:03:48] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v26_2 (26.2).
+[14:03:48] [Server thread/INFO]: [DecentHolograms] Loading default attribute values...
+[14:03:48] [Server thread/INFO]: [DecentHolograms] Loaded 23 default attribute values!
+[14:03:48] [Server thread/INFO]: [DecentHolograms] Loading displays...
+[14:03:48] [Server thread/INFO]: [DecentHolograms] Loaded 0 displays!
+[14:03:48] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 26.2.build.53! Trying to find NMS support
+[14:03:49] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(26.2.build.53-alpha) is not supported by this NBT-API Version(2.15.7) located in DecentHolograms. The NBT-API will try to work as good as it can! Some functions may not work!
+[14:03:49] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[14:03:49] [Server thread/WARN]: [DecentHolograms] NBT-API could not be loaded. Custom NBT in items may not work as expected.
+[14:03:49] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.3.1
+[14:03:49] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
+[14:03:49] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[14:03:50] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 18 section configs from /sections/
+[14:03:50] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 18 shop configs from /shops/
+[14:03:50] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[14:03:50] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[14:03:50] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 18 shop sections.
+[14:03:50] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 26.2...
+[14:03:50] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[14:03:50] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[14:03:50] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[14:03:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[14:03:50] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[14:03:50] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[14:03:50] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14:03:51] [Server thread/INFO]: [EconomyShopGUI] [ERROR]: No pages found for shop Farming, adding empty page...
+[14:03:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 2674ms to complete
+[14:03:51] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.43-SNAPSHOT (build 4211)
+[14:03:53] [Server thread/INFO]: [Citizens] Loaded 2 templates.
+[14:03:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizens [1.0.0]
+[14:03:53] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[14:03:53] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.3
+[14:03:53] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.5
+[14:03:54] [Server thread/INFO]: [Multiverse-NetherPortals] Version 5.0.5 (API v5.0) Enabled - By Rigby, fernferret and benwoo1110
+[14:03:54] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.4
+[14:03:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.3.4]
+[14:03:55] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[14:03:55] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.4 (API v5.3) Enabled - By dumptruckman and benwoo1110
+[14:03:55] [Server thread/INFO]: [SkBee] Enabling SkBee v3.26.0
+[14:03:55] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[14:03:55] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 26.2.build.53! Trying to find NMS support
+[14:03:55] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC26_2' loaded!
+[14:03:55] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[14:03:55] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] BossBar Elements disabled
+[14:03:55] [Server thread/INFO]: [SkBee] It appears another Skript addon may have registered BossBar syntax.
+[14:03:55] [Server thread/INFO]: [SkBee] To use SkBee BossBars, please remove the addon which has registered BossBars already.
+[14:03:55] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[14:03:55] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[14:03:55] [Server thread/INFO]: [SkBee] Dialog Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[14:03:55] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[14:03:56] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[14:03:56] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[14:03:56] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[14:03:56] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[14:03:56] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[14:03:56] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[14:03:56] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[14:03:56] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[14:03:56] [Server thread/INFO]: [SkBee] Loaded SkBee (585) elements:
+[14:03:56] [Server thread/INFO]: [SkBee]  - 78 types
+[14:03:56] [Server thread/INFO]: [SkBee]  - 2 structures
+[14:03:56] [Server thread/INFO]: [SkBee]  - 69 events
+[14:03:56] [Server thread/INFO]: [SkBee]  - 59 sections
+[14:03:56] [Server thread/INFO]: [SkBee]  - 77 effects
+[14:03:56] [Server thread/INFO]: [SkBee]  - 258 expressions
+[14:03:56] [Server thread/INFO]: [SkBee]  - 31 conditions
+[14:03:56] [Server thread/INFO]: [SkBee]  - 11 properties
+[14:03:56] [Server thread/INFO]: [SkBee] Checking for update...
+[14:03:56] [Server thread/INFO]: [SkBee] Plugin is up to date!
+[14:03:56] [Server thread/INFO]: [SkBee] Successfully enabled v3.26.0 in 1.16 seconds
+[14:03:56] [Server thread/INFO]: [TAB] Enabling TAB v6.1.3
+[14:03:56] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.paper_26_2.NMSImplementationProvider
+[14:03:57] [Server thread/INFO]: [TAB] [WARN] Line "inpvp,survival" is not a valid conditional expression.
+[14:03:57] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[14:03:57] [Server thread/INFO]: [TAB] Enabled in 615ms
+[14:03:57] [Server thread/INFO]: [spark] Starting background profiler...
+[14:03:59] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:03:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:03:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:03:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:03:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lobby
+[14:03:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:survival
+[14:03:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:survival_nether
+[14:03:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:survival_spawn
+[14:03:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:survival_the_end
+[14:03:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:voidworld
+[14:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[14:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[14:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival_nether): All chunks are saved
+[14:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival_spawn): All chunks are saved
+[14:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival_the_end): All chunks are saved
+[14:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (voidworld): All chunks are saved
+[14:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:03:59] [Server thread/ERROR]: Couldn't load server icon
+java.lang.IllegalArgumentException: Invalid world icon size [183, 178], but expected [64, 64]
+	at net.minecraft.server.MinecraftServer.lambda$loadStatusIcon$3(MinecraftServer.java:1549) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.util.Optional.flatMap(Optional.java:289) ~[?:?]
+	at net.minecraft.server.MinecraftServer.loadStatusIcon(MinecraftServer.java:1542) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1273) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[14:03:59] [Server thread/INFO]: Running delayed init tasks
+[14:03:59] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[14:03:59] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[14:04:00] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] Checking for Updates ... 
+[14:04:00] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[14:04:00] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[14:04:00] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[14:04:00] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] No new version available
+[14:04:00] [Server thread/INFO]: [Skript]     Loaded regions hook for WorldGuard. Please note that Skript's region hooks are deprecated and will be removed in a future release. For WorldGuard support, we recommend using skript-worldguard: https://github.com/SkriptLang/skript-worldguard
+[14:04:00] [Server thread/INFO]: [Skript] Loading variables...
+[14:04:01] [Server thread/INFO]: [Skript] Loaded 3424 variables in 0.6 seconds
+[14:04:01] [Server thread/INFO]: [Skript] Line 8: (BACKPORT/mobs/sulfur cube.sk)
+[14:04:01] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[14:04:01] [Server thread/INFO]:     Line: if event-entity's entity size > 1:
+[14:04:01] [Server thread/INFO]:  
+[14:04:01] [Server thread/INFO]: [Skript]     'boss.sk' is empty
+[14:04:03] [Server thread/INFO]: [Skript] Line 2: (Utility/Center.sk)
+[14:04:03] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:04:03] [Server thread/INFO]:     Line: if 1 = 1:
+[14:04:03] [Server thread/INFO]:  
+[14:04:05] [Server thread/INFO]: [Skript] Line 93: (debug.sk)
+[14:04:05] [Server thread/INFO]:     Starting a variable's name with an expression is discouraged ({%arg-1%}). You could prefix it with the script's name: {debug::%arg-1%}
+[14:04:05] [Server thread/INFO]:     Line: send "%{%arg-1%}%" to player
+[14:04:05] [Server thread/INFO]:  
+[14:04:06] [Server thread/INFO]: [Skript] Line 14: (PvP/anticombatlog.sk)
+[14:04:06] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.inpvp::*} will be lost when the server stops.
+[14:04:06] [Server thread/INFO]:     Line: add victim to {pvp.inpvp::*}
+[14:04:06] [Server thread/INFO]:  
+[14:04:06] [Server thread/INFO]: [Skript] Line 16: (PvP/anticombatlog.sk)
+[14:04:06] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.inpvp::*} will be lost when the server stops.
+[14:04:06] [Server thread/INFO]:     Line: add attacker to {pvp.inpvp::*}
+[14:04:06] [Server thread/INFO]:  
+[14:04:06] [Server thread/INFO]: [Skript] Line 23: (PvP/anticombatlog.sk)
+[14:04:06] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.enemy.%the attacked entity%} will be lost when the server stops.
+[14:04:06] [Server thread/INFO]:     Line: set {pvp.enemy.%victim%} to attacker
+[14:04:06] [Server thread/INFO]:  
+[14:04:06] [Server thread/INFO]: [Skript] Line 24: (PvP/anticombatlog.sk)
+[14:04:06] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.enemy.%the attacker%} will be lost when the server stops.
+[14:04:06] [Server thread/INFO]:     Line: set {pvp.enemy.%attacker%} to victim
+[14:04:06] [Server thread/INFO]:  
+[14:04:06] [Server thread/INFO]: [Skript] Line 45: (Utility/orbitalrod.sk)
+[14:04:06] [Server thread/INFO]:     Unreachable code. The previous statement stops further execution.
+[14:04:06] [Server thread/INFO]:     Line: if metadata value "orbital" of event-entity is true:
+[14:04:06] [Server thread/INFO]:  
+[14:04:08] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[14:04:08] [Server thread/INFO]: [Skript] Loaded 36 scripts with a total of 127 structures in 7.5 seconds
+[14:04:08] [Server thread/INFO]: [Skript] Finished loading.
+[14:04:10] [Server thread/INFO]: [Citizens] Loaded 8 NPCs.
+[14:04:10] [Server thread/INFO]: Done (94.549s)! For help, type "help"
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: servertime [3.2]
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.1.0]
+[14:04:10] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion abilitywar due to an unknown issue.
+[14:04:10] [Server thread/ERROR]: [PlaceholderAPI] Failed to create expansion instance for class io.github.tanguygab.absorptionexpansion.AbsorptionExpansion.
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at PlaceholderAPI-2.12.3.jar//me.clip.placeholderapi.expansion.manager.LocalExpansionManager.createExpansionInstance(LocalExpansionManager.java:452) ~[?:?]
+	at PlaceholderAPI-2.12.3.jar//me.clip.placeholderapi.expansion.manager.LocalExpansionManager.register(LocalExpansionManager.java:170) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723) ~[?:?]
+	at PlaceholderAPI-2.12.3.jar//me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$registerAll$4(LocalExpansionManager.java:364) ~[?:?]
+	at PlaceholderAPI-2.12.3.jar//me.clip.placeholderapi.util.Futures.lambda$onMainThread$0(Futures.java:48) ~[?:?]
+	at PlaceholderAPI-2.12.3.jar//me.clip.placeholderapi.scheduler.folia.FoliaScheduler.lambda$runTask$0(FoliaScheduler.java:72) ~[?:?]
+	at io.papermc.paper.threadedregions.scheduler.FoliaGlobalRegionScheduler$GlobalScheduledTask.run(FoliaGlobalRegionScheduler.java:178) ~[paper-26.2.jar:?]
+	at io.papermc.paper.threadedregions.scheduler.FoliaGlobalRegionScheduler.tick(FoliaGlobalRegionScheduler.java:36) ~[paper-26.2.jar:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1621) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1679) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1349) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at io.github.tanguygab.absorptionexpansion.AbsorptionExpansion.<init>(AbsorptionExpansion.java:17) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	... 24 more
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: skript [1.8.8]
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: ViaVersion [2.0.0]
+[14:04:10] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: Animations [1.0.5]
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[14:04:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: world [1.2.3]
+[14:04:10] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
+[14:04:10] [Server thread/INFO]: 12 placeholder hook(s) registered!
+[14:04:10] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 76 builds behind ***
+[14:04:10] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[14:04:48] [User Authenticator #0/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[14:04:49] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib, WorldGuard]
+[14:04:50] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[14:04:50] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[14:04:50] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[14:04:50] [Server thread/INFO]: [+] EntityZ096x
+[14:04:51] [Server thread/INFO]: EntityZ096x[/127.0.0.1:33644] logged in with entity id 40 at ([minecraft:survival]20590.10009760436, 75.0, -24164.534840866963)
+[14:04:54] [User Authenticator #1/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[14:04:55] [Server thread/INFO]: [+] JustDan12
+[14:04:55] [Server thread/INFO]: JustDan12[/127.0.0.1:52372] logged in with entity id 41 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[14:04:55] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[14:04:55] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[14:04:57] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[14:04:59] [Server thread/INFO]: JustDan12 issued server command: /login poopyboy
+[14:05:05] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[14:05:18] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[14:05:23] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20584.5, y: 131.5, z: -24139.5, yaw: 0, pitch: 0 in 'Survival'
+[14:05:31] [Server thread/WARN]: JustDan12 moved too quickly! 0.008943477050081583,0.03309358713411825,10.09493862110881
+[14:05:51] [Server thread/WARN]: JustDan12 moved too quickly! 6.169297990876956,3.3649481795290512,-8.258297658110905
+[14:05:51] [Server thread/WARN]: EntityZ096x moved too quickly! 9.934023696590884,12.69879225419892,-11.038045553053962
+[14:05:51] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[14:05:52] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[14:05:56] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20603.5, y: 111.5, z: -24176.5, yaw: 0, pitch: 0 in 'Survival'
+[14:06:01] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[14:06:01] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[14:06:07] [Server thread/WARN]: EntityZ096x moved too quickly! -11.048704373399232,-1.4546215726482785,1.0307028106835787
+[14:06:09] [Server thread/INFO]: JustDan12 issued server command: //brush circle light_gray_concrete 26
+[14:06:14] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v26_2.PaperweightStarlightRelighterFactory as relighter factory.
+[14:06:20] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:06:20] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[14:06:25] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[14:07:48] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20850.5, y: 140.5, z: -24216.5, yaw: 0, pitch: 0 in 'Survival'
+[14:08:18] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:08:18] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:08:18] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:08:18] [Server thread/INFO]:     Line: if 1 = 1:
+[14:08:18] [Server thread/INFO]:  
+[14:08:18] [Server thread/INFO]: Successfully reloaded 4 scripts in Utility. (312ms)
+[14:08:21] [Server thread/INFO]: EntityZ096x issued server command: /
+[14:09:05] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[14:09:05] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[14:09:33] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[14:09:33] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[14:09:37] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » \
+[14:09:43] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:44] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:45] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:46] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:47] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:47] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:48] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:48] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:09:48] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:09:48] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:09:48] [Server thread/INFO]:     Line: if 1 = 1:
+[14:09:48] [Server thread/INFO]:  
+[14:09:48] [Server thread/INFO]: Successfully reloaded 4 scripts in Utility. (219ms)
+[14:09:48] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:49] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:49] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:49] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:50] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:50] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:51] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:51] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:51] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:52] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » \
+[14:09:54] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » \
+[14:09:56] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » \
+[14:09:56] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » \
+[14:09:56] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » \
+[14:09:57] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » \t
+[14:09:59] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » \
+[14:10:06] [Server thread/INFO]: EntityZ096x issued server command: /sohp
+[14:10:08] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[14:10:58] [Server thread/INFO]: EntityZ096x issued server command: /orbital EntityZ096x nuke
+[14:10:58] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20888.67, y: 167.29, z: -24205.92, yaw: 139.95, pitch: 53.85 in 'Survival'
+[14:12:59] [Server thread/INFO]: JustDan12 issued server command: //wand
+[14:13:11] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:13:11] [Server thread/INFO]: Line 44: (Utility/orbitalrod.sk)
+[14:13:11] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[14:13:11] [Server thread/INFO]:     Line: if metadata value "orbital" of event-entity is true:
+[14:13:11] [Server thread/INFO]:  
+[14:13:11] [Server thread/INFO]: Line 50: (Utility/orbitalrod.sk)
+[14:13:11] [Server thread/INFO]:     indentation error: expected 16 spaces, but found 17 spaces
+[14:13:11] [Server thread/INFO]:     Line: set damage to 50
+[14:13:11] [Server thread/INFO]:  
+[14:13:11] [Server thread/INFO]: Line 49: (Utility/orbitalrod.sk)
+[14:13:11] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[14:13:11] [Server thread/INFO]:     Line: if metadata value "orbital" of attacker is true:
+[14:13:11] [Server thread/INFO]:  
+[14:13:11] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:13:11] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:13:11] [Server thread/INFO]:     Line: if 1 = 1:
+[14:13:11] [Server thread/INFO]:  
+[14:13:12] [Server thread/INFO]: Line 47: (Utility/orbitalrod.sk)
+[14:13:12] [Server thread/INFO]:     Can't understand this condition: 'cause is explosion'
+[14:13:12] [Server thread/INFO]:     Line: if cause is explosion:
+[14:13:12] [Server thread/INFO]:  
+[14:13:12] [Server thread/INFO]:     Encountered 2 errors while reloading 4 scripts in Utility! (237ms)
+[14:13:22] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:13:23] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:13:23] [Server thread/INFO]: Line 44: (Utility/orbitalrod.sk)
+[14:13:23] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[14:13:23] [Server thread/INFO]:     Line: if metadata value "orbital" of event-entity is true:
+[14:13:23] [Server thread/INFO]:  
+[14:13:23] [Server thread/INFO]: Line 50: (Utility/orbitalrod.sk)
+[14:13:23] [Server thread/INFO]:     indentation error: expected 16 spaces, but found 17 spaces
+[14:13:23] [Server thread/INFO]:     Line: set damage to 50
+[14:13:23] [Server thread/INFO]:  
+[14:13:23] [Server thread/INFO]: Line 49: (Utility/orbitalrod.sk)
+[14:13:23] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[14:13:23] [Server thread/INFO]:     Line: if metadata value "orbital" of attacker is true:
+[14:13:23] [Server thread/INFO]:  
+[14:13:23] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:13:23] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:13:23] [Server thread/INFO]:     Line: if 1 = 1:
+[14:13:23] [Server thread/INFO]:  
+[14:13:23] [Server thread/INFO]: Line 47: (Utility/orbitalrod.sk)
+[14:13:23] [Server thread/INFO]:     Can't compare a damage cause with a spawn reason
+[14:13:23] [Server thread/INFO]:     Line: if damage cause is explosion:
+[14:13:23] [Server thread/INFO]:  
+[14:13:23] [Server thread/INFO]:     Encountered 2 errors while reloading 4 scripts in Utility! (666ms)
+[14:13:27] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:13:30] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:13:35] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:13:43] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:13:46] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:13:46] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:13:46] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:13:46] [Server thread/INFO]:     Line: if 1 = 1:
+[14:13:46] [Server thread/INFO]:  
+[14:13:46] [Server thread/INFO]: Line 44: (Utility/orbitalrod.sk)
+[14:13:46] [Server thread/INFO]:     Can't compare a damage cause with a spawn reason
+[14:13:46] [Server thread/INFO]:     Line: if damage cause is explosion:
+[14:13:46] [Server thread/INFO]:  
+[14:13:46] [Server thread/INFO]:     Encountered 1 error while reloading 4 scripts in Utility! (182ms)
+[14:13:48] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:13:52] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:13:58] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:14:01] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:14:01] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:14:01] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:14:01] [Server thread/INFO]:     Line: if 1 = 1:
+[14:14:01] [Server thread/INFO]:  
+[14:14:01] [Server thread/INFO]: Successfully reloaded 4 scripts in Utility. (230ms)
+[14:14:02] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:14:05] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:14:08] [Server thread/INFO]: EntityZ096x issued server command: /orbital EntityZ096x nuke
+[14:14:08] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20909.53, y: 145, z: -24162.14, yaw: 96.6, pitch: 49.5 in 'Survival'
+[14:14:09] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:14:15] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[14:14:19] [Server thread/INFO]: EntityZ096x issued server command: /debug
+[14:14:21] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:14:21] [Server thread/INFO]: EntityZ096x issued server command: /debug
+[14:14:28] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:14:29] [Server thread/INFO]: EntityZ096x issued server command: /orbital EntityZ096x nuke
+[14:14:29] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20903.3, y: 144, z: -24158.26, yaw: 85.65, pitch: -0.15 in 'Survival'
+[14:14:33] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:14:36] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:14:40] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[14:14:42] [Server thread/INFO]: EntityZ096x issued server command: /orbital EntityZ096x nuke
+[14:14:42] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20905, y: 142, z: -24154.12, yaw: 22.65, pitch: 32.1 in 'Survival'
+[14:14:46] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:14:49] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:14:53] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:15:03] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:15:20] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:15:25] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:15:30] [Server thread/INFO]: EntityZ096x issued server command: /enchant prot 0
+[14:15:32] [Server thread/INFO]: EntityZ096x issued server command: /enchant prot 0
+[14:15:33] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:15:33] [Server thread/INFO]: EntityZ096x issued server command: /enchant prot 0
+[14:15:34] [Server thread/INFO]: EntityZ096x issued server command: /enchant prot 0
+[14:15:38] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:15:41] [Server thread/INFO]: EntityZ096x issued server command: /enchant blastprotect 4
+[14:15:43] [Server thread/INFO]: EntityZ096x issued server command: /enchant blastprotect 4
+[14:15:44] [Server thread/INFO]: EntityZ096x issued server command: /enchant blastprotect 4
+[14:15:45] [Server thread/INFO]: EntityZ096x issued server command: /enchant blastprotect 4
+[14:15:46] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:15:50] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:15:55] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:15:55] [Server thread/INFO]: EntityZ096x issued server command: /orbital EntityZ096x nuke
+[14:15:55] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20878.14, y: 147, z: -24160.23, yaw: -174.3, pitch: 14.85 in 'Survival'
+[14:16:03] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:16:11] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:16:14] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:16:24] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:16:29] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:16:32] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:16:37] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:16:40] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:16:46] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:16:53] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:16:58] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:08] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:12] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:23] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:26] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:29] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:33] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:35] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:37] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:40] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[14:17:40] [Server thread/INFO]: [-] EntityZ096x
+[14:17:40] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:42] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:45] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:47] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:49] [User Authenticator #2/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[14:17:50] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:50] [Server thread/INFO]: [+] EntityZ096x
+[14:17:50] [Server thread/INFO]: EntityZ096x[/127.0.0.1:39258] logged in with entity id 27696 at ([minecraft:survival]20884.639815180813, -59.951399226065995, -24171.69999998808)
+[14:17:50] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[14:17:50] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[14:17:51] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:17:51] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:17:51] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:17:51] [Server thread/INFO]:     Line: if 1 = 1:
+[14:17:51] [Server thread/INFO]:  
+[14:17:51] [Server thread/INFO]: Successfully reloaded 4 scripts in Utility. (552ms)
+[14:17:52] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:55] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:17:56] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[14:17:57] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:00] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:02] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:05] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:07] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:10] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:12] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:15] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:15] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[14:18:18] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:21] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:23] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:25] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:18:28] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[14:18:46] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20910.5, y: 145.5, z: -24203.5, yaw: 0, pitch: 0 in 'Survival'
+[14:18:55] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[14:18:55] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[14:19:02] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[14:19:07] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[14:19:07] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20937.5, y: 145.5, z: -24205.5, yaw: 0, pitch: 0 in 'Survival'
+[14:19:19] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:19:25] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:19:29] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[14:19:31] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:19:34] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:19:34] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:19:34] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:19:34] [Server thread/INFO]:     Line: if 1 = 1:
+[14:19:34] [Server thread/INFO]:  
+[14:19:34] [Server thread/INFO]: Successfully reloaded 4 scripts in Utility. (222ms)
+[14:19:35] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:19:40] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20928.5, y: 144.5, z: -24214.5, yaw: 0, pitch: 0 in 'Survival'
+[14:19:41] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:19:42] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:19:51] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:19:56] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:19:57] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[14:20:00] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:20:00] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:20:00] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:20:00] [Server thread/INFO]:     Line: if 1 = 1:
+[14:20:00] [Server thread/INFO]:  
+[14:20:00] [Server thread/INFO]: Successfully reloaded 4 scripts in Utility. (168ms)
+[14:20:00] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:06] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:07] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20916.5, y: 139.5, z: -24230.5, yaw: 0, pitch: 0 in 'Survival'
+[14:20:10] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:14] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:18] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:21] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:23] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:26] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:30] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:32] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:33] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[14:20:35] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:36] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:20:36] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:20:36] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:20:36] [Server thread/INFO]:     Line: if 1 = 1:
+[14:20:36] [Server thread/INFO]:  
+[14:20:36] [Server thread/INFO]: Successfully reloaded 4 scripts in Utility. (174ms)
+[14:20:37] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:38] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 20916.5, y: 139.5, z: -24233.5, yaw: 0, pitch: 0 in 'Survival'
+[14:20:40] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:42] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:45] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:47] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:50] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:52] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:54] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:57] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:20:59] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:01] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:03] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:05] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:09] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:13] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:15] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:17] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:19] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:21] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:23] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:25] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:27] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:30] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:40] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:48] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:21:59] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:04] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:09] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:14] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:17] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:20] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:23] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:25] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:22:25] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:22:25] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:22:25] [Server thread/INFO]:     Line: if 1 = 1:
+[14:22:25] [Server thread/INFO]:  
+[14:22:25] [Server thread/INFO]: Successfully reloaded 4 scripts in Utility. (158ms)
+[14:22:27] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:31] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:35] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:37] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[14:22:39] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:42] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:46] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:50] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:52] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:22:57] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:23:00] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:23:04] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:23:08] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:23:14] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:23:18] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:23:20] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:23:21] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:23:22] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:24:16] [Server thread/INFO]: JustDan12 issued server command: //brush circle 18 black_wool
+[14:24:26] [Server thread/INFO]: JustDan12 issued server command: //brush circle black_wool 18
+[14:25:07] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[14:25:07] [Server thread/INFO]: [-] EntityZ096x
+[14:25:42] [Server thread/INFO]: [Skript] Reloading all scripts in Utility...
+[14:25:42] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[14:25:42] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[14:25:42] [Server thread/INFO]:     Line: if 1 = 1:
+[14:25:42] [Server thread/INFO]:  
+[14:25:43] [Server thread/INFO]: Successfully reloaded 4 scripts in Utility. (308ms)
+[14:25:48] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[14:25:48] [Server thread/INFO]: [+] EntityZ096x
+[14:25:48] [Server thread/INFO]: EntityZ096x[/127.0.0.1:38892] logged in with entity id 36299 at ([minecraft:survival]20853.572386215918, 106.50999551423891, -24253.923692404216)
+[14:25:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[14:25:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[14:25:51] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[14:25:56] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[14:25:57] [Server thread/INFO]: EntityZ096x issued server command: /tp JustDan12
+[14:26:00] [Server thread/INFO]: JustDan12 issued server command: //cuboid 33%pale_oak_wood,33%bone_block,34%calcite
+[14:26:02] [Server thread/INFO]: EntityZ096x issued server command: //wand
+[14:26:07] [Server thread/INFO]: JustDan12 issued server command: //set 33%pale_oak_wood,33%bone_block,34%calcite
+[14:26:11] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:26:19] [Server thread/INFO]: EntityZ096x issued server command: /selwand
+[14:26:51] [Server thread/INFO]: EntityZ096x issued server command: //sel
+[14:26:59] [Server thread/INFO]: EntityZ096x issued server command: //sel a
+[14:27:08] [Server thread/INFO]: JustDan12 issued server command: //sel convex
+[14:27:09] [Server thread/INFO]: EntityZ096x issued server command: //sel convex
+[14:27:13] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:27:16] [Server thread/INFO]: JustDan12 issued server command: //sel convex
+[14:27:18] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:27:21] [Server thread/INFO]: JustDan12 issued server command: //sel convex
+[14:27:34] [Server thread/INFO]: JustDan12 issued server command: //sel convex
+[14:27:44] [Server thread/INFO]: JustDan12 issued server command: //set
+[14:27:48] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:27:55] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:27:57] [Server thread/INFO]: JustDan12 issued server command: //sel convex
+[14:28:53] [Server thread/INFO]: EntityZ096x issued server command: //set 33%pale_oak_wood,33%bone_block,33%calcite
+[14:29:01] [Server thread/INFO]: EntityZ096x issued server command: /undo
+[14:29:10] [Server thread/INFO]: EntityZ096x issued server command: //set 33%pale_oak_wood,33%bone_block,33%calcite
+[14:29:20] [Server thread/INFO]: EntityZ096x issued server command: //set 33%pale_oak_wood,33%bone_block,33%calcite
+[14:30:01] [Server thread/INFO]: EntityZ096x issued server command: //set 33%pale_oak_wood,33%bone_block,33%calcite
+[14:30:02] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:30:04] [Server thread/INFO]: JustDan12 issued server command: //sel convex
+[14:30:16] [User Authenticator #4/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[14:30:16] [Server thread/INFO]: [+] Clstial
+[14:30:16] [Server thread/INFO]: Clstial[/127.0.0.1:53596] logged in with entity id 36356 at ([minecraft:survival]8134.300000011921, 93.0, -32903.1161066102)
+[14:30:17] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[14:30:17] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[14:30:19] [Server thread/INFO]: Clstial issued server command: /login celest
+[14:30:26] [Async Chat Thread - #5/INFO]: [Not Secure] Clstial » AHh
+[14:30:29] [Server thread/INFO]: EntityZ096x issued server command: //set 33%pale_oak_wood,33%bone_block,33%calcite
+[14:30:35] [Server thread/INFO]: Clstial issued server command: /suicide
+[14:30:35] [Server thread/INFO]: Clstial died
+[14:30:37] [Server thread/INFO]: Clstial issued server command: /suicide
+[14:30:37] [Server thread/INFO]: Clstial died
+[14:30:37] [Server thread/INFO]: EntityZ096x issued server command: //set 33%pale_oak_wood,33%bone_block,33%calcite
+[14:30:41] [Async Chat Thread - #5/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » .//set 33%pale_oak_wood,33%bone_block,33%calcite
+[14:30:45] [Async Chat Thread - #4/INFO]: [Not Secure] Clstial » ....
+[14:30:45] [Server thread/INFO]: JustDan12 issued server command: //set 33%pale_oak_wood,33%bone_block,34%calcite
+[14:30:49] [Async Chat Thread - #4/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » what
+[14:30:56] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » .//
+[14:31:08] [Async Chat Thread - #5/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » btw clstial
+[14:31:12] [Server thread/INFO]: JustDan12 issued server command: //set 33%pale_oak_wood,33%bone_block,34%calcite
+[14:31:16] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:31:25] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:31:27] [Async Chat Thread - #5/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » i made orbital stab 1 shot
+[14:31:29] [Server thread/INFO]: JustDan12 issued server command: //set 33%pale_oak_wood,33%bone_block,34%calcite
+[14:31:30] [Server thread/INFO]: EntityZ096x issued server command: /rtp
+[14:31:43] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:31:55] [Server thread/INFO]: JustDan12 issued server command: //set 33%pale_oak_wood,33%bone_block,34%calcite
+[14:32:03] [Async Chat Thread - #5/INFO]: [Not Secure] Clstial » ok
+[14:32:12] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:32:17] [Server thread/INFO]: EntityZ096x died
+[14:32:19] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » ?
+[14:32:19] [Server thread/INFO]: JustDan12 issued server command: //set 33%pale_oak_wood,33%bone_block,34%calcite
+[14:32:23] [Server thread/WARN]: Clstial moved wrongly!
+[14:32:24] [Async Chat Thread - #6/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » i got orbitalt
+[14:32:24] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:32:31] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » lol
+[14:32:33] [Server thread/INFO]: JustDan12 issued server command: //set 33%pale_oak_wood,33%bone_block,34%calcite
+[14:32:37] [Async Chat Thread - #6/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » nigga dont laugh at me
+[14:32:41] [Async Chat Thread - #5/INFO]: [Not Secure] Clstial » alr
+[14:32:43] [Server thread/INFO]: EntityZ096x issued server command: /lp editor
+[14:32:52] [Server thread/WARN]: Clstial moved wrongly!
+[14:33:00] [Server thread/INFO]: EntityZ096x issued server command: /lp trusteditor cc6e-2b98]
+[14:33:00] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:33:04] [Server thread/INFO]: JustDan12 issued server command: //sel convex
+[14:33:10] [Server thread/INFO]: EntityZ096x issued server command: /lp trusteditor cc6e-2b98
+[14:33:13] [Server thread/INFO]: JustDan12 issued server command: //set 33%pale_oak_wood,33%bone_block,34%calcite
+[14:33:40] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » dan is online???
+[14:33:46] [luckperms-worker-8/INFO]: [LP] LOG > (EntityZ096x) [G] (owner)
+[14:33:46] [luckperms-worker-8/INFO]: [LP] LOG > webeditor add prefix.2035809.&r<#ff0000>&l卐NAZI卐 &r<#ff0000>&k&l|||&r  true
+[14:33:46] [luckperms-worker-8/INFO]: [LP] LOG > (EntityZ096x) [G] (owner)
+[14:33:46] [luckperms-worker-8/INFO]: [LP] LOG > webeditor remove prefix.2035809.&r<#ff0000>&lOwner &r<#ff0000>&k&l|||&r  true
+[14:33:52] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » hi
+[14:33:57] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » ....
+[14:34:01] [Async Chat Thread - #5/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » whats wrong
+[14:34:08] [Async Chat Thread - #5/INFO]: [Not Secure] Clstial » the rank
+[14:34:10] [Async Chat Thread - #5/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » ?
+[14:34:11] [Server thread/WARN]: Clstial moved wrongly!
+[14:34:18] [Async Chat Thread - #5/INFO]: [Not Secure] Clstial » BRO YOU KNOW WHAT
+[14:34:21] [Async Chat Thread - #5/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » what
+[14:34:28] [Async Chat Thread - #5/INFO]: [Not Secure] Clstial » your rank??
+[14:34:28] [Async Chat Thread - #5/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » what did i even do vro
+[14:34:37] [Async Chat Thread - #5/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » what rank it says Owner
+[14:34:46] [Async Chat Thread - #5/INFO]: [Not Secure] Clstial » NO IT DOUS NOT
+[14:34:50] [Async Chat Thread - #5/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » yes it does
+[14:35:00] [Async Chat Thread - #5/INFO]: [Not Secure] Clstial » for me it says nazi
+[14:35:03] [Async Chat Thread - #5/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » ?????
+[14:35:21] [Async Chat Thread - #5/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » i didnt do nothing
+[14:35:25] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » il mail you screenshot
+[14:35:31] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » k
+[14:35:45] [Async Chat Thread - #7/INFO]: [Not Secure] Clstial » alr
+[14:35:47] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » btw its the wind
+[14:35:48] [Async Chat Thread - #7/INFO]: [Not Secure] Clstial » i maild
+[14:35:54] [Server thread/INFO]: Clstial issued server command: /
+[14:35:55] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » ?
+[14:35:56] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » ok lemme check
+[14:36:01] [Server thread/INFO]: JustDan12 issued server command: //wand
+[14:36:06] [Server thread/WARN]: Clstial moved wrongly!
+[14:36:08] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » bro in the screenshot it says Admin
+[14:36:23] [Async Chat Thread - #7/INFO]: [Not Secure] Clstial » WDYM
+[14:36:27] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » what
+[14:36:29] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » IT SAYSS NAZI
+[14:36:31] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » it says Owner
+[14:36:36] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » NO IT DOES NOT
+[14:36:40] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » it does vro
+[14:36:51] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » stop the cap
+[14:36:56] [Async Chat Thread - #7/INFO]: [Not Secure] Clstial » YOU STOP THE CAP
+[14:37:03] [Server thread/INFO]: Clstial issued server command: /tp JustDan12
+[14:37:05] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » i didnt
+[14:37:08] [Async Chat Thread - #7/INFO]: [Not Secure] Clstial » DAN
+[14:37:19] [Async Chat Thread - #7/INFO]: [Not Secure] Admin || JustDan12 || » ?
+[14:37:20] [Async Chat Thread - #7/INFO]: [Not Secure] Clstial » DOES ENTITYS RANK SaY NAZI?
+[14:37:24] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:37:24] [Async Chat Thread - #7/INFO]: [Not Secure] Admin || JustDan12 || » 1sec
+[14:37:34] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » daniel what it say
+[14:37:36] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » ?
+[14:37:40] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » my rank
+[14:37:40] [Async Chat Thread - #7/INFO]: [Not Secure] Admin || JustDan12 || » what does what say
+[14:37:42] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » i
+[14:37:49] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:38:02] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » hello?
+[14:38:11] [Server thread/INFO]: Clstial issued server command: /kit
+[14:38:12] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:38:17] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » it doesnt say anything
+[14:38:19] [Server thread/INFO]: Clstial issued server command: /kit
+[14:38:21] [Server thread/INFO]: Clstial issued server command: /gms
+[14:38:22] [Server thread/INFO]: Clstial issued server command: /kit
+[14:38:23] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » wdym
+[14:38:25] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » it says owner
+[14:38:28] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:38:29] [Server thread/INFO]: JustDan12 issued server command: //wand
+[14:38:32] [Async Chat Thread - #7/INFO]: [Not Secure] Clstial » .........
+[14:38:43] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:38:56] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:39:01] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:39:01] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:39:02] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:39:02] [Server thread/INFO]: JustDan12 issued server command: //sel
+[14:39:05] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[14:39:05] [Server thread/INFO]: Successfully reloaded chat.sk. (33ms)
+[14:39:07] [Server thread/INFO]: JustDan12 issued server command: //sel cuboid
+[14:39:08] [Server thread/INFO]: Clstial issued server command: /rtp
+[14:39:12] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » daniel what does it say
+[14:39:16] [Server thread/INFO]: Clstial has made the advancement [The End?]
+[14:39:17] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » bec it doesnt say no nothing
+[14:39:22] [Async Chat Thread - #7/INFO]: [Not Secure] Admin || JustDan12 || » FAWE
+[14:39:24] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » it says
+[14:39:27] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » ??????????????????????????????????????????????????
+[14:39:31] [Server thread/INFO]: Clstial issued server command: /dummy
+[14:39:33] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite
+[14:39:41] [Server thread/INFO]: EntityZ096x issued server command: /sk reload chat.sk
+[14:39:49] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite 5
+[14:39:51] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:39:53] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:39:56] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite 5
+[14:39:57] [Server thread/INFO]: EntityZ096x issued server command: /makesay JustDan12 it says Owner ||| EntityZ096x |||
+[14:39:57] [Server thread/INFO]: [Not Secure] Admin || JustDan12 || » it says Owner ||| EntityZ096x |||
+[14:40:00] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » b haj.
+[14:40:04] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » SEE BLOOP I TOLD U
+[14:40:06] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:40:10] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite 2
+[14:40:11] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » IT SAYS FOR ME NAZI
+[14:40:14] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:40:14] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » ur tripping
+[14:40:16] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite 1
+[14:40:25] [Server thread/INFO]: JustDan12 issued server command: /
+[14:40:33] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite 1
+[14:40:35] [Server thread/INFO]: EntityZ096x issued server command: /makesay JustDan12 it says Owner ||| EntityZ096x |||
+[14:40:35] [Server thread/INFO]: [Not Secure] Admin || JustDan12 || » it says Owner ||| EntityZ096x |||
+[14:40:41] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » bro stop repeating
+[14:40:43] [Server thread/INFO]: EntityZ096x issued server command: /sk reload chat.sk
+[14:40:54] [Server thread/INFO]: EntityZ096x issued server command: /makesay JustDan12 i just wanna make bloop know
+[14:40:54] [Server thread/INFO]: [Not Secure] Admin || JustDan12 || » i just wanna make bloop know
+[14:40:54] [Async Chat Thread - #7/INFO]: [Not Secure] Admin || JustDan12 || » ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+[14:40:57] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » ?
+[14:40:57] [Async Chat Thread - #7/INFO]: [Not Secure] Admin || JustDan12 || » NO IT DIDNT
+[14:41:01] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » I DIDNT SAY THAT
+[14:41:03] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » what
+[14:41:05] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » didnt
+[14:41:06] [Async Chat Thread - #7/INFO]: [Not Secure] Admin || JustDan12 || » I DIDNT SAY THAT
+[14:41:06] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » u say
+[14:41:11] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » SAY WHAT
+[14:41:24] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » Clstial I DIDNT SAY: it says Owner ||| EntityZ096x |||
+[14:41:34] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » wdym bro u cleary said that
+[14:41:36] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » lol entity
+[14:41:39] [Async Chat Thread - #7/INFO]: [Not Secure] Admin || JustDan12 || » no i didnt
+[14:41:41] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » its in chat
+[14:41:42] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » nigga
+[14:41:48] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » you did the /forcechat justdan stuff
+[14:41:52] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » ????????????????
+[14:41:58] [Server thread/INFO]: EntityZ096x issued server command: /forcechat
+[14:41:59] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite 3
+[14:42:00] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » YOU KNOW WHAT
+[14:42:02] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:42:03] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite 2
+[14:42:04] [Async Chat Thread - #7/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » bro forcechat doesnt exist
+[14:42:07] [Server thread/INFO]: JustDan12 issued server command: //undo
+[14:42:08] [Server thread/INFO]: JustDan12 issued server command: //line 33%pale_oak_wood,33%bone_block,34%calcite 2
+[14:42:33] [Server thread/INFO]: Clstial issued server command: /tellraw hi
+[14:42:35] [Server thread/INFO]: Clstial issued server command: /tellraw
+[14:42:45] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[14:42:46] [Server thread/INFO]: [-] EntityZ096x
+[14:42:55] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[14:42:55] [Server thread/INFO]: Successfully reloaded chat.sk. (29ms)
+[14:42:57] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[14:42:58] [Server thread/INFO]: [+] EntityZ096x
+[14:42:58] [Server thread/INFO]: EntityZ096x[/127.0.0.1:48604] logged in with entity id 41957 at ([minecraft:survival]-15.320192718100381, 64.0, -72.88151932756254)
+[14:42:58] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[14:42:58] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[14:43:01] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[14:43:03] [Server thread/INFO]: JustDan12 issued server command: //set 33%pale_oak_wood,33%bone_block,34%calcite
+[14:43:03] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » srry
+[14:43:08] [Server thread/INFO]: Clstial issued server command: /execute justdan12 hi
+[14:43:09] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » dihsconnected
+[14:43:20] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 pale_oak_fence
+[14:43:21] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » but bloop wdym
+[14:43:24] [Async Chat Thread - #6/INFO]: [Not Secure] 卐NAZI卐 ||| EntityZ096x ||| » it says Admin
+[14:43:27] [Server thread/INFO]: EntityZ096x issued server command: /lp editor
+[14:43:33] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » IT SAYS NAZI
+[14:43:39] [luckperms-worker-7/INFO]: [LP] LOG > (EntityZ096x) [G] (owner)
+[14:43:39] [luckperms-worker-7/INFO]: [LP] LOG > webeditor add prefix.2035809.&r<#ff0000>&lAdmin &r<#ff0000>&k&l|||&r  true
+[14:43:39] [luckperms-worker-7/INFO]: [LP] LOG > (EntityZ096x) [G] (owner)
+[14:43:39] [luckperms-worker-7/INFO]: [LP] LOG > webeditor remove prefix.2035809.&r<#ff0000>&l卐NAZI卐 &r<#ff0000>&k&l|||&r  true
+[14:43:46] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » WHAT DID YOU DO
+[14:43:47] [Async Chat Thread - #6/INFO]: [Not Secure] Clstial » AGAIN
+[14:43:47] [Async Chat Thread - #6/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i mean u can litterally see that
+[14:43:51] [Async Chat Thread - #6/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » waht
+[14:43:52] [Async Chat Thread - #7/INFO]: [Not Secure] Clstial » NOW I CAN
+[14:43:58] [Async Chat Thread - #7/INFO]: [Not Secure] Clstial » YOU CHANGED IT I SEE THAT
+[14:44:00] [Server thread/INFO]: EntityZ096x issued server command: /deop Clstial
+[14:44:00] [Server thread/INFO]: [EntityZ096x: Made Clstial no longer a server operator]
+[14:44:03] [Async Chat Thread - #6/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ruh
+[14:44:10] [Async Chat Thread - #7/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i thought u cant see that sht
+[14:44:22] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 red_nether_brick_wall
+[14:44:25] [Async Chat Thread - #7/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » gaslight failed :(
+[14:44:40] [Async Chat Thread - #6/INFO]: [Not Secure] Admin || JustDan12 || » hes afk
+[14:45:49] [Server thread/INFO]: EntityZ096x issued server command: /tp JustDan12
+[14:45:51] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[14:45:53] [Server thread/INFO]: EntityZ096x issued server command: /tp JustDan12
+[14:45:59] [Async Chat Thread - #9/INFO]: [Not Secure] Clstial » (EntityZ096x) [G] (owner) webeditor add frefix.2035809.<#ff000>Admin@r<#ff0000>NAZI <ff0000>:::true
+[14:46:06] [Async Chat Thread - #9/INFO]: [Not Secure] Clstial » yeh bro
+[14:46:08] [Async Chat Thread - #8/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » what
+[14:46:13] [Async Chat Thread - #8/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i didnt do anything
+[14:46:18] [Async Chat Thread - #8/INFO]: [Not Secure] Clstial » i saw that
+[14:46:21] [Async Chat Thread - #8/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nah
+[14:46:24] [Server thread/INFO]: JustDan12 issued server command: /op Clstial
+[14:46:24] [Server thread/INFO]: [JustDan12: Made Clstial a server operator]
+[14:46:30] [Async Chat Thread - #8/INFO]: [Not Secure] Clstial » wut?
+[14:46:37] [Server thread/INFO]: Clstial issued server command: /kit
+[14:46:58] [Async Chat Thread - #8/INFO]: [Not Secure] Clstial » how did you tellraw??
+[14:47:01] [Async Chat Thread - #8/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » not
+[14:47:04] [Server thread/INFO]: EntityZ096x issued server command: /tellraw a
+[14:47:09] [Server thread/INFO]: EntityZ096x issued server command: /tellraw EntityZ096x a
+[14:47:16] [Server thread/INFO]: EntityZ096x issued server command: /tellraw Clstial ur gay
+[14:47:19] [Server thread/INFO]: EntityZ096x issued server command: /tellraw Clstial urgay
+[14:47:23] [Server thread/INFO]: JustDan12 issued server command: /gms EntityZ096x
+[14:47:44] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[14:47:48] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 stick[ench
+[14:47:54] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 stick
+[14:48:02] [Server thread/INFO]: JustDan12 issued server command: /enchant knockback 255
+[14:49:02] [Server thread/INFO]: Clstial issued server command: /dummy
+[14:49:15] [Server thread/INFO]: EntityZ096x issued server command: /ungod
+[14:49:21] [Server thread/INFO]: Clstial issued server command: /dummy
+[14:49:30] [Server thread/INFO]: EntityZ096x issued server command: /lobby
+[14:49:34] [Server thread/INFO]: EntityZ096x issued server command: /tp JustDan12
+[14:49:36] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[14:49:38] [Server thread/INFO]: EntityZ096x issued server command: /tp JustDan12
+[14:49:44] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -99.5, y: 109.5, z: -300.5, yaw: 0, pitch: 0 in 'Lobby'
+[14:49:48] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[14:49:48] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[14:50:00] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[14:50:00] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[14:50:12] [Server thread/INFO]: EntityZ096x issued server command: /backport.spawnmob sulfur_cube
+[14:50:17] [Server thread/INFO]: Clstial issued server command: /tp EntityZ096x
+[14:50:23] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » hi
+[14:50:24] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:50:27] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 stick 1
+[14:50:29] [Server thread/INFO]: JustDan12 issued server command: /enchant knockback 255
+[14:50:32] [Async Chat Thread - #10/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nigger
+[14:50:36] [Server thread/INFO]: EntityZ096x issued server command: /god
+[14:50:37] [Server thread/INFO]: JustDan12 issued server command: /gms Clstial
+[14:50:43] [Server thread/INFO]: EntityZ096x issued server command: /kit load mace
+[14:50:43] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:50:46] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[14:50:47] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » WHAT
+[14:50:49] [Server thread/INFO]: Clstial issued server command: /gms
+[14:50:52] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -81.5, y: 109.5, z: -299.5, yaw: 0, pitch: 0 in 'Lobby'
+[14:50:52] [Server thread/INFO]: JustDan12 issued server command: /gms EntityZ096x
+[14:50:58] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:51:00] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » ...
+[14:51:02] [Server thread/INFO]: JustDan12 issued server command: /gms Clstial
+[14:51:02] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » WUT?
+[14:51:07] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[14:51:13] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » AYO
+[14:51:19] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:51:30] [Server thread/INFO]: JustDan12 issued server command: /gms Clstial
+[14:51:41] [Server thread/INFO]: EntityZ096x issued server command: /clear
+[14:51:41] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » were gonna play sumo
+[14:51:44] [Server thread/INFO]: EntityZ096x issued server command: /ungod
+[14:51:46] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[14:51:46] [Server thread/INFO]: Clstial issued server command: /enchant knockback 255
+[14:51:49] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 stick 1
+[14:51:50] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:51:53] [Server thread/INFO]: JustDan12 issued server command: /enchant knockback 5
+[14:51:59] [Server thread/INFO]: Clstial issued server command: /gms
+[14:52:08] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[14:52:14] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:52:19] [Server thread/INFO]: Clstial issued server command: /gms
+[14:52:21] [Async Chat Thread - #10/INFO]: [Not Secure] Admin || JustDan12 || » not ready yet
+[14:52:22] [Server thread/INFO]: Clstial issued server command: /gms JustDan12
+[14:52:23] [Async Chat Thread - #10/INFO]: [Not Secure] Admin || JustDan12 || » take off armor
+[14:52:28] [Server thread/INFO]: EntityZ096x issued server command: /gmw
+[14:52:29] [User Authenticator #6/INFO]: UUID of player QuantumEcho is b3d07617-0acd-37dd-b1f6-25c77eb96693
+[14:52:29] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[14:52:29] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[14:52:29] [Server thread/INFO]: [+] QuantumEcho
+[14:52:29] [Server thread/INFO]: QuantumEcho[/127.0.0.1:39774] logged in with entity id 44049 at ([minecraft:lobby]0.6228078577838082, -3801.203570722515, -160.30000001192093)
+[14:52:30] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[14:52:34] [Server thread/INFO]: QuantumEcho issued server command: /l <qwerty123>
+[14:52:34] [Server thread/INFO]: QuantumEcho lost connection: Incorrect password.
+[14:52:34] [Server thread/INFO]: [-] QuantumEcho
+[14:52:36] [Async Chat Thread - #11/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » NO[
+[14:52:39] [Async Chat Thread - #10/INFO]: [Not Secure] Clstial » alt
+[14:52:40] [Async Chat Thread - #10/INFO]: [Not Secure] Clstial » alr
+[14:52:41] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » WINDCHARGE CLUTCH
+[14:52:47] [Server thread/INFO]: Clstial issued server command: /enchant knockback 2
+[14:52:49] [Server thread/INFO]: EntityZ096x issued server command: /kit load mace
+[14:52:49] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » kb2
+[14:53:22] [User Authenticator #7/INFO]: UUID of player QuantumEcho is b3d07617-0acd-37dd-b1f6-25c77eb96693
+[14:53:22] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » WINDCHARGE CLUTCH
+[14:53:22] [Server thread/INFO]: [+] QuantumEcho
+[14:53:22] [Server thread/INFO]: QuantumEcho[/127.0.0.1:57384] logged in with entity id 44139 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[14:53:23] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[14:53:23] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[14:53:23] [Async Chat Thread - #10/INFO]: [Not Secure] Clstial » HEE
+[14:53:27] [Async Chat Thread - #10/INFO]: [Not Secure] Clstial » ITS A SUMO
+[14:53:28] [Server thread/INFO]: QuantumEcho issued server command: /login creeper45
+[14:53:33] [Async Chat Thread - #11/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » fuh u
+[14:53:41] [Async Chat Thread - #10/INFO]: [Not Secure] Admin || JustDan12 || » yES
+[14:53:53] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[14:54:00] [Server thread/INFO]: EntityZ096x issued server command: /kit load SniperSnipesSniper
+[14:54:04] [Server thread/INFO]: EntityZ096x issued server command: /gm
+[14:54:05] [Server thread/INFO]: EntityZ096x issued server command: /fly
+[14:54:21] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » YES
+[14:54:25] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » CLUTCH
+[14:54:27] [Async Chat Thread - #10/INFO]: [Not Secure] Clstial » brooo
+[14:54:33] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 wind_charge 64
+[14:54:34] [Async Chat Thread - #10/INFO]: [Not Secure] Clstial » entity
+[14:54:34] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[14:54:38] [Async Chat Thread - #10/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » what
+[14:54:38] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » ima make sumo kit
+[14:54:38] [Async Chat Thread - #11/INFO]: [Not Secure] QuantumEcho » can some1 tp me?
+[14:54:42] [Async Chat Thread - #11/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ?
+[14:54:43] [Async Chat Thread - #10/INFO]: [Not Secure] Admin || JustDan12 || » ye 1se
+[14:54:45] [Server thread/INFO]: Clstial issued server command: /tphere QuantumEcho
+[14:54:47] [Async Chat Thread - #10/INFO]: [Not Secure] Clstial » alr
+[14:54:47] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » we playing sumo on my castle
+[14:55:00] [Server thread/INFO]: QuantumEcho issued server command: /kit
+[14:55:00] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » bro entity
+[14:55:04] [Async Chat Thread - #12/INFO]: [Not Secure] Clstial » ITS SUMO
+[14:55:08] [Server thread/INFO]: JustDan12 issued server command: /enchant protect 4
+[14:55:09] [Server thread/INFO]: JustDan12 issued server command: /enchant protect 4
+[14:55:11] [Server thread/INFO]: JustDan12 issued server command: /enchant protect 4
+[14:55:12] [Server thread/INFO]: JustDan12 issued server command: /enchant protect 4
+[14:55:13] [Server thread/INFO]: [Not Secure] Clstial » *MOAN*
+[14:55:13] [Server thread/INFO]: Clstial was brutally SMASHED by EntityZ096x and liked it...
+[14:55:15] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » BRO
+[14:55:19] [Server thread/INFO]: Clstial issued server command: /tp EntityZ096x
+[14:55:25] [Server thread/INFO]: JustDan12 issued server command: /kit save sumo
+[14:55:26] [Async Chat Thread - #11/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » yo why u moan
+[14:55:27] [Async Chat Thread - #11/INFO]: [Not Secure] QuantumEcho » can i have a kit?
+[14:55:27] [Async Chat Thread - #12/INFO]: [Not Secure] Admin || JustDan12 || » guys
+[14:55:31] [Async Chat Thread - #12/INFO]: [Not Secure] Admin || JustDan12 || » do /kit load sumo
+[14:55:31] [Async Chat Thread - #12/INFO]: [Not Secure] QuantumEcho » ye
+[14:55:33] [Server thread/INFO]: Clstial issued server command: /kit
+[14:55:33] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[14:55:35] [Server thread/INFO]: JustDan12 issued server command: /gms
+[14:55:36] [Server thread/INFO]: Clstial has made the advancement [Cover Me with Diamonds]
+[14:55:37] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[14:55:37] [Server thread/INFO]: QuantumEcho issued server command: /kit load sumo
+[14:55:38] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » alr
+[14:55:40] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » WAIT
+[14:55:43] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » DONT START YET
+[14:55:43] [Async Chat Thread - #11/INFO]: [Not Secure] QuantumEcho » not allowed
+[14:55:46] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » >
+[14:55:48] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » DONT START YET
+[14:55:48] [Async Chat Thread - #12/INFO]: [Not Secure] Clstial » ?
+[14:55:50] [Async Chat Thread - #12/INFO]: [Not Secure] Clstial » oh
+[14:55:55] [Async Chat Thread - #12/INFO]: [Not Secure] Clstial » you ont opp?
+[14:56:02] [Server thread/INFO]: QuantumEcho has made the advancement [Cover Me with Diamonds]
+[14:56:05] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[14:56:06] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo QuantumEcho
+[14:56:10] [Server thread/INFO]: EntityZ096x issued server command: /ungod
+[14:56:12] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[14:56:13] [Server thread/INFO]: EntityZ096x issued server command: /gms *
+[14:56:14] [Async Chat Thread - #12/INFO]: [Not Secure] Admin || JustDan12 || » EVERY1 CORNER
+[14:56:20] [Server thread/INFO]: JustDan12 issued server command: /gms @a
+[14:56:24] [Server thread/INFO]: EntityZ096x issued server command: /ungod *
+[14:56:25] [Server thread/INFO]: JustDan12 issued server command: /gms Clstial
+[14:56:27] [Async Chat Thread - #12/INFO]: [Not Secure] Clstial » lol
+[14:56:28] [Server thread/INFO]: JustDan12 issued server command: /gms QuantumEcho
+[14:56:31] [Server thread/INFO]: JustDan12 issued server command: /gms JustDan12
+[14:56:35] [Async Chat Thread - #11/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » 3
+[14:56:36] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » READY?
+[14:56:36] [Async Chat Thread - #10/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » 2
+[14:56:37] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » SET
+[14:56:37] [Async Chat Thread - #11/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » 1
+[14:56:38] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » GO
+[14:56:39] [Async Chat Thread - #11/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » GO
+[14:56:48] [Async Chat Thread - #10/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » g
+[14:56:49] [Async Chat Thread - #10/INFO]: [Not Secure] Clstial » AYO
+[14:56:49] [Async Chat Thread - #10/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » gg
+[14:56:51] [Async Chat Thread - #10/INFO]: [Not Secure] Clstial » CLUTCHED
+[14:56:57] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[14:56:58] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » ur out when ur out of windcharge
+[14:57:18] [Async Chat Thread - #11/INFO]: [Not Secure] QuantumEcho » i cant hit
+[14:57:23] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » BREH
+[14:57:48] [Async Chat Thread - #10/INFO]: [Not Secure] QuantumEcho » make it so i can hit
+[14:58:07] [Server thread/INFO]: EntityZ096x issued server command: /wait
+[14:58:10] [Async Chat Thread - #10/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » lemme add smth
+[14:58:14] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[14:58:23] [Server thread/INFO]: EntityZ096x issued server command: /enchant knockback 2
+[14:58:30] [Server thread/INFO]: EntityZ096x issued server command: /kit save sumo
+[14:58:40] [Async Chat Thread - #11/INFO]: [Not Secure] QuantumEcho » im out of windcharges
+[14:58:42] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo Clstial
+[14:58:48] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo QuantumEcho
+[14:58:54] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo JustDan12
+[14:58:59] [Async Chat Thread - #10/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » gmc
+[14:59:01] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[14:59:03] [Async Chat Thread - #10/INFO]: [Not Secure] Clstial » i got kb2
+[14:59:17] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[14:59:20] [Async Chat Thread - #10/INFO]: [Not Secure] QuantumEcho » BRO I CANT HIt
+[14:59:23] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » LETS GOO
+[15:00:12] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » cya guys
+[15:00:22] [Async Chat Thread - #10/INFO]: [Not Secure] QuantumEcho » BRO I CANT FUCKING HIT SOMEONE
+[15:00:26] [Async Chat Thread - #11/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » HAHAH
+[15:00:29] [Server thread/INFO]: EntityZ096x issued server command: /tpall JustDan12
+[15:00:45] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[15:00:50] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[15:00:52] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[15:00:56] [Server thread/INFO]: JustDan12 issued server command: /give JustDan12 wooden_spear
+[15:00:58] [Async Chat Thread - #11/INFO]: [Not Secure] QuantumEcho » and im out
+[15:00:58] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » yes sirrr
+[15:01:03] [Server thread/INFO]: JustDan12 issued server command: /enchant lunge 3
+[15:01:04] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 1
+[15:01:05] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 2
+[15:01:07] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » i added lunge spear
+[15:01:10] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » alr
+[15:01:10] [Server thread/INFO]: Clstial issued server command: /kit
+[15:01:11] [Server thread/INFO]: EntityZ096x issued server command: /enchant lunge 3
+[15:01:12] [Async Chat Thread - #11/INFO]: [Not Secure] Admin || JustDan12 || » ima go on 1.21.11 brb
+[15:01:15] [Async Chat Thread - #11/INFO]: [Not Secure] QuantumEcho » BRO ENTITY I CANT DO ANYTHING
+[15:01:16] [Server thread/INFO]: EntityZ096x issued server command: /enchant knockback 3
+[15:01:19] [Server thread/INFO]: JustDan12 issued server command: /kit save sumo
+[15:01:19] [Async Chat Thread - #10/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » why
+[15:01:20] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[15:01:20] [Server thread/INFO]: [-] JustDan12
+[15:01:24] [Async Chat Thread - #10/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ohh go in debug
+[15:01:25] [Async Chat Thread - #11/INFO]: [Not Secure] QuantumEcho » I DONT KNOW
+[15:01:30] [Server thread/INFO]: QuantumEcho issued server command: /debug
+[15:01:38] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » i cant lunge
+[15:01:40] [Server thread/INFO]: EntityZ096x issued server command: /kit save sumo
+[15:01:41] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » lol
+[15:01:47] [Async Chat Thread - #11/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » go in 1.21
+[15:01:50] [Async Chat Thread - #11/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » imma go in there
+[15:01:50] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » IDK HOW
+[15:01:53] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[15:01:53] [Server thread/INFO]: [-] EntityZ096x
+[15:01:58] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » I DID NOT GET THE CLIENT
+[15:02:00] [Async Chat Thread - #11/INFO]: [Not Secure] QuantumEcho » what is the pass
+[15:02:19] [Async Chat Thread - #11/INFO]: [Not Secure] QuantumEcho » clstial what is the pass
+[15:02:29] [Async Chat Thread - #10/INFO]: [Not Secure] Clstial » BruhGuy123Washere
+[15:02:33] [Async Chat Thread - #11/INFO]: [Not Secure] Clstial » i think
+[15:02:34] [Server thread/INFO]: QuantumEcho issued server command: /debug
+[15:02:44] [User Authenticator #8/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:02:44] [Server thread/INFO]: [+] EntityZ096x
+[15:02:44] [Server thread/INFO]: EntityZ096x[/127.0.0.1:35040] logged in with entity id 44641 at ([minecraft:lobby]28.09192932440325, 60.0, -249.42160725929492)
+[15:02:44] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:02:44] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:02:49] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[15:02:50] [Server thread/INFO]: QuantumEcho issued server command: /kit load sumo
+[15:02:57] [Server thread/INFO]: EntityZ096x issued server command: /tpall QuantumEcho
+[15:03:19] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[15:03:24] [Server thread/INFO]: EntityZ096x issued server command: /enchant lunge 0
