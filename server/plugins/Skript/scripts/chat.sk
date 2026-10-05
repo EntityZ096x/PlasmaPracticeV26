@@ -18,6 +18,7 @@ on quit:
 
 on chat:
     set chat format to "%player's prefix%%player's name%%player's suffix% &r&8» &r%message%"
+    replace all ":hakenkruis:" with "卐" in message
 
 
 on death:
@@ -48,4 +49,6 @@ command /t <text>:
     trigger:
         if sender is not console:
             stop
-        broadcast "&r&cEntityZ096x (as console)&r: %arg-1%"
+        set {_a} to arg-1
+        replace all ":hakenkruis:" with "卐" in {_a}
+        broadcast "&r&cEntityZ096x (as console)&r: %{_a}%"
