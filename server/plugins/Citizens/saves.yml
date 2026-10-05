@@ -35,9 +35,9 @@ npc:
         x: 3.5
         y: 64.0
         z: -5.5
-        bodyYaw: 25.962296
-        pitch: 28.7419
-        yaw: 25.9623
+        bodyYaw: 118.58792
+        pitch: -20.2526
+        yaw: 128.8273
       type: PLAYER
       hologramtrait: {
         }
@@ -81,9 +81,9 @@ npc:
         x: -4.5
         y: 64.0
         z: -4.5
-        bodyYaw: -84.926704
-        pitch: 7.8747
-        yaw: -84.9267
+        bodyYaw: 138.5079
+        pitch: -30.4592
+        yaw: 157.2457
       type: PLAYER
       commandtrait:
         commands:
@@ -131,9 +131,9 @@ npc:
         x: -2.5
         y: 64.0
         z: -5.5
-        bodyYaw: -72.507545
-        pitch: 10.3899
-        yaw: -72.5075
+        bodyYaw: 138.34595
+        pitch: -30.3176
+        yaw: 146.2524
       type: PLAYER
       gravity:
         enabled: true
@@ -179,9 +179,9 @@ npc:
         x: -5.5
         y: 64.0
         z: -2.5
-        bodyYaw: -99.41937
-        pitch: 6.8586
-        yaw: -99.4194
+        bodyYaw: -179.93352
+        pitch: -23.2957
+        yaw: 172.5719
       type: PLAYER
       gravity:
         enabled: true
@@ -222,9 +222,9 @@ npc:
         x: 5.5
         y: 64.0
         z: -4.5
-        bodyYaw: 77.12964
-        pitch: 19.2078
-        yaw: 77.1296
+        bodyYaw: 112.71529
+        pitch: -6.0282
+        yaw: 129.0429
       type: PLAYER
       gravity:
         enabled: true
@@ -266,9 +266,9 @@ npc:
         x: 6.5
         y: 64.0
         z: -2.5
-        bodyYaw: 89.70906
-        pitch: 13.9206
-        yaw: 109.7091
+        bodyYaw: 117.113235
+        pitch: 7.354
+        yaw: 135.1143
       type: PLAYER
       gravity:
         enabled: true

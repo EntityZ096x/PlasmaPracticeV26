@@ -41,6 +41,7 @@ function Orbital(l: location, type: text, p: player):
         send "%{_p}% sent a %{_type}% shot at %{_l}%" to console
 
 on explosion:
+    stop
     if metadata value "orbital" of event-entity is true:
         cancel event
         set {_pos} to location of event-entity
