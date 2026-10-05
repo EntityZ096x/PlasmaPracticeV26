@@ -3188,3 +3188,11 @@ t4<--[HERE]
 [20:04:17] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
 [20:04:20] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
 [20:04:21] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
+[20:06:01] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 15
+[20:06:01] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 15.0 per second]
+[20:07:01] [Craft Scheduler Thread - 95 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:07:01] [Craft Scheduler Thread - 95 - Vault/INFO]: [Vault] No new version available
+[20:08:39] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 20
+[20:08:39] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 20.0 per second]
+[20:09:42] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[20:09:42] [Server thread/INFO]: [-] EntityZ096x
