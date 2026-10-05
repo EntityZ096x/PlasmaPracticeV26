@@ -1,0 +1,27 @@
+function RenameUnnamedTotem(i: item)
+    if event-item is totem of undying:
+        set name of event-item to "&r&eTotem of Reanimation"
+
+on pickup:
+    if event-item is totem of undying:
+        set name of event-item to "&r&eTotem of Reanimation"
+
+on inventory click:
+    if event-item is totem of undying:
+        set name of event-item to "&r&eTotem of Reanimation"
+
+on inventory drag:
+    if event-item is totem of undying:
+        set name of event-item to "&r&eTotem of Reanimation"
+
+on inventory item move:
+    if event-item is totem of undying:
+        set name of event-item to "&r&eTotem of Reanimation"
+
+on inventory pickup:
+    if event-itemstack is totem of undying:
+        set name of event-itemstack to "&r&eTotem of Reanimation"
+
+on craft:
+    if event-itemstack is totem of undying:
+        set name of event-itemstack to "&r&eTotem of Reanimation"

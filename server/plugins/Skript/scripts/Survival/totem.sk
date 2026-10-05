@@ -1,8 +1,0 @@
-on item spawn of totem of undying:
-    if event-item's name is not set:
-        set event-item's name to "<#FFFF00>Totem of Reanimation"
-
-on resurrect attempt:
-    if player is holding a totem of undying:
-        if event-item's name is "<#FFFF00>Totem of Preservation":
-            cancel event
