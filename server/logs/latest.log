@@ -2952,3 +2952,852 @@ what<--[HERE]
 [15:16:37] [Server thread/INFO]: Clstial issued server command: /home home
 [15:16:41] [Server thread/INFO]: Clstial issued server command: /sell
 [15:16:48] [Server thread/INFO]: Clstial issued server command: /ah sell 1000
+[15:16:51] [Server thread/INFO]: Clstial issued server command: /ah
+[15:16:59] [Server thread/INFO]: Clstial issued server command: /home home
+[15:18:23] [Async Chat Thread - #68/INFO]: [Not Secure] Admin || Clstial || » entityyyh
+[15:18:32] [Async Chat Thread - #68/INFO]: [Not Secure] Admin || Clstial || » hellooooo
+[15:18:35] [Async Chat Thread - #69/INFO]: [Not Secure] Admin || Clstial || » you afk????
+[15:19:50] [Server thread/INFO]: Clstial issued server command: /home cave
+[15:20:09] [Server thread/INFO]: Clstial has made the advancement [Hot Stuff]
+[15:21:08] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i am back
+[15:21:11] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » alr
+[15:21:12] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nice base
+[15:21:19] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » i gave you full iron
+[15:21:22] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ty
+[15:21:27] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » and yes ec is allowed
+[15:21:30] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » ok
+[15:21:34] [Server thread/INFO]: Clstial issued server command: /ec
+[15:21:51] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » imma make the trading hall
+[15:21:53] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » alr
+[15:22:00] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » im getting iron to sell
+[15:22:01] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[15:22:11] [Server thread/INFO]: Clstial issued server command: /ec
+[15:22:24] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[15:22:29] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » bruh
+[15:22:34] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i thought i foudn iron
+[15:22:38] [Server thread/WARN]: Clstial moved wrongly!
+[15:22:54] [Server thread/INFO]: EntityZ096x issued server command: /teams
+[15:22:55] [Server thread/INFO]: EntityZ096x issued server command: /team
+[15:23:00] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[15:23:11] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » yo
+[15:23:14] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i foudn ems
+[15:23:15] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » ??
+[15:23:23] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[15:23:29] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i got 1 emerald
+[15:23:34] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i mied
+[15:23:36] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » alr
+[15:23:37] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » mined
+[15:23:39] [Server thread/INFO]: Clstial issued server command: /home home
+[15:23:53] [Server thread/INFO]: Clstial issued server command: /ec
+[15:23:56] [Server thread/INFO]: EntityZ096x issued server command: /ec
+[15:24:00] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » btw
+[15:24:07] [Server thread/INFO]: Clstial issued server command: /sell hand
+[15:24:08] [Server thread/INFO]: Shop » Clstial sold 1x Raw Iron(Z_EverythingElse.page6.items.raw_iron) for $1.32 with the sell gui.
+[15:24:09] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » ?
+[15:24:15] [Server thread/INFO]: Clstial issued server command: /shop
+[15:24:19] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » get some oak
+[15:24:19] [Server thread/ERROR]: Could not pass event InventoryClickEvent to EconomyShopGUI v7.3.1
+java.lang.NullPointerException: Cannot invoke "me.gypopo.economyshopgui.objects.ShopPageItems.getItems()" because the return value of "java.util.Map.get(Object)" is null
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.objects.ShopSection.openShopSection(ShopSection.java:299) ~[?:?]
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.objects.navbar.NavBar.execute(NavBar.java:94) ~[?:?]
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.events.MenuHandler.onMenuClick(MenuHandler.java:84) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3347) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:56) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:14) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[15:24:19] [Server thread/ERROR]: Could not pass event InventoryClickEvent to EconomyShopGUI v7.3.1
+java.lang.NullPointerException: Cannot invoke "me.gypopo.economyshopgui.objects.ShopPageItems.getItems()" because the return value of "java.util.Map.get(Object)" is null
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.objects.ShopSection.openShopSection(ShopSection.java:299) ~[?:?]
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.objects.navbar.NavBar.execute(NavBar.java:94) ~[?:?]
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.events.MenuHandler.onMenuClick(MenuHandler.java:84) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3347) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:56) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:14) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[15:24:19] [Server thread/ERROR]: Could not pass event InventoryClickEvent to EconomyShopGUI v7.3.1
+java.lang.NullPointerException: Cannot invoke "me.gypopo.economyshopgui.objects.ShopPageItems.getItems()" because the return value of "java.util.Map.get(Object)" is null
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.objects.ShopSection.openShopSection(ShopSection.java:299) ~[?:?]
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.objects.navbar.NavBar.execute(NavBar.java:94) ~[?:?]
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.events.MenuHandler.onMenuClick(MenuHandler.java:84) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3347) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:56) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:14) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[15:24:20] [Server thread/ERROR]: Could not pass event InventoryClickEvent to EconomyShopGUI v7.3.1
+java.lang.NullPointerException: Cannot invoke "me.gypopo.economyshopgui.objects.ShopPageItems.getItems()" because the return value of "java.util.Map.get(Object)" is null
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.objects.ShopSection.openShopSection(ShopSection.java:299) ~[?:?]
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.objects.navbar.NavBar.execute(NavBar.java:94) ~[?:?]
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.events.MenuHandler.onMenuClick(MenuHandler.java:84) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3347) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:56) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:14) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[15:24:20] [Server thread/ERROR]: Could not pass event InventoryClickEvent to EconomyShopGUI v7.3.1
+java.lang.NullPointerException: Cannot invoke "me.gypopo.economyshopgui.objects.ShopPageItems.getItems()" because the return value of "java.util.Map.get(Object)" is null
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.objects.ShopSection.openShopSection(ShopSection.java:299) ~[?:?]
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.objects.navbar.NavBar.execute(NavBar.java:94) ~[?:?]
+	at EconomyShopGUI-7.3.1.jar//me.gypopo.economyshopgui.events.MenuHandler.onMenuClick(MenuHandler.java:84) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.53-alpha.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3347) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:56) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:14) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1509) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1239) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[15:24:30] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » bro whats in farming thing
+[15:24:33] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » idk
+[15:24:34] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » do /shop
+[15:24:37] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » lemme see/
+[15:24:38] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[15:24:38] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » and then farming
+[15:24:41] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » erm
+[15:24:44] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nothuuing
+[15:24:45] [Server thread/INFO]: Clstial issued server command: /sell
+[15:24:45] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[15:24:46] [Server thread/INFO]: Shop » Clstial sold 1x Iron Ingot(Ores.page1.items.5) for $75.00 with the sell gui.
+[15:24:50] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » LOL
+[15:24:53] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ethe shop aint done yet
+[15:25:00] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » 1 iron ingot is 75 dollars
+[15:25:04] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ik
+[15:25:08] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » and 1 raw is 1 dollar
+[15:25:14] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » yesw
+[15:25:16] [Server thread/INFO]: Clstial issued server command: /sell
+[15:25:17] [Server thread/INFO]: Shop » Clstial sold 1x Magma Block(natural.page1.items.26) for $0.25 with the sell gui.
+[15:25:18] [Server thread/INFO]: Clstial issued server command: /sell
+[15:25:20] [Server thread/INFO]: Shop » Clstial sold 2x Andesite(natural.page1.items.22) for $0.50 with the sell gui.
+[15:25:20] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[15:25:20] [Server thread/INFO]: Clstial issued server command: /sell
+[15:25:22] [Server thread/INFO]: Shop » Clstial sold 12x Iron Ingot(Ores.page1.items.5) for $900.00 with the sell gui.
+[15:25:43] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » should i try to find a trial chamber
+[15:25:47] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » yes
+[15:25:50] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » for mace
+[15:25:53] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » btw
+[15:25:56] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » but we arent prepared tho
+[15:25:58] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » you chould disable end
+[15:26:03] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » why
+[15:26:07] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » for endfight
+[15:26:07] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » acctually de
+[15:26:08] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » later
+[15:26:09] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ye
+[15:26:10] [Server thread/INFO]: EntityZ096x issued server command: /wait
+[15:26:13] [Server thread/INFO]: Clstial issued server command: /sell
+[15:26:15] [Server thread/INFO]: Shop » Clstial sold 7x Iron Ingot(Ores.page1.items.5) for $525.00 with the sell gui.
+[15:26:16] [Server thread/INFO]: Clstial issued server command: /shop
+[15:26:18] [Server thread/INFO]: EntityZ096x issued server command: /mv delete Survival_the_end
+[15:26:22] [Server thread/INFO]: EntityZ096x issued server command: /mv confirm 574
+[15:26:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:survival_the_end'
+[15:26:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:survival_the_end'
+[15:26:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:survival_the_end'
+[15:26:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:survival_the_end'
+[15:26:26] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i deleted the end for now
+[15:26:28] [Server thread/INFO]: Clstial issued server command: /shop
+[15:26:53] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » u got rails?
+[15:26:58] [Server thread/INFO]: EntityZ096x issued server command: /bal Clstial
+[15:27:04] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » no
+[15:27:05] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » how do u alr have 1.5k
+[15:27:06] [Server thread/INFO]: Clstial issued server command: /shop
+[15:27:29] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » hello?
+[15:27:32] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x loah
+[15:27:36] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » im selling iron
+[15:27:39] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » .
+[15:27:44] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » why
+[15:27:44] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » should i make iron less op
+[15:27:48] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » no
+[15:27:51] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » .
+[15:27:54] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » imma make it 30
+[15:27:55] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » diamond
+[15:27:58] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[15:27:59] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » is expencife
+[15:28:01] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » bro
+[15:28:02] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » bro
+[15:28:08] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » fine
+[15:28:10] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » everything is like 2k
+[15:28:15] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i wont
+[15:28:15] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » better then iron
+[15:28:20] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » k ty
+[15:28:23] [Server thread/INFO]: Clstial issued server command: /home cave
+[15:28:25] [Server thread/INFO]: Clstial issued server command: /rtp
+[15:28:31] [Server thread/INFO]: Clstial issued server command: /rtp
+[15:28:32] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » do u have oak logs
+[15:28:39] [Server thread/ERROR]: #!#! 
+[15:28:39] [Server thread/ERROR]: #!#! [Skript] Severe Error:
+[15:28:39] [Server thread/ERROR]: #!#! 
+[15:28:39] [Server thread/ERROR]: #!#! An unexpected error occurred with Skript. This issue is likely not your fault.
+[15:28:39] [Server thread/ERROR]: #!#! You are using some plugins that alter how Skript works (addons).
+[15:28:39] [Server thread/ERROR]: #!#! Full list of addons:
+[15:28:39] [Server thread/ERROR]: #!#! SkBee v3.26.0 (https://github.com/ShaneBeee/SkBee)
+[15:28:39] [Server thread/ERROR]: #!#! skript-reflect v2.6.3 (https://github.com/SkriptLang/skript-reflect)
+[15:28:39] [Server thread/ERROR]: #!#! We could not identify related addons, it might also be a Skript issue.
+[15:28:39] [Server thread/ERROR]: #!#! Try temporarily removing the listed plugins one by one to identify the cause.
+[15:28:39] [Server thread/ERROR]: #!#! If removing a plugin resolves the issue, please report the problem to the plugin developer.
+[15:28:39] [Server thread/ERROR]: #!#! 
+[15:28:39] [Server thread/ERROR]: #!#! Stack trace:
+[15:28:39] [Server thread/ERROR]: #!#! Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.World.getBlockAt(org.bukkit.Location)" because the return value of "org.bukkit.Location.getWorld()" is null
+[15:28:39] [Server thread/ERROR]: #!#!     at org.bukkit.Location.getBlock(Location.java:131)
+[15:28:39] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//org.skriptlang.skript.lang.converter.Converters.convert(Converters.java:513)
+[15:28:39] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.lang.util.ConvertedExpression.getArray(ConvertedExpression.java:213)
+[15:28:39] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.expressions.base.WrapperExpression.get(WrapperExpression.java:49)
+[15:28:39] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
+[15:28:39] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.effects.EffChange.execute(EffChange.java:306)
+[15:28:39] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[15:28:39] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[15:28:39] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[15:28:39] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.effects.Delay.lambda$walk$0(Delay.java:128)
+[15:28:39] [Server thread/ERROR]: #!#!     at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[15:28:39] [Server thread/ERROR]: #!#!     at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[15:28:39] [Server thread/ERROR]: #!#!     at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1768)
+[15:28:39] [Server thread/ERROR]: #!#!     at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1621)
+[15:28:39] [Server thread/ERROR]: #!#!     at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404)
+[15:28:39] [Server thread/ERROR]: #!#!     at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1679)
+[15:28:39] [Server thread/ERROR]: #!#!     at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1349)
+[15:28:39] [Server thread/ERROR]: #!#!     at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[15:28:39] [Server thread/ERROR]: #!#!     at java.base/java.lang.Thread.run(Thread.java:1474)
+[15:28:39] [Server thread/ERROR]: #!#! 
+[15:28:39] [Server thread/ERROR]: #!#! Skript: 2.16.2 (latest)
+[15:28:39] [Server thread/ERROR]: #!#!     Flavor: skriptlang-github
+[15:28:39] [Server thread/ERROR]: #!#!     Date: 15:50:46.644913
+[15:28:39] [Server thread/ERROR]: #!#! Bukkit: 26.2.build.53-alpha
+[15:28:39] [Server thread/ERROR]: #!#! Minecraft: 26.2
+[15:28:39] [Server thread/ERROR]: #!#! Java: 25.0.4.1 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS)
+[15:28:39] [Server thread/ERROR]: #!#! OS: Linux amd64 6.8.0-1064-azure
+[15:28:39] [Server thread/ERROR]: #!#! 
+[15:28:39] [Server thread/ERROR]: #!#! Server platform: Paper
+[15:28:39] [Server thread/ERROR]: #!#! 
+[15:28:39] [Server thread/ERROR]: #!#! Current node: null
+[15:28:39] [Server thread/ERROR]: #!#! Current item: set {_ground} (as java.lang.Object) to the block (at {_l} (as org.bukkit.Location) >> ch.njol.skript.expressions.ExprBlock$$Lambda/0x00000000435c0cf8@3d9372ec: ConverterInfo{from=class org.bukkit.Location,to=interface org.bukkit.block.Block,converter=ch.njol.skript.expressions.ExprBlock$$Lambda/0x00000000435c0cf8@3d9372ec,flags=0})
+[15:28:39] [Server thread/ERROR]: #!#! Current trigger: function rtp (simple event) (Survival/rtp.sk, line 33)
+[15:28:39] [Server thread/ERROR]: #!#! Thread: Server thread
+[15:28:39] [Server thread/ERROR]: #!#! Language: english
+[15:28:39] [Server thread/ERROR]: #!#! Link parse mode: DISABLED
+[15:28:39] [Server thread/ERROR]: #!#! End of Error.
+[15:28:39] [Server thread/ERROR]: #!#! 
+[15:28:41] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » wait bro
+[15:28:54] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » im looking for a op money strat
+[15:28:57] [Server thread/INFO]: Clstial issued server command: /rtp
+[15:29:03] [Server thread/ERROR]: #!#! 
+[15:29:03] [Server thread/ERROR]: #!#! [Skript] Severe Error:
+[15:29:03] [Server thread/ERROR]: #!#! 
+[15:29:03] [Server thread/ERROR]: #!#! An unexpected error occurred with Skript. This issue is likely not your fault.
+[15:29:03] [Server thread/ERROR]: #!#! You are using some plugins that alter how Skript works (addons).
+[15:29:03] [Server thread/ERROR]: #!#! Full list of addons:
+[15:29:03] [Server thread/ERROR]: #!#! SkBee v3.26.0 (https://github.com/ShaneBeee/SkBee)
+[15:29:03] [Server thread/ERROR]: #!#! skript-reflect v2.6.3 (https://github.com/SkriptLang/skript-reflect)
+[15:29:03] [Server thread/ERROR]: #!#! We could not identify related addons, it might also be a Skript issue.
+[15:29:03] [Server thread/ERROR]: #!#! Try temporarily removing the listed plugins one by one to identify the cause.
+[15:29:03] [Server thread/ERROR]: #!#! If removing a plugin resolves the issue, please report the problem to the plugin developer.
+[15:29:03] [Server thread/ERROR]: #!#! 
+[15:29:03] [Server thread/ERROR]: #!#! Stack trace:
+[15:29:03] [Server thread/ERROR]: #!#! Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.World.getBlockAt(org.bukkit.Location)" because the return value of "org.bukkit.Location.getWorld()" is null
+[15:29:03] [Server thread/ERROR]: #!#!     at org.bukkit.Location.getBlock(Location.java:131)
+[15:29:03] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//org.skriptlang.skript.lang.converter.Converters.convert(Converters.java:513)
+[15:29:03] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.lang.util.ConvertedExpression.getArray(ConvertedExpression.java:213)
+[15:29:03] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.expressions.base.WrapperExpression.get(WrapperExpression.java:49)
+[15:29:03] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
+[15:29:03] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.effects.EffChange.execute(EffChange.java:306)
+[15:29:03] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[15:29:03] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[15:29:03] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[15:29:03] [Server thread/ERROR]: #!#!     at Skript-2.16.2.jar//ch.njol.skript.effects.Delay.lambda$walk$0(Delay.java:128)
+[15:29:03] [Server thread/ERROR]: #!#!     at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[15:29:03] [Server thread/ERROR]: #!#!     at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[15:29:03] [Server thread/ERROR]: #!#!     at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1768)
+[15:29:03] [Server thread/ERROR]: #!#!     at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1621)
+[15:29:03] [Server thread/ERROR]: #!#!     at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404)
+[15:29:03] [Server thread/ERROR]: #!#!     at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1679)
+[15:29:03] [Server thread/ERROR]: #!#!     at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1349)
+[15:29:03] [Server thread/ERROR]: #!#!     at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[15:29:03] [Server thread/ERROR]: #!#!     at java.base/java.lang.Thread.run(Thread.java:1474)
+[15:29:03] [Server thread/ERROR]: #!#! 
+[15:29:03] [Server thread/ERROR]: #!#! Skript: 2.16.2 (latest)
+[15:29:03] [Server thread/ERROR]: #!#!     Flavor: skriptlang-github
+[15:29:03] [Server thread/ERROR]: #!#!     Date: 15:50:46.644913
+[15:29:03] [Server thread/ERROR]: #!#! Bukkit: 26.2.build.53-alpha
+[15:29:03] [Server thread/ERROR]: #!#! Minecraft: 26.2
+[15:29:03] [Server thread/ERROR]: #!#! Java: 25.0.4.1 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS)
+[15:29:03] [Server thread/ERROR]: #!#! OS: Linux amd64 6.8.0-1064-azure
+[15:29:03] [Server thread/ERROR]: #!#! 
+[15:29:03] [Server thread/ERROR]: #!#! Server platform: Paper
+[15:29:03] [Server thread/ERROR]: #!#! 
+[15:29:03] [Server thread/ERROR]: #!#! Current node: null
+[15:29:03] [Server thread/ERROR]: #!#! Current item: set {_ground} (as java.lang.Object) to the block (at {_l} (as org.bukkit.Location) >> ch.njol.skript.expressions.ExprBlock$$Lambda/0x00000000435c0cf8@3d9372ec: ConverterInfo{from=class org.bukkit.Location,to=interface org.bukkit.block.Block,converter=ch.njol.skript.expressions.ExprBlock$$Lambda/0x00000000435c0cf8@3d9372ec,flags=0})
+[15:29:03] [Server thread/ERROR]: #!#! Current trigger: function rtp (simple event) (Survival/rtp.sk, line 33)
+[15:29:03] [Server thread/ERROR]: #!#! Thread: Server thread
+[15:29:03] [Server thread/ERROR]: #!#! Language: english
+[15:29:03] [Server thread/ERROR]: #!#! Link parse mode: DISABLED
+[15:29:03] [Server thread/ERROR]: #!#! End of Error.
+[15:29:03] [Server thread/ERROR]: #!#! 
+[15:29:03] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ig bro
+[15:29:25] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » btw there are inflations
+[15:29:31] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » just know
+[15:29:33] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » wdym
+[15:29:40] [Server thread/INFO]: Clstial issued server command: /shop
+[15:29:42] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » inflation =  money worth less
+[15:29:47] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » aka stuff cost more
+[15:29:50] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » oh ok
+[15:29:54] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » but whats misk
+[15:29:55] [Server thread/INFO]: Clstial issued server command: /shop
+[15:30:02] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » miscellanious
+[15:30:10] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » thats a power stick
+[15:30:12] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » ...
+[15:30:12] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i didnt add anythibg to that yet
+[15:30:16] [Server thread/INFO]: Clstial issued server command: /shop
+[15:30:18] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » dont fucking touch that'
+[15:30:19] [Server thread/INFO]: Shop » Clstial bought 2 x Example power stick(Misc.page1.items.example-item) for $1,234.00 with the buy screen.
+[15:30:22] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » NO
+[15:30:23] [Async Chat Thread - #70/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » dont
+[15:30:25] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » oops
+[15:30:26] [Server thread/INFO]: EntityZ096x issued server command: /see inv
+[15:30:27] [Server thread/INFO]: EntityZ096x issued server command: /seeinv
+[15:30:29] [Server thread/INFO]: EntityZ096x issued server command: /invsee
+[15:30:32] [Server thread/INFO]: EntityZ096x issued server command: /invsee Clstial
+[15:30:36] [Async Chat Thread - #70/INFO]: [Not Secure] Admin || Clstial || » ehhh
+[15:30:39] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[15:30:43] [Async Chat Thread - #72/INFO]: [Not Secure] Admin || Clstial || » gime my money back then
+[15:30:47] [Server thread/INFO]: EntityZ096x issued server command: /eco give Clstial 1234
+[15:30:50] [Async Chat Thread - #72/INFO]: [Not Secure] Admin || Clstial || » :D
+[15:31:19] [Server thread/INFO]: Clstial issued server command: /sell
+[15:31:37] [Async Chat Thread - #72/INFO]: [Not Secure] Admin || Clstial || » lets goo
+[15:31:42] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ?
+[15:31:46] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » sugar cane
+[15:31:48] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nice
+[15:31:59] [Server thread/INFO]: Clstial issued server command: /sell
+[15:32:04] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » breh
+[15:32:08] [Async Chat Thread - #71/INFO]: [Not Secure] Admin || Clstial || » you cant sell sugar cane
+[15:32:12] [Async Chat Thread - #72/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » .
+[15:32:17] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » farm
+[15:32:20] [Async Chat Thread - #71/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » them
+[15:32:21] [Server thread/INFO]: Clstial issued server command: /shop
+[15:32:23] [Async Chat Thread - #72/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » to make
+[15:32:24] [Async Chat Thread - #73/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » books
+[15:32:30] [Async Chat Thread - #73/INFO]: [Not Secure] Admin || Clstial || » what with books?
+[15:32:35] [Server thread/INFO]: Clstial issued server command: /ec
+[15:32:39] [Async Chat Thread - #73/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wdym
+[15:32:45] [Async Chat Thread - #73/INFO]: [Not Secure] Admin || Clstial || » what to do with books
+[15:32:48] [Async Chat Thread - #73/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » enchant
+[15:32:54] [Async Chat Thread - #73/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » + trade with villager
+[15:32:54] [Async Chat Thread - #73/INFO]: [Not Secure] Admin || Clstial || » oh
+[15:32:57] [Async Chat Thread - #73/INFO]: [Not Secure] Admin || Clstial || » ok
+[15:33:10] [Async Chat Thread - #73/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » IRON
+[15:33:15] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[15:33:17] [Async Chat Thread - #73/INFO]: [Not Secure] Admin || Clstial || » im getting oak rn
+[15:33:21] [Async Chat Thread - #73/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nvm
+[15:33:22] [Async Chat Thread - #73/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » its copper
+[15:33:25] [Async Chat Thread - #72/INFO]: [Not Secure] Admin || Clstial || » LOL
+[15:33:29] [Async Chat Thread - #72/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » fuck
+[15:33:31] [Async Chat Thread - #72/INFO]: [Not Secure] Admin || Clstial || » i cant find diamon
+[15:33:40] [Async Chat Thread - #72/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » go on 1.21.11
+[15:33:46] [Async Chat Thread - #72/INFO]: [Not Secure] Admin || Clstial || » I CANT
+[15:33:48] [Async Chat Thread - #72/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » why
+[15:33:57] [Async Chat Thread - #73/INFO]: [Not Secure] Admin || Clstial || » bec you did not send me the client
+[15:34:00] [Async Chat Thread - #72/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » oh
+[15:34:02] [Async Chat Thread - #72/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wait
+[15:34:04] [Async Chat Thread - #73/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » lemme send
+[15:35:06] [Async Chat Thread - #74/INFO]: [Not Secure] Admin || Clstial || » alr
+[15:35:12] [Async Chat Thread - #75/INFO]: [Not Secure] Admin || Clstial || » i got stack of oak
+[15:36:15] [Server thread/INFO]: Clstial issued server command: /home home
+[15:36:18] [Async Chat Thread - #76/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wait
+[15:36:26] [Async Chat Thread - #76/INFO]: [Not Secure] Admin || Clstial || » >
+[15:36:27] [Async Chat Thread - #77/INFO]: [Not Secure] Admin || Clstial || » ?
+[15:36:29] [Async Chat Thread - #76/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » im writing a mail to other techer
+[15:36:34] [Async Chat Thread - #77/INFO]: [Not Secure] Admin || Clstial || » oh
+[15:36:36] [Async Chat Thread - #76/INFO]: [Not Secure] Admin || Clstial || » k
+[15:36:46] [Async Chat Thread - #76/INFO]: [Not Secure] Admin || Clstial || » oaks in chest
+[15:38:09] [Server thread/INFO]: EntityZ096x (as console): i sent u via mail
+[15:38:15] [Async Chat Thread - #78/INFO]: [Not Secure] Admin || Clstial || » alr
+[15:38:16] [Async Chat Thread - #78/INFO]: [Not Secure] Admin || Clstial || » ty
+[15:38:26] [Server thread/INFO]: Clstial issued server command: /pay EntityZ096x 1
+[15:38:31] [Craft Scheduler Thread - 584 - Skript/INFO]: [Skript]     A location failed to serialize with its defined world, as the world was unloaded.
+[15:38:31] [Craft Scheduler Thread - 584 - Skript/INFO]: [Skript]     A location failed to serialize with its defined world, as the world was unloaded.
+[15:38:31] [Craft Scheduler Thread - 584 - Skript/INFO]: [Skript]     A location failed to serialize with its defined world, as the world was unloaded.
+[15:38:34] [Async Chat Thread - #78/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wow
+[15:38:36] [Async Chat Thread - #79/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » 1 dollah
+[15:38:36] [Async Chat Thread - #79/INFO]: [Not Secure] Admin || Clstial || » ?
+[15:38:38] [Async Chat Thread - #79/INFO]: [Not Secure] Admin || Clstial || » yeh
+[15:38:43] [Async Chat Thread - #78/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » so much
+[15:38:43] [Server thread/INFO]: Clstial issued server command: /pay EntityZ096x 500
+[15:38:46] [Async Chat Thread - #78/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ty
+[15:38:46] [Async Chat Thread - #79/INFO]: [Not Secure] Admin || Clstial || » so mutch
+[15:38:54] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[15:39:16] [Async Chat Thread - #79/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » kill some sheeps
+[15:39:22] [Async Chat Thread - #78/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » so we can make villager breeder
+[15:39:32] [Async Chat Thread - #79/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » we need wool for beds
+[15:39:58] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[15:40:10] [Async Chat Thread - #79/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » u got some dirt?
+[15:40:19] [Async Chat Thread - #78/INFO]: [Not Secure] Admin || Clstial || » my chrome cant load al of the things
+[15:40:25] [Async Chat Thread - #78/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUC
+[15:40:28] [Async Chat Thread - #79/INFO]: [Not Secure] Admin || Clstial || » no i dont have durt
+[15:40:28] [Async Chat Thread - #79/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » my iron pick broke
+[15:40:32] [Async Chat Thread - #79/INFO]: [Not Secure] Admin || Clstial || » lol
+[15:40:37] [Async Chat Thread - #78/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » also just close all tabs and then open it
+[15:40:41] [Async Chat Thread - #78/INFO]: [Not Secure] Admin || Clstial || » make a new one
+[15:40:48] [Async Chat Thread - #78/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » aight
+[15:40:49] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[15:41:35] [Server thread/INFO]: Clstial was kicked due to keepalive timeout!
+[15:41:35] [Server thread/INFO]: Clstial lost connection: Timed out
+[15:41:35] [Server thread/INFO]: [-] Clstial
+[15:41:38] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[15:44:00] [Async Chat Thread - #81/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » give EntityZ096x water_bucket 1
+[15:44:03] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x water_bucket 1
+[15:44:53] [User Authenticator #30/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[15:44:53] [Server thread/INFO]: [+] Clstial
+[15:44:53] [Server thread/INFO]: Clstial[/127.0.0.1:50966] logged in with entity id 122839 at ([minecraft:survival]19895.32708302471, 68.0, 15035.58760608095)
+[15:44:53] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:44:53] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:44:55] [Server thread/INFO]: Clstial issued server command: /login celest
+[15:44:56] [Async Chat Thread - #81/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » yo wsp
+[15:44:58] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[15:44:58] [Async Chat Thread - #82/INFO]: [Not Secure] Admin || Clstial || » BRO
+[15:45:00] [Async Chat Thread - #81/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » what
+[15:45:02] [Async Chat Thread - #81/INFO]: [Not Secure] Admin || Clstial || » YOu JUST CRASHED
+[15:45:03] [Async Chat Thread - #82/INFO]: [Not Secure] Admin || Clstial || » ME
+[15:45:05] [Async Chat Thread - #81/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » bruh
+[15:45:10] [Async Chat Thread - #82/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » DELETE ALL TABS
+[15:45:14] [Async Chat Thread - #82/INFO]: [Not Secure] Admin || Clstial || » this is not the 1.21 btw
+[15:45:14] [Async Chat Thread - #82/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » like i said
+[15:45:16] [Server thread/INFO]: Clstial lost connection: Disconnected
+[15:45:16] [Server thread/INFO]: [-] Clstial
+[15:45:17] [Async Chat Thread - #83/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ?
+[15:45:49] [User Authenticator #31/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[15:45:49] [Server thread/INFO]: [+] Clstial
+[15:45:49] [Server thread/INFO]: Clstial[/127.0.0.1:36022] logged in with entity id 122915 at ([minecraft:lobby]0.5, 64.0, 0.5)
+[15:45:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:45:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:45:52] [Server thread/INFO]: Clstial issued server command: /login celest
+[15:45:53] [Async Chat Thread - #83/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » see
+[15:45:56] [Async Chat Thread - #82/INFO]: [Not Secure] Admin || Clstial || » alr
+[15:46:16] [Server thread/INFO]: EntityZ096x issued server command: /fly
+[15:47:19] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » bro wya
+[15:47:36] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » lobby
+[15:47:42] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » bro go survival
+[15:47:44] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » no full bright???
+[15:47:51] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » just give urself nv
+[15:48:12] [Server thread/INFO]: Clstial issued server command: /effect give Clstial minecraft:night_vision
+[15:48:12] [Server thread/INFO]: [Clstial: Applied effect Night Vision to Clstial]
+[15:48:16] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » alr
+[15:48:34] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » locator barr???
+[15:48:37] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » yep
+[15:48:43] [Server thread/INFO]: EntityZ096x issued server command: /home Clstial:
+[15:48:47] [Server thread/INFO]: EntityZ096x issued server command: /home base
+[15:48:51] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » what
+[15:48:54] [Server thread/INFO]: Clstial issued server command: /gmc
+[15:49:05] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » i cant night vis my self
+[15:49:05] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » villager funnel system
+[15:49:07] [Server thread/INFO]: Clstial issued server command: /gms
+[15:49:12] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wait
+[15:49:23] [Server thread/INFO]: EntityZ096x issued server command: /effect give Clstial minecraft:night_vision infinite 225 true
+[15:49:23] [Server thread/INFO]: [EntityZ096x: Applied effect Night Vision to Clstial]
+[15:49:24] [Server thread/INFO]: Clstial issued server command: /effect give Clstial minecraft:night_vision infinite
+[15:49:24] [Server thread/INFO]: [Clstial: Applied effect Night Vision to Clstial]
+[15:49:27] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » ok ty
+[15:49:28] [Server thread/INFO]: EntityZ096x issued server command: /effect give Clstial minecraft:night_vision infinite 225 true
+[15:49:28] [Server thread/INFO]: [EntityZ096x: Applied effect Night Vision to Clstial]
+[15:50:23] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » my pick broke
+[15:50:30] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » skill issue
+[15:50:36] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » btw
+[15:50:49] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » theres a bug that if u rtp into nether it will spwan u in nether roof
+[15:50:51] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ALWAYS
+[15:51:08] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » you allex
+[15:51:11] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » bruh
+[15:51:20] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ye the skin is broken in 1.21.
+[15:51:39] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » do u have beds
+[15:51:42] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » no
+[15:51:43] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[15:51:47] [Server thread/INFO]: Clstial issued server command: /home
+[15:52:02] [Server thread/INFO]: Clstial issued server command: /rtp
+[15:52:07] [Server thread/INFO]: Clstial issued server command: /recipes
+[15:52:19] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » you chould make /recipes
+[15:52:22] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » why
+[15:52:26] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » for what
+[15:52:32] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » idk
+[15:52:40] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » dragon egg stuff?
+[15:52:42] [Server thread/INFO]: Villager Villager['Nitwit'/115364, uuid='ee451d08-bed8-48ed-802f-793ba8ac1d0a', l='ServerLevel[world]', x=19882.78, y=69.77, z=15035.52, cpos=[1242, 939], tl=59392, v=true] died, message: 'Nitwit burned to death'
+[15:52:44] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » THESSE VILLAGERS
+[15:52:47] [Server thread/INFO]: Villager Villager['Villager'/115319, uuid='9ce8b4bb-28d2-4a05-ab5c-a0c4bf564d16', l='ServerLevel[world]', x=19881.87, y=70.00, z=15035.48, cpos=[1242, 939], tl=59634, v=true] died, message: 'Villager burned to death'
+[15:52:49] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » THEY DUMBAHH
+[15:52:51] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » they died
+[15:52:52] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » :)
+[15:52:54] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » ::::::
+[15:52:55] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » no problem
+[15:52:56] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ...
+[15:53:04] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » imma spawn some in rq
+[15:53:06] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[15:53:08] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » lol
+[15:53:18] [Server thread/INFO]: Villager Villager['Nitwit'/115312, uuid='4e91e4f6-2d1e-4fea-8bef-2f5a2e11a124', l='ServerLevel[world]', x=19896.70, y=69.00, z=15035.30, cpos=[1243, 939], tl=50382, v=true] died, message: 'Nitwit hit the ground too hard while trying to escape EntityZ096x'
+[15:53:50] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » bro 1.21 is SO LAGY
+[15:53:55] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » render dist
+[15:54:02] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » + its 1.21 what did u think
+[15:54:37] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » i cant find
+[15:54:42] [Server thread/INFO]: Clstial issued server command: /sell
+[15:54:43] [Server thread/INFO]: Shop » Clstial sold 1x Oak Log(wood.page1.items.oak_log) for $1.00 with the sell gui.
+[15:54:45] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » what
+[15:54:50] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » can u not find
+[15:54:52] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » woooll;
+[15:54:54] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » bruh
+[15:54:58] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » bro i have locator bar
+[15:55:00] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[15:55:00] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[15:55:08] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ok they should respawn
+[15:55:09] [Server thread/INFO]: Clstial issued server command: /home home
+[15:55:20] [Server thread/INFO]: Clstial issued server command: /tpa en
+[15:55:24] [Server thread/INFO]: EntityZ096x issued server command: /tpaccpet
+[15:55:26] [Server thread/INFO]: EntityZ096x issued server command: /tpaccept
+[15:55:28] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[15:55:41] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ???????????//
+[15:55:41] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » why
+[15:55:45] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » leaf litter
+[15:56:13] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » bro
+[15:56:15] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » ?
+[15:56:18] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » tats not needed
+[15:56:44] [Server thread/INFO]: Clstial issued server command: /sethome s
+[15:56:47] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ?
+[15:56:54] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » bro try to find wool
+[15:56:56] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » WHY
+[15:56:59] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » I CANT
+[15:57:03] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » these are for villagers
+[15:57:06] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » oh
+[15:57:09] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » TREEEEE
+[15:57:11] [Server thread/INFO]: Clstial issued server command: /rtp
+[15:57:15] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » NIGGER
+[15:57:20] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x bed
+[15:57:24] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x red_bed
+[15:57:26] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » dal right
+[15:57:30] [Server thread/INFO]: Clstial issued server command: /sell
+[15:57:37] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » no one knows i cheated in the beds :)
+[15:57:43] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[15:57:44] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[15:57:46] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » lol
+[15:57:48] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[15:57:48] [Server thread/INFO]: Clstial issued server command: /home home
+[15:57:54] [Server thread/INFO]: EntityZ096x issued server command: /summon villager
+[15:57:54] [Server thread/INFO]: [EntityZ096x: Summoned new Villager]
+[15:57:56] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » im just going on normal client
+[15:57:56] [Server thread/INFO]: EntityZ096x issued server command: /summon villager
+[15:57:56] [Server thread/INFO]: [EntityZ096x: Summoned new Villager]
+[15:57:58] [Server thread/INFO]: Clstial lost connection: Disconnected
+[15:57:58] [Server thread/INFO]: [-] Clstial
+[15:57:59] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ok
+[15:58:01] [User Authenticator #32/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[15:58:02] [Server thread/INFO]: [+] Clstial
+[15:58:02] [Server thread/INFO]: Clstial[/127.0.0.1:54802] logged in with entity id 125424 at ([minecraft:survival]19896.97293803644, 69.0, 15034.175797822612)
+[15:58:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:58:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[15:58:04] [Server thread/INFO]: Clstial issued server command: /login celest
+[15:58:14] [Server thread/INFO]: Clstial issued server command: /home s
+[15:58:34] [Server thread/INFO]: Clstial issued server command: /sethome s
+[15:58:36] [Server thread/INFO]: Clstial issued server command: /home
+[15:58:46] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » make a thing
+[15:58:48] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » camposter
+[15:58:53] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » ehh
+[15:58:54] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » idk how
+[15:58:59] [Async Chat Thread - #85/INFO]: [Not Secure] Admin || Clstial || » wait nvm
+[15:59:01] [Server thread/INFO]: Clstial issued server command: /home home
+[15:59:23] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » back
+[15:59:29] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » how do u not knwo bro
+[15:59:34] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » NOOO
+[15:59:48] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » make just
+[15:59:50] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » 1
+[15:59:55] [Async Chat Thread - #84/INFO]: [Not Secure] Admin || Clstial || » yeey
+[15:59:58] [Server thread/INFO]: Clstial issued server command: /home s
+[16:00:06] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nice
+[16:00:09] [Server thread/INFO]: Clstial issued server command: /home home
+[16:00:19] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » cillagers are trapped
+[16:00:22] [Async Chat Thread - #84/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » imma get som seeds
+[16:00:29] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x wheat_seeds 128
+[16:00:55] [Async Chat Thread - #85/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » why dont they pick the seeds up
+[16:01:07] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x torcch 1
+[16:01:14] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x torch 8
+[16:01:59] [Async Chat Thread - #87/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wait lemme test smth
+[16:02:03] [Server thread/INFO]: EntityZ096x issued server command: /tick sprint 1d
+[16:02:03] [Server thread/INFO]: [EntityZ096x: The game is sprinting]
+[16:02:04] [Server thread/INFO]: Clstial lost connection: You are sending too many packets!
+[16:02:04] [Server thread/INFO]: [-] Clstial
+[16:02:07] [User Authenticator #33/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[16:02:07] [Server thread/INFO]: [+] Clstial
+[16:02:07] [Server thread/INFO]: Clstial[/127.0.0.1:44196] logged in with entity id 125816 at ([minecraft:survival]19895.98712297634, 69.0, 15036.291909510872)
+[16:02:07] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[16:02:07] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[16:02:09] [Server thread/INFO]: EntityZ096x lost connection: Kicked for exceeding packet rate limit
+[16:02:09] [Server thread/INFO]: [-] EntityZ096x
+[16:02:09] [Server thread/INFO]: Clstial lost connection: You took too long to login/register!
+[16:02:09] [Server thread/INFO]: [-] Clstial
+[16:02:10] [Craft Scheduler Thread - 587 - Skript/INFO]: [Skript]     A location failed to serialize with its defined world, as the world was unloaded.
+[16:02:10] [Craft Scheduler Thread - 587 - Skript/INFO]: [Skript]     A location failed to serialize with its defined world, as the world was unloaded.
+[16:02:12] [Server thread/INFO]: Sprint completed with 2660 ticks per second, or 0.38 ms per tick
+[16:02:12] [User Authenticator #34/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[16:02:13] [Server thread/INFO]: [+] Clstial
+[16:02:13] [Server thread/INFO]: Clstial[/127.0.0.1:45280] logged in with entity id 125851 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[16:02:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[16:02:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[16:02:14] [User Authenticator #35/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:02:14] [Server thread/INFO]: [+] EntityZ096x
+[16:02:14] [Server thread/INFO]: EntityZ096x[/127.0.0.1:45292] logged in with entity id 125852 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[16:02:14] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:02:14] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:02:15] [Server thread/INFO]: Clstial issued server command: /login celest
+[16:02:17] [Async Chat Thread - #87/INFO]: [Not Secure] Admin || Clstial || » what/??
+[16:02:21] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[16:02:33] [Async Chat Thread - #87/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i did tick sprint
+[16:02:42] [Async Chat Thread - #87/INFO]: [Not Secure] Admin || Clstial || » what?
+[16:02:42] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[16:02:51] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 100
+[16:02:51] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 100.0 per second]
+[16:03:01] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x bread
+[16:03:06] [Server thread/INFO]: Clstial issued server command: /rtp
+[16:03:25] [Server thread/INFO]: Clstial issued server command: /ec
+[16:03:27] [Server thread/INFO]: EntityZ096x has made the advancement [A Seedy Place]
+[16:03:36] [Async Chat Thread - #87/INFO]: [Not Secure] Admin || Clstial || » WOOl
+[16:03:54] [Async Chat Thread - #89/INFO]: [Not Secure] Admin || Clstial || » MAKE TICKSPEED SLOWER
+[16:03:57] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 10
+[16:03:57] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 10.0 per second]
+[16:03:59] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 20
+[16:03:59] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 20.0 per second]
+[16:04:13] [Async Chat Thread - #87/INFO]: [Not Secure] Admin || Clstial || » i gtg bye
+[16:04:15] [Server thread/INFO]: Clstial lost connection: Disconnected
+[16:04:15] [Server thread/INFO]: [-] Clstial
+[16:04:15] [Async Chat Thread - #89/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » bye
+[16:04:20] [Server thread/INFO]: EntityZ096x issued server command: /tick sprint 1h
+[16:04:28] [Server thread/INFO]: EntityZ096x issued server command: /tick sprint 180s
+[16:04:28] [Server thread/INFO]: [EntityZ096x: The game is sprinting]
+[16:04:29] [Server thread/INFO]: EntityZ096x lost connection: You are sending too many packets!
+[16:04:29] [Server thread/INFO]: [-] EntityZ096x
+[16:04:29] [Server thread/INFO]: Sprint completed with 2888 ticks per second, or 0.35 ms per tick
+[16:04:35] [User Authenticator #36/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:04:36] [Server thread/INFO]: [+] EntityZ096x
+[16:04:36] [Server thread/INFO]: EntityZ096x[/127.0.0.1:48728] logged in with entity id 127274 at ([minecraft:survival]19882.613006116764, 69.5625, 15049.721856333741)
+[16:04:36] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:04:36] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:04:40] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[16:04:51] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[16:05:00] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[16:05:10] [Server thread/INFO]: EntityZ096x issued server command: /op en
+[16:05:10] [Server thread/INFO]: [EntityZ096x: Made en a server operator]
+[16:05:16] [Server thread/INFO]: EntityZ096x issued server command: /op EntityZ096x
+[16:05:19] [Server thread/INFO]: EntityZ096x issued server command: /op EntityZ096x
+[16:05:39] [Server thread/INFO]: Villager Villager['Farmer'/127323, uuid='74f6b1d4-2a1c-49ec-8cae-7c866523d416', l='ServerLevel[world]', x=19881.50, y=68.94, z=15046.70, cpos=[1242, 940], tl=1077, v=true] died, message: 'Farmer was slain by EntityZ096x'
+[16:05:48] [Server thread/INFO]: Villager Villager['Farmer'/127324, uuid='c580cdf7-7073-4cea-8d39-fd03a64f9f45', l='ServerLevel[world]', x=19886.50, y=68.94, z=15046.70, cpos=[1242, 940], tl=1261, v=true] died, message: 'Farmer was slain by EntityZ096x'
+[16:05:57] [Server thread/INFO]: EntityZ096x issued server command: /summon villager
+[16:05:57] [Server thread/INFO]: [EntityZ096x: Summoned new Villager]
+[16:05:59] [Server thread/INFO]: EntityZ096x issued server command: /summon villager
+[16:05:59] [Server thread/INFO]: [EntityZ096x: Summoned new Villager]
+[16:06:07] [Server thread/INFO]: EntityZ096x issued server command: /time set day
+[16:07:01] [Server thread/INFO]: EntityZ096x issued server command: /gmsp
+[16:07:09] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 100
+[16:07:09] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 100.0 per second]
+[16:07:15] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 200
+[16:07:15] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 200.0 per second]
+[16:07:21] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 2000
+[16:07:21] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 2000.0 per second]
+[16:07:21] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[16:07:21] [Server thread/INFO]: [-] EntityZ096x
+[16:07:29] [Server thread/INFO]: Set the target tick rate to 1000.0 per second
+[16:07:31] [User Authenticator #37/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:07:31] [Server thread/INFO]: [+] EntityZ096x
+[16:07:31] [Server thread/INFO]: EntityZ096x[/127.0.0.1:60816] logged in with entity id 127476 at ([minecraft:survival]19886.753943142197, 75.08342899605852, 15044.047280894694)
+[16:07:31] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:07:31] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:07:32] [Server thread/INFO]: EntityZ096x lost connection: You took too long to login/register!
+[16:07:33] [Server thread/INFO]: [-] EntityZ096x
+[16:07:36] [User Authenticator #38/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:07:36] [Server thread/INFO]: [+] EntityZ096x
+[16:07:36] [Server thread/INFO]: EntityZ096x[/127.0.0.1:60820] logged in with entity id 127484 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[16:07:36] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:07:36] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:07:37] [Server thread/INFO]: EntityZ096x lost connection: You are sending too many packets!
+[16:07:37] [Server thread/INFO]: [-] EntityZ096x
+[16:07:41] [Server thread/INFO]: Set the target tick rate to 100.0 per second
+[16:07:43] [User Authenticator #39/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:07:43] [Server thread/INFO]: [+] EntityZ096x
+[16:07:43] [Server thread/INFO]: EntityZ096x[/127.0.0.1:44976] logged in with entity id 127485 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[16:07:43] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:07:43] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:07:47] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[16:07:54] [Server thread/INFO]: Set the target tick rate to 500.0 per second
+[16:08:09] [Server thread/INFO]: EntityZ096x lost connection: Kicked for exceeding packet rate limit
+[16:08:09] [Server thread/INFO]: [-] EntityZ096x
+[16:08:13] [User Authenticator #40/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:08:13] [Server thread/INFO]: [+] EntityZ096x
+[16:08:13] [Server thread/INFO]: EntityZ096x[/127.0.0.1:39394] logged in with entity id 127556 at ([minecraft:survival]19886.679419858865, 75.82332701190553, 15051.150663424727)
+[16:08:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:08:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:08:15] [Server thread/INFO]: EntityZ096x lost connection: You took too long to login/register!
+[16:08:16] [Server thread/INFO]: [-] EntityZ096x
+[16:08:18] [User Authenticator #41/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:08:18] [Server thread/INFO]: [+] EntityZ096x
+[16:08:18] [Server thread/INFO]: EntityZ096x[/127.0.0.1:39406] logged in with entity id 127563 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[16:08:18] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:08:18] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:08:20] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[16:08:27] [Server thread/INFO]: EntityZ096x lost connection: Kicked for exceeding packet rate limit
+[16:08:27] [Server thread/INFO]: [-] EntityZ096x
+[16:08:31] [Server thread/INFO]: Set the target tick rate to 300.0 per second
+[16:08:34] [User Authenticator #42/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:08:34] [Server thread/INFO]: [+] EntityZ096x
+[16:08:34] [Server thread/INFO]: EntityZ096x[/127.0.0.1:37680] logged in with entity id 127625 at ([minecraft:survival]19887.70682040218, 75.82332701190553, 15049.317701004296)
+[16:08:34] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:08:34] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:08:38] [Server thread/INFO]: EntityZ096x lost connection: You took too long to login/register!
+[16:08:39] [Server thread/INFO]: [-] EntityZ096x
+[16:08:42] [User Authenticator #43/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:08:42] [Server thread/INFO]: [+] EntityZ096x
+[16:08:42] [Server thread/INFO]: EntityZ096x[/127.0.0.1:59148] logged in with entity id 127632 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[16:08:42] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:08:42] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:08:45] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[16:09:02] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[16:09:22] [Server thread/INFO]: Villager Villager['Farmer'/127671, uuid='ea57cf92-8f3e-4b15-ad0f-67a8b1b3bae3', l='ServerLevel[world]', x=19881.50, y=68.94, z=15046.70, cpos=[1242, 940], tl=10631, v=true] died, message: 'Farmer was slain by EntityZ096x'
+[16:09:23] [Server thread/INFO]: Villager Villager['Farmer'/127672, uuid='b7006e8c-484d-4eea-8472-73cfae91b1eb', l='ServerLevel[world]', x=19881.50, y=68.94, z=15046.70, cpos=[1242, 940], tl=10888, v=true] died, message: 'Farmer was slain by EntityZ096x'
+[16:09:36] [Server thread/INFO]: EntityZ096x issued server command: /tp @r[type=villager] @p
+[16:09:40] [Server thread/INFO]: EntityZ096x issued server command: /minecrafttp @r[type=villager] @p
+[16:09:50] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @r[type=villager] @p
+[16:09:55] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @r[type=villager] @p
+[16:09:57] [Server thread/INFO]: EntityZ096x issued server command: /gmsp
+[16:10:07] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager] @p
+[16:10:07] [Server thread/INFO]: [EntityZ096x: Teleported 4 entities to EntityZ096x]
+[16:10:33] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x bread 100000
+[16:10:35] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[16:11:27] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 20
+[16:11:27] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 20.0 per second]
+[16:11:48] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 200
+[16:11:48] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 200.0 per second]
+[16:12:51] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 20
+[16:12:51] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 20.0 per second]
+[16:13:22] [Server thread/INFO]: EntityZ096x issued server command: /leash
+[16:13:54] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random]
+[16:13:54] [Server thread/INFO]: [EntityZ096x: Teleported EntityZ096x to Villager]
+[16:14:00] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:00] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:11] [Server thread/INFO]: EntityZ096x issued server command: /gmsp
+[16:14:16] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:16] [Server thread/INFO]: [EntityZ096x: Teleported Farmer to EntityZ096x]
+[16:14:18] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:18] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:18] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:18] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:19] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:19] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:29] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:29] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:29] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:29] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:29] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:29] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:30] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:30] [Server thread/INFO]: [EntityZ096x: Teleported Farmer to EntityZ096x]
+[16:14:30] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:30] [Server thread/INFO]: [EntityZ096x: Teleported Farmer to EntityZ096x]
+[16:14:30] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:30] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:30] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:30] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:31] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:31] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:31] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:31] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:31] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:31] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:31] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:31] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:32] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:32] [Server thread/INFO]: [EntityZ096x: Teleported Weaponsmith to EntityZ096x]
+[16:14:32] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:32] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:32] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:32] [Server thread/INFO]: [EntityZ096x: Teleported Weaponsmith to EntityZ096x]
+[16:14:32] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:32] [Server thread/INFO]: [EntityZ096x: Teleported Farmer to EntityZ096x]
+[16:14:33] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:33] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:33] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:33] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:33] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:33] [Server thread/INFO]: [EntityZ096x: Teleported Farmer to EntityZ096x]
+[16:14:34] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:34] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:34] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:34] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:34] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:34] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:34] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:34] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:35] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:35] [Server thread/INFO]: [EntityZ096x: Teleported Weaponsmith to EntityZ096x]
+[16:14:43] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:43] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:45] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:45] [Server thread/INFO]: [EntityZ096x: Teleported Weaponsmith to EntityZ096x]
+[16:14:46] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:46] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:48] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:48] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:49] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:tp @e[type=villager,limit=1,sort=random] @p
+[16:14:49] [Server thread/INFO]: [EntityZ096x: Teleported Villager to EntityZ096x]
+[16:14:54] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[16:15:09] [Server thread/INFO]: EntityZ096x issued server command: /gmsp
+[16:15:18] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[16:15:24] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x lodestone
+[16:15:28] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x grindstone
+[16:15:41] [Server thread/INFO]: EntityZ096x issued server command: /gmsp
+[16:15:46] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[16:15:58] [Server thread/INFO]: Villager Villager['Villager'/127674, uuid='689ea237-dbcb-4727-8317-31e6f399d1cd', l='ServerLevel[world]', x=19882.13, y=69.00, z=15046.70, cpos=[1242, 940], tl=64415, v=true] died, message: 'Villager was slain by EntityZ096x'
+[16:16:00] [Server thread/INFO]: Villager Villager['Weaponsmith'/127675, uuid='9e1cfd0c-5e80-4fb0-a35c-1321d94a0efd', l='ServerLevel[world]', x=19878.50, y=69.00, z=15046.70, cpos=[1242, 940], tl=64386, v=true] died, message: 'Weaponsmith was slain by EntityZ096x'
+[16:16:18] [Server thread/INFO]: EntityZ096x issued server command: /time set day
+[16:16:29] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 20
+[16:16:29] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 20.0 per second]
+[16:16:30] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 200
+[16:16:30] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 200.0 per second]
+[16:17:00] [Server thread/INFO]: EntityZ096x issued server command: /gmsp
+[16:17:04] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[16:17:16] [Server thread/INFO]: Villager Villager['Villager'/129349, uuid='8356cdd7-e448-41e3-be2a-e8f93ab54a4a', l='ServerLevel[world]', x=19890.01, y=67.37, z=15043.09, cpos=[1243, 940], tl=28197, v=true] died, message: 'Villager was slain by EntityZ096x'
+[16:17:18] [Server thread/INFO]: Villager Villager['Villager'/128895, uuid='5ab408b3-1969-4796-ae54-1e8bc9bd286b', l='ServerLevel[world]', x=19890.70, y=67.31, z=15042.82, cpos=[1243, 940], tl=31573, v=true] died, message: 'Villager was slain by EntityZ096x'
+[16:17:20] [Server thread/INFO]: Villager Villager['Villager'/129514, uuid='58152d9b-adfc-42e9-a744-a34a5d43673d', l='ServerLevel[world]', x=19890.15, y=67.40, z=15042.81, cpos=[1243, 940], tl=24692, v=true] died, message: 'Villager was slain by EntityZ096x'
+[16:17:21] [Server thread/INFO]: Villager Villager['Villager'/130114, uuid='1ed2e344-98d6-4d89-a865-c14f612ddcfc', l='ServerLevel[world]', x=19890.74, y=67.49, z=15042.95, cpos=[1243, 940], tl=10297, v=true] died, message: 'Villager was slain by EntityZ096x'
+[16:17:22] [Server thread/INFO]: Villager Villager['Villager'/130117, uuid='2ed52e73-a2b3-414a-958e-ca7a33a4e3b2', l='ServerLevel[world]', x=19890.15, y=67.29, z=15042.25, cpos=[1243, 940], tl=10391, v=true] died, message: 'Villager was slain by EntityZ096x'
+[16:17:23] [Server thread/INFO]: Villager Villager['Villager'/130115, uuid='a8ac929a-1290-4e33-aba1-5ee5bbe072c6', l='ServerLevel[world]', x=19890.75, y=67.19, z=15042.25, cpos=[1243, 940], tl=10721, v=true] died, message: 'Villager was slain by EntityZ096x'
+[16:17:25] [Server thread/INFO]: Villager Villager['Villager'/130116, uuid='324891dd-0163-495a-b577-aa8959e0da56', l='ServerLevel[world]', x=19890.75, y=67.18, z=15042.25, cpos=[1243, 940], tl=10940, v=true] died, message: 'Villager was slain by EntityZ096x'

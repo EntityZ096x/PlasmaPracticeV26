@@ -12,31 +12,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1791299797442
+  lastteleport: 1791302409344
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1791294934979
-  login: 1791295037976
-money: '14.46'
+  logout: 1791302655252
+  login: 1791302533162
+money: '1016.53'
 last-account-name: Clstial
 logoutlocation:
-  world: 2fa61f74-6ba8-4d4f-8e14-448148591117
+  world: ae3fd088-f335-4304-928c-e6a701fdd5bc
   world-name: Survival
-  x: 11377.478152663061
-  y: 74.0
-  z: -36022.114776766524
-  yaw: -136.49755859375
-  pitch: 47.09996795654297
+  x: -13732.99476659027
+  y: 66.0
+  z: -28404.29996905239
+  yaw: 11.54980182647705
+  pitch: 22.800065994262695
 lastlocation:
   world: ae3fd088-f335-4304-928c-e6a701fdd5bc
   world-name: Survival
-  x: -79.5
-  y: 75.0
-  z: -15.5
-  yaw: -125.84996032714844
-  pitch: 87.1500015258789
+  x: 19878.53109980341
+  y: 69.0
+  z: 15047.156499607225
+  yaw: -92.9995346069336
+  pitch: 24.89990997314453
 homes:
   home:
     world: ae3fd088-f335-4304-928c-e6a701fdd5bc
@@ -62,3 +62,11 @@ homes:
     z: 15046.5
     yaw: 6.749967098236084
     pitch: -2.1000020503997803
+  s:
+    world: ae3fd088-f335-4304-928c-e6a701fdd5bc
+    world-name: Survival
+    x: 19883.564174702227
+    y: 69.0
+    z: 15048.300000011921
+    yaw: 89.70052337646484
+    pitch: 26.399913787841797
