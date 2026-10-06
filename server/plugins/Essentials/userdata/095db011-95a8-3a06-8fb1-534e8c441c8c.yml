@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
 godmode: false
-flymode: true
+flymode: false
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -17,23 +17,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1791275155984
-  login: 1791281533070
+  logout: 1791284940681
+  login: 1791284728570
 money: '0'
 last-account-name: JustDan12
 logoutlocation:
   world: f70b1dbe-264f-4011-9770-0a60de88db6d
   world-name: Lobby
-  x: 17.31692640632794
-  y: 113.0
-  z: -225.64632952575468
-  yaw: -7.268235206604004
-  pitch: 18.460365295410156
+  x: 9.841200162675577
+  y: 100.0
+  z: -204.15022648851502
+  yaw: 34.244503021240234
+  pitch: 10.879554748535156
 lastlocation:
   world: f70b1dbe-264f-4011-9770-0a60de88db6d
   world-name: Lobby
-  x: -0.09819069377428619
-  y: 63.0
-  z: -6.628285192597234
-  yaw: 165.7215576171875
-  pitch: 3.5328211784362793
+  x: 1.986135209904527
+  y: 100.0
+  z: -196.02074653934685
+  yaw: 45.679168701171875
+  pitch: 56.745941162109375
