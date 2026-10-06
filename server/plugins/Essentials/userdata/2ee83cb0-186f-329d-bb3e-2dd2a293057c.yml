@@ -18,7 +18,7 @@ timestamps:
   jail: 0
   onlinejail: 0
   logout: 1791275157125
-  login: 1791274864439
+  login: 1791281506436
 money: '428866.4999999999999999'
 logoutlocation:
   world: f70b1dbe-264f-4011-9770-0a60de88db6d
@@ -32,8 +32,8 @@ last-account-name: EntityZ096x
 lastlocation:
   world: f70b1dbe-264f-4011-9770-0a60de88db6d
   world-name: Lobby
-  x: 17.638612596492635
-  y: 110.08003675043105
-  z: -219.5102636699672
-  yaw: 166.4980926513672
-  pitch: -36.150001525878906
+  x: -2.4837088279309683
+  y: 60.0
+  z: -134.1086153947204
+  yaw: -179.56031799316406
+  pitch: -11.281275749206543
