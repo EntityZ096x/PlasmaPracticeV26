@@ -191,9 +191,9 @@ minecraft:survival:
   scale: 1.0
   spawn-location:
     ==: MVSpawnLocation
-    x: 0.0
-    y: 63.0
-    z: 6.0
+    x: -80.0
+    y: 75.0
+    z: -16.0
     pitch: 0.0
     yaw: 0.0
   spawning:
@@ -242,7 +242,7 @@ minecraft:survival:
     environment: normal
     generator-settings: ''
     legacy-world-name: Survival
-    seed: 5968851172570701313
+    seed: 6978540395022499852
   version: 1.3
 minecraft:survival_nether:
   adjust-spawn: true
