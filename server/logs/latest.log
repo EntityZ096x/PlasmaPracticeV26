@@ -1225,3 +1225,417 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 [13:12:16] [Server thread/INFO]:     Line: on player hotbar slot change:
 [13:12:16] [Server thread/INFO]:  
 [13:12:16] [Server thread/INFO]:     Encountered 1 error while reloading lunge.sk! (11ms)
+[13:32:23] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:32:23] [Server thread/INFO]: Line 1: (bugfixes/lunge.sk)
+[13:32:23] [Server thread/INFO]:     Can't understand this structure: on hotbar slot change
+[13:32:23] [Server thread/INFO]:     Line: on hotbar slot change:
+[13:32:23] [Server thread/INFO]:  
+[13:32:23] [Server thread/INFO]:     Encountered 1 error while reloading lunge.sk! (5ms)
+[13:32:40] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:32:40] [Server thread/INFO]: Line 1: (bugfixes/lunge.sk)
+[13:32:40] [Server thread/INFO]:     Can't understand this structure: on player item held
+[13:32:40] [Server thread/INFO]:     Line: on player item held:
+[13:32:40] [Server thread/INFO]:  
+[13:32:40] [Server thread/INFO]:     Encountered 1 error while reloading lunge.sk! (3ms)
+[13:32:51] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:32:51] [Server thread/INFO]: Line 5: (bugfixes/lunge.sk)
+[13:32:51] [Server thread/INFO]:     There's no command sender in a reflection event.
+[13:32:51] [Server thread/INFO]:     Line: send "a" to player
+[13:32:51] [Server thread/INFO]:  
+[13:32:51] [Server thread/INFO]:     Encountered 1 error while reloading lunge.sk! (28ms)
+[13:33:05] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:33:05] [Server thread/INFO]: Successfully reloaded lunge.sk. (3ms)
+[13:33:13] [User Authenticator #23/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[13:33:13] [Server thread/INFO]: [+] EntityZ096x
+[13:33:13] [Server thread/INFO]: EntityZ096x[/127.0.0.1:46252] logged in with entity id 25440 at ([minecraft:lobby]-20.788844887533614, 60.0, 3.150575617752569)
+[13:33:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[13:33:13] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[13:33:15] [Server thread/INFO]: a
+[13:33:16] [Server thread/INFO]: a
+[13:33:16] [Server thread/INFO]: a
+[13:33:16] [Server thread/INFO]: a
+[13:33:30] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:33:30] [Server thread/INFO]: Line 5: (bugfixes/lunge.sk)
+[13:33:30] [Server thread/INFO]:     There's no player in a reflection event.
+[13:33:30] [Server thread/INFO]:     Line: set {lastitem::%player%} to event.getNewSlot()
+[13:33:30] [Server thread/INFO]:  
+[13:33:30] [Server thread/INFO]:     Encountered 1 error while reloading lunge.sk! (21ms)
+[13:34:08] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:34:08] [Server thread/INFO]: Successfully reloaded lunge.sk. (17ms)
+[13:34:12] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[13:37:26] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:37:29] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:38:08] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:40:15] [User Authenticator #24/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[13:40:16] [Server thread/INFO]: [+] Clstial
+[13:40:16] [Server thread/INFO]: Clstial[/127.0.0.1:40816] logged in with entity id 25516 at ([minecraft:lobby]0.9721581782199955, 103.0, -186.09454871721877)
+[13:40:16] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[13:40:16] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[13:40:18] [Server thread/INFO]: Clstial issued server command: /login celest
+[13:40:19] [Async Chat Thread - #14/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » yo wsp
+[13:40:20] [Async Chat Thread - #14/INFO]: [Not Secure] Admin || Clstial || » yo
+[13:40:24] [Server thread/INFO]: Clstial issued server command: /tp EntityZ096x
+[13:40:24] [Async Chat Thread - #16/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » im coding attribute swap
+[13:40:27] [Async Chat Thread - #16/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » with lunge
+[13:40:27] [Async Chat Thread - #16/INFO]: [Not Secure] Admin || Clstial || » oh alr
+[13:40:31] [Async Chat Thread - #14/INFO]: [Not Secure] Admin || Clstial || » alr
+[13:40:49] [Server thread/INFO]: Clstial issued server command: //wand
+[13:41:11] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:41:11] [Server thread/INFO]: Successfully reloaded lunge.sk. (40ms)
+[13:41:12] [Server thread/INFO]: Clstial issued server command: //set grass
+[13:41:26] [Server thread/INFO]: Clstial issued server command: //set grass
+[13:42:05] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:42:05] [Server thread/INFO]: Successfully reloaded lunge.sk. (73ms)
+[13:42:41] [Server thread/INFO]: Clstial issued server command: /gms
+[13:42:44] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:44:14] [Server thread/INFO]: Clstial issued server command: /tp EntityZ096x
+[13:44:15] [Server thread/WARN]: Clstial moved wrongly!
+[13:44:17] [Async Chat Thread - #18/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ...
+[13:44:24] [Async Chat Thread - #18/INFO]: [Not Secure] Admin || Clstial || » yo
+[13:44:31] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:44:32] [Async Chat Thread - #17/INFO]: [Not Secure] Admin || Clstial || » lunge kinda works
+[13:44:44] [Async Chat Thread - #17/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ..
+[13:45:11] [Async Chat Thread - #18/INFO]: [Not Secure] Admin || Clstial || » breh
+[13:45:14] [Async Chat Thread - #17/INFO]: [Not Secure] Admin || Clstial || » no work
+[13:45:18] [Async Chat Thread - #17/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wait
+[13:45:32] [Server thread/INFO]: Clstial issued server command: /rtp
+[13:45:35] [Async Chat Thread - #17/INFO]: [Not Secure] Admin || Clstial || » im train
+[13:45:38] [Async Chat Thread - #17/INFO]: [Not Secure] Admin || Clstial || » ely mace
+[13:45:45] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:45:46] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:45:46] [Async Chat Thread - #17/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ur a trina
+[13:45:50] [Async Chat Thread - #17/INFO]: [Not Secure] Admin || Clstial || » ?
+[13:45:54] [Async Chat Thread - #18/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ur a train
+[13:45:54] [Server thread/INFO]: Clstial issued server command: /kit
+[13:45:56] [Async Chat Thread - #17/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » lol
+[13:46:05] [Server thread/INFO]: Clstial issued server command: /kit
+[13:46:06] [Server thread/INFO]: Clstial issued server command: /rtp
+[13:46:15] [Async Chat Thread - #18/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » 'im train' - Clstial
+[13:46:19] [Async Chat Thread - #17/INFO]: [Not Secure] Admin || Clstial || » ???
+[13:46:22] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:46:24] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:46:38] [Server thread/INFO]: Clstial issued server command: /rtp
+[13:46:49] [Server thread/WARN]: Clstial moved wrongly!
+[13:46:49] [Server thread/WARN]: Clstial moved wrongly!
+[13:46:49] [Server thread/WARN]: Clstial moved wrongly!
+[13:46:50] [Server thread/WARN]: Clstial moved wrongly!
+[13:46:50] [Server thread/WARN]: Clstial moved wrongly!
+[13:46:50] [Server thread/WARN]: Clstial moved wrongly!
+[13:46:50] [Server thread/WARN]: Clstial moved wrongly!
+[13:46:50] [Server thread/WARN]: Clstial moved wrongly!
+[13:47:02] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:47:03] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:47:24] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:47:45] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:47:47] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:48:18] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:48:30] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:48:49] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:49:33] [Async Chat Thread - #20/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » omsg
+[13:49:38] [Async Chat Thread - #20/INFO]: [Not Secure] Admin || Clstial || » ?
+[13:50:00] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:50:03] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:50:16] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:50:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:50:35] [Async Chat Thread - #19/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ok lunge now works
+[13:50:39] [Async Chat Thread - #20/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » not attribute swap tho
+[13:50:42] [Async Chat Thread - #20/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » but idgaf
+[13:51:00] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:51:32] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:51:32] [Server thread/INFO]: Successfully reloaded lunge.sk. (71ms)
+[13:51:32] [Server thread/INFO]: Clstial
+[13:51:33] [Server thread/INFO]: Clstial
+[13:51:33] [Server thread/INFO]: Clstial
+[13:51:33] [Server thread/INFO]: Clstial
+[13:51:34] [Server thread/INFO]: Clstial
+[13:51:34] [Server thread/INFO]: Clstial
+[13:51:34] [Server thread/INFO]: Clstial
+[13:51:34] [Server thread/INFO]: Clstial
+[13:51:35] [Server thread/INFO]: Clstial
+[13:51:35] [Server thread/INFO]: Clstial
+[13:51:36] [Server thread/INFO]: Clstial
+[13:51:37] [Server thread/INFO]: Clstial
+[13:51:38] [Async Chat Thread - #20/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ?????????????????????
+[13:51:39] [Server thread/INFO]: Clstial
+[13:51:39] [Server thread/INFO]: Clstial
+[13:51:39] [Server thread/INFO]: Clstial
+[13:51:40] [Server thread/INFO]: Clstial
+[13:51:40] [Server thread/INFO]: Clstial
+[13:51:40] [Async Chat Thread - #20/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » alr wait
+[13:51:42] [Server thread/INFO]: Clstial
+[13:51:42] [Server thread/INFO]: Clstial
+[13:51:43] [Async Chat Thread - #20/INFO]: [Not Secure] Admin || Clstial || » ????
+[13:51:44] [Async Chat Thread - #19/INFO]: [Not Secure] Admin || Clstial || » WHAT
+[13:51:46] [Server thread/INFO]: Clstial
+[13:51:46] [Server thread/INFO]: Clstial
+[13:51:48] [Server thread/INFO]: Clstial
+[13:51:48] [Server thread/INFO]: Clstial
+[13:51:48] [Server thread/INFO]: Clstial
+[13:51:48] [Server thread/INFO]: Clstial
+[13:51:50] [Async Chat Thread - #20/INFO]: [Not Secure] Admin || Clstial || » >?
+[13:51:52] [Server thread/INFO]: Clstial
+[13:51:52] [Server thread/INFO]: Clstial
+[13:51:53] [Server thread/INFO]: Clstial
+[13:51:53] [Server thread/INFO]: Clstial
+[13:51:54] [Server thread/INFO]: Clstial
+[13:51:54] [Server thread/INFO]: Clstial
+[13:51:55] [Async Chat Thread - #19/INFO]: [Not Secure] Admin || Clstial || » ???
+[13:51:56] [Server thread/INFO]: Clstial
+[13:51:56] [Server thread/INFO]: Clstial
+[13:51:56] [Server thread/INFO]: Clstial
+[13:51:57] [Server thread/INFO]: Clstial
+[13:51:57] [Server thread/INFO]: Clstial
+[13:51:58] [Async Chat Thread - #19/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » bro i added some srkitp for debug just wait
+[13:52:00] [Async Chat Thread - #19/INFO]: [Not Secure] Admin || Clstial || » WUT IS THIS
+[13:52:03] [Server thread/INFO]: Clstial
+[13:52:03] [Server thread/INFO]: Clstial
+[13:52:04] [Server thread/INFO]: Clstial
+[13:52:05] [Server thread/INFO]: Clstial
+[13:52:06] [Server thread/INFO]: Clstial
+[13:52:06] [Server thread/INFO]: Clstial
+[13:52:11] [Server thread/INFO]: Clstial
+[13:52:11] [Server thread/INFO]: Clstial
+[13:52:12] [Server thread/INFO]: Clstial
+[13:52:12] [Server thread/INFO]: Clstial
+[13:52:12] [Server thread/INFO]: Clstial
+[13:52:13] [Server thread/INFO]: Clstial
+[13:52:13] [Server thread/INFO]: Clstial
+[13:52:14] [Server thread/INFO]: Clstial
+[13:52:14] [Server thread/INFO]: Clstial
+[13:52:14] [Server thread/INFO]: Clstial
+[13:52:16] [Server thread/INFO]: Clstial
+[13:52:16] [Server thread/INFO]: Clstial
+[13:52:17] [Server thread/INFO]: Clstial
+[13:52:17] [Server thread/INFO]: Clstial
+[13:52:18] [Server thread/INFO]: Clstial
+[13:52:18] [Server thread/INFO]: Clstial
+[13:52:19] [Server thread/INFO]: Clstial
+[13:52:20] [Server thread/INFO]: Clstial
+[13:52:20] [Server thread/INFO]: Clstial
+[13:52:20] [Server thread/INFO]: Clstial
+[13:52:20] [Server thread/INFO]: Clstial
+[13:52:21] [Server thread/INFO]: Clstial
+[13:52:21] [Server thread/INFO]: Clstial
+[13:52:21] [Server thread/INFO]: Clstial
+[13:52:22] [Server thread/INFO]: Clstial
+[13:52:22] [Server thread/INFO]: Clstial
+[13:52:23] [Server thread/INFO]: Clstial
+[13:52:23] [Server thread/INFO]: Clstial
+[13:52:24] [Server thread/INFO]: Clstial
+[13:52:24] [Server thread/INFO]: Clstial
+[13:52:24] [Server thread/INFO]: Clstial
+[13:52:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:52:37] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:52:50] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:52:52] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:52:54] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:53:04] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:53:35] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:53:51] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:53:55] [Async Chat Thread - #22/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » .....................................
+[13:54:00] [Async Chat Thread - #22/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » WHY DONT IT WORK
+[13:54:02] [Async Chat Thread - #21/INFO]: [Not Secure] Admin || Clstial || » >?
+[13:54:12] [Server thread/INFO]: Clstial issued server command: /enchant lunge 3
+[13:54:19] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[13:55:11] [Async Chat Thread - #24/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » if i dihsconnect then i lag
+[13:55:15] [Async Chat Thread - #23/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ill join back
+[13:55:34] [Server thread/INFO]: Clstial lost connection: Disconnected
+[13:55:35] [Server thread/INFO]: [-] Clstial
+[13:55:53] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:55:53] [Server thread/INFO]: Successfully reloaded lunge.sk. (43ms)
+[13:55:58] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:56:27] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:56:27] [Server thread/INFO]: Successfully reloaded lunge.sk. (30ms)
+[13:57:17] [User Authenticator #25/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[13:57:17] [Server thread/INFO]: [+] Clstial
+[13:57:17] [Server thread/INFO]: Clstial[/127.0.0.1:52508] logged in with entity id 31614 at ([minecraft:survival]11377.478152663061, 74.0, -36022.114776766524)
+[13:57:18] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[13:57:18] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player Clstial, which is not a valid number.
+[13:57:20] [Server thread/INFO]: Clstial issued server command: /login celest
+[13:57:43] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:57:43] [Server thread/INFO]: Successfully reloaded lunge.sk. (119ms)
+[13:57:57] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:57:57] [Server thread/INFO]: Successfully reloaded lunge.sk. (47ms)
+[13:58:11] [Async Chat Thread - #26/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ok works
+[13:58:17] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:58:17] [Server thread/INFO]: Successfully reloaded lunge.sk. (153ms)
+[13:58:27] [Async Chat Thread - #26/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » LUNGE SWAP WORKS NOW :)))))))))))))))))))))))))))))))))"
+[13:58:36] [Server thread/INFO]: Clstial issued server command: /enchant lunge 5
+[13:58:49] [Server thread/INFO]: Clstial issued server command: /enchant lunge 3
+[13:59:06] [Server thread/INFO]: Clstial issued server command: /enchant lunge 10
+[13:59:14] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:59:15] [Server thread/INFO]: Successfully reloaded lunge.sk. (53ms)
+[13:59:52] [Async Chat Thread - #28/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » hmmmmmmmmmmmmm
+[13:59:56] [Server thread/WARN]: Clstial moved wrongly!
+[14:00:11] [Server thread/INFO]: Clstial issued server command: /enchant lunge 3
+[14:00:19] [Server thread/INFO]: Clstial issued server command: /enchant
+[14:00:21] [Server thread/INFO]: Clstial issued server command: /enchant lunge 5
+[14:00:34] [Async Chat Thread - #27/INFO]: [Not Secure] Admin || Clstial || » llunge 5 is like lunge 3
+[14:00:48] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[14:00:50] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:00:50] [Async Chat Thread - #27/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wdym
+[14:00:55] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[14:01:01] [Async Chat Thread - #27/INFO]: [Not Secure] Admin || Clstial || » AYO
+[14:01:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[14:01:27] [Async Chat Thread - #28/INFO]: [Not Secure] Admin || Clstial || » WUT?
+[14:01:30] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /bugfixes/lunge
+[14:01:35] [User Authenticator #26/INFO]: UUID of player QuantumEcho is b3d07617-0acd-37dd-b1f6-25c77eb96693
+[14:01:35] [Server thread/INFO]: [+] QuantumEcho
+[14:01:35] [Server thread/INFO]: QuantumEcho[/127.0.0.1:44240] logged in with entity id 31634 at ([minecraft:lobby]-12.248855109681736, 60.0, -168.93480691886649)
+[14:01:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[14:01:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[14:01:37] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[14:01:38] [Async Chat Thread - #27/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » yo
+[14:01:39] [Async Chat Thread - #27/INFO]: [Not Secure] Admin || Clstial || » yo quantum
+[14:01:40] [Server thread/INFO]: QuantumEcho issued server command: /l creeper45
+[14:01:42] [Async Chat Thread - #28/INFO]: [Not Secure] Admin || QuantumEcho || » yo
+[14:01:46] [Async Chat Thread - #28/INFO]: [Not Secure] Admin || QuantumEcho || » entity join dc
+[14:01:47] [Async Chat Thread - #27/INFO]: [Not Secure] Admin || Clstial || » come sumo
+[14:01:51] [Async Chat Thread - #27/INFO]: [Not Secure] Admin || Clstial || » dc?
+[14:01:55] [Async Chat Thread - #28/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » wuant can u dc call
+[14:01:59] [Server thread/WARN]: EntityZ096x moved wrongly!
+[14:02:05] [Async Chat Thread - #28/INFO]: [Not Secure] Admin || QuantumEcho || » ye
+[14:02:08] [Async Chat Thread - #28/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ok
+[14:02:30] [Async Chat Thread - #28/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » clstial u have dc?
+[14:02:37] [Async Chat Thread - #28/INFO]: [Not Secure] Admin || Clstial || » whats dc?
+[14:02:40] [Server thread/INFO]: QuantumEcho issued server command: /kit load mace
+[14:02:40] [Async Chat Thread - #27/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » discord
+[14:02:42] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[14:02:43] [Async Chat Thread - #27/INFO]: [Not Secure] Admin || Clstial || » uhh
+[14:02:46] [Async Chat Thread - #28/INFO]: [Not Secure] Admin || Clstial || » kinda
+[14:03:00] [Server thread/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » *MOAN*
+[14:03:00] [Server thread/INFO]: EntityZ096x was brutally SMASHED by QuantumEcho and liked it...
+[14:03:06] [Server thread/INFO]: EntityZ096x issued server command: /kit load mace
+[14:03:14] [Server thread/INFO]: QuantumEcho issued server command: /gms Clstial
+[14:03:19] [Server thread/INFO]: Clstial issued server command: /kit
+[14:03:53] [Async Chat Thread - #29/INFO]: [Not Secure] Admin || Clstial || » come to Castel
+[14:03:55] [Async Chat Thread - #29/INFO]: [Not Secure] Admin || Clstial || » or smth
+[14:03:58] [Async Chat Thread - #29/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ok
+[14:04:03] [Server thread/INFO]: EntityZ096x issued server command: /tpall Clstial
+[14:04:07] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[14:04:07] [Server thread/INFO]: Kit sumo has been loaded to Clstial!
+[14:04:07] [Server thread/INFO]: Kit sumo has been loaded to QuantumEcho!
+[14:04:07] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[14:04:08] [Async Chat Thread - #29/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » 3
+[14:04:10] [Async Chat Thread - #29/INFO]: [Not Secure] Admin || Clstial || » SUMOOO
+[14:04:10] [Async Chat Thread - #30/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » 2
+[14:04:12] [Async Chat Thread - #29/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » 1
+[14:04:53] [Async Chat Thread - #30/INFO]: [Not Secure] Admin || Clstial || » add fooooddd in sumo
+[14:05:05] [Server thread/INFO]: Clstial issued server command: /give Clstial steak
+[14:05:06] [Server thread/INFO]: Clstial issued server command: /give Clstial steak
+[14:05:08] [Server thread/INFO]: Clstial issued server command: /give Clstial steak
+[14:05:12] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:05:19] [Server thread/INFO]: Clstial issued server command: /gms
+[14:05:43] [Server thread/INFO]: QuantumEcho issued server command: /heal
+[14:05:57] [Async Chat Thread - #32/INFO]: [Not Secure] Admin || Clstial || » lol
+[14:06:33] [Async Chat Thread - #32/INFO]: [Not Secure] Admin || Clstial || » LOL
+[14:06:50] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[14:07:17] [Server thread/INFO]: QuantumEcho issued server command: /fly
+[14:07:22] [Server thread/INFO]: Clstial issued server command: /give Clstial wind_charge
+[14:07:22] [Server thread/INFO]: Clstial issued server command: /give Clstial wind_charge
+[14:07:23] [Server thread/INFO]: Clstial issued server command: /give Clstial wind_charge
+[14:07:23] [Server thread/INFO]: Clstial issued server command: /give Clstial wind_charge
+[14:07:24] [Async Chat Thread - #31/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » fuck u clst
+[14:07:28] [Async Chat Thread - #31/INFO]: [Not Secure] Admin || Clstial || » HEHEH
+[14:07:29] [Async Chat Thread - #31/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » :hakenkruis:
+[14:07:30] [Server thread/INFO]: QuantumEcho issued server command: /fly
+[14:07:31] [Async Chat Thread - #32/INFO]: [Not Secure] Admin || Clstial || » no
+[14:07:52] [Server thread/WARN]: QuantumEcho moved too quickly! -0.010821221663507075,-13.651175639619836,0.0
+[14:08:19] [Server thread/INFO]: QuantumEcho issued server command: /heal
+[14:08:22] [Server thread/INFO]: QuantumEcho issued server command: /heal
+[14:08:23] [Server thread/INFO]: QuantumEcho issued server command: /fly
+[14:08:31] [Server thread/INFO]: QuantumEcho issued server command: /fly
+[14:08:55] [Async Chat Thread - #33/INFO]: [Not Secure] Admin || Clstial || » LOL
+[14:08:59] [Server thread/WARN]: QuantumEcho moved too quickly! 0.0,-12.217505553302232,0.02317313975905222
+[14:10:01] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[14:10:20] [Server thread/INFO]: QuantumEcho issued server command: /heal
+[14:10:33] [Server thread/INFO]: QuantumEcho issued server command: /give QuantumEcho wind_charge 256
+[14:11:04] [Server thread/INFO]: QuantumEcho issued server command: /kit load mace
+[14:11:09] [Server thread/INFO]: EntityZ096x (as console): wuant immma rape u
+[14:11:13] [Server thread/INFO]: EntityZ096x issued server command: /t na
+[14:11:21] [Server thread/INFO]: EntityZ096x issued server command: /fly
+[14:11:23] [Async Chat Thread - #34/INFO]: [Not Secure] Admin || Clstial || » WGAT
+[14:11:25] [Server thread/INFO]: [Not Secure] Admin || Clstial || » AHHHHhhhhh~~~
+[14:11:25] [Server thread/INFO]: Clstial was brutally SMASHED by QuantumEcho and liked it...
+[14:11:25] [Server thread/INFO]: QuantumEcho has completed the challenge [Over-Overkill]
+[14:11:27] [Async Chat Thread - #35/INFO]: [Not Secure] Admin || Clstial || » BRO
+[14:11:30] [Server thread/INFO]: Clstial issued server command: /tp QuantumEcho
+[14:11:31] [Async Chat Thread - #34/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i will rape u quant
+[14:11:40] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[14:11:40] [Server thread/INFO]: Kit sumo has been loaded to QuantumEcho!
+[14:11:40] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[14:11:40] [Server thread/INFO]: Kit sumo has been loaded to Clstial!
+[14:11:41] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:11:42] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[14:11:44] [Server thread/INFO]: Clstial issued server command: /gms
+[14:11:45] [Server thread/INFO]: EntityZ096x issued server command: /gms *
+[14:11:59] [Server thread/INFO]: Clstial issued server command: /give Clstial wind_charge
+[14:12:00] [Server thread/INFO]: Clstial issued server command: /give Clstial wind_charge
+[14:12:01] [Server thread/INFO]: Clstial issued server command: /give Clstial wind_charge
+[14:12:07] [Server thread/INFO]: Clstial issued server command: /gmc
+[14:12:08] [Async Chat Thread - #34/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » nahh clstial cheater
+[14:12:12] [Server thread/INFO]: QuantumEcho issued server command: /give @a elytra 1
+[14:12:14] [Server thread/INFO]: Clstial issued server command: /gms
+[14:12:15] [Async Chat Thread - #34/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » creative abyser
+[14:12:22] [Async Chat Thread - #34/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » i swear i will kick u
+[14:12:23] [Async Chat Thread - #34/INFO]: [Not Secure] Admin || Clstial || » I NEED WINDCHARGES AND STEAK
+[14:12:30] [Async Chat Thread - #34/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » U GAVE URSELF CREATIVE
+[14:13:58] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[14:14:17] [Server thread/INFO]: Clstial issued server command: /
+[14:14:42] [Async Chat Thread - #37/INFO]: [Not Secure] Admin || Clstial || » hhehe
+[14:14:43] [Server thread/INFO]: QuantumEcho issued server command: /give * elytra 1
+[14:14:46] [Async Chat Thread - #36/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » yo what
+[14:14:52] [Async Chat Thread - #37/INFO]: [Not Secure] Admin || Clstial || » nothing
+[14:14:54] [Async Chat Thread - #37/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » no elytra
+[14:14:55] [Async Chat Thread - #37/INFO]: [Not Secure] Admin || Clstial || » nvm
+[14:15:01] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[14:15:01] [Async Chat Thread - #36/INFO]: [Not Secure] Admin || Clstial || » when did i get a ely??
+[14:15:03] [Server thread/INFO]: QuantumEcho issued server command: /give * firework_rocket 128
+[14:15:04] [Async Chat Thread - #36/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » idk
+[14:15:07] [Async Chat Thread - #36/INFO]: [Not Secure] Admin || Clstial || » WHAT?
+[14:15:08] [Async Chat Thread - #36/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » quant ur gay
+[14:15:10] [Async Chat Thread - #36/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » asf
+[14:15:10] [Async Chat Thread - #37/INFO]: [Not Secure] Admin || Clstial || » rockets?
+[14:15:36] [Server thread/INFO]: QuantumEcho issued server command: /gmc
+[14:15:57] [Server thread/INFO]: EntityZ096x hit the ground too hard while trying to escape Clstial
+[14:16:02] [Async Chat Thread - #36/INFO]: [Not Secure] Admin || Clstial || » LOL
+[14:16:04] [Async Chat Thread - #36/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCL
+[14:16:06] [Async Chat Thread - #36/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK
+[14:16:07] [Async Chat Thread - #36/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK
+[14:16:08] [Server thread/INFO]: QuantumEcho issued server command: /gms
+[14:16:09] [Async Chat Thread - #37/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK
+[14:16:10] [Async Chat Thread - #36/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK
+[14:16:10] [Async Chat Thread - #37/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK
+[14:16:11] [Async Chat Thread - #37/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK
+[14:16:11] [Server thread/INFO]: QuantumEcho issued server command: /heal
+[14:16:11] [Async Chat Thread - #37/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK
+[14:16:11] [Async Chat Thread - #37/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK
+[14:16:12] [Async Chat Thread - #36/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK
+[14:16:12] [Async Chat Thread - #37/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK
+[14:16:12] [Async Chat Thread - #37/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCK
+[14:16:14] [Async Chat Thread - #36/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » FUCL
+[14:16:18] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:19] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:19] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:19] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:19] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:20] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:20] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:20] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:21] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:21] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:21] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:21] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:22] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:22] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:22] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:23] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:23] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:23] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:24] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:24] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:24] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:25] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:25] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:25] [Server thread/INFO]: EntityZ096x (as console): FUCK
+[14:16:26] [Server thread/INFO]: EntityZ096x (as console): FUCK
