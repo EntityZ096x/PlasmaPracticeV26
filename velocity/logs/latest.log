@@ -58,3 +58,34 @@ java.lang.IllegalArgumentException: Image is not 64x64 (found 183x178)
 [08:26:02] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x88e82af5, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:46214]
 [08:27:49] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x0723ef7e, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:48550]
 [09:04:10] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xfd1c693b, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:47264]
+[09:18:39] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x35843f29, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:49670]
+[09:20:24] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xb2fde4a3, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:43332]
+[09:23:17] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xd89458e9, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:41730]
+[09:24:34] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x30345ff5, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:55138]
+[09:25:17] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x1f189f9b, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:46980]
+[09:25:23] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x0bf6acfb, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:44104]
+[09:25:32] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x2ae8dcdc, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:42580]
+[09:26:24] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xeaea19c2, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:39426]
+[10:11:29] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x8761b7dc, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:42030]
+[10:11:31] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x52d195e0, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:45436]
+[10:11:31] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] 2345654321 (/145.140.28.90:45436) has connected
+[10:11:31] [Netty epoll Worker #2/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:45436|2345654321]: Player is using client: Tuff Client - 1.0
+[10:11:31] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 2345654321 -> mainserver has connected
+[10:11:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] 2345654321 (/145.140.28.90:45436): kicked from server mainserver: 
+[10:11:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 2345654321 -> mainserver has disconnected
+[10:11:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] 2345654321 (/145.140.28.90:45436) has disconnected: You were kicked from mainserver: 
+[10:11:38] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x24979a01, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:45446]
+[10:11:38] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] 2345654321 (/145.140.28.90:45446) has connected
+[10:11:38] [Netty epoll Worker #3/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:45446|2345654321]: Player is using client: Tuff Client - 1.0
+[10:11:38] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 2345654321 -> mainserver has connected
+[10:11:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] 2345654321 (/145.140.28.90:45446): kicked from server mainserver: 
+[10:11:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 2345654321 -> mainserver has disconnected
+[10:11:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] 2345654321 (/145.140.28.90:45446) has disconnected: You were kicked from mainserver: 
+[10:11:45] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x1ba199b5, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:34916]
+[10:11:45] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/145.140.28.90:34916) has connected
+[10:11:45] [Netty epoll Worker #0/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:34916|EntityZ096x]: Player is using client: Tuff Client - 1.0
+[10:11:45] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[10:12:12] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x59374453, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:43756]
+[10:12:12] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] JustDan12 (/145.140.28.90:43756) has connected
+[10:12:12] [Netty epoll Worker #1/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:43756|JustDan12]: Player is using client: Tuff Client - 1.0
+[10:12:12] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has connected
