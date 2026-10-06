@@ -554,3 +554,482 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 [10:12:44] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
 [10:12:52] [Server thread/INFO]: EntityZ096x issued server command: /ungod
 [10:12:54] [Server thread/INFO]: EntityZ096x issued server command: /gms *
+[10:15:52] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo\
+[10:15:53] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[10:15:56] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[10:15:56] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[10:15:56] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[10:16:03] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[10:19:47] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[10:19:47] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[10:19:47] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[10:19:49] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[10:21:04] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[10:21:04] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:22:20] [Async Chat Thread - #1/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » 5
+[10:22:58] [Server thread/WARN]: EntityZ096x moved wrongly!
+[10:23:17] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[10:23:17] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[10:23:17] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[10:23:20] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[10:24:32] [User Authenticator #7/INFO]: UUID of player 2345654321 is d6187119-d53d-319a-996a-4454aeecd21b
+[10:24:33] [Server thread/INFO]: [+] 2345654321
+[10:24:33] [Server thread/INFO]: 2345654321[/127.0.0.1:51278] logged in with entity id 1060 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[10:24:33] [Server thread/INFO]: 2345654321 lost connection: 
+[10:24:33] [Server thread/INFO]: [-] 2345654321
+[10:24:43] [User Authenticator #8/INFO]: UUID of player 234565432 is fa700949-a338-3808-9fd3-a56c331cb6cb
+[10:24:44] [Server thread/INFO]: [+] 234565432
+[10:24:44] [Server thread/INFO]: 234565432[/127.0.0.1:55242] logged in with entity id 1074 at ([minecraft:lobby]-0.16233062863990416, 64.0, 0.5783967725180297)
+[10:24:44] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player 234565432, which is not a valid number.
+[10:24:44] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player 234565432, which is not a valid number.
+[10:24:49] [Server thread/INFO]: EntityZ096x was slain by JustDan12
+[10:24:49] [Server thread/INFO]: 234565432 issued server command: /login homehome56
+[10:24:53] [Server thread/INFO]: EntityZ096x issued server command: /tpall JustDan12
+[10:24:54] [Async Chat Thread - #2/INFO]: [Not Secure] 234565432 » hi
+[10:24:58] [Async Chat Thread - #2/INFO]: [Not Secure] Admin || JustDan12 || » wait
+[10:25:01] [Async Chat Thread - #3/INFO]: [Not Secure] Admin || JustDan12 || » pause
+[10:25:02] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[10:25:02] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[10:25:02] [Server thread/INFO]: Kit sumo has been loaded to 234565432!
+[10:25:02] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[10:25:02] [Server thread/INFO]: 234565432 has made the advancement [Cover Me with Diamonds]
+[10:25:04] [Async Chat Thread - #3/INFO]: [Not Secure] Admin || JustDan12 || » kom naar 123
+[10:25:05] [Async Chat Thread - #2/INFO]: [Not Secure] Admin || JustDan12 || » kom naar 123
+[10:25:05] [Async Chat Thread - #2/INFO]: [Not Secure] Admin || JustDan12 || » kom naar 123
+[10:25:05] [Async Chat Thread - #3/INFO]: [Not Secure] Admin || JustDan12 || » kom naar 123
+[10:25:06] [Async Chat Thread - #3/INFO]: [Not Secure] Admin || JustDan12 || » kom naar 123
+[10:26:26] [Server thread/INFO]: 234565432 issued server command: /kit
+[10:26:43] [Server thread/INFO]: EntityZ096x issued server command: /heeal
+[10:26:45] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[10:26:45] [Server thread/INFO]: 234565432 has made the advancement [Who Needs Rockets?]
+[10:26:56] [Server thread/INFO]: EntityZ096x issued server command: /gmsp
+[10:27:02] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[10:27:12] [Async Chat Thread - #4/INFO]: [Not Secure] 234565432 » who give me new kit
+[10:27:18] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » every1
+[10:27:23] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » he can restock every1
+[10:27:25] [Async Chat Thread - #5/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » ok
+[10:27:29] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[10:27:29] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[10:27:29] [Server thread/INFO]: Kit sumo has been loaded to 234565432!
+[10:27:29] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[10:27:35] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 4
+[10:27:39] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 3
+[10:27:43] [Async Chat Thread - #5/INFO]: [Not Secure] 234565432 » stop
+[10:27:50] [Async Chat Thread - #4/INFO]: [Not Secure] 234565432 » i cant hit anybody!!!
+[10:27:54] [Async Chat Thread - #5/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » u gotta /debug
+[10:27:57] [Server thread/INFO]: 234565432 issued server command: /debug
+[10:28:05] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » pass is BruhGuy123wasHere
+[10:28:12] [Server thread/INFO]: EntityZ096x issued server command: /kit save sumo
+[10:28:15] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[10:28:17] [Server thread/INFO]: 234565432 issued server command: /debug BruhGuy123wasHere
+[10:28:21] [Server thread/INFO]: 234565432 issued server command: /debug BruhGuy123wasHere
+[10:28:24] [Server thread/INFO]: EntityZ096x issued server command: /kit
+[10:28:45] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[10:28:45] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[10:28:45] [Server thread/INFO]: Kit sumo has been loaded to 234565432!
+[10:28:45] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[10:28:48] [Async Chat Thread - #5/INFO]: [Not Secure] Admin || JustDan12 || » password is BruhGuy123wasHere
+[10:28:58] [Async Chat Thread - #5/INFO]: [Not Secure] 234565432 » ah
+[10:29:22] [Async Chat Thread - #5/INFO]: [Not Secure] 234565432 » eh
+[10:29:57] [Async Chat Thread - #4/INFO]: [Not Secure] Admin || JustDan12 || » pause
+[10:29:58] [Async Chat Thread - #4/INFO]: [Not Secure] Admin || JustDan12 || » pause
+[10:29:58] [Async Chat Thread - #4/INFO]: [Not Secure] Admin || JustDan12 || » pause
+[10:29:59] [Async Chat Thread - #4/INFO]: [Not Secure] Admin || JustDan12 || » pause
+[10:30:03] [Async Chat Thread - #4/INFO]: [Not Secure] 234565432 » why?
+[10:30:04] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo
+[10:30:08] [Server thread/WARN]: EntityZ096x moved wrongly!
+[10:30:09] [Server thread/INFO]: JustDan12 issued server command: /enchant sweepingedge 3
+[10:30:13] [Server thread/INFO]: JustDan12 issued server command: /kit save sumo
+[10:30:16] [Async Chat Thread - #4/INFO]: [Not Secure] Admin || JustDan12 || » reload kit
+[10:30:20] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[10:30:20] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[10:30:20] [Server thread/INFO]: Kit sumo has been loaded to 234565432!
+[10:30:20] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[10:31:18] [Server thread/WARN]: JustDan12 moved wrongly!
+[10:31:53] [Async Chat Thread - #6/INFO]: [Not Secure] 234565432 » ehm
+[10:32:01] [Server thread/INFO]: 234565432 issued server command: /suicide
+[10:32:01] [Server thread/INFO]: [Essentials] 234565432 was denied access to command.
+[10:32:05] [Async Chat Thread - #6/INFO]: [Not Secure] 234565432 » hellpppp!
+[10:32:10] [Server thread/INFO]: JustDan12 issued server command: /tpall
+[10:32:15] [Async Chat Thread - #7/INFO]: [Not Secure] 234565432 » thx
+[10:32:44] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[10:32:46] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[10:32:53] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[10:32:59] [Server thread/INFO]: 234565432 issued server command: /reload kit
+[10:33:25] [Async Chat Thread - #8/INFO]: [Not Secure] 234565432 » nope
+[10:33:36] [Async Chat Thread - #9/INFO]: [Not Secure] 234565432 » f
+[10:33:55] [Server thread/INFO]: EntityZ096x hit the ground too hard while trying to escape JustDan12
+[10:33:59] [Async Chat Thread - #8/INFO]: [Not Secure] 234565432 » reload kit
+[10:34:03] [Async Chat Thread - #8/INFO]: [Not Secure] 234565432 » for mw
+[10:34:08] [Async Chat Thread - #8/INFO]: [Not Secure] Admin ||| EntityZ096x ||| » fuck you stupid niggers
+[10:34:12] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[10:34:12] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[10:34:12] [Server thread/INFO]: Kit sumo has been loaded to 234565432!
+[10:34:12] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[10:34:15] [Async Chat Thread - #8/INFO]: [Not Secure] 234565432 » hx
+[10:34:16] [Server thread/INFO]: EntityZ096x issued server command: /tpall JustDan12
+[10:34:46] [Async Chat Thread - #8/INFO]: [Not Secure] 234565432 » lol]
+[10:35:46] [Server thread/INFO]: 234565432 issued server command: /sethome
+[10:35:46] [Server thread/INFO]: [Essentials] 234565432 was denied access to command.
+[10:38:05] [Server thread/INFO]: EntityZ096x hit the ground too hard while trying to escape JustDan12
+[10:38:06] [Async Chat Thread - #10/INFO]: [Not Secure] 234565432 » reload kit pls
+[10:38:13] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[10:38:13] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[10:38:13] [Server thread/INFO]: Kit sumo has been loaded to 234565432!
+[10:38:13] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[10:38:17] [Server thread/INFO]: EntityZ096x issued server command: /tpall JustDan12
+[10:38:30] [Server thread/INFO]: EntityZ096x issued server command: /fky
+[10:38:32] [Server thread/INFO]: EntityZ096x issued server command: /fly
+[10:39:00] [Server thread/INFO]: JustDan12 issued server command: /fly
+[10:39:11] [Async Chat Thread - #12/INFO]: [Not Secure] 234565432 » tp me
+[10:39:14] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[10:39:28] [Async Chat Thread - #13/INFO]: [Not Secure] 234565432 » eehhhhh
+[10:39:37] [Server thread/INFO]: JustDan12 issued server command: /fly EntityZ096x
+[10:39:43] [Server thread/INFO]: EntityZ096x issued server command: /fly JustDan12
+[10:39:47] [Server thread/INFO]: JustDan12 issued server command: /fly
+[10:39:51] [Server thread/INFO]: EntityZ096x issued server command: /fly JustDan12
+[10:39:54] [Server thread/INFO]: EntityZ096x issued server command: /fly JustDan12
+[10:39:55] [Server thread/INFO]: EntityZ096x issued server command: /fly JustDan12
+[10:40:02] [Server thread/INFO]: 234565432 lost connection: Disconnected
+[10:40:02] [Server thread/INFO]: [-] 234565432
+[10:40:38] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[10:40:38] [Server thread/INFO]: [-] EntityZ096x
+[10:41:18] [Server thread/INFO]: EntityZ096x (as console): nigger
+[10:41:28] [Server thread/INFO]: EntityZ096x (as console): whats wrong
+[10:42:04] [User Authenticator #9/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[10:42:05] [Server thread/INFO]: [+] EntityZ096x
+[10:42:05] [Server thread/INFO]: EntityZ096x[/127.0.0.1:37622] logged in with entity id 2059 at ([minecraft:lobby]19.303138209665008, 113.0, -231.71683556751753)
+[10:42:05] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[10:42:05] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[10:42:08] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_201301234
+[10:42:08] [Server thread/INFO]: EntityZ096x lost connection: Incorrect password.
+[10:42:09] [Server thread/INFO]: [-] EntityZ096x
+[10:42:11] [User Authenticator #10/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[10:42:12] [Server thread/INFO]: [+] EntityZ096x
+[10:42:12] [Server thread/INFO]: EntityZ096x[/127.0.0.1:53908] logged in with entity id 2062 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[10:42:12] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[10:42:12] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[10:42:14] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[10:42:26] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[10:42:29] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[10:43:00] [Server thread/INFO]: EntityZ096x issued server command: /tpall JustDan12
+[10:43:26] [Server thread/INFO]: EntityZ096x issued server command: /gms JustDan12
+[10:43:32] [Server thread/INFO]: EntityZ096x issued server command: /orbital JustDan12 stab
+[10:43:39] [Server thread/INFO]: EntityZ096x issued server command: /orbital JustDan12 stab
+[10:43:43] [Server thread/INFO]: JustDan12 sent a nuke shot at <none>
+[10:43:59] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[10:44:02] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[10:44:07] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 93.5, y: 109.5, z: -109.5, yaw: 0, pitch: 0 in 'Lobby'
+[10:44:14] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[10:44:15] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 83.5, y: 109.5, z: -118.5, yaw: 0, pitch: 0 in 'Lobby'
+[10:44:19] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[10:44:22] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 76.5, y: 109.5, z: -122.5, yaw: 0, pitch: 0 in 'Lobby'
+[10:44:39] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[10:44:39] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:44:47] [Server thread/INFO]: JustDan12 issued server command: /nuke JustDan12
+[10:44:58] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12
+[10:45:01] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:45:01] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 65.86, y: 110, z: -153.22, yaw: -73.52, pitch: 1.24 in 'Lobby'
+[10:45:01] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:45:01] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 65.86, y: 110, z: -153.22, yaw: -73.52, pitch: 1.24 in 'Lobby'
+[10:45:02] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:45:02] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 65.86, y: 110, z: -153.22, yaw: -73.52, pitch: 1.24 in 'Lobby'
+[10:45:02] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:45:02] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 65.86, y: 110, z: -153.22, yaw: -73.52, pitch: 1.24 in 'Lobby'
+[10:45:02] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:45:02] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 65.86, y: 110, z: -153.22, yaw: -73.52, pitch: 1.24 in 'Lobby'
+[10:45:02] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:45:02] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 65.86, y: 110, z: -153.22, yaw: -73.52, pitch: 1.24 in 'Lobby'
+[10:45:10] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:45:19] [Server thread/INFO]: JustDan12 issued server command: /tp JustDan12 EntityZ096x
+[10:45:24] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[10:45:28] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[10:45:42] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[10:45:49] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[10:45:50] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[10:45:56] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[10:46:00] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[10:46:03] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[10:46:06] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[10:46:12] [Server thread/INFO]: EntityZ096x issued server command: /gms *
+[10:46:14] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[10:46:15] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[10:46:23] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[10:46:23] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:46:37] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 98.5, y: 109.5, z: -294.5, yaw: 0, pitch: 0 in 'Lobby'
+[10:46:42] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[10:46:44] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[10:46:51] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[10:46:52] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[10:46:57] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[10:46:57] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:46:59] [Server thread/INFO]: EntityZ096x issued server command: /gms *
+[10:47:00] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[10:47:43] [Server thread/INFO]: EntityZ096x issued server command: /effect give EntityZ096x minecraft:night_vision infinite 225
+[10:47:43] [Server thread/INFO]: [EntityZ096x: Applied effect Night Vision to EntityZ096x]
+[10:48:31] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[10:48:50] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /kill JustDan12
+[10:48:50] [Server thread/INFO]: JustDan12 died
+[10:48:50] [Server thread/INFO]: Killed JustDan12.
+[10:49:10] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:10] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 39.2, pitch: 56.66 in 'Lobby'
+[10:49:10] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:15] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:15] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 15.06, pitch: -83.16 in 'Lobby'
+[10:49:15] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:16] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:17] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:17] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:18] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:18] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:18] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:18] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 15.06, pitch: -83.16 in 'Lobby'
+[10:49:18] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:19] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:19] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:19] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:19] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:19] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 15.06, pitch: -83.16 in 'Lobby'
+[10:49:20] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:20] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:20] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:21] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:21] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 15.06, pitch: -83.16 in 'Lobby'
+[10:49:21] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:21] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:21] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:22] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:22] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 15.06, pitch: -83.16 in 'Lobby'
+[10:49:22] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:22] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:22] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 15.06, pitch: -83.16 in 'Lobby'
+[10:49:22] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:22] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:22] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 15.06, pitch: -83.16 in 'Lobby'
+[10:49:22] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:23] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:23] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:23] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:24] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:24] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:24] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:25] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:25] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 14.99, pitch: -83.23 in 'Lobby'
+[10:49:25] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:25] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:25] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 14.99, pitch: -83.23 in 'Lobby'
+[10:49:25] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:25] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:25] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 14.99, pitch: -83.23 in 'Lobby'
+[10:49:26] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:26] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:26] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 14.99, pitch: -83.23 in 'Lobby'
+[10:49:26] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:26] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:26] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 14.99, pitch: -83.23 in 'Lobby'
+[10:49:26] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:26] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:27] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:27] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:27] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:28] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:28] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:29] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:29] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:29] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:29] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:29] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.74, pitch: -82.79 in 'Lobby'
+[10:49:30] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:30] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:30] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.74, pitch: -82.79 in 'Lobby'
+[10:49:30] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:30] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:30] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.74, pitch: -82.79 in 'Lobby'
+[10:49:30] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:30] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.74, pitch: -82.79 in 'Lobby'
+[10:49:30] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:30] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:30] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:31] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.74, pitch: -82.79 in 'Lobby'
+[10:49:31] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:31] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:31] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:31] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.74, pitch: -82.79 in 'Lobby'
+[10:49:31] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:31] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:31] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.74, pitch: -82.79 in 'Lobby'
+[10:49:31] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:31] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:31] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.74, pitch: -82.79 in 'Lobby'
+[10:49:31] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:31] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:32] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:32] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:32] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:32] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:32] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:33] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:33] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:33] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:33] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:34] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:34] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:34] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:34] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.37, pitch: -81.68 in 'Lobby'
+[10:49:34] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:34] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:34] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.37, pitch: -81.68 in 'Lobby'
+[10:49:34] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:35] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:35] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:35] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.37, pitch: -81.68 in 'Lobby'
+[10:49:35] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:35] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:35] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:35] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.37, pitch: -81.68 in 'Lobby'
+[10:49:35] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:35] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:35] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.37, pitch: -81.68 in 'Lobby'
+[10:49:35] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:36] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:36] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:36] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.37, pitch: -81.68 in 'Lobby'
+[10:49:36] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:36] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:36] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.37, pitch: -81.68 in 'Lobby'
+[10:49:36] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:36] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:36] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:36] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.37, pitch: -81.68 in 'Lobby'
+[10:49:36] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:37] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:37] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[10:49:37] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -21.15, y: 110, z: 10.81, yaw: 13.37, pitch: -81.68 in 'Lobby'
+[10:49:37] [Server thread/INFO]: JustDan12 lost connection: Kicked for spamming
+[10:49:37] [Server thread/INFO]: [-] JustDan12
+[10:49:37] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:37] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:37] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:37] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:38] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:38] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:38] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:39] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:39] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:46] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:49:49] [Server thread/INFO]: EntityZ096x issued server command: /lobby
+[10:49:52] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[10:50:10] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[10:50:10] [Server thread/INFO]: [-] EntityZ096x
+[10:50:45] [User Authenticator #11/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[10:50:45] [Server thread/INFO]: [+] JustDan12
+[10:50:45] [Server thread/INFO]: JustDan12[/127.0.0.1:39626] logged in with entity id 14485 at ([minecraft:lobby]-21.151040268874112, 60.0, 10.811331023415462)
+[10:50:46] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[10:50:46] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[10:50:50] [User Authenticator #12/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[10:50:51] [Server thread/INFO]: [+] EntityZ096x
+[10:50:51] [Server thread/INFO]: EntityZ096x[/127.0.0.1:39632] logged in with entity id 14521 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[10:50:51] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[10:50:51] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[10:50:54] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[10:50:55] [Server thread/INFO]: JustDan12 issued server command: /login poopyboy
+[10:50:59] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[10:51:04] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[10:51:04] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[10:51:21] [Server thread/INFO]: JustDan12 issued server command: /effect give JustDan12 minecraft:night_vision infinite 255
+[10:51:21] [Server thread/INFO]: [JustDan12: Applied effect Night Vision to JustDan12]
+[10:51:32] [Server thread/INFO]: EntityZ096x issued server command: /lp user QuantumEcho parent set admin
+[10:51:32] [luckperms-command-executor/INFO]: [LP] LOG > (EntityZ096x) [U] (quantumecho)
+[10:51:32] [luckperms-command-executor/INFO]: [LP] LOG > parent set admin
+[10:51:44] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[10:51:46] [Server thread/INFO]: EntityZ096x issued server command: /kit load mace
+[10:51:57] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[10:51:57] [Server thread/INFO]: [-] JustDan12
+[10:52:28] [Server thread/INFO]: EntityZ096x issued server command: /gm
+[10:52:29] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[10:55:30] [Server thread/INFO]: EntityZ096x issued server command: /deldummy
+[10:55:36] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[10:55:52] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[10:56:12] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[10:56:13] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[10:57:31] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[10:57:57] [Server thread/INFO]: EntityZ096x issued server command: /deldummy
+[10:58:01] [Server thread/INFO]: EntityZ096x issued server command: /dummy shield
+[11:01:12] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[11:01:13] [Server thread/INFO]: EntityZ096x issued server command: /
+[11:02:14] [Server thread/INFO]: [Essentials] Created a User for Duels (48411271-6dbd-23c3-b38f-c8905e69a235) for non Bukkit type: net.citizensnpcs.nms.v26_2_R1.entity.EntityHumanNPC$PlayerNPC
+[11:04:14] [Server thread/INFO]: EntityZ096x issued server command: /dummy shield
+[11:05:01] [User Authenticator #13/INFO]: UUID of player QuantumEcho is b3d07617-0acd-37dd-b1f6-25c77eb96693
+[11:05:02] [Server thread/INFO]: [+] QuantumEcho
+[11:05:02] [Server thread/INFO]: QuantumEcho[/127.0.0.1:59276] logged in with entity id 14668 at ([minecraft:lobby]9.688907089850227, 60.0, -219.6524780872014)
+[11:05:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[11:05:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player QuantumEcho, which is not a valid number.
+[11:05:07] [Server thread/INFO]: QuantumEcho issued server command: /l creeper45
+[11:05:18] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[11:05:18] [Server thread/INFO]: [-] EntityZ096x
+[11:05:27] [Server thread/INFO]: QuantumEcho issued server command: /kit load sumo
+[11:05:28] [User Authenticator #14/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[11:05:28] [Server thread/INFO]: [+] JustDan12
+[11:05:28] [Server thread/INFO]: JustDan12[/127.0.0.1:45764] logged in with entity id 14672 at ([minecraft:lobby]0.371145519618319, 100.677009965842, -194.3678697627911)
+[11:05:28] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[11:05:28] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[11:05:33] [Server thread/INFO]: JustDan12 issued server command: /login poopyboy
+[11:05:35] [Server thread/INFO]: JustDan12 issued server command: /gms
+[11:05:36] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[11:05:41] [User Authenticator #15/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[11:05:41] [Server thread/INFO]: [+] EntityZ096x
+[11:05:41] [Server thread/INFO]: EntityZ096x[/127.0.0.1:56716] logged in with entity id 14673 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[11:05:41] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo *
+[11:05:41] [Server thread/INFO]: Kit sumo has been loaded to QuantumEcho!
+[11:05:41] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[11:05:41] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[11:05:41] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[11:05:41] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[11:05:44] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[11:05:47] [Server thread/INFO]: QuantumEcho issued server command: /kit save
+[11:05:49] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[11:05:53] [Server thread/INFO]: QuantumEcho issued server command: /kit save sum
+[11:05:56] [Server thread/INFO]: JustDan12 issued server command: /kit load sumo *
+[11:05:56] [Server thread/INFO]: Kit sumo has been loaded to QuantumEcho!
+[11:05:56] [Server thread/INFO]: Kit sumo has been loaded to JustDan12!
+[11:05:56] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[11:06:04] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[11:06:05] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[11:06:11] [Server thread/INFO]: QuantumEcho issued server command: /kit delete sum
+[11:06:16] [Server thread/INFO]: QuantumEcho issued server command: /kit save sumo
+[11:06:18] [Server thread/INFO]: JustDan12 issued server command: /gms *
+[11:08:47] [Server thread/INFO]: EntityZ096x issued server command: /effect give @a night_vision infinite 225 true
+[11:08:47] [Server thread/INFO]: [EntityZ096x: Applied effect Night Vision to 3 targets]
+[11:09:00] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[11:09:00] [Server thread/INFO]: [-] JustDan12
+[11:09:01] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[11:09:05] [Server thread/INFO]: QuantumEcho issued server command: /gmc
+[11:09:14] [Server thread/INFO]: QuantumEcho issued server command: /gms
+[11:10:06] [Server thread/INFO]: QuantumEcho issued server command: /kit load sumo
+[11:11:15] [Server thread/INFO]: QuantumEcho issued server command: /heal
+[11:12:25] [Server thread/INFO]: QuantumEcho issued server command: /kit load sumo
+[11:12:27] [Server thread/INFO]: QuantumEcho issued server command: /gmc
+[11:12:39] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[11:12:39] [Server thread/INFO]: Kit sumo has been loaded to QuantumEcho!
+[11:12:39] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[11:12:44] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[11:12:44] [Server thread/INFO]: Kit sumo has been loaded to QuantumEcho!
+[11:12:44] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[11:12:49] [Server thread/INFO]: EntityZ096x issued server command: /kit
+[11:12:55] [Server thread/INFO]: QuantumEcho issued server command: /gms
+[11:13:06] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo
+[11:13:15] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x wind_charge
+[11:13:16] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x wind_charge
+[11:13:23] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x ender_pearl
+[11:13:31] [Server thread/INFO]: EntityZ096x issued server command: /kit save sumo
+[11:13:35] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[11:13:35] [Server thread/INFO]: Kit sumo has been loaded to QuantumEcho!
+[11:13:35] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[11:13:37] [Server thread/INFO]: EntityZ096x issued server command: /kit
+[11:13:49] [Server thread/INFO]: EntityZ096x issued server command: /kit layout delete sumo
+[11:13:52] [Server thread/INFO]: EntityZ096x issued server command: /kit load sumo *
+[11:13:52] [Server thread/INFO]: Kit sumo has been loaded to QuantumEcho!
+[11:13:52] [Server thread/INFO]: Kit sumo has been loaded to EntityZ096x!
+[11:14:29] [Server thread/INFO]: QuantumEcho issued server command: /kit load sumo
+[11:14:30] [Server thread/INFO]: QuantumEcho issued server command: /kit
+[11:15:03] [Server thread/INFO]: QuantumEcho issued server command: /kit load sumo
