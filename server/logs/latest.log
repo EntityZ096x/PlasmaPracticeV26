@@ -1033,3 +1033,195 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 [11:14:29] [Server thread/INFO]: QuantumEcho issued server command: /kit load sumo
 [11:14:30] [Server thread/INFO]: QuantumEcho issued server command: /kit
 [11:15:03] [Server thread/INFO]: QuantumEcho issued server command: /kit load sumo
+[11:16:34] [Server thread/INFO]: QuantumEcho issued server command: /heal
+[11:16:43] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[11:17:09] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[11:17:09] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[11:17:16] [Server thread/INFO]: QuantumEcho lost connection: Disconnected
+[11:17:16] [Server thread/INFO]: [-] QuantumEcho
+[11:18:44] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[11:18:44] [Server thread/INFO]: [-] EntityZ096x
+[12:06:12] [User Authenticator #16/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[12:06:12] [Server thread/INFO]: [+] JustDan12
+[12:06:12] [Server thread/INFO]: JustDan12[/127.0.0.1:39914] logged in with entity id 15224 at ([minecraft:lobby]9.841200162675577, 100.0, -204.15022648851502)
+[12:06:12] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[12:06:12] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[12:06:15] [Server thread/INFO]: JustDan12 issued server command: /login poopyboy
+[12:06:27] [Server thread/INFO]: JustDan12 issued server command: /worldswitch world
+[12:06:33] [Server thread/INFO]: JustDan12 issued server command: /kit load JustDan12
+[12:07:07] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[12:07:07] [Server thread/INFO]: [-] JustDan12
+[12:09:05] [User Authenticator #17/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[12:09:06] [Server thread/INFO]: [+] JustDan12
+[12:09:06] [Server thread/INFO]: JustDan12[/127.0.0.1:51688] logged in with entity id 15472 at ([minecraft:overworld]2942.8219901612847, 50.0, 3049.969508792148)
+[12:09:06] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[12:09:06] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[12:09:11] [Server thread/INFO]: JustDan12 issued server command: /login poopyboy
+[12:09:14] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[12:09:17] [Server thread/INFO]: JustDan12 issued server command: /worldswitch world
+[12:09:24] [Server thread/INFO]: JustDan12 issued server command: /kit load wemmbu
+[12:09:25] [Server thread/INFO]: JustDan12 issued server command: /gms
+[12:09:29] [Server thread/INFO]: JustDan12 issued server command: /kit load wemmbu
+[12:09:41] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 2855.5, y: 123.5, z: 3069.5, yaw: 0, pitch: 0 in 'world'
+[12:10:27] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 2715.5, y: 167.5, z: 3059.5, yaw: 0, pitch: 0 in 'world'
+[12:10:52] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[12:10:52] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 2688.3, y: 163, z: 3027.3, yaw: 125.83, pitch: 23.15 in 'world'
+[12:11:16] [Server thread/INFO]: JustDan12 issued server command: /kit load wemmbu
+[12:11:21] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 2705.5, y: 165.5, z: 3037.5, yaw: 0, pitch: 0 in 'world'
+[12:11:22] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 2705.5, y: 165.5, z: 3037.5, yaw: 0, pitch: 0 in 'world'
+[12:11:22] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 2705.5, y: 165.5, z: 3037.5, yaw: 0, pitch: 0 in 'world'
+[12:12:02] [Server thread/INFO]: JustDan12 issued server command: /tp just 0 100 0
+[12:12:19] [Server thread/INFO]: JustDan12 issued server command: /gms
+[12:12:20] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[12:12:25] [Server thread/INFO]: JustDan12 issued server command: /fucklag
+[12:12:25] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[12:12:32] [Server thread/INFO]: JustDan12 issued server command: /kit
+[12:12:44] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[12:12:44] [Server thread/INFO]: [-] JustDan12
+[12:31:07] [User Authenticator #18/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[12:31:08] [Server thread/INFO]: [+] JustDan12
+[12:31:08] [Server thread/INFO]: JustDan12[/127.0.0.1:57106] logged in with entity id 24487 at ([minecraft:overworld]-25.067702437394708, 71.76674874799001, -17.870919455949956)
+[12:31:08] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[12:31:08] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[12:31:11] [Server thread/INFO]: JustDan12 issued server command: /l l3g0bl0kj3
+[12:31:11] [Server thread/INFO]: JustDan12 lost connection: Incorrect password.
+[12:31:11] [Server thread/INFO]: [-] JustDan12
+[12:44:36] [User Authenticator #19/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[12:44:36] [Server thread/INFO]: [+] EntityZ096x
+[12:44:36] [Server thread/INFO]: EntityZ096x[/127.0.0.1:49552] logged in with entity id 24489 at ([minecraft:lobby]21.39059008510501, 113.0, -234.72708280575665)
+[12:44:36] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[12:44:36] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[12:44:50] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[12:50:18] [Server thread/INFO]: [Essentials] Created a User for CIT-92add21ffae6 (92add21f-fae6-2145-aea7-8c18e417af0e) for non Bukkit type: net.citizensnpcs.nms.v26_2_R1.entity.EntityHumanNPC$PlayerNPC
+[12:52:21] [Server thread/INFO]: EntityZ096x issued server command: /sk reload chat.sk
+[12:53:12] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[12:53:12] [Server thread/INFO]: Line 6: (chat.sk)
+[12:53:12] [Server thread/INFO]:     Can't understand this condition/effect: wait until {protocol::%player%} is set
+[12:53:12] [Server thread/INFO]:     Line: wait until {protocol::%player%} is set
+[12:53:12] [Server thread/INFO]:  
+[12:53:12] [Server thread/INFO]:     Encountered 1 error while reloading chat.sk! (91ms)
+[12:54:18] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[12:54:18] [Server thread/INFO]: Line 6: (chat.sk)
+[12:54:18] [Server thread/INFO]:     Can't understand this condition/effect: wait until {protocol::%player%} is set
+[12:54:18] [Server thread/INFO]:     Line: wait until {protocol::%player%} is set
+[12:54:18] [Server thread/INFO]:  
+[12:54:18] [Server thread/INFO]:     Encountered 1 error while reloading chat.sk! (139ms)
+[12:55:43] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[12:55:43] [Server thread/INFO]: Line 5: (chat.sk)
+[12:55:43] [Server thread/INFO]:     Can't understand this section: wait until protocol version of player is set
+[12:55:43] [Server thread/INFO]:     Line: wait until protocol version of player is set:
+[12:55:43] [Server thread/INFO]:  
+[12:55:43] [Server thread/INFO]: Line 10: (chat.sk)
+[12:55:43] [Server thread/INFO]:     Can't understand this loop: 'until {protocol::%player%}'
+[12:55:43] [Server thread/INFO]:     Line: loop until {protocol::%player%}:
+[12:55:43] [Server thread/INFO]:  
+[12:55:43] [Server thread/INFO]:     Encountered 2 errors while reloading chat.sk! (99ms)
+[12:55:52] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[12:55:52] [Server thread/INFO]: Line 5: (chat.sk)
+[12:55:52] [Server thread/INFO]:     Can't understand this section: wait until protocol version of player is set
+[12:55:52] [Server thread/INFO]:     Line: wait until protocol version of player is set:
+[12:55:52] [Server thread/INFO]:  
+[12:55:52] [Server thread/INFO]: Line 10: (chat.sk)
+[12:55:52] [Server thread/INFO]:     Can't understand this loop: 'until {protocol::%player%} is set'
+[12:55:52] [Server thread/INFO]:     Line: loop until {protocol::%player%} is set:
+[12:55:52] [Server thread/INFO]:  
+[12:55:52] [Server thread/INFO]:     Encountered 2 errors while reloading chat.sk! (251ms)
+[12:56:07] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[12:56:07] [Server thread/INFO]: Line 5: (chat.sk)
+[12:56:07] [Server thread/INFO]:     Can't understand this section: wait until protocol version of player is set
+[12:56:07] [Server thread/INFO]:     Line: wait until protocol version of player is set:
+[12:56:07] [Server thread/INFO]:  
+[12:56:08] [Server thread/INFO]: Line 10: (chat.sk)
+[12:56:08] [Server thread/INFO]:     Can't understand this section: when {protocol::%player%} is not set
+[12:56:08] [Server thread/INFO]:     Line: when {protocol::%player%} is not set:
+[12:56:08] [Server thread/INFO]:  
+[12:56:08] [Server thread/INFO]:     Encountered 2 errors while reloading chat.sk! (123ms)
+[12:57:27] [Server thread/INFO]: EntityZ096x issued server command: /sk reload chat.sk
+[12:57:37] [Server thread/INFO]: EntityZ096x issued server command: /sk reload chat.sk
+[12:57:44] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[12:57:44] [Server thread/INFO]: [-] EntityZ096x
+[12:57:46] [User Authenticator #20/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[12:57:46] [Server thread/INFO]: [+] EntityZ096x
+[12:57:46] [Server thread/INFO]: EntityZ096x[/127.0.0.1:52996] logged in with entity id 25277 at ([minecraft:survival]3.792564227220687, 64.0, -18.930547373175315)
+[12:57:46] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[12:57:46] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[12:57:49] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[12:57:59] [Server thread/INFO]: EntityZ096x issued server command: /protocol
+[13:01:55] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[13:01:55] [Server thread/INFO]: [-] EntityZ096x
+[13:02:55] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[13:02:55] [Server thread/INFO]: Line 13: (chat.sk)
+[13:02:55] [Server thread/INFO]:     'the join message' can't be changed after the event has passed
+[13:02:55] [Server thread/INFO]:     Line: set join message to {_msg}
+[13:02:55] [Server thread/INFO]:  
+[13:02:55] [Server thread/INFO]: Line 15: (chat.sk)
+[13:02:55] [Server thread/INFO]:     'the join message' can't be changed after the event has passed
+[13:02:55] [Server thread/INFO]:     Line: set join message to "&7[&a+&7] &f%player%"
+[13:02:55] [Server thread/INFO]:  
+[13:02:55] [Server thread/INFO]:     Encountered 2 errors while reloading chat.sk! (152ms)
+[13:03:02] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[13:03:02] [Server thread/INFO]: Successfully reloaded chat.sk. (73ms)
+[13:03:04] [User Authenticator #21/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[13:03:05] [Server thread/INFO]: [Skript]     method BukkitViaAPI#getPlayerVersion called with (2ee83cb0-186f-329d-bb3e-2dd2a293057c (UUID)) threw a ClassCastException: class java.util.UUID cannot be cast to class org.bukkit.entity.Player (java.util.UUID is in module java.base of loader 'bootstrap'; org.bukkit.entity.Player is in unnamed module of loader java.net.URLClassLoader @179d3b25)
+[13:03:05] [Server thread/INFO]: 
+[13:03:05] [Server thread/INFO]: [+] EntityZ096x
+[13:03:05] [Server thread/INFO]: EntityZ096x[/127.0.0.1:47434] logged in with entity id 25343 at ([minecraft:lobby]-4.650317208215657, 62.0, -7.759237981694848)
+[13:03:05] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[13:03:05] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[13:03:09] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[13:03:41] [Server thread/INFO]: EntityZ096x issued server command: /protocol
+[13:03:44] [Server thread/INFO]: EntityZ096x issued server command: /protocol
+[13:04:16] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[13:04:16] [Server thread/INFO]: Successfully reloaded chat.sk. (237ms)
+[13:04:18] [Server thread/INFO]: EntityZ096x issued server command: /protocol
+[13:04:18] [Server thread/INFO]: [Skript]     method BukkitViaAPI#getPlayerVersion called with (2ee83cb0-186f-329d-bb3e-2dd2a293057c (UUID)) threw a ClassCastException: class java.util.UUID cannot be cast to class org.bukkit.entity.Player (java.util.UUID is in module java.base of loader 'bootstrap'; org.bukkit.entity.Player is in unnamed module of loader java.net.URLClassLoader @179d3b25)
+[13:04:18] [Server thread/INFO]: 
+[13:04:45] [Server thread/INFO]: [Skript] Skript's aliases can be found here: https://github.com/SkriptLang/skript-aliases
+[13:04:45] [Server thread/INFO]: [Skript] Skript's documentation can be found here: https://docs.skriptlang.org/
+[13:04:45] [Server thread/INFO]: [Skript] Skript's tutorials can be found here: https://docs.skriptlang.org/tutorials
+[13:04:45] [Server thread/INFO]: [Skript] Server Version: 26.2-53-3a3d1c0 (MC: 26.2)
+[13:04:45] [Server thread/INFO]: [Skript] Skript Version: 2.16.2 (skriptlang-github)
+[13:04:45] [Server thread/INFO]: [Skript] Installed Skript Addons: 
+[13:04:45] [Server thread/INFO]: [Skript]  - skript-reflect v2.6.3 (https://github.com/SkriptLang/skript-reflect)
+[13:04:45] [Server thread/INFO]: [Skript]  - SkBee v3.26.0 (https://github.com/ShaneBeee/SkBee)
+[13:04:45] [Server thread/INFO]: [Skript] Installed dependencies: 
+[13:04:45] [Server thread/INFO]: [Skript]  - Vault v1.7.3-b131
+[13:04:45] [Server thread/INFO]: [Skript]  - WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[13:05:15] [Server thread/INFO]: [Skript] Skript's aliases can be found here: https://github.com/SkriptLang/skript-aliases
+[13:05:15] [Server thread/INFO]: [Skript] Skript's documentation can be found here: https://docs.skriptlang.org/
+[13:05:15] [Server thread/INFO]: [Skript] Skript's tutorials can be found here: https://docs.skriptlang.org/tutorials
+[13:05:15] [Server thread/INFO]: [Skript] Server Version: 26.2-53-3a3d1c0 (MC: 26.2)
+[13:05:15] [Server thread/INFO]: [Skript] Skript Version: 2.16.2 (skriptlang-github)
+[13:05:15] [Server thread/INFO]: [Skript] Installed Skript Addons: 
+[13:05:15] [Server thread/INFO]: [Skript]  - skript-reflect v2.6.3 (https://github.com/SkriptLang/skript-reflect)
+[13:05:15] [Server thread/INFO]: [Skript]  - SkBee v3.26.0 (https://github.com/ShaneBeee/SkBee)
+[13:05:15] [Server thread/INFO]: [Skript] Installed dependencies: 
+[13:05:15] [Server thread/INFO]: [Skript]  - Vault v1.7.3-b131
+[13:05:15] [Server thread/INFO]: [Skript]  - WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[13:05:19] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[13:05:19] [Server thread/INFO]: Successfully reloaded chat.sk. (118ms)
+[13:05:23] [Server thread/INFO]: EntityZ096x issued server command: /protocol
+[13:05:23] [Server thread/INFO]: [Skript]     method BukkitViaAPI#getPlayerVersion called with (2ee83cb0-186f-329d-bb3e-2dd2a293057c (UUID)) threw a ClassCastException: class java.util.UUID cannot be cast to class org.bukkit.entity.Player (java.util.UUID is in module java.base of loader 'bootstrap'; org.bukkit.entity.Player is in unnamed module of loader java.net.URLClassLoader @179d3b25)
+[13:05:23] [Server thread/INFO]: 
+[13:05:25] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[13:05:25] [Server thread/INFO]: [-] EntityZ096x
+[13:05:26] [User Authenticator #22/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[13:05:26] [Server thread/INFO]: [+] EntityZ096x
+[13:05:26] [Server thread/INFO]: EntityZ096x[/127.0.0.1:57580] logged in with entity id 25398 at ([minecraft:lobby]8.780463176757724, 61.0, -14.257383982403056)
+[13:05:26] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[13:05:26] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[13:05:34] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[13:05:34] [Server thread/INFO]: Successfully reloaded chat.sk. (41ms)
+[13:05:38] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[13:05:42] [Server thread/INFO]: EntityZ096x issued server command: /protocol
+[13:05:56] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[13:08:43] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[13:08:43] [Server thread/INFO]: [-] EntityZ096x
+[13:11:55] [Server thread/INFO]: [Skript] Reloading chat.sk...
+[13:11:55] [Server thread/INFO]: Successfully reloaded chat.sk. (46ms)
+[13:12:16] [Server thread/INFO]: [Skript] Reloading lunge.sk...
+[13:12:16] [Server thread/INFO]: Line 4: (bugfixes/lunge.sk)
+[13:12:16] [Server thread/INFO]:     Can't understand this structure: on player hotbar slot change
+[13:12:16] [Server thread/INFO]:     Line: on player hotbar slot change:
+[13:12:16] [Server thread/INFO]:  
+[13:12:16] [Server thread/INFO]:     Encountered 1 error while reloading lunge.sk! (11ms)
