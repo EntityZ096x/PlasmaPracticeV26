@@ -1,8 +1,8 @@
 import:
-    com.comphenix.protocol.ProtocolLibrary
+    com.viaversion.viaversion.api.Via
 
 on join:
-    set {protocol::%player%} to protocol version of player
+    set {protocol::%player%} to Via.getAPI().getPlayerVersion(player)
 
     if {protocol::%player%} < 774:
         set {_msg} to text component from "&7[&a+&7] &e%player%"
@@ -14,7 +14,9 @@ on join:
         set join message to "&7[&a+&7] &f%player%"
 
 on quit:
-	set the quit message to "&r&7[&r&c-&r&7] &r&e%player%"
+    set the quit message to "&r&7[&r&c-&r&7] &r&e%player%"
+
+
 
 on chat:
     set chat format to "%player's prefix%%player's name%%player's suffix% &r&8» &r%message%"
@@ -52,3 +54,7 @@ command /t <text>:
         set {_a} to arg-1
         replace all ":hakenkruis:" with "卐" in {_a}
         broadcast "&r&cEntityZ096x (as console)&r: %{_a}%"
+
+command /protocol:
+    trigger:
+        send {protocol::%player%} to player
