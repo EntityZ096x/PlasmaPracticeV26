@@ -570,3 +570,219 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 [15:23:13] [Server thread/INFO]: Successfully reloaded milk.sk. (487ms)
 [15:23:13] [Server thread/INFO]: [Skript] Reloading milk.sk...
 [15:23:13] [Server thread/INFO]: Successfully reloaded milk.sk. (185ms)
+[15:29:27] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[15:29:27] [Server thread/INFO]: [-] EntityZ096x
+[15:32:04] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:32:04] [Server thread/INFO]: Successfully reloaded milk.sk. (47ms)
+[15:32:07] [User Authenticator #2/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:32:07] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:32:07] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:32:07] [Server thread/INFO]: [+] EntityZ096x
+[15:32:07] [Server thread/INFO]: EntityZ096x[/127.0.0.1:43186] logged in with entity id 11090 at ([minecraft:survival]-5465.336342438526, 65.0, 3839.922125246322)
+[15:32:13] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_2013124
+[15:32:13] [Server thread/INFO]: EntityZ096x lost connection: Incorrect password.
+[15:32:13] [Server thread/INFO]: [-] EntityZ096x
+[15:32:15] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:32:15] [Server thread/INFO]: [+] EntityZ096x
+[15:32:15] [Server thread/INFO]: EntityZ096x[/127.0.0.1:50342] logged in with entity id 11097 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[15:32:16] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:32:16] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:32:24] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[15:34:06] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:34:06] [Server thread/INFO]: Line 27: (ci/milk.sk)
+[15:34:06] [Server thread/INFO]:     Can't understand this structure: on potion splash
+[15:34:06] [Server thread/INFO]:     Line: on potion splash:
+[15:34:06] [Server thread/INFO]:  
+[15:34:06] [Server thread/INFO]:     Encountered 1 error while reloading milk.sk! (71ms)
+[15:34:19] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:34:19] [Server thread/INFO]: Successfully reloaded milk.sk. (60ms)
+[15:34:21] [Server thread/INFO]: A potion splashed!
+[15:34:22] [Server thread/INFO]: A potion splashed!
+[15:34:23] [Server thread/INFO]: A potion splashed!
+[15:34:23] [Server thread/INFO]: A potion splashed!
+[15:34:23] [Server thread/INFO]: A potion splashed!
+[15:34:24] [Server thread/INFO]: A potion splashed!
+[15:34:24] [Server thread/INFO]: A potion splashed!
+[15:34:24] [Server thread/INFO]: A potion splashed!
+[15:34:35] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x bottle
+[15:34:39] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x glassbottle
+[15:34:47] [Server thread/INFO]: EntityZ096x issued server command: /summon cow
+[15:34:47] [Server thread/INFO]: [EntityZ096x: Summoned new Cow]
+[15:36:33] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[15:36:33] [Server thread/INFO]: [-] EntityZ096x
+[15:38:39] [User Authenticator #4/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[15:38:39] [Server thread/INFO]: Disconnecting JustDan12 (/127.0.0.1:55782): You are banned from this server.
+Reason: The Ban Hammer has spoken!
+[15:38:39] [Server thread/INFO]: JustDan12 (/127.0.0.1:55782) lost connection: You are banned from this server.
+Reason: The Ban Hammer has spoken!
+[15:39:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /unban JustDan12
+[15:39:03] [Server thread/INFO]: [Essentials] Player Console unbanned JustDan12
+[15:41:19] [Server thread/INFO]: ℹ Server Plugins (23):
+[15:41:19] [Server thread/INFO]: Paper Plugins (2):
+[15:41:19] [Server thread/INFO]:  - EconomyShopGUI, SkBee
+[15:41:19] [Server thread/INFO]: Bukkit Plugins (21):
+[15:41:19] [Server thread/INFO]:  - Chunky, Citizens, DecentHolograms, Essentials, EzRTP, FastAsyncWorldEdit, LuckPerms, Multiverse-Core, Multiverse-Inventories, Multiverse-NetherPortals
+[15:41:19] [Server thread/INFO]:  Multiverse-Portals, PlaceholderAPI, ProtocolLib, Skript, skript-reflect, TAB, Vault, ViaBackwards, ViaRewind, ViaVersion
+[15:41:19] [Server thread/INFO]:  WorldGuard
+[15:42:05] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:42:05] [Server thread/INFO]: Successfully reloaded milk.sk. (166ms)
+[15:42:07] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:42:08] [Server thread/INFO]: [+] EntityZ096x
+[15:42:08] [Server thread/INFO]: EntityZ096x[/127.0.0.1:36312] logged in with entity id 11250 at ([minecraft:lobby]-4.126962017770925, 62.0, -10.81633441080246)
+[15:42:08] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:42:08] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:42:13] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[15:42:40] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:42:40] [Server thread/INFO]: Successfully reloaded milk.sk. (95ms)
+[15:42:42] [Server thread/INFO]: SPLASH POTION HIT!
+[15:42:43] [Server thread/INFO]: SPLASH POTION HIT!
+[15:42:43] [Server thread/INFO]: SPLASH POTION HIT!
+[15:42:56] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:42:56] [Server thread/INFO]: Successfully reloaded milk.sk. (49ms)
+[15:42:58] [Server thread/INFO]: SPLASH POTION HIT!
+[15:42:58] [Server thread/INFO]: thrown potion
+[15:43:15] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:43:15] [Server thread/INFO]: Successfully reloaded milk.sk. (68ms)
+[15:43:17] [Server thread/INFO]: SPLASH POTION HIT!
+[15:43:51] [Server thread/INFO]: SPLASH POTION HIT!
+[15:43:51] [Server thread/INFO]: SPLASH POTION HIT!
+[15:43:51] [Server thread/INFO]: SPLASH POTION HIT!
+[15:43:51] [Server thread/INFO]: SPLASH POTION HIT!
+[15:43:52] [Server thread/INFO]: SPLASH POTION HIT!
+[15:43:52] [Server thread/INFO]: SPLASH POTION HIT!
+[15:45:27] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[15:45:27] [Server thread/INFO]: [-] EntityZ096x
+[15:46:03] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:46:03] [Server thread/INFO]: Line 22: (ci/milk.sk)
+[15:46:03] [Server thread/INFO]:     Can't understand this structure: on potion throw
+[15:46:03] [Server thread/INFO]:     Line: on potion throw:
+[15:46:03] [Server thread/INFO]:  
+[15:46:03] [Server thread/INFO]: Line 29: (ci/milk.sk)
+[15:46:03] [Server thread/INFO]:     Can't understand this condition/effect: if
+[15:46:03] [Server thread/INFO]:     Line: if
+[15:46:03] [Server thread/INFO]:  
+[15:46:03] [Server thread/INFO]:     Encountered 2 errors while reloading milk.sk! (40ms)
+[15:46:36] [User Authenticator #6/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[15:46:37] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:46:37] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[15:46:37] [Server thread/INFO]: [+] JustDan12
+[15:46:37] [Server thread/INFO]: JustDan12[/127.0.0.1:39300] logged in with entity id 11327 at ([minecraft:lobby]51.243240745210144, 101.79368861892293, -212.44773828208986)
+[15:46:43] [Server thread/INFO]: JustDan12 issued server command: /login poopyboy
+[15:47:19] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:47:20] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 6.25, y: 197.79, z: -200.23, yaw: -137.02, pitch: 78.97 in 'Lobby'
+[15:47:33] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:47:33] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 41.28, y: 137, z: -213.78, yaw: -92.34, pitch: 73.89 in 'Lobby'
+[15:47:40] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:47:40] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 42.95, y: 136.5, z: -213.94, yaw: -90.35, pitch: 33.71 in 'Lobby'
+[15:47:50] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:47:50] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 41.79, y: 141, z: -216.98, yaw: 41.02, pitch: 72.13 in 'Lobby'
+[15:48:08] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:48:08] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -15.77, y: 144.9, z: -203.72, yaw: 46.17, pitch: 58.87 in 'Lobby'
+[15:48:10] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:48:10] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -22.47, y: 144.9, z: -198.78, yaw: 46.17, pitch: 58.87 in 'Lobby'
+[15:48:19] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:48:19] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -43.25, y: 116.47, z: -197.6, yaw: -147.17, pitch: 52.61 in 'Lobby'
+[15:48:22] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:48:22] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -15.44, y: 116.47, z: -211.17, yaw: -113.69, pitch: 60.27 in 'Lobby'
+[15:48:27] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:48:27] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -39.79, y: 116.47, z: -202.01, yaw: 39.4, pitch: 43.19 in 'Lobby'
+[15:48:32] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:48:32] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -20.57, y: 111.24, z: -216.88, yaw: -12.12, pitch: 34.21 in 'Lobby'
+[15:48:35] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:48:35] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -18.44, y: 111.24, z: -224.25, yaw: -12.19, pitch: 35.02 in 'Lobby'
+[15:48:47] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[15:48:47] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -18.02, y: 95.49, z: -245.88, yaw: -141.8, pitch: -61.25 in 'Lobby'
+[15:49:15] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[15:49:15] [Server thread/INFO]: [-] JustDan12
+[15:50:41] [User Authenticator #7/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:50:41] [Server thread/INFO]: [+] EntityZ096x
+[15:50:41] [Server thread/INFO]: EntityZ096x[/127.0.0.1:36600] logged in with entity id 16786 at ([minecraft:lobby]-6.1452518939623575, 60.0, 21.82093678859322)
+[15:50:42] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:50:42] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:50:44] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[15:50:48] [Server thread/INFO]: EntityZ096x issued server command: /gmcc
+[15:50:50] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[15:53:28] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[15:53:28] [Server thread/INFO]: [-] EntityZ096x
+[15:53:28] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:53:29] [Server thread/INFO]: Line 23: (ci/milk.sk)
+[15:53:29] [Server thread/INFO]:     There's no item stack in an on shoot event.
+[15:53:29] [Server thread/INFO]:     Line: if string tag "ci.item" of custom nbt of event-item is "milk_bottle":
+[15:53:29] [Server thread/INFO]:  
+[15:53:29] [Server thread/INFO]: Line 29: (ci/milk.sk)
+[15:53:29] [Server thread/INFO]:     Can't understand this condition/effect: if
+[15:53:29] [Server thread/INFO]:     Line: if
+[15:53:29] [Server thread/INFO]:  
+[15:53:29] [Server thread/INFO]:     Encountered 2 errors while reloading milk.sk! (238ms)
+[15:53:36] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:53:36] [Server thread/INFO]: Line 24: (ci/milk.sk)
+[15:53:36] [Server thread/INFO]:     Use 'projectile' and/or 'shooter' in shoot events
+[15:53:36] [Server thread/INFO]:     Line: clear the player's hidden potion effects
+[15:53:36] [Server thread/INFO]:  
+[15:53:36] [Server thread/INFO]: Line 25: (ci/milk.sk)
+[15:53:36] [Server thread/INFO]:     There's no player in an on shoot event.
+[15:53:36] [Server thread/INFO]:     Line: clear the player's potion effects
+[15:53:36] [Server thread/INFO]:  
+[15:53:36] [Server thread/INFO]: Line 29: (ci/milk.sk)
+[15:53:36] [Server thread/INFO]:     Can't understand this condition/effect: if
+[15:53:36] [Server thread/INFO]:     Line: if
+[15:53:36] [Server thread/INFO]:  
+[15:53:36] [Server thread/INFO]:     Encountered 3 errors while reloading milk.sk! (50ms)
+[15:55:09] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:55:09] [Server thread/INFO]: Successfully reloaded milk.sk. (38ms)
+[15:55:12] [User Authenticator #8/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:55:12] [Server thread/INFO]: [+] EntityZ096x
+[15:55:12] [Server thread/INFO]: EntityZ096x[/127.0.0.1:43842] logged in with entity id 17983 at ([minecraft:lobby]42.6898349540872, 98.88370779252556, -176.72461789857644)
+[15:55:12] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:55:12] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[15:55:16] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[15:55:36] [Server thread/INFO]: EntityZ096x issued server command: /summon cow
+[15:55:36] [Server thread/INFO]: [EntityZ096x: Summoned new Cow]
+[15:55:51] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:55:52] [Server thread/INFO]: Successfully reloaded milk.sk. (44ms)
+[15:58:18] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:58:18] [Server thread/INFO]: Successfully reloaded milk.sk. (61ms)
+[15:59:23] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[15:59:23] [Server thread/INFO]: Line 30: (ci/milk.sk)
+[15:59:23] [Server thread/INFO]:     You cannot get all values of type 'potion effect'
+[15:59:23] [Server thread/INFO]:     Line: remove all potion effects from loop-entity
+[15:59:23] [Server thread/INFO]:  
+[15:59:23] [Server thread/INFO]:     Encountered 1 error while reloading milk.sk! (141ms)
+[16:00:41] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[16:00:41] [Server thread/INFO]: [-] EntityZ096x
+[16:00:44] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[16:00:44] [Server thread/INFO]: Line 30: (ci/milk.sk)
+[16:00:44] [Server thread/INFO]:     You cannot get all values of type 'potion effect'
+[16:00:44] [Server thread/INFO]:     Line: clear all potion effects of loop-entity
+[16:00:44] [Server thread/INFO]:  
+[16:00:44] [Server thread/INFO]:     Encountered 1 error while reloading milk.sk! (55ms)
+[16:00:50] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[16:00:50] [Server thread/INFO]: Line 30: (ci/milk.sk)
+[16:00:50] [Server thread/INFO]:     loop-entity is neither an item stack, an item type, an entity type nor a particle
+[16:00:50] [Server thread/INFO]:     Line: clear all effects of loop-entity
+[16:00:50] [Server thread/INFO]:  
+[16:00:50] [Server thread/INFO]:     Encountered 1 error while reloading milk.sk! (59ms)
+[16:01:34] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[16:01:34] [Server thread/INFO]: Line 30: (ci/milk.sk)
+[16:01:34] [Server thread/INFO]:     There's no entity in an on projectile hit event.
+[16:01:34] [Server thread/INFO]:     Line: clear the entity's hidden potion effects
+[16:01:34] [Server thread/INFO]:  
+[16:01:34] [Server thread/INFO]: Line 31: (ci/milk.sk)
+[16:01:34] [Server thread/INFO]:     There's no entity in an on projectile hit event.
+[16:01:34] [Server thread/INFO]:     Line: clear the entity's potion effects
+[16:01:34] [Server thread/INFO]:  
+[16:01:34] [Server thread/INFO]:     Encountered 2 errors while reloading milk.sk! (105ms)
+[16:01:45] [Server thread/INFO]: [Skript] Reloading milk.sk...
+[16:01:45] [Server thread/INFO]: Successfully reloaded milk.sk. (71ms)
+[16:01:49] [User Authenticator #9/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:01:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:01:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[16:01:49] [Server thread/INFO]: [+] EntityZ096x
+[16:01:49] [Server thread/INFO]: EntityZ096x[/127.0.0.1:51810] logged in with entity id 19205 at ([minecraft:survival]-5453.380406996653, 66.0, 3843.749267528359)
+[16:01:53] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[16:02:24] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[16:09:08] [Server thread/INFO]: EntityZ096x issued server command: /summon cow
+[16:09:08] [Server thread/INFO]: [EntityZ096x: Summoned new Cow]
+[16:13:42] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
+[16:13:42] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[16:13:42] [Server thread/INFO]: [-] EntityZ096x
