@@ -1,7 +1,6 @@
 on load:
     delete {orbitalperms::*}
     add "EntityZ096x" to {orbitalperms::*}
-    add "JustDan12" to {orbitalperms::*}
     add "Clstial" to {orbitalperms::*}
     add "QuantumEcho" to {orbitalperms::*}
 
