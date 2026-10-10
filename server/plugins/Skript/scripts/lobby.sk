@@ -8,3 +8,7 @@ on any click:
         if {debug.%player%} is not "enabled":
             cancel event
 
+on explode:
+    if world is "lobby":
+        cancel event
+

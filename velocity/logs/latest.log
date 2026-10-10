@@ -1,155 +1,32 @@
-[14:27:36] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 4.1.2-SNAPSHOT (git-21bbf35d-b27)...
-[14:27:36] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[14:27:37] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[14:27:37] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
-[14:27:37] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
-java.lang.IllegalArgumentException: Image is not 64x64 (found 183x178)
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:307)
-	at com.velocitypowered.api.util.Favicon.create(Favicon.java:82)
-	at com.velocitypowered.api.util.Favicon.create(Favicon.java:107)
-	at com.velocitypowered.proxy.config.VelocityConfiguration.loadFavicon(VelocityConfiguration.java:254)
-	at com.velocitypowered.proxy.config.VelocityConfiguration.validate(VelocityConfiguration.java:245)
-	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:409)
-	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:293)
-	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)
-[14:27:37] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[14:27:38] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[14:27:39] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.1...
-[14:27:39] [main/INFO] [eaglerxserver]: (Platform: Velocity)
-[14:27:39] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
-[14:27:41] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.1.1 by lax1dude
-[14:27:41] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerweb 1.0.1 by lax1dude
-[14:27:41] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxrewind-1-5 1.0.2 by lax1dude, ayunami2000
-[14:27:41] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 4 plugins
-[14:27:41] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[14:27:41] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.1...
-[14:27:41] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
-[14:27:42] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
-[14:27:42] [EaglercraftXServer - Task Executor #1/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/PlasmaPracticeV26/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[14:27:42] [EaglercraftXServer - Task Executor #1/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[14:27:42] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Loading config files...
-[14:27:42] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexing pages, please wait...
-[14:27:42] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexed 12 pages total!
-[14:27:42] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxrewind-1-5]: EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
-[14:27:42] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0x7d41b421, L:/[0:0:0:0:0:0:0:0]:25567] successfully (Velocity method)
-[14:27:42] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25567
-[14:27:43] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (8.46s)!
-[14:27:48] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
-[14:42:27] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x3f855c08, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:34484]
-[14:42:27] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x90afa99e, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:34498]
-[14:42:27] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:34498) has connected
-[14:42:27] [Netty epoll Worker #2/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:34498|EntityZ096x]: Player is using client: Tuff Client - 1.0
-[14:42:27] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
-[14:44:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:34498) has disconnected: An internal error occurred in your connection.
-[14:44:47] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/77.172.157.87:34498): read timed out
-[14:44:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
-[14:45:00] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x69513f93, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:51504]
-[14:45:01] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:51504) has connected
-[14:45:01] [Netty epoll Worker #3/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:51504|EntityZ096x]: Player is using client: Tuff Client - 1.0
-[14:45:01] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
-[15:29:27] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:51504) has disconnected: An internal error occurred in your connection.
-[15:29:27] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/77.172.157.87:51504): read timed out
-[15:29:27] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
-[15:32:06] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x4197ff2e, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:51114]
-[15:32:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:51114) has connected
-[15:32:07] [Netty epoll Worker #0/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:51114|EntityZ096x]: Player is using client: Tuff Client - 1.0
-[15:32:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
-[15:32:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:51114): kicked from server mainserver: Incorrect password.
-[15:32:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
-[15:32:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:51114) has disconnected: You were kicked from mainserver: Incorrect password.
-[15:32:15] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x03daf867, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:43484]
-[15:32:15] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:43484) has connected
-[15:32:15] [Netty epoll Worker #1/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:43484|EntityZ096x]: Player is using client: Tuff Client - 1.0
-[15:32:15] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
-[15:36:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:43484) has disconnected: An internal error occurred in your connection.
-[15:36:33] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/77.172.157.87:43484): read timed out
-[15:36:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
-[15:38:37] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x6b0e1d68, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:35606]
-[15:38:39] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xfbeb3c7e, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:59572]
-[15:38:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] JustDan12 (/86.84.211.96:59572) has connected
-[15:38:39] [Netty epoll Worker #3/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:59572|JustDan12]: Player is using client: Tuff Client - 1.0
-[15:38:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has connected
-[15:38:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has disconnected
-[15:38:39] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] JustDan12 (/86.84.211.96:59572): disconnected while connecting to mainserver: You are banned from this server.
-Reason: %s
-[15:38:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] JustDan12 (/86.84.211.96:59572) has disconnected: Unable to connect to mainserver: You are banned from this server.
-Reason: %s
-[15:38:43] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x3a3b1a47, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:59582]
-[15:42:07] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x334d0ce4, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:48340]
-[15:42:07] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:48340) has connected
-[15:42:07] [Netty epoll Worker #1/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:48340|EntityZ096x]: Player is using client: Tuff Client - 1.0
-[15:42:07] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
-[15:45:27] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:48340) has disconnected: An internal error occurred in your connection.
-[15:45:27] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/77.172.157.87:48340): read timed out
-[15:45:27] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
-[15:46:36] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xd29db661, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:46036]
-[15:46:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] JustDan12 (/86.84.211.96:46036) has connected
-[15:46:36] [Netty epoll Worker #2/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:46036|JustDan12]: Player is using client: Tuff Client - 1.0
-[15:46:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has connected
-[15:49:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] JustDan12 (/86.84.211.96:46036) has disconnected
-[15:49:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has disconnected
-[15:49:16] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x88603d7c, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:40394]
-[15:49:59] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xf4af6073, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:58266]
-[15:50:41] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xa7659878, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:54046]
-[15:50:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:54046) has connected
-[15:50:41] [Netty epoll Worker #1/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:54046|EntityZ096x]: Player is using client: Tuff Client - 1.0
-[15:50:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
-[15:53:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:54046) has disconnected: An internal error occurred in your connection.
-[15:53:28] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/77.172.157.87:54046): read timed out
-[15:53:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
-[15:55:12] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x7e15b777, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:60908]
-[15:55:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:60908) has connected
-[15:55:12] [Netty epoll Worker #2/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:60908|EntityZ096x]: Player is using client: Tuff Client - 1.0
-[15:55:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
-[15:57:19] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xcafded66, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:49056]
-[16:00:41] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:60908) has disconnected: An internal error occurred in your connection.
-[16:00:41] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/77.172.157.87:60908): read timed out
-[16:00:41] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
-[16:01:49] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xee1cbc7e, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:59648]
-[16:01:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:59648) has connected
-[16:01:49] [Netty epoll Worker #0/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:59648|EntityZ096x]: Player is using client: Tuff Client - 1.0
-[16:01:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
-[16:11:47] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x6b07a65d, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:54142]
-[16:13:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:59648): kicked from server mainserver: disconnect.timeout
-[16:13:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
-[16:13:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:59648) has disconnected: You were kicked from mainserver: disconnect.timeout
-[16:25:48] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x38ed13d1, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:36864]
-[16:27:53] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xc2db785d, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:57116]
-[16:43:04] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x63fb429e, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:37058]
-[18:24:13] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xe65a1fe1, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:37726]
-[18:24:52] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x44041a6a, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:35744]
-[18:24:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:35744) has connected
-[18:24:52] [Netty epoll Worker #2/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:35744|EntityZ096x]: Player is using client: Tuff Client - 1.0
-[18:24:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
-[18:26:42] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:35744) has disconnected: An internal error occurred in your connection.
-[18:26:42] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/77.172.157.87:35744): read timed out
-[18:26:42] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
-[18:47:07] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xd6072ccf, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:57832]
-[18:47:08] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:57832) has connected
-[18:47:08] [Netty epoll Worker #3/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:57832|EntityZ096x]: Player is using client: Tuff Client - 1.0
-[18:47:08] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
-[18:48:20] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x9c84c96c, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:50338]
-[18:56:46] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x3f8e4fef, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:47926]
-[18:56:56] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x53806c07, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:52810]
-[18:56:56] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] JustDan12 (/86.84.211.96:52810) has connected
-[18:56:56] [Netty epoll Worker #2/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:52810|JustDan12]: Player is using client: Tuff Client - 1.0
-[18:56:56] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has connected
-[19:00:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] JustDan12 (/86.84.211.96:52810): kicked from server mainserver: You have been banned:
-The Ban Hammer has spoken!
-[19:00:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has disconnected
-[19:00:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] JustDan12 (/86.84.211.96:52810) has disconnected: You were kicked from mainserver: You have been banned:
-The Ban Hammer has spoken!
-[19:00:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:57832) has disconnected: An internal error occurred in your connection.
-[19:00:51] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/77.172.157.87:57832): read timed out
-[19:00:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
-[19:10:26] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xc24df856, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:53660]
-[19:10:28] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x529e9a16, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:53664]
-[19:10:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] JustDan12 (/86.84.211.96:53664) has connected
-[19:10:28] [Netty epoll Worker #0/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:53664|JustDan12]: Player is using client: Tuff Client - 1.0
-[19:10:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has connected
-[19:10:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] JustDan12 -> mainserver has disconnected
-[19:10:28] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] JustDan12 (/86.84.211.96:53664): disconnected while connecting to mainserver: You are banned from this server.
-Reason: %s
-[19:10:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] JustDan12 (/86.84.211.96:53664) has disconnected: Unable to connect to mainserver: You are banned from this server.
-Reason: %s
-[19:10:30] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xb3efa1ff, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:45874]
+[20:11:24] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 4.1.2-SNAPSHOT (git-21bbf35d-b27)...
+[20:11:24] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[20:11:24] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[20:11:24] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[20:11:24] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[20:11:24] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[20:11:25] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.1...
+[20:11:25] [main/INFO] [eaglerxserver]: (Platform: Velocity)
+[20:11:25] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
+[20:11:25] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.1.1 by lax1dude
+[20:11:25] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerweb 1.0.1 by lax1dude
+[20:11:25] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxrewind-1-5 1.0.2 by lax1dude, ayunami2000
+[20:11:25] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 4 plugins
+[20:11:25] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[20:11:25] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.1...
+[20:11:25] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[20:11:25] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
+[20:11:25] [EaglercraftXServer - Task Executor #1/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/PlasmaPracticeV26/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[20:11:25] [EaglercraftXServer - Task Executor #1/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[20:11:26] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Loading config files...
+[20:11:26] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexing pages, please wait...
+[20:11:26] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexed 12 pages total!
+[20:11:26] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxrewind-1-5]: EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
+[20:11:26] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0x20d2d224, L:/[0:0:0:0:0:0:0:0]:25567] successfully (Velocity method)
+[20:11:26] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25567
+[20:11:26] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (2.73s)!
+[20:11:27] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
+[20:11:49] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x46c12faa, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:53948]
+[20:30:03] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0xeffb9f5f, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:36488]
+[20:30:03] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:36488) has connected
+[20:30:03] [Netty epoll Worker #2/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:36488|EntityZ096x]: Player is using client: Tuff Client - 1.0
+[20:30:03] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
