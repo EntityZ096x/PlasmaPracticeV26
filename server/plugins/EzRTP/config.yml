@@ -10,7 +10,7 @@
 # - network.yml (proxy/server selector entries)
 
 # Prefix for all plugin messages. Supports color codes (&) and MiniMessage formatting.
-message-prefix: "&r&6&lRandomTP &r&8» &r"
+message-prefix: "<reset><red><bold>RTP <reset><dark_gray>» <reset>"
 
 # Language for plugin messages. Language files live in the messages/ directory.
 language: en
@@ -28,7 +28,7 @@ worldguard:
 
 # Defaults used by some utility commands (for example /rtp pregenerate).
 # Core teleport behavior still comes from rtp.yml.
-world: world
+world: Survival
 radius:
   min: 500
 

@@ -8,7 +8,7 @@
 # See gui-placeholders-example.yml for detailed examples.
 # Requires PlaceholderAPI plugin to be installed.
 enabled: true
-title: "RandomTP"
+title: "Random Teleport"
 rows: 3
 no-permission-message: "<red>You do not have permission to travel there.</red>"
 # Optional custom messages for GUI (fallback to defaults if not specified)
@@ -30,8 +30,8 @@ rare_biomes:
     minimum-cached: 1  # Minimum number of cached locations required for rare biomes
 filler:
   enabled: true
-  material: GRAY_STAINED_GLASS_PANE
-  name: "<dark_gray> </dark_gray>"
+  material: GLASS_PANE
+  name: ""
 worlds:
   overworld:
     # Slot within the GUI (0-53). When omitted entries are placed in order.
@@ -44,9 +44,8 @@ worlds:
       lore:
         - "<gray>Balanced biomes, safe landings, and</gray>"
         - "<gray>plenty of room to explore.</gray>"
-        - "<dark_gray>Click to begin your adventure.</dark_gray>"
     settings:
-      world: LifeSteal
+      world: Survival
   nether:
     slot: 11
     permission: "ezrtp.gui.nether"
@@ -56,9 +55,8 @@ worlds:
       lore:
         - "<gray>Warp into the Nether to hunt</gray>"
         - "<gray>for ancient debris and rare loot.</gray>"
-        - "<dark_gray>Requires Nether access.</dark_gray>"
     settings:
-      world: LifeSteal_nether
+      world: Survival_nether
   end:
     slot: 15
     permission: "ezrtp.gui.end"
@@ -68,9 +66,9 @@ worlds:
       lore:
         - "<gray>Teleport to distant End islands</gray>"
         - "<gray>for chorus fruit and gateways.</gray>"
-        - "<dark_gray>Requires End access.</dark_gray>"
+        - "<dark_gray>Disabled for now.</dark_gray>"
     settings:
-      world: LifeSteal_the_end
+      world: Survival_the_end
   # Biome-specific RTP options
   # plains:
   #   slot: 10

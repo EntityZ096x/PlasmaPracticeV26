@@ -9,10 +9,14 @@ command /ci <text>:
             give player a bow named "&r&lMinigun"
         if arg-1 is "sniperbullet":
             give player 128 spectral arrows named "&r&e50 Calibre Sniper Bullet"
+        if arg-1 is "energy":
+            set {_i} to potion of awkward named "&r&eEnergy Drink" with custom nbt from "{ci.item:""energy_drink""}"
+            force {_i} to glint
+            set lore of {_i} to "&8Energy drinks will satisfy your hunger."
+            hide {_i}'s entire tooltip
+            set maximum stack size of {_i} to 64
+            give player 64 of {_i}
 
 
 on tab complete of "/ci":
-    set tab completions for position 1 to "grapplehook", "sniper", "sniperbullet", "minigun", "arrowstorm"
-
-on tab complete of "/":
-    set tab completions for position 1 to "tp"
+    set tab completions for position 1 to "grapplehook", "sniper", "sniperbullet", "minigun", "arrowstorm", "energy"

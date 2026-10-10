@@ -1,0 +1,10 @@
+on damage:
+    if world is "lobby":
+        if damage cause is fall:
+            cancel event
+
+on any click:
+    if world is not "lobby":
+        if {debug.%player%} is not "enabled":
+            cancel event
+

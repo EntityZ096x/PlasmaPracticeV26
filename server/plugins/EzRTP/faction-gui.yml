@@ -1,0 +1,26 @@
+# Faction claim GUI configuration for /rtp faction and /f rtp
+faction-gui:
+  enabled: true
+  title: "Faction RTP Claims (<page>/<pages>)"
+  size: 54
+
+  items:
+    claim:
+      # If true, EzRTP attempts to use a player skull for the claim owner/claimer.
+      # Falls back to fallback-material when no player identity is available.
+      use-player-skulls: true
+      fallback-material: GRASS_BLOCK
+      name: "Claim #<index>"
+      lore:
+        - "World: <world>"
+        - "Chunk: <chunk_x>, <chunk_z>"
+        - "Center: <center_x>, <center_z>"
+        - "Click to RTP around this claim"
+
+  navigation:
+    previous:
+      slot: 45
+      name: "Previous Page"
+    next:
+      slot: 53
+      name: "Next Page"

@@ -1,0 +1,13 @@
+on attack attempt:
+    if attacker is a player:
+        if name of attacker is "EntityZ096x":
+            if victim is a player:
+                if gamemode of victim is creative:
+                    set {_attacker} to attacker
+
+                    set {_source} to a custom damage source:
+                        set the damage type to player attack
+                        set the causing entity to {_attacker}
+                        set the direct entity to {_attacker}
+
+                    damage victim by 1 using {_source}

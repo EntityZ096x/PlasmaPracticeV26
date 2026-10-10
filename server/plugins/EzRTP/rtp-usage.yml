@@ -20,3 +20,19 @@ players:
       usage:
         daily: 0
         weekly: 1
+    Survival_nether:
+      lastRtp: 1791390651841
+      usage:
+        daily: 3
+        weekly: 3
+    Survival:
+      lastRtp: 1791643619859
+      usage:
+        daily: 13
+        weekly: 13
+  81c70caa-9b97-31ee-9ae5-18b3ee16e1e1:
+    Survival:
+      lastRtp: 1791455616900
+      usage:
+        daily: 2
+        weekly: 2
