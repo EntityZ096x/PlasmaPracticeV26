@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
 godmode: false
-flymode: true
+flymode: false
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -12,31 +12,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1791301727956
+  lastteleport: 1791569795819
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1791302918977
-  login: 1791302922617
-money: '501.45'
+  logout: 1791643487803
+  login: 1791643501537
+money: '564.81'
 logoutlocation:
-  world: e986e23e-eaa6-41dc-97d9-c4b0e19e7c9a
-  world-name: voidworld
-  x: 0.5
-  y: 64.0
-  z: 0.5
-  yaw: 0.0
-  pitch: 0.0
+  world: f70b1dbe-264f-4011-9770-0a60de88db6d
+  world-name: Lobby
+  x: -22.927201681580232
+  y: 60.0
+  z: 20.624434250535522
+  yaw: -10.499993324279785
+  pitch: -1.9500024318695068
 last-account-name: EntityZ096x
 lastlocation:
-  world: ae3fd088-f335-4304-928c-e6a701fdd5bc
-  world-name: Survival
-  x: 19889.69999998808
-  y: 64.0
-  z: 15046.826596256415
-  yaw: -163.512451171875
-  pitch: 1.9499893188476562
+  world: f70b1dbe-264f-4011-9770-0a60de88db6d
+  world-name: Lobby
+  x: -29.5421448930026
+  y: 60.0
+  z: 21.69999998807907
+  yaw: 20.850000381469727
+  pitch: 4.650000095367432
 homes:
   base:
     world: ae3fd088-f335-4304-928c-e6a701fdd5bc

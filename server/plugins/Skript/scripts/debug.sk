@@ -50,10 +50,9 @@ command /debug.reload:
         execute player command "/sk reload debug.sk"
 
             
-on damage:
-    wait 1 tick
+on damage with priority lowest:
     if {debug.%attacker%} is "enabled":
-        send "&r&7All values are in &cHearts" to attacker
+        wait 1 tick
         send "&r&7Raw damage:&r&c %damage%" to attacker
         send "&r&7Final damage:&r&c %final damage%" to attacker
         send "&r&7Health remaining:&r&c %victim's health%" to attacker
@@ -96,3 +95,7 @@ command /debug.testvar <text>:
 command /debug.cnbtcheck:
     trigger:
         send "%custom nbt of player's tool%" to player
+
+on resurrect attempt:
+    if {debug.%player%} is "enabled":
+        uncancel event

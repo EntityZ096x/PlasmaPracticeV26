@@ -15,7 +15,7 @@ rtp:
 # Optional: restrict random teleport Y-levels (inclusive).
 min-y: 54
 max-y: 320
-world: LifeSteal
+world: Survival
 center:
   x: 0
   z: 0
@@ -41,12 +41,12 @@ countdown:
   # Optional: override countdown seconds here instead of countdown-seconds.
   # seconds: 5
   bossbar:
-    enabled: true
+    enabled: false
     title: "<yellow>Teleporting in <white><seconds></white> seconds...</yellow>"
     color: YELLOW
     style: SOLID
   particles:
-    enabled: true
+    enabled: false
     type: ENCHANTMENT_TABLE
     points: 12
     radius: 1.2
@@ -56,7 +56,7 @@ countdown:
     secondary-particle: PORTAL
     secondary-count: 6
     secondary-offset: 0.35
-  chat-messages: false
+  chat-messages: true
 
 unsafe-blocks:
   - WATER
@@ -96,7 +96,7 @@ chunk-loading:
 
 # Chunky integration for pregenerating RTP search areas
 chunky-integration:
-  enabled: false
+  enabled: true
   auto-pregenerate: false
   shape: circle
   pattern: concentric

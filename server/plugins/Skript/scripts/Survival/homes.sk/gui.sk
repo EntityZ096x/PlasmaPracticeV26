@@ -1,0 +1,56 @@
+command /homes:
+    trigger:
+        set {_gui} to chest inventory with 3 rows named "&8&lYour Homes"
+
+        # Fill GUI with gray stained glass
+        loop 27 times:
+            set slot (loop-number - 1) of {_gui} to gray stained glass pane named " "
+
+        # Home slots
+        set {_slot} to 10
+
+        loop {homes::%player%::*}:
+            set {_name} to loop-index
+            set {_display} to {_name}
+
+            # Capitalize first letter
+            set {_first} to first character of {_display}
+            set {_rest} to substring of {_display} from characters 2 to length of {_display}
+            set {_display} to uppercase {_first}
+            set {_display} to "%{_display}%%{_rest}%"
+
+            set {_loc} to loop-value
+
+            set {_item} to red bed named "<#ff0000>&l%{_display}%"
+            set lore of {_item} to "&7Click to teleport!" and "" and "&8Location:" and "&7X: &f%x-coordinate of {_loc}%" and "&7Y: &f%y-coordinate of {_loc}%" and "&7Z: &f%z-coordinate of {_loc}%" and "&7World: &f%world of {_loc}%"
+
+            set slot {_slot} of {_gui} to {_item}
+            add 1 to {_slot}
+
+        open {_gui} to player
+
+
+on inventory click:
+    if name of event-inventory is "&8&lYour Homes":
+        cancel event
+
+        if clicked inventory is player's inventory:
+            stop
+
+        set {_slot} to index of event-slot
+        set {_count} to 10
+
+        loop {homes::%player%::*}:
+            if {_count} is {_slot}:
+                set {_name} to loop-index
+
+                close player's inventory
+                execute player command "/home tp %{_name}%"
+                stop
+
+            add 1 to {_count}
+
+
+on inventory drag:
+    if name of event-inventory is "&8&lYour Homes":
+        cancel event

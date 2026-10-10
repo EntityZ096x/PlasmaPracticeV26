@@ -1,0 +1,15 @@
+command /code [<text>]:
+    trigger:
+        if {codes.%arg-1%::*} contains player:
+            send "&r&cYou've already redeemed this code!"
+            stop
+        if arg-1 is "BruhGuy123wasHere":
+            add 100 to {CurrencyPremium.%player's name%}
+            send "<gradient:#9E00FF:#FF00B3>You've redeemed the code 'BruhGuy123wasHere' for 100 ✦ Prisms!</gradient>"
+        else:
+            send "&r&cThis code is either expired or doesnt exist!"
+            stop
+
+        add player to {codes.%arg-1%::*}
+        
+        

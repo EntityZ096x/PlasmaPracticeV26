@@ -1,0 +1,20 @@
+on join:
+    set player's flight mode to false
+
+on jump:
+    if {protocol::%player%} < 573:
+        set player's flight mode to true
+
+on flight toggle:
+    if {protocol::%player%} < 573:
+        if player's gamemode is survival:
+            cancel event               
+            set player's flight mode to false
+            if player's chestplate is a elytra:
+                set gliding of player to true
+
+on chestplate change:
+    if {protocol::%player%} < 573:
+        if player's chestplate is a elytra:
+            set player's flight mode to true
+        set gliding of player to false

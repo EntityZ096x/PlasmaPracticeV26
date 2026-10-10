@@ -69,7 +69,7 @@
 	# contents of the listener's MOTD, which is the text displayed along with the
 	# server_icon when players add this server's listener address to their client's
 	# Multiplayer menu server list.
-	server_motd = ["&r&4&l--&c&l------&f&l--&7&l[ &c&lPlasma Practice &7&l]&f&l--&c&l------&4&l-- &r&r&d&l26.2 PvP Practice Server"]
+	server_motd = ["&r&4&l--&c&l------&f&l--&7&l[ &c&lPlasma Network &7&l]&f&l--&c&l------&4&l-- &r&r&d&lBuilding the 26.3 version"]
 	# Default value is true, is this listener should respond to MOTD queries or not
 	allow_motd = true
 	# Default value is true, is this listener should respond to other query types or

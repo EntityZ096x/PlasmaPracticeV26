@@ -19,8 +19,8 @@ on quit:
 
 
 on chat:
-    set chat format to "%player's prefix%%player's name%%player's suffix% &r&8» &r%message%"
     replace all ":hakenkruis:" with "卐" in message
+    set chat format to "%player's prefix%%player's name%%player's suffix% &r&8» &r%message%"
 
 
 on death:

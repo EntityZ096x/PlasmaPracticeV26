@@ -4,7 +4,7 @@ import:
 on PlayerItemHeldEvent:
     set {_player} to event.getPlayer()
     set {lastitem::%uuid of {_player}%} to event.getPreviousSlot()
-    wait 2 ticks
+    wait 1 ticks
     delete {lastitem::%uuid of {_player}%}
 
 on left click:
