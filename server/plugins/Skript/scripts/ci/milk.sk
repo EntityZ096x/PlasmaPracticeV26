@@ -8,7 +8,7 @@ on right click on cow:
     cancel event
     remove 1 glass bottle from player's inventory
 
-    set {_i} to potion of invisibility named "&r&fBottle of Milk" with custom nbt from "{ci.item:""milk_bottle""}"
+    set {_i} to splash potion of invisibility named "&r&fBottle of Milk" with custom nbt from "{ci.item:""milk_bottle""}"
 
     set {_meta} to {_i}.getItemMeta()
     {_meta}.setBasePotionType(PotionType.WATER)
@@ -19,24 +19,14 @@ on right click on cow:
     hide {_i}'s entire tooltip
     give player {_i}
 
-on drink:
-    if string tag "ci.item" of custom nbt of event-item is "milk_bottle":
-        clear the player's hidden potion effects
-        clear the player's potion effects
+on shoot:
+    if string tag "ci.item" of custom nbt of shooter's tool is "milk_bottle":
+        set metadata tag "IsMilkPot" of projectile to true
 
-on right click on cow:
-    if player's tool is not a glass bottle:
-        stop
-    cancel event
-    remove 1 glass bottle from player's inventory
-
-    set {_splash} to splash potion of invisibility named "&r&fSplash Bottle of Milk" with custom nbt from "{ci.item:""splash_milk_bottle""}"
-    set {_meta} to {_splash}.getItemMeta()
-    {_meta}.setBasePotionType(PotionType.WATER)
-    {_meta}.setColor(Color.fromRGB(225, 225, 225))
-    {_splash}.setItemMeta({_meta})
-    hide {_splash}'s entire tooltip
-
-    set lore of {_i} to "&8Removes all effects."
-    hide {_i}'s entire tooltip
-    give player {_i}
+on projectile hit:
+    if projectile is thrown potion:
+        if metadata tag "IsMilkPot" of projectile is true:
+            loop all living entities in radius 4 around projectile:
+                clear the loop-entity's hidden potion effects
+                clear the loop-entity's potion effects
+        
