@@ -1,0 +1,89 @@
+[2026/10/11 14:33:48 INFO]:           __             _       
+[2026/10/11 14:33:48 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/10/11 14:33:48 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/10/11 14:33:48 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/10/11 14:33:48 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/10/11 14:33:48 INFO]:                   |___/            
+[2026/10/11 14:33:48 INFO]:  By: www.nickuc.com - V 2.0.24
+[2026/10/11 14:33:48 INFO]:  
+[2026/10/11 14:33:48 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 14:33:48 DEBUG]: Messages were loaded in 65 ms (single file).
+[2026/10/11 14:33:48 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 14:33:48 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 14:33:48 DEBUG]: Settings were loaded in 116 ms.
+[2026/10/11 14:33:48 DEBUG]: Loading database...
+[2026/10/11 14:33:48 DEBUG]: Starting logger filter...
+[2026/10/11 14:33:48 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/10/11 14:40:34 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 14:40:34.441, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/11 14:40:34 INFO]: The user EntityZ096x has successfully logged in.
+[2026/10/11 14:41:32 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 14:41:32.169, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/11 14:41:36 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 14:41:36 DEBUG]: Messages were loaded in 114 ms (single file).
+[2026/10/11 14:41:36 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 14:41:36 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 14:41:36 DEBUG]: Settings were loaded in 185 ms.
+[2026/10/11 14:42:10 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 14:42:10 DEBUG]: Messages were loaded in 23 ms (single file).
+[2026/10/11 14:42:10 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 14:42:10 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 14:42:10 DEBUG]: Settings were loaded in 62 ms.
+[2026/10/11 14:50:57 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 14:50:57 DEBUG]: Messages were loaded in 12 ms (single file).
+[2026/10/11 14:50:57 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 14:50:57 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 14:50:57 DEBUG]: Settings were loaded in 32 ms.
+[2026/10/11 14:51:38 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 14:51:38 DEBUG]: Messages were loaded in 11 ms (single file).
+[2026/10/11 14:51:38 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 14:51:38 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 14:51:38 DEBUG]: Settings were loaded in 27 ms.
+[2026/10/11 14:52:34 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 14:52:34 DEBUG]: Messages were loaded in 44 ms (single file).
+[2026/10/11 14:52:34 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 14:52:34 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 14:52:34 DEBUG]: Settings were loaded in 105 ms.
+[2026/10/11 15:00:05 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 15:00:05 DEBUG]: Messages were loaded in 12 ms (single file).
+[2026/10/11 15:00:05 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 15:00:05 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 15:00:05 DEBUG]: Settings were loaded in 24 ms.
+[2026/10/11 15:00:32 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 15:00:32 DEBUG]: Messages were loaded in 23 ms (single file).
+[2026/10/11 15:00:32 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 15:00:32 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 15:00:32 DEBUG]: Settings were loaded in 85 ms.
+[2026/10/11 15:00:35 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 15:00:35.625, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/11 15:00:35 INFO]: The user EntityZ096x has successfully logged in.
+[2026/10/11 15:01:58 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 15:01:58.277, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/11 15:02:01 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 15:02:01 DEBUG]: Messages were loaded in 11 ms (single file).
+[2026/10/11 15:02:01 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 15:02:01 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 15:02:01 DEBUG]: Settings were loaded in 25 ms.
+[2026/10/11 15:02:06 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 15:02:06.248, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/11 15:02:06 INFO]: The user EntityZ096x has successfully logged in.
+[2026/10/11 15:02:16 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 15:02:16 DEBUG]: Messages were loaded in 23 ms (single file).
+[2026/10/11 15:02:16 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 15:02:16 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 15:02:16 DEBUG]: Settings were loaded in 36 ms.
+[2026/10/11 15:02:19 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 15:02:19.817, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/11 15:02:24 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 15:02:24.957, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/11 15:02:25 INFO]: The user EntityZ096x has successfully logged in.
+[2026/10/11 15:08:59 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 15:08:59.723, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/11 15:09:06 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 15:09:06.751, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/11 15:09:06 INFO]: The user EntityZ096x has successfully logged in.
+[2026/10/11 15:09:12 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 15:09:12 DEBUG]: Messages were loaded in 16 ms (single file).
+[2026/10/11 15:09:12 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 15:09:12 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 15:09:12 DEBUG]: Settings were loaded in 26 ms.
+[2026/10/11 15:09:32 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 15:09:32.418, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/11 15:09:38 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 15:09:38.495, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/11 15:09:38 INFO]: The user EntityZ096x has successfully logged in.
+[2026/10/11 15:12:17 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 15:12:17 DEBUG]: Messages were loaded in 6 ms (single file).
+[2026/10/11 15:12:17 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 15:12:17 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 15:12:17 DEBUG]: Settings were loaded in 25 ms.
+[2026/10/11 15:13:08 INFO]: Successful plugin core shutdown (took 0.00s)

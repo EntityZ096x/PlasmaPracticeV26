@@ -1,0 +1,72 @@
+ # What packets should we handle?
+listenTo:
+   # Should we handle bossbars?
+  bossbar: true
+   # Should we handle chat messages?
+  chat: true
+   # Should we handle entity nametags?
+  entities: true
+   # Should we handle inventory titles?
+  inventory-titles: true
+   # Should we handle item frames?
+  item-frames: true
+   # Should we handle items and books?
+  items:
+     # Disables italic in name and lore of the item.
+    disable-italic: false
+    enabled: true
+
+   # Should we handle kick/disconnect messages?
+  kick-disconnect: true
+   # Shoudl we handle MoTD?
+  motd: true
+   # Should we handle player names?
+  player-info: true
+   # Should we handle scoreboard teams?
+  scoreboard: true
+   # Should we handle tab?
+  tab: true
+   # Should we handle titles? (/title)
+  titles: true
+
+ # The parsing strategy. Possible values: ALL, REGEX
+ # ALL - All messages, without regex check are going to be handled.
+ # REGEX - Only prefixed & suffixed messages will be handled.
+ # For example: [mm]Hello <red> world[/mm] will work.
+parsing-strategy: 'REGEX'
+ # REGEX strategy options.
+regex:
+   # Prefix.
+  prefix: '[mm]'
+   # Suffix.
+  suffix: '[/mm]'
+
+ # Chat filter. Players without mmanywhere.ignore wouldnt be able to use minimessage.
+filter-chat:
+   # Should we filter items renamed in anvil?
+  anvil: true
+   # Should we filter books?
+  books: true
+   # Should we filter chat?
+  chat: true
+
+ # Should we parse messages using paper events? It is going to look fancy in console.
+pretty-chat: true
+minimessage-settings:
+   # Global placeholders.
+  placeholders:
+    hello: '<red>world'
+
+   # Allowed transformations. Possible values:
+   # COLOR, DECORATION, HOVER_EVENT, CLICK_EVENT, KEYBIND
+   # TRANSLATABLE, INSERTION, FONT, GRADIENT, RAINBOW.
+   # if you want to include all transformations, just use *.
+  transformations:
+    - '*'
+
+messages:
+  info: '<gradient:#0073e6:#003cb3>MiniMessageAnywhere</gradient> <bold>|</bold> v 2.0'
+  no-permission: '<gradient:#0073e6:#003cb3>MiniMessageAnywhere</gradient> <bold>|</bold> <#e60000>You dont have a permission to do this!'
+  reloaded: '<gradient:#0073e6:#003cb3>MiniMessageAnywhere</gradient> <bold>|</bold> Plugin reloaded successfully!'
+  unknown-command: '<gradient:#0073e6:#003cb3>MiniMessageAnywhere</gradient> <bold>|</bold> Unknown command!'
+
