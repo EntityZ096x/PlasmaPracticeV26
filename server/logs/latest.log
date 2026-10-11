@@ -1154,3 +1154,152 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 [18:10:28] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
 [18:10:31] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -2.5, y: 135.5, z: -214.5, yaw: 0, pitch: 0 in 'Lobby'
 [18:10:44] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:10:52] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 0.5, y: 112.5, z: -202.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:10:59] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:11:01] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -0.5, y: 110.5, z: -202.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:11:04] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:11:17] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -44.5, y: 131.5, z: -200.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:11:18] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:11:21] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 11.5, y: 129.5, z: -222.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:11:33] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:11:36] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 0.5, y: 124.5, z: -203.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:11:45] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:12:26] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 1.5, y: 108.5, z: -201.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:12:27] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:12:41] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 2.5, y: 100.5, z: -200.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:12:43] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:12:45] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 9.5, y: 125.5, z: -223.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:12:48] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:12:53] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 5.5, y: 145.5, z: -226.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:12:54] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:12:55] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 11.5, y: 146.5, z: -230.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:13:11] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:13:27] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 17.5, y: 96.5, z: -241.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:13:39] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:13:39] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[18:13:48] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:13:48] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[18:13:50] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:13:51] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -12.5, y: 112.5, z: -217.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:14:04] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:14:05] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 15.5, y: 142.5, z: -229.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:14:46] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:14:48] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 13.5, y: 120.5, z: -228.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:14:53] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:14:55] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:14:58] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:15:00] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:15:10] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[18:15:19] [Server thread/INFO]: EntityZ096x fell out of the world
+[18:15:35] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 0.5, y: 113.5, z: 0.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:16:08] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[18:16:16] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
+[18:16:16] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[18:16:16] [Server thread/INFO]: [-] EntityZ096x
+[18:16:19] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:16:19] [Server thread/INFO]: [+] EntityZ096x
+[18:16:19] [Server thread/INFO]: EntityZ096x[/127.0.0.1:53264] logged in with entity id 71242 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[18:16:19] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[18:16:19] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[18:16:23] [Server thread/INFO]: EntityZ096x issued server command: /l
+[18:16:23] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user EntityZ096x has successfully logged in.
+[18:16:23] [Server thread/INFO]: EntityZ096x issued server command: /lobby
+[18:16:46] [Server thread/INFO]: EntityZ096x issued server command: /core rollback radius: 100 time: 2m
+[18:21:10] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:21:10] [Server thread/INFO]: [-] EntityZ096x
+[19:04:16] [User Authenticator #7/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[19:04:16] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[19:04:16] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[19:04:16] [Server thread/INFO]: [+] JustDan12
+[19:04:16] [Server thread/INFO]: JustDan12[/127.0.0.1:41760] logged in with entity id 71262 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[19:04:19] [Server thread/INFO]: JustDan12 issued server command: /l
+[19:04:21] [Server thread/INFO]: JustDan12 issued server command: /l
+[19:04:21] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user JustDan12 has successfully logged in.
+[19:04:21] [Server thread/INFO]: JustDan12 issued server command: /lobby
+[19:04:28] [Server thread/INFO]: JustDan12 fell out of the world
+[19:05:19] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[19:05:19] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 15.3, y: 154.29, z: -239.84, yaw: -171.9, pitch: 50.42 in 'Lobby'
+[19:05:26] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[19:05:26] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 15.3, y: 130.29, z: -239.84, yaw: 153.58, pitch: -57.69 in 'Lobby'
+[19:05:37] [Server thread/INFO]: JustDan12 issued server command: /kit load wemmbu
+[19:05:40] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 20.5, y: 131.5, z: -244.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:05:51] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 19.5, y: 98.5, z: -243.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:06:03] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 19.5, y: 98.5, z: -243.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:06:10] [Server thread/INFO]: JustDan12 issued server command: /kit load wemmbu
+[19:06:13] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 19.5, y: 98.5, z: -243.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:06:26] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 24.5, y: 103.5, z: -231.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:06:48] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -49.5, y: 101.5, z: -192.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:07:08] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:08] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:08] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:09] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:09] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:09] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:10] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:10] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:10] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:11] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:11] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:11] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:12] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:12] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:12] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:12] [Server thread/INFO]: JustDan12 lost connection: Kicked for spamming
+[19:07:13] [Server thread/INFO]: [-] JustDan12
+[19:07:17] [User Authenticator #8/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[19:07:17] [Server thread/INFO]: [+] JustDan12
+[19:07:17] [Server thread/INFO]: JustDan12[/127.0.0.1:41418] logged in with entity id 75996 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[19:07:17] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[19:07:17] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[19:07:19] [Server thread/INFO]: JustDan12 issued server command: /l
+[19:07:19] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user JustDan12 has successfully logged in.
+[19:07:19] [Server thread/INFO]: JustDan12 issued server command: /lobby
+[19:07:23] [Server thread/INFO]: JustDan12 issued server command: /fly
+[19:07:28] [Server thread/INFO]: JustDan12 issued server command: /l
+[19:07:34] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:36] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:36] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:37] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:45] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:45] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:45] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:46] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 nuke
+[19:07:53] [Server thread/INFO]: JustDan12 issued server command: /kit save orbital
+[19:08:03] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -49.5, y: 101.5, z: -192.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:08:04] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -49.5, y: 101.5, z: -192.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:08:04] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -49.5, y: 101.5, z: -192.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:08:12] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:13] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:13] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:14] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:15] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:16] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:16] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:16] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:17] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:22] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:22] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:23] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:08:29] [Server thread/INFO]: JustDan12 issued server command: /kit save orbital
+[19:08:32] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -51.5, y: 101.5, z: -196.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:08:41] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 7.5, y: 98.5, z: -232.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:08:47] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 19.5, y: 98.5, z: -243.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:08:59] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 26.5, y: 152.5, z: -244.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:09:09] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 14.5, y: 101.5, z: -244.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:09:20] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -51.5, y: 101.5, z: -196.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:09:23] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -51.5, y: 101.5, z: -196.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:09:27] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -51.5, y: 101.5, z: -196.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:09:33] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -51.5, y: 101.5, z: -196.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:09:39] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -51.5, y: 101.5, z: -196.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:09:55] [Server thread/INFO]: JustDan12 sent a nuke shot at <none>
+[19:10:00] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -51.5, y: 101.5, z: -196.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:10:05] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -51.5, y: 101.5, z: -196.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:10:11] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -51.5, y: 101.5, z: -196.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:10:14] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -51.5, y: 101.5, z: -196.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:10:21] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -51.5, y: 102.5, z: -195.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:10:27] [Server thread/INFO]: JustDan12 sent a nuke shot at x: -54.5, y: 105.5, z: -197.5, yaw: 0, pitch: 0 in 'Lobby'
+[19:10:49] [Server thread/INFO]: JustDan12 issued server command: /kit load orbital
+[19:11:02] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:11:03] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:11:03] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
+[19:11:04] [Server thread/INFO]: JustDan12 issued server command: /orbitalrod JustDan12 stab
