@@ -8,26 +8,34 @@ on PlayerItemHeldEvent with priority highest:
     delete {lastitem::%uuid of {_player}%}
 
 on left click:
-    if player's tool's enchantments does not contain lunge:
-        stop
+    player's tool's enchantments contains lunge
+    player is not in water
+    player's gliding is false
+    player is not riding
+    player's food level > 3
+
     set {_m} to lunge level of player's tool
     if {protocol::%player%} >= 774:
         if {lastitem::%uuid of player%} is set:
             lunge(player, {_m})
     else:
-        lunge(player, {_m})
-
         if player's gamemode is not creative:
             if {lastitem::%uuid of player%} is not set:
-                if player's saturation >= {_cost}:
-                    remove {_cost} from player's saturation
+                if attack cooldown of player is not 1:
+                    stop
+                lunge(player, {_m})
+                loop {_m} times:
+                    if player's saturation > 0:
+                        remove 1 from player's saturation
+                    else:
+                        remove 0.5 from player's food level
+                if {_m} < 5:
+                    wait 2 tick
 
-                else:
-                    set {_remaining} to {_cost} - player's saturation
-                    set player's saturation to 0
-                    remove {_remaining} from player's food level
-
-                set item cooldown of player's tool for player to 1 second
+            else:
+                lunge(player, {_m})
+        else:
+            lunge(player, {_m})
 
 function lunge(p: player, m: number):
     set {_v} to velocity of {_p}
@@ -38,3 +46,5 @@ function lunge(p: player, m: number):
     set {_v} to velocity of {_p}
     set y component of {_v} to {_y}
     set velocity of {_p} to {_v}
+
+    play sound "item.spear.lunge_%{_m}%" at {_p}

@@ -210,3 +210,32 @@
 [16:06:29] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:43738) has connected
 [16:06:29] [Netty epoll Worker #3/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:43738|EntityZ096x]: Player is using client: Tuff Client - 1.0
 [16:06:29] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[16:10:42] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:43738) has disconnected: An internal error occurred in your connection.
+[16:10:42] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/77.172.157.87:43738): read timed out
+[16:10:42] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[16:12:26] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x8fbe3e85, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:57754]
+[16:12:26] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:57754) has connected
+[16:12:26] [Netty epoll Worker #0/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:57754|EntityZ096x]: Player is using client: Tuff Client - 1.0
+[16:12:26] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[16:32:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:57754): kicked from server mainserver: disconnect.timeout
+[16:32:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[16:32:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:57754) has disconnected: You were kicked from mainserver: disconnect.timeout
+[16:47:25] [Netty epoll Worker #1/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x6fa8fcf6, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:35368]
+[16:47:25] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:35368) has connected
+[16:47:25] [Netty epoll Worker #1/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:35368|EntityZ096x]: Player is using client: Tuff Client - 1.0
+[16:47:25] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[16:47:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:35368): kicked from server mainserver: Server closed
+[16:47:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[16:47:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:35368) has disconnected: You were kicked from mainserver: Server closed
+[16:50:35] [Netty epoll Worker #2/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x478749f8, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:45530]
+[16:50:35] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:45530) has connected
+[16:50:35] [Netty epoll Worker #2/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:45530|EntityZ096x]: Player is using client: Tuff Client - 1.0
+[16:50:35] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
+[16:55:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:45530): kicked from server mainserver: disconnect.timeout
+[16:55:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has disconnected
+[16:55:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/77.172.157.87:45530) has disconnected: You were kicked from mainserver: disconnect.timeout
+[16:58:09] [Netty epoll Worker #3/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x447ab14e, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:41614]
+[17:05:28] [Netty epoll Worker #0/INFO] [eaglerxserver]: [listener0]: New channel opened: [id: 0x7f724b80, L:/[0:0:0:0:0:0:0:1]:25567 - R:/[0:0:0:0:0:0:0:1]:34806]
+[17:05:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/77.172.157.87:34806) has connected
+[17:05:28] [Netty epoll Worker #0/INFO] [eaglerxserver]: [/[0:0:0:0:0:0:0:1]:34806|EntityZ096x]: Player is using client: Tuff Client - 1.0
+[17:05:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> mainserver has connected
