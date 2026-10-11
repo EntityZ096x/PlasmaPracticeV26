@@ -4,11 +4,7 @@ on damage:
             cancel event
 
 on any click:
-    if world is not "lobby":
+    if world is "lobby":
         if {debug.%player%} is not "enabled":
             cancel event
-
-on explode:
-    if world is "lobby":
-        cancel event
 

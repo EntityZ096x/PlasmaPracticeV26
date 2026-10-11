@@ -51,8 +51,10 @@ command /debug.reload:
 
             
 on damage with priority lowest:
+    if event is canceled:
+        stop
     if {debug.%attacker%} is "enabled":
-        wait 1 tick
+        send "&r&7Raw damage:&r&c %attacker's tool%" to attacker
         send "&r&7Raw damage:&r&c %damage%" to attacker
         send "&r&7Final damage:&r&c %final damage%" to attacker
         send "&r&7Health remaining:&r&c %victim's health%" to attacker

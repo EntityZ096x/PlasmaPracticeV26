@@ -609,3 +609,548 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 [17:09:07] [Server thread/INFO]: EntityZ096x issued server command: /enchant lunge 3
 [17:09:08] [Server thread/INFO]: EntityZ096x issued server command: /eat
 [17:09:22] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[17:10:22] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[17:10:45] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x mace 1
+[17:10:50] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x mace 1
+[17:10:54] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x mace 1
+[17:16:01] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:16:01] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:16:01] [Server thread/INFO]:     Use 'attacker' and/or 'victim' in damage/death events
+[17:16:01] [Server thread/INFO]:     Line: send attacker's potion effects
+[17:16:01] [Server thread/INFO]:  
+[17:16:01] [Server thread/INFO]: Line 29: (ci/enchantments/effects.sk)
+[17:16:01] [Server thread/INFO]:     Can't understand this condition: 'cause is fall'
+[17:16:01] [Server thread/INFO]:     Line: if cause is fall:
+[17:16:01] [Server thread/INFO]:  
+[17:16:01] [Server thread/INFO]:     Encountered 2 errors while reloading effects.sk! (142ms)
+[17:16:14] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:16:14] [Server thread/INFO]: Successfully reloaded effects.sk. (74ms)
+[17:16:28] [Server thread/INFO]: EntityZ096x issued server command: /givebook EntityZ096x Heavy mace
+[17:16:34] [Server thread/INFO]: EntityZ096x issued server command: /givebook EntityZ096x Heavy item
+[17:18:09] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:18:09] [Server thread/INFO]: Line 4: (ci/enchantments/effects.sk)
+[17:18:09] [Server thread/INFO]:     There's no command sender in an on damage event.
+[17:18:09] [Server thread/INFO]:     Line: send action bar "<#ff0000>You mace is too heavy to use!"
+[17:18:09] [Server thread/INFO]:  
+[17:18:09] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (68ms)
+[17:18:16] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:18:16] [Server thread/INFO]: Successfully reloaded effects.sk. (43ms)
+[17:19:03] [Server thread/INFO]: [Skript] Reloading debug.sk...
+[17:19:03] [Server thread/INFO]: Line 93: (debug.sk)
+[17:19:03] [Server thread/INFO]:     Starting a variable's name with an expression is discouraged ({%arg-1%}). You could prefix it with the script's name: {debug::%arg-1%}
+[17:19:03] [Server thread/INFO]:     Line: send "%{%arg-1%}%" to player
+[17:19:03] [Server thread/INFO]:  
+[17:19:03] [Server thread/INFO]: Successfully reloaded debug.sk. (205ms)
+[17:19:09] [Server thread/INFO]: [Skript] Reloading debug.sk...
+[17:19:09] [Server thread/INFO]: Line 93: (debug.sk)
+[17:19:09] [Server thread/INFO]:     Starting a variable's name with an expression is discouraged ({%arg-1%}). You could prefix it with the script's name: {debug::%arg-1%}
+[17:19:09] [Server thread/INFO]:     Line: send "%{%arg-1%}%" to player
+[17:19:09] [Server thread/INFO]:  
+[17:19:09] [Server thread/INFO]: Successfully reloaded debug.sk. (199ms)
+[17:19:10] [Server thread/INFO]: [Skript] Reloading debug.sk...
+[17:19:10] [Server thread/INFO]: Line 93: (debug.sk)
+[17:19:10] [Server thread/INFO]:     Starting a variable's name with an expression is discouraged ({%arg-1%}). You could prefix it with the script's name: {debug::%arg-1%}
+[17:19:10] [Server thread/INFO]:     Line: send "%{%arg-1%}%" to player
+[17:19:10] [Server thread/INFO]:  
+[17:19:10] [Server thread/INFO]: Successfully reloaded debug.sk. (134ms)
+[17:19:26] [Server thread/INFO]: [Skript] Reloading debug.sk...
+[17:19:26] [Server thread/INFO]: Line 94: (debug.sk)
+[17:19:26] [Server thread/INFO]:     Starting a variable's name with an expression is discouraged ({%arg-1%}). You could prefix it with the script's name: {debug::%arg-1%}
+[17:19:26] [Server thread/INFO]:     Line: send "%{%arg-1%}%" to player
+[17:19:26] [Server thread/INFO]:  
+[17:19:26] [Server thread/INFO]: Successfully reloaded debug.sk. (109ms)
+[17:19:30] [Server thread/INFO]: [Skript] Reloading debug.sk...
+[17:19:30] [Server thread/INFO]: Line 94: (debug.sk)
+[17:19:30] [Server thread/INFO]:     Starting a variable's name with an expression is discouraged ({%arg-1%}). You could prefix it with the script's name: {debug::%arg-1%}
+[17:19:30] [Server thread/INFO]:     Line: send "%{%arg-1%}%" to player
+[17:19:30] [Server thread/INFO]:  
+[17:19:30] [Server thread/INFO]: Successfully reloaded debug.sk. (165ms)
+[17:19:31] [Server thread/INFO]: [Skript] Reloading debug.sk...
+[17:19:31] [Server thread/INFO]: Line 94: (debug.sk)
+[17:19:31] [Server thread/INFO]:     Starting a variable's name with an expression is discouraged ({%arg-1%}). You could prefix it with the script's name: {debug::%arg-1%}
+[17:19:31] [Server thread/INFO]:     Line: send "%{%arg-1%}%" to player
+[17:19:31] [Server thread/INFO]:  
+[17:19:31] [Server thread/INFO]: Successfully reloaded debug.sk. (259ms)
+[17:21:12] [Server thread/INFO]: [Skript] Reloading debug.sk...
+[17:21:12] [Server thread/INFO]: Line 94: (debug.sk)
+[17:21:12] [Server thread/INFO]:     Starting a variable's name with an expression is discouraged ({%arg-1%}). You could prefix it with the script's name: {debug::%arg-1%}
+[17:21:12] [Server thread/INFO]:     Line: send "%{%arg-1%}%" to player
+[17:21:12] [Server thread/INFO]:  
+[17:21:12] [Server thread/INFO]: Successfully reloaded debug.sk. (146ms)
+[17:21:16] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:16] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:16] [Server thread/INFO]:     Can't understand this condition: 'player doesn't have potion effect strength'
+[17:21:16] [Server thread/INFO]:     Line: if player doesn't have potion effect strength:
+[17:21:16] [Server thread/INFO]:  
+[17:21:16] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (36ms)
+[17:21:44] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:44] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:44] [Server thread/INFO]:     There's no player in an on damage event.
+[17:21:44] [Server thread/INFO]:     Line: if potion effect of player doesn't contain strength:
+[17:21:44] [Server thread/INFO]:  
+[17:21:44] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (189ms)
+[17:21:50] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:50] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:50] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:50] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:50] [Server thread/INFO]:  
+[17:21:50] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (77ms)
+[17:21:52] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:52] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:52] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:52] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:52] [Server thread/INFO]:  
+[17:21:52] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (56ms)
+[17:21:52] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:52] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:52] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:52] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:52] [Server thread/INFO]:  
+[17:21:52] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (52ms)
+[17:21:53] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:53] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:53] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:53] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:53] [Server thread/INFO]:  
+[17:21:53] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (72ms)
+[17:21:53] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:53] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:53] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:53] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:53] [Server thread/INFO]:  
+[17:21:54] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (76ms)
+[17:21:54] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:54] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:54] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:54] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:54] [Server thread/INFO]:  
+[17:21:54] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (113ms)
+[17:21:55] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:55] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:55] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:55] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:55] [Server thread/INFO]:  
+[17:21:55] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (76ms)
+[17:21:55] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:55] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:55] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:55] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:55] [Server thread/INFO]:  
+[17:21:55] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (66ms)
+[17:21:56] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:56] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:56] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:56] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:56] [Server thread/INFO]:  
+[17:21:56] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (85ms)
+[17:21:56] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:56] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:56] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:56] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:56] [Server thread/INFO]:  
+[17:21:56] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (90ms)
+[17:21:57] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:57] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:57] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:57] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:57] [Server thread/INFO]:  
+[17:21:57] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (144ms)
+[17:21:57] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:21:57] [Server thread/INFO]: Line 2: (ci/enchantments/effects.sk)
+[17:21:57] [Server thread/INFO]:     Can't understand this condition: 'potion effect of attacker doesn't contain strength'
+[17:21:57] [Server thread/INFO]:     Line: if potion effect of attacker doesn't contain strength:
+[17:21:57] [Server thread/INFO]:  
+[17:21:57] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (65ms)
+[17:22:31] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:22:31] [Server thread/INFO]: Successfully reloaded effects.sk. (62ms)
+[17:23:20] [Server thread/INFO]: EntityZ096x issued server command: /kit load mace
+[17:24:46] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:24:47] [Server thread/INFO]: Successfully reloaded effects.sk. (42ms)
+[17:25:51] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[17:25:51] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[17:26:43] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:26:43] [Server thread/INFO]: Successfully reloaded effects.sk. (61ms)
+[17:28:05] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:28:05] [Server thread/INFO]: Successfully reloaded effects.sk. (41ms)
+[17:29:31] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:29:31] [Server thread/INFO]: Line 9: (ci/enchantments/effects.sk)
+[17:29:31] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[17:29:31] [Server thread/INFO]:     Line: if victim is using a shield:
+[17:29:31] [Server thread/INFO]:  
+[17:29:31] [Server thread/INFO]: Line 9: (ci/enchantments/effects.sk)
+[17:29:31] [Server thread/INFO]:     Can't compare an entity with 'using a shield'
+[17:29:31] [Server thread/INFO]:     Line: if victim is using a shield:
+[17:29:31] [Server thread/INFO]:  
+[17:29:31] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (67ms)
+[17:29:47] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:29:47] [Server thread/INFO]: Line 9: (ci/enchantments/effects.sk)
+[17:29:47] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[17:29:47] [Server thread/INFO]:     Line: if victim is blocking:
+[17:29:47] [Server thread/INFO]:  
+[17:29:48] [Server thread/INFO]: Successfully reloaded effects.sk. (42ms)
+[17:31:05] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:31:06] [Server thread/INFO]: Successfully reloaded effects.sk. (33ms)
+[17:31:06] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:31:06] [Server thread/INFO]: Successfully reloaded effects.sk. (36ms)
+[17:31:07] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:31:07] [Server thread/INFO]: Successfully reloaded effects.sk. (46ms)
+[17:31:20] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:31:20] [Server thread/INFO]: Line 40: (ci/enchantments/effects.sk)
+[17:31:20] [Server thread/INFO]:     Can't understand this structure: on sneak
+[17:31:20] [Server thread/INFO]:     Line: on sneak:
+[17:31:20] [Server thread/INFO]:  
+[17:31:20] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (95ms)
+[17:31:20] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:31:20] [Server thread/INFO]: Line 40: (ci/enchantments/effects.sk)
+[17:31:20] [Server thread/INFO]:     Can't understand this structure: on sneak
+[17:31:20] [Server thread/INFO]:     Line: on sneak:
+[17:31:20] [Server thread/INFO]:  
+[17:31:21] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (63ms)
+[17:31:34] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:31:34] [Server thread/INFO]: Successfully reloaded effects.sk. (57ms)
+[17:32:10] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:32:11] [Server thread/INFO]: Line 11: (ci/enchantments/effects.sk)
+[17:32:11] [Server thread/INFO]:     Can't understand this condition/effect: set blocking of victim to false
+[17:32:11] [Server thread/INFO]:     Line: set blocking of victim to false
+[17:32:11] [Server thread/INFO]:  
+[17:32:11] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (46ms)
+[17:32:55] [Server thread/INFO]: [Skript] Skript's aliases can be found here: https://github.com/SkriptLang/skript-aliases
+[17:32:55] [Server thread/INFO]: [Skript] Skript's documentation can be found here: https://docs.skriptlang.org/
+[17:32:55] [Server thread/INFO]: [Skript] Skript's tutorials can be found here: https://docs.skriptlang.org/tutorials
+[17:32:55] [Server thread/INFO]: [Skript] Server Version: 26.2-53-3a3d1c0 (MC: 26.2)
+[17:32:55] [Server thread/INFO]: [Skript] Skript Version: 2.16.2 (skriptlang-github)
+[17:32:55] [Server thread/INFO]: [Skript] Installed Skript Addons: 
+[17:32:55] [Server thread/INFO]: [Skript]  - skript-reflect v2.6.3 (https://github.com/SkriptLang/skript-reflect)
+[17:32:55] [Server thread/INFO]: [Skript]  - SkBee v3.26.0 (https://github.com/ShaneBeee/SkBee)
+[17:32:55] [Server thread/INFO]: [Skript] Installed dependencies: 
+[17:32:55] [Server thread/INFO]: [Skript]  - Vault v1.7.3-b131
+[17:32:55] [Server thread/INFO]: [Skript]  - WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[17:33:16] [Server thread/INFO]: [Skript] Skript's aliases can be found here: https://github.com/SkriptLang/skript-aliases
+[17:33:16] [Server thread/INFO]: [Skript] Skript's documentation can be found here: https://docs.skriptlang.org/
+[17:33:16] [Server thread/INFO]: [Skript] Skript's tutorials can be found here: https://docs.skriptlang.org/tutorials
+[17:33:16] [Server thread/INFO]: [Skript] Server Version: 26.2-53-3a3d1c0 (MC: 26.2)
+[17:33:16] [Server thread/INFO]: [Skript] Skript Version: 2.16.2 (skriptlang-github)
+[17:33:16] [Server thread/INFO]: [Skript] Installed Skript Addons: 
+[17:33:16] [Server thread/INFO]: [Skript]  - skript-reflect v2.6.3 (https://github.com/SkriptLang/skript-reflect)
+[17:33:16] [Server thread/INFO]: [Skript]  - SkBee v3.26.0 (https://github.com/ShaneBeee/SkBee)
+[17:33:16] [Server thread/INFO]: [Skript] Installed dependencies: 
+[17:33:16] [Server thread/INFO]: [Skript]  - Vault v1.7.3-b131
+[17:33:16] [Server thread/INFO]: [Skript]  - WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[17:33:18] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:33:18] [Server thread/INFO]: Line 11: (ci/enchantments/effects.sk)
+[17:33:18] [Server thread/INFO]:     Can't understand this condition/effect: interrupt victim's active item use
+[17:33:18] [Server thread/INFO]:     Line: interrupt victim's active item use
+[17:33:18] [Server thread/INFO]:  
+[17:33:18] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (54ms)
+[17:33:19] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:33:19] [Server thread/INFO]: Line 11: (ci/enchantments/effects.sk)
+[17:33:19] [Server thread/INFO]:     Can't understand this condition/effect: interrupt victim's active item use
+[17:33:19] [Server thread/INFO]:     Line: interrupt victim's active item use
+[17:33:19] [Server thread/INFO]:  
+[17:33:19] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (40ms)
+[17:35:09] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:35:09] [Server thread/INFO]: Line 42: (ci/enchantments/effects.sk)
+[17:35:09] [Server thread/INFO]:     'victim' can only be used in the on vehicle damage event, the on projectile hit event, the on vehicle destroy event, the on death event, the on attempt attack event or the on damage event
+[17:35:09] [Server thread/INFO]:     Line: set cooldown of shield for victim to 5 seconds
+[17:35:09] [Server thread/INFO]:  
+[17:35:09] [Server thread/INFO]: Line 43: (ci/enchantments/effects.sk)
+[17:35:09] [Server thread/INFO]:     'the victim' can only be used in the on vehicle damage event, the on projectile hit event, the on vehicle destroy event, the on death event, the on attempt attack event or the on damage event
+[17:35:09] [Server thread/INFO]:     Line: interrupt the usage of the victim's active item
+[17:35:09] [Server thread/INFO]:  
+[17:35:09] [Server thread/INFO]:     Encountered 2 errors while reloading effects.sk! (48ms)
+[17:35:10] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:35:10] [Server thread/INFO]: Line 42: (ci/enchantments/effects.sk)
+[17:35:10] [Server thread/INFO]:     'victim' can only be used in the on vehicle damage event, the on projectile hit event, the on vehicle destroy event, the on death event, the on attempt attack event or the on damage event
+[17:35:10] [Server thread/INFO]:     Line: set cooldown of shield for victim to 5 seconds
+[17:35:10] [Server thread/INFO]:  
+[17:35:10] [Server thread/INFO]: Line 43: (ci/enchantments/effects.sk)
+[17:35:10] [Server thread/INFO]:     'the victim' can only be used in the on vehicle damage event, the on projectile hit event, the on vehicle destroy event, the on death event, the on attempt attack event or the on damage event
+[17:35:10] [Server thread/INFO]:     Line: interrupt the usage of the victim's active item
+[17:35:10] [Server thread/INFO]:  
+[17:35:10] [Server thread/INFO]:     Encountered 2 errors while reloading effects.sk! (109ms)
+[17:35:19] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:35:19] [Server thread/INFO]: Successfully reloaded effects.sk. (50ms)
+[17:37:49] [Server thread/INFO]: [Skript] Can't find the script 'alwaysdmg.sk' in the scripts folder!
+[17:37:51] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:37:52] [Server thread/INFO]: Line 43: (ci/enchantments/effects.sk)
+[17:37:52] [Server thread/INFO]:     Can't understand this condition/effect: unblock victim
+[17:37:52] [Server thread/INFO]:     Line: unblock victim
+[17:37:52] [Server thread/INFO]:  
+[17:37:52] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (49ms)
+[17:37:58] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:37:58] [Server thread/INFO]: Line 43: (ci/enchantments/effects.sk)
+[17:37:58] [Server thread/INFO]:     Can't understand this condition/effect: unblock player
+[17:37:58] [Server thread/INFO]:     Line: unblock player
+[17:37:58] [Server thread/INFO]:  
+[17:37:58] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (49ms)
+[17:37:58] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:37:59] [Server thread/INFO]: Line 43: (ci/enchantments/effects.sk)
+[17:37:59] [Server thread/INFO]:     Can't understand this condition/effect: unblock player
+[17:37:59] [Server thread/INFO]:     Line: unblock player
+[17:37:59] [Server thread/INFO]:  
+[17:37:59] [Server thread/INFO]:     Encountered 1 error while reloading effects.sk! (37ms)
+[17:39:42] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:39:43] [Server thread/INFO]: Successfully reloaded effects.sk. (81ms)
+[17:39:45] [Server thread/INFO]: [Skript]     No matching non-static method: CraftPlayer#stopUsingItem called without arguments
+[17:39:45] [Server thread/INFO]: [Skript]     Did you misspell the method? You may have meant to type one of the following:
+[17:39:45] [Server thread/INFO]: [Skript]     * %CraftPlayer%.startUsingItem
+[17:39:46] [Server thread/INFO]: [Skript]     No matching non-static method: CraftPlayer#stopUsingItem called without arguments
+[17:39:46] [Server thread/INFO]: [Skript]     Did you misspell the method? You may have meant to type one of the following:
+[17:39:46] [Server thread/INFO]: [Skript]     * %CraftPlayer%.startUsingItem
+[17:39:52] [Server thread/INFO]: [Skript]     No matching non-static method: CraftPlayer#stopUsingItem called without arguments
+[17:39:52] [Server thread/INFO]: [Skript]     Did you misspell the method? You may have meant to type one of the following:
+[17:39:52] [Server thread/INFO]: [Skript]     * %CraftPlayer%.startUsingItem
+[17:39:53] [Server thread/INFO]: [Skript]     No matching non-static method: CraftPlayer#stopUsingItem called without arguments
+[17:39:53] [Server thread/INFO]: [Skript]     Did you misspell the method? You may have meant to type one of the following:
+[17:39:53] [Server thread/INFO]: [Skript]     * %CraftPlayer%.startUsingItem
+[17:40:31] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:40:31] [Server thread/INFO]: Successfully reloaded effects.sk. (31ms)
+[17:43:55] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:43:55] [Server thread/INFO]: Successfully reloaded effects.sk. (74ms)
+[17:43:55] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:43:56] [Server thread/INFO]: Successfully reloaded effects.sk. (39ms)
+[17:44:48] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[17:44:48] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[17:45:02] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[17:45:02] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[17:46:20] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:46:20] [Server thread/INFO]: Successfully reloaded effects.sk. (35ms)
+[17:46:32] [Server thread/INFO]: EntityZ096x issued server command: /sk reload debug.sk
+[17:46:50] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:46:50] [Server thread/INFO]: Successfully reloaded effects.sk. (49ms)
+[17:47:11] [Server thread/INFO]: EntityZ096x issued server command: /sk reload debug.sk
+[17:47:25] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:47:25] [Server thread/INFO]: Successfully reloaded effects.sk. (47ms)
+[17:47:25] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:47:25] [Server thread/INFO]: Successfully reloaded effects.sk. (44ms)
+[17:47:29] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[17:49:49] [Server thread/INFO]: [Skript] Reloading effects.sk...
+[17:49:49] [Server thread/INFO]: Successfully reloaded effects.sk. (40ms)
+[17:50:33] [Server thread/INFO]: EntityZ096x issued server command: /effect give EntityZ096x minecraft:strength 1 225 true
+[17:50:33] [Server thread/INFO]: [EntityZ096x: Applied effect Strength to EntityZ096x]
+[17:50:44] [Server thread/INFO]: EntityZ096x issued server command: /effect give EntityZ096x minecraft:strength infinity 225 true
+[17:50:52] [Server thread/INFO]: EntityZ096x issued server command: /effect give EntityZ096x minecraft:strength infinite 225 true
+[17:50:52] [Server thread/INFO]: [EntityZ096x: Applied effect Strength to EntityZ096x]
+[17:51:04] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[17:51:30] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[17:52:02] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 5
+[17:52:02] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 5.0 per second]
+[17:52:31] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 10
+[17:52:31] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 10.0 per second]
+[17:52:33] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 100
+[17:52:33] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 100.0 per second]
+[17:53:17] [User Authenticator #2/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[17:53:18] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[17:53:18] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player JustDan12, which is not a valid number.
+[17:53:18] [Server thread/INFO]: [+] JustDan12
+[17:53:18] [Server thread/INFO]: JustDan12[/127.0.0.1:45080] logged in with entity id 34144 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[17:53:22] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » yo
+[17:53:24] [Server thread/INFO]: JustDan12 issued server command: /login
+[17:53:28] [Server thread/INFO]: JustDan12 issued server command: /login
+[17:53:39] [Server thread/INFO]: JustDan12 issued server command: /login
+[17:53:44] [Server thread/INFO]: EntityZ096x issued server command: /makesay JustDan12 test
+[17:53:54] [Server thread/INFO]: JustDan12 issued server command: /register
+[17:53:55] [Server thread/INFO]: JustDan12 issued server command: /lobby
+[17:53:55] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user JustDan12 has successfully registered.
+[17:53:55] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » hello?
+[17:53:59] [Server thread/INFO]: EntityZ096x issued server command: /tp JustDan12
+[17:54:00] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » breh
+[17:54:04] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ?
+[17:54:06] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » login bugged
+[17:54:07] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » what
+[17:54:09] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wdym
+[17:54:11] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » i had to register again
+[17:54:13] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » bruh
+[17:54:18] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ow
+[17:54:22] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » btw
+[17:54:30] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » lunge works 100% now
+[17:54:37] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » bro stop
+[17:54:41] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[17:54:55] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » btw
+[17:55:00] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » turn of the thing that says some1 is dissapointed in me
+[17:55:00] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » I FIX ELYTRA
+[17:55:05] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ohh
+[17:55:06] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ye wait
+[17:55:15] [Server thread/INFO]: [Skript] Reloading all scripts...
+[17:55:15] [Server thread/INFO]: Line 8: (BACKPORT/mobs/sulfur cube.sk)
+[17:55:15] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[17:55:15] [Server thread/INFO]:     Line: if event-entity's entity size > 1:
+[17:55:15] [Server thread/INFO]:  
+[17:55:15] [Server thread/INFO]:     'boss.sk' is empty
+[17:55:15] [Server thread/INFO]:     'ci/totems/sum.sk' is empty
+[17:55:15] [Server thread/INFO]: Line 2: (Utility/Center.sk)
+[17:55:15] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[17:55:15] [Server thread/INFO]:     Line: if 1 = 1:
+[17:55:15] [Server thread/INFO]:  
+[17:55:16] [Server thread/INFO]: Line 94: (debug.sk)
+[17:55:16] [Server thread/INFO]:     Starting a variable's name with an expression is discouraged ({%arg-1%}). You could prefix it with the script's name: {debug::%arg-1%}
+[17:55:16] [Server thread/INFO]:     Line: send "%{%arg-1%}%" to player
+[17:55:16] [Server thread/INFO]:  
+[17:55:17] [Server thread/INFO]: Line 14: (PvP/anticombatlog.sk)
+[17:55:17] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.inpvp::*} will be lost when the server stops.
+[17:55:17] [Server thread/INFO]:     Line: add victim to {pvp.inpvp::*}
+[17:55:17] [Server thread/INFO]:  
+[17:55:17] [Server thread/INFO]: Line 16: (PvP/anticombatlog.sk)
+[17:55:17] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.inpvp::*} will be lost when the server stops.
+[17:55:17] [Server thread/INFO]:     Line: add attacker to {pvp.inpvp::*}
+[17:55:17] [Server thread/INFO]:  
+[17:55:17] [Server thread/INFO]: Line 23: (PvP/anticombatlog.sk)
+[17:55:17] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.enemy.%the attacked entity%} will be lost when the server stops.
+[17:55:17] [Server thread/INFO]:     Line: set {pvp.enemy.%victim%} to attacker
+[17:55:17] [Server thread/INFO]:  
+[17:55:17] [Server thread/INFO]: Line 24: (PvP/anticombatlog.sk)
+[17:55:17] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {pvp.enemy.%the attacker%} will be lost when the server stops.
+[17:55:17] [Server thread/INFO]:     Line: set {pvp.enemy.%attacker%} to victim
+[17:55:17] [Server thread/INFO]:  
+[17:55:17] [Async Chat Thread - #1/INFO]: [Not Secure] <JustDan12> remove my admin rank pls
+[17:55:18] [Server thread/INFO]: Line 3: (ci/break.sk)
+[17:55:18] [Server thread/INFO]:     Unreachable code. The previous statement stops further execution.
+[17:55:18] [Server thread/INFO]:     Line: break blocks in radius 2 around target block with effects and with xp using player's tool
+[17:55:18] [Server thread/INFO]:  
+[17:55:21] [Server thread/INFO]: Successfully reloaded all scripts. (6113ms)
+[17:55:21] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[17:55:22] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[17:55:23] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » why
+[17:55:23] [Server thread/INFO]: JustDan12 issued server command: /gmc
+[17:55:31] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » cus u said i wouldnt be an admin
+[17:55:32] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[17:55:35] [Server thread/INFO]: JustDan12 issued server command: /deop JustDan12
+[17:55:41] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » since when
+[17:55:46] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » u said that
+[17:55:49] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » i onyl said i remove ur orbital perms
+[17:56:17] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » why u in diddle chamber
+[17:56:19] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[17:56:21] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » int
+[17:56:26] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » i aint
+[17:56:29] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » .
+[17:56:30] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » haha
+[17:56:32] [Server thread/INFO]: EntityZ096x issued server command: /tp JustDan12
+[17:56:37] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » lol
+[17:56:39] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » u couldnt restore enough nigger
+[17:56:43] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » dont care
+[17:56:49] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » this best i could do
+[17:56:50] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » alr im not building anymore tho
+[17:56:57] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wanna nuke it
+[17:57:00] [Async Chat Thread - #0/INFO]: [Not Secure] Admin || JustDan12 || » sure
+[17:57:03] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[17:57:05] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -7.5, y: 187.5, z: -201.5, yaw: 0, pitch: 0 in 'Lobby'
+[17:57:14] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[17:57:14] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 22.62, y: 176.55, z: -224.56, yaw: 39.24, pitch: -15.07 in 'Lobby'
+[17:57:18] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[17:57:18] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 17.39, y: 170.56, z: -218.01, yaw: 39.24, pitch: -15.07 in 'Lobby'
+[17:57:20] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[17:57:20] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 17.39, y: 170.56, z: -218.01, yaw: 39.24, pitch: -15.07 in 'Lobby'
+[17:57:20] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[17:57:20] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 17.39, y: 170.56, z: -218.01, yaw: 39.24, pitch: -15.07 in 'Lobby'
+[17:57:22] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wait why doesnt it work
+[17:57:25] [Server thread/WARN]: JustDan12 moved too quickly! 1.4860992136745494,-8.247876865689861,7.8679397099000425
+[17:57:28] [Server thread/INFO]: JustDan12 issued server command: /orbital JustDan12 nuke
+[17:57:29] [Server thread/INFO]: JustDan12 sent a nuke shot at x: 20.92, y: 156.88, z: -207.95, yaw: 124.77, pitch: -3.81 in 'Lobby'
+[17:57:32] [Async Chat Thread - #1/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » STOP TOO MUCH LAG
+[17:57:44] [Async Chat Thread - #0/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wait i know
+[17:57:46] [Async Chat Thread - #1/INFO]: [Not Secure] Admin || JustDan12 || » why bro aint studying
+[17:57:57] [Server thread/INFO]: JustDan12 was kicked due to keepalive timeout!
+[17:57:57] [Server thread/INFO]: JustDan12 lost connection: Timed out
+[17:57:57] [Server thread/INFO]: [-] JustDan12
+[17:58:06] [Server thread/INFO]: [Skript] Reloading lobby.sk...
+[17:58:06] [Server thread/INFO]: Successfully reloaded lobby.sk. (14ms)
+[17:58:09] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -5.5, y: 179.5, z: -210.5, yaw: 0, pitch: 0 in 'Lobby'
+[17:58:24] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 3.5, y: 135.5, z: -205.5, yaw: 0, pitch: 0 in 'Lobby'
+[17:58:38] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[17:58:38] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[17:58:55] [Server thread/INFO]: EntityZ096x issued server command: /orbitalrod EntityZ096x nuke
+[17:58:56] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -12.5, y: 140.5, z: -202.5, yaw: 0, pitch: 0 in 'Lobby'
+[17:58:57] [Server thread/INFO]: EntityZ096x issued server command: /orbitalrod EntityZ096x nuke
+[17:59:04] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 10.5, y: 156.5, z: -230.5, yaw: 0, pitch: 0 in 'Lobby'
+[17:59:06] [Server thread/INFO]: EntityZ096x issued server command: /orbitalrod EntityZ096x nuke
+[17:59:15] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[17:59:15] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[17:59:16] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -5.5, y: 135.5, z: -219.5, yaw: 0, pitch: 0 in 'Lobby'
+[17:59:22] [Server thread/INFO]: EntityZ096x issued server command: /orbitalrod EntityZ096x nuke
+[17:59:24] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 6.5, y: 143.5, z: -201.5, yaw: 0, pitch: 0 in 'Lobby'
+[17:59:33] [Server thread/INFO]: EntityZ096x issued server command: /orbitalrod EntityZ096x nuke
+[17:59:43] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 18.5, y: 124.5, z: -220.5, yaw: 0, pitch: 0 in 'Lobby'
+[17:59:50] [Server thread/INFO]: EntityZ096x issued server command: /orbitalrod EntityZ096x nuke
+[17:59:53] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 1.5, y: 129.5, z: -201.5, yaw: 0, pitch: 0 in 'Lobby'
+[17:59:58] [Server thread/INFO]: EntityZ096x issued server command: /orbitalrod EntityZ096x nuke
+[18:00:08] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 8.5, y: 110.5, z: -218.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:00:21] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:00:21] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[18:00:24] [Server thread/INFO]: EntityZ096x issued server command: /orbitalrod EntityZ096x nuke
+[18:00:28] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 13.5, y: 138.5, z: -235.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:00:43] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:00:43] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[18:01:13] [Server thread/INFO]: EntityZ096x issued server command: /core rollback time: 10m radius: 100
+[18:01:52] [Server thread/INFO]: EntityZ096x issued server command: /worldswitch world EntityZ096x
+[18:02:04] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:02:10] [Server thread/INFO]: EntityZ096x issued server command: /kit
+[18:02:44] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:02:48] [Server thread/INFO]: EntityZ096x issued server command: /gms
+[18:03:42] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:03:42] [Server thread/INFO]: [-] EntityZ096x
+[18:04:10] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:04:10] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[18:04:10] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[18:04:11] [Server thread/INFO]: [+] EntityZ096x
+[18:04:11] [Server thread/INFO]: EntityZ096x[/127.0.0.1:55408] logged in with entity id 48468 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[18:04:14] [Server thread/INFO]: EntityZ096x issued server command: /l
+[18:04:14] [Server thread/INFO]: EntityZ096x issued server command: /lobby
+[18:04:14] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user EntityZ096x has successfully logged in.
+[18:04:33] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:04:33] [Server thread/INFO]: [-] EntityZ096x
+[18:04:58] [User Authenticator #4/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:04:59] [Server thread/INFO]: [+] EntityZ096x
+[18:04:59] [Server thread/INFO]: EntityZ096x[/127.0.0.1:32872] logged in with entity id 48631 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[18:04:59] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[18:04:59] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[18:05:16] [Server thread/INFO]: EntityZ096x issued server command: /l
+[18:05:16] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user EntityZ096x has successfully logged in.
+[18:05:16] [Server thread/INFO]: EntityZ096x issued server command: /lobby
+[18:05:24] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[18:05:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /sudo 
+[18:05:34] [Server thread/INFO]: Command Help: /sudo
+[18:05:34] [Server thread/INFO]: Description: Make another user perform a command.
+[18:05:34] [Server thread/INFO]: Usage(s);
+[18:05:34] [Server thread/INFO]: /sudo <player> sudo [args] - Makes the specified player run the given command
+[18:05:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /sudo EntityZ096x lobby
+[18:05:39] [Server thread/INFO]: Forcing EntityZ096x to run: /lobby
+[18:05:39] [Server thread/INFO]: EntityZ096x issued server command: /lobby
+[18:05:50] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
+[18:05:50] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[18:05:50] [Server thread/INFO]: [-] EntityZ096x
+[18:07:02] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:07:03] [Server thread/INFO]: [+] EntityZ096x
+[18:07:03] [Server thread/INFO]: EntityZ096x[/127.0.0.1:54274] logged in with entity id 48862 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[18:07:03] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[18:07:03] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[18:07:13] [Server thread/INFO]: EntityZ096x issued server command: /l
+[18:07:13] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user EntityZ096x has successfully logged in.
+[18:07:13] [Server thread/INFO]: EntityZ096x issued server command: /lobby
+[18:07:32] [Server thread/INFO]: EntityZ096x issued server command: /tick rate 20
+[18:07:32] [Server thread/INFO]: [EntityZ096x: Set the target tick rate to 20.0 per second]
+[18:07:37] [Server thread/INFO]: EntityZ096x issued server command: /gmc
+[18:08:02] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:08:04] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 2.5, y: 149.5, z: -198.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:08:08] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:08:13] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -0.5, y: 149.5, z: -199.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:08:21] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:08:23] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -1.5, y: 149.5, z: -199.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:08:24] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:08:32] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -9.5, y: 114.5, z: -188.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:08:51] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:08:52] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 0.5, y: 145.5, z: -201.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:09:06] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:09:07] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 2.5, y: 143.5, z: -210.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:09:13] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:09:17] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -10.5, y: 124.5, z: -189.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:09:24] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:09:24] [Server thread/INFO]: Clearlag » Cleared all wild mobs & items.
+[18:09:26] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:09:37] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 0.5, y: 113.5, z: -202.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:10:05] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:10:06] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 1.5, y: 135.5, z: -205.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:10:17] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:10:21] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: 15.5, y: 161.5, z: -233.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:10:28] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
+[18:10:31] [Server thread/INFO]: EntityZ096x sent a nuke shot at x: -2.5, y: 135.5, z: -214.5, yaw: 0, pitch: 0 in 'Lobby'
+[18:10:44] [Server thread/INFO]: EntityZ096x issued server command: /kit load wemmbu
