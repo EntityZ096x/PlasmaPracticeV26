@@ -1,5 +1,0 @@
-on join:
-    if player is "JustDan12":
-        while 1 = 1:
-            send "I am dissapointed in u JustDan12"
-            wait 60 seconds
