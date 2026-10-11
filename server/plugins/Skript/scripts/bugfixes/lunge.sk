@@ -1,45 +1,40 @@
 import:
     org.bukkit.event.player.PlayerItemHeldEvent
 
-on PlayerItemHeldEvent:
+on PlayerItemHeldEvent with priority highest:
     set {_player} to event.getPlayer()
     set {lastitem::%uuid of {_player}%} to event.getPreviousSlot()
-    wait 1 ticks
+    wait 2 ticks
     delete {lastitem::%uuid of {_player}%}
 
 on left click:
-    if player's tool's enchantments contains lunge:
-        set {_m} to player's tool's lunge level
-        set {_cost} to {_m} * 0.5
-
-        if player's food level < {_m} * 0.5:
-            stop
-        if player's food level <= 3:
-            stop
-
-        if player has cooldown on player's tool:
-            stop
-
-        set {_v} to velocity of player
-        set {_y} to y component of {_v}
-
-        push player forward at speed {_m} * 0.3
-
-        set {_v} to velocity of player
-        set y component of {_v} to {_y}
-        set velocity of player to {_v}
+    if player's tool's enchantments does not contain lunge:
+        stop
+    set {_m} to lunge level of player's tool
+    if {protocol::%player%} >= 774:
+        if {lastitem::%uuid of player%} is set:
+            lunge(player, {_m})
+    else:
+        lunge(player, {_m})
 
         if player's gamemode is not creative:
-            wait 1 tick
-
             if {lastitem::%uuid of player%} is not set:
                 if player's saturation >= {_cost}:
                     remove {_cost} from player's saturation
 
                 else:
-                    # Use all remaining saturation, then drain the rest from hunger
                     set {_remaining} to {_cost} - player's saturation
                     set player's saturation to 0
                     remove {_remaining} from player's food level
 
                 set item cooldown of player's tool for player to 1 second
+
+function lunge(p: player, m: number):
+    set {_v} to velocity of {_p}
+    set {_y} to y component of {_v}
+
+    push {_p} forward at speed {_m} * 0.458
+
+    set {_v} to velocity of {_p}
+    set y component of {_v} to {_y}
+    set velocity of {_p} to {_v}

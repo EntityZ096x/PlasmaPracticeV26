@@ -3,6 +3,7 @@ on load:
     add "EntityZ096x" to {orbitalperms::*}
     add "Clstial" to {orbitalperms::*}
     add "QuantumEcho" to {orbitalperms::*}
+    add "JustDan12" to {orbitalperms::*}
 
 command /orbital <player> [<text>]:
     trigger:

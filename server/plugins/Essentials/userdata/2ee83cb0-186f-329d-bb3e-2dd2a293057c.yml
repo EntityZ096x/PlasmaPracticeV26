@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
 godmode: false
-flymode: false
+flymode: true
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -17,17 +17,17 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1791663037919
-  login: 1791664206512
+  logout: 1791734707906
+  login: 1791734790200
 money: '564.81'
 logoutlocation:
   world: f70b1dbe-264f-4011-9770-0a60de88db6d
   world-name: Lobby
-  x: 20.60325671815371
-  y: 81.72651552025393
-  z: -215.29741321565962
-  yaw: 65.40008544921875
-  pitch: 29.249975204467773
+  x: -10.32489931021888
+  y: 60.0
+  z: 18.754837561508523
+  yaw: -85.19985961914062
+  pitch: -3.6000046730041504
 last-account-name: EntityZ096x
 lastlocation:
   world: f70b1dbe-264f-4011-9770-0a60de88db6d
