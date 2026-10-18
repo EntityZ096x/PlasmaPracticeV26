@@ -1,0 +1,14 @@
+# Force RTP configuration
+# This file controls the behavior of the /forcertp command
+
+# Default world to use when no world is specified
+default-world: world
+
+# Bypass settings for the /forcertp command
+bypass:
+  # Whether to bypass cooldown restrictions
+  cooldown: true
+  # Whether to bypass permission checks (except for the forcertp permission itself)
+  permission: true
+  # Whether to bypass safety checks (teleport even to unsafe locations)
+  safety: false

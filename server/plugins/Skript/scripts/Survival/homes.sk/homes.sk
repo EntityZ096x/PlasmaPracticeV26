@@ -1,0 +1,117 @@
+on tab complete of "/home":
+
+    loop {homes::%player%::*}:
+        add loop-index to {_options::*}
+    set tab completions for position 2 to {_options::*}
+    set tab completions for position 1 to "delete", "set", "tp"
+
+command /sethome <text>:
+    trigger:
+        execute player command "/home set %arg-1%"
+
+command /delhome <text>:
+    trigger:
+        execute player command "/home delete %arg-1%"
+
+command /home [<text>] [<text>]:
+    trigger:
+        if sender is console:
+            send "fuh naw" to console
+            stop
+
+        set {_pre} to "<#ff0000>&lHome &r&8»&r "
+
+        if arg-1 is "set":
+            if arg-2 is not set:
+                send "%{_pre}%&cSpecify a name!" to player
+                stop
+
+            set {_name} to arg-2
+            set {_name} to lowercase {_name}
+
+            if {homes::%player%::%{_name}%} is set:
+                send "%{_pre}%&cA home with that name already exists!" to player
+                stop
+
+            set {homes::%player%::%{_name}%} to player's location
+            send "%{_pre}%&aSuccessfully set a home named '%{_name}%'!" to player
+            stop
+
+
+        if arg-1 is "delete":
+            if arg-2 is not set:
+                send "%{_pre}%&cSpecify a name!" to player
+                stop
+
+            set {_name} to arg-2
+            set {_name} to lowercase {_name}
+
+            if {homes::%player%::%{_name}%} is not set:
+                send "%{_pre}%&cChoose a valid home!" to player
+                stop
+
+            delete {homes::%player%::%{_name}%}
+            send "%{_pre}%&aSuccessfully deleted the home named '%{_name}%'!" to player
+            stop
+
+        if arg-1 is "tp":
+            if arg-2 is not set:
+                send "%{_pre}%&cSpecify a home!" to player
+                stop
+
+            set {_name} to arg-2
+            set {_name} to lowercase {_name}
+
+            if {homes::%player%::%{_name}%} is not set:
+                send "%{_pre}%&cChoose a valid home!" to player
+                stop
+
+            if {homeTeleporting::%player%} is set:
+                send "%{_pre}%&cYou already have a teleport pending!" to player
+                stop
+
+            set {homeTeleporting::%player%} to true
+            set {homeTeleportLocation::%player%} to {homes::%player%::%{_name}%}
+            set {homeTeleportStart::%player%} to player's location
+
+            send "%{_pre}%&7Teleporting to &f%{_name}%&7..." to player
+
+            loop 5 times:
+                set {_time} to 6 - loop-number
+
+                if {_time} > 0:
+                    send action bar "&fTeleporting in <#ff0000>%{_time}%s&f." to player
+
+                wait 1 second
+
+                if {homeTeleporting::%player%} is not set:
+                    stop
+
+                if distance between player's location and {homeTeleportStart::%player%} >= 3:
+                    delete {homeTeleporting::%player%}
+                    delete {homeTeleportLocation::%player%}
+                    delete {homeTeleportStart::%player%}
+                    send action bar "&cTeleport cancelled because you moved!" to player
+                    stop
+
+            send action bar "&r&aTeleported!" to player
+
+            if {homeTeleporting::%player%} is set:
+                teleport player to {homeTeleportLocation::%player%}
+                send "%{_pre}%&aTeleported to home '%{_name}%'!" to player
+
+            delete {homeTeleporting::%player%}
+            delete {homeTeleportLocation::%player%}
+            delete {homeTeleportStart::%player%}
+            stop
+
+
+        execute player command "/homes"
+
+
+on damage:
+    if {homeTeleporting::%victim%} is set:
+        delete {homeTeleporting::%victim%}
+        delete {homeTeleportLocation::%victim%}
+        delete {homeTeleportStart::%victim%}
+        send action bar "&cTeleport cancelled because you were damaged!" to victim

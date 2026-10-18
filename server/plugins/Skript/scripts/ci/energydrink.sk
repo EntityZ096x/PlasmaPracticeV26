@@ -1,0 +1,64 @@
+on drink:
+    if string tag "ci.item" of custom nbt of event-item is "energy_drink":
+        apply speed 1 to player for 15 seconds
+        set the player's food level to 10
+        set saturation of player to 20
+
+on drink:
+    if string tag "ci.item" of custom nbt of event-item is "energy_drink_2":
+        apply speed 3 to player for 15 seconds
+        apply regeneration 2 to player for 15 seconds
+        apply jump boost 1 to player for 15 seconds
+        set the player's food level to 10
+        set saturation of player to 20
+
+        wait 15 seconds
+        apply nausea 1 to player for 5 seconds
+        apply hunger 1 to player for 10 seconds
+        apply slowness 1 to player for 10 seconds
+        apply blindness 1 to player for 10 seconds
+
+
+on load:
+    set {_i} to potion of awkward named "&r&eEnergy Drink" with custom nbt from "{ci.item:""energy_drink""}"
+    force {_i} to glint
+    set lore of {_i} to "&8Energy drinks will satisfy your hunger."
+    hide {_i}'s entire tooltip
+    set maximum stack size of {_i} to 64
+
+    register shapeless recipe:
+        id: "ci:enery_drink"
+        result: {_i}
+        ingredients: 
+            add water bottle to ingredients
+            add sugar to ingredients
+            add sugar to ingredients
+            add sugar to ingredients
+            add sugar to ingredients
+            add sugar to ingredients
+            add sugar to ingredients
+
+on load:
+    set {_i} to potion of awkward named "&r&eEnergy Drink" with custom nbt from "{ci.item:""energy_drink""}"
+    force {_i} to glint
+    set lore of {_i} to "&8Energy drinks will satisfy your hunger."
+    hide {_i}'s entire tooltip
+    set maximum stack size of {_i} to 64
+
+    set {_i2} to potion of awkward named "&r&eStrong Energy Drink" with custom nbt from "{ci.item:""energy_drink_2""}"
+    force {_i2} to glint
+    set lore of {_i2} to "&8Strong energy drinks will satisfy your hunger.", "&8(And damage your body)"
+    hide {_i2}'s entire tooltip
+    set maximum stack size of {_i2} to 64
+
+    register shapeless recipe:
+        id: "ci:enery_drink_2"
+        result: {_i2}
+        ingredients: 
+            add {_i} to ingredients
+            add sugar to ingredients
+            add sugar to ingredients
+            add sugar to ingredients
+            add sugar to ingredients
+            add sugar to ingredients
+            add sugar to ingredients

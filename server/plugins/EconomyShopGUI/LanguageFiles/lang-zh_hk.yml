@@ -1,0 +1,406 @@
+# Help translate this file over on our Crowdin: https://crowdin.com/project/economyshopgui
+
+#StartUp/Reload
+creating-latest-shops: "正在嘗試創建最新版的預設設定，因為沒有找到與伺服器版本 %version% 相符的模板，請使用支援的伺服器版本。"
+default-shops-created: "已於 %path% 創建與 %version% 兼容的預設商店樣式。"
+loaded-shop-configurations: "成功載入 %total% 個商店設定，位置 /shops/"
+default-sections-created: "預設選區模板已創建於 %path%"
+loaded-section-configurations: "成功載入 %total% 個選區設定，位置 /sections/"
+updating-shop-settings: "正在驗證商店設定..."
+creating-new-shop-config: "正在為「%section%」創建新的商店設定，因為載入選區設定時未找到對應的商店設定。是否未正確刪除？"
+creating-new-section-config: "正在為「%section%」創建新的選區設定，因為載入商店設定時未找到對應的選區設定。是否未正確刪除？"
+adding-new-shop-shops,yml: "正在新增 %shopsection% 商店分類至 shops.yml。"
+adding-new-shop-sections,yml: "已向 sections.yml 新增商店分類 %shopsection%。"
+disabled-due-no-vault: "已停用，未找到 Vault 依賴，請安裝 Vault。"
+disabled-due-no-economy: "已停用，未找到經濟插件，請安裝如 EssentialsX 等插件。"
+update-available: "EconomyShopGUI Premium 有更新可用，您目前運行 v%plugin_version%，最新版本為 v%latest_version%。"
+done: "初始化完成 - 耗時 %millis% 毫秒"
+updating-sections-config: "正在更新分類設定檔..."
+debug-mode-enabled: "已啟用除錯模式。"
+economy-provider-null: "經濟提供程式 (EconomyProvider) 為空。"
+successfully-hooked-into-vault: "已成功連接到 Vault。"
+language-file-using: "正在使用 %languagefile% 作為語言檔案。"
+cannot-find-language-file: "找不到語言檔案！"
+minecraft-version-using: "正在運行 Minecraft 版本 %version%..."
+checking-each-item: "正在檢查每個物品是否有錯誤或缺失..."
+loading-items: "正在載入所有物品..."
+could-not-find-valid-version: "無法找到適用於此伺服器版本的插件實現，這可能導致大量物品和方法無法運行。請使用受支持的 Minecraft 版本。"
+updating-configs: "正在更新設定檔案，因為發現新版本..."
+creating-backup: "正在備份舊檔案 %fileName%，檔案可在 EconomyShopGUI 插件的 backups 資料夾內找到。"
+discounts-feature-unavailable: "折扣功能無法啟用，因為未找到權限插件。"
+cannot-hook-permissions: "找不到受支持的權限插件"
+enabled-plugin-hook: "已啟用 %plugin% 兼容..."
+failed-plugin-integration: "無法連接到 %plugin%，插件已停用或不存在..."
+loading-season-modifiers: "正在從設定檔案載入季節促銷..."
+loaded-season-modifiers: "成功載入 %total% 個季節促銷，適用於世界「%world%」的季節「%season%」"
+no-season-modifiers-found: "在設定檔案中找不到季節 %season% 的促銷。"
+season-change: "檢測到世界「%world%」的季節變更，正在載入季節「%season%」的促銷..."
+economy-providers-loaded: "已成功為所有 %shops% 個商店選區載入 %total% 個經濟提供插件。"
+section-economy-provider-loaded: "商店「%shop%」使用「%economy%」作為預設經濟系統。"
+loaded-shop-stand-module: "已成功從 stands.json 加載 %count% 個商店攤位。"
+saving-shop-stands: "正在將 %count% 個商店攤位儲存到「stands.json」..."
+
+#Shop prefix
+shop-prefix: "&9&l商店 &8&l>> "
+
+#Main Shop Inventory
+inventory-main-shop-title: "&8&l伺服器商店"
+profile: "&a個人資料"
+name: "&6名字"
+money: "&6餘額"
+level: "&6等級"
+
+# SellGUI inventory
+inventory-sellgui-title: "&8&l出售選單"
+
+#Buystacks Inventory title
+inventory-buystacks-title: "&8購入整組 &a&l> &r&8%item%"
+
+# Transaction screen
+inventory-howmuchsell-title: "&8出售 &c&l> &r&8%item%"
+inventory-howmuchbuy-title: "&8購入 &a&l> &r&8%item%"
+sell: "&a點選出售"
+sell-all: "&c點選全部出售"
+buy: "&a點選購入"
+buy-stacks: "&c點選購入整組"
+max-amount-reached: "&c已達到最大數量"
+min-amount-reached: "&c已達到最小數量"
+
+# ShopStands transactions
+shopstand-buy-screen-title: "&8購入 &a&l> &r&8%item%"
+shopstand-sell-screen-title: "&8出售 &c&l> &r&8%item%"
+shopstand-click-to-buy: "&a點選購入 %amount%"
+shopstand-click-to-sell: "&a點選出售 %amount%"
+shopstand-total-price: "&c總價: &7%price%"
+
+# Shop stands module
+default-shop-stand-item-name: "&e商店攤位"
+default-shop-stand-item-lore: "&f放置此物品來建立
+
+  &f新的 &6商店攤位 &f於放置位置
+
+  &f並用於銷售 &c%item%"
+shop-stands-management-inventory-title: "&8&l攤位管理"
+shop-stand-info-item-name: "&6&l商店攤位資訊:"
+shop-stand-info-item-lore: "&a攤位 ID: &f%id%
+
+  &a位置: &f%location%
+
+  &a商店物品: &f%item%
+
+  &a攤位類型: &f%type%
+
+  &a是否已加載: &f%loaded%"
+force-reload-stand-item-name: "&e&l強制重新載入攤位"
+force-reload-stand-item-lore: "&f點選這裡將重新載入商店攤位\n&f並重新創建顯示物品和攤位"
+destroy-stand-item-name: "&4&l銷毀商店攤位"
+destroy-stand-item-lore: "&e點選以銷毀此商店攤位"
+reload-shop-stand: "&a已強制重新載入商店攤位 ID %id%"
+shop-stand-browse-inventory-title: "&8&l攤位列表"
+shop-stand-location-format: "世界 '%world%', x%pos_x%, y%pos_y%, z%pos_z%"
+created-new-shop-stand: "&a成功創建新的商店攤位，商品: &f%item%"
+error-creating-new-shop-stand: "&c無法創建新的商店攤位: %reason%"
+
+#All Inventory's
+back: "&4返回"
+cancel: "&4取消"
+
+#Previous/Next/Current page
+previous-page: "&d上一頁"
+next-page: "&b下一頁"
+
+# ShopItem lore
+left-click-buy: "\n &a&l購入價格\n &a■ &f%buyPrice%"
+seasonal-buy-price: "
+
+  \ &a&l購入價格
+
+  \ &a■ &f&m%buyPrice%&r %dpp%&f%seasonalBuyPrice%"
+discounted-buy-price: "
+
+  \ &a&l購入價格
+
+  \ &a■ &f&m%buyPrice%&r %dpp%&f%discountedPrice%"
+right-click-sell: "\n &c&l出售價格\n &c■ &f%sellPrice%"
+seasonal-sell-price: "
+
+  \ &c&l出售價格
+
+  \ &c■ &f&m%sellPrice%&r %dpp%&f%seasonalSellPrice%"
+multiplied-sell-price: "
+
+  \ &c&l出售價格
+
+  \ &c■ &f&m%sellPrice%&r %dpp%&f%multipliedPrice%"
+shift-right-click-sell-all: "&bShift + 右鍵點選: 全部出售"
+item-cannot-be-bought: "\n &a&l購入價格\n &a■ &f無法購入"
+item-cannot-be-sold: "\n &c&l出售價格\n &c■ &f無法出售"
+item-seasonal-price: "&e&l季節性價格 %season-icon%"
+decoration-lore: "\n &e&l使用方式:"
+decoration-lore-buy: "&e ╚&e&l» &f左鍵點選購入"
+decoration-lore-sell-all: "&e ╚&e&l» &fShift + 右鍵點選出售全部"
+decoration-lore-sell: "&e ╚&e&l» &f右鍵點選出售\n "
+time-requirement-lore: "&c&l只能在以下遊戲時間內購入
+
+  &c%minTime% &land &c%maxTime%"
+quest-requirement-lore: "&c&l需要完成任務 &b&l%questName%"
+
+#Buy/Sell Messages
+discord-srv-player-transaction: "%player_name% %bought/sold% %amount% x %items%，總價 %price%"
+pay-confirmation: "&a成功購入 &1%amount% x &b%material% &a花費 &c%amounttopay%"
+sell-confirmation: "&a成功出售 &1%amount% x &b%material% &a獲得 &c%amounttopay%"
+sell-confirmation-multiple-items: "&a成功出售 &1%amount% &a個物品，總計 &c%amounttopay%"
+no-item-to-be-sold: "&c你的背包內沒有這種物品可出售。"
+cannot-purchase-item: "&c此物品無法購入。"
+cannot-sell-item: "&c此物品無法出售。"
+player-made-transaction: "%playername% %bought/sold% %amount% x %material%，總價 %amountofmoney%，使用 %buy/sell-method%。"
+player-made-transaction-multiple-items: "%playername% %bought/sold% %items%，總價 %amountofmoney%，使用 %buy/sell-method%。"
+time-requirement-not-met: "&c此物品只能在 &f%minTime% &c至 &f%maxTime%&c 之間購入/出售，當前時間為 &f%progress%&c。請稍後再試！"
+quest-requirement-not-met: "&c此物品只能在完成任務 &b&l%questName%&c 後購入/出售，請完成後再來！"
+buy-screen: "購入畫面"
+sell-screen: "出售畫面"
+buystacks-screen: "批量購入畫面"
+sellall-screen: "全部出售畫面"
+sellall-command: "全部出售指令"
+sellgui-screen: "出售 GUI"
+quick-buy: "快速購入畫面"
+quick-sell: "快速出售畫面"
+shopstand-buy-screen: "商店攤位購入畫面"
+shopstand-sell-screen: "商店攤位出售畫面"
+auto-sell-chest: "自動出售箱"
+bought: "已購入"
+sold: "已出售"
+
+# XP Currency name format
+xp-currency-name-singular: "經驗點"
+xp-currency-name-plural: "經驗點"
+
+#All commands
+command-disabled-in-world: "&c此指令在此世界內已被禁用。"
+
+#Edit-shop subcommand descriptions
+editshop-add-item-subcommand-desc: "&a將物品新增到商店。"
+editshop-edit-item-subcommand-desc: "&a編輯商店內現有的物品。"
+editshop-remove-item-subcommand-desc: "&a從商店刪除物品。"
+editshop-import-subcommand-desc: "&a從其他位置或插件導入檔案/設定。"
+editshop-add-hand-item-subcommand-desc: "&a將手上的物品添加到商店。"
+editshop-add-section-subcommand-desc: "&a將商店分類添加到商店。"
+editshop-edit-section-subcommand-desc: "&a編輯現有的商店分類。"
+editshop-remove-section-subcommand-desc: "&a從商店中刪除現有的商店分類。"
+editshop-shopstands-subcommand-desc: "&a管理現有的商店攤位或創建新商店攤位"
+editshop-shopstands-give-subcommand-desc: "&a獲取一個新的商店攤位物品以進行放置"
+editshop-shopstands-destroy-subcommand-desc: "&a根據 ID 銷毀指定位置的商店攤位"
+editshop-shopstands-browse-subcommand-desc: "&a打開包含所有現有商店攤位的 GUI"
+
+#Edit-shop command messages
+editshop-adding-item: "&a正在將新物品添加到商店 %shop%..."
+editshop-add-item-successful: "&a成功將物品添加到商店 %shop%，位置 %itemPath%。"
+editshop-adding-section: "&a正在為商店 %section% 添加新分類設定..."
+editshop-add-section-successful: "&a成功創建分類設定，存放於 %path%。"
+editshop-editing-item: "&a正在更新物品..."
+editshop-edit-item-successful: "&a成功更新 '%itemPath%'。"
+editshop-editing-section: "&a正在更新分類..."
+editshop-removing-item: "&a正在從商店移除物品..."
+editshop-remove-item-successful: "&a成功從商店移除 '%itemPath%'。"
+editshop-removing-section: "&a正在從商店移除分類..."
+editshop-removed-section: "&a成功從商店移除 '%itemPath%'。"
+editshop-reload-shop-to-see-changes: "&a請使用 /sreload 指令以重新載入商店，套用更改。"
+file-replaced: "&a舊的 %fileName% 已被替換，新文件存放於 backups 資料夾內，以防有誤。"
+shop-stand-item-received: "&a你獲得了 &c%amount%x &a商店攤位，適用於商店物品 &f%item%"
+
+#Edit-shop command errors
+section-does-not-contain-item: "&c分類 '%shopsection%' 不包含物品 '%itemLoc%'。"
+no-valid-action: "&c無效的操作 '%action%'。\n可用操作: %actions%。"
+no-valid-key: "&c無效的鍵數值 '%key%'。\n可用鍵數值: %keys%。"
+action-not-valid-on-key: "&c無法對鍵數值 '%key%' 執行 '%action%' 操作。"
+edit-item-material-invalid: "&c您嘗試編輯的物品材質無效: '%material%'"
+key-already-defined: "&c物品已經包含 '%key%'，無法重複添加。"
+key-is-not-found: "&c無法從物品移除 '%key%'，因為找不到此鍵數值。"
+plugin-not-found: "&c找不到指定名稱的插件，請確認該插件是否受支持。"
+file-not-found: "&c在 %pluginName% 的插件資料夾內找不到名為 %fileName% 的文件。"
+no-valid-slot-for-item: "&c物品無法放置於插槽 '%slot%'。有效範圍: 1 - %maxShopSize%。"
+slot-already-in-use: "&c該分類的插槽已被佔用。
+
+  可用插槽: %available-slots%"
+slot-needs-to-be-number: "&c物品在主目錄的插槽必須為數字。"
+invalid-shop-stand-type: "&c無效的商店攤位類型，可用類型: %values%"
+unknown-shop-stand-id: "&c找不到 ID 為 &f%id% &c的商店攤位。"
+stand-type-not-supported: "&c商店攤位類型 &f%type% &c不受當前 Minecraft 版本支持。"
+
+#Reload Command
+configs-reloaded: "&a所有設定已重新載入。"
+
+# Sellall command usages
+sellall-command-usages: "&a指令使用方式:"
+sellall-inventory-command-usage: "&7/sellall inventory &f- &7出售背包內所有物品"
+sellall-hand-command-usage: "&7/sellall hand &8[數量] &f- &7出售手上物品"
+sellall-item-command-usage: "&7/sellall <物品> &8[數量] &f- &7出售背包內匹配名稱的所有物品"
+
+# ShopGive command
+shop-item-given: "&a你獲得了 &c%amount% &ax &6%material%"
+shop-item-received: "&a你收到 &c%amount% &ax 商店物品，來自分類 &6%section% &a，索引 &6%itemIndex%"
+
+#Balance Command
+check-balance: "&b你目前擁有 &c%amountofmoney%&b。"
+check-balance-other-player: "&b%playername% &a目前擁有 &c%amountofmoney%&a。"
+
+#Givemoney Command
+givemoneycommand-example: "&9/givemoney <玩家> <金額>"
+givemoney-complete: "&a已成功轉帳。"
+
+#Pay Command
+minimum-amount: "&c支付給玩家的最小金額為 %minimumamount%。"
+payment-complete: "&a支付成功。"
+player-received-money: "&a你收到來自 &2%playername% &a的 &c%amounttogive%。"
+need-player-and-amount: "&9你需要指定玩家和金額。"
+need-amount: "&9你需要輸入金額。"
+paycommand-example: "&9/pay <玩家> <金額>"
+
+#Player breaks spawner
+default-spawner-name: "&9&l%spawner-type% &r生怪磚"
+spawner-broke-and-applied-to-inventory: "&a你成功開採了一個 &9%spawner-type%&a，物品已存入你的背包。"
+need-silk-touch: "&c你需要使用附有精准採集附魔的鎬子來開採！"
+
+#JoinMessage
+join-message: "&2歡迎！你的餘額為 &c%balance%！"
+
+#Level event
+level-event-message: "&2[等級] &5恭喜！&c%amount% &5已添加到你的餘額！"
+
+#Item error's
+displayname-null: "無法獲取顯示名稱。"
+item-name-null: "無法獲取物品名稱。"
+need-item-material: "無法創建物品，材質數值不能為空。"
+item-material-null: "無法載入物品材質 '%material%'，可能是該材質不存在或拼寫錯誤。"
+item-enchantment-null: "無法獲取物品附魔。"
+need-item-enchantment: "無法創建附魔，附魔數值不能為空。"
+item-enchantment-not-supported: "此 Minecraft 版本不支持該附魔。"
+enchantment-cannot-apply-to-item: "要為物品附魔，該物品必須是附魔書或適用於該附魔的工具。"
+item-spawnertype-null: "無法獲取物品的生怪磚類型。"
+need-item-spawnertype: "無法創建生怪磚，刷怪類型不能為空。"
+material-needs-to-be-spawner: "要將刷怪類型應用於物品，該物品的材質必須為生怪磚。"
+item-potiontype-null: "無法獲取物品的藥水類型。"
+need-item-potiontype: "無法創建藥水類型，數值不能為空。"
+potiontype-not-supported: "此 Minecraft 版本不支持該藥水類型。"
+material-needs-to-be-potion: "要應用藥水效果，該物品必須為藥水或帶效果的箭矢。"
+cant-bind-multiple-applyments: "無法創建帶有多種應用（如附魔、刷怪類型或藥水效果）的物品。"
+item-error: "&c物品錯誤，請查看控制台。"
+material-not-supported: "此 Minecraft 版本不支持該物品材質。"
+item-needs-buy-and-sell-value: "商店中的每個物品都必須有購入/出售價格。"
+sell-value-wrong: "出售價格必須為數字或小數。"
+buy-value-wrong: "購入價格必須為數字或小數。"
+option-type-changed: "請將選項 'type' 更改為 'spawnertype' 以在商店中創建生怪磚。此選項名稱已在 2.2 版本更改以提高清晰度。"
+option-meta-changed: "請將選項 'meta' 更改為 'displayname' 以在商店中創建具有顯示名稱的物品。此選項名稱已在 2.2 版本更改以提高清晰度。"
+cannot-display-shopsection: "無法創建商店分類 '%shopsection%'，因為物品的插槽必須在 0 到 %maxInvSize% 的範圍內。"
+need-recipe-material: "無法創建配方材料，數值不能為空。"
+cannot-get-recipe-material: "無法創建配方材料，請檢查材料名稱的拼寫並確認其是否存在。"
+recipe-material-not-supported: "此 Minecraft 版本不支持指定的配方材料。"
+material-needs-to-be-book: "要將配方應用於物品，該物品的材質必須為知識之書。"
+need-skullowner: "無法創建玩家頭顱，未指定玩家（頭顱擁有者）。"
+material-needs-to-be-skull: "要應用頭顱紋理（頭顱擁有者）到物品，該物品的材質必須為玩家頭顱。"
+material-needs-to-be-leather-armor: "要將顏色應用於盔甲，該物品必須為皮革盔甲。"
+invalid-item-requirement-type: "'%type%' 的物品需求類型無效。"
+invalid-item-requirement: "'%requirement%' 的物品需求無效。"
+invalid-spawn-potential-weight: "刷怪潛力的權重無效，應為數字。"
+invalid-spawn-potential: "刷怪潛力 '%spawn_potential%' 的輸入無效，格式應為 '<entityType>:<weight>'。"
+invalid-material-for-item-option: "要設置 %item-option% ，物品的材質應為 %material%。"
+invalid-ominous-bottle-strength: "不祥之瓶的強度無效，應介於 1 至 5 之間，但獲得了 %strength%。"
+error-setting-item-option: "設置 %item-option% 時發生錯誤。"
+
+#Item path
+items-path-in-shops-config: "商店設定 (shops.yml) 中的物品路徑: %location%"
+items-path-in-sections-config: "分類設定 (sections.yml) 中的物品路徑: %location%"
+items-path-in-config: "設定檔 (config.yml) 中的物品路徑: %location%"
+
+#Compatibility
+mineablespawners-compatibility-enabled: "已在設定中將生怪磚提供者設置為 MineableSpawners"
+mineablespawners-found: "找到 MineableSpawners，正在整合..."
+mineablespawners-not-found: "未找到 MineableSpawners"
+could-not-intergrate-with-mineablespawners: "無法與 MineableSpawners 進行整合"
+using-mineablespawners-spawners: "正在使用 MineableSpawners 作為生怪磚提供者..."
+rosestacker-compatibility-enabled: "已在設定中將生怪磚提供者設置為 RoseStacker"
+rosestacker-not-found: "未找到 RoseStacker"
+could-not-integrate-with-rosestacker: "無法與 RoseStacker 進行整合"
+rosestacker-found: "找到 RoseStacker，正在整合..."
+using-rosestacker-spawners: "正在使用 RoseStacker 作為生怪磚提供者..."
+ultimatestacker-compatibility-enabled: "已在設定中將生怪磚提供者設置為 UltimateStacker"
+ultimatestacker-not-found: "未找到 UltimateStacker"
+could-not-integrate-with-ultimatestacker: "無法與 UltimateStacker 進行整合"
+ultimatestacker-found: "找到 UltimateStacker，正在整合..."
+using-ultimatestacker-spawners: "正在使用 UltimateStacker 作為生怪磚提供者..."
+wildstacker-compatibility-enabled: "已在設定中將生怪磚提供者設置為 WildStacker"
+wildstacker-not-found: "未找到 WildStacker"
+wildstacker-found: "找到 WildStacker，正在整合..."
+could-not-integrate-with-wildstacker: "無法與 WildStacker 進行整合"
+using-wildstacker-spawners: "正在使用 WildStacker 作為生怪磚提供者。"
+spawner-compatibility-enabled: "已在設定中將生怪磚提供者設置為 %provider%"
+spawner-provider-not-found: "未找到生怪磚提供者 %provider%"
+spawner-provider-found: "找到生怪磚提供者 %provider%，正在整合..."
+failed-spawner-provider-integration: "無法與 %provider% 進行整合"
+using-external-spawners: "正在使用 %provider% 作為生怪磚提供者。"
+
+silkspawners-compatibility-enabled: "已啟用 SilkSpawners 相容性設定。"
+silkspawners-not-found: "未找到 SilkSpawners"
+silkspawners-found: "找到 SilkSpawners，正在整合..."
+could-not-integrate-with-silkspawners: "無法與 SilkSpawners 進行整合。"
+using-silkspawners-spawners: "正在使用 SilkSpawners 的生怪磚..."
+using-default-spawners: "正在使用插件預設生怪磚..."
+
+#Error's
+cannot-find-discounted-section: "無法為分類 '%section%' 添加折扣，該分類可能已被禁用或不存在。"
+cannot-find-discounted-group: "無法為權限組 '%permsGroup%' 添加折扣，請檢查拼寫並確認該組是否存在於您的權限插件中。"
+disabling-plugin: "正在停用插件..."
+not-spawn-able: "此實體類型無法生成。'%spawnertype%'"
+real-player: "你需要是一名真實玩家才能使用該指令。"
+player-not-online: "&c該玩家不存在或不在線。"
+cannot-sell-air: "&c你不能賣空氣..."
+no-permissions: "&c你沒有權限執行此操作。"
+no-permissions-to-open-shop: "&c你沒有權限打開此商店分類。"
+cannot-do-that: "&4你不能這樣做!!"
+more-space-needed: "&c請確保你的背包有足夠的空間，然後再試一次。"
+could-not-store-all-items: "&c%amount% 個物品無法加入你的背包，因為你的背包已滿。"
+not-enough-space-inside-inventory: "&4你的背包沒有足夠的空間，剩餘物品將掉落在地上。"
+insufficient-money: "&c你的 %currency% 不足。"
+canceling-transaction-no-space: "&4你的背包沒有足夠的空間，交易已取消。\n請清理你的背包後再試一次。"
+no-items-in-section: "無法打開商店分類 %shopsection%，因為沒有找到任何物品！"
+no-item-found: "&c找不到可出售的物品。"
+not-enough-items-to-sell: "&c最少需要出售 %min-sell% 件，你只有 %quantity% 件。"
+item-null: "&c該物品不存在。"
+item-cannot-be-sold-to-server: "&c物品 (%material%) 無法出售給伺服器，因為該物品在商店中出現錯誤。請向伺服器管理員或擁有者報告此問題。"
+could-not-save-config: "無法儲存 %fileName% 設定檔。"
+rgb-color-formatted-wrong: "RGB 顏色必須格式化為 '0x000000'、'#000000' 或 '000000'，錯誤位置: %path%。"
+no-shop-found: "&c找不到名稱匹配的商店分類。"
+no-valid-amount: "&c無效的數量"
+restart-plugin: "無法打開商店分類，請嘗試重新啟動插件，或加入 Discord 伺服器尋求支援。"
+could-not-check-for-updates: "&c無法檢查更新。"
+cannot-update-config: "&c無法更新 config.yml 設定檔。"
+cannot-read-config: "無法讀取 %fileName% 設定檔，請使用線上 YAML 解析器檢查錯誤。如果無法解決，請加入我們的 Discord 支援伺服器。"
+error-occured-while-reloading: "&4重新載入插件時發生錯誤，請檢查控制台的錯誤信息。"
+could-not-get-the-limitedstock-mode: "無法獲取限量庫存模式: %limitedStockMode%"
+error-occurred-while-connecting-to-database: "嘗試連接資料庫時發生錯誤"
+invalid-item-type: "&c%type% 的物品類型無效"
+cannot-enter-shop-banned-gamemode: "&c你在 %gamemode% 模式下無法購入/出售物品。"
+cannot-use-command-banned-gamemode: "&c你在 %gamemode% 模式下無法使用此指令。"
+cannot-load-season-modifier: "無法載入 '%path%' 的季節調整，因為未找到對應的分類或物品。"
+invalid-season-modifier: "'%path%' 位置的調整數數值無效，應該是 -100 到 100 之間的百分比，例如 '-75%'、'+25%'，但獲得了 %current%"
+cannot-load-economy-provider: "無法載入商店 '%shop%' 的經濟提供者，原因: '%reason%'，將使用預設值..."
+cannot-find-economy-provider: "找不到商店 '%shop%' 對應的經濟提供者 '%type%'，將使用預設值..."
+cannot-find-default-economy-provider: "無法找到 config.yml 中指定的經濟類型 '%economy%'，嘗試自動尋找可用的經濟系統..."
+cannot-load-default-economy-provider: "無法載入預設經濟提供者，原因: '%reason%'，嘗試自動尋找可用的經濟系統..."
+removed-shop-stand: "&c已從位置 %location% 移除商店攤位"
+shop-stand-load-failed: "載入商店攤位 ID '%id%' 失敗: %reason%"
+shop-stand-unload-failed: "卸載商店攤位 ID '%id%' 失敗: %reason%"
+shop-stand-inside-unloaded-chunk: "商店攤位位於未加載的區塊內"
+item-from-shop-stand-not-found: "無法從商店攤位 '%item%' 找到商店物品"
+block-from-shop-stand-not-found: "位置 %location% 的商店攤位方塊類型與緩存的類型 '%type%' 不匹配"
+invalid-shop-stand-world: "商店攤位 ID %id% 的世界 '%world%' 無效"
+invalid-shop-stand-format: "無效的商店攤位位置: x%pos_x%, y%pos_y%, z%pos_z% (ID: %id%)"
+error-saving-shop-stands: "無法將商店攤位保存到 'stands.json'"
+error-loading-shop-stands: "無法從 'stands.json' 加載商店攤位"
+error-loading-shop-stand: "無法從 stands.json 加載商店攤位 ('%stand%')，原因: %reason%"
+error-creating-stands-storage: "無法創建 'stands.json' 存儲文件"
+invalid-stand-type: "無效的商店攤位類型: %type%"
+shop-stands-module-not-enabled: "商店攤位模組未啟用"
+cannot-open-shop-stand: "無法為玩家 %player% 開啟商店攤位，因為商店物品 (%item%) 不存在！"
+invalid-click-type: "%click-type% 的點選類型無效，對應條目 %click-mapping%，將使用預設值..."
+invalid-click-action: "%click-action% 的點選操作無效，對應條目 %click-mapping%，將使用預設值..."

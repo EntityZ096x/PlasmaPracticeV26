@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1792268521831
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1792272751403
+  login: 1792272425609
+money: '314.57'
+logoutlocation:
+  world: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
+  world-name: KitPvP
+  x: -85.49047476136991
+  y: 150.0
+  z: 91.13243339449431
+  yaw: 111.89994812011719
+  pitch: 33.4499397277832
+last-account-name: EntityZ096x
+lastlocation:
+  world: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
+  world-name: KitPvP
+  x: 13.699999988079071
+  y: 78.24304273616123
+  z: 5.300000011920929
+  yaw: -144.1514892578125
+  pitch: 39.89994812011719
+homes:
+  base:
+    world: ae3fd088-f335-4304-928c-e6a701fdd5bc
+    world-name: Survival
+    x: 19894.515606823952
+    y: 69.0
+    z: 15034.132275677492
+    yaw: -86.699951171875
+    pitch: -9.7500581741333

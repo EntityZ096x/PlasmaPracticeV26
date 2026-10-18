@@ -1,0 +1,398 @@
+# Help translate this file over on our Crowdin: https://crowdin.com/project/economyshopgui
+
+#StartUp/Reload
+creating-latest-shops: "Criando lojas padrão para a versão mais recente porque não foi encontrado um layout existente correspondente à versão do servidor %version%; por favor, use uma versão do servidor suportada."
+default-shops-created: "Layout de lojas padrão compatível com %version% criado em %path%"
+loaded-shop-configurations: "Concluído o carregamento de %total% configurações de loja de /shops/"
+default-sections-created: "Layout de seções padrão criado em %path%"
+loaded-section-configurations: "Concluído o carregamento de %total% configurações de seção de /sections/"
+updating-shop-settings: "Validando configurações da loja"
+creating-new-shop-config: "Criando uma nova configuração de lojas para '%section%' porque não foi encontrada configuração de lojas enquanto existe uma configuração de seções. Não foi removida corretamente?"
+creating-new-section-config: "Criando uma nova configuração de seções para '%section%' porque não foi encontrada configuração de seções enquanto existe uma configuração de lojas. Não foi removida corretamente?"
+adding-new-shop-shops,yml: "Adicionando uma nova loja chamada %shopsection% ao shops.yml."
+adding-new-shop-sections,yml: "Adicionando uma nova loja chamada %shopsection% ao sections.yml."
+disabled-due-no-vault: "Desativado porque a dependência Vault não foi encontrada; instale o Vault."
+disabled-due-no-economy: "Desativado porque nenhum plugin de economia foi encontrado; instale um plugin como o EssentialsX."
+update-available: "Há uma atualização disponível para o EconomyShopGUI Premium; você está usando a v%plugin_version%, mas foi encontrada a v%latest_version%."
+done: "Inicializado - Levou %millis%ms para concluir"
+updating-sections-config: "Atualizando configuração de seções..."
+debug-mode-enabled: "Modo de depuração ativado."
+economy-provider-null: "EconomyProvider é nulo."
+successfully-hooked-into-vault: "Integrado com sucesso ao Vault."
+language-file-using: "Usando %languagefile% como arquivo de idioma."
+cannot-find-language-file: "Não foi possível encontrar o arquivo de idioma!"
+minecraft-version-using: "Usando a versão do Minecraft %version%..."
+checking-each-item: "Verificando cada item para valores incorretos/ausentes..."
+loading-items: "Carregando todos os itens..."
+could-not-find-valid-version: "Não foi possível encontrar uma implementação válida para esta versão do servidor. Isso fará com que o plugin não tenha uma versão para usar e resulte em vários itens/métodos sem funcionar. Use uma versão do Minecraft suportada."
+updating-configs: "Atualizando as configurações porque foi encontrada uma versão mais recente..."
+creating-backup: "Criando um backup do antigo %fileName%; o arquivo pode ser encontrado na pasta backups dentro da pasta do plugin EconomyShopGUI."
+discounts-feature-unavailable: "O recurso de descontos não pode ser habilitado porque nenhum plugin de permissões foi encontrado."
+cannot-hook-permissions: "Falha ao encontrar um plugin de permissões compatível"
+enabled-plugin-hook: "Hook de %plugin% ativado..."
+failed-plugin-integration: "Falha ao integrar com %plugin%; plugin desativado ou não encontrado..."
+loading-season-modifiers: "Carregando modificadores de estação a partir da config..."
+loaded-season-modifiers: "Concluído o carregamento de %total% modificador(es) para a estação '%season%' no mundo '%world%'"
+no-season-modifiers-found: "Nenhum modificador de estação encontrado para a estação %season% na config"
+season-change: "Detectada mudança de estação no mundo '%world%'; carregando modificadores para a estação %season%..."
+economy-providers-loaded: "Concluído o carregamento de %total% provedor(es) de economia para todas as %shops% seções de loja."
+section-economy-provider-loaded: "Usando '%economy%' como economia padrão para a loja '%shop%'"
+loaded-shop-stand-module: "Concluído o carregamento de %count% expositor(es) de loja de stands.json"
+saving-shop-stands: "Salvando %count% expositores de loja em 'stands.json'..."
+
+#Shop prefix
+shop-prefix: "&9&lLoja &8&l>> "
+
+#Main Shop Inventory
+inventory-main-shop-title: "&8&lLoja do Servidor"
+profile: "&aPerfil"
+name: "&6Nome"
+money: "&6Saldo"
+level: "&6Nível"
+
+# SellGUI inventory
+inventory-sellgui-title: "&8&lGUI de Venda"
+
+#Buystacks Inventory title
+inventory-buystacks-title: "&8Comprando pilhas &a&l> &r&8%item%"
+
+# Transaction screen
+inventory-howmuchsell-title: "&8Vendendo &c&l> &r&8%item%"
+inventory-howmuchbuy-title: "&8Comprando &a&l> &r&8%item%"
+sell: "&aClique para vender"
+sell-all: "&cClique para vender tudo"
+buy: "&aClique para comprar"
+buy-stacks: "&cClique para comprar pilhas"
+max-amount-reached: "&cQuantidade máxima alcançada"
+min-amount-reached: "&cQuantidade mínima alcançada"
+
+# ShopStands transactions
+shopstand-buy-screen-title: "&8Comprando &a&l> &r&8%item%"
+shopstand-sell-screen-title: "&8Vendendo &c&l> &r&8%item%"
+shopstand-click-to-buy: "&aClique para comprar %amount%"
+shopstand-click-to-sell: "&aClique para vender %amount%"
+shopstand-total-price: "&cPreço total: &7%price%"
+default-shop-stand-item-lore: "&fColoque este item para criar
+
+  &fum novo &6ShopStand &fno local colocado
+
+  &fpara o item da loja &c%item%"
+shop-stands-management-inventory-title: "&8&lGerenciamento de stands"
+shop-stand-info-item-name: "&6&lInformações do stand:"
+shop-stand-info-item-lore: "&aID do stand: &f%id%
+
+  &aLocal: &f%location%
+
+  &aItem da loja: &f%item%
+
+  &aTipo de stand: &f%type%
+
+  &aCarregado: &f%loaded%"
+force-reload-stand-item-name: "&e&lRecarregar stand à força"
+force-reload-stand-item-lore: "&fClicar aqui irá recarregar o stand da loja
+
+  &fo que irá recriar o displayitem e o stand"
+destroy-stand-item-name: "&4&lDestruir stand da loja"
+destroy-stand-item-lore: "&eClique para destruir este stand da loja"
+reload-shop-stand: "&aStand da loja recarregado à força com ID %id%"
+shop-stand-browse-inventory-title: "&8&lLista de stands"
+shop-stand-location-format: "Mundo '%world%', x%pos_x%, y%pos_y%, z%pos_z%"
+created-new-shop-stand: "&aNovo ShopStand criado com sucesso para &f%item%"
+error-creating-new-shop-stand: "&cFalha ao criar um novo stand da loja: %reason%"
+
+#All Inventory's
+back: "&4Voltar"
+cancel: "&4Cancelar"
+
+#Previous/Next/Current page
+previous-page: "&dPágina Anterior"
+next-page: "&bPróxima Página"
+
+# ShopItem lore
+left-click-buy: "\\n &a&lPreço de Compra\\n &a■ &f%buyPrice%"
+seasonal-buy-price: "\\n &a&lPreço de Compra\\n &a■ &f&m%buyPrice%&r %dpp%&f%seasonalBuyPrice%"
+discounted-buy-price: "\\n &a&lPreço de Compra\\n &a■ &f&m%buyPrice%&r %dpp%&f%discountedPrice%"
+right-click-sell: "\\n &c&lPreço de Venda\\n &c■ &f%sellPrice%"
+seasonal-sell-price: "\\n &c&lPreço de Venda\\n &c■ &f&m%sellPrice%&r %dpp%&f%seasonalSellPrice%"
+multiplied-sell-price: "\\n &c&lPreço de Venda\\n &c■ &f&m%sellPrice%&r %dpp%&f%multipliedPrice%"
+shift-right-click-sell-all: "&bShift + Clique Direito: Vender Tudo"
+item-location-in-shop: "&8Seção: %shopsection%, Índice: %itemLoc%"
+item-cannot-be-bought: "\\n &a&lPreço de Compra\\n &a■ &fNão pode ser comprado"
+item-cannot-be-sold: "\\n &c&lPreço de Venda\\n &c■ &fNão pode ser vendido"
+item-seasonal-price: "&e&lPreço sazonal %season-icon%"
+decoration-lore: "\n &e&lUso:"
+decoration-lore-buy: "&e ╚&e&l» &fClique esquerdo para comprar"
+decoration-lore-sell-all: "&e ╚&e&l» &fShift + Clique Direito para vender tudo"
+decoration-lore-sell: "&e ╚&e&l» &fClique direito para vender
+
+  \ "
+time-requirement-lore: "&c&lSó pode ser comprado entre
+
+  &c%minTime% &le &c%maxTime% &lde tempo dentro do jogo."
+quest-requirement-lore: "&c&lRequer completar a missão &b&l%questName%"
+region-requirement-lore: "&c&lRequer estar dentro da região &b&l%regionName%"
+
+#Buy/Sell Messages
+discord-srv-player-transaction: "%player_name% %bought/sold% %amount% x %items% por %price%"
+pay-confirmation: "&aVocê comprou com sucesso &1%amount% x &b%material% &apor &c%amounttopay%"
+sell-confirmation: "&aVocê vendeu com sucesso &1%amount% x &b%material% &apor &c%amounttopay%"
+sell-confirmation-multiple-items: "&aVocê vendeu com sucesso &1%amount% &aitens por &c%amounttopay%"
+no-item-to-be-sold: "&cVocê não possui este item no inventário."
+cannot-purchase-item: "&cEste item não pode ser comprado."
+cannot-sell-item: "&cEste item não pode ser vendido."
+player-made-transaction: "%playername% %bought/sold% %amount% x %material% por %amountofmoney% com o método %buy/sell-method%."
+player-made-transaction-multiple-items: "%playername% %bought/sold% %items% por %amountofmoney% com o método %buy/sell-method%."
+time-requirement-not-met: "&cEste item só pode ser comprado/vendido entre &f%minTime% &ce &f%maxTime%&c no tempo do jogo; o horário atual é &f%progress%&c. Volte em breve!"
+quest-requirement-not-met: "&cEste item só pode ser comprado/vendido quando você completar a missão &b&l%questName%&c; volte quando concluir"
+region-requirement-not-met: "&cVocê só pode comprar/vender este item dentro da região %regionName%"
+buy-screen: "tela de compra"
+sell-screen: "tela de venda"
+buystacks-screen: "tela de compra em pilhas"
+sellall-screen: "tela de vender tudo"
+sellall-command: "comando sell all"
+sellgui-screen: "tela sell gui"
+quick-buy: "tela de compra rápida"
+quick-sell: "tela de venda rápida"
+shopstand-buy-screen: "tela de compra do stand"
+shopstand-sell-screen: "tela de venda do stand"
+bought: "comprado"
+sold: "vendido"
+
+#CurrencySymbol
+currencysymbol: "R$%price%"
+
+# XP Currency name format
+xp-currency-name-singular: "ponto de XP"
+xp-currency-name-plural: "pontos de XP"
+
+#All commands
+command-disabled-in-world: "&cEste comando está desativado neste mundo."
+
+#Edit-shop subcommand descriptions
+editshop-add-item-subcommand-desc: "&aAdicionar um item à loja."
+editshop-edit-item-subcommand-desc: "&aEditar um item existente na loja."
+editshop-remove-item-subcommand-desc: "&aExcluir um item da loja."
+editshop-import-subcommand-desc: "&aImporta arquivos/configurações de outro local ou plugin."
+editshop-add-hand-item-subcommand-desc: "&aAdicionar um item da sua mão à loja."
+editshop-add-section-subcommand-desc: "&aAdicionar uma seção de loja."
+editshop-edit-section-subcommand-desc: "&aEditar uma seção de loja existente."
+editshop-remove-section-subcommand-desc: "&aRemove uma seção de loja existente."
+editshop-shopstands-subcommand-desc: "&aGerencia stands existentes ou cria novos"
+editshop-shopstands-give-subcommand-desc: "&aFornece um novo item de stand para posicionar"
+editshop-shopstands-destroy-subcommand-desc: "&aDestrói um stand no local atual pelo seu ID"
+editshop-shopstands-browse-subcommand-desc: "&aAbre uma GUI com todos os stands existentes"
+
+#Edit-shop command messages
+editshop-adding-item: "&aAdicionando novo item à loja %shop%..."
+editshop-add-item-successful: "&aItem adicionado com sucesso à loja %shop% em %itemPath%."
+editshop-adding-section: "&aAdicionando nova configuração de seção para a loja %section%..."
+editshop-add-section-successful: "&aNova configuração de seção criada em %path%."
+editshop-editing-item: "&aAtualizando o item..."
+editshop-edit-item-successful: "&a'%itemPath%' atualizado com sucesso."
+editshop-editing-section: "&aAtualizando seção..."
+editshop-removing-item: "&aRemovendo o item da loja..."
+editshop-remove-item-successful: "&a'%itemPath%' removido da loja com sucesso."
+editshop-removing-section: "&aRemovendo a seção da loja..."
+editshop-removed-section: "&a&a'%itemPath%' removido da loja com sucesso."
+editshop-reload-shop-to-see-changes: "&aUse o comando /sreload para carregar as mudanças na loja."
+file-replaced: "&aO antigo %fileName% foi substituído pelo novo arquivo; o antigo pode ser encontrado na pasta backups caso algo tenha dado errado."
+shop-stand-item-received: "&aVocê recebeu &c%amount%x &aShopStand para o item da loja &f%item%"
+
+#Edit-shop command errors
+section-does-not-contain-item: "&cA seção '%shopsection%' não contém o item '%itemLoc%'."
+no-valid-action: "&cAção inválida '%action%'.\ 
+
+  Ações disponíveis: %actions%."
+no-valid-key: "&cChave inválida '%key%'.\ 
+
+  Chaves disponíveis: %keys%."
+action-not-valid-on-key: "&cNão é possível %action% a chave '%key%'."
+edit-item-material-invalid: "&cO material do item que você está tentando editar é inválido. '%material%'"
+key-already-defined: "&cA chave '%key%' já está definida no item; você não pode adicioná-la duas vezes."
+key-is-not-found: "&cA chave '%key%' não pode ser removida do item porque não foi encontrada."
+plugin-not-found: "&cNão foi possível encontrar um plugin com esse nome; verifique se damos suporte a esse plugin."
+file-not-found: "&cNão foi possível encontrar um arquivo com o nome %fileName% dentro da pasta do plugin %pluginName%."
+no-valid-slot-for-item: "&cO item não pôde ser colocado no slot '%slot%'. O slot precisa estar entre 1 e %maxShopSize%."
+slot-already-in-use: "&cO slot desta seção já está ocupado.
+
+  Todos os slots disponíveis: %available-slots%"
+slot-needs-to-be-number: "&cO slot do item no menu principal precisa ser um número."
+invalid-shop-stand-type: "&cTipo de shop stand inválido; valores válidos: %values%"
+unknown-shop-stand-id: "&cNenhum shop stand encontrado com o ID &f%id%"
+stand-type-not-supported: "&cO tipo de shop stand &f%type% &cnão é suportado na versão atual do Minecraft"
+
+#Reload Command
+configs-reloaded: "&aTodas as configs recarregadas."
+
+# Sellall command usages
+sellall-command-usages: "&aUso(s) do comando:"
+sellall-inventory-command-usage: "&7/sellall inventory &f- &7Vende todos os itens do seu inventário"
+sellall-hand-command-usage: "&7/sellall hand &8[amount] &f- &7Vende todos os itens na sua mão"
+sellall-item-command-usage: "&7/sellall <item> &8[amount] &f- &7Vende todos os itens no seu inventário que correspondem ao nome informado"
+
+# ShopGive command
+shop-item-given: "&aVocê recebeu &c%amount% &ax &6%material%"
+shop-item-received: "&aVocê recebeu &c%amount% &ax item de loja da seção &6%section% &ae índice do item &6%itemIndex%"
+
+#Balance Command
+check-balance: "&bVocê possui atualmente &c%amountofmoney%&b."
+check-balance-other-player: "&b%playername% &aatualmente possui &c%amountofmoney%&a."
+givemoney-complete: "&aGivemoney concluído."
+
+#Pay Command
+minimum-amount: "&cO valor mínimo para pagar um jogador é %minimumamount%."
+payment-complete: "&aPagamento concluído."
+player-received-money: "&aVocê recebeu &c%amounttogive% &ade &2%playername%&a!"
+need-player-and-amount: "&9Você precisa informar um jogador e um valor de dinheiro."
+need-amount: "&9Você precisa informar um valor de dinheiro."
+
+#Player breaks spawner
+default-spawner-name: "&9&lSpawner de %spawner-type% &r"
+spawner-broke-and-applied-to-inventory: "&aVocê minerou com sucesso um &9%spawner-type%&a; o item foi adicionado ao seu inventário."
+need-silk-touch: "&cVocê precisa usar uma picareta com Toque Suave (Silk Touch) para minerar isso!"
+
+#JoinMessage
+join-message: "&2Bem-vindo, seu saldo é &c%balance%!"
+
+#Level event
+level-event-message: "&2[Levels] &5Aqui está: &c%amount% &5foi adicionado ao seu saldo!"
+
+#Item error's
+displayname-null: "Não foi possível obter o displayname."
+item-name-null: "Não foi possível obter o nome do item."
+need-item-material: "Não é possível criar item com o material em branco."
+item-material-null: "Falha ao carregar o material do item como '%material%'; possivelmente não existe ou está escrito errado."
+item-enchantment-null: "Não foi possível obter o encantamento do item."
+need-item-enchantment: "Não é possível criar encantamento com valor em branco."
+item-enchantment-not-supported: "Este encantamento não é suportado nesta versão do Minecraft."
+enchantment-cannot-apply-to-item: "Para aplicar um encantamento ao item, o material precisa ser livro encantado ou uma ferramenta compatível com o encantamento."
+item-spawnertype-null: "Não foi possível obter o tipo de spawner do item."
+need-item-spawnertype: "Não é possível criar spawner com spawner-type vazio."
+material-needs-to-be-spawner: "Para aplicar um Spawner-Type(Entity-Type) ao item, o material precisa ser um spawner."
+item-potiontype-null: "Não foi possível obter o tipo de poção do item."
+need-item-potiontype: "Não é possível criar um potiontype com valor em branco."
+potiontype-not-supported: "Este tipo de poção não é suportado nesta versão do Minecraft."
+material-needs-to-be-potion: "Para aplicar um efeito de poção, o material precisa ser algum tipo de poção ou flecha com ponta (tipped arrow)."
+cant-bind-multiple-applyments: "Não é possível criar um item com múltiplas aplicações como encantamentos/spawner-types ou tipos de efeito de poção."
+item-error: "&cErro de Item; veja o console."
+material-not-supported: "Este material de item não é suportado nesta versão do Minecraft."
+item-needs-buy-and-sell-value: "Todo item na loja precisa ter valor de compra/venda."
+sell-value-wrong: "O valor de venda precisa ser um decimal ou um número."
+buy-value-wrong: "O valor de compra precisa ser um decimal ou um número."
+option-type-changed: "Altere a opção 'type' para a opção 'spawnertype' para criar um spawner na loja. O nome da opção foi alterado na versão 2.2 para maior clareza."
+option-meta-changed: "Altere a opção 'meta' para a opção 'displayname' para criar um item com nome de exibição na loja. O nome da opção foi alterado na versão 2.2 para maior clareza."
+cannot-display-shopsection: "Não é possível criar a seção de loja '%shopsection%' porque o slot do item precisa estar no intervalo de 0 - %maxInvSize%."
+need-recipe-material: "Não é possível criar o material da receita com valor em branco."
+cannot-get-recipe-material: "Não é possível criar o material da receita; verifique o nome do material quanto a erros de digitação e se ele existe."
+recipe-material-not-supported: "O material de receita informado não é suportado nesta versão do Minecraft."
+material-needs-to-be-book: "Para aplicar uma receita ao item, o material precisa ser um Knowledge Book."
+need-skullowner: "Não é possível criar PlayerHead sem um jogador especificado (Skull Owner)."
+material-needs-to-be-skull: "Para aplicar uma textura de cabeça (Skull Owner) ao item, o material precisa ser uma Player Head."
+material-needs-to-be-leather-armor: "Para aplicar uma cor a uma peça de armadura, o material precisa ser armadura de couro."
+invalid-item-requirement-type: "Tipo de requisito de item inválido para '%type%'"
+invalid-item-requirement: "Requisito de item inválido para %requirement%"
+invalid-spawn-potential-weight: "Peso inválido para spawn potential; deve ser um número"
+invalid-spawn-potential: "Entrada inválida para spawn potential '%spawn_potential%'; o formato deve ser '<entityType>:<weight>'"
+invalid-material-for-item-option: "O material do item deve ser %material% para definir %item-option%"
+invalid-ominous-bottle-strength: "Força inválida para ominous bottle; deve estar entre 1 e 5, mas recebeu %strength%"
+error-setting-item-option: "Falha ao definir %item-option% para o item com erro:"
+
+#Item path
+items-path-in-shops-config: "Caminho do item em shops.yml: %location%"
+items-path-in-sections-config: "Caminho do item em sections.yml: %location%"
+items-path-in-config: "Caminho do item em config.yml: %location%"
+
+#Compatibility
+mineablespawners-compatibility-enabled: "Provedor de spawner definido para MineableSpawners na config"
+mineablespawners-found: "MineableSpawners encontrado, integrando..."
+mineablespawners-not-found: "MineableSpawners não foi encontrado"
+could-not-intergrate-with-mineablespawners: "Não foi possível integrar com MineableSpawners"
+using-mineablespawners-spawners: "Usando MineableSpawners como provedor de spawner..."
+rosestacker-compatibility-enabled: "Provedor de spawner definido para RoseStacker na config"
+rosestacker-not-found: "RoseStacker não foi encontrado"
+could-not-integrate-with-rosestacker: "Não foi possível integrar com RoseStacker"
+rosestacker-found: "RoseStacker encontrado, integrando..."
+using-rosestacker-spawners: "Usando RoseStacker como provedor de spawner..."
+ultimatestacker-compatibility-enabled: "Provedor de spawner definido para UltimateStacker na config"
+ultimatestacker-not-found: "UltimateStacker não foi encontrado"
+could-not-integrate-with-ultimatestacker: "Não foi possível integrar com UltimateStacker"
+ultimatestacker-found: "UltimateStacker encontrado, integrando..."
+using-ultimatestacker-spawners: "Usando UltimateStacker como provedor de spawner..."
+wildstacker-compatibility-enabled: "Provedor de spawner definido para WildStacker na config"
+wildstacker-not-found: "WildStacker não foi encontrado"
+wildstacker-found: "WildStacker encontrado, integrando..."
+could-not-integrate-with-wildstacker: "Não foi possível integrar com WildStacker"
+using-wildstacker-spawners: "Usando WildStacker como provedor de spawner."
+spawner-compatibility-enabled: "Provedor de spawner definido para %provider% na config"
+spawner-provider-not-found: "%provider% não foi encontrado"
+spawner-provider-found: "%provider% encontrado, integrando..."
+failed-spawner-provider-integration: "Não foi possível integrar com %provider%"
+using-external-spawners: "Usando %provider% como provedor de spawner."
+
+silkspawners-compatibility-enabled: "Compatibilidade com SilkSpawners foi habilitada na config."
+silkspawners-not-found: "SilkSpawners não foi encontrado"
+silkspawners-found: "SilkSpawners encontrado, integrando..."
+could-not-integrate-with-silkspawners: "Não foi possível integrar com SilkSpawners."
+using-silkspawners-spawners: "Usando spawners do SilkSpawners..."
+using-default-spawners: "Usando spawners padrão do plugin..."
+
+#Error's
+cannot-find-discounted-section: "Não é possível adicionar descontos para a seção '%section%'; a seção da loja está desativada ou não foi encontrada."
+cannot-find-discounted-group: "Não é possível adicionar descontos para o grupo de permissão '%permsGroup%'; verifique a grafia e se ele existe no seu plugin de permissões."
+disabling-plugin: "Desativando o plugin..."
+not-spawn-able: "Este tipo de entidade não pode ser spawnado. '%spawnertype%'"
+real-player: "Você precisa ser um jogador real para usar esse comando."
+player-not-online: "&cEsse jogador não existe ou não está online."
+cannot-sell-air: "&cVocê não pode vender ar..."
+no-permissions: "&cVocê não tem permissões para isso."
+no-permissions-to-open-shop: "&cVocê não tem a permissão necessária para abrir esta seção da loja."
+cannot-do-that: "&4Você não pode fazer isso!!"
+more-space-needed: "&cPor favor, libere mais espaço no seu inventário e tente novamente."
+could-not-store-all-items: "&c%amount% item(s) não puderam ser adicionados ao seu inventário porque ele está cheio."
+not-enough-space-inside-inventory: "&4Você não tem espaço suficiente no inventário; jogando os itens restantes no chão."
+insufficient-money: "&cVocê não tem %currency% suficiente."
+canceling-transaction-no-space: "&4Você não tem espaço suficiente no inventário; cancelando a transação.\ 
+
+  Por favor, libere mais espaço no inventário e tente novamente."
+no-items-in-section: "Não é possível abrir a seção da loja %shopsection% porque nenhum item foi encontrado!"
+no-item-found: "&cNenhum item encontrado que possa ser vendido."
+not-enough-items-to-sell: "&cÉ necessário vender pelo menos %min-sell%; você possui apenas %quantity%"
+item-null: "&cO item não existe."
+item-cannot-be-sold-to-server: "&cO item (%material%) não pode ser vendido ao servidor porque há um erro com o item na loja. Por favor, reporte este problema aos administradores ou ao dono do servidor."
+could-not-save-config: "Não foi possível salvar a configuração %fileName%."
+rgb-color-formatted-wrong: "Cores RGB devem estar no formato: '0x000000', '#000000' ou '000000' em %path%."
+no-shop-found: "&cNão foi possível encontrar uma seção de loja com esse nome"
+no-valid-amount: "&cQuantidade inválida"
+restart-plugin: "Não é possível abrir a seção da loja; tente reiniciar o plugin ou entre no servidor do Discord para suporte."
+could-not-check-for-updates: "&cNão foi possível verificar atualizações."
+cannot-update-config: "&cNão é possível atualizar o arquivo config.yml."
+cannot-read-config: "Não é possível ler a configuração %fileName% porque ela está mal configurada; use um validador Yaml online com o erro abaixo para descobrir a causa do problema e solucioná-lo. Se não conseguir encontrar a causa, entre no nosso servidor de suporte do Discord disponível na página do plugin EconomyShopGUI."
+error-occured-while-reloading: "&4Um erro ocorreu ao recarregar o plugin; verifique no console por qualquer mensagem de erro."
+could-not-get-the-limitedstock-mode: "Não foi possível obter o modo limitedstock: %limitedStockMode%"
+error-occurred-while-connecting-to-database: "Um erro ocorreu ao tentar conectar ao banco de dados"
+invalid-item-type: "&cTipo de item inválido para %type%"
+cannot-enter-shop-banned-gamemode: "&cVocê não pode comprar/vender itens enquanto estiver em %gamemode%."
+cannot-use-command-banned-gamemode: "&cVocê não pode usar este comando enquanto estiver em %gamemode%."
+cannot-load-season-modifier: "Falha ao carregar o modificador de estação para '%path%' porque nenhuma seção/item carregado foi encontrado."
+invalid-season-modifier: "Modificador inválido em '%path%'; precisa ser um percentual válido entre -100 e 100 como '-75%', '+25%', ... Recebido %current%"
+cannot-load-economy-provider: "Falha ao carregar o provedor de economia para a loja '%shop%' com o motivo '%reason%'; usando o padrão..."
+cannot-find-economy-provider: "Não foi possível encontrar um provedor de economia para a loja '%shop%' como '%type%'; usando o padrão..."
+cannot-find-default-economy-provider: "Não foi possível encontrar o tipo de economia especificado no config.yml como '%economy%'; tentando encontrar automaticamente um tipo de economia suportado..."
+cannot-load-default-economy-provider: "Falha ao carregar o provedor de economia padrão com o motivo '%reason%'; tentando encontrar automaticamente um provedor de economia suportado"
+removed-shop-stand: "&cStand da loja removido do local %location%"
+shop-stand-load-failed: "Falha ao carregar o stand da loja com ID '%id%': %reason%"
+shop-stand-unload-failed: "Falha ao descarregar o stand da loja com ID '%id%': %reason%"
+shop-stand-inside-unloaded-chunk: "O stand da loja está em um chunk não carregado"
+item-from-shop-stand-not-found: "Não é possível encontrar o item da loja a partir do stand '%item%'"
+block-from-shop-stand-not-found: "O tipo de bloco do stand no local %location% não corresponde ao tipo de bloco em cache de '%type%'"
+invalid-shop-stand-world: "Local do stand inválido para o mundo '%world%'; não existe para o stand com ID %id%"
+invalid-shop-stand-format: "Local inválido com x%pos_x%, y%pos_y%, z%pos_z% para o stand com ID %id%"
+error-saving-shop-stands: "Falha ao salvar stands da loja em 'stands.json'"
+error-loading-shop-stands: "Falha ao carregar stands da loja de 'stands.json'"
+error-loading-shop-stand: "Falha ao carregar o stand da loja ('%stand%') do stands.json com o motivo: %reason%"
+error-creating-stands-storage: "Falha ao criar o arquivo de armazenamento 'stands.json'"
+invalid-stand-type: "Tipo de shop stand inválido para %type%"
+shop-stands-module-not-enabled: "Módulo de stands da loja não habilitado"
+cannot-open-shop-stand: "Falha ao abrir o stand da loja para o jogador %player%: ShopItem(%item%) não existe!"
+invalid-click-type: "Tipo de clique inválido para %click-type% com entrada %click-mapping%; usando o padrão..."
+invalid-click-action: "Ação de clique inválida para %click-action% com entrada %click-mapping%; usando o padrão..."

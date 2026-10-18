@@ -1,0 +1,27 @@
+on right click:
+    if player's tool's name is "&r&lMinigun":
+        cancel event
+        loop 5 times:
+            loop 10 times:
+                shoot a spectral arrow from player at speed 3
+                set {_bullet} to last shot projectile
+                set metadata value "minigun_bullet" of {_bullet} to true
+                set {_x} to random number between -2.5 and 2.5
+                set {_y} to random number between -2.5 and 2.5
+                set {_z} to random number between -2.5 and 2.5
+                set {_targetLoc} to location of player
+                set yaw of {_targetLoc} to yaw of player's location
+                set pitch of {_targetLoc} to pitch of player's location
+                add {_x} to x-coordinate of {_targetLoc}
+                add {_y} to y-coordinate of {_targetLoc}
+                add {_z} to z-coordinate of {_targetLoc}
+                teleport {_bullet} to {_targetLoc}
+                push {_bullet} in direction of player at speed 3
+            wait 1 tick
+            play sound "entity.zombie.attack_iron_door" with volume 0.2 and pitch 15 at player
+
+on shoot:
+    if metadata value "minigun_bullet" of projectile is true:
+        wait 20 ticks
+        if projectile is alive:
+            delete projectile

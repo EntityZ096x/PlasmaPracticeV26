@@ -1,0 +1,65 @@
+[2026/10/11 14:32:19 INFO]:           __             _       
+[2026/10/11 14:32:19 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/10/11 14:32:19 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/10/11 14:32:19 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/10/11 14:32:19 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/10/11 14:32:19 INFO]:                   |___/            
+[2026/10/11 14:32:19 INFO]:  By: www.nickuc.com - V 2.0.24
+[2026/10/11 14:32:19 INFO]:  
+[2026/10/11 14:32:20 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 14:32:20 DEBUG]: Messages were loaded in 113 ms (single file).
+[2026/10/11 14:32:20 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 14:32:20 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 14:32:20 DEBUG]: Settings were loaded in 418 ms.
+[2026/10/11 14:32:20 DEBUG]: Loading database...
+[2026/10/11 14:32:20 DEBUG]: Starting logger filter...
+java.lang.IllegalStateException: Player session not set for EntityZ096x! online = true
+	at com.nickuc.login.γΠζΣΣΩμΛ.b(:154)
+	at com.nickuc.login.βζερηΣολσαμ.a(:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.nickuc.login.βζερηΣολσαμ.b(:62)
+	at com.nickuc.login.ΓΔπλδγιΦζΓΛδν.i(:224)
+	at com.nickuc.login.ψτλνθξβΓκα.i(:71)
+	at com.nickuc.login.bukkit.nLoginBukkit.i(:83)
+	at com.nickuc.login.ΠλΛουξπΦΨχ.i(:57)
+	at com.nickuc.login.ΠΨΓηεΣΨΠζτβΔκΣΣ.au(:304)
+	at com.nickuc.login.ψτλνθξβΓκα.enable(:49)
+	at nLogin.jar//com.nickuc.login.loader.platform.BukkitLoader.onEnable(BukkitLoader.java:32)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590)
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1046)
+	at org.bukkit.Bukkit.reload(Bukkit.java:1030)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:470)
+	at net.minecraft.commands.Commands.performCommand(Commands.java:378)
+	at net.minecraft.commands.Commands.performCommand(Commands.java:366)
+	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:357)
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:574)
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:530)
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1838)
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1621)
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404)
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1679)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1349)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[2026/10/11 14:32:21 ERROR]: 
+[2026/10/11 14:32:21 ERROR]: A critical error was detected and nLogin could not be started.
+[2026/10/11 14:32:21 ERROR]: For safety, the server will shut down in the next 30 seconds.
+[2026/10/11 14:32:21 ERROR]: 
+[2026/10/11 14:32:21 ERROR]: Please contact our team:
+[2026/10/11 14:32:21 ERROR]:  Discord: www.nickuc.com/discord
+[2026/10/11 14:32:21 ERROR]:  Email: support@nickuc.com
+[2026/10/11 14:32:21 ERROR]: 
+[2026/10/11 14:33:02 INFO]: Successful plugin core shutdown (took 0.00s)

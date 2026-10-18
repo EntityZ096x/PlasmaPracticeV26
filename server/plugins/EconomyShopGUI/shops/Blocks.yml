@@ -1,0 +1,21 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: OAK_WOOD
+        displayname: <#964B00>&lWoods
+        buy: -1.0
+        sell: -1.0
+        section: wood
+      '2':
+        material: GRASS_BLOCK
+        displayname: <#008800>&lNatural
+        buy: -1.0
+        sell: -1.0
+        section: natural
+      '3':
+        material: STONE
+        displayname: '&r&8&lStones'
+        buy: -1.0
+        sell: -1.0
+        section: stones

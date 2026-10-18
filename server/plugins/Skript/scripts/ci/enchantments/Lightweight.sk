@@ -1,0 +1,18 @@
+on damage:
+    attacker is not victim
+    if attacker's tool is a mace:
+        if attacker's tool's lore contains "&r&bLightweight":
+            set gliding of attacker to false
+            if fall distance of attacker < 2:
+                set fall distance of attacker to 2
+            set damage to damage * 0.5
+            apply speed to attacker for 5 seconds
+            if attacker's tool is enchanted with wind burst:
+                wait 1 tick
+                set {_v} to velocity of attacker
+                set velocity of attacker to vector(x component of {_v} * 2, y component of {_v} * 1.5, z component of {_v} * 2)
+
+on damage:
+    if damage cause is fall:
+        if victim's tool's lore contains "&r&bLightweight":
+            set damage to damage * 0.5

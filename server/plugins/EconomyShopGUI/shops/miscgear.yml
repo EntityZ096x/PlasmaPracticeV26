@@ -1,0 +1,91 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: NETHERITE_PICKAXE
+        buy: 50000.0
+        sell: 12500.0
+        slot: 13
+
+      '2':
+        material: NETHERITE_SHOVEL
+        buy: 40000.0
+        sell: 10000.0
+        slot: 14
+
+      '3':
+        material: NETHERITE_AXE
+        buy: 50000.0
+        sell: 12500.0
+        slot: 15
+
+      '4':
+        material: BUCKET
+        buy: 250.0
+        sell: 62.5
+
+      '5':
+        material: WATER_BUCKET
+        buy: 500.0
+        sell: 125.0
+
+      '6':
+        material: LAVA_BUCKET
+        buy: 750.0
+        sell: 187.5
+
+      '7':
+        material: MILK_BUCKET
+        buy: 250.0
+        sell: 62.5
+
+      '8':
+        material: FISHING_ROD
+        buy: 250.0
+        sell: 62.5
+
+      '9':
+        material: FLINT_AND_STEEL
+        buy: 250.0
+        sell: 62.5
+
+      '10':
+        material: SHEARS
+        buy: 250.0
+        sell: 62.5
+
+      '11':
+        material: COMPASS
+        buy: 500.0
+        sell: 125.0
+
+      '12':
+        material: RECOVERY_COMPASS
+        buy: 10000.0
+        sell: 2500.0
+
+      '13':
+        material: CLOCK
+        buy: 500.0
+        sell: 125.0
+
+      '14':
+        material: SPYGLASS
+        buy: 750.0
+        sell: 187.5
+
+      '15':
+        duration: 3
+        material: FIREWORK_ROCKET
+        buy: 250.0
+        sell: 62.5
+
+      '16':
+        material: WIND_CHARGE
+        buy: 500.0
+        sell: 125.0
+
+      '17':
+        material: ENDER_PEARL
+        buy: 500.0
+        sell: 125.0

@@ -1,0 +1,56 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: COAL
+        buy: 100.0
+        sell: 25.0
+        slot: 13
+
+      '2':
+        material: COPPER_INGOT
+        buy: 150.0
+        sell: 37.5
+        slot: 14
+
+      '3':
+        material: GOLD_INGOT
+        buy: 750.0
+        sell: 187.5
+        slot: 15
+
+      '4':
+        material: LAPIS_LAZULI
+        buy: 250.0
+        sell: 62.5
+        slot: 22
+
+      '5':
+        material: IRON_INGOT
+        buy: 300.0
+        sell: 75.0
+        slot: 33
+
+      '6':
+        material: AMETHYST_SHARD
+        buy: 200.0
+        sell: 50.0
+        slot: 24
+
+      '7':
+        material: EMERALD
+        buy: 1500.0
+        sell: 375.0
+        slot: 31
+
+      '8':
+        material: DIAMOND
+        buy: 5000.0
+        sell: 1250.0
+        slot: 32
+
+      '9':
+        material: NETHERITE_INGOT
+        buy: 35000.0
+        sell: 8750.0
+        slot: 23

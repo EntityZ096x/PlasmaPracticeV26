@@ -1,0 +1,6 @@
+on death:
+    if victim is not a player:
+        attacker is player
+        chance of 0.1%:
+            drop spawn egg of victim at location of victim
+            send "&bYou found a rare %spawn egg of victim% drop!" to attacker

@@ -1,0 +1,4 @@
+command /leave:
+    aliases: /quit
+    trigger:
+        kick the player due to "You've left the server!"

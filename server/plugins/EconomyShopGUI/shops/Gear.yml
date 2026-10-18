@@ -1,0 +1,21 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: NETHERITE_CHESTPLATE
+        displayname: <#6B4F70>&lArmor
+        buy: -1.0
+        sell: -1.0
+        section: armor
+      '2':
+        material: NETHERITE_SWORD
+        displayname: <#6B4F70>&lPvP
+        buy: -1.0
+        sell: -1.0
+        section: pvp
+      '3':
+        material: NETHERITE_PICKAXE
+        displayname: <#6B4F70>&lMisc
+        buy: -1.0
+        sell: -1.0
+        section: miscgear

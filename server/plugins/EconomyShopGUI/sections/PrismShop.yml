@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: END_CRYSTAL
+  displayname: <gradient:#9E00FF:#FF00B3>&lPrism Shop</gradient>
+slot: 23

@@ -1,0 +1,49 @@
+[2026/10/14 12:26:03 INFO]:           __             _       
+[2026/10/14 12:26:03 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/10/14 12:26:03 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/10/14 12:26:03 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/10/14 12:26:03 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/10/14 12:26:03 INFO]:                   |___/            
+[2026/10/14 12:26:03 INFO]:  By: www.nickuc.com - V 2.0.24
+[2026/10/14 12:26:03 INFO]:  
+[2026/10/14 12:26:03 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/14 12:26:03 DEBUG]: Messages were loaded in 147 ms (single file).
+[2026/10/14 12:26:03 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/14 12:26:03 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/14 12:26:03 DEBUG]: Settings were loaded in 232 ms.
+[2026/10/14 12:26:03 DEBUG]: Loading database...
+[2026/10/14 12:26:04 DEBUG]: Starting logger filter...
+[2026/10/14 12:26:04 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/10/14 12:28:32 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-14 12:28:32.082, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/14 12:28:32 INFO]: The user EntityZ096x has successfully logged in.
+[2026/10/14 12:42:13 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'JustDan12', `unique_id` = 095db01195a83a068fb1534e8c441c8c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b1/haN.FRQnC5qFNtkOddeLcJ4A.NC6o7Lrx4CHH/oRMgKrKORB6O', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 17:53:54.995, `last_seen` = 2026-10-14 12:42:13.525, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/14 12:42:13 INFO]: The user JustDan12 has successfully logged in.
+java.lang.RuntimeException: Unable to save plugins/nCore/data/nlogin.data file
+	at com.nickuc.login.τπχωρμσκμΓασ.af(:192)
+	at com.nickuc.login.ΣΣπδβωΦδιςδςψΣς.a(:187)
+	at com.nickuc.login.σνψσΣΔζυδ.d(:273)
+	at com.nickuc.login.σνψσΣΔζυδ.am(:232)
+	at com.nickuc.login.ζΠΨθμδμθγκΣηω.a(:41)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:216)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.implWrite(FileChannelImpl.java:355)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:335)
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:123)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:203)
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184)
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193)
+	at com.nickuc.login.τπχω[2026/10/14 12:58:03 INFO]: Connection re-established with remote server
+[2026/10/14 13:21:53 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-14 13:21:53.732, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/14 13:22:24 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-14 13:22:24.31, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/14 13:22:24 INFO]: The user EntityZ096x has successfully logged in.
+[2026/10/14 13:58:24 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'JustDan12', `unique_id` = 095db01195a83a068fb1534e8c441c8c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b1/haN.FRQnC5qFNtkOddeLcJ4A.NC6o7Lrx4CHH/oRMgKrKORB6O', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 17:53:54.995, `last_seen` = 2026-10-14 13:58:24.726, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)

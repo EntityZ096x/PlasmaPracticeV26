@@ -1,0 +1,167 @@
+on tab complete:
+    if event-string starts with "/team":
+        if tab arg-1 is not set:
+            set tab completions for position 1 to "create", "delete", "invite", "accept", "leave", "members"
+
+        if tab arg-1 is "invite":
+            set tab completions for position 2 to all players
+
+command /team [<text>] [<text>]:
+    trigger:
+        set {_pre} to "<#ff0000>&lTeam &r&8»&r "
+
+        # /team create <name>
+        if arg-1 is "create":
+            if arg-2 is not set:
+                send "%{_pre}%&cUsage: /team create <name>"
+                stop
+
+            if {team.%player%} is set:
+                send "%{_pre}%&cYou are already in a team!"
+                stop
+
+            if {teams::*} contains arg-2:
+                send "%{_pre}%&cThat team already exists!"
+                stop
+
+            add arg-2 to {teams::*}
+            set {team::%arg-2%::owner} to player
+            add player to {team::%arg-2%::members::*}
+            set {team.%player%} to arg-2
+
+            send "%{_pre}%&aTeam &f%arg-2% &ahas been created!"
+            stop
+
+        # /team delete
+        if arg-1 is "delete":
+            if {team.%player%} is not set:
+                send "%{_pre}%&cYou aren't in a team!"
+                stop
+
+            set {_team} to {team.%player%}
+
+            if {team::%{_team}%::owner} is not player:
+                send "%{_pre}%&cYou don't own this team!"
+                stop
+
+            loop {team::%{_team}%::members::*}:
+                delete {team.%loop-value%}
+                delete {teaminvite.%loop-value%}
+
+            remove {_team} from {teams::*}
+            delete {team::%{_team}%}
+            delete {team.%player%}
+
+            send "%{_pre}%&aTeam &f%{_team}% &ahas been deleted!"
+            stop
+
+        # /team invite <player>
+        if arg-1 is "invite":
+            if arg-2 is not set:
+                send "%{_pre}%&cUsage: /team invite <player>"
+                stop
+
+            if {team.%player%} is not set:
+                send "%{_pre}%&cYou aren't in a team!"
+                stop
+
+            set {_team} to {team.%player%}
+
+            if {team::%{_team}%::owner} is not player:
+                send "%{_pre}%&cOnly the team owner can invite players!"
+                stop
+
+            set {_target} to arg-2 parsed as player
+
+            if {_target} is not set:
+                send "%{_pre}%&cThat player isn't online!"
+                stop
+
+            if {_target} is player:
+                send "%{_pre}%&cYou can't invite yourself!"
+                stop
+
+            if {team.%{_target}%} is set:
+                send "%{_pre}%&cThat player is already in a team!"
+                stop
+
+            if {teaminvite.%{_target}%} is set:
+                send "%{_pre}%&cThat player already has a team invitation!"
+                stop
+
+            set {teaminvite.%{_target}%} to {_team}
+
+            send "%{_pre}%&aYou invited &f%{_target}% &ato team &f%{_team}%&a!"
+            send "%{_pre}%&f%player% &ahas invited you to join team &f%{_team}%&a!" to {_target}
+            send "%{_pre}%&7Use &f/team accept &7to join." to {_target}
+            stop
+
+        # /team accept
+        if arg-1 is "accept":
+            if {team.%player%} is set:
+                send "%{_pre}%&cYou are already in a team!"
+                stop
+
+            if {teaminvite.%player%} is not set:
+                send "%{_pre}%&cYou don't have a team invitation!"
+                stop
+
+            set {_team} to {teaminvite.%player%}
+
+            if {teams::*} does not contain {_team}:
+                delete {teaminvite.%player%}
+                send "%{_pre}%&cThat team no longer exists!"
+                stop
+
+            add player to {team::%{_team}%::members::*}
+            set {team.%player%} to {_team}
+            delete {teaminvite.%player%}
+
+            send "%{_pre}%&aYou joined team &f%{_team}%&a!"
+
+            loop {team::%{_team}%::members::*}:
+                if loop-value is not player:
+                    send "%{_pre}%&f%player% &ahas joined the team!" to loop-value
+            stop
+
+        # /team leave
+        if arg-1 is "leave":
+            if {team.%player%} is not set:
+                send "%{_pre}%&cYou aren't in a team!"
+                stop
+
+            set {_team} to {team.%player%}
+
+            if {team::%{_team}%::owner} is player:
+                send "%{_pre}%&cYou own this team! Use &f/team delete &cto delete it."
+                stop
+
+            remove player from {team::%{_team}%::members::*}
+            delete {team.%player%}
+
+            send "%{_pre}%&aYou left team &f%{_team}%&a!"
+
+            loop {team::%{_team}%::members::*}:
+                send "%{_pre}%&f%player% &chas left the team." to loop-value
+            stop
+
+        if arg-1 is "members":
+            if {team.%player%} is not set:
+                send "%{_pre}%&cYou aren't in a team!"
+                stop
+
+            set {_team} to {team.%player%}
+            
+            send {team::%{_team}%::members::*}
+
+            send "%{_pre}%&7Members of team &f%{_team}%&7:"
+
+            loop {team::%{_team}%::members::*}:
+                send "&7- &f%loop-value%"
+
+            stop
+
+        # /team
+        send "%{_pre}%&7Current teams:"
+        loop {teams::*}:
+            send "&7- &f%loop-value%"

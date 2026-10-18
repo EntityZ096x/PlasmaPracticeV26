@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: REDSTONE
+  displayname: '&r<#ff0000>&lRedstone'
+slot: 35

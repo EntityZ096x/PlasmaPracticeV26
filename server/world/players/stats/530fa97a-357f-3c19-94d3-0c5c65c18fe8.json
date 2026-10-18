@@ -1,0 +1,49 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "minecraft:wind_charge": 42
+    },
+    "minecraft:used": {
+      "minecraft:elytra": 11,
+      "minecraft:wind_charge": 63,
+      "minecraft:splash_potion": 1,
+      "minecraft:netherite_chestplate": 10,
+      "minecraft:totem_of_undying": 1,
+      "minecraft:mace": 2,
+      "minecraft:firework_rocket": 9
+    },
+    "minecraft:picked_up": {
+      "minecraft:wind_charge": 42
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 16722,
+      "minecraft:walk_one_cm": 7216,
+      "minecraft:leave_game": 3,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 2221,
+      "minecraft:damage_taken": 244,
+      "minecraft:damage_dealt": 80,
+      "minecraft:play_time": 17338,
+      "minecraft:jump": 142,
+      "minecraft:time_since_death": 16722,
+      "minecraft:aviate_one_cm": 32493,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 6027,
+      "minecraft:fall_one_cm": 13859,
+      "minecraft:swim_one_cm": 9992,
+      "minecraft:total_world_time": 17338,
+      "minecraft:fly_one_cm": 22432,
+      "minecraft:walk_on_water_one_cm": 886,
+      "minecraft:crouch_one_cm": 32,
+      "minecraft:sneak_time": 138,
+      "minecraft:deaths": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1
+    },
+    "minecraft:killed": {
+      "minecraft:sheep": 1
+    }
+  },
+  "DataVersion": 4903
+}

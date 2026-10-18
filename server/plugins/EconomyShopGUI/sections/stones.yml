@@ -1,0 +1,18 @@
+enable: true
+title: '       &8<---- &r&8&lStones &8---->'
+slot: 11
+hidden: true
+sub-section: true
+item:
+  displayname: '&r&8&lStones'
+  material: STONE
+fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: ' '
+item-layout:
+  - '0 0 0 0 0 0 0 0 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 1 1 1 1 1 1 1 0'
+  - '0 0 0 0 0 0 0 0 0'

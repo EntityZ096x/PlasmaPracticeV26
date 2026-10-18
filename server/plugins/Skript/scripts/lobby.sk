@@ -1,0 +1,15 @@
+on damage:
+    if world is "lobby":
+        if damage cause is fall:
+            cancel event
+
+on any click:
+    if world is "lobby":
+        if {debug.%player%} is not "enabled":
+            cancel event
+
+on block break:
+    if world is "KitPvP":
+        if {debug.%player%} is not "enabled":
+            if y position of block > 149:
+                cancel event

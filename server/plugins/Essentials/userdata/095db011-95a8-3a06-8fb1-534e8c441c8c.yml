@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: true
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1790338909484
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1792272536100
+  login: 1792272076718
+money: '0'
+last-account-name: JustDan12
+logoutlocation:
+  world: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
+  world-name: KitPvP
+  x: 93.44136784841257
+  y: 63.19209873076863
+  z: -62.686693188202284
+  yaw: -153.8907470703125
+  pitch: -36.766849517822266
+lastlocation:
+  world: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
+  world-name: KitPvP
+  x: 1.3628457731212746
+  y: 149.9457173749021
+  z: -2.1595646710225695
+  yaw: 105.0716552734375
+  pitch: 2.904374122619629

@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1790458271966
+  login: 1790458157402
+money: '0'
+last-account-name: Goji2000
+lastlocation:
+  world: f70b1dbe-264f-4011-9770-0a60de88db6d
+  world-name: Lobby
+  x: 0.3252602780270408
+  y: 64.0
+  z: 0.4103044806154579
+  yaw: 53.55000686645508
+  pitch: 89.25000762939453
+logoutlocation:
+  world: f70b1dbe-264f-4011-9770-0a60de88db6d
+  world-name: Lobby
+  x: 0.5
+  y: 64.0
+  z: 0.5
+  yaw: 4.050000190734863
+  pitch: -5.100000858306885
+past-usernames:
+- goji2000

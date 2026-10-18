@@ -1,0 +1,26 @@
+# ╔══════════════════════════════════════════════════════════════╗
+# ║                    CS CINEMATIC FILE                          ║
+# ║                                                               ║
+# ║  You can edit this file manually!                             ║
+# ║  After editing, use: /cs load tss.explosion_1           
+# ║                                                               ║
+# ║  Duration units: seconds                                      ║
+# ║  Speed units: blocks per second                               ║
+# ║  Interpolation: LINEAR, EASE_IN, EASE_OUT, EASE_IN_OUT,      ║
+# ║                 SMOOTH, BOUNCE, ELASTIC, BACK                 ║
+# ╚══════════════════════════════════════════════════════════════╝
+
+info:
+  name: tss.explosion_1
+  author: Unknown
+  description: ''
+  created: '2026-10-16 12:49:59'
+  modified: '2026-10-16 12:49:59'
+  total-duration: 0.0 seconds (00:00)
+  position-count: 0
+settings:
+  looping: false
+  comedy-mode: false
+  default-speed: 2.0
+  default-duration: 2.0
+  default-interpolation: EASE_IN_OUT

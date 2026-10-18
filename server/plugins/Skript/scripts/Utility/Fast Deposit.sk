@@ -1,0 +1,52 @@
+on left click on chest:
+    if player is not sneaking:
+        stop
+    if player's tool is air:
+        stop
+
+    set {_inv} to inventory of event-block
+
+    set {_hasSpace} to false
+
+    loop 54 times:
+        if slot loop-number - 1 of {_inv} is air:
+            set {_hasSpace} to true
+
+    if {_hasSpace} is false:
+        send "&cThis container is full!" to player
+        stop
+    else:
+        if player's tool's name is set:
+            send "&aSuccesfully stored %player's tool's name% &r&ain the chest!" to player
+        else:
+            send "&aSuccesfully stored %player's tool% &r&ain the chest!" to player
+
+    add player's tool to {_inv}
+    set player's tool to air
+
+on left click on ender chest:
+    if player is not sneaking:
+        stop
+    if player's tool is air:
+        stop
+
+    set {_inv} to player's enderchest
+
+    set {_hasSpace} to false
+
+    loop 54 times:
+        if slot loop-number - 1 of {_inv} is air:
+            set {_hasSpace} to true
+
+    if {_hasSpace} is false:
+        send "&cYour enderchest is full!" to player
+        stop
+    else:
+        if player's tool's name is set:
+            send "&aSuccesfully stored %player's tool's name% &r&ain you ender chest!" to player
+        else:
+            send "&aSuccesfully stored %player's tool% &r&ain you ender chest!" to player
+
+    add player's tool to {_inv}
+    set player's tool to air
+    

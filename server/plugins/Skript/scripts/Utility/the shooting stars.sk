@@ -1,0 +1,53 @@
+import:
+    net.minecraft.network.protocol.game.ClientboundExplodePacket
+    net.minecraft.world.phys.Vec3
+    java.util.Collections
+
+command /tss.camshake [<player>] [<number>]:
+    permission: tss.admin
+    permission message: &cYou do not have permission to use this command.
+    description: Flawless camera rattle using ghost explosion packets.
+    trigger:
+        if argument 1 is not set:
+            send "&cUsage: /tss.camshake <player> <duration in seconds>" to player
+            stop
+            
+        set {_duration} to argument 2
+        if {_duration} is not set:
+            set {_duration} to 1
+            
+        set {_target} to argument 1
+        send "&aApplying flawless network shake to &e%{_target}%&a!" to player
+        
+        set {_total_ticks} to {_duration} * 20
+        
+        loop {_total_ticks} times:
+            if {_target} is not online:
+                stop
+                
+            # 1. Grab player's coordinate vectors
+            set {_loc} to ({_target}).getLocation()
+            set {_x} to ({_loc}).getX()
+            set {_y} to ({_loc}).getY()
+            set {_z} to ({_loc}).getZ()
+            
+            # 2. Generate small random rattling numbers for the blast vectors
+            set {_rx} to a random number between -0.4 and 0.4
+            set {_ry} to a random number between -0.3 and 0.3
+            set {_rz} to a random number between -0.4 and 0.4
+            
+            # 3. Create a zero-push vector object so the player doesn't fly away
+            set {_knockback} to new Vec3({_rx}, {_ry}, {_rz})
+            
+            # 4. Construct a ghost explosion packet at the player's exact feet.
+            # Arguments: X, Y, Z, power, blocks exploded (empty list), knockback vector
+            # Setting block list to empty ensures no blocks break and no sound plays.
+            set {_emptyList} to Collections.emptyList()
+            set {_packet} to new ClientboundExplodePacket({_x}, {_y}, {_z}, 1.0, {_emptyList}, {_knockback})
+            
+            # 5. Inject the packet straight into the client pipeline
+            set {_handle} to ({_target}).getHandle()
+            set {_connection} to ({_handle}).connection
+            ({_connection}).send({_packet})
+            
+            wait 1 tick

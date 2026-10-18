@@ -1,0 +1,50 @@
+import:
+    org.bukkit.event.player.PlayerItemHeldEvent
+
+on PlayerItemHeldEvent with priority highest:
+    set {_player} to event.getPlayer()
+    set {lastitem::%uuid of {_player}%} to event.getPreviousSlot()
+    wait 2 ticks
+    delete {lastitem::%uuid of {_player}%}
+
+on left click:
+    player's tool's enchantments contains lunge
+    player is not in water
+    player's gliding is false
+    player is not riding
+    player's food level > 3
+
+    set {_m} to lunge level of player's tool
+    if {protocol::%player%} >= 774:
+        if {lastitem::%uuid of player%} is set:
+            lunge(player, {_m})
+    else:
+        if player's gamemode is not creative:
+            if {lastitem::%uuid of player%} is not set:
+                if attack cooldown of player is not 1:
+                    stop
+                lunge(player, {_m})
+                loop {_m} times:
+                    if player's saturation > 0:
+                        remove 1 from player's saturation
+                    else:
+                        remove 0.5 from player's food level
+                if {_m} < 5:
+                    wait 2 tick
+
+            else:
+                lunge(player, {_m})
+        else:
+            lunge(player, {_m})
+
+function lunge(p: player, m: number):
+    set {_v} to velocity of {_p}
+    set {_y} to y component of {_v}
+
+    push {_p} forward at speed {_m} * 0.458
+
+    set {_v} to velocity of {_p}
+    set y component of {_v} to {_y}
+    set velocity of {_p} to {_v}
+
+    play sound "item.spear.lunge_%{_m}%" at {_p}
