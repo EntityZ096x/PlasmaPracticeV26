@@ -1,0 +1,7 @@
+
+# Downloaded server software and caches
+server/libraries/
+server/versions/
+server/cache/
+server/plugins/.paper-remapped/
+server/plugins/CoreProtect/database.db
