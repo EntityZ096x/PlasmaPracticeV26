@@ -1,0 +1,22 @@
+location: KitPvP:0.500:153.283:0.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#F54927>&lKitPvP</#FFD900>
+    height: 0.3
+  - content: '&r<#CCCCCC>Choose a &eKit<#CCCCCC> and jump down to fight!'
+    height: 0.3
+  - content: '&r<#CCCCCC>If you <#ff0000>KILL<#CCCCCC>, you get your kit restocked'
+    height: 0.3
+  - content: '&r<#CCCCCC>and you get <#ff0000>KILL POINTS<#CCCCCC>. But if you &4Die...'
+    height: 0.3
+  - content: <#CC0000>You'll get brutally diddled.</#000000>
+    height: 0.3
+  - content: '&8(btw dont try to get back up once ur down)'
+    height: 0.3
+  actions: {}

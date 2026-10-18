@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: BUNDLE
+  displayname: '&r&6&lMisc'
+slot: 25

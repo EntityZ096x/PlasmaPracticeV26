@@ -1,0 +1,83 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+  - '<#ffffff>-<#ff0000>---------------------'
+  - '<#ffcccc>-<#ffffff>-<#ff0000>--------------------'
+  - '<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-------------------'
+  - '<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-----------------'
+  - '<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>----------------'
+  - '<#ff0000>-<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>---------------'
+  - '<#ff0000>--<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>--------------'
+  - '<#ff0000>---<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-------------'
+  - '<#ff0000>----<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>------------'
+  - '<#ff0000>-----<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-----------'
+  - '<#ff0000>------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>----------'
+  - '<#ff0000>-------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>---------'
+  - '<#ff0000>--------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>--------'
+  - '<#ff0000>---------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-------'
+  - '<#ff0000>----------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>------'
+  - '<#ff0000>-----------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-----'
+  - '<#ff0000>------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>----'
+  - '<#ff0000>-------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>---'
+  - '<#ff0000>--------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>--'
+  - '<#ff0000>---------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>-'
+  - '<#ff0000>----------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-<#ffffff>-<#ff0000>'
+  - '<#ff0000>-----------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-<#ffcccc>-'
+  - '<#ff0000>------------------<#ff0000>-<#ff3333>-<#ff6666>-<#ff9999>-'
+  - '<#ff0000>-------------------<#ff0000>-<#ff3333>-<#ff6666>-'
+  - '<#ff0000>--------------------<#ff0000>-<#ff3333>-'
+  - '<#ff0000>---------------------<#ff0000>-'
+  - '<#ff0000>----------------------'
+
+
+
+
+
+ServerName:
+  change-interval: 1000
+  texts:
+  - '&r&l&o<#941800>Plasma</#ff0000>&o<#A3A3A3>Network</#666666>'
+web:
+  change-interval: 100
+  texts:
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+  - '&6P&elasmaNetwork.com'
+  - '&eP&6l&easmaNetwork.com'
+  - '&ePl&6a&esmaNetwork.com'
+  - '&ePla&6s&emaNetwork.com'
+  - '&ePlas&6m&eaNetwork.com'
+  - '&ePlasm&6a&eNetwork.com'
+  - '&ePlasma&6N&eetwork.com'
+  - '&ePlasmaN&6e&etwork.com'
+  - '&ePlasmaNe&6t&ework.com'
+  - '&ePlasmaNet&6w&eork.com'
+  - '&ePlasmaNetw&6o&erk.com'
+  - '&ePlasmaNetwo&6r&ek.com'
+  - '&ePlasmaNetwor&6k&e.com'
+  - '&ePlasmaNetwork&6.&ecom'
+  - '&ePlasmaNetwork.&6c&eom'
+  - '&ePlasmaNetwork.c&6o&em'
+  - '&ePlasmaNetwork.co&6m'
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+  - '&ePlasmaNetwork.com'
+
+survivalpvp:
+  change-interval: 100
+  texts:
+    - "&r&l<#FFD700>ѕᴜʀᴠɪᴠᴀʟ</#FFD700>"
+    - "&r&l<#E8B000>ѕᴜʀᴠɪᴠᴀʟ</#C99A00>"
+    - "&r&l<#D88A00>ѕᴜʀᴠɪᴠᴀʟ</#9B6A00>"
+    - "&r&l<#CC5C00>ѕᴜʀᴠɪᴠᴀʟ</#754500>"
+    - "&r&l<#C53600>ѕᴜʀᴠɪᴠᴀʟ</#653000>"
+    - "&r&l<#BD0000>ѕᴜʀᴠɪᴠᴀʟ</#590000>"
+    - "&r&l<#BD0000>ѕᴜʀᴠɪᴠᴀʟ</#590000>"
+    - "&r&l<#BD0000>ѕᴜʀᴠɪᴠᴀʟ</#590000>"
+    - "&r&l<#BD0000>ѕᴜʀᴠɪᴠᴀʟ</#590000>"
+    - "&r&l<#BD0000>ѕᴜʀᴠɪᴠᴀʟ</#590000>"
+
+
+

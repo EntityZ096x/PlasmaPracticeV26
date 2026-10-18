@@ -1,0 +1,33 @@
+import:
+    org.bukkit.potion.PotionType
+    org.bukkit.Color
+
+on right click on cow:
+    if player's tool is not a glass bottle:
+        stop
+    cancel event
+    remove 1 glass bottle from player's inventory
+
+    set {_i} to splash potion of invisibility named "&r&fBottle of Milk" with custom nbt from "{ci.item:""milk_bottle""}"
+
+    set {_meta} to {_i}.getItemMeta()
+    {_meta}.setBasePotionType(PotionType.WATER)
+    {_meta}.setColor(Color.fromRGB(225, 225, 225))
+    {_i}.setItemMeta({_meta})
+
+    set lore of {_i} to "&8Removes all effects."
+    hide {_i}'s entire tooltip
+    give player {_i}
+
+on shoot:
+    if shooter's tool is a splash potion of invisibility:
+        string tag "ci.item" of custom nbt of shooter's tool is "milk_bottle"
+        set metadata tag "IsMilkPot" of projectile to true
+
+on projectile hit:
+    if projectile is thrown potion:
+        if metadata tag "IsMilkPot" of projectile is true:
+            loop all living entities in radius 4 around projectile:
+                clear the loop-entity's hidden potion effects
+                clear the loop-entity's potion effects
+        

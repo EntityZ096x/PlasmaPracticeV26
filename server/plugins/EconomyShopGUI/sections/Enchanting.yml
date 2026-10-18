@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: ENCHANTED_BOOK
+  displayname: '&r&d&lEnchanting'
+slot: 17

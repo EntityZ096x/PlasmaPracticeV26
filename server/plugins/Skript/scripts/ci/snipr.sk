@@ -1,0 +1,35 @@
+on shoot:
+    if shooter's tool's name is "&r&f50 Calibre Sniper Rifle":
+        if {snipe.%shooter%} is true:
+            set shooter's walk speed to 0.2
+            remove slowness from shooter
+        push projectile in direction of shooter at speed 50
+        push shooter backwards
+        set gravity of the projectile to false
+
+on damage:
+    if attacker's tool's name is "&r&f50 Calibre Sniper Rifle":
+        set damage to distance between shooter and projectile
+        set {_hitHeight} to y-coordinate of projectile - y-coordinate of victim's location
+
+        if {_hitHeight} >= 1.4:
+            set damage to damage * 3.0
+            send "&c&lHEADSHOT! &7(x3 Damage)" to attacker
+            send "&cYou were headshotted by %attacker%!" to victim
+            set damage to damage * 2
+
+on left click:
+    if player's tool's name is "&r&f50 Calibre Sniper Rifle":
+        if {snipe.%player%} is not true:
+            set {snipe.%player%} to true
+            set player's walk speed to -0.01
+            apply slowness 100 to player for 999999 seconds
+        else:
+            delete {snipe.%player%}
+            set player's walk speed to 0.2
+            remove slowness from player
+
+on projectile hit: 
+    if shooter's tool's name is "&r&f50 Calibre Sniper Rifle":
+        delete the projectile
+        create an explosion of force 0 at the projectile

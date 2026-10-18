@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1791282273239
+  login: 1791282273040
+money: '0'
+last-account-name: '2345654321'
+logoutlocation:
+  world: e986e23e-eaa6-41dc-97d9-c4b0e19e7c9a
+  world-name: voidworld
+  x: 0.5
+  y: 64.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0

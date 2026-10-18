@@ -1,0 +1,60 @@
+import:
+    com.viaversion.viaversion.api.Via
+
+on join:
+    set {protocol::%player%} to Via.getAPI().getPlayerVersion(player)
+
+    if {protocol::%player%} < 774:
+        set {_msg} to text component from "&7[&a+&7] &e%player%"
+        set {_hover} to text component from "&eThis player is on an outdated client."
+        set {_event} to a new hover event showing {_hover}
+        set hover event of {_msg} to {_event}
+        set join message to {_msg}
+    else:
+        set join message to "&7[&a+&7] &f%player%"
+
+on quit:
+    set the quit message to "&r&7[&r&c-&r&7] &r&e%player%"
+
+
+
+on chat:
+    replace all ":hakenkruis:" with "卐" in message
+    set chat format to "%player's prefix%%player's name%%player's suffix% &r&8» &r%message%"
+
+
+on death:
+    if attacker's tool is a mace:
+        set {_bruh} to "*MOAN*"
+        chance of 25%:
+            set {_bruh} to "Harder daddy"
+        chance of 25%:
+            set {_bruh} to "AHHHHhhhhh~~~"
+        chance of 25%:
+            set {_bruh} to "Im stretched out~~"
+        chance of 25%:
+            set {_bruh} to "Ahh! It feels so big!~"
+        chance of 25%:
+            set {_bruh} to "Its so big!~"
+        make victim say {_bruh}
+        set death message to "%victim% was brutally SMASHED by %attacker% and liked it..."
+
+        
+    if attacker's tool's name is "&r&f50 Calibre Sniper Rifle":
+        set death message to "%victim% got sniped by %attacker%."
+
+command /makesay <player> <text>:
+    trigger:
+        make arg-1 say arg-2
+
+command /t <text>:
+    trigger:
+        if sender is not console:
+            stop
+        set {_a} to arg-1
+        replace all ":hakenkruis:" with "卐" in {_a}
+        broadcast "&r&cEntityZ096x (as console)&r: %{_a}%"
+
+command /protocol:
+    trigger:
+        send {protocol::%player%} to player

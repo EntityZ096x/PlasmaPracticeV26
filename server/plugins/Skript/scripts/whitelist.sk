@@ -1,0 +1,13 @@
+on join:
+    set {whitelist::*} to "Zilver2", "EntityZ096x", "JustDan12","Clstial", "test", "Goji2000"
+    add "QuantumEcho" to {whitelist::*}
+    add "234565432" to {whitelist::*}
+    add "The_soulstealer4" to {whitelist::*}
+
+    if {whitelist::*} does not contain player's name:
+        kick player
+
+command /fix:
+    trigger:
+        execute player command "/enchant unbreaking 3"
+        execute player command "/enchant mending"

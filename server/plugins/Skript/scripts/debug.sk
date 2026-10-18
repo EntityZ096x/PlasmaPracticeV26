@@ -1,0 +1,112 @@
+on command:
+    if command contains "debug":
+        if command is not "debug":
+            if {debug.%player%} is not "enabled": 
+                if sender is console:
+                    stop
+                send "&r&4You're not allowed to use this command."
+                cancel event
+
+command /debug.whatblockisthis:
+    trigger:
+        send player's targeted block to player
+
+command /debug.whatitemisthis:
+    trigger:
+        send player's tool to player
+
+command /debug.whatworldamiin:
+    trigger:
+        send player's world to player
+
+command /debug.whatlightlevelisthisblock:
+    trigger:
+        send light level of player's targeted block to player
+
+
+command /debug:
+    trigger:
+        if {debug.%player%} is not "enabled":
+            send "&c&lDebug &r&8» &rInput password in chat (type 'stop' to exit)"
+            set {debug.%player%} to "password"
+        else:
+            send "&c&lDebug &r&8» &r&aDebug has been disabled."
+            delete {debug.%player%}
+
+on chat:
+    if {debug.%player%} is "password":
+        cancel event
+        if message is "BruhGuy123wasHere":
+            set {debug.%player%} to "enabled"
+            send "&c&lDebug &r&8» &r&aDebug has been enabled."
+        else if message is "stop":
+            send "&c&lDebug &r&8» &r&aExited password input."
+            delete {debug.%player%}
+        else:
+            send "&c&lDebug &r&8» &r&cWrong password, please try again."
+
+command /debug.reload:
+    trigger:
+        execute player command "/sk reload debug.sk"
+
+            
+on damage with priority lowest:
+    if event is canceled:
+        stop
+    if {debug.%attacker%} is "enabled":
+        send "&r&7Tool:&r&c %attacker's tool%" to attacker
+        send "&r&7Raw damage:&r&c %damage%" to attacker
+        send "&r&7Final damage:&r&c %final damage%" to attacker
+        send "&r&7Health remaining:&r&c %victim's health%" to attacker
+
+        set {_totems} to amount of totem of undying in victim's inventory
+
+        if victim's offhand item is totem of undying: 
+            add amount of victim's offhand item to {_totems}
+
+        send "&r&7Totems:&r&a %{_totems}%" to attacker
+        send "&r&7Absorption:&r&6 %victim's absorption amount / 2%" to attacker
+    if {debug.%victim%} is "enabled":
+        send "&r&7Tool:&r&c %attacker's tool%" to victim
+        send "&r&7Raw damage:&r&c %damage%" to victim
+        send "&r&7Final damage:&r&c %final damage%" to victim
+        send "&r&7Health remaining:&r&c %victim's health%" to victim
+
+        set {_totems} to amount of totem of undying in victim's inventory
+
+        if victim's offhand item is totem of undying: 
+            add amount of victim's offhand item to {_totems}
+
+        send "&r&7Totems:&r&a %{_totems}%" to victim
+        send "&r&7Absorption:&r&6 %victim's absorption amount / 2%" to victim
+
+command /debug.ghostblockify:
+    trigger:
+        set {_loc} to player's target block's location
+        make player see {_loc} as air
+
+command /debug.unghostblockify:
+    trigger:
+        set {_loc} to player's target block's location
+        make player see {_loc} as block at {_loc}
+
+command /debug.falldis <number>:
+    trigger:
+        set player's fall distance to arg-1
+        send "&r&7Your fall distance has been set to %arg-1%"
+
+command /debug.whatismyuuid [<player>]:
+    trigger:
+        if arg-1 is set:
+            send arg-1's uuid
+        else:
+            send player's uuid
+
+command /debug.testvar <text>:
+    trigger:
+        send "%{%arg-1%}%" to player
+
+
+command /debug.cnbtcheck:
+    trigger:
+        send "%custom nbt of player's tool%" to player

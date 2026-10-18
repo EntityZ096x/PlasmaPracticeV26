@@ -1,0 +1,72 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1791455327550
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1791459022639
+  login: 1791458520950
+money: '1016.53'
+last-account-name: Clstial
+logoutlocation:
+  world: ae3fd088-f335-4304-928c-e6a701fdd5bc
+  world-name: Survival
+  x: -1558.5333421094058
+  y: 66.0
+  z: -1334.4710149515568
+  yaw: -6.31201171875
+  pitch: 50.24995422363281
+lastlocation:
+  world: f70b1dbe-264f-4011-9770-0a60de88db6d
+  world-name: Lobby
+  x: -67.9166784574413
+  y: 94.24542792108085
+  z: -14.751540578030243
+  yaw: -177.29991149902344
+  pitch: 17.2500057220459
+homes:
+  home:
+    world: ae3fd088-f335-4304-928c-e6a701fdd5bc
+    world-name: Survival
+    x: 19897.41450665428
+    y: 69.0
+    z: 15033.619891238703
+    yaw: 24.75048065185547
+    pitch: -1.9500330686569214
+  cave:
+    world: ae3fd088-f335-4304-928c-e6a701fdd5bc
+    world-name: Survival
+    x: -76.69790421262863
+    y: 57.0
+    z: 209.00875142315965
+    yaw: -39.60050964355469
+    pitch: 20.250038146972656
+  village:
+    world: ae3fd088-f335-4304-928c-e6a701fdd5bc
+    world-name: Survival
+    x: 19908.5
+    y: 94.0
+    z: 15046.5
+    yaw: 6.749967098236084
+    pitch: -2.1000020503997803
+  s:
+    world: ae3fd088-f335-4304-928c-e6a701fdd5bc
+    world-name: Survival
+    x: 19883.564174702227
+    y: 69.0
+    z: 15048.300000011921
+    yaw: 89.70052337646484
+    pitch: 26.399913787841797

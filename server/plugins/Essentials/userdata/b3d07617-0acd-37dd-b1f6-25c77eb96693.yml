@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1790682576528
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1792272086279
+  login: 1792268884707
+money: '0'
+last-account-name: QuantumEcho
+logoutlocation:
+  world: e986e23e-eaa6-41dc-97d9-c4b0e19e7c9a
+  world-name: voidworld
+  x: 0.5
+  y: 64.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+lastlocation:
+  world: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
+  world-name: KitPvP
+  x: 89.10883683387796
+  y: 61.25517780987507
+  z: -23.45169864136169
+  yaw: 73.94967651367188
+  pitch: 37.199989318847656

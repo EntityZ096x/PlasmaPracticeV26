@@ -1,0 +1,4 @@
+command /apopalypsica <text> <number>:
+    trigger:
+        loop arg-2 times:
+            make player execute command "/summon %arg-1%"

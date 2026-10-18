@@ -1,0 +1,13 @@
+command /arenareset [<player>]:
+    trigger:
+        if arg-1 is set:
+            set {_p} to arg-1
+        else:
+            set {_p} to player
+        execute console command "/lp user %{_p}% permission set worldedit.*"
+        wait 1 tick
+        execute console command "/sudo %{_p}% /schem load KitPvP"
+        wait 2 ticks
+        execute console command "/sudo %{_p}% /paste -o"   
+        wait 2 tick
+        execute console command "/lp user %{_p}% permission unset worldedit.*"

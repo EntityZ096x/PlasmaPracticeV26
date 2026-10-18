@@ -1,0 +1,87 @@
+on enter of region named "kitpvp_arena":
+    if {KitPvP::kit::%player%} is not set:
+        set {KitPvP::kit::%player%} to "Default"
+    execute console command "/kit load %{KitPvP::kit::%player%}% %player%"
+    set {KitPvP::invincibility::%player%} to true
+    wait 5 seconds
+    delete {KitPvP::invincibility::%player%}
+
+on damage:
+    if {KitPvP::invincibility::%victim%} is set:
+        delete {KitPvP::invincibility::%victim%}
+        cancel event
+
+on exit of region named "kitpvp_arena":
+    delete {KitPvP::invincibility::%player%}
+    kill the player
+
+on damage:
+    if attacker is a player:
+        if region "kitpvp_spawn" in world of attacker contains attacker:
+            cancel event
+
+    if victim is a player:
+        if region "kitpvp_spawn" in world of victim contains victim:
+            cancel event
+
+on enter of region named "kitpvp_spawn":
+    clear player's inventory
+    set slot 4 of player's inventory to a netherite sword named "&d&lSelect Kit"
+
+on death:
+    if region "kitpvp_arena" in world of victim contains victim:
+        if attacker is set:
+            send "<gradient:#F54927:#FFD900>&lKitPvP</gradient> &r&8»&r <#ff0000>KILL! Your current killstreak: %{KitPvP::killstreak::%attacker%}%" to attacker
+            send "<gradient:#F54927:#FFD900>&lKitPvP</gradient> &r&8»&r <#ff0000>You've been killed by %attacker%" to victim
+
+            execute console command "/kit load %{KitPvP::kit::%attacker%}% %attacker%"
+            add 1 to {KitPvP::killstreak::%attacker%}
+            set {KitPvP::killstreak::%victim%} to 0
+        force victim to respawn
+        send title "<#ff0000>&lYOU DIED" to victim
+        chance of 25%:
+            send subtitle "&r&fSkill issue." to victim
+            stop
+        chance of 25%:
+            send subtitle "&r&fMin aura." to victim
+            stop
+        chance of 25%:
+            send subtitle "&r&fGit gud." to victim
+            stop
+            
+        send subtitle "&r&fMUHAHAHAHA" to victim
+
+on right click:
+    if player's tool is netherite sword:
+        if name of player's tool is "&d&lSelect Kit":
+            cancel event
+            open chest inventory with 3 rows named "          &8» &d&lSelect Kit &8«" to player
+            wait 1 tick
+
+            # GUI decoration
+            loop 27 times:
+                set slot (loop-number - 1) of player's current inventory to gray stained glass pane named " "
+
+            # 5 kit placeholders
+            set slot 11 of player's current inventory to mace named "&b&lMace" with lore "&7Click to select this kit."
+            set slot 12 of player's current inventory to end crystal named "&b&lCrystal" with lore "&7Click to select this kit."
+            set slot 13 of player's current inventory to netherite sword named "&b&lDefault" with lore "&7Click to select this kit."
+            set slot 14 of player's current inventory to lime stained glass pane named "&a&lKit 4" with lore "&7Click to select this kit."
+            set slot 15 of player's current inventory to lime stained glass pane named "&a&lKit 5" with lore "&7Click to select this kit."
+
+on inventory click:
+    if name of player's current inventory is "          &8» &d&lSelect Kit &8«":
+        cancel event
+        if clicked slot is 11:
+            set {KitPvP::kit::%player%} to "Mace"
+            send "&r&aSelected the &eMace &aKit" to player
+            close player's inventory
+        if clicked slot is 12:
+            set {KitPvP::kit::%player%} to "Crystal"
+            send "&r&aSelected the &eCrystal &aKit" to player
+            close player's inventory
+        if clicked slot is 13:
+            set {KitPvP::kit::%player%} to "Default"
+            send "&r&aSelected the &eDefault &aKit" to player
+            close player's inventory
+        

@@ -1,0 +1,178 @@
+# Citizens NPC Storage
+last-created-npc-id: 3
+npc:
+- metadata:
+    cached-skin-uuid: a865229e-503a-4c2d-918f-35857d071d52
+    cached-skin-uuid-name: survival
+  traits:
+    owner:
+      uuid: 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    rotationtrait:
+      globalParameters: {
+        }
+    commandtrait:
+      commands:
+      - command: worldswitch Survival <p>
+        hand: RIGHT
+    hologramtrait: {
+      }
+    skintrait:
+      signature: s5XoFl2Ct3YQCpVViE9k1ZqZQ1uCgCl68NwJm1p0Aa8Pn/wBwQ1qSwrdmO/PHcbZz42zXJ/jrc+SuPH8A+Ve3Ru8suLgfcWwhvTOm8rV8oZslvjxn1p+K7Ry3EeVTh09j4vTg+FOzYWBaCDDYHeESflS0dKylVxSLYwUOAW3uLyQ4XN/xJB6ifMK4ETcjRYm3c7ay6/DWU7hwVhd4EGqkCgnJbjsBvmzR/W4/tRRp7iZXm5/VIixSFGp+KGxv1D+2LNnhwgZD5c+6U53Q+Lgppav/L1MFghaOYNrw0A9hbXOLnExfwlzHdP6Xp2jcMq52/jJHhOrRz3A9KUBZO4OKvVSCZGjBSScwiCyGysJNFfUGc5fwW9U/xRKrCt0ogUWQJ3roMmCEtQnp8h9ausAPOUb0Wxo2wEimcm62xOHEfPohcM67FfJdO8RzHyY5F3PfZ2ahbUue94IpdmU/byTs4oqEFtQoXZkEUH+US/8JW4VdI25GTJZNVYuOd3SLRcsccEypP9g+s3zN4n8zUKXtXbZryw6NDlScp+IiMXEeddHWK/BsXI0FcWMJhycLBpqnJf0byqv/jcV1bvmuCWribIpBVBjDmBrlzKZMiPDkmn8ej4eibtlFnysDSYjtZPX8uMcv2t11mNDRMZYjAYRJrDeYrNPO8XLv5nBt3FrH6U=
+      textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc5MTkxMDI2NDExNSwKICAicHJvZmlsZUlkIiA6ICJhODY1MjI5ZTUwM2E0YzJkOTE4ZjM1ODU3ZDA3MWQ1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdXJ2aXZhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYjQwNmJjMWNiYzVmODVjMzQzMjliZjBhMjM2MjUyMzVjNTI5ZWNiMGRmYzVlYWE5NTM5ZDQ0M2UwMGNjMDciCiAgICB9CiAgfQp9
+    lookclose:
+      enabled: true
+      randomPitchRange:
+      - 0.0
+      - 0.0
+      randomYawRange:
+      - 0.0
+      - 360.0
+    location:
+      world: Lobby
+      worldid: f70b1dbe-264f-4011-9770-0a60de88db6d
+      x: 3.5
+      y: 64.0
+      z: -5.5
+      bodyYaw: 22.984863
+      pitch: 0.0
+      yaw: 22.9849
+    type: PLAYER
+  traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,lookclose,type,inventory,hologramtrait,leashedtrait,location,chunktickettrait
+  name: '&r&#ff0000&lSurvival'
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 35ebf889-0868-4d24-a1fc-ae6228efe6e9
+- metadata:
+    nameplate-visible: 'true'
+  traits:
+    owner:
+      uuid: 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    rotationtrait:
+      globalParameters: {
+        }
+    commandtrait:
+      commands:
+      - command: worldswitch world <p>
+        hand: RIGHT
+    skintrait: {
+      }
+    lookclose:
+      enabled: true
+      randomPitchRange:
+      - 0.0
+      - 0.0
+      randomYawRange:
+      - 0.0
+      - 360.0
+    location:
+      world: Lobby
+      worldid: f70b1dbe-264f-4011-9770-0a60de88db6d
+      x: 5.5
+      y: 64.0
+      z: 5.5
+      bodyYaw: 114.999985
+      pitch: 0.0
+      yaw: 128.1478
+    type: PLAYER
+  traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
+  name: gotomainworld
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: f17d8c9a-bb3a-467f-9f9f-52f063da8ee2
+- metadata:
+    cached-skin-uuid: d219c8ee-d32e-4da2-b22e-0aa69d36c88a
+    cached-skin-uuid-name: marlowww
+  traits:
+    owner:
+      uuid: 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    rotationtrait:
+      globalParameters: {
+        }
+    commandtrait:
+      commands:
+      - command: worldswitch KitPvP <p>
+        hand: RIGHT
+    skintrait:
+      signature: NF0xoHMgx07l1jbkBeD5HuKeEEyOu6/Mcg6rkeIyL2Jo56GusL7V3gNLXmDH8B62aeTHOxfTcyBsKNNq/EtHtC3chSJNMC4XZq8IsDV3lav7IDQBbhXQCxols6nxfG1QDYZz4d4VC6eG/GB+412HAZnzITVN4GbOqcak/QhCHl8BI7A5v/pLNbUm2IHPdxrjWdBZX1eYvVoa6i6aNpp5zbp09ktc1QwUYhYG1He5REt5MyU4uYdgXvxkD1bbNjvu3BiZiqcEmdXVvOmRdNHkW8Ao49wxg2YNKPcvG+zKh51Atlh6tJ1rrgiB/wwW1k7pPQuLAMqp5FqtfqYo7+Mg+mMwsA8D9XKSjrm3I2gGP7KH0+8O+IE4geC+sVbqrAWTbDE/CZDA5s2J3hkJFZMYiWstYZKCNYEMs6LWYa20lYVwzOo+nJweZ5AioCsVrptcUksgMx7TSDxCBXKqBEbvVmXspiZXqpDckfLn+JI5aRvT6r7sq6OTT1MFGyOdttHbXvL1WbrJChdmWcdO7qBTCByfSMNeBIi6Y1qEdvRNmgB7nET1Q73IDGinEzUADR33PCFCqbB03BavHL0ezDh0qtx9zk4QAfIizt7v3J8q0dxuFH2mUM7FD/6gdz8cLwa4YXqnKSRaEtxcBs7C+mQMRWOyH04jyZqM9v84nCe/8DY=
+      skinName: marlowww
+      textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc5MTkxMDU1OTQ3NCwKICAicHJvZmlsZUlkIiA6ICJkMjE5YzhlZWQzMmU0ZGEyYjIyZTBhYTY5ZDM2Yzg4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJsb3d3dyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZTk5OWFmZWI2MTlkMmY5NWFlMjI2N2I5ZTgxODYwMjk4MGNiYTFhOGIxYTQ5ODMyODg1NTlkOWNkY2VkYjY5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+    lookclose:
+      enabled: true
+      randomPitchRange:
+      - 0.0
+      - 0.0
+      randomYawRange:
+      - 0.0
+      - 360.0
+    location:
+      world: Lobby
+      worldid: f70b1dbe-264f-4011-9770-0a60de88db6d
+      x: -2.5
+      y: 64.0
+      z: -5.5
+      bodyYaw: -22.984863
+      pitch: 0.0
+      yaw: -22.9849
+    type: PLAYER
+  traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
+  name: '&r&6&lKitPvP'
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 60b505a3-3557-4818-b4f8-c440af2729a1
+- metadata:
+    cached-skin-uuid: 8d5951a3-907b-49c1-96b4-04adcb59f58c
+    cached-skin-uuid-name: 54512930-a266-4c97-9d81-886c712f32c7
+    minecraft-ai: false
+  traits:
+    owner:
+      uuid: 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    gravity:
+      enabled: true
+    skintrait:
+      signature: lNMac9a+lnNVm+OXehj48YFA1FZgvTSty7JUzxOMz2hePvzGCt391H8ismF+OjQrO75mO/2+1wcGMftVkOn/H1zzBGqPFcaoeFEZQufpAcRNjtT6jZaaoGd8VdeOQ88+8CQxc8856Jy5XvCJLbWE4jLEGIEPCZV039ZeoggLvv///04CX9kNbyzkCRRI2wr+kzlP9NuG6GGw9VR6phUE2ahoh+hdzQ+cBC0vl35Q8+/6R0hCQ80re5sctgepaQUYfxozRgo0XqY3S+EdCAIDaes6A7i1587WtwNtt4sB286oWYplktrijwDHjsPFr28r1tT4FUWjbH3V7wWJoJ8HuSJLvOBiqmbj94hkASZ3LWu+3VgTg65YYy03zEVUalxLRfxER03g2VUABrw0zt4qTmgkqBP/lHK//8Yrbz/YeUIc3Pi1KguEklsG8t8Hu715nKI4CMsVbO3+Qtz1NkAURoxENE0Zx8P7pY/EJJC3TvEkV/sQpqkOCxoDmfRG4CrVASdsoaYszbIkW8qWUBgR5NZevaGnTzPYh5jrb4VTBppzp9Cyyi+qCEnGPqAPM/2FyiYgyKks75XCOuWdMknFWm+ut/EruqMo3oGCOLlqkjK7eECFsbijC/pOUFS/13eNPyiJS+DUlvNi6eUG9BD6PRw7QLej3XfZ6b+65c4m7LU=
+      skinName: 54512930-a266-4c97-9d81-886c712f32c7
+      textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc5MjA5Mjc0MTkyMSwKICAicHJvZmlsZUlkIiA6ICJhYzY1NDYwOWVkZjM0ODhmOTM0ZWNhMDRmNjlkNGIwMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGFjZUd1cmxTa3kiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc1ZTk3MDVjZTBiZDYwY2NlM2Y0ODgwOWQ1YzNkOWI0OTRkOGIxMWEzMTI1Y2M3MzhkZjA1NGM0NjNkNjQ0OCIKICAgIH0KICB9Cn0=
+    location:
+      world: KitPvP
+      worldid: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
+      x: -88.5
+      y: 150.625
+      z: 90.939
+      bodyYaw: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    type: PLAYER
+    sittrait:
+      sittingAt:
+        world: KitPvP
+        worldid: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
+        x: -88.5
+        y: 150.3
+        z: 90.939
+        pitch: 0.0
+        yaw: 0.0
+  traitnames: owner,scoreboardtrait,spawned,gravity,skintrait,leashedtrait,location,type,inventory,chunktickettrait,sittrait
+  name: sus
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 2075ac8d-dca1-4426-b51d-5f81f92b6d2c

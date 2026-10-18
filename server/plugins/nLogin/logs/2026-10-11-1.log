@@ -1,0 +1,65 @@
+[2026/10/11 13:42:38 INFO]:           __             _       
+[2026/10/11 13:42:38 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/10/11 13:42:38 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/10/11 13:42:38 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/10/11 13:42:38 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/10/11 13:42:38 INFO]:                   |___/            
+[2026/10/11 13:42:38 INFO]:  By: www.nickuc.com - V 2.0.24
+[2026/10/11 13:42:38 INFO]:  
+[2026/10/11 13:42:38 DEBUG]: The config.yml file was created successfully.
+[2026/10/11 13:42:39 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 13:42:39 DEBUG]: Messages were loaded in 183 ms (single file).
+[2026/10/11 13:42:39 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 13:42:39 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 13:42:39 DEBUG]: Settings were loaded in 333 ms.
+[2026/10/11 13:42:39 DEBUG]: Loading database...
+[2026/10/11 13:42:39 INFO]: Generating RSA keypair... (this may take a while)
+[2026/10/11 13:42:41 INFO]: The RSA key pair was successfully generated. Took 2.09s
+[2026/10/11 13:42:41 DEBUG]: Starting logger filter...
+[2026/10/11 13:42:41 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/10/11 13:43:16 INFO]: 
+[2026/10/11 13:43:16 INFO]:  Thank you so much for choosing nLogin! :)
+[2026/10/11 13:43:16 INFO]: 
+[2026/10/11 13:43:16 INFO]:  For your safety, please read the message below:
+[2026/10/11 13:43:16 INFO]:   Never download nLogin from unknown sources.
+[2026/10/11 13:43:16 INFO]:   A modified version may contain malicious software.
+[2026/10/11 13:43:16 INFO]: 
+[2026/10/11 13:43:16 INFO]:  Trusted sources:
+[2026/10/11 13:43:16 INFO]:   Website: nickuc.com
+[2026/10/11 13:43:16 INFO]:   GitHub: github.com/nickuc-com
+[2026/10/11 13:43:16 INFO]:   OpeNLogin installer (from Spigot or GitHub)
+[2026/10/11 13:43:16 INFO]: 
+[2026/10/11 13:43:16 INFO]:  Official support:
+[2026/10/11 13:43:16 INFO]:   Documentation: docs.nickuc.com/nlogin/
+[2026/10/11 13:43:16 INFO]:   Discord: nickuc.com/discord
+[2026/10/11 13:43:16 INFO]:   Email: support@nickuc.com
+[2026/10/11 13:43:16 INFO]: 
+[2026/10/11 13:45:03 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 13:45:03 DEBUG]: Messages were loaded in 19 ms (single file).
+[2026/10/11 13:45:03 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 13:45:03 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 13:45:03 DEBUG]: Settings were loaded in 43 ms.
+[2026/10/11 13:45:50 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('EntityZ096x', 2ee83cb0186f329dbb3e2dd2a293057c, null, null, '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', '127.0.0.1', '2026-10-11 13:45:50.58', '2026-10-11 13:45:50.58', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/10/11 13:45:50 INFO]: The user EntityZ096x has successfully registered.
+[2026/10/11 13:59:55 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 13:59:55 DEBUG]: Messages were loaded in 87 ms (single file).
+[2026/10/11 13:59:55 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 13:59:55 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 13:59:55 DEBUG]: Settings were loaded in 144 ms.
+[2026/10/11 13:59:56 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-11 13:59:56.392, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/11 14:00:36 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 14:00:36 DEBUG]: Messages were loaded in 21 ms (single file).
+[2026/10/11 14:00:36 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 14:00:36 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 14:00:36 DEBUG]: Settings were loaded in 42 ms.
+[2026/10/11 14:01:24 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 14:01:24 DEBUG]: Messages were loaded in 33 ms (single file).
+[2026/10/11 14:01:24 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 14:01:24 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 14:01:24 DEBUG]: Settings were loaded in 77 ms.
+[2026/10/11 14:03:16 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/11 14:03:16 DEBUG]: Messages were loaded in 10 ms (single file).
+[2026/10/11 14:03:16 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/11 14:03:16 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/11 14:03:16 DEBUG]: Settings were loaded in 22 ms.
+[2026/10/11 14:08:16 INFO]: Successful plugin core shutdown (took 0.00s)

@@ -1,0 +1,87 @@
+command /dummy [<text>]:
+    trigger:
+        if arg-1 does not contain "small":
+            spawn a adult zombie at player
+        else:
+            spawn a baby zombie at player
+        set ai of last spawned entity to false
+        set {_m} to last spawned entity
+        add "dummy" to scoreboard tags of {_m}
+
+        set {_armor::1} to netherite helmet
+        set {_armor::2} to netherite chestplate
+        set {_armor::3} to netherite leggings
+        set {_armor::4} to netherite boots
+        if arg-1 does not contain "nototem":
+            set {_m}'s offhand item to 64 totem of undying
+        if arg-1 contains "shield":
+            set {_m}'s held item to shield
+        if arg-1 contains "AI":
+            set ai of last spawned entity to true
+
+        loop {_armor::*}:
+            set level of protection of loop-value to 4
+            set level of unbreaking of loop-value to 999
+
+        set {_m}'s helmet to {_armor::1}
+        set {_m}'s chestplate to {_armor::2}
+        set {_m}'s leggings to {_armor::3}
+        set {_m}'s boots to {_armor::4}
+
+on tab complete of "/dummy":
+    set tab completions for position 1 to "shield", "AI", "small"
+
+
+on damage:
+    if attacker is a entity:
+        if victim's held item is shield:
+            if victim is a zombie:
+                if {shieldDisabled::%uuid of victim%} is not set:
+                    cancel event
+                    play sound "item.shield.block" at victim
+
+                    if netherite axe, diamond axe, golden axe, stone axe, copper axe and wooden axe contains attacker's tool:
+                        set {shieldDisabled::%uuid of victim%} to true
+
+                        play sound "item.shield.break" at victim
+
+                        wait 1 second
+
+                        if victim is alive:
+                            if victim's held item is shield:
+                                delete {shieldDisabled::%uuid of victim%}
+
+on resurrect:
+    if scoreboard tags of entity contains "dummy":
+        set {_m} to event-entity
+
+        set health of {_m} to max health of {_m}
+
+        # Reset armor to full durability
+        set {_helmet} to netherite helmet
+        set {_chestplate} to netherite chestplate
+        set {_leggings} to netherite leggings
+        set {_boots} to netherite boots
+
+        set level of protection of {_helmet} to 4
+        set level of unbreaking of {_helmet} to 999
+        set level of protection of {_chestplate} to 4
+        set level of unbreaking of {_chestplate} to 999
+        set level of protection of {_leggings} to 4
+        set level of unbreaking of {_leggings} to 999
+        set level of protection of {_boots} to 4
+        set level of unbreaking of {_boots} to 999
+
+        set {_m}'s helmet to {_helmet}
+        set {_m}'s chestplate to {_chestplate}
+        set {_m}'s leggings to {_leggings}
+        set {_m}'s boots to {_boots}
+
+        # Give it another stack of totems
+        set {_m}'s offhand item to 64 totem of undying
+
+command /deldummy:
+    trigger:
+        loop all entities:
+            if scoreboard tags of loop-entity contains "dummy":
+                delete loop-entity

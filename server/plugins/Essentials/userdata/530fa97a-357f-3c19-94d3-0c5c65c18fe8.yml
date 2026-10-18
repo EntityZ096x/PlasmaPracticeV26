@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1791813502219
+  login: 1791813338096
+money: '0'
+last-account-name: test
+logoutlocation:
+  world: ae3fd088-f335-4304-928c-e6a701fdd5bc
+  world-name: Survival
+  x: 6848.361589451774
+  y: 91.0
+  z: 1353.3375451252216
+  yaw: -99.44926452636719
+  pitch: 27.75

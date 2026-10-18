@@ -1,0 +1,8 @@
+enable: true
+title: '&8<--- &8&lZ_EverythingElse &8--->'
+slot: 1
+hidden: true
+sub-section: true
+item:
+  displayname: '&8&lZ_EverythingElse'
+  material: BEDROCK

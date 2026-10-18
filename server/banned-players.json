@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "5d3ee085-5fbc-324a-bb6e-49ef56e5786a",
+    "name": "*",
+    "created": "2026-10-08 15:36:11 +0000",
+    "source": "JustDan12",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "db8d4a6b-360c-3964-b2d5-b1144216f32d",
+    "name": "@s",
+    "created": "2026-10-08 15:35:30 +0000",
+    "source": "JustDan12",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  }
+]

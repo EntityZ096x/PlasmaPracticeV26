@@ -1,0 +1,25 @@
+on player ready arrow:
+    if selected bow's name is "&r&lGrappling Hook":
+        cancel event
+        if selected bow's lore contains "&r&8Hooked":
+            delete selected bow's lore
+        else:
+            shoot a arrow from player
+            set selected bow's lore to "&r&8Hooked"
+            while selected bow's lore contains "&r&8Hooked":
+                wait 1 tick
+
+on projectile hit:
+    if lore of shooter's tool does not contain "&r&8Hooked":
+        stop
+    set {_m} to distance between shooter and projectile
+    if {_m} > 100:
+        delete lore of shooter's tool
+        stop
+    push shooter towards projectile at a speed of 1
+    while lore of shooter's tool contains "&r&8Hooked":
+        wait 1 tick
+        add 1 to {_t}
+        push shooter towards projectile at a speed of 0.1
+    delete projectile
+

@@ -1,0 +1,126 @@
+{
+  "versionInfo": {
+    "name": "Velocity",
+    "vendor": "Velocity Contributors",
+    "version": "3.4.0-SNAPSHOT (git-44bc15db-b512)"
+  },
+  "platform": {
+    "operatingSystemType": "Linux",
+    "operatingSystemVersion": "6.8.0-1064-azure",
+    "operatingSystemArchitecture": "amd64",
+    "javaVersion": "25.0.4.1",
+    "javaVendor": "Microsoft",
+    "listener": {
+      "listenerType": "epoll",
+      "compression": "Java",
+      "encryption": "Java"
+    }
+  },
+  "config": {
+    "bind": "0.0.0.0:25567",
+    "motd": "\u003c#09add3\u003eA Velocity Server",
+    "showMaxPlayers": -1,
+    "onlineMode": false,
+    "preventClientProxyConnections": false,
+    "playerInfoForwardingMode": "NONE",
+    "announceForge": false,
+    "onlineModeKickExistingPlayers": false,
+    "pingPassthrough": "DISABLED",
+    "samplePlayersInPing": false,
+    "advanced": {
+      "compressionThreshold": 256,
+      "compressionLevel": -1,
+      "loginRatelimit": 3000,
+      "connectionTimeout": 5000,
+      "readTimeout": 30000,
+      "proxyProtocol": false,
+      "tcpFastOpen": false,
+      "bungeePluginMessageChannel": true,
+      "showPingRequests": false,
+      "failoverOnUnexpectedServerDisconnect": true,
+      "announceProxyCommands": true,
+      "logCommandExecutions": false,
+      "logPlayerConnections": true,
+      "acceptTransfers": false,
+      "enableReusePort": false,
+      "commandRateLimit": 50,
+      "forwardCommandsIfRateLimited": true,
+      "kickAfterRateLimitedCommands": 0,
+      "tabCompleteRateLimit": 10,
+      "kickAfterRateLimitedTabCompletes": 0
+    },
+    "query": {
+      "queryEnabled": false,
+      "queryPort": 25565,
+      "queryMap": "Velocity",
+      "showPlugins": false
+    },
+    "enablePlayerAddressLogging": true,
+    "forceKeyAuthentication": true,
+    "servers": {
+      "mainserver": {
+        "currentPlayers": 0,
+        "host": "127.0.0.1",
+        "port": 25565
+      }
+    },
+    "connectOrder": [
+      "mainserver"
+    ],
+    "forcedHosts": {
+      "auth.example.com": [
+        "mainserver"
+      ]
+    }
+  },
+  "plugins": [
+    {
+      "id": "velocity",
+      "name": "Velocity",
+      "version": "3.4.0-SNAPSHOT (git-44bc15db-b512)",
+      "authors": [
+        "Velocity Contributors"
+      ],
+      "description": "The Velocity proxy",
+      "url": "https://velocitypowered.com"
+    },
+    {
+      "id": "eaglerxserver",
+      "name": "EaglercraftXServer",
+      "version": "1.1.1",
+      "authors": [
+        "lax1dude"
+      ],
+      "description": "Official EaglercraftX plugin for Velocity servers",
+      "dependencies": [
+        "skinsrestorer",
+        "limboapi"
+      ]
+    },
+    {
+      "id": "eaglerweb",
+      "name": "EaglerWeb",
+      "version": "1.0.1",
+      "authors": [
+        "lax1dude"
+      ],
+      "description": "Official EaglerWeb plugin for EaglercraftXServer",
+      "dependencies": [
+        "eaglerxserver"
+      ]
+    },
+    {
+      "id": "eaglerxrewind-1-5",
+      "name": "EaglercraftXRewind-1.5",
+      "version": "1.0.2",
+      "authors": [
+        "lax1dude",
+        "ayunami2000"
+      ],
+      "description": "Official Eaglercraft 1.5 compatibility plugin for EaglercraftXServer",
+      "dependencies": [
+        "eaglerxserver"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+on damage:
+    if victim's world is "Lobby":
+        stop
+    attacker is a player
+    victim is a player
+    if attacker is victim:
+        stop
+        
+
+    set {pvp.end.%victim%} to now + 15 seconds
+    set {pvp.end.%attacker%} to now + 15 seconds
+
+    if {pvp.inpvp::*} does not contain victim:
+        add victim to {pvp.inpvp::*}
+    if {pvp.inpvp::*} does not contain attacker:
+        add attacker to {pvp.inpvp::*}
+
+    if {pvp.enemy.%victim%} is not attacker:
+        send "<#ff0000>&lPvP&r &8»<#ff0000> You have been attacked by &e%attacker%<#ff0000>! Do not log off!" to victim
+    if {pvp.enemy.%attacker%} is not victim:
+        send "<#ff0000>&lPvP&r &8»<#ff0000> You attacked &e%victim%<#ff0000>! Do not log off!" to attacker
+
+    set {pvp.enemy.%victim%} to attacker
+    set {pvp.enemy.%attacker%} to victim
+
+every 4 ticks:
+    loop {pvp.inpvp::*}:
+        if now >= {pvp.end.%loop-value%}:
+            delete {pvp.end.%loop-value%}
+            delete {pvp.enemy.%loop-value%}
+            remove loop-value from {pvp.inpvp::*}
+            send action bar "&aYou are no longer in combat!" to loop-value
+            send "<#ff0000>&lPvP&r &8»&r &aYou are no longer in combat!" to loop-value
+        else:
+            set {_remaining} to difference between {pvp.end.%loop-value%} and now
+            set {_seconds} to ceiling({_remaining} / 1 second)
+            set {_filled} to {_seconds} * 1
+
+            if {_filled} > 15:
+                set {_filled} to 15
+
+            set {_bar} to "&r<#ff0000>"
+
+            loop {_filled} - 1 times:
+                add "|" to {_bar}
+
+            add "&r<#ff0000>&l|&r&7" to {_bar}
+
+            set {_empty} to 15 - {_filled}
+
+            loop {_empty} times:
+                add "|" to {_bar}
+
+            send action bar "&r<gradient:#ff0000:#990000>%{pvp.enemy.%loop-value%}%: %{pvp.enemy.%loop-value%}'s health% </gradient>&r&7|&r &r&7&l[ %{_bar}% &r&7&l]" to loop-value
+
+on death:
+    if {pvp.inpvp::*} contains victim:
+        remove victim from {pvp.inpvp::*}
+    delete {pvp.end.%victim%}
+    delete {pvp.enemy.%victim%}
+
+    if attacker is a player:
+        if {pvp.inpvp::*} contains attacker:
+            remove attacker from {pvp.inpvp::*}
+        delete {pvp.end.%attacker%}
+        delete {pvp.enemy.%attacker%}
+
+on leave:
+    if {pvp.inpvp::*} contains player:
+        kill player
+        broadcast "<#ff0000>&lPvP&r &8»&r&e %player%&r<#ff0000> tried to escape combat!"
+        remove player from {pvp.inpvp::*}
+        delete {pvp.end.%player%}
+        delete {pvp.enemy.%player%}
+
+on command:
+    if player is "EntityZ096x":
+        stop
+    if {pvp.inpvp::*} contains player:
+        if {pvp.allowedcmds::*} contains command:
+            stop
+        cancel event
+        send "<#ff0000>&lPvP&r &8»<#ff0000> You may not use /%command% while combat!"
+
+on load:
+    delete {pvp.allowedcmds::*}
+    add "msg" to {pvp.allowedcmds::*}
+    add "ec" to {pvp.allowedcmds::*}
+    add "tell" to {pvp.allowedcmds::*}
+    add "suicide" to {pvp.allowedcmds::*}

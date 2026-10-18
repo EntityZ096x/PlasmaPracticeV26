@@ -1,0 +1,57 @@
+command /givebook <player> <text> <text>:
+    permission: skript.admincommands
+    trigger:
+        set {_enchant} to arg-2
+        replace all "_" in {_enchant} with " "
+
+        set {_book} to enchanted book named "&r&e%{_enchant}%" with lore "&r&7Applies &b%{_enchant}%&7 to your %arg-3%.", "&r&aRight-Click this book while your %arg-3%" and "&r&ais in your offhand to enchant it!"
+
+        set string tag "ci.item" of custom nbt of {_book} to "enchantmentbook"
+        set string tag "ci.enchant" of custom nbt of {_book} to "%{_enchant}%"
+        set string tag "ci.canbeappliedto" of custom nbt of {_book} to arg-3
+
+        give {_book} to arg-1
+
+
+on right click:
+    if player's tool is not an enchanted book:
+        stop
+    set {_book} to player's tool
+    if string tag "ci.item" of custom nbt of {_book} is not "enchantmentbook":
+        stop
+    set {_enchant} to string tag "ci.enchant" of custom nbt of {_book}
+    set {_item} to string tag "ci.canbeappliedto" of custom nbt of {_book}
+
+    if {_item} is "mace":
+        if player's offhand item is not a mace:
+            send "&r&7You must be holding a &eMace&7 in your offhand to enchant it!" to player
+            stop
+
+    set {_invalid} to false
+
+    loop lore of player's offhand item:
+        set {_line} to uncolored loop-value
+
+        if {_line} contains {_enchant}:
+            send "&r&7Your %{_item}% already has &r&b%{_enchant}%&r&7!" to player
+            set {_invalid} to true
+            stop loop
+
+        if {_enchant} is "Heavy":
+            if {_line} contains "Lightweight":
+                send "&r&7Heavy cannot be paired with Lightweight!" to player
+                set {_invalid} to true
+                stop loop
+
+        if {_enchant} is "Lightweight":
+            if {_line} contains "Heavy":
+                send "&r&7Lightweight cannot be paired with Heavy!" to player
+                set {_invalid} to true
+                stop loop
+
+    if {_invalid} is true:
+        stop
+
+    add "&r&b%{_enchant}%" to lore of player's offhand item
+    send "&r&7&b%{_enchant}%&7 has been &aapplied&7 to your %{_item}%!" to player
+    set player's tool to air

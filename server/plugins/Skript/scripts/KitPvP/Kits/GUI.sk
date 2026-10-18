@@ -1,0 +1,372 @@
+function kitGUI(p: player):
+    open chest inventory with 3 rows named "&8Kit Menu" to {_p}
+    loop 27 times:
+        set slot (loop-number - 1) of {_p}'s current inventory to gray stained glass pane named " "
+    set slot 10 of {_p}'s current inventory to chest named "&a&lLOAD KIT" with lore "&7Click to load a kit."
+    set slot 12 of {_p}'s current inventory to chest named "&e&lSAVE KIT" with lore "&7Click to save your current inventory."
+    set slot 14 of {_p}'s current inventory to lava bucket named "&c&lDELETE KIT" with lore "&7Click to delete a kit."
+    set slot 16 of {_p}'s current inventory to name tag named "&b&lEDIT ICONS" with lore "&7Change your kit icons and glow."
+    set slot 22 of {_p}'s current inventory to crafting table named "&d&lKIT LAYOUTS" with lore "&7Edit your kit layouts."
+
+
+function kitLoadGUI(p: player):
+    open chest inventory with 6 rows named "&8Load Kit" to {_p}
+    loop 54 times:
+        set slot (loop-number - 1) of {_p}'s current inventory to gray stained glass pane named " "
+
+    set {_slot} to 10
+
+    loop {kits::*}:
+        set {_kit} to loop-value
+        set {_icon} to {kit::%{_kit}%::icon}
+
+        if {_icon} is not set:
+            set {_icon} to chest
+            set {kit::%{_kit}%::icon} to chest
+
+        if {kit::%{_kit}%::glow} is true:
+            enchant {_icon} with unbreaking 1
+            add hide enchants to item flags of {_icon}
+
+        set {_display} to {_icon}
+        set name of {_display} to "&a&l%{_kit}%"
+        set lore of {_display} to "&7Click to load this kit."
+        set slot {_slot} of {_p}'s current inventory to {_display}
+
+        add 1 to {_slot}
+
+        if {_slot} is 44:
+            stop loop
+
+    set slot 49 of {_p}'s current inventory to barrier named "&c&lBACK"
+
+
+function kitDeleteGUI(p: player):
+    open chest inventory with 6 rows named "&8Delete Kit" to {_p}
+    loop 54 times:
+        set slot (loop-number - 1) of {_p}'s current inventory to gray stained glass pane named " "
+
+    set {_slot} to 10
+
+    loop {kits::*}:
+        set {_kit} to loop-value
+        set {_icon} to {kit::%{_kit}%::icon}
+
+        if {_icon} is not set:
+            set {_icon} to chest
+
+        if {kit::%{_kit}%::glow} is true:
+            enchant {_icon} with unbreaking 1
+            add hide enchants to item flags of {_icon}
+
+        set {_display} to {_icon}
+        set name of {_display} to "&c&l%{_kit}%"
+        set lore of {_display} to "&7Click to delete this kit."
+        set slot {_slot} of {_p}'s current inventory to {_display}
+
+        add 1 to {_slot}
+
+        if {_slot} is 44:
+            stop loop
+
+    set slot 49 of {_p}'s current inventory to barrier named "&c&lBACK"
+
+
+function kitDeleteConfirmGUI(p: player):
+    set {_kit} to {kitdelete::%{_p}%}
+
+    open chest inventory with 3 rows named "&8Delete &c%{_kit}%" to {_p}
+
+    loop 27 times:
+        set slot (loop-number - 1) of {_p}'s current inventory to gray stained glass pane named " "
+
+    set {_icon} to {kit::%{_kit}%::icon}
+
+    if {_icon} is not set:
+        set {_icon} to chest
+
+    if {kit::%{_kit}%::glow} is true:
+        enchant {_icon} with unbreaking 1
+        add hide enchants to item flags of {_icon}
+
+    set slot 13 of {_p}'s current inventory to {_icon} named "&e&l%{_kit}%" with lore "&7Are you sure you want to delete this kit?"
+    set slot 11 of {_p}'s current inventory to red wool named "&c&lDELETE" with lore "&7Permanently delete &e%{_kit}%&7."
+    set slot 15 of {_p}'s current inventory to lime wool named "&a&lCANCEL" with lore "&7Go back."
+
+
+function kitLayoutGUI(p: player):
+    open chest inventory with 6 rows named "&8Kit Layouts" to {_p}
+
+    loop 54 times:
+        set slot (loop-number - 1) of {_p}'s current inventory to gray stained glass pane named " "
+
+    set {_slot} to 10
+
+    loop {kits::*}:
+        set {_kit} to loop-value
+        set {_icon} to {kit::%{_kit}%::icon}
+
+        if {_icon} is not set:
+            set {_icon} to chest
+
+        if {kit::%{_kit}%::glow} is true:
+            enchant {_icon} with unbreaking 1
+            add hide enchants to item flags of {_icon}
+
+        set {_display} to {_icon}
+        set name of {_display} to "&b&l%{_kit}%"
+        set lore of {_display} to "&7Click to edit this layout."
+        set slot {_slot} of {_p}'s current inventory to {_display}
+
+        add 1 to {_slot}
+
+        if {_slot} is 44:
+            stop loop
+
+    set slot 49 of {_p}'s current inventory to barrier named "&c&lBACK"
+
+
+function kitIconListGUI(p: player):
+    open chest inventory with 6 rows named "&8Edit Kit Icons" to {_p}
+
+    loop 54 times:
+        set slot (loop-number - 1) of {_p}'s current inventory to gray stained glass pane named " "
+
+    set {_slot} to 10
+
+    loop {kits::*}:
+        set {_kit} to loop-value
+        set {_icon} to {kit::%{_kit}%::icon}
+
+        if {_icon} is not set:
+            set {_icon} to chest
+            set {kit::%{_kit}%::icon} to chest
+
+        if {kit::%{_kit}%::glow} is true:
+            enchant {_icon} with unbreaking 1
+            add hide enchants to item flags of {_icon}
+
+        set {_display} to {_icon}
+        set name of {_display} to "&b&l%{_kit}%"
+
+        if {kit::%{_kit}%::glow} is true:
+            set lore of {_display} to "&a✦ Glow: ON" and "&7Click to edit."
+        else:
+            set lore of {_display} to "&c✦ Glow: OFF" and "&7Click to edit."
+
+        set slot {_slot} of {_p}'s current inventory to {_display}
+
+        add 1 to {_slot}
+
+        if {_slot} is 44:
+            stop loop
+
+    set slot 49 of {_p}'s current inventory to barrier named "&c&lBACK"
+
+
+function kitIconGUI(p: player, kit: text):
+    # ICON EDITOR USES kiteditor
+    set {kiteditor::%{_p}%::kit} to {_kit}
+
+    open chest inventory with 3 rows named "&8Icon: &e%{_kit}%" to {_p}
+
+    loop 27 times:
+        set slot (loop-number - 1) of {_p}'s current inventory to gray stained glass pane named " "
+
+    set {_icon} to {kit::%{_kit}%::icon}
+
+    if {_icon} is not set:
+        set {_icon} to chest
+
+    set {_display} to {_icon}
+
+    if {kit::%{_kit}%::glow} is true:
+        enchant {_display} with unbreaking 1
+        add hide enchants to item flags of {_display}
+
+    set name of {_display} to "&e&l%{_kit}%"
+    set lore of {_display} to "&7Current kit icon."
+
+    set slot 13 of {_p}'s current inventory to {_display}
+
+    set slot 11 of {_p}'s current inventory to anvil named "&b&lCHANGE ICON" with lore "&7Hold an item and click this."
+
+    if {kit::%{_kit}%::glow} is true:
+        set slot 15 of {_p}'s current inventory to enchanted book named "&a&lGLOW: ON" with lore "&7Click to disable the glow."
+    else:
+        set slot 15 of {_p}'s current inventory to book named "&c&lGLOW: OFF" with lore "&7Click to enable the glow."
+
+    set slot 22 of {_p}'s current inventory to lime wool named "&a&lSAVE"
+    set slot 26 of {_p}'s current inventory to red wool named "&c&lCANCEL"
+
+
+on inventory click:
+    if name of event-inventory contains "&8Kit Menu":
+        cancel event
+
+        if clicked inventory is event-inventory:
+            if index of event-slot is 10:
+                kitLoadGUI(player)
+
+            else if index of event-slot is 12:
+                close player's inventory
+                send "&eEnter the kit name you want to save:"
+                send "&7Use: &f/kit save <name>"
+
+            else if index of event-slot is 14:
+                kitDeleteGUI(player)
+
+            else if index of event-slot is 16:
+                kitIconListGUI(player)
+
+            else if index of event-slot is 22:
+                kitLayoutGUI(player)
+
+
+    else if name of event-inventory contains "&8Load Kit":
+        cancel event
+
+        if clicked inventory is event-inventory:
+            if index of event-slot is 49:
+                kitGUI(player)
+                stop
+
+            if event-slot is not air:
+                set {_kit} to uncolored name of event-slot
+
+                if {kits::*} contains {_kit}:
+                    execute player command "/kit load %{_kit}%"
+
+
+    else if name of event-inventory contains "&8Kit Layouts":
+        cancel event
+
+        if clicked inventory is event-inventory:
+            if index of event-slot is 49:
+                kitGUI(player)
+                stop
+
+            if event-slot is not air:
+                set {_kit} to uncolored name of event-slot
+
+                if {kits::*} contains {_kit}:
+                    # IMPORTANT:
+                    # Layout editor gets its own variable.
+                    set {kitlayouteditor::%player%::kit} to {_kit}
+
+                    execute player command "/kit layout edit %{_kit}%"
+
+
+    else if name of event-inventory contains "&8Edit Kit Icons":
+        cancel event
+
+        if clicked inventory is event-inventory:
+            if index of event-slot is 49:
+                kitGUI(player)
+                stop
+
+            if event-slot is not air:
+                set {_kit} to uncolored name of event-slot
+
+                if {kits::*} contains {_kit}:
+                    kitIconGUI(player, {_kit})
+
+
+    else if name of event-inventory contains "&8Delete Kit":
+        cancel event
+
+        if clicked inventory is event-inventory:
+            if index of event-slot is 49:
+                kitGUI(player)
+                stop
+
+            if event-slot is not air:
+                set {_kit} to uncolored name of event-slot
+
+                if {kits::*} contains {_kit}:
+                    set {kitdelete::%player%} to {_kit}
+                    kitDeleteConfirmGUI(player)
+
+
+    else if name of event-inventory contains "&8Delete &c":
+        cancel event
+
+        if clicked inventory is event-inventory:
+            if index of event-slot is 11:
+                set {_kit} to {kitdelete::%player%}
+
+                if {_kit} is set:
+                    execute player command "/kit delete %{_kit}%"
+
+                delete {kitdelete::%player%}
+                kitDeleteGUI(player)
+                stop
+
+            if index of event-slot is 15:
+                delete {kitdelete::%player%}
+                kitDeleteGUI(player)
+
+
+    else if name of event-inventory contains "&8Icon: &e":
+        cancel event
+
+        if clicked inventory is event-inventory:
+            set {_kit} to {kiteditor::%player%::kit}
+
+            if index of event-slot is 11:
+                set {_icon} to player's tool
+
+                if {_icon} is air:
+                    send "&cYou must be holding an item to use it as the kit icon!"
+                    stop
+
+                disenchant {_icon}
+                set {kit::%{_kit}%::icon} to {_icon}
+
+                send "&aKit icon updated!"
+                kitIconGUI(player, {_kit})
+
+
+            else if index of event-slot is 15:
+                if {kit::%{_kit}%::glow} is true:
+                    set {kit::%{_kit}%::glow} to false
+                    send "&cKit icon glow disabled!"
+                else:
+                    set {kit::%{_kit}%::glow} to true
+                    send "&aKit icon glow enabled!"
+
+                kitIconGUI(player, {_kit})
+
+
+            else if index of event-slot is 22:
+                delete {kiteditor::%player%::kit}
+                send "&aKit icon settings saved!"
+                kitIconListGUI(player)
+
+
+            else if index of event-slot is 26:
+                delete {kiteditor::%player%::kit}
+                kitIconListGUI(player)
+
+
+on quit:
+    delete {kiteditor::%player%::*}
+    delete {kitlayouteditor::%player%::*}
+    delete {kitdelete::%player%}
+
+
+on death:
+    delete {kiteditor::%victim%::*}
+    delete {kitlayouteditor::%victim%::*}
+    delete {kitdelete::%victim%}
+
+
+on inventory close:
+    if name of event-inventory contains "&8Delete &c":
+        delete {kitdelete::%player%::*}
+
+    else if name of event-inventory contains "&8Icon: &e":
+        delete {kiteditor::%player%::*}
+
+    else if name of event-inventory contains "&8Edit Layout: ":
+        delete {kitlayouteditor::%player%::*}

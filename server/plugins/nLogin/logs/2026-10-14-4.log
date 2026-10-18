@@ -1,0 +1,20 @@
+[2026/10/14 15:35:48 INFO]:           __             _       
+[2026/10/14 15:35:48 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/10/14 15:35:48 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/10/14 15:35:48 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/10/14 15:35:48 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/10/14 15:35:48 INFO]:                   |___/            
+[2026/10/14 15:35:48 INFO]:  By: www.nickuc.com - V 2.0.24
+[2026/10/14 15:35:48 INFO]:  
+[2026/10/14 15:35:49 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/14 15:35:49 DEBUG]: Messages were loaded in 259 ms (single file).
+[2026/10/14 15:35:49 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/14 15:35:49 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/14 15:35:49 DEBUG]: Settings were loaded in 328 ms.
+[2026/10/14 15:35:49 DEBUG]: Loading database...
+[2026/10/14 15:35:49 DEBUG]: Starting logger filter...
+[2026/10/14 15:35:49 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/10/14 15:39:11 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-14 15:39:11.703, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/14 15:39:11 INFO]: The user EntityZ096x has successfully logged in.
+[2026/10/14 15:40:49 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-10-14 15:40:49.228, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/14 15:40:59 INFO]: Successful plugin core shutdown (took 0.00s)

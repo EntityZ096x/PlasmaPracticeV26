@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1791196869941
+  login: 1791195726370
+money: '6.0'
+last-account-name: Zilver2
+lastlocation:
+  world: 2fa61f74-6ba8-4d4f-8e14-448148591117
+  world-name: Survival
+  x: 0.35460001162588606
+  y: 62.0
+  z: 6.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 2fa61f74-6ba8-4d4f-8e14-448148591117
+  world-name: Survival
+  x: 8117.127358292736
+  y: 105.0
+  z: -32984.088957142565
+  yaw: -151.3388671875
+  pitch: -29.2499942779541

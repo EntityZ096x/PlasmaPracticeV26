@@ -1,0 +1,64 @@
+# ╔══════════════════════════════════════════════════════════════╗
+# ║              CS CINEMATIC CONFIGURATION                       ║
+# ║              Version 2.0.0                                    ║
+# ╚══════════════════════════════════════════════════════════════╝
+
+# Default Settings
+defaults:
+  # Speed in blocks per second
+  speed: 2.0
+  # Delay at each position in seconds
+  delay: 2.0
+  # Interpolation type: LINEAR, EASE_IN, EASE_OUT, EASE_IN_OUT, SMOOTH, BOUNCE
+  interpolation: EASE_IN_OUT
+
+# Sound Settings
+sound:
+  # Default volume (0.0 - 1.0)
+  volume: 1.0
+  # Default pitch (0.5 - 2.0)
+  pitch: 1.0
+
+# Effects Settings
+effects:
+  # Screen shake intensity (0.0 - 2.0)
+  shake-intensity: 0.5
+  # Enable particles during cinematic
+  particles: true
+
+# Comedy Mode Settings
+comedy:
+  # Fast cuts speed multiplier
+  speed-multiplier: 3.0
+  # Sudden zoom intensity
+  zoom-intensity: 1.5
+  # Random funny sounds
+  random-sounds: true
+
+# Messages (supports color codes with &)
+messages:
+  prefix: "&8[&b&lCS&3Cinematic&8] "
+  no-permission: "&cYou don't have permission!"
+  not-editing: "&cYou're not editing any cinematic! Use &e/cs edit <name>"
+  cinematic-not-found: "&cCinematic '&e%name%&c' not found!"
+  position-not-found: "&cPosition #%id% not found!"
+  created: "&aCreated cinematic: &e%name%"
+  deleted: "&cDeleted cinematic: &e%name%"
+  saved: "&aSaved: &e%name% &7(File: cinematics/%name%.yml)"
+  loaded: "&aLoaded: &e%name%"
+  started: "&aStarting cinematic: &e%name%"
+  stopped: "&cCinematic stopped!"
+  pos-added: "&aPosition &e#%id% &aadded! &7(Total: %total%)"
+  pos-removed: "&cPosition &e#%id% &cremoved!"
+  pos-updated: "&aPosition &e#%id% &aupdated to current location!"
+  editing: "&aNow editing: &e%name% &7(%count% positions)"
+  stop-editing: "&aStopped editing"
+  sound-added: "&aSound &e%sound% &aadded to position &e#%id%"
+  teleport-set: "&aTeleport set for position &e#%id% &7-> &e%target%"
+  duration-set: "&aDuration set to &e%duration% seconds &afor position &e#%id%"
+  text-set: "&aText set for position &e#%id%"
+  comedy-enabled: "&d&l✦ Comedy Mode &aENABLED!"
+  comedy-disabled: "&d&l✦ Comedy Mode &cDISABLED!"
+  shake-set: "&aScreen shake &e(intensity: %intensity%) &aset for position &e#%id%"
+  zoom-set: "&aZoom &e(level: %level%) &aset for position &e#%id%"
+  fov-set: "&aFOV &e(%fov%) &aset for position &e#%id%"
