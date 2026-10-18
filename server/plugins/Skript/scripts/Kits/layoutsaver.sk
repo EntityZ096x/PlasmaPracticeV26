@@ -1,0 +1,87 @@
+# =========================================================
+# LAYOUT CLICK
+# =========================================================
+
+on inventory click:
+
+    if name of event-inventory contains "&8Edit Layout: ":
+
+        # SAVE
+        if event-slot is 49:
+            cancel event
+
+            set {_kit} to {kitlayouteditor::%player%::kit}
+
+            if {_kit} is not set:
+                send "&cERROR: No kit is currently being edited!"
+                close player's inventory
+                stop
+
+            # Delete old layout
+            delete {kitlayout::%player%::%{_kit}%::*}
+
+            # Save the new layout
+            loop 41 times:
+
+                set {_destination} to loop-number
+                set {_item} to slot ({_destination} - 1) of event-inventory
+
+                if {_item} is not air:
+
+                    loop lore of {_item}:
+
+                        if loop-value-2 contains "&8Parent Slot:":
+
+                            set {_parts::*} to split loop-value-2 at ": "
+                            set {_source} to last element of {_parts::*}
+
+                            set {kitlayout::%player%::%{_kit}%::%{_destination}%} to {_source}
+
+                            stop loop
+
+            send "&aYour &e%{_kit}% &akit layout has been saved!"
+
+            delete {kitlayouteditor::%player%::*}
+
+            close player's inventory
+            stop
+
+
+        # CANCEL
+        if event-slot is 53:
+            cancel event
+
+            delete {kitlayouteditor::%player%::*}
+
+            close player's inventory
+
+            send "&cKit layout editing cancelled!"
+            stop
+
+
+        # PREVENT INTERACTION WITH BOTTOM ROW
+        if event-slot >= 41:
+            cancel event
+            stop
+
+        # IMPORTANT:
+        # Slots 0-40 are NOT cancelled.
+        # This allows normal dragging/moving of the kit items.
+
+
+# =========================================================
+# LAYOUT DRAG
+# =========================================================
+
+on inventory drag:
+
+    if name of event-inventory contains "&8Edit Layout: ":
+
+        # Only prevent dragging into the bottom row.
+        loop event-slots:
+
+            if loop-value >= 41:
+                cancel event
+                stop
+
+        # Slots 0-40 are allowed.
