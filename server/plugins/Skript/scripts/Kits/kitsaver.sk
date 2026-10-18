@@ -1,0 +1,340 @@
+on tab complete of "/kit":
+    if tab arg-1 is not set:
+        set tab completions for position 1 to "load", "save", "delete", and "layout"
+
+    if tab arg-1 is "layout":
+        if tab arg-2 is not set:
+            set tab completions for position 2 to "edit" and "delete"
+        else if tab arg-2 is "edit":
+            set tab completions for position 3 to {kits::*}
+        else if tab arg-2 is "delete":
+            set tab completions for position 3 to {kits::*}
+
+    else if tab arg-1 is "load", "save", or "delete":
+        set tab completions for position 2 to {kits::*}
+        
+        set tab completions for position 3 to all players
+
+
+command /kit [<text>] [<text>] [<text>]:
+    trigger:
+        if {debug.%player%} is not "enabled":
+            if sender is not console:
+                send "<#ff0000>You're not allowed to do that."
+                stop
+
+        # =================================================
+        # SAVE
+        # =================================================
+
+        if arg-1 is "save":
+
+            if arg-2 is not set:
+                send "&r&cSpecify a kit name!"
+                stop
+
+            set {_kit} to arg-2
+
+            loop 36 times:
+                set {kit::%{_kit}%::items::%loop-number%} to slot (loop-number - 1) of player's inventory
+
+            set {kit::%{_kit}%::helmet} to player's helmet
+            set {kit::%{_kit}%::chestplate} to player's chestplate
+            set {kit::%{_kit}%::leggings} to player's leggings
+            set {kit::%{_kit}%::boots} to player's boots
+            set {kit::%{_kit}%::offhand} to player's offhand item
+
+            if {kits::*} does not contain {_kit}:
+                add {_kit} to {kits::*}
+
+            if {kit::%{_kit}%::icon} is not set:
+                set {kit::%{_kit}%::icon} to chest
+
+            if {kit::%{_kit}%::glow} is not set:
+                set {kit::%{_kit}%::glow} to false
+
+            send "&aKit &e%{_kit}% &ahas been saved!"
+            stop
+
+
+        # =================================================
+        # LOAD
+        # =================================================
+
+        else if arg-1 is "load":
+
+            if arg-2 is not set:
+                send "&r&cSpecify a kit!"
+                stop
+
+            set {_kit} to arg-2
+
+            if {kits::*} does not contain {_kit}:
+                send "&r&cThat kit does not exist!"
+                send "&r&cAvailable kits: %{kits::*}%"
+                stop
+
+            if arg-3 is set:
+                set {_p} to arg-3 parsed as player
+                if arg-3 is "*":
+                    loop all players:
+                        execute console command "/kit load %arg-2% %loop-player%"
+                    stop
+            else:
+                set {_p} to player
+
+            if {_p} is not set:
+                send "&cThat player is not online!"
+                stop
+
+            clear {_p}'s inventory
+
+            set {_p}'s helmet to air
+            set {_p}'s chestplate to air
+            set {_p}'s leggings to air
+            set {_p}'s boots to air
+            set {_p}'s offhand item to air
+
+            # =================================================
+            # CUSTOM LAYOUT
+            # =================================================
+
+            if {kitlayout::%{_p}%::%{_kit}%::*} is set:
+
+                loop 41 times:
+
+                    set {_destination} to loop-number
+                    set {_source} to {kitlayout::%{_p}%::%{_kit}%::%{_destination}%}
+
+                    if {_source} is set:
+
+                        set {_source} to {_source} parsed as integer
+
+                        delete {_item}
+
+                        if {_source} <= 36:
+                            set {_item} to {kit::%{_kit}%::items::%{_source}%}
+
+                        else if {_source} is 37:
+                            set {_item} to {kit::%{_kit}%::helmet}
+
+                        else if {_source} is 38:
+                            set {_item} to {kit::%{_kit}%::chestplate}
+
+                        else if {_source} is 39:
+                            set {_item} to {kit::%{_kit}%::leggings}
+
+                        else if {_source} is 40:
+                            set {_item} to {kit::%{_kit}%::boots}
+
+                        else if {_source} is 41:
+                            set {_item} to {kit::%{_kit}%::offhand}
+
+                        if {_item} is set:
+                            if {_item} is not air:
+
+                                if {_destination} <= 36:
+                                    set slot ({_destination} - 1) of {_p}'s inventory to {_item}
+
+                                else if {_destination} is 37:
+                                    set {_p}'s helmet to {_item}
+
+                                else if {_destination} is 38:
+                                    set {_p}'s chestplate to {_item}
+
+                                else if {_destination} is 39:
+                                    set {_p}'s leggings to {_item}
+
+                                else if {_destination} is 40:
+                                    set {_p}'s boots to {_item}
+
+                                else if {_destination} is 41:
+                                    set {_p}'s offhand item to {_item}
+
+
+            # =================================================
+            # DEFAULT LAYOUT
+            # =================================================
+
+            else:
+
+                loop 36 times:
+                    set slot (loop-number - 1) of {_p}'s inventory to {kit::%{_kit}%::items::%loop-number%}
+
+                set {_p}'s helmet to {kit::%{_kit}%::helmet}
+                set {_p}'s chestplate to {kit::%{_kit}%::chestplate}
+                set {_p}'s leggings to {kit::%{_kit}%::leggings}
+                set {_p}'s boots to {kit::%{_kit}%::boots}
+                set {_p}'s offhand item to {kit::%{_kit}%::offhand}
+
+            send "&aKit &e%{_kit}% &ahas been loaded to %{_p}%!"
+            stop
+
+
+        # =================================================
+        # DELETE
+        # =================================================
+
+        else if arg-1 is "delete":
+
+            if arg-2 is not set:
+                send "&r&cSpecify a kit!"
+                stop
+
+            set {_kit} to arg-2
+
+            if {kits::*} does not contain {_kit}:
+                send "&r&cThat kit does not exist!"
+                send "&r&cAvailable kits: %{kits::*}%"
+                stop
+
+            loop 36 times:
+                delete {kit::%{_kit}%::items::%loop-number%}
+
+            delete {kit::%{_kit}%::helmet}
+            delete {kit::%{_kit}%::chestplate}
+            delete {kit::%{_kit}%::leggings}
+            delete {kit::%{_kit}%::boots}
+            delete {kit::%{_kit}%::offhand}
+            delete {kit::%{_kit}%::icon}
+            delete {kit::%{_kit}%::glow}
+
+            # Delete layouts belonging to this kit
+            loop all players:
+                delete {kitlayout::%loop-player%::%{_kit}%::*}
+
+            remove {_kit} from {kits::*}
+
+            send "&aKit &e%{_kit}% &ahas been deleted!"
+            stop
+
+
+        # =================================================
+        # LAYOUT
+        # =================================================
+
+        else if arg-1 is "layout":
+
+            # =================================================
+            # LAYOUT EDIT
+            # =================================================
+
+            if arg-2 is "edit":
+
+                if arg-3 is not set:
+                    send "&r&cSpecify a kit name!"
+                    stop
+
+                set {_kit} to arg-3
+
+                if {kits::*} does not contain {_kit}:
+                    send "&cThat kit does not exist!"
+                    stop
+
+                # IMPORTANT:
+                # Set the variable BEFORE opening the inventory.
+                delete {kitlayouteditor::%player%::*}
+                set {kitlayouteditor::%player%::kit} to {_kit}
+
+                open chest inventory with 6 rows named "&8Edit Layout: &e%{_kit}%" to player
+
+                # Fill editable slots with the original kit
+                loop 41 times:
+
+                    set {_source} to loop-number
+                    delete {_item}
+
+                    if {_source} <= 36:
+                        set {_item} to {kit::%{_kit}%::items::%{_source}%}
+
+                    else if {_source} is 37:
+                        set {_item} to {kit::%{_kit}%::helmet}
+
+                    else if {_source} is 38:
+                        set {_item} to {kit::%{_kit}%::chestplate}
+
+                    else if {_source} is 39:
+                        set {_item} to {kit::%{_kit}%::leggings}
+
+                    else if {_source} is 40:
+                        set {_item} to {kit::%{_kit}%::boots}
+
+                    else if {_source} is 41:
+                        set {_item} to {kit::%{_kit}%::offhand}
+
+                    if {_item} is set:
+                        if {_item} is not air:
+
+                            # Make a copy so the original stored item
+                            # is not modified by adding lore.
+                            set {_display} to {_item}
+
+                            add "&r&8Parent Slot: %{_source}%" to lore of {_display}
+
+                            set slot ({_source} - 1) of player's current inventory to {_display}
+
+
+                # SAVE BUTTON
+                set slot 49 of player's current inventory to lime wool named "&a&lSAVE"
+
+                # CANCEL BUTTON
+                set slot 53 of player's current inventory to red wool named "&c&lCANCEL"
+
+
+                # Bottom row
+                loop 9 times:
+
+                    set {_slot} to 44 + loop-number
+
+                    if {_slot} is not 49:
+                        if {_slot} is not 53:
+                            set slot {_slot} of player's current inventory to gray stained glass pane named " "
+
+
+            # =================================================
+            # LAYOUT DELETE
+            # =================================================
+
+            else if arg-2 is "delete":
+
+                if arg-3 is not set:
+                    send "&r&cSpecify a kit name!"
+                    stop
+
+                set {_kit} to arg-3
+
+                if {kits::*} does not contain {_kit}:
+                    send "&cThat kit does not exist!"
+                    stop
+
+                if {kitlayout::%player%::%{_kit}%::*} is set:
+
+                    delete {kitlayout::%player%::%{_kit}%::*}
+
+                    send "&r&aDeleted your kit layout for &e%{_kit}%&a!"
+
+                else:
+
+                    send "&r&cYou do not have a layout for this kit!"
+
+            else:
+                kitGUI(player)
+
+        else:
+            kitGUI(player)
+
+
+# =========================================================
+# CLEANUP
+# =========================================================
+
+on quit:
+    delete {kiteditor::%player%::*}
+    delete {kitlayouteditor::%player%::*}
+    delete {kitdelete::%player%}
+
+
+on death:
+    delete {kiteditor::%victim%::*}
+    delete {kitlayouteditor::%victim%::*}
+    delete {kitdelete::%victim%}

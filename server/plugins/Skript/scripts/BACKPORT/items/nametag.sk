@@ -1,0 +1,7 @@
+on load:
+    register shapeless recipe:
+        id: "backport:nametag"
+        result: name tag
+        ingredients:
+            add paper to ingredients
+            add iron nugget to ingredients
