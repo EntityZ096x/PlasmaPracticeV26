@@ -35,7 +35,7 @@ command /worldswitch [<text>] [<player>]:
                 execute console command "/mvtp %{_p}% world"
             stop
         if arg-1 is "KitPvP":
-            execute console command "/mvtp %{_p}% %arg-1% --unsafe"
+            teleport {_p} to location(0.5, 150.5, 15.5, world "KitPvP")
             stop
         if {lastloc.%{_p}%.%arg-1%} is set:
             teleport {_p} to {lastloc.%{_p}%.%arg-1%}

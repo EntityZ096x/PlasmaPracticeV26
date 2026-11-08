@@ -2,26 +2,31 @@ on right click:
     if player's tool's name is "&r&lMinigun":
         cancel event
         loop 5 times:
-            loop 10 times:
-                shoot a spectral arrow from player at speed 3
-                set {_bullet} to last shot projectile
-                set metadata value "minigun_bullet" of {_bullet} to true
-                set {_x} to random number between -2.5 and 2.5
-                set {_y} to random number between -2.5 and 2.5
-                set {_z} to random number between -2.5 and 2.5
-                set {_targetLoc} to location of player
-                set yaw of {_targetLoc} to yaw of player's location
-                set pitch of {_targetLoc} to pitch of player's location
-                add {_x} to x-coordinate of {_targetLoc}
-                add {_y} to y-coordinate of {_targetLoc}
-                add {_z} to z-coordinate of {_targetLoc}
-                teleport {_bullet} to {_targetLoc}
-                push {_bullet} in direction of player at speed 3
+            if player's tool's lore contains "&bSpectral Storm":
+                loop 3 times:
+                    if player's inventory contains spectral arrow:
+                        shoot a spectral arrow from player
+                        remove 1 spectral arrow from player's inventory
+                        set {_arrow} to last shot spectral arrow
+                        set int tag "MinigunBullet" of custom nbt of {_arrow} to 1
+                play sound "entity.zombie.attack_iron_door" with volume 0.2 and pitch 15 at player
+            else:
+                if player's inventory contains spectral arrow:
+                    shoot a spectral arrow from player
+                    play sound "entity.zombie.attack_iron_door" with volume 0.2 and pitch 15 at player
+                    remove 0 spectral arrow from player's inventory
+                    set {_arrow} to last shot spectral arrow
+                    set int tag "MinigunBullet" of custom nbt of {_arrow} to 1
             wait 1 tick
-            play sound "entity.zombie.attack_iron_door" with volume 0.2 and pitch 15 at player
 
-on shoot:
-    if metadata value "minigun_bullet" of projectile is true:
-        wait 20 ticks
-        if projectile is alive:
-            delete projectile
+on projectile hit:
+    if int tag "MinigunBullet" of custom nbt of projectile is 1:
+        wait 5 ticks
+        delete the projectile
+
+on damage:
+    if attacker's tool's name is "&r&lMinigun":
+        if damage cause was projectile:
+            wait 1 tick
+            set victim's invulnerability time to 0 seconds
+

@@ -1,3 +1,0 @@
-on block break:
-    stop
-    break blocks in radius 2 around target block with effects and with xp using player's tool

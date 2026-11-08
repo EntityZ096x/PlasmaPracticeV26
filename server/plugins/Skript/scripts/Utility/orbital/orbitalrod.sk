@@ -47,7 +47,7 @@ function Orbital(l: location, type: text, p: player):
             add 0.26 * 0.8 to {_speed}
 
     else if {_type} is "stabarrow":
-        add 50 to y position of {_l}
+        add 50 to y coord of {_l}
         loop 3 times:
             loop 50 times:
                 set {_o} to {_l}

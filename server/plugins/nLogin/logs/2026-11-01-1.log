@@ -1,0 +1,31 @@
+[2026/11/01 11:50:14 INFO]:           __             _       
+[2026/11/01 11:50:14 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/11/01 11:50:14 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/11/01 11:50:14 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/11/01 11:50:14 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/11/01 11:50:14 INFO]:                   |___/            
+[2026/11/01 11:50:14 INFO]:  By: www.nickuc.com - V 2.0.24
+[2026/11/01 11:50:14 INFO]:  
+[2026/11/01 11:50:15 DEBUG]: Loading the messages_en.yml message file...
+[2026/11/01 11:50:15 DEBUG]: Messages were loaded in 204 ms (single file).
+[2026/11/01 11:50:15 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/11/01 11:50:15 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/11/01 11:50:15 DEBUG]: Settings were loaded in 361 ms.
+[2026/11/01 11:50:15 DEBUG]: Loading database...
+[2026/11/01 11:50:15 DEBUG]: Starting logger filter...
+[2026/11/01 11:50:16 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/11/01 11:50:28 INFO]: Download finished (signature = OK, hash = aef8dee2671ed3c3cc115fbe13db5b28fc5021e21fbbe3b049433ca13434b412, took 14504ms)
+[2026/11/01 11:54:58 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-11-01 11:54:58.367, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/01 11:54:58 INFO]: The user EntityZ096x has successfully logged in.
+[2026/11/01 12:11:28 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-11-01 12:11:28.023, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/11/01 12:11:49 DEBUG]: The EntityZ096x (127.0.0.1) player entered an incorrect password
+[2026/11/01 12:11:53 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-11-01 12:11:53.863, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/01 12:11:53 INFO]: The user EntityZ096x has successfully logged in.
+[2026/11/01 12:15:15 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-11-01 12:15:15.369, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/11/01 12:19:55 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-11-01 12:19:55.947, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/01 12:19:55 INFO]: The user EntityZ096x has successfully logged in.
+[2026/11/01 12:22:56 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-11-01 12:22:56.068, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/11/01 12:28:58 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$00tKtgsIVIjzEYpCJE5qZed6VAk0qtsNoiubnD9vtSHvJ266QwpUG', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-11-01 12:28:58.124, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/01 12:28:58 INFO]: The user EntityZ096x has successfully logged in.
+[2026/11/01 12:32:40 INFO]: Update was successfully queued, do not forcibly stop your server. (v2.0.24 819da0 => v2.0.25 d0117d)
+[2026/11/01 12:32:40 INFO]: Successful plugin core shutdown (took 0.84s)

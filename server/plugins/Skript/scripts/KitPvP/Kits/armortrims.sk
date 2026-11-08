@@ -1,0 +1,29 @@
+command /kitarmortrim:
+    trigger:
+        set {_h} to player's helmet
+        set {_c} to player's chestplate
+        set {_l} to player's leggings
+        set {_b} to player's boots
+
+        delete {KitArmortrim::%player%::helmet}
+        delete {KitArmortrim::%player%::chestplate}
+        delete {KitArmortrim::%player%::leggings}
+        delete {KitArmortrim::%player%::boots}
+
+        if {_h} is not air:
+            if armor trim of {_h} is set:
+                set {KitArmortrim::%player%::helmet} to armor trim of {_h}
+
+        if {_c} is not air:
+            if armor trim of {_c} is set:
+                set {KitArmortrim::%player%::chestplate} to armor trim of {_c}
+
+        if {_l} is not air:
+            if armor trim of {_l} is set:
+                set {KitArmortrim::%player%::leggings} to armor trim of {_l}
+
+        if {_b} is not air:
+            if armor trim of {_b} is set:
+                set {KitArmortrim::%player%::boots} to armor trim of {_b}
+
+        send "&aYour armor trims have been saved!"

@@ -12,8 +12,7 @@ on damage:
         cancel event
 
 on exit of region named "kitpvp_arena":
-    delete {KitPvP::invincibility::%player%}
-    kill the player
+    cancel event
 
 on damage:
     if attacker is a player:
@@ -31,25 +30,66 @@ on enter of region named "kitpvp_spawn":
 on death:
     if region "kitpvp_arena" in world of victim contains victim:
         if attacker is set:
+            add 1 to {KitPvP::killstreak::%attacker%}
             send "<gradient:#F54927:#FFD900>&lKitPvP</gradient> &r&8»&r <#ff0000>KILL! Your current killstreak: %{KitPvP::killstreak::%attacker%}%" to attacker
             send "<gradient:#F54927:#FFD900>&lKitPvP</gradient> &r&8»&r <#ff0000>You've been killed by %attacker%" to victim
 
             execute console command "/kit load %{KitPvP::kit::%attacker%}% %attacker%"
-            add 1 to {KitPvP::killstreak::%attacker%}
+            
             set {KitPvP::killstreak::%victim%} to 0
         force victim to respawn
-        send title "<#ff0000>&lYOU DIED" to victim
-        chance of 25%:
-            send subtitle "&r&fSkill issue." to victim
-            stop
-        chance of 25%:
-            send subtitle "&r&fMin aura." to victim
-            stop
-        chance of 25%:
-            send subtitle "&r&fGit gud." to victim
-            stop
-            
-        send subtitle "&r&fMUHAHAHAHA" to victim
+
+        add "Skill issue." to {_deathMessages::*}
+        add "git gud" to {_deathMessages::*}
+        add "stage 4 terminal skill issue" to {_deathMessages::*}
+        add "my grandma better than u" to {_deathMessages::*}
+        add "MUHHAHAHA" to {_deathMessages::*}
+        add "ur trashhhh" to {_deathMessages::*}
+        add "min aura" to {_deathMessages::*}
+        add "NPC type shi" to {_deathMessages::*}
+        add "free elo" to {_deathMessages::*}
+        add "maybe try smth else?" to {_deathMessages::*}
+        add "even the bots fight better" to {_deathMessages::*}
+        add "cooked." to {_deathMessages::*}
+        add "afk ahh" to {_deathMessages::*}
+        add "..." to {_deathMessages::*}
+        add "consider uninstalling" to {_deathMessages::*}
+        add "the end" to {_deathMessages::*}
+        add "how did u even win the sperm race vro" to {_deathMessages::*}
+        add "holy shit that sucked" to {_deathMessages::*}
+        add "Skill issue." to {_deathMessages::*}
+        add "git gud" to {_deathMessages::*}
+        add "stage 4 terminal skill issue" to {_deathMessages::*}
+        add "my grandma better than u" to {_deathMessages::*}
+        add "MUHHAHAHA" to {_deathMessages::*}
+        add "ur trashhhh" to {_deathMessages::*}
+        add "min aura" to {_deathMessages::*}
+        add "NPC type shi" to {_deathMessages::*}
+        add "free elo" to {_deathMessages::*}
+        add "maybe try smth else?" to {_deathMessages::*}
+        add "even the bots fight better" to {_deathMessages::*}
+        add "cooked." to {_deathMessages::*}
+        add "afk ahh" to {_deathMessages::*}
+        add "..." to {_deathMessages::*}
+        add "consider uninstalling" to {_deathMessages::*}
+        add "the end" to {_deathMessages::*}
+        add "how did u even win the sperm race vro" to {_deathMessages::*}
+        add "[PROGRESS DETECTED, INITIALIZING PROTOCOL: FUCK YOU]" to {_deathMessages::*}
+        add "ur ahh" to {_deathMessages::*}
+        add "death speedrun any%%" to {_deathMessages::*}
+        add "ur pc deserves better" to {_deathMessages::*}
+        add "LT6" to {_deathMessages::*}
+        add "nigger" to {_deathMessages::*}
+        add "sniped" to {_deathMessages::*}
+        add "ts not tuff" to {_deathMessages::*}
+        add "zero game sense" to {_deathMessages::*}
+        add "bro had ONE job" to {_deathMessages::*}
+        add "top 5 dumbest moments" to {_deathMessages::*}
+        add "that's enough Minecraft for today" to {_deathMessages::*}
+        add "I'm reporting you for feeding." to {_deathMessages::*}
+        
+        set {_deathMessage} to random element out of {_deathMessages::*}
+        send title "<#ff0000>&lYOU DIED!" with subtitle "&r&f%{_deathMessage}%" to victim
 
 on right click:
     if player's tool is netherite sword:
@@ -58,30 +98,42 @@ on right click:
             open chest inventory with 3 rows named "          &8» &d&lSelect Kit &8«" to player
             wait 1 tick
 
-            # GUI decoration
             loop 27 times:
                 set slot (loop-number - 1) of player's current inventory to gray stained glass pane named " "
 
-            # 5 kit placeholders
-            set slot 11 of player's current inventory to mace named "&b&lMace" with lore "&7Click to select this kit."
-            set slot 12 of player's current inventory to end crystal named "&b&lCrystal" with lore "&7Click to select this kit."
-            set slot 13 of player's current inventory to netherite sword named "&b&lDefault" with lore "&7Click to select this kit."
-            set slot 14 of player's current inventory to lime stained glass pane named "&a&lKit 4" with lore "&7Click to select this kit."
-            set slot 15 of player's current inventory to lime stained glass pane named "&a&lKit 5" with lore "&7Click to select this kit."
+            set slot 11 of player's current inventory to mace named "&b&lMace" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 12 of player's current inventory to end crystal named "&b&lCrystal" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 13 of player's current inventory to netherite sword named "&b&lDefault" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 14 of player's current inventory to mace named "&b&lDueloMacestro" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 15 of player's current inventory to lime stained glass pane named "&a&lKit 5" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
 
 on inventory click:
     if name of player's current inventory is "          &8» &d&lSelect Kit &8«":
         cancel event
-        if clicked slot is 11:
-            set {KitPvP::kit::%player%} to "Mace"
-            send "&r&aSelected the &eMace &aKit" to player
-            close player's inventory
-        if clicked slot is 12:
-            set {KitPvP::kit::%player%} to "Crystal"
-            send "&r&aSelected the &eCrystal &aKit" to player
-            close player's inventory
-        if clicked slot is 13:
-            set {KitPvP::kit::%player%} to "Default"
-            send "&r&aSelected the &eDefault &aKit" to player
-            close player's inventory
+        if click type is left mouse button:
+            if clicked slot is 11:
+                set {KitPvP::kit::%player%} to "Mace"
+                send "&r&aSelected the &eMace &aKit" to player
+                close player's inventory
+            if clicked slot is 12:
+                set {KitPvP::kit::%player%} to "Crystal"
+                send "&r&aSelected the &eCrystal &aKit" to player
+                close player's inventory
+            if clicked slot is 13:
+                set {KitPvP::kit::%player%} to "Default"
+                send "&r&aSelected the &eDefault &aKit" to player
+                close player's inventory
+            if clicked slot is 14:
+                set {KitPvP::kit::%player%} to "DueloMacestro"
+                send "&r&aSelected the &eDueloMacestro &aKit" to player
+                close player's inventory
+        if click type is right mouse button:
+            if clicked slot is 11:
+                execute player command "/kit layout edit Mace"
+            if clicked slot is 12:
+                execute player command "/kit layout edit Crystal"
+            if clicked slot is 13:
+                execute player command "/kit layout edit Default"
+            if clicked slot is 14:
+                execute player command "/kit layout edit DueloMacestro"
         

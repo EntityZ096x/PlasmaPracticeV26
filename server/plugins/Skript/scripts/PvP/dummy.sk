@@ -1,0 +1,65 @@
+import:
+    net.citizensnpcs.api.trait.trait.Equipment
+    net.citizensnpcs.api.trait.trait.Equipment$EquipmentSlot
+
+command /dummy:
+    trigger:
+        if {dummy::%player%} is set:
+            teleport {dummy::%player%} to player
+            send "Teleported your dummy to u!"
+        else:
+            spawn a player citizen named "%player's name%'s Dummy" at location of player
+            set {_npc} to last created npc
+            {_npc}.setProtected(false)
+
+            set {_equipment} to {_npc}.getOrAddTrait(Equipment.class)
+
+            set {_helmet} to 1 of netherite helmet
+            set {_chestplate} to 1 of netherite chestplate
+            set {_leggings} to 1 of netherite leggings
+            set {_boots} to 1 of netherite boots
+
+            loop {_helmet}, {_chestplate}, {_leggings}, {_boots}:
+                set level of protection of loop-value to 4
+                set level of unbreaking of loop-value to 999
+
+            {_equipment}.set(EquipmentSlot.HELMET, {_helmet})
+            {_equipment}.set(EquipmentSlot.CHESTPLATE, {_chestplate})
+            {_equipment}.set(EquipmentSlot.LEGGINGS, {_leggings})
+            {_equipment}.set(EquipmentSlot.BOOTS, {_boots})
+            {_equipment}.set(EquipmentSlot.OFF_HAND, 1 of totem of undying)
+            send "&aDummy created"
+            set {dummy::%player%} to {_npc}
+
+on resurrect:
+    set {_dummy} to event-entity
+    if {_dummy} is a citizen:
+        wait 1 tick
+        if {_dummy} is alive:
+            set {_npc} to event-entity
+            set {_equipment} to {_npc}.getOrAddTrait(Equipment.class)
+
+            set {_helmet} to 1 of netherite helmet
+            set {_chestplate} to 1 of netherite chestplate
+            set {_leggings} to 1 of netherite leggings
+            set {_boots} to 1 of netherite boots
+
+            loop {_helmet}, {_chestplate}, {_leggings}, {_boots}:
+                set level of protection of loop-value to 4
+                set level of unbreaking of loop-value to 999
+            
+            set {_dummy}'s helmet to {_helmet}
+            set {_dummy}'s chestplate to {_chestplate}
+            set {_dummy}'s leggings to {_leggings}
+            set {_dummy}'s boots to {_boots}
+            set {_dummy}'s offhand item to totem of undying
+            set {_dummy}'s health to 10
+
+command /deldummy:
+    trigger:
+        if {dummy::%player%} is set:
+            send "&aDummy deleted!"
+            delete npc {dummy::%player%}
+            delete {dummy::%player%}
+        else:
+            send "&cU dont have a dummy!"

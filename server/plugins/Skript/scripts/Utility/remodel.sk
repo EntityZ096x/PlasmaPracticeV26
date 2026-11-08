@@ -1,0 +1,13 @@
+command /itemmodel <text>:
+    trigger:
+        set player's tool's item model to arg-1
+
+command /delitemmodel:
+    trigger:
+        delete player's tool's item model
+
+command /unarmortrim:
+    permission: op
+    trigger:
+        reset armor trim of player's tool
+        send "&aRemoved the armor trim!"

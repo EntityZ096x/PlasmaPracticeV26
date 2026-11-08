@@ -6,6 +6,9 @@ command /code [<text>]:
         if arg-1 is "BruhGuy123wasHere":
             add 100 to {CurrencyPremium.%player's name%}
             send "<gradient:#9E00FF:#FF00B3>You've redeemed the code 'BruhGuy123wasHere' for 100 ✦ Prisms!</gradient>"
+        if arg-1 is "diddled":
+            add 100 to {CurrencyPremium.%player's name%}
+            send "<gradient:#9E00FF:#FF00B3>You've redeemed the code 'Diddled' for 100 ✦ Prisms!</gradient>"
         else:
             send "&r&cThis code is either expired or doesnt exist!"
             stop

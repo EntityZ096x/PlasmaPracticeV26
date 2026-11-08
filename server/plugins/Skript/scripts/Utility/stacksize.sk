@@ -1,0 +1,3 @@
+command /stacksize <number>:
+    trigger:
+        set amount of player's tool to arg-1

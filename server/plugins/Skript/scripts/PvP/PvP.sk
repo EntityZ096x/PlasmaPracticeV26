@@ -1,0 +1,113 @@
+on load:
+    delete {pvp::*}
+
+on damage:
+    victim is a player
+    attacker is a player
+    attacker is not victim
+
+    set {_v} to victim's name
+    set {_a} to attacker's name
+
+    set {pvp::time::%{_a}%} to now + 15 seconds
+    set {pvp::time::%{_v}%} to now + 15 seconds
+
+    if {pvp::inpvp::*} does not contain {_a}:
+        add {_a} to {pvp::inpvp::*}
+    if {pvp::inpvp::*} does not contain {_v}:
+        add {_v} to {pvp::inpvp::*}
+
+    if {pvp::enemy::%{_v}%} is not {_a}:
+        send "<#ff0000>&lPvP&r &8»<#ff0000> You have been attacked by &e%{_a}%<#ff0000>! Do not log off!" to victim
+    if {pvp::enemy::%{_a}%} is not {_v}:
+        send "<#ff0000>&lPvP&r &8»<#ff0000> You attacked &e%{_v}%<#ff0000>! Do not log off!" to attacker
+
+    set {pvp::enemy::%{_a}%} to {_v}
+    set {pvp::enemy::%{_v}%} to {_a}
+
+every 4 ticks:
+    loop {pvp::inpvp::*}:
+        set {_p} to loop-value
+        loop all players:
+            if name of loop-player = {_p}:
+                set {_p} to loop-player
+                stop loop
+
+        set {_e} to {pvp::enemy::%{_p}'s name%}
+        loop all entities:
+            if name of loop-entity = {_e}:
+                set {_e} to loop-entity
+                stop loop
+
+        set {_t} to {pvp::time::%{_p}'s name%}
+
+        if now >= {_t}:
+            delete {pvp::time::%{_p}'s name%}
+            delete {pvp::enemy::%{_p}'s name%}
+            remove {_p}'s name from {pvp::inpvp::*}
+            send action bar "&aYou're no longer in combat!" to {_p}
+        else:
+
+            set {_remaining} to difference between {pvp::time::%{_p}'s name%} and now
+            set {_filled} to ceiling({_remaining} / 1 seconds)
+
+            set {_bar::*} to "&r<gradient:#ff0000:#990000>"
+
+            loop {_filled} - 1 times:
+                add "|" to {_bar::*}
+
+            add "&l|</gradient>&r&7" to {_bar::*}
+
+            loop 15 - {_filled} times:
+                add "|" to {_bar::*}
+
+            set {_bar} to join {_bar::*} with ""
+
+            set {_totemcount} to amount of totem of undying in {_e}'s inventory
+            
+            if {_totemcount} > 0:
+                set {_totems} to " &a%{_totemcount}%"
+            else:
+                set {_totems} to ""
+
+            if {_e}'s absorption amount > 0:
+                send action bar "&r<gradient:#ff0000:#990000>%{_e}'s name%: %{_e}'s health% ❤</gradient> &6%{_e}'s absorption amount / 2%%{_totems}%&r&7 | &r&7&l[ %{_bar}% &r&7&l]" to {_p}
+            else:
+                send action bar "&r<gradient:#ff0000:#990000>%{_e}'s name%: %{_e}'s health% ❤</gradient>%{_totems}%&r&7 | &r&7&l[ %{_bar}% &r&7&l]" to {_p}
+
+on leave:
+    if {pvp::inpvp::*} contains player's name:
+        kill player
+        broadcast "<#ff0000>&lPvP&r &8»<#ff0000> &e%player%<#ff0000> tried to escape combat!"
+        remove player's name from {pvp::inpvp::*}
+        delete {pvp::enemy::%player's name%}
+        delete {pvp::time::%player's name%}
+
+on death:
+    wait 1 tick
+    if attacker is set:
+        send action bar "&aYou've killed %victim's name%!" to attacker
+    remove victim's name from {pvp::inpvp::*}
+    set {_e} to {pvp::enemy::%victim's name%}
+    delete {pvp::enemy::%victim's name%}
+    delete {pvp::time::%victim's name%}
+    
+    remove {_e} from {pvp::inpvp::*}
+    delete {pvp::enemy::%{_e}%}
+    delete {pvp::time::%{_e}%}
+    
+    
+
+on command:
+    if {pvp::inpvp::*} contains player's name:
+        if {pvp::allowedcmds::*} doesn't contain command:
+            if player is "EntityZ096x":
+                stop
+            cancel event
+            send "<#ff0000>&lPvP&r &8»<#ff0000> You cannot use this command while in combat!" to player
+
+on load:
+    delete {pvp::allowedcmds::*}
+    add "suicide" to {pvp::allowedcmds::*}
+    add "afk" to {pvp::allowedcmds::*}
+    add "msg" to {pvp::allowedcmds::*}

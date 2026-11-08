@@ -1,0 +1,102 @@
+command /altar.create <text>:
+    trigger:
+        set {_loc} to player's target block
+        add 1 to y coordinate of {_loc}
+
+        if {altar.pedestals::%{_loc}%} is set:
+            send "<#ff0000>There is already an altar here!"
+            stop
+
+        set block at {_loc} to barrier
+
+        set {_pedestalItem} to lodestone
+        set item model of {_pedestalItem} to "minecraft:altar_pedestal"
+
+        spawn item display at {_loc}:
+            set item of entity to {_pedestalItem}
+            set billboard of entity to fixed
+
+        set {_display} to last spawned entity
+
+        set {_item} to arg-1 parsed as item
+        set {_HoloItem} to arg-1
+        set {_CraftableItem} to arg-1
+
+        if arg-1 is "heavy_mace":
+            set {_item} to a mace
+            set item model of {_item} to "minecraft:heavy_mace"
+            set {_HoloItem} to "<#ff0000>Maelstrom<reset>"
+
+        if arg-1 is "lightweight_mace":
+            set {_item} to a mace
+            set item model of {_item} to "minecraft:lightweight_mace"
+            set {_HoloItem} to "&bZephyr<reset>"
+
+        set {_itemloc} to {_loc}
+        add 1 to y coordinate of {_itemloc}
+
+        spawn item display at {_itemloc}:
+            set item of entity to {_item}
+            set item display transform of entity to ground
+
+        set {_itemDisplay} to last spawned entity
+
+        set {_holoText} to "&f%{_HoloItem}% <gradient:#9E00FF:#FF00B3>Altar</gradient>"
+        set {_holoLoc} to {_loc}
+        add 2.5 to y coordinate of {_holoLoc}
+
+        spawn text display at {_holoLoc}:
+            set text of entity to {_holoText}
+            set billboard of entity to center
+
+        set {_hologram} to last spawned entity
+
+        set {altar.pedestals::%{_loc}%} to {_itemDisplay}
+        set {altar.pedestals::%{_loc}%::display} to {_display}
+        set {altar.pedestals::%{_loc}%::itemDisplay} to {_itemDisplay}
+        set {altar.pedestals::%{_loc}%::item} to {_item}
+        set {altar.pedestals::%{_loc}%::craftableitem} to {_CraftableItem}
+        set {altar.pedestals::%{_loc}%::hologram} to {_hologram}
+        set {altar.locations::%{_loc}%} to {_loc}
+
+        send "<#00ff00>Altar created successfully!"
+
+every tick:
+    loop {altar.locations::*}:
+        set {_loc} to loop-value
+        set {_itemloc} to {_loc}
+        add 1 to y coordinate of {_itemloc}
+
+        loop all item displays in radius 2 around {_loc}:
+            if distance between loop-entity and {_itemloc} < 0.5:
+                set {_yaw} to yaw of loop-entity
+                add -3 to {_yaw}
+                set yaw of loop-entity to {_yaw}
+
+on break:
+    set {_loc} to location of block
+
+    if {altar.pedestals::%{_loc}%} is set:
+        cancel event
+
+        if {altar.inprogress::%{_loc}%} is set:
+            set {altar.interrupted::%{_loc}%} to true
+
+        kill {altar.pedestals::%{_loc}%::display}
+        kill {altar.pedestals::%{_loc}%::itemDisplay}
+        kill {altar.pedestals::%{_loc}%::hologram}
+
+        delete {altar.locations::%{_loc}%}
+        delete {altar.pedestals::%{_loc}%::*}
+        delete {altar.pedestals::%{_loc}%}
+
+        set block at {_loc} to air
+
+command /altar.cleanup:
+    trigger:
+        loop all entities in radius 10 around player:
+            if loop-entity is an item display:
+                kill loop-entity
+            if loop-entity is a text display:
+                kill loop-entity
+        send "<#00ff00>Nearby displays removed!"

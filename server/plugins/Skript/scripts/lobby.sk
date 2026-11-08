@@ -5,11 +5,11 @@ on damage:
 
 on any click:
     if world is "lobby":
-        if {debug.%player%} is not "enabled":
+        if {debug.%player%} is not true:
             cancel event
 
 on block break:
     if world is "KitPvP":
-        if {debug.%player%} is not "enabled":
-            if y position of block > 149:
+        if {debug.%player%} is not true:
+            if y coord of block > 149:
                 cancel event

@@ -19,25 +19,35 @@ on quit:
 
 
 on chat:
-    replace all ":hakenkruis:" with "卐" in message
+    if player's name is "ustDan12":
+        set message to lowercase message
+        set message to "%message%~ %random element out of "uwu", "nya", "*purr*"%~!"
+        replace all " yo ", " hi ", " hello ", " helo " in message with "%random element out of " hiii ", " heyy ", " hewo "%"
+        loop all players:
+            replace all "%loop-player's name%" in message with "master"
+        replace all "r" in message with "w"
+        replace all "l" in message with "w"
+        replace all "o" in message with "u"
     set chat format to "%player's prefix%%player's name%%player's suffix% &r&8» &r%message%"
 
 
 on death:
     if attacker's tool is a mace:
-        set {_bruh} to "*MOAN*"
-        chance of 25%:
-            set {_bruh} to "Harder daddy"
-        chance of 25%:
-            set {_bruh} to "AHHHHhhhhh~~~"
-        chance of 25%:
-            set {_bruh} to "Im stretched out~~"
-        chance of 25%:
-            set {_bruh} to "Ahh! It feels so big!~"
-        chance of 25%:
-            set {_bruh} to "Its so big!~"
-        make victim say {_bruh}
-        set death message to "%victim% was brutally SMASHED by %attacker% and liked it..."
+        attacker's fall distance > 2
+        add "Ahhh~~~~" to {_deathMessages::*}
+        add "It's so big!~" to {_deathMessages::*}
+        add "euhhhh~~" to {_deathMessages::*}
+        add "Harder daddy~!" to {_deathMessages::*}
+        add "It's so hard!~" to {_deathMessages::*}
+        add "*MOAN*" to {_deathMessages::*}
+        
+        set {_deathMessage} to random element out of {_deathMessages::*}
+        make victim say {_deathMessage}
+        set {_msg} to text component from "SMASHED"
+        set {_hover} to text component from "&fIf you're reading this, use /code diddled for 100 prisms!"
+        set {_event} to a new hover event showing {_hover}
+        set hover event of {_msg} to {_event}
+        set death message to "%victim% was %{_msg}% by %attacker%"
 
         
     if attacker's tool's name is "&r&f50 Calibre Sniper Rifle":

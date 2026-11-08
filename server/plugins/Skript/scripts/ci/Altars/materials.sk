@@ -1,0 +1,34 @@
+function AltarMaterials(i: text) :: objects:
+    delete {_m::*}
+
+    if {_i} is "heavy_mace":
+        set {_m::*} to 3 heavy cores, 1 breeze rod, 5 netherite blocks
+    else if {_i} is "lightweight_mace":
+        set {_m::*} to 1 heavy core, 1 breeze rod, enchanted book, 1024 wind charges
+        add wind burst 3 to stored enchantments of {_m::3}
+
+    return {_m::*}
+
+function AltarItemNames(i: text) :: object:
+    delete {_itemname}
+
+    if {_i} is "heavy_mace":
+        set {_itemname} to "<#ff0000>&k&l|||&r<#ff0000> Maelstrom &k&l|||"
+    else if {_i} is "lightweight_mace":
+        set {_itemname} to "&b&k&l|||&r&b Zephyr &k&l|||"
+
+    return {_itemname}
+
+
+
+
+
+
+
+function AltarTimes(i: text) :: object:
+    delete {_t}
+
+    set {_t} to 300
+
+    return {_t}
+

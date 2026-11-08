@@ -401,9 +401,9 @@ commands:
   #      Example: @server lobby1,lobby2
   #
   after-register:
-  - "/lobby"
+  - ""
   after-login:
-  - "/lobby" # run in proxy console (bungee, velocity, etc.)
+  - ""
 
     # Sets the list of allowed commands before authenticating.
   allowed-commands:

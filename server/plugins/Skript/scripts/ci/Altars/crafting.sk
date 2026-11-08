@@ -1,0 +1,186 @@
+on right click on barrier:
+    if {altar.pedestals::%location of block%} is set:
+        cancel event
+
+        if {altar.crafting::%player%} is set:
+            stop
+
+        if {altar.inprogress::%location of block%} is set:
+            send "<#ff0000>This item is already being crafted!"
+            stop
+
+        set {_item} to {altar.pedestals::%location of block%::craftableitem}
+        delete {_m::*}
+
+        set {_m::*} to AltarMaterials({_item})
+
+        set {_t} to AltarTimes({_item})
+        set {_minutes} to floor({_t} / 60)
+        set {_seconds} to {_t} - ({_minutes} * 60)
+
+        if {_minutes} > 0:
+            if {_seconds} > 0:
+                set {_displayTime} to "%{_minutes}% minutes and %{_seconds}% seconds"
+            else:
+                set {_displayTime} to "%{_minutes}% minutes"
+        else:
+            set {_displayTime} to "%{_seconds}% seconds"
+
+        if player has {_m::*}:
+            send "<gradient:#9E00FF:#FF00B3>You have everything you need to craft this mythical item."
+            send "<gradient:#9E00FF:#FF00B3>Would you like to proceed? Crafting this item takes %{_displayTime}%."
+            send "<#ff0000>Upon crafting this item, your location will be broadcasted to everyone!"
+            send "&7Click this altar again to begin crafting."
+
+            wait 1 tick
+            set {altar.crafting::%player%} to location of block
+            wait 5 seconds
+            delete {altar.crafting::%player%}
+        else:
+            send "<gradient:#9E00FF:#FF00B3>This Item needs a few items to be crafted:"
+
+            loop {_m::*}:
+                if player has loop-value:
+                    set {_a} to "&a"
+                else:
+                    set {_a} to "<#ff0000>"
+                if loop-value is a enchanted book:
+                    send "%{_a}%- %loop-value% (%loop-value's stored enchantments%)"
+                else:
+                    send "%{_a}%- %loop-value%"
+            send "<#ff0000>Collect these items before you can craft this mythical item."
+
+
+on right click on barrier:
+    if {altar.pedestals::%location of block%} is set:
+        if {altar.crafting::%player%} is location of block:
+            cancel event
+            StartAltarCrafting(player, location of block)
+
+
+on quit:
+    loop {altar.inprogress::*}:
+        if loop-value is player:
+            set {altar.interrupted::%loop-index%} to true
+
+
+on death:
+    loop {altar.inprogress::*}:
+        if loop-value is victim:
+            set {altar.interrupted::%loop-index%} to true
+
+
+function AltarCraft(p: player, i: text, l: location):
+    if {_i} is "heavy_mace":
+        set {_item} to a mace
+
+    if {_i} is "lightweight_mace":
+        set {_item} to a mace
+
+    set item model of {_item} to "%{_i}%"    
+    set string tag "mythical_item" of custom nbt of {_item} to "%{_i}%"
+    set {_item}'s name to AltarItemNames({_i})
+
+    drop {_item} at {_l}
+
+
+function StartAltarCrafting(p: player, altarLoc: location):
+    set {altar.crafter::%{_altarLoc}%} to {_p}
+    set {_player} to {_p}
+
+    if {altar.inprogress::%{_altarLoc}%} is set:
+        stop
+
+    delete {altar.crafting::%{_player}%}
+    set {altar.inprogress::%{_altarLoc}%} to {_player}
+
+    spawn a lightning bolt at {_altarLoc}
+
+    set {_item} to {altar.pedestals::%{_altarLoc}%::craftableitem}
+
+    set {_m::*} to AltarMaterials({_item})
+    set {_t} to AltarTimes({_item})
+    set {_itemname} to AltarItemNames({_item})
+
+    remove {_m::*} from {_player}'s inventory
+
+    broadcast "<gradient:#9E00FF:#FF00B3>THE %uppercase {_itemname}%&r<gradient:#9E00FF:#FF00B3> IS BEING CRAFTED!"
+    broadcast "LOCATION: %x coord of {_altarLoc}% %y coord of {_altarLoc}% %z coord of {_altarLoc}%"
+
+    set {_bar} to a pink boss bar titled "<gradient:#9E00FF:#FF00B3>Crafting":
+        set progress of event-bossbar to 100%
+        set style of event-bossbar to solid
+
+    loop {_t} times:
+        if distance between {_player} and {_altarLoc} > 35:
+            set {altar.interrupted::%{_altarLoc}%} to true
+            send action bar "<#ff0000>You moved too far away! Crafting interrupted!" to {_player}
+
+        if {altar.interrupted::%{_altarLoc}%} is set:
+            delete {altar.interrupted::%{_altarLoc}%}
+            delete {altar.inprogress::%{_altarLoc}%}
+            delete {altar.crafting::%{_player}%}
+
+            remove all players from viewers of {_bar}
+            delete {_bar}
+
+            broadcast "<#ff0000>The %{_itemname}%&r<gradient:#9E00FF:#FF00B3>'s crafting has been interrupted!"
+
+            add 0.5 to x coord of {_altarLoc}
+            add 1.5 to y coord of {_altarLoc}
+            add 0.5 to z coord of {_altarLoc}
+
+            drop {_m::*} at {_altarLoc}
+            stop
+
+        set {_remaining} to {_t} - loop-number
+        set {_minutes} to floor({_remaining} / 60)
+        set {_seconds} to {_remaining} - ({_minutes} * 60)
+
+        set title of {_bar} to "<gradient:#9E00FF:#FF00B3>Crafting %{_itemname}%&r<gradient:#9E00FF:#FF00B3> : %{_minutes}%:%{_seconds}%"
+        set progress of {_bar} to 1 - ({_remaining} / {_t})
+        set viewers of {_bar} to all players in radius 50 around {_altarLoc}
+
+        wait 1 second
+
+    if {altar.interrupted::%{_altarLoc}%} is set:
+        delete {altar.interrupted::%{_altarLoc}%}
+        remove all players from viewers of {_bar}
+        delete {_bar}
+        stop
+
+    remove all players from viewers of {_bar}
+    delete {_bar}
+
+    delete {altar.inprogress::%{_altarLoc}%}
+
+    broadcast "<gradient:#9E00FF:#FF00B3>THE %uppercase {_itemname}%&r<gradient:#9E00FF:#FF00B3> HAS BEEN CRAFTED!"
+
+    send action bar "&aCrafting complete!" to {_player}
+
+    set {_loc} to {_altarLoc}
+    add 1.5 to y coord of {_loc}
+
+    create an explosion of force 10 at {_loc}
+
+    add 0.5 to z coord of {_loc}
+    add 0.5 to x coord of {_loc}
+
+    loop all entities in radius 15 around {_loc}:
+        if loop-entity is not a player:
+            push loop-entity upwards at speed 3
+            push loop-entity away from {_loc} at speed 3
+
+    AltarCraft({_player}, {_item}, {_loc})
+
+    set {_loc} to {_altarLoc}
+
+    kill {altar.pedestals::%{_loc}%::display}
+    kill {altar.pedestals::%{_loc}%::itemDisplay}
+    kill {altar.pedestals::%{_loc}%::hologram}
+
+    delete {altar.pedestals::%{_loc}%::*}
+    delete {altar.locations::%{_loc}%}
+    delete {altar.pedestals::%{_loc}%}
+
+    set block at {_loc} to air

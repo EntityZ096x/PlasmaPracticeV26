@@ -1,0 +1,6 @@
+effect break shield of %player%:
+    trigger:
+        if expr-1 is blocking:
+            play sound "item.shield.break" at expr-1
+            interrupt the usage of expr-1's active item
+            set item cooldown of shield for expr-1 to 5 seconds
