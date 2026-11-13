@@ -1,7 +1,11 @@
 
-# Downloaded server software and caches
 server/libraries/
 server/versions/
 server/cache/
 server/plugins/.paper-remapped/
 server/plugins/CoreProtect/database.db
+server/server.jar
+server/plugins/FastAsyncWorldEdit/clipboard/
+server/logs/
+server/cache/
+server/crash-reports/
