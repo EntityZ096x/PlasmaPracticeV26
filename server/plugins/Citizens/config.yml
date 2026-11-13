@@ -147,6 +147,10 @@ npc:
     always-update-position: false
     # How often to update hologram names (including placeholders)
     update-rate: 1s
+    # Default vertical view range in blocks (defaults to unlimited)
+    default-vertical-view-range: -1
+    # Default horizontal view range in blocks (defaults to tracking range)
+    default-view-range: -1
   limits:
     # Default maximum number of NPCs owned by a single player (give the citizens ignore-limits permission to skip this check)
     default-limit: 10

@@ -28,7 +28,7 @@ function AltarItemNames(i: text) :: object:
 function AltarTimes(i: text) :: object:
     delete {_t}
 
-    set {_t} to 300
+    set {_t} to 15
 
     return {_t}
 

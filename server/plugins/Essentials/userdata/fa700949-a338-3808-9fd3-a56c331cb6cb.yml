@@ -17,8 +17,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1791283202779
-  login: 1791282284054
+  logout: 1794396924764
+  login: 1794396901609
 money: '0'
 last-account-name: '234565432'
 lastlocation:
@@ -32,8 +32,8 @@ lastlocation:
 logoutlocation:
   world: f70b1dbe-264f-4011-9770-0a60de88db6d
   world-name: Lobby
-  x: 16.731377564410984
-  y: 60.0
-  z: -256.01148304535474
-  yaw: -9.777071952819824
-  pitch: -70.79997253417969
+  x: 0.0
+  y: 65.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0

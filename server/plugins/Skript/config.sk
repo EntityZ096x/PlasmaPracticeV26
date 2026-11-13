@@ -203,6 +203,13 @@ parse links in chat messages: disabled
 # If 'disabled' or 'false', no links will be automatically parsed.
 # When 'strict', everything starting with http(s):// will be parsed as link.
 # When 'lenient', everything that contains a dot will be interpreted as a link.
+# Note that even after changing this option, you must also reload any scripts containing commands for it to take effect.
+# If you want real-time command validation messages, set this option to 'false'.
+#  but it breaks support for real-time command validation messages.
+# By default, Skript provides compatibility for retaining the functionality of these systems,
+# However, this system is not compatible by default with custom tab completion systems provided by addons.
+# This version of Skript includes support for registering commands using Minecraft's native Brigadier command system.
+enable legacy tab completion event compatibility: true
 
 color codes reset formatting: true
 # With old Minecraft chat protocol, color codes used to reset formatting of text.
@@ -369,7 +376,7 @@ databases:
 		
 		# ==== Settings that should not be changed ====
 		
-version: 2.16.2
+version: 2.17.1
 # DO NOT CHANGE THIS VALUE MANUALLY!
 # This saves for which version of Skript this configuration was written for.
 # If it does not match the version of the .jar file then the config will be updated automatically.

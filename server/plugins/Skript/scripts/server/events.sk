@@ -1,0 +1,3 @@
+command /events:
+    trigger:
+        send "<#ff0000>&lEvents &r&8»&r There are currently no ongoing events."

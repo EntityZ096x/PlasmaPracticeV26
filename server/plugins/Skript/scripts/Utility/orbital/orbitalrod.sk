@@ -78,16 +78,16 @@ on fishing line cast:
     set {_t::*} to player's tool's lore
     set {_t} to {_t::1}
 
+    make player say "send a %{_t}% shot at %player's target block's location% please thank you."
+    set player's tool to air
+    wait 3 seconds
+
     if {_t} is "nuke":
-        set player's tool to air
         Orbital(player's target block's location, {_t}, player)
     else if {_t} is "stab":
-        set player's tool to air
         Orbital(player's target block's location, {_t}, player)
     else if {_t} is "stabarrow":
-        set player's tool to air
         Orbital(player's target block's location, {_t}, player)
     else if {_t} is "nukearrow":
-        set player's tool to air
         Orbital(player's target block's location, {_t}, player)
 

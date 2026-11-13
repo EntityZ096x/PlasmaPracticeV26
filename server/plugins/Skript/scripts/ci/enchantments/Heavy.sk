@@ -33,9 +33,9 @@ on damage:
             set velocity of attacker to vector(x component of {_v}, y component of {_v} * (0.5 ^ {_power}), z component of {_v})
 
         if {_power} is 1:
-            apply bad luck 2 to attacker for 5 seconds
+            apply bad luck 2 to victim for 5 seconds
         else:
-            apply bad luck 1 to attacker for 5 seconds
+            apply bad luck 1 to victim for 5 seconds
 
 on damage:
     if damage cause is fall:
@@ -52,8 +52,7 @@ on damage:
 
 on player walk:
     if player has bad luck:
-        set {_p} to potion tier of bad luck of player
-        send "%{_p}%" 
+        set {_p} to 2
         if player is sprinting:
             damage player by 0.5 * {_p} hearts with fake cause starvation
         else:
@@ -61,4 +60,4 @@ on player walk:
 
 on any click:
     if player has bad luck:
-        damage player by 0.5 * {_p} hearts with fake cause starvation
+        damage player by 0.5 * 2 hearts with fake cause starvation

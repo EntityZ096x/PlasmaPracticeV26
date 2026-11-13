@@ -1,0 +1,10 @@
+on damage:
+    if world is "lobby":
+        if damage cause is fall:
+            cancel event
+
+on block break:
+    if world is "KitPvP":
+        if {debug.%player%} is not true:
+            if y coord of block > 148:
+                cancel event

@@ -63,11 +63,14 @@ on quit:
         if loop-value is player:
             set {altar.interrupted::%loop-index%} to true
 
-
 on death:
     loop {altar.inprogress::*}:
         if loop-value is victim:
-            set {altar.interrupted::%loop-index%} to true
+            if attacker is set:
+                set {altar.crafter::%loop-index%} to attacker
+                send "<gradient:#9E00FF:#FF00B3>Stay within 50 block radius of the altar or the crafting will interrupt!" to attacker
+            else:
+                set {altar.interrupted::%loop-index%} to true
 
 
 function AltarCraft(p: player, i: text, l: location):
@@ -77,22 +80,29 @@ function AltarCraft(p: player, i: text, l: location):
     if {_i} is "lightweight_mace":
         set {_item} to a mace
 
-    set item model of {_item} to "%{_i}%"    
+    set item model of {_item} to "%{_i}%"
     set string tag "mythical_item" of custom nbt of {_item} to "%{_i}%"
-    set {_item}'s name to AltarItemNames({_i})
+    set name of {_item} to AltarItemNames({_i})
 
-    drop {_item} at {_l}
+    if {_p} can hold {_item}:
+        give {_item} to {_p}
+    else:
+        drop {_item} at {_l}
+        send "<#ff0000>Your inventory is full! Your crafted item was dropped at the altar." to {_p}
 
 
 function StartAltarCrafting(p: player, altarLoc: location):
-    set {altar.crafter::%{_altarLoc}%} to {_p}
-    set {_player} to {_p}
-
     if {altar.inprogress::%{_altarLoc}%} is set:
         stop
 
-    delete {altar.crafting::%{_player}%}
-    set {altar.inprogress::%{_altarLoc}%} to {_player}
+    if {_p} is not online:
+        stop
+
+    set {altar.crafter::%{_altarLoc}%} to {_p}
+    set {altar.inprogress::%{_altarLoc}%} to {_p}
+
+    delete {altar.crafting::%{_p}%}
+    delete {altar.interrupted::%{_altarLoc}%}
 
     spawn a lightning bolt at {_altarLoc}
 
@@ -102,29 +112,30 @@ function StartAltarCrafting(p: player, altarLoc: location):
     set {_t} to AltarTimes({_item})
     set {_itemname} to AltarItemNames({_item})
 
-    remove {_m::*} from {_player}'s inventory
+    remove {_m::*} from {altar.crafter::%{_altarLoc}%}'s inventory
 
     broadcast "<gradient:#9E00FF:#FF00B3>THE %uppercase {_itemname}%&r<gradient:#9E00FF:#FF00B3> IS BEING CRAFTED!"
     broadcast "LOCATION: %x coord of {_altarLoc}% %y coord of {_altarLoc}% %z coord of {_altarLoc}%"
+    send "<gradient:#9E00FF:#FF00B3>Stay within 50 block radius of the altar or the crafting will interrupt!" to {_p}
 
     set {_bar} to a pink boss bar titled "<gradient:#9E00FF:#FF00B3>Crafting":
         set progress of event-bossbar to 100%
         set style of event-bossbar to solid
 
     loop {_t} times:
-        if distance between {_player} and {_altarLoc} > 35:
+        if distance between {altar.crafter::%{_altarLoc}%} and {_altarLoc} > 35:
             set {altar.interrupted::%{_altarLoc}%} to true
-            send action bar "<#ff0000>You moved too far away! Crafting interrupted!" to {_player}
+            send action bar "<#ff0000>You moved too far away! Crafting interrupted!" to {altar.crafter::%{_altarLoc}%}
 
         if {altar.interrupted::%{_altarLoc}%} is set:
             delete {altar.interrupted::%{_altarLoc}%}
             delete {altar.inprogress::%{_altarLoc}%}
-            delete {altar.crafting::%{_player}%}
+            delete {altar.crafting::%{altar.crafter::%{_altarLoc}%}%}
 
             remove all players from viewers of {_bar}
             delete {_bar}
 
-            broadcast "<#ff0000>The %{_itemname}%&r<gradient:#9E00FF:#FF00B3>'s crafting has been interrupted!"
+            broadcast "<gradient:#9E00FF:#FF00B3>The %{_itemname}%&r<gradient:#9E00FF:#FF00B3>'s crafting has been interrupted!"
 
             add 0.5 to x coord of {_altarLoc}
             add 1.5 to y coord of {_altarLoc}
@@ -156,7 +167,7 @@ function StartAltarCrafting(p: player, altarLoc: location):
 
     broadcast "<gradient:#9E00FF:#FF00B3>THE %uppercase {_itemname}%&r<gradient:#9E00FF:#FF00B3> HAS BEEN CRAFTED!"
 
-    send action bar "&aCrafting complete!" to {_player}
+    send action bar "&aCrafting complete!" to {altar.crafter::%{_altarLoc}%}
 
     set {_loc} to {_altarLoc}
     add 1.5 to y coord of {_loc}
@@ -171,7 +182,7 @@ function StartAltarCrafting(p: player, altarLoc: location):
             push loop-entity upwards at speed 3
             push loop-entity away from {_loc} at speed 3
 
-    AltarCraft({_player}, {_item}, {_loc})
+    AltarCraft({altar.crafter::%{_altarLoc}%}   , {_item}, {_loc})
 
     set {_loc} to {_altarLoc}
 

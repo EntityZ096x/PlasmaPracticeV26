@@ -1,0 +1,59 @@
+command /lobby:
+    aliases: hub
+    trigger:
+        if player's world contains "Survival":
+            set {lastloc.%player%.Survival} to player's location
+        else if player's world contains "world":
+            set {lastloc.%player%.world} to player's location
+        set {_loc} to location(x: 0.5, y: 64, z: 0.5, world: "Lobby", yaw: 180, pitch: 0)
+
+        set {AllowExitOfAreas::%player%} to true
+        teleport player to {_loc}
+        wait 1 tick
+        clear player's inventory
+
+
+command /worldswitch [<text>] [<player>]:
+    trigger:
+        if arg-1 is not set:
+            send "&cUsage: /worldswitch <world> [player]" to sender
+            stop
+
+        set {_p} to arg-2
+        if {_p} is not set:
+            if command sender is console:
+                send "&cConsole must specify a player." to console
+                stop
+            set {_p} to player
+
+        if sender is not console:
+            if {debug.%player%} is not true:
+                send "<#ff0000>You're not allowed to do that!"
+                stop
+
+        if arg-1 is "Survival":
+            if {lastloc.%{_p}%.Survival} is set:
+                teleport {_p} to {lastloc.%{_p}%.Survival}
+            else:
+                execute console command "/mvtp %name of {_p}% Survival_spawn"
+            stop
+
+        if arg-1 is "KitPvP":
+            teleport {_p} to location(0.5, 150.5, 15.5, world "KitPvP", yaw: 180)
+            stop
+
+        if {lastloc.%{_p}%.%arg-1%} is set:
+            teleport {_p} to {lastloc.%{_p}%.%arg-1%}
+        else:
+            execute console command "/mvtp %name of {_p}% %arg-1% --unsafe"
+
+on quit:
+    if player's world contains "Survival":
+        set {lastloc.%player%.Survival} to player's location
+    else if player's world contains "world":
+        set {lastloc.%player%.world} to player's location
+    else:
+        set {lastloc.%player%.%player's world%} to player's location
+
+on tab complete of "/worldswitch":
+    set tab completions for position 1 to all worlds

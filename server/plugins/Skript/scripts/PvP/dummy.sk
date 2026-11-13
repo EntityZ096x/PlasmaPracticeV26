@@ -63,3 +63,12 @@ command /deldummy:
             delete {dummy::%player%}
         else:
             send "&cU dont have a dummy!"
+
+on leave:
+    delete npc {dummy::%player%}
+    delete {dummy::%player%}
+
+on stop:
+    loop all players:
+        delete npc {dummy::%loop-player%}
+        delete {dummy::%loop-player%}

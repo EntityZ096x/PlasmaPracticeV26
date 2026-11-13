@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 25
+last-created-npc-id: 30
 npc:
   '0':
     metadata:
@@ -37,11 +37,13 @@ npc:
         x: 3.5
         y: 64.0
         z: -5.5
-        bodyYaw: 108.45355
-        pitch: 5.6447
-        yaw: 105.8716
+        bodyYaw: 64.10646
+        pitch: 8.5169
+        yaw: 64.1065
       type: PLAYER
-    traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,lookclose,type,inventory,hologramtrait,leashedtrait,location,chunktickettrait
+      gravity:
+        enabled: true
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,lookclose,type,inventory,hologramtrait,gravity,leashedtrait,location,chunktickettrait
     name: '&r&#ff0000&lSurvival'
     navigator:
       usedefaultstuckaction: false
@@ -80,9 +82,9 @@ npc:
         x: 5.5
         y: 64.0
         z: 5.5
-        bodyYaw: 138.76192
-        pitch: -6.0395
-        yaw: 146.3355
+        bodyYaw: 147.15585
+        pitch: 2.5704
+        yaw: 143.0048
       type: PLAYER
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
     name: gotomainworld
@@ -126,11 +128,13 @@ npc:
         x: -2.5
         y: 64.0
         z: -5.5
-        bodyYaw: -140.65709
-        pitch: 15.6157
-        yaw: -140.6571
+        bodyYaw: 0.14259338
+        pitch: 18.9278
+        yaw: 0.1426
       type: PLAYER
-    traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
+      gravity:
+        enabled: true
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,lookclose,type,inventory,gravity,leashedtrait,location,chunktickettrait
     name: '&r&6&lKitPvP'
     navigator:
       usedefaultstuckaction: false
@@ -180,241 +184,46 @@ npc:
       speedmodifier: 1.0
       avoidwater: false
     uuid: 2075ac8d-dca1-4426-b51d-5f81f92b6d2c
-  '21':
+  '26':
     metadata:
-      protected: false
+      cached-skin-uuid: 0deea2a7-ec03-41ab-8cee-b7b43cb5ed03
+      cached-skin-uuid-name: events
     traits:
+      owner:
+        uuid: 2ee83cb0-186f-329d-bb3e-2dd2a293057c
       scoreboardtrait:
         tags:
         - CITIZENS_NPC
-      equipment:
-        chestplate:
-          amount: 1
-          type: netherite_chestplate
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgATAAAA/w==
-        helmet:
-          amount: 1
-          type: netherite_helmet
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgATAAAA/w==
-        boots:
-          amount: 1
-          type: netherite_boots
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgATAAAA/w==
-        off_hand:
-          amount: 1
-          type: totem_of_undying
-        leggings:
-          amount: 1
-          type: netherite_leggings
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgATAAAA/w==
+      commandtrait:
+        commands:
+        - command: events
+          hand: RIGHT
+          player: true
+      skintrait:
+        signature: JiWyDMGjW8nUkj3Tvg/kvUtBksZcUb8wsafGmHJo+L3AlZh5A42RQy/6FDIJ4eDxAnbYIreLCMmFNaw1AzLQOZCvXJBqPw5aVUumdfP7F+VD/O9CDdV+vWRLFLPoKD5QhkZF4VFDla2A2XnPqrosmp4hzU8yB+1UyxWyOSyQYqz+TosQUAaev8Vi2zbTPoYdgCugM4zL/TYyywN6lNg/BNHlcDmkenJNXP7ufClQ0ykzJIZAKwDpKEeAvsA5Cs6t4Ml2s6sMbu8vAlJyQuvh2ABApJq4PtQ1km8x0JPdw3bkzK+DX9EyjVfhDEa6n64oUTUL92Buc9QLCNWwWSpD9kOc5qpNSCllO4uMGyEd1t3tseU3hWyD2VR/Q4bksueq/hiYh51xYlafA1KSMQ5Wx6gE+C/qDHby+PRhziu/lxgnneThGIcz3y7li2cNy4QIkEcrSQyxHMA4mv5lMI3fTindzQ/G7LcKwWfLzd/GtaTAKDJwQXeivHTCkC7CwyQ9lrb4bBdFEX0IjoddMfDRxjsdiLIU7bsFB9LlEkfWhRn9hz+SKxvDKMI56H51/Qske31z2hOXeccZurG9SCpcVYT4Yq+aJwO/hx4q9ygNr+t9lNHxjsqINBg7P1bTQz1fiK7Y139GxI6qihM2gIXCkCYn00V/nyn4k5hRaAAvk9k=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc5NDQ2OTM1Njg3OCwKICAicHJvZmlsZUlkIiA6ICIwZGVlYTJhN2VjMDM0MWFiOGNlZWI3YjQzY2I1ZWQwMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFdmVudHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQzOTA2NDg1ZGY1MDQ5MTRhNTY3YmUwZTc4YjA0NDQ4MDcxYThiNmFkOTIzYzRkZjcxMjI1YmQyYWMyNTVkZSIKICAgIH0KICB9Cn0=
+      lookclose:
+        enabled: true
+        randomPitchRange:
+        - 0.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
       location:
-        world: KitPvP
-        worldid: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
-        x: 95.7
-        y: 62.0
-        z: 97.7
-        bodyYaw: 73.644135
-        pitch: 26.25
-        yaw: 73.6441
-      type: PLAYER
-      hologramtrait: {
-        }
-    traitnames: scoreboardtrait,spawned,hologramtrait,skintrait,leashedtrait,equipment,location,type,inventory,chunktickettrait
-    name: EntityZ096x's Dummy
-    navigator:
-      usedefaultstuckaction: false
-      speedmodifier: 1.0
-      avoidwater: false
-    uuid: 9427bd12-eda6-470a-9f4d-2cffc7994ec0
-  '22':
-    metadata:
-      protected: false
-    traits:
-      scoreboardtrait:
-        tags:
-        - CITIZENS_NPC
-      equipment:
-        chestplate:
-          amount: 1
-          type: netherite_chestplate
-          durability: 3
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3NxAH4AFAAAAAM=
-        helmet:
-          amount: 1
-          type: netherite_helmet
-          durability: 5
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3NxAH4AFAAAAAU=
-        boots:
-          amount: 1
-          type: netherite_boots
-          durability: 5
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3NxAH4AFAAAAAU=
-        off_hand:
-          amount: 1
-          type: totem_of_undying
-        leggings:
-          amount: 1
-          type: netherite_leggings
-          durability: 4
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3EAfgAW
-      location:
-        world: KitPvP
-        worldid: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
-        x: -94.6396
-        y: 62.0
-        z: -70.7481
-        bodyYaw: -114.89809
-        pitch: 2.25
-        yaw: -114.8981
-      type: PLAYER
-      hologramtrait: {
-        }
-    traitnames: scoreboardtrait,spawned,hologramtrait,skintrait,leashedtrait,equipment,location,type,inventory,chunktickettrait
-    name: EntityZ096x's Dummy
-    navigator:
-      usedefaultstuckaction: false
-      speedmodifier: 1.0
-      avoidwater: false
-    uuid: 3e84f0cb-ca73-4f92-bf9a-827e20367125
-  '23':
-    metadata:
-      protected: false
-    traits:
-      scoreboardtrait:
-        tags:
-        - CITIZENS_NPC
-      equipment:
-        chestplate:
-          amount: 1
-          type: netherite_chestplate
-          durability: 7
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3NxAH4AFAAAAAc=
-        helmet:
-          amount: 1
-          type: netherite_helmet
-          durability: 11
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3NxAH4AFAAAAAs=
-        boots:
-          amount: 1
-          type: netherite_boots
-          durability: 6
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3NxAH4AFAAAAAY=
-        off_hand:
-          amount: 1
-          type: totem_of_undying
-        leggings:
-          amount: 1
-          type: netherite_leggings
-          durability: 9
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3NxAH4AFAAAAAk=
-      location:
-        world: KitPvP
-        worldid: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
-        x: 63.2782
+        world: Lobby
+        worldid: f70b1dbe-264f-4011-9770-0a60de88db6d
+        x: -4.5
         y: 63.0
-        z: -46.4777
-        bodyYaw: 26.38153
-        pitch: 46.1051
-        yaw: 26.3815
+        z: -9.5
+        bodyYaw: -16.073257
+        pitch: 0.0
+        yaw: -16.0733
       type: PLAYER
-      hologramtrait: {
-        }
-    traitnames: scoreboardtrait,spawned,hologramtrait,skintrait,leashedtrait,equipment,location,type,inventory,chunktickettrait
-    name: JustDan12's Dummy
+    traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
+    name: Events
     navigator:
       usedefaultstuckaction: false
       speedmodifier: 1.0
       avoidwater: false
-    uuid: df0fc29c-7326-4199-a09c-cf233fe3316c
-  '25':
-    metadata:
-      protected: false
-    traits:
-      scoreboardtrait:
-        tags:
-        - CITIZENS_NPC
-      equipment:
-        chestplate:
-          amount: 1
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3NxAH4AFAAAABI=
-          durability: 18
-          type: netherite_chestplate
-        helmet:
-          amount: 1
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3NxAH4AFAAAABQ=
-          durability: 20
-          type: netherite_helmet
-        boots:
-          amount: 1
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3NxAH4AFAAAABM=
-          durability: 19
-          type: netherite_boots
-        off_hand:
-          amount: 1
-          type: totem_of_undying
-        leggings:
-          amount: 1
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgAUAAAA/3NxAH4AFAAAABM=
-          durability: 19
-          type: netherite_leggings
-      location:
-        world: KitPvP
-        worldid: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
-        x: 8.3148
-        y: 68.0
-        z: 12.7
-        bodyYaw: -178.471
-        pitch: 38.5231
-        yaw: -178.471
-      type: PLAYER
-    traitnames: scoreboardtrait,spawned,hologramtrait,skintrait,leashedtrait,equipment,location,type,inventory,chunktickettrait
-    name: JustDan12's Dummy
-    navigator:
-      usedefaultstuckaction: false
-      speedmodifier: 1.0
-      avoidwater: false
-    uuid: fca45950-eef9-4295-9e40-575abdde9d1a
-  '24':
-    metadata:
-      protected: false
-    traits:
-      scoreboardtrait:
-        tags:
-        - CITIZENS_NPC
-      equipment:
-        chestplate:
-          amount: 1
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgATAAAA/w==
-          type: netherite_chestplate
-        helmet:
-          amount: 1
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgATAAAA/w==
-          type: netherite_helmet
-        boots:
-          amount: 1
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgATAAAA/w==
-          type: netherite_boots
-        off_hand:
-          amount: 1
-          type: totem_of_undying
-        leggings:
-          amount: 1
-          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAJ0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAEc3EAfgATAAAA/w==
-          type: netherite_leggings
-      location:
-        world: KitPvP
-        worldid: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
-        x: 97.7
-        y: 65.0
-        z: 97.7
-        bodyYaw: -7.504883
-        pitch: 24.2998
-        yaw: -7.5049
-      type: PLAYER
-    traitnames: scoreboardtrait,spawned,hologramtrait,skintrait,leashedtrait,equipment,location,type,inventory,chunktickettrait
-    name: EntityZ096x's Dummy
-    navigator:
-      usedefaultstuckaction: false
-      speedmodifier: 1.0
-      avoidwater: false
-    uuid: 702e98c6-e99f-4836-b8fa-7154112c6548
+    uuid: bb4d7284-7c1c-4e22-8df0-df6f4e75a3c4

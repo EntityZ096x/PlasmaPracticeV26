@@ -28,6 +28,8 @@ on damage:
                 make attacker attack victim
                 wait 1 tick
                 set attacker's current hotbar slot to 0
+                if attacker's fall distance < 2:
+                    set attacker's fall distance to 2
                 make attacker attack victim
                 wait 1 tick
                 set {hax.alwaysslam.%attacker%} to "enabled"

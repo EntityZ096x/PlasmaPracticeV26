@@ -32,10 +32,20 @@ command /kit [<text>] [<text>] [<text>]:
             set {_kit} to arg-2
             loop 36 times:
                 set {kit::%{_kit}%::items::%loop-number%} to slot (loop-number - 1) of player's inventory
-            set {kit::%{_kit}%::helmet} to player's helmet
-            set {kit::%{_kit}%::chestplate} to player's chestplate
-            set {kit::%{_kit}%::leggings} to player's leggings
-            set {kit::%{_kit}%::boots} to player's boots
+            set {_helmet} to player's helmet
+            set {_chestplate} to player's chestplate
+            set {_leggings} to player's leggings
+            set {_boots} to player's boots
+
+            delete armor trim of {_helmet}
+            delete armor trim of {_chestplate}
+            delete armor trim of {_leggings}
+            delete armor trim of {_boots}
+
+            set {kit::%{_kit}%::helmet} to {_helmet}
+            set {kit::%{_kit}%::chestplate} to {_chestplate}
+            set {kit::%{_kit}%::leggings} to {_leggings}
+            set {kit::%{_kit}%::boots} to {_boots}
             set {kit::%{_kit}%::offhand} to player's offhand item
             if {kits::*} does not contain {_kit}:
                 add {_kit} to {kits::*}
@@ -123,13 +133,13 @@ command /kit [<text>] [<text>] [<text>]:
                     set armor trim of {_p}'s helmet to {KitArmortrim::%{_p}%::helmet}
                 set {_p}'s chestplate to {kit::%{_kit}%::chestplate}
                 if {KitArmortrim::%{_p}%::chestplate} is set:
-                    set armor trim of {_p}'s helmet to {KitArmortrim::%{_p}%::chestplate}
+                    set armor trim of {_p}'s chestplate to {KitArmortrim::%{_p}%::chestplate}
                 set {_p}'s leggings to {kit::%{_kit}%::leggings}
                 if {KitArmortrim::%{_p}%::leggings} is set:
-                    set armor trim of {_p}'s helmet to {KitArmortrim::%{_p}%::leggings}
+                    set armor trim of {_p}'s leggings to {KitArmortrim::%{_p}%::leggings}
                 set {_p}'s boots to {kit::%{_kit}%::boots}
                 if {KitArmortrim::%{_p}%::boots} is set:
-                    set armor trim of {_p}'s helmet to {KitArmortrim::%{_p}%::boots}
+                    set armor trim of {_p}'s boots to {KitArmortrim::%{_p}%::boots}
                 set {_p}'s offhand item to {kit::%{_kit}%::offhand}
             send "&aKit &e%{_kit}% &ahas been loaded to %{_p}%!"
             stop

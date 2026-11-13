@@ -1,22 +1,39 @@
-command /ci <text>:
-    trigger:
-        if arg-1 is "grapplehook":
-            give player a crossbow named "&r&lGrappling Hook"
-        if arg-1 is "sniper":
-            give player a bow named "&r&f50 Calibre Sniper Rifle"
-            give player 128 spectral arrows named "&r&e50 Calibre Sniper Bullet"
-        if arg-1 is "minigun":
-            give player a bow named "&r&lMinigun"
-        if arg-1 is "sniperbullet":
-            give player 128 spectral arrows named "&r&e50 Calibre Sniper Bullet"
-        if arg-1 is "energy":
+on command:
+    command is "give"
+    if {ci::*} contains arg-2:
+        cancel event
+        if arg-2 is "grapplehook":
+            set {_i} to a crossbow named "&r&lGrappling Hook"
+        if arg-2 is "sniper":
+            set {_i} to a bow named "&r&f50 Calibre Sniper Rifle"
+        if arg-2 is "minigun":
+            set {_i} to a bow named "&r&lMinigun"
+        if arg-2 is "sniperbullet":
+            set {_i} to spectral arrows named "&r&e50 Calibre Sniper Bullet"
+        if arg-2 is "energy":
             set {_i} to potion of awkward named "&r&eEnergy Drink" with custom nbt from "{ci.item:""energy_drink""}"
             force {_i} to glint
             set lore of {_i} to "&8Energy drinks will satisfy your hunger."
-            hide {_i}'s entire tooltip
+            apply tooltip display component to {_i}:
+                hide_tooltip: false
+                hidden_components: minecraft:potion_contents
             set maximum stack size of {_i} to 64
-            give player 64 of {_i}
+    if arg-3 is set:
+        loop arg-3 parsed as number times:
+            if arg-1 is "*":
+                give {_i} to all players
+            else:
+                give {_i} to arg-1 parsed as player
+    else:
+        loop maximum stack size of {_i} times:
+            if arg-1 is "*":
+                give {_i} to all players
+            else:
+                give {_i} to arg-1 parsed as player
 
 
-on tab complete of "/ci":
-    set tab completions for position 1 to "grapplehook", "sniper", "sniperbullet", "minigun", "arrowstorm", "energy"
+on tab complete of "/give":
+    add {ci::*} to tab completions for position 2
+
+on load:
+    set {ci::*} to "grapplehook", "sniper", "sniperbullet", "minigun", "arrowstorm", "energy"

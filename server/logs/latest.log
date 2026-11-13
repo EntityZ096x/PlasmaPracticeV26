@@ -1,186 +1,97 @@
-[10:31:51] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5.0.2+1-LTS; Microsoft Microsoft-15804669) on Linux 6.8.0-1064-azure (amd64)
-[10:31:51] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-53-main@3a3d1c0 (2026-07-06T18:15:12Z) for Minecraft 26.2
-[10:31:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[10:31:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 29 plugins
-[10:31:59] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
+[08:38:21] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5.0.2+1-LTS; Microsoft Microsoft-15804669) on Linux 6.8.0-1070-azure (amd64)
+[08:38:21] [ServerMain/INFO]: [bootstrap] Loading Paper 26.3-249-main@1a995d6 (2026-11-11T18:01:48Z) for Minecraft 26.3
+[08:38:21] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[08:38:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 30 plugins
+[08:38:23] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
  - EconomyShopGUI (7.3.1), PlugManX (3.0.4-dev1), SkBee (3.26.0)
-[10:31:59] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (26):
- - CSCinematic (2.0.0), Chunky (1.5.4), Citizens (2.0.43-SNAPSHOT (build 4211)), CoreProtect (24.1), DecentHolograms (2.10.1), Essentials (2.22.0), EzRTP (3.4.3), FastAsyncWorldEdit (2.15.5-SNAPSHOT+e7c4693), LuckPerms (5.5.57), Multiverse-Core (5.7.1), Multiverse-Inventories (5.3.4), Multiverse-NetherPortals (5.0.5), Multiverse-Portals (5.2.3), PlaceholderAPI (2.12.3), ProtocolLib (5.4.0), Skonic (1.2.8), Skript (2.16.2), TAB (6.1.3), Vault (1.7.3-b131), ViaBackwards (5.12.0), ViaRewind (4.1.2), ViaVersion (5.12.0), WorldGuard (7.0.18-SNAPSHOT+2372-d1a3193), nLogin (2.0.25), skript-reflect (2.6.3), skript-worldguard (1.0.1)
-[10:32:12] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[10:32:12] [ServerMain/WARN]: Failed to parse resource pack prompt 'You need this pack to view some custom things in this server, download it for if u dont u will see weird textures'
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
-See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
-	at com.google.gson.internal.Streams.parse(Streams.java:60) ~[gson-2.14.0.jar:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:144) ~[gson-2.14.0.jar:?]
-	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:20) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:34) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.parseResourcePackPrompt(DedicatedServerProperties.java:181) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.getServerPackInfo(DedicatedServerProperties.java:227) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.<init>(DedicatedServerProperties.java:147) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.fromFile(DedicatedServerProperties.java:167) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:13) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.Main.main(Main.java:115) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
-See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1817) ~[gson-2.14.0.jar:?]
-	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1613) ~[gson-2.14.0.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:727) ~[gson-2.14.0.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:545) ~[gson-2.14.0.jar:?]
-	at com.google.gson.internal.Streams.parse(Streams.java:46) ~[gson-2.14.0.jar:?]
-	... 13 more
-[10:32:12] [ServerMain/WARN]: resource-pack-id missing, using default of 26b2d858-86f5-347f-a722-c1fbaca801a5
-[10:32:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[10:32:19] [ServerMain/INFO]: Loaded 1585 recipes
-[10:32:19] [ServerMain/INFO]: Loaded 1688 advancements
-[10:32:19] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[10:32:20] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 707.3ms
-[10:32:21] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[10:32:21] [ServerMain/WARN]: Failed to parse resource pack prompt 'You need this pack to view some custom things in this server, download it for if u dont u will see weird textures'
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
-See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
-	at com.google.gson.internal.Streams.parse(Streams.java:60) ~[gson-2.14.0.jar:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:144) ~[gson-2.14.0.jar:?]
-	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:20) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:34) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.parseResourcePackPrompt(DedicatedServerProperties.java:181) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.getServerPackInfo(DedicatedServerProperties.java:227) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.<init>(DedicatedServerProperties.java:147) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.reload(DedicatedServerProperties.java:174) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.reload(DedicatedServerProperties.java:49) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.Settings$MutableValue.update(Settings.java:277) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServer.lambda$setMotd$0(DedicatedServer.java:741) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServerSettings.update(DedicatedServerSettings.java:26) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServer.setMotd(DedicatedServer.java:741) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServer.<init>(DedicatedServer.java:120) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.Main.lambda$main$2(Main.java:316) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.spin(MinecraftServer.java:310) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.Main.main(Main.java:305) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
-See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1817) ~[gson-2.14.0.jar:?]
-	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1613) ~[gson-2.14.0.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:727) ~[gson-2.14.0.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:545) ~[gson-2.14.0.jar:?]
-	at com.google.gson.internal.Streams.parse(Streams.java:46) ~[gson-2.14.0.jar:?]
-	... 20 more
-[10:32:21] [ServerMain/WARN]: resource-pack-id missing, using default of 26b2d858-86f5-347f-a722-c1fbaca801a5
-[10:32:21] [Server thread/INFO]: Starting minecraft server version 26.2
-[10:32:21] [Server thread/INFO]: Loading properties
-[10:32:22] [Server thread/INFO]: This server is running Paper version 26.2-53-main@3a3d1c0 (2026-07-06T18:15:12Z) (Implementing API version 26.2.build.53-alpha)
-[10:32:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[10:32:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:32:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:32:24] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[10:32:25] [Server thread/INFO]: Default game type: SURVIVAL
-[10:32:25] [Server thread/INFO]: Generating keypair
-[10:32:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:32:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[10:32:26] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[10:32:27] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 4 libraries... please wait
-[10:32:27] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/ch/ethz/globis/phtree/phtree/2.8.2/phtree-2.8.2.jar
-[10:32:27] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/joml/joml/1.10.9/joml-1.10.9.jar
-[10:32:27] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/it/unimi/dsi/fastutil/8.5.16/fastutil-8.5.16.jar
-[10:32:27] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/team/unnamed/mocha/3.0.0/mocha-3.0.0.jar
-[10:32:27] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar
-[10:32:27] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[10:32:28] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.0
-[10:32:28] [Server thread/INFO]: [ViaVersion] ViaVersion 5.12.0 is now loaded. Registering protocol transformers and injecting...
-[10:32:30] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[10:32:30] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[10:32:30] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[10:32:31] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
-[10:32:31] [Via-Mappingloader-1/ERROR]: [ViaVersion] Error during loading of Protocol1_9To1_8
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Invalid version: 1
-	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1828) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1817) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Invalid version: 1
-	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataLoader.loadMappings(MappingDataLoader.java:219) ~[?:?]
-	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataLoader.loadMappings(MappingDataLoader.java:197) ~[?:?]
-	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataBase.loadMappings(MappingDataBase.java:163) ~[?:?]
-	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataBase.loadBiMappings(MappingDataBase.java:189) ~[?:?]
-	at ViaBackwards-5.12.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappingData.loadBiMappings(BackwardsMappingData.java:107) ~[?:?]
-	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataBase.loadFullMappings(MappingDataBase.java:177) ~[?:?]
-	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataBase.loadFullOrBiMappings(MappingDataBase.java:167) ~[?:?]
-	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:95) ~[?:?]
-	at ViaVersion-5.12.0.jar//com.viaversion.viaversion.api.protocol.AbstractProtocol.loadMappingData(AbstractProtocol.java:214) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825) ~[?:?]
-	... 5 more
-[10:32:31] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[10:32:32] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[10:32:32] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.5-SNAPSHOT+e7c4693
-[10:32:32] [Server thread/WARN]: 
-**********************************************
-** You are using the Spigot-mapped FAWE jar on a modern Paper version.
-** This will result in slower first-run times and wasted disk space from plugin remapping.
-** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
-**********************************************
-[10:32:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@11578bb8]
-[10:32:34] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
-[10:32:34] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
-[10:32:34] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
-[10:32:34] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.12.0
-[10:32:34] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.4
-[10:32:34] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.43-SNAPSHOT (build 4211)
-[10:32:35] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.16.2
-[10:32:35] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.2.3
-[10:32:35] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.4-dev1
-[10:32:35] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
-[10:32:35] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.2
-[10:32:35] [Server thread/INFO]: [EzRTP] Loading server plugin EzRTP v3.4.3
-[10:32:35] [Server thread/INFO]: [Skonic] Loading server plugin Skonic v1.2.8
-[10:32:35] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v24.1
-[10:32:35] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.4
-[10:32:35] [Server thread/INFO]: [skript-worldguard] Loading server plugin skript-worldguard v1.0.1
-[10:32:35] [Server thread/INFO]: [MVPLogging] Loading server plugin Multiverse-NetherPortals v5.0.5
-[10:32:35] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.3
-[10:32:35] [Server thread/INFO]: [CSCinematic] Loading server plugin CSCinematic v2.0.0
-[10:32:35] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[10:32:35] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.2.0) has not yet been tested! Proceed with caution.
-[10:32:36] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.10.1
-[10:32:36] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.26.0
-[10:32:36] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v7.3.1
-[10:32:36] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.25
-[10:32:36] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.1.3
-[10:32:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:32:36] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
-[10:32:38] [Server thread/INFO]:         __    
-[10:32:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
-[10:32:38] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[10:32:38] [Server thread/INFO]: 
-[10:32:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[10:32:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[10:32:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[10:32:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2997ms)
-[10:32:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[10:32:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[10:32:40] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[10:32:40] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[10:32:40] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[10:32:40] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.5-SNAPSHOT+e7c4693
-[10:32:40] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[10:32:40] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[10:32:40] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[10:32:40] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[10:32:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v26_2.PaperweightFaweAdapter as the Bukkit adapter
-[10:32:43] [Server thread/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] You are using a snapshot or a custom version of FAWE. This is not an official build distributed via https://ci.athion.net/job/FastAsyncWorldEdit/
-[10:32:43] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.4-dev1
-[10:32:43] [Server thread/WARN]: [PlugManX] You are running a development version (3.0.4-dev1) of PlugMan. This is not recommended for production use.
-[10:32:45] [Server thread/ERROR]: Error occurred while enabling PlugManX v3.0.4-dev1 (Is it up to date?)
+[08:38:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (27):
+ - AttributeSwap (1.2.0), CSCinematic (2.0.0), Chunky (1.5.4), Citizens (2.0.44-SNAPSHOT (build 4269)), CoreProtect (24.1), DecentHolograms (2.10.1), Essentials (2.22.0), EzRTP (3.4.3), FastAsyncWorldEdit (2.16.2+eef5a6f), LuckPerms (5.5.57), Multiverse-Core (5.7.1), Multiverse-Inventories (5.3.4), Multiverse-NetherPortals (5.0.5), Multiverse-Portals (5.2.3), PlaceholderAPI (2.12.3), ProtocolLib (5.4.0), Skonic (1.2.8), Skript (2.17.1), TAB (6.2.1), Vault (1.7.3-b131), ViaBackwards (5.12.2), ViaRewind (4.2.0), ViaVersion (5.12.2), WorldGuard (7.0.18-SNAPSHOT+2372-d1a3193), nLogin (2.0.25), skript-reflect (2.6.3), skript-worldguard (1.0.1)
+[08:38:34] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[08:38:35] [ServerMain/INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[08:38:38] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 3,809.1ms
+[08:38:43] [Worker-Main-1/INFO]: Loaded 1866 advancements
+[08:38:44] [Server thread/INFO]: Starting minecraft server version 26.3
+[08:38:44] [Server thread/INFO]: Loading properties
+[08:38:44] [Server thread/INFO]: This server is running Paper version 26.3-249-main@1a995d6 (2026-11-11T18:01:48Z) (Implementing API version 26.3.build.249-stable)
+[08:38:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[08:38:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:38:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:38:45] [Paper FMA initialiser/INFO]: [ca.spottedleaf.moonrise.common.util.FMA] FMA supported: true for Linux platform with feature flag: flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves vnmi avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid fsrm arch_capabilities
+[08:38:45] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[08:38:45] [Server thread/INFO]: Default game type: SURVIVAL
+[08:38:45] [Server thread/INFO]: Generating keypair
+[08:38:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:38:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[08:38:46] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[08:38:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 4 libraries... please wait
+[08:38:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/ch/ethz/globis/phtree/phtree/2.8.2/phtree-2.8.2.jar
+[08:38:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/joml/joml/1.10.9/joml-1.10.9.jar
+[08:38:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/it/unimi/dsi/fastutil/8.5.16/fastutil-8.5.16.jar
+[08:38:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/team/unnamed/mocha/3.0.0/mocha-3.0.0.jar
+[08:38:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar
+[08:38:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/PlasmaPracticeV26/server/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[08:38:48] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.2
+[08:38:48] [Server thread/INFO]: [ViaVersion] ViaVersion 5.12.2 is now loaded. Registering protocol transformers and injecting...
+[08:38:51] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[08:38:52] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[08:38:54] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[08:38:54] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
+[08:38:56] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[08:38:56] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[08:38:56] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.16.2+eef5a6f
+[08:38:58] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@48312fa1]
+[08:38:58] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[08:38:58] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.12.2
+[08:38:58] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[08:38:58] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
+[08:38:58] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.2.0
+[08:38:58] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.4
+[08:38:58] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.44-SNAPSHOT (build 4269)
+[08:38:58] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.17.1
+[08:38:58] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.2.3
+[08:38:58] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.4-dev1
+[08:38:58] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+[08:38:58] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.2.1
+[08:38:58] [Server thread/INFO]: [EzRTP] Loading server plugin EzRTP v3.4.3
+[08:38:58] [Server thread/INFO]: [Skonic] Loading server plugin Skonic v1.2.8
+[08:38:58] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v24.1
+[08:38:58] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.4
+[08:38:58] [Server thread/INFO]: [skript-worldguard] Loading server plugin skript-worldguard v1.0.1
+[08:38:58] [Server thread/INFO]: [MVPLogging] Loading server plugin Multiverse-NetherPortals v5.0.5
+[08:38:58] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[08:38:58] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.3.0) has not yet been tested! Proceed with caution.
+[08:38:58] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.26.0
+[08:38:58] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.3
+[08:38:58] [Server thread/INFO]: [CSCinematic] Loading server plugin CSCinematic v2.0.0
+[08:38:58] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.10.1
+[08:38:58] [Server thread/INFO]: [AttributeSwap] Loading server plugin AttributeSwap v1.2.0
+[08:38:58] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v7.3.1
+[08:38:58] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.25
+[08:38:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:38:59] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
+[08:39:00] [Server thread/INFO]:         __    
+[08:39:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
+[08:39:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[08:39:00] [Server thread/INFO]: 
+[08:39:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[08:39:01] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[08:39:01] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[08:39:01] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2549ms)
+[08:39:01] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[08:39:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[08:39:01] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[08:39:02] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[08:39:02] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[08:39:02] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.16.2+eef5a6f
+[08:39:02] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[08:39:02] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[08:39:02] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[08:39:02] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[08:39:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v26_3.PaperweightFaweAdapter as the Bukkit adapter
+[08:39:06] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.2.0
+[08:39:06] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.4-dev1
+[08:39:06] [Server thread/WARN]: [PlugManX] You are running a development version (3.0.4-dev1) of PlugMan. This is not recommended for production use.
+[08:39:08] [Server thread/ERROR]: Error occurred while enabling PlugManX v3.0.4-dev1 (Is it up to date?)
 java.lang.NumberFormatException: For input string: "build"
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
 	at java.base/java.lang.Integer.parseInt(Integer.java:565) ~[?:?]
@@ -188,380 +99,367 @@ java.lang.NumberFormatException: For input string: "build"
 	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.PaperInitializer.initializePaperPluginManager(PaperInitializer.java:61) ~[?:?]
 	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.PaperPlugManBootstrapper.lambda$createPlugin$0(PaperPlugManBootstrapper.java:45) ~[?:?]
 	at PlugManX-3.0.4-dev1.jar//bukkit.com.rylinaux.plugman.PlugManBukkit.onEnable(PlugManBukkit.java:90) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.2.build.53-alpha.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.2.build.53-alpha.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:633) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:590) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-26.3.build.249-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.3.jar:26.3-249-1a995d6]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.3.jar:26.3-249-1a995d6]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.3.build.249-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:616) ~[paper-26.3.jar:26.3-249-1a995d6]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:573) ~[paper-26.3.jar:26.3-249-1a995d6]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:298) ~[paper-26.3.jar:26.3-249-1a995d6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-26.3.jar:26.3-249-1a995d6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299) ~[paper-26.3.jar:26.3-249-1a995d6]
 	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-[10:32:45] [Server thread/INFO]: [PlugManX] Disabling PlugManX v3.0.4-dev1
-[10:32:45] [Server thread/WARN]: [PlugManX] You are running a development version (3.0.4-dev1) of PlugMan. This is not recommended for production use.
-[10:32:45] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
-[10:32:45] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[10:32:45] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.25
-[10:32:46] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.48s)
-[10:32:46] [Server thread/INFO]: [nLogin]           __             _       
-[10:32:46] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
-[10:32:46] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
-[10:32:46] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
-[10:32:46] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
-[10:32:46] [Server thread/INFO]: [nLogin]                   |___/            
-[10:32:46] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.25
-[10:32:46] [Server thread/INFO]: [nLogin]  
-[10:32:46] [Server thread/WARN]: [nLogin] The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
-[10:32:46] [Server thread/WARN]: [nLogin] The username-appender feature may fail with an invalid nickname kick message.
-[10:32:46] [Server thread/INFO]: [nLogin] Loading packetevents-spigot 2.14.0-SNAPSHOT...
-[10:32:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:32:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:32:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:32:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:32:50] [Server thread/INFO]: Preparing level "world"
-[10:32:52] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[10:32:52] [Server thread/INFO]: Preparing spawn area: 100%
-[10:32:52] [Server thread/INFO]: Prepared spawn area in 20 ms
-[10:32:52] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[10:32:52] [Server thread/INFO]: Prepared spawn area in 3 ms
-[10:32:52] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[10:32:52] [Server thread/INFO]: Prepared spawn area in 2 ms
-[10:32:52] [Server thread/INFO]: Done preparing level "world" (2.069s)
-[10:32:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.12.0
-[10:32:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
-[10:32:52] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
-[10:32:53] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[10:32:53] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[10:32:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[10:32:53] [Server thread/INFO]: [WorldGuard] Loading region data...
-[10:32:54] [Server thread/WARN]: [WorldGuard] "WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193" has registered a listener for org.bukkit.event.entity.PigZapEvent on method "public void com.sk89q.worldguard.bukkit.listener.WorldGuardEntityListener.onPigZap(org.bukkit.event.entity.PigZapEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [].
-[10:32:54] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
-[10:32:55] [Server thread/INFO]: Could not set generator for world 'cinematics': Plugin 'minecraft' does not exist
-[10:32:55] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:cinematics'...
-[10:32:55] [Server thread/INFO]: Preparing spawn area: 100%
-[10:32:55] [Server thread/INFO]: Prepared spawn area in 5 ms
-[10:32:55] [Server thread/INFO]: [WorldGuard] (cinematics) TNT ignition is PERMITTED.
-[10:32:55] [Server thread/INFO]: [WorldGuard] (cinematics) Lighters are PERMITTED.
-[10:32:55] [Server thread/INFO]: [WorldGuard] (cinematics) Lava fire is PERMITTED.
-[10:32:55] [Server thread/INFO]: [WorldGuard] (cinematics) Fire spread is UNRESTRICTED.
-[10:32:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'cinematics'
-[10:32:55] [Server thread/INFO]: Could not set generator for world 'KitPvP': Plugin 'minecraft' does not exist
-[10:32:55] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:kitpvp'...
-[10:32:55] [Server thread/INFO]: Preparing spawn area: 100%
-[10:32:55] [Server thread/INFO]: Prepared spawn area in 4 ms
-[10:32:55] [Server thread/INFO]: [WorldGuard] (KitPvP) TNT ignition is PERMITTED.
-[10:32:55] [Server thread/INFO]: [WorldGuard] (KitPvP) Lighters are PERMITTED.
-[10:32:55] [Server thread/INFO]: [WorldGuard] (KitPvP) Lava fire is PERMITTED.
-[10:32:55] [Server thread/INFO]: [WorldGuard] (KitPvP) Fire spread is UNRESTRICTED.
-[10:32:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'KitPvP'
-[10:32:56] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lobby'...
-[10:32:56] [Server thread/INFO]: Prepared spawn area in 1 ms
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
-[10:32:56] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:survival'...
-[10:32:56] [Server thread/INFO]: Prepared spawn area in 3 ms
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is PERMITTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
-[10:32:56] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:survival_nether'...
-[10:32:56] [Server thread/INFO]: Preparing spawn area: 100%
-[10:32:56] [Server thread/INFO]: Prepared spawn area in 5 ms
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Survival_nether) TNT ignition is PERMITTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lighters are PERMITTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lava fire is PERMITTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] (Survival_nether) Fire spread is UNRESTRICTED.
-[10:32:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_nether'
-[10:32:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:survival_spawn'...
-[10:32:57] [Server thread/INFO]: Preparing spawn area: 100%
-[10:32:57] [Server thread/INFO]: Prepared spawn area in 3 ms
-[10:32:57] [Server thread/INFO]: [WorldGuard] (Survival_spawn) TNT ignition is PERMITTED.
-[10:32:57] [Server thread/INFO]: [WorldGuard] (Survival_spawn) Lighters are PERMITTED.
-[10:32:57] [Server thread/INFO]: [WorldGuard] (Survival_spawn) Lava fire is PERMITTED.
-[10:32:57] [Server thread/INFO]: [WorldGuard] (Survival_spawn) Fire spread is UNRESTRICTED.
-[10:32:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_spawn'
-[10:32:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:voidworld'...
-[10:32:57] [Server thread/INFO]: Prepared spawn area in 1 ms
-[10:32:57] [Server thread/INFO]: [WorldGuard] (voidworld) TNT ignition is PERMITTED.
-[10:32:57] [Server thread/INFO]: [WorldGuard] (voidworld) Lighters are PERMITTED.
-[10:32:57] [Server thread/INFO]: [WorldGuard] (voidworld) Lava fire is PERMITTED.
-[10:32:57] [Server thread/INFO]: [WorldGuard] (voidworld) Fire spread is UNRESTRICTED.
-[10:32:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'voidworld'
-[10:32:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.1]
-[10:32:58] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[10:32:58] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[10:32:58] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[10:32:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.12.0
-[10:32:58] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.4
-[10:32:59] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.43-SNAPSHOT (build 4211)
-[10:33:00] [Server thread/INFO]: [Citizens] Loaded 2 templates.
-[10:33:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizens [1.0.0]
-[10:33:00] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[10:33:00] [Server thread/INFO]: [Skript] Enabling Skript v2.16.2
-[10:33:01] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.17.1 (you're currently running 2.16.2)
-[10:33:01] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: https://github.com/SkriptLang/Skript/releases/download/2.17.1/Skript-2.17.1.jar
-[10:33:08] [Server thread/INFO]: [Skript] Loaded 5750 aliases in 4268ms
-[10:33:08] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[10:33:08] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.2.3
-[10:33:09] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[10:33:09] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
-[10:33:09] [Server thread/INFO]: [Multiverse-Portals] Version 5.2.3 (API v5.2) Enabled - By Rigby, fernferret and benwoo1110
-[10:33:09] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
-[10:33:10] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[10:33:10] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[10:33:10] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[10:33:10] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
-[10:33:10] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[10:33:10] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[10:33:11] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
-[10:33:11] [Server thread/INFO]: [Essentials] Using locale en
-[10:33:11] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[10:33:11] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[10:33:11] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[10:33:11] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[10:33:11] [Server thread/INFO]: [EzRTP] Enabling EzRTP v3.4.3
-[10:33:11] [Server thread/WARN]: [EzRTP] No runtime module installed; using built-in Bukkit adapters.
-[10:33:11] [Server thread/INFO]: [EzRTP] Platform: BukkitPlatformRuntime | BukkitPlatformScheduler | BukkitChunkLoadStrategy
-[10:33:11] [Server thread/INFO]: [EzRTP] Adapters: GUI=BukkitPlatformGuiBridge | Messages=BukkitPlatformMessageService | Sender=BukkitPlatformSenderBridge
-[10:33:11] [Server thread/INFO]: [EzRTP] Economy: EssentialsX Economy (Vault)
-[10:33:11] [Server thread/INFO]: [EzRTP] Locale: en (69 messages)
-[10:33:12] [Server thread/INFO]: [EzRTP] Chunky: memory safety enabled (1393MB free, threshold 256MB)
-[10:33:12] [Server thread/INFO]: [EzRTP] Chunk loading: Paper async API
-[10:33:12] [Server thread/INFO]: [EzRTP] Metrics: bStats (https://bstats.org/plugin/bukkit/EzRTP/27735)
-[10:33:12] [Server thread/INFO]: [EzRTP] Ready.
-[10:33:12] [Server thread/INFO]: [Skonic] Enabling Skonic v1.2.8
-[10:33:12] [Server thread/INFO]: [Skonic] Successfully loaded 0 skins from cache.
-[10:33:12] [Server thread/INFO]: [Skonic] Hooked into Citizens! Citizen-related elements are active.
-[10:33:12] [Server thread/INFO]: [Skonic] Citizen elements have successfully loaded
-[10:33:12] [Server thread/INFO]: [Skonic] Citizen Forcefield elements have successfully loaded
-[10:33:12] [Server thread/INFO]: [Skonic] Citizen Hitbox elements have successfully loaded
-[10:33:12] [Server thread/INFO]: [Skonic] Head elements have successfully loaded
-[10:33:12] [Server thread/INFO]: [Skonic] Other Item elements have successfully loaded
-[10:33:12] [Server thread/INFO]: [Skonic] Skin elements have successfully loaded
-[10:33:12] [Server thread/INFO]: [Skonic] Loaded all Class Types successfully
-[10:33:12] [Server thread/INFO]: [Skonic] Loaded (98) elements:
-[10:33:12] [Server thread/INFO]: [Skonic]  - 13 events
-[10:33:12] [Server thread/INFO]: [Skonic]  - 25 effects
-[10:33:12] [Server thread/INFO]: [Skonic]  - 47 expressions
-[10:33:12] [Server thread/INFO]: [Skonic]  - 13 conditions
-[10:33:12] [Server thread/INFO]: [Skonic]  - 0 sections
-[10:33:12] [Server thread/INFO]: [Skonic] Checking for update...
-[10:33:12] [Server thread/INFO]: [Skonic] Plugin is up to date!
-[10:33:12] [Server thread/INFO]: [Skonic] Successfully enabled v1.2.8 in 0.50 seconds
-[10:33:12] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v24.1
-[10:33:12] [ForkJoinPool.commonPool-worker-1/INFO]: [EzRTP] EzRTP is up to date.
-[10:33:13] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
-[10:33:13] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[10:33:13] [Server thread/INFO]: --------------------
-[10:33:13] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[10:33:13] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[10:33:13] [Server thread/INFO]: --------------------
-[10:33:13] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.4
-[10:33:14] [Server thread/WARN]: [Multiverse-Inventories] The following worlds for group 'Survival' does not exist: survival_the_end
-[10:33:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.3.4]
-[10:33:16] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[10:33:16] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.4 (API v5.3) Enabled - By dumptruckman and benwoo1110
-[10:33:16] [Server thread/INFO]: [skript-worldguard] Enabling skript-worldguard v1.0.1
-[10:33:16] [Server thread/INFO]: [WorldGuard] Registering session handler org.skriptlang.skriptworldguard.worldguard.WorldGuardEventHandler
-[10:33:16] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.5
-[10:33:16] [Server thread/INFO]: [Multiverse-NetherPortals] Version 5.0.5 (API v5.0) Enabled - By Rigby, fernferret and benwoo1110
-[10:33:16] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.3
-[10:33:17] [Server thread/INFO]: [CSCinematic] Enabling CSCinematic v2.0.0
-[10:33:17] [Server thread/INFO]: [CSCinematic] 
-[10:33:17] [Server thread/INFO]: [CSCinematic] ╔══════════════════════════════════════════════════════╗
-[10:33:17] [Server thread/INFO]: [CSCinematic] ║         CS CINEMATIC v2.0.0 - ENABLED!               ║
-[10:33:17] [Server thread/INFO]: [CSCinematic] ║                                                      ║
-[10:33:17] [Server thread/INFO]: [CSCinematic] ║   Advanced Cinematic Camera System                   ║
-[10:33:17] [Server thread/INFO]: [CSCinematic] ║   Loaded 1   cinematics from files              ║
-[10:33:17] [Server thread/INFO]: [CSCinematic] ║                                                      ║
-[10:33:17] [Server thread/INFO]: [CSCinematic] ║   Use: /cs help                                      ║
-[10:33:17] [Server thread/INFO]: [CSCinematic] ╚══════════════════════════════════════════════════════╝
-[10:33:17] [Server thread/INFO]: [CSCinematic] 
-[10:33:17] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.10.1
-[10:33:17] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v26_2 (26.2).
-[10:33:17] [Server thread/INFO]: [DecentHolograms] Loading default attribute values...
-[10:33:17] [Server thread/INFO]: [DecentHolograms] Loaded 23 default attribute values!
-[10:33:17] [Server thread/INFO]: [DecentHolograms] Loading displays...
-[10:33:17] [Server thread/INFO]: [DecentHolograms] Loaded 0 displays!
-[10:33:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 26.2.build.53! Trying to find NMS support
-[10:33:18] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(26.2.build.53-alpha) is not supported by this NBT-API Version(2.15.7) located in DecentHolograms. The NBT-API will try to work as good as it can! Some functions may not work!
-[10:33:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[10:33:18] [Server thread/WARN]: [DecentHolograms] NBT-API could not be loaded. Custom NBT in items may not work as expected.
-[10:33:18] [Server thread/INFO]: [SkBee] Enabling SkBee v3.26.0
-[10:33:19] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[10:33:19] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 26.2.build.53! Trying to find NMS support
-[10:33:19] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC26_2' loaded!
-[10:33:19] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[10:33:19] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[10:33:19] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[10:33:19] [Server thread/INFO]: [SkBee] BossBar Elements disabled
-[10:33:19] [Server thread/INFO]: [SkBee] It appears another Skript addon may have registered BossBar syntax.
-[10:33:19] [Server thread/INFO]: [SkBee] To use SkBee BossBars, please remove the addon which has registered BossBars already.
-[10:33:19] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[10:33:19] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[10:33:19] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[10:33:19] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[10:33:19] [Server thread/INFO]: [SkBee] Dialog Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[10:33:20] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[10:33:20] [Server thread/INFO]: [SkBee] Loaded SkBee (585) elements:
-[10:33:20] [Server thread/INFO]: [SkBee]  - 78 types
-[10:33:20] [Server thread/INFO]: [SkBee]  - 2 structures
-[10:33:20] [Server thread/INFO]: [SkBee]  - 69 events
-[10:33:20] [Server thread/INFO]: [SkBee]  - 59 sections
-[10:33:20] [Server thread/INFO]: [SkBee]  - 77 effects
-[10:33:20] [Server thread/INFO]: [SkBee]  - 258 expressions
-[10:33:20] [Server thread/INFO]: [SkBee]  - 31 conditions
-[10:33:20] [Server thread/INFO]: [SkBee]  - 11 properties
-[10:33:20] [Server thread/INFO]: [SkBee] Checking for update...
-[10:33:21] [Server thread/INFO]: [SkBee] Plugin is up to date!
-[10:33:21] [Server thread/INFO]: [SkBee] Successfully enabled v3.26.0 in 2.67 seconds
-[10:33:21] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.3.1
-[10:33:21] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
-[10:33:21] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
-[10:33:21] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 18 section configs from /sections/
-[10:33:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 18 shop configs from /shops/
-[10:33:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[10:33:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[10:33:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 18 shop sections.
-[10:33:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 26.2...
-[10:33:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[10:33:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[10:33:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[10:33:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
-[10:33:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[10:33:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[10:33:22] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[10:33:23] [Server thread/INFO]: [EconomyShopGUI] [ERROR]: No pages found for shop Farming, adding empty page...
-[10:33:23] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 2798ms to complete
-[10:33:24] [Server thread/INFO]: [TAB] Enabling TAB v6.1.3
-[10:33:24] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.paper_26_2.NMSImplementationProvider
-[10:33:24] [Server thread/INFO]: [TAB] [WARN] Line "inpvp, survival" is not a valid conditional expression.
-[10:33:24] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
-[10:33:24] [Server thread/INFO]: [TAB] Enabled in 615ms
-[10:33:25] [Server thread/INFO]: [spark] Starting background profiler...
-[10:33:27] [Server thread/WARN]: Could not register alias login because it contains commands that do not exist: skript:login $1-
-[10:33:27] [Server thread/WARN]: Could not register alias l because it contains commands that do not exist: skript:login $1-
-[10:33:27] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[10:33:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:33:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[10:33:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[10:33:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:cinematics
-[10:33:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:kitpvp
-[10:33:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lobby
-[10:33:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:survival
-[10:33:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:survival_nether
-[10:33:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:survival_spawn
-[10:33:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:voidworld
-[10:33:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:33:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:33:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:33:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (cinematics): All chunks are saved
-[10:33:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (kitpvp): All chunks are saved
-[10:33:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
-[10:33:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
-[10:33:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival_nether): All chunks are saved
-[10:33:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival_spawn): All chunks are saved
-[10:33:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (voidworld): All chunks are saved
-[10:33:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:33:28] [Server thread/INFO]: Running delayed init tasks
-[10:33:28] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[10:33:28] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
-[10:33:28] [Craft Scheduler Thread - 8 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[10:33:28] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] Checking for Updates ... 
-[10:33:28] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
-[10:33:28] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
-[10:33:28] [Craft Scheduler Thread - 8 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
-[10:33:28] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] No new version available
-[10:33:28] [Craft Scheduler Thread - 9 - DecentHolograms/INFO]: 
-A newer version of DecentHolograms is available. Download it from: 
-- https://www.spigotmc.org/resources/96927/
-- https://modrinth.com/plugin/decentholograms
-[10:33:28] [Server thread/INFO]: [Skript] Loading variables...
-[10:33:29] [Server thread/INFO]: [Skript] Loaded 1268 variables in 0.8 seconds
-[10:33:29] [Server thread/INFO]: [Skript]     'ci/Altars/spawn structure.sk' is empty
-[10:33:30] [Server thread/INFO]: [Skript]     'ci/totems/sum.sk' is empty
-[10:33:39] [Server thread/INFO]: [Skript] Line 127: (debug.sk)
-[10:33:39] [Server thread/INFO]:     Starting a variable's name with an expression is discouraged ({%arg-1%}). You could prefix it with the script's name: {debug::%arg-1%}
-[10:33:39] [Server thread/INFO]:     Line: send "%{%arg-1%}%" to player
-[10:33:39] [Server thread/INFO]:  
-[10:33:43] [Server thread/INFO]: [Skript] Line 25: (chat.sk)
-[10:33:43] [Server thread/INFO]:     a random element of (" hiii ", " heyy " and " hewo ") is already a text, so you should not put it in one (e.g. a random element of (" hiii ", " heyy " and " hewo ") instead of "%a random element of ("" hiii "", "" heyy "" and "" hewo "")%")
-[10:33:43] [Server thread/INFO]:     Line: replace all " yo ", " hi ", " hello ", " helo " in message with "%random element out of " hiii ", " heyy ", " hewo "%"
-[10:33:43] [Server thread/INFO]:  
-[10:33:44] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[10:33:44] [Server thread/INFO]: [Skript] Loaded 49 scripts with a total of 174 structures in 14.65 seconds
-[10:33:44] [Server thread/INFO]: [Skript] Finished loading.
-[10:33:44] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[10:33:46] [Server thread/INFO]: [Citizens] Loaded 9 NPCs.
-[10:33:46] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.2, you're on: 5.12.0
-[10:33:47] [Server thread/INFO]: [Essentials] Created a User for CIT-9427bd12eda6 (9427bd12-eda6-270a-9f4d-2cffc7994ec0) for non Bukkit type: net.citizensnpcs.nms.v26_2_R1.entity.EntityHumanNPC$PlayerNPC
-[10:33:47] [Server thread/INFO]: Done (125.550s)! For help, type "help"
-[10:33:47] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 releases and 82 builds behind!
-[10:33:47] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[10:33:47] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: Animations [1.0.5]
-[10:33:47] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion abilitywar due to an unknown issue.
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: skript [1.8.8]
-[10:33:47] [Server thread/ERROR]: [PlaceholderAPI] Failed to create expansion instance for class io.github.tanguygab.absorptionexpansion.AbsorptionExpansion.
+[08:39:08] [Server thread/INFO]: [PlugManX] Disabling PlugManX v3.0.4-dev1
+[08:39:08] [Server thread/WARN]: [PlugManX] You are running a development version (3.0.4-dev1) of PlugMan. This is not recommended for production use.
+[08:39:08] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[08:39:08] [Server thread/INFO]: [AttributeSwap] Enabling AttributeSwap v1.2.0
+[08:39:08] [Server thread/INFO]: [AttributeSwap] Enabled for Paper 26.3; engine attribute swapping and shield-stun timing are active.
+[08:39:08] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.25
+[08:39:10] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.21s)
+[08:39:10] [Server thread/INFO]: [nLogin]           __             _       
+[08:39:10] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[08:39:10] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[08:39:10] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[08:39:10] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[08:39:10] [Server thread/INFO]: [nLogin]                   |___/            
+[08:39:10] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.25
+[08:39:10] [Server thread/INFO]: [nLogin]  
+[08:39:10] [Server thread/WARN]: [nLogin] The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[08:39:10] [Server thread/WARN]: [nLogin] The username-appender feature may fail with an invalid nickname kick message.
+[08:39:12] [Server thread/INFO]: [nLogin] Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[08:39:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:39:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:39:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:39:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:39:17] [Server thread/INFO]: Preparing level "world"
+[08:39:18] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[08:39:18] [Server thread/INFO]: Preparing spawn area: 100%
+[08:39:18] [Server thread/INFO]: Prepared spawn area in 8 ms
+[08:39:18] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[08:39:18] [Server thread/INFO]: Preparing spawn area: 100%
+[08:39:18] [Server thread/INFO]: Prepared spawn area in 3 ms
+[08:39:18] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[08:39:18] [Server thread/INFO]: Preparing spawn area: 100%
+[08:39:18] [Server thread/INFO]: Prepared spawn area in 2 ms
+[08:39:18] [Server thread/INFO]: Done preparing level "world" (0.921s)
+[08:39:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.12.2
+[08:39:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.3 (777)
+[08:39:18] [Server thread/WARN]: [ViaVersion] The Vanilla protocol of Minecraft 1.20.5-1.21.4 is easily exploitable. If you don't need to support these versions, consider adding them to block-versions in the ViaVersion config: "1.20.5-1.20.6", "1.21-1.21.1", "1.21.2-1.21.3", "1.21.4"
+[08:39:18] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[08:39:18] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[08:39:18] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.12.2
+[08:39:18] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[08:39:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[08:39:19] [Server thread/INFO]: [WorldGuard] Loading region data...
+[08:39:19] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
+[08:39:20] [Server thread/INFO]: Could not set generator for world 'cinematics': Plugin 'minecraft' does not exist
+[08:39:20] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:cinematics'...
+[08:39:20] [Server thread/INFO]: Preparing spawn area: 100%
+[08:39:20] [Server thread/INFO]: Prepared spawn area in 3 ms
+[08:39:20] [Server thread/INFO]: [WorldGuard] (cinematics) TNT ignition is PERMITTED.
+[08:39:20] [Server thread/INFO]: [WorldGuard] (cinematics) Lighters are PERMITTED.
+[08:39:20] [Server thread/INFO]: [WorldGuard] (cinematics) Lava fire is PERMITTED.
+[08:39:20] [Server thread/INFO]: [WorldGuard] (cinematics) Fire spread is UNRESTRICTED.
+[08:39:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'cinematics'
+[08:39:21] [Server thread/INFO]: Could not set generator for world 'KitPvP': Plugin 'minecraft' does not exist
+[08:39:21] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:kitpvp'...
+[08:39:21] [Server thread/INFO]: Prepared spawn area in 0 ms
+[08:39:21] [Server thread/INFO]: [WorldGuard] (KitPvP) TNT ignition is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (KitPvP) Lighters are PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (KitPvP) Lava fire is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (KitPvP) Fire spread is UNRESTRICTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'KitPvP'
+[08:39:21] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lobby'...
+[08:39:21] [Server thread/INFO]: Prepared spawn area in 3 ms
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[08:39:21] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:survival'...
+[08:39:21] [Server thread/INFO]: Prepared spawn area in 3 ms
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
+[08:39:21] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:survival_nether'...
+[08:39:21] [Server thread/INFO]: Prepared spawn area in 3 ms
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival_nether) TNT ignition is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lighters are PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lava fire is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival_nether) Fire spread is UNRESTRICTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_nether'
+[08:39:21] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:survival_spawn'...
+[08:39:21] [Server thread/INFO]: Prepared spawn area in 0 ms
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival_spawn) TNT ignition is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival_spawn) Lighters are PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival_spawn) Lava fire is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (Survival_spawn) Fire spread is UNRESTRICTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_spawn'
+[08:39:21] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:voidworld'...
+[08:39:21] [Server thread/INFO]: Prepared spawn area in 0 ms
+[08:39:21] [Server thread/INFO]: [WorldGuard] (voidworld) TNT ignition is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (voidworld) Lighters are PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (voidworld) Lava fire is PERMITTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] (voidworld) Fire spread is UNRESTRICTED.
+[08:39:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'voidworld'
+[08:39:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.1]
+[08:39:22] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[08:39:22] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[08:39:22] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[08:39:22] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.4
+[08:39:22] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.44-SNAPSHOT (build 4269)
+[08:39:25] [Server thread/INFO]: [Citizens] Loaded 2 templates.
+[08:39:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizens [1.0.0]
+[08:39:25] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[08:39:26] [Server thread/INFO]: [Skript] Enabling Skript v2.17.1
+[08:39:29] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[08:39:37] [Server thread/INFO]: [Skript] Loaded 5998 aliases in 3828ms
+[08:39:37] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[08:39:37] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.2.3
+[08:39:37] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[08:39:37] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
+[08:39:37] [Server thread/INFO]: [Multiverse-Portals] Version 5.2.3 (API v5.2) Enabled - By Rigby, fernferret and benwoo1110
+[08:39:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
+[08:39:38] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[08:39:38] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[08:39:38] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[08:39:38] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[08:39:38] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[08:39:38] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[08:39:39] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
+[08:39:39] [Server thread/INFO]: [Essentials] Using locale en
+[08:39:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[08:39:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[08:39:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[08:39:39] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[08:39:39] [Server thread/INFO]: [TAB] Enabling TAB v6.2.1
+[08:39:39] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.paper_26_2.NMSImplementationProvider
+[08:39:40] [Server thread/INFO]: [TAB] [WARN] Line "inpvp, survival" is not a valid conditional expression.
+[08:39:40] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[08:39:40] [Server thread/INFO]: [TAB] Enabled in 471ms
+[08:39:40] [Server thread/INFO]: [EzRTP] Enabling EzRTP v3.4.3
+[08:39:40] [Server thread/WARN]: [EzRTP] No runtime module installed; using built-in Bukkit adapters.
+[08:39:40] [Server thread/INFO]: [EzRTP] Platform: BukkitPlatformRuntime | BukkitPlatformScheduler | BukkitChunkLoadStrategy
+[08:39:40] [Server thread/INFO]: [EzRTP] Adapters: GUI=BukkitPlatformGuiBridge | Messages=BukkitPlatformMessageService | Sender=BukkitPlatformSenderBridge
+[08:39:40] [Server thread/INFO]: [EzRTP] Economy: EssentialsX Economy (Vault)
+[08:39:40] [Server thread/INFO]: [EzRTP] Locale: en (69 messages)
+[08:39:40] [Server thread/INFO]: [EzRTP] Chunky: memory safety enabled (1385MB free, threshold 256MB)
+[08:39:40] [Server thread/INFO]: [EzRTP] Chunk loading: Paper async API
+[08:39:41] [Server thread/INFO]: [EzRTP] Metrics: bStats (https://bstats.org/plugin/bukkit/EzRTP/27735)
+[08:39:41] [Server thread/INFO]: [EzRTP] Ready.
+[08:39:41] [Server thread/INFO]: [Skonic] Enabling Skonic v1.2.8
+[08:39:41] [Server thread/INFO]: [Skonic] Successfully loaded 0 skins from cache.
+[08:39:41] [Server thread/INFO]: [Skonic] Hooked into Citizens! Citizen-related elements are active.
+[08:39:41] [ForkJoinPool.commonPool-worker-1/INFO]: [EzRTP] EzRTP is up to date.
+[08:39:41] [Server thread/INFO]: [Skonic] Citizen elements have successfully loaded
+[08:39:41] [Server thread/INFO]: [Skonic] Citizen Forcefield elements have successfully loaded
+[08:39:41] [Server thread/INFO]: [Skonic] Citizen Hitbox elements have successfully loaded
+[08:39:41] [Server thread/INFO]: [Skonic] Head elements have successfully loaded
+[08:39:41] [Server thread/INFO]: [Skonic] Other Item elements have successfully loaded
+[08:39:41] [Server thread/INFO]: [Skonic] Skin elements have successfully loaded
+[08:39:41] [Server thread/INFO]: [Skonic] Loaded all Class Types successfully
+[08:39:41] [Server thread/INFO]: [Skonic] Loaded (98) elements:
+[08:39:41] [Server thread/INFO]: [Skonic]  - 13 events
+[08:39:41] [Server thread/INFO]: [Skonic]  - 25 effects
+[08:39:41] [Server thread/INFO]: [Skonic]  - 47 expressions
+[08:39:41] [Server thread/INFO]: [Skonic]  - 13 conditions
+[08:39:41] [Server thread/INFO]: [Skonic]  - 0 sections
+[08:39:41] [Server thread/INFO]: [Skonic] Checking for update...
+[08:39:41] [Server thread/INFO]: [Skonic] Plugin is up to date!
+[08:39:42] [Server thread/INFO]: [Skonic] Successfully enabled v1.2.8 in 0.81 seconds
+[08:39:42] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v24.1
+[08:39:42] [Server thread/INFO]: [CoreProtect] Minecraft 26.3 is not supported.
+[08:39:42] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition was unable to start.
+[08:39:42] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v24.1
+[08:39:42] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[08:39:42] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v24.1
+[08:39:42] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.4
+[08:39:42] [Server thread/WARN]: [Multiverse-Inventories] The following worlds for group 'Survival' does not exist: survival_the_end
+[08:39:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.3.4]
+[08:39:43] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[08:39:43] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.4 (API v5.3) Enabled - By dumptruckman and benwoo1110
+[08:39:43] [Server thread/INFO]: [skript-worldguard] Enabling skript-worldguard v1.0.1
+[08:39:43] [Server thread/INFO]: [WorldGuard] Registering session handler org.skriptlang.skriptworldguard.worldguard.WorldGuardEventHandler
+[08:39:43] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.5
+[08:39:43] [Server thread/INFO]: [Multiverse-NetherPortals] Version 5.0.5 (API v5.0) Enabled - By Rigby, fernferret and benwoo1110
+[08:39:44] [Server thread/INFO]: [SkBee] Enabling SkBee v3.26.0
+[08:39:44] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[08:39:44] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 26.3.build.249! Trying to find NMS support
+[08:39:44] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC26_3' loaded!
+[08:39:44] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[08:39:44] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[08:39:44] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[08:39:44] [Server thread/INFO]: [SkBee] BossBar Elements disabled
+[08:39:44] [Server thread/INFO]: [SkBee] It appears another Skript addon may have registered BossBar syntax.
+[08:39:44] [Server thread/INFO]: [SkBee] To use SkBee BossBars, please remove the addon which has registered BossBars already.
+[08:39:44] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[08:39:45] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[08:39:45] [Server thread/INFO]: [SkBee] Dialog Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[08:39:45] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[08:39:45] [Server thread/INFO]: [SkBee] Loaded SkBee (586) elements:
+[08:39:45] [Server thread/INFO]: [SkBee]  - 78 types
+[08:39:45] [Server thread/INFO]: [SkBee]  - 2 structures
+[08:39:45] [Server thread/INFO]: [SkBee]  - 69 events
+[08:39:45] [Server thread/INFO]: [SkBee]  - 60 sections
+[08:39:45] [Server thread/INFO]: [SkBee]  - 77 effects
+[08:39:45] [Server thread/INFO]: [SkBee]  - 258 expressions
+[08:39:45] [Server thread/INFO]: [SkBee]  - 31 conditions
+[08:39:45] [Server thread/INFO]: [SkBee]  - 11 properties
+[08:39:46] [Server thread/INFO]: [SkBee] Checking for update...
+[08:39:46] [Server thread/INFO]: [SkBee] Plugin is up to date!
+[08:39:46] [Server thread/INFO]: [SkBee] Successfully enabled v3.26.0 in 2.16 seconds
+[08:39:46] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.3
+[08:39:46] [Server thread/INFO]: [CSCinematic] Enabling CSCinematic v2.0.0
+[08:39:47] [Server thread/INFO]: [CSCinematic] 
+[08:39:47] [Server thread/INFO]: [CSCinematic] ╔══════════════════════════════════════════════════════╗
+[08:39:47] [Server thread/INFO]: [CSCinematic] ║         CS CINEMATIC v2.0.0 - ENABLED!               ║
+[08:39:47] [Server thread/INFO]: [CSCinematic] ║                                                      ║
+[08:39:47] [Server thread/INFO]: [CSCinematic] ║   Advanced Cinematic Camera System                   ║
+[08:39:47] [Server thread/INFO]: [CSCinematic] ║   Loaded 1   cinematics from files              ║
+[08:39:47] [Server thread/INFO]: [CSCinematic] ║                                                      ║
+[08:39:47] [Server thread/INFO]: [CSCinematic] ║   Use: /cs help                                      ║
+[08:39:47] [Server thread/INFO]: [CSCinematic] ╚══════════════════════════════════════════════════════╝
+[08:39:47] [Server thread/INFO]: [CSCinematic] 
+[08:39:47] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.10.1
+[08:39:47] [Server thread/ERROR]: [DecentHolograms] Unsupported server version detected: 26.3-249-1a995d6 (MC: 26.3)
+[08:39:47] [Server thread/ERROR]: [DecentHolograms] Plugin will now be disabled.
+[08:39:47] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.10.1
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.3.1
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 18 section configs from /sections/
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 18 shop configs from /shops/
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 18 shop sections.
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 26.3...
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[08:39:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[08:39:47] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[08:39:48] [Server thread/INFO]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[08:39:49] [Server thread/INFO]: [EconomyShopGUI] [ERROR]: No pages found for shop Farming, adding empty page...
+[08:39:49] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 2380ms to complete
+[08:39:50] [Server thread/INFO]: [spark] Starting background profiler...
+[08:39:50] [Server thread/WARN]: Could not register alias login because it contains commands that do not exist: skript:login $1-
+[08:39:50] [Server thread/WARN]: Could not register alias l because it contains commands that do not exist: skript:login $1-
+[08:39:50] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[08:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:cinematics
+[08:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:kitpvp
+[08:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lobby
+[08:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:survival
+[08:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:survival_nether
+[08:39:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:survival_spawn
+[08:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:voidworld
+[08:39:51] [Server thread/INFO]: Running delayed init tasks
+[08:39:51] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[08:39:51] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[08:39:51] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[08:39:51] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[08:39:51] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[08:39:51] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[08:39:51] [Server thread/INFO]: [Skript] Loading variables...
+[08:39:51] [Server thread/INFO]: [Skript] Loaded 1451 variables in 0.5 seconds
+[08:39:51] [Server thread/INFO]: [Skript]     'ci/Altars/spawn structure.sk' is empty
+[08:39:51] [Server thread/INFO]: [Skript]     'ci/lightninginabottle.sk' is empty
+[08:39:51] [Server thread/INFO]: [Skript]     'ci/scythe.sk' is empty
+[08:39:51] [Server thread/INFO]: [Skript]     'ci/totems/sum.sk' is empty
+[08:39:55] [spark-monitoring-1-thread-1/WARN]: [spark] Timed out waiting for world statistics
+[08:39:58] [Server thread/INFO]: [Skript] Line 70: (ci/Altars/crafting.sk)
+[08:39:58] [Server thread/INFO]:     an entity cannot be saved. That is, the contents of the variable {altar.crafter::%loop-index%} will be lost when the server stops.
+[08:39:58] [Server thread/INFO]:     Line: set {altar.crafter::%loop-index%} to attacker
+[08:39:58] [Server thread/INFO]:  
+[08:40:04] [Server thread/INFO]: [Skript] Line 25: (chat.sk)
+[08:40:04] [Server thread/INFO]:     a random element of (" hiii ", " heyy " and " hewo ") is already a text, so you should not put it in one (e.g. a random element of (" hiii ", " heyy " and " hewo ") instead of "%a random element of ("" hiii "", "" heyy "" and "" hewo "")%")
+[08:40:04] [Server thread/INFO]:     Line: replace all " yo ", " hi ", " hello ", " helo " in message with "%random element out of " hiii ", " heyy ", " hewo "%"
+[08:40:04] [Server thread/INFO]:  
+[08:40:05] [spark-monitoring-1-thread-2/WARN]: [spark] Timed out waiting for world statistics
+[08:40:07] [Server thread/INFO]: [Skript] Line 6: (Utility/the shooting stars.sk)
+[08:40:07] [Server thread/INFO]:     [Deprecated] The 'permission message' entry has been deprecated for removal in a future release. Commands that a player does not have permission to execute are no longer sent to their client.
+[08:40:07] [Server thread/INFO]:     Line: command /tss.camshake [<player>] [<number>]:
+[08:40:07] [Server thread/INFO]:  
+[08:40:08] [Server thread/INFO]: [Skript] Line 1: (PremiumCurrency.sk)
+[08:40:08] [Server thread/INFO]:     [Deprecated] The 'permission message' entry has been deprecated for removal in a future release. Commands that a player does not have permission to execute are no longer sent to their client.
+[08:40:08] [Server thread/INFO]:     Line: command //prec <text> <number> [<player>]:
+[08:40:08] [Server thread/INFO]:  
+[08:40:08] [Server thread/INFO]: [Skript] Line 127: (debug.sk)
+[08:40:08] [Server thread/INFO]:     Starting a variable's name with an expression is discouraged ({%arg-1%}). You could prefix it with the script's name: {debug::%arg-1%}
+[08:40:08] [Server thread/INFO]:     Line: send "%{%arg-1%}%" to player
+[08:40:08] [Server thread/INFO]:  
+[08:40:08] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[08:40:08] [Server thread/INFO]: [Skript] Loaded 52 scripts with a total of 175 structures in 17.05 seconds
+[08:40:08] [Server thread/INFO]: [Skript] Finished loading.
+[08:40:08] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[08:40:09] [Server thread/INFO]: [Citizens] Loaded 5 NPCs.
+[08:40:10] [Server thread/INFO]: Done (110.489s)! For help, type "help"
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[08:40:10] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: Animations [1.0.5]
+[08:40:10] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion abilitywar due to an unknown issue.
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: skript [1.8.8]
+[08:40:10] [Server thread/ERROR]: [PlaceholderAPI] Failed to create expansion instance for class io.github.tanguygab.absorptionexpansion.AbsorptionExpansion.
 java.lang.reflect.InvocationTargetException
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
@@ -579,32 +477,43 @@ java.lang.reflect.InvocationTargetException
 	at PlaceholderAPI-2.12.3.jar//me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$registerAll$4(LocalExpansionManager.java:364) ~[?:?]
 	at PlaceholderAPI-2.12.3.jar//me.clip.placeholderapi.util.Futures.lambda$onMainThread$0(Futures.java:48) ~[?:?]
 	at PlaceholderAPI-2.12.3.jar//me.clip.placeholderapi.scheduler.folia.FoliaScheduler.lambda$runTask$0(FoliaScheduler.java:72) ~[?:?]
-	at io.papermc.paper.threadedregions.scheduler.FoliaGlobalRegionScheduler$GlobalScheduledTask.run(FoliaGlobalRegionScheduler.java:178) ~[paper-26.2.jar:?]
-	at io.papermc.paper.threadedregions.scheduler.FoliaGlobalRegionScheduler.tick(FoliaGlobalRegionScheduler.java:36) ~[paper-26.2.jar:?]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1621) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1679) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1349) ~[paper-26.2.jar:26.2-53-3a3d1c0]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-53-3a3d1c0]
+	at io.papermc.paper.threadedregions.scheduler.FoliaGlobalRegionScheduler$GlobalScheduledTask.run(FoliaGlobalRegionScheduler.java:178) ~[paper-26.3.jar:?]
+	at io.papermc.paper.threadedregions.scheduler.FoliaGlobalRegionScheduler.tick(FoliaGlobalRegionScheduler.java:36) ~[paper-26.3.jar:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1753) ~[paper-26.3.jar:26.3-249-1a995d6]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1604) ~[paper-26.3.jar:26.3-249-1a995d6]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.3.jar:26.3-249-1a995d6]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1662) ~[paper-26.3.jar:26.3-249-1a995d6]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1332) ~[paper-26.3.jar:26.3-249-1a995d6]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299) ~[paper-26.3.jar:26.3-249-1a995d6]
 	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
 Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 	at io.github.tanguygab.absorptionexpansion.AbsorptionExpansion.<init>(AbsorptionExpansion.java:17) ~[?:?]
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
 	... 24 more
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: world [1.2.3]
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.1.0]
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: servertime [3.2]
-[10:33:47] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
-[10:33:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: ViaVersion [2.0.0]
-[10:33:47] [Server thread/INFO]: 12 placeholder hook(s) registered!
-[10:33:47] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Refusing to add removed entity: ItemEntity['Air'/89, uuid='f7d4abc7-f2e7-4816-9ecf-66b1e46c0a59', l='ServerLevel[world]', x=96.69, y=65.00, z=90.46, cpos=[6, 5], tl=0, v=false, removed=DISCARDED]
-[10:38:39] [Server thread/INFO]: [Skript] Reloading all scripts in Altars...
-[10:38:39] [Server thread/INFO]:     'ci/Altars/spawn structure.sk' is empty
-[10:38:39] [Server thread/INFO]: Successfully reloaded 4 scripts in Altars. (640ms)
-[10:38:41] [Server thread/INFO]: [Skript] Reloading all scripts in Altars...
-[10:38:41] [Server thread/INFO]:     'ci/Altars/spawn structure.sk' is empty
-[10:38:41] [Server thread/INFO]: Successfully reloaded 4 scripts in Altars. (470ms)
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: world [1.2.3]
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.1.0]
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: servertime [3.2]
+[08:40:10] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
+[08:40:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: ViaVersion [2.0.0]
+[08:40:10] [Server thread/INFO]: 12 placeholder hook(s) registered!
+[08:40:25] [User Authenticator #0/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[08:40:25] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib, WorldGuard]
+[08:40:32] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[08:40:32] [TAB Processing Thread/INFO]: [TAB] [WARN] Placeholder %skript_pvp.time.{uuid}% used in a numeric condition returned "N/A" for player EntityZ096x, which is not a valid number.
+[08:40:32] [Server thread/INFO]: System chat: [+] EntityZ096x
+[08:40:33] [Server thread/INFO]: EntityZ096x[/127.0.0.1:40762] logged in with entity id 21 at ([minecraft:voidworld]0.5, 64.0, 0.5)
+[08:40:33] [Server thread/WARN]: EntityZ096x moved too quickly! 0.5,64.0,0.5
+[08:40:36] [Server thread/INFO]: EntityZ096x issued server command: /l
+[08:40:38] [Server thread/INFO]: EntityZ096x issued server command: /lobby
+[08:40:38] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user EntityZ096x has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[08:41:06] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x orange_cushion
+[08:41:11] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:give EntityZ096x orange_cushion
+[08:41:11] [Server thread/INFO]: System chat: [EntityZ096x: Gave 1 [Orange Cushion] to EntityZ096x]
+[08:41:20] [Server thread/INFO]: Kit DueloMacestro has been loaded to EntityZ096x!
+[08:47:10] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[08:47:23] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[08:49:18] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[08:49:19] [Server thread/INFO]: System chat: [-] EntityZ096x

@@ -1,0 +1,4 @@
+on damage:
+    if damage cause was entity explosion:
+        if attacker is minecart:
+            set damage to damage * 3

@@ -11,18 +11,18 @@ command /debug [<text>]:
                 if arg-1 is set:
                     if arg-1 is "%{debug.%player%.code}%":
                         set {debug.%player%} to true
-                        send "&c&lDebug &r&8» &r&aDebug has been enabled."
+                        send "<#ff0000>&lDebug &r&8» &r&aDebug has been enabled."
                         delete {debug.%player%.code}
                         broadcast "&7%player% has entered debug mode."
                     else:
                         kick player due to "dont fucking try to enter debug without permission."
                         broadcast "&7%player% tried to enter debug without permission."
                 else:
-                    send "&cDo /debug <code>"
+                    send "&4Do /debug <code>"
             else:
                 if player has permission "skript.debug":
                     set {debug.%player%} to true
-                    send "&c&lDebug &r&8» &r&aDebug has been enabled."
+                    send "<#ff0000>&lDebug &r&8» &r&aDebug has been enabled."
                     delete {debug.%player%.code}
                     broadcast "&7%player% has entered debug mode."
                 else:
@@ -31,10 +31,10 @@ command /debug [<text>]:
                     send "&aThis is the code for enabling debug to %player%" to console
                     loop all players:
                         if loop-player has permission "skript.debug":
-                            send "&c&lDebug &r&8» &r&a%player% wants to enter debug mode, code: %{debug.%player%.code}%" to loop-player
-                    send "&c&lDebug &r&8» &r&aA code has been sent to the console and all op players, ask for the code to enable debug." to player
+                            send "<#ff0000>&lDebug &r&8» &r&a%player% wants to enter debug mode, code: %{debug.%player%.code}%" to loop-player
+                    send "<#ff0000>&lDebug &r&8» &r&aA code has been sent to the console and all op players, ask for the code to enable debug." to player
         else:
-            send "&c&lDebug &r&8» &r&aDebug has been disabled."
+            send "<#ff0000>&lDebug &r&8» &r&aDebug has been disabled."
             broadcast "&7%player% has left debug mode."
             delete {debug.%player%}
 
@@ -46,7 +46,7 @@ on command:
                     stop
                 send "&r&4You're not allowed to use this command."
                 cancel event
-
+                
 command /debug.whatblockisthis:
     trigger:
         send player's targeted block to player
@@ -73,10 +73,10 @@ on damage with priority lowest:
         stop
     wait 1 tick
     if {debug.%attacker%} is true:
-        send "&r&7Tool:&r&c %attacker's tool%" to attacker
-        send "&r&7Raw damage:&r&c %damage%" to attacker
-        send "&r&7Final damage:&r&c %final damage%" to attacker
-        send "&r&7Health remaining:&r&c %victim's health%" to attacker
+        send "&r&7Tool:&r<#ff0000> %attacker's tool%" to attacker
+        send "&r&7Raw damage:&r<#ff0000> %damage%" to attacker
+        send "&r&7Final damage:&r<#ff0000> %final damage%" to attacker
+        send "&r&7Health remaining:&r<#ff0000> %victim's health%" to attacker
 
         set {_totems} to amount of totem of undying in victim's inventory
 
@@ -87,10 +87,10 @@ on damage with priority lowest:
         send "&r&7Absorption:&r&6 %victim's absorption amount / 2%" to attacker
     if {debug.%victim%} is true:
         if attacker's tool is set:
-            send "&r&7Tool:&r&c %attacker's tool%" to victim
-        send "&r&7Raw damage:&r&c %damage%" to victim
-        send "&r&7Final damage:&r&c %final damage%" to victim
-        send "&r&7Health remaining:&r&c %victim's health%" to victim
+            send "&r&7Tool:&r<#ff0000> %attacker's tool%" to victim
+        send "&r&7Raw damage:&r<#ff0000> %damage%" to victim
+        send "&r&7Final damage:&r<#ff0000> %final damage%" to victim
+        send "&r&7Health remaining:&r<#ff0000> %victim's health%" to victim
 
         set {_totems} to amount of totem of undying in victim's inventory
 
