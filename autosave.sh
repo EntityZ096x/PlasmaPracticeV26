@@ -40,7 +40,7 @@ push_changes() {
     while [ "$attempt" -le "$MAX_RETRIES" ]; do
         log "Push attempt $attempt/$MAX_RETRIES..."
 
-        if git push origin "$BRANCH"; then
+        if git push origin "$BRANCH" --force; then
             log "Push successful!"
             return 0
         fi
