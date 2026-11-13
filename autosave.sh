@@ -11,56 +11,72 @@ BRANCH="main"
 LOG_FILE="autosave.log"
 MAX_RETRIES=5
 
-echo "======================================"
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+CYAN='\033[0;36m'
+RESET='\033[0m'
+
+# Colored logging
+log() {
+    local color="$1"
+    local message="$2"
+    local timestamp
+    timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+
+    echo -e "${color}[${timestamp}] ${message}${RESET}" | tee -a "$LOG_FILE"
+}
+
+echo -e "${CYAN}======================================"
 echo " Starting automatic Git backups"
 echo " Backups every hour"
-echo "======================================"
+echo -e "======================================${RESET}"
 
 # Make sure we're inside a Git repository
 if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
-    echo "ERROR: Not inside a Git repository."
+    log "$RED" "ERROR: Not inside a Git repository."
     exit 1
 fi
 
 # Make sure origin exists
 if ! git remote get-url origin >/dev/null 2>&1; then
-    echo "ERROR: Git remote 'origin' is missing."
+    log "$RED" "ERROR: Git remote 'origin' is missing."
     exit 1
 fi
-
-# Save logs
-log() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
-}
 
 # Retry Git push
 push_changes() {
     local attempt=1
 
     while [ "$attempt" -le "$MAX_RETRIES" ]; do
-        log "===============[ Push attempt $attempt/$MAX_RETRIES ]================="
+        log "$CYAN" "===============[ Push attempt $attempt/$MAX_RETRIES ]================="
 
         if git push origin "$BRANCH" --force; then
-            log "Push successful!"
+            log "$GREEN" "SUCCESS: Push successful!"
             return 0
         fi
 
-        log "Push failed. Retrying in 30 seconds..."
-        sleep 30
+        log "$RED" "FAILED: Push failed."
         attempt=$((attempt + 1))
+
+        if [ "$attempt" -le "$MAX_RETRIES" ]; then
+            log "$YELLOW" "Retrying in 30 seconds..."
+            sleep 30
+        fi
     done
 
-    log "ERROR: Push failed after $MAX_RETRIES attempts."
+    log "$RED" "ERROR: Push failed after $MAX_RETRIES attempts."
     return 1
 }
 
 # Main autosave loop
 while true; do
-    log "Starting backup..."
+    log "$CYAN" "Starting backup..."
 
     # Stage changes
     if ! git add -A; then
-        log "ERROR: git add failed."
+        log "$RED" "ERROR: git add failed."
         sleep "$INTERVAL"
         continue
     fi
@@ -68,21 +84,21 @@ while true; do
     # Commit only if there are changes
     if ! git diff --cached --quiet; then
         if git commit -m "Hourly backup $(date '+%Y-%m-%d %H:%M:%S')"; then
-            log "Commit created."
+            log "$GREEN" "SUCCESS: Commit created."
         else
-            log "ERROR: Commit failed."
+            log "$RED" "ERROR: Commit failed."
             sleep "$INTERVAL"
             continue
         fi
     else
-        log "No changes to commit."
+        log "$YELLOW" "No changes to commit."
     fi
 
     # Push existing and new commits
     if ! push_changes; then
-        log "Backup remains local. Will retry next hour."
+        log "$RED" "Backup remains local. Will retry next hour."
     fi
 
-    log "Next backup in one hour."
+    log "$GREEN" "Next backup in one hour."
     sleep "$INTERVAL"
 done
