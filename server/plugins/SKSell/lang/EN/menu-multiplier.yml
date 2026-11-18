@@ -1,0 +1,58 @@
+# =====================================================================
+#  /sellmulti - the category overview
+# =====================================================================
+#  One button per category from prices.yml. Which slot a category takes
+#  is set in prices.yml (menu-slot), because the categories themselves
+#  live there - add a category and its button appears here on its own.
+#
+#  The `category` item below is the TEMPLATE for all of those buttons.
+#  It deliberately has no `symbol`: it is not part of the layout, it is
+#  stamped onto the slot each category asks for.
+# =====================================================================
+
+menu:
+  title: '▶ Sellmulti | Menu'
+  filler-symbol: '-'
+  content-symbol: '#'
+  layout:
+    - '---------'
+    - '---------'
+    - '---------'
+
+items:
+
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+    symbol: '-'
+
+# ---------------------------------------------------------------------
+#  The category button.
+#  The icon comes from prices.yml so each category can have its own.
+#
+#  Placeholders:
+#    %category%          display name, e.g. CROPS
+#    %color%             the category colour
+#    %noun%              e.g. "mob drops"
+#    %multiplier%        the multiplier right now, e.g. 1.2
+#    %next_multiplier%   what the next threshold gives, e.g. 1.3
+#    %progress_bar%      the bar
+#    %percent%           progress towards the next threshold, 0-100
+#    %value%             base value sold in this category
+#    %target%            the next threshold
+#    %items%             how many items this category prices
+# ---------------------------------------------------------------------
+category:
+  name: '%color%&l%category%'
+  lore:
+    - '&7Sellmulti'
+    - '&f'
+    - '%color%Information:'
+    - '&fSell %noun% to increase'
+    - '&fyour sell multiplier!'
+    - '&f'
+    - '&7Progress to x%next_multiplier%'
+    - '%progress_bar% &#71F521%percent%%'
+    - '&7%value% &8/ &7%target%'
+    - '&e'
+    - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to view'

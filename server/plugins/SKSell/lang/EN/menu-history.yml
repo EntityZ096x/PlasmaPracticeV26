@@ -1,0 +1,88 @@
+# =====================================================================
+#  /sellhistory - everything a player has sold so far
+# =====================================================================
+#  The list is ordered by total earnings, biggest first. That order is
+#  recalculated when a sale happens, never when the menu is opened, so
+#  paging through a long history costs nothing.
+#
+#  '#' (content-symbol) marks the slots the history fills.
+#
+#  TITLE PLACEHOLDERS: %page% %max_page% %total% %total_earned%
+# =====================================================================
+
+menu:
+  title: '▶ Sell History | Menu - %page%/%max_page%'
+  filler-symbol: '-'
+  content-symbol: '#'
+  layout:
+    - '#########'
+    - '#########'
+    - '#########'
+    - '#########'
+    - '#########'
+    - '---pin---'
+
+items:
+
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+    symbol: '-'
+
+  previous:
+    material: ARROW
+    symbol: p
+    action: previous
+    name: '&#FF2121&lBACK'
+    lore:
+      - '&7Navigation'
+      - '&f'
+      - '&#FF2121Information:'
+      - '&fClick to navigate to'
+      - '&fthe previous page.'
+      - '&e'
+      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to go back'
+
+  next:
+    material: ARROW
+    symbol: n
+    action: next
+    name: '&#71F521&lNEXT'
+    lore:
+      - '&7Navigation'
+      - '&f'
+      - '&#71F521Information:'
+      - '&fClick to navigate to'
+      - '&fthe next page.'
+      - '&e'
+      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to go forward'
+
+  # Placeholders: %total% (different items) %total_earned% (money earned)
+  #               %total_items% (items sold) %page% %max_page%
+  info:
+    material: ANVIL
+    symbol: i
+    action: refresh
+    name: '&#00B5FF&lSELL HISTORY'
+    lore:
+      - '&7Description'
+      - '&f'
+      - '&#00B5FFInformation:'
+      - '&fEverything you have'
+      - '&fsold so far.'
+      - '&e'
+      - '&#6BFF00$ &fTotal earned: &#6BFF00$%total_earned%'
+      - '&#00B5FF⚑ &fItems sold: &#00B5FF%total_items%'
+      - '&a'
+      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to refresh'
+
+# ---------------------------------------------------------------------
+#  One entry in the history.
+#  Placeholders: %earned% (money) %amount% (items) %price% (current unit
+#                price) %category% %category_color%
+# ---------------------------------------------------------------------
+entry:
+  name: ''
+  lore:
+    - '&fTotal Price: &#71F521$%earned%'
+    - '&fTotal Quantity: &f%amount%'

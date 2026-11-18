@@ -1,0 +1,104 @@
+# =====================================================================
+#  /worth - the price list
+# =====================================================================
+#  HOW THE LAYOUT WORKS
+#  Each line under `layout` is one row of the chest, exactly 9 characters
+#  wide. Each character is the `symbol` of an item defined below.
+#
+#  '#' (content-symbol) marks the slots the price list fills. Add or
+#  remove '#' and the page size follows - there is no second setting to
+#  keep in sync. Add a row and the chest grows.
+#
+#      layout:
+#        - '#########'   45 content slots
+#        ...
+#        - '---psn---'   p = previous, s = sort, n = next
+#
+#  TITLE PLACEHOLDERS: %page% %max_page% %total%
+# =====================================================================
+
+menu:
+  title: '▶ Worth | Menu - %page%/%max_page%'
+  filler-symbol: '-'
+  content-symbol: '#'
+  layout:
+    - '#########'
+    - '#########'
+    - '#########'
+    - '#########'
+    - '#########'
+    - '---psn---'
+
+items:
+
+  # The empty background. AIR leaves the slot genuinely empty; swap it for
+  # GRAY_STAINED_GLASS_PANE if you prefer a filled look.
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+    symbol: '-'
+
+  previous:
+    material: ARROW
+    symbol: p
+    action: previous
+    name: '&#FF2121&lBACK'
+    lore:
+      - '&7Navigation'
+      - '&f'
+      - '&#FF2121Information:'
+      - '&fClick to navigate to'
+      - '&fthe previous page.'
+      - '&e'
+      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to go back'
+
+  next:
+    material: ARROW
+    symbol: n
+    action: next
+    name: '&#71F521&lNEXT'
+    lore:
+      - '&7Navigation'
+      - '&f'
+      - '&#71F521Information:'
+      - '&fClick to navigate to'
+      - '&fthe next page.'
+      - '&e'
+      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to go forward'
+
+  # Cycles through the three sort modes.
+  # %sort_highest%, %sort_lowest% and %sort_alphabetical% each render as
+  # one line, styled by worth.sort-selected / sort-unselected in
+  # settings.yml. Delete a line here to hide that mode from the list -
+  # the button still cycles through all three.
+  # Other placeholders: %page% %max_page% %total%
+  sort:
+    material: CAULDRON
+    symbol: s
+    action: sort
+    name: '&#00B5FF&lSORT'
+    lore:
+      - '&7Description'
+      - '&f'
+      - '&#00B5FFInformation:'
+      - '&fClick here to sort'
+      - '&fthe items.'
+      - '&f'
+      - '&#00B5FFSelected:'
+      - '%sort_highest%'
+      - '%sort_lowest%'
+      - '%sort_alphabetical%'
+      - '&e'
+      - '&#00B5FF⚑ &f%total% &#00B5FFitems have a price'
+      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to sort'
+
+# ---------------------------------------------------------------------
+#  The lore written under every item in the list.
+#  Placeholders: %price% %category% %category_color% %multiplier%
+#                %your_price% (the price including your own multiplier)
+#  Leave `name` empty to keep the normal item name.
+# ---------------------------------------------------------------------
+entry:
+  name: ''
+  lore:
+    - '&7Worth: &#71F521$%price%'

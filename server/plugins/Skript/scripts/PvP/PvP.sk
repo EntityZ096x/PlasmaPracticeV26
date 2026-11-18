@@ -84,6 +84,7 @@ on leave:
         delete {pvp::time::%player's name%}
 
 on death:
+    victim is a player
     wait 1 tick
     if attacker is set:
         send action bar "&aYou've killed %victim's name%!" to attacker

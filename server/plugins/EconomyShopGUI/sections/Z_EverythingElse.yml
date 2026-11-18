@@ -1,8 +1,8 @@
-enable: true
+enable: false
 title: '&8<--- &8&lZ_EverythingElse &8--->'
 slot: 1
 hidden: true
-sub-section: true
+sub-section: false
 item:
   displayname: '&8&lZ_EverythingElse'
   material: BEDROCK

@@ -4,112 +4,114 @@ pages:
       '1':
         material: GRASS_BLOCK
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '2':
         material: PODZOL
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '3':
         material: MYCELIUM
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '4':
         material: DIRT
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '5':
         material: MUD
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '6':
         material: CLAY
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '7':
         material: GRAVEL
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '8':
         material: SAND
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '9':
         material: SANDSTONE
         buy: 2.0
-        sell: 0.5
+        sell: -1
       '10':
         material: RED_SAND
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '11':
         material: RED_SANDSTONE
         buy: 2.0
-        sell: 0.5
+        sell: -1
       '12':
         material: ICE
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '13':
         material: PACKED_ICE
         buy: 9.0
-        sell: 2.25
+        sell: -1
       '14':
         material: BLUE_ICE
         buy: 81.0
-        sell: 20.25
+        sell: -1
       '15':
         material: SNOW_BLOCK
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '16':
         material: MOSS_BLOCK
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '17':
         material: PALE_MOSS_BLOCK
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '18':
         material: STONE
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '19':
         material: DEEPSLATE
         buy: 2.0
-        sell: 0.5
+        sell: -1
       '20':
         material: GRANITE
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '21':
         material: DIORITE
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '22':
         material: ANDESITE
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '23':
         material: CALCITE
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '24':
         material: TUFF
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '25':
         material: DRIPSTONE_BLOCK
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '26':
         material: MAGMA_BLOCK
         buy: 1.0
-        sell: 0.25
+        sell: -1
       '27':
         material: OBSIDIAN
         buy: 100.0
-        sell: 25.0
+        sell: -1
       '28':
         material: CRYING_OBSIDIAN
         buy: 1.0
-        sell: 0.25
+        sell: -1
+  page2:
+    items: {}

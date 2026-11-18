@@ -1,0 +1,82 @@
+# =====================================================================
+#  /sellmulti - one category in detail
+# =====================================================================
+#  Every item that feeds this category's multiplier, plus the progress
+#  towards the next threshold.
+#
+#  '#' (content-symbol) marks the slots the item list fills.
+#
+#  TITLE PLACEHOLDERS: %category% %color% %page% %max_page%
+# =====================================================================
+
+menu:
+  title: '▶ Sellmulti | %category%'
+  filler-symbol: '-'
+  content-symbol: '#'
+  layout:
+    - '#########'
+    - '#########'
+    - '#########'
+    - '#########'
+    - '#########'
+    - '---bin---'
+
+items:
+
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+    symbol: '-'
+
+  back:
+    material: ARROW
+    symbol: b
+    action: back
+    name: '&#FF0000&lBACK'
+    lore:
+      - '&7Navigation'
+      - '&f'
+      - '&#FF2121Information:'
+      - '&fClick to go back to'
+      - '&fthe sellmulti menu.'
+      - '&e'
+      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to open'
+
+  next:
+    material: ARROW
+    symbol: n
+    action: next
+    name: '&#71F521&lNEXT'
+    lore:
+      - '&7Navigation'
+      - '&f'
+      - '&#71F521Information:'
+      - '&fClick to navigate to'
+      - '&fthe next page.'
+      - '&e'
+      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to go forward'
+
+  # The progress display in the middle of the control row.
+  # Set use-category-icon to false to always use the material above.
+  # Placeholders: same list as the category button in menu-multiplier.yml
+  info:
+    material: CAULDRON
+    symbol: i
+    action: info
+    use-category-icon: true
+    name: '&#FFD900&lWORKING'
+    lore:
+      - '%progress_bar% &fx%next_multiplier% &#71F521%percent%%'
+      - '&7%value% &8/ &7%target%'
+      - '&f'
+      - '%color%Current multiplier: &fx%multiplier%'
+
+# ---------------------------------------------------------------------
+#  The lore under every item on this page.
+#  Placeholders: %price% %your_price% %category% %color% %multiplier%
+# ---------------------------------------------------------------------
+entry:
+  name: ''
+  lore:
+    - '&7Worth: &#71F521$%price%'
+    - '&7Your rate: &f$%your_price%'

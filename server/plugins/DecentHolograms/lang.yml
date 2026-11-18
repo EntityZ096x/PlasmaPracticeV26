@@ -118,6 +118,7 @@ hologram:
   permission_set: '{prefix}Permission has been set!'
   invalid_name: '{prefix}&cInvalid name ''%1$s'', only use alphanumerical characters,
     underscore and dash.'
+  world_does_not_exist: '{prefix}&cWorld of hologram ''%1$s'' doesn''t exist!'
 only_player: '{prefix}&cThis action can only be executed by player.'
 feature:
   enabled: '{prefix}Feature &b"%1$s"&7 has been enabled!'

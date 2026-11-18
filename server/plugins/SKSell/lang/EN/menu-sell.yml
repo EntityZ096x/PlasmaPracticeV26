@@ -1,0 +1,83 @@
+# =====================================================================
+#  /sell - the sell chest
+# =====================================================================
+#  Put items in, close the menu, get paid. Anything that has no price is
+#  handed straight back.
+#
+#  '#' (content-symbol) marks the slots players may put items into.
+#  Every other symbol is a button or decoration and is click-protected.
+#
+#  Items go in by clicking or by shift-clicking them from your inventory.
+#  Dragging across slots is blocked for every menu in the suite - a drag
+#  touches many slots at once and is the classic duplication hole - so a
+#  drag simply does nothing here.
+#
+#  A word of warning before you decorate this menu: decorative items sit
+#  in real inventory slots. This plugin never sells or returns them, and
+#  shift-clicking from the player inventory is routed into the '#' slots
+#  only, so nothing can be duplicated - but a decorated sell chest still
+#  holds fewer items than a plain one. Four full rows is a good default.
+#
+#  The bottom row is one button per category, in the order they stand in
+#  prices.yml, each showing how far that category's multiplier has come.
+#  Clicking one opens its progress track. Note that this settles the sale
+#  first, exactly as closing the menu would - nothing is lost, the items
+#  are paid out before the other menu opens.
+# =====================================================================
+
+menu:
+  title: '▶ Sell | Menu'
+  filler-symbol: '-'
+  content-symbol: '#'
+  # 'c' takes one category button each, filled from prices.yml in order.
+  category-symbol: 'c'
+  layout:
+    - '#########'
+    - '#########'
+    - '#########'
+    - '#########'
+    - 'ccccccccc'
+
+items:
+
+  # Nothing is drawn by default - every slot is a sell slot.
+  # Example of a decoration: change one '#' above to 'i' and this becomes
+  # a real button.
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+    symbol: '-'
+
+  info:
+    material: AIR
+    symbol: i
+    action: info
+    name: '&#00B5FF&lSELL CHEST'
+    lore:
+      - '&7Description'
+      - '&f'
+      - '&#00B5FFInformation:'
+      - '&fDrop the items you want'
+      - '&fto sell in here.'
+      - '&e'
+      - '&#FFD900&l▶ &#FFD900&l&nCLOSE&#FFD900 to sell'
+
+# ---------------------------------------------------------------------
+#  One category button
+# ---------------------------------------------------------------------
+#  Drawn on every 'c' slot above, one per category. The icon is the one
+#  the category carries in prices.yml.
+#
+#  Placeholders: %category% %color% %noun% %multiplier% %next_multiplier%
+#                %progress_bar% %percent% %value% %target% %items%
+# ---------------------------------------------------------------------
+category:
+  name: '%color%&l%category%'
+  lore:
+    - '&7Sell %noun% to raise'
+    - '&7this multiplier.'
+    - '&f'
+    - '%progress_bar% &fx%next_multiplier% &#71F521%percent%%'
+    - '&7%value% &8/ &7%target%'
+    - '&e'
+    - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 for progress'

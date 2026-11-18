@@ -4,116 +4,116 @@ pages:
       '1':
         material: APPLE
         buy: 50.0
-        sell: 12.5
+        sell: -1
       '2':
         material: GOLDEN_APPLE
         buy: 2000.0
-        sell: 500.0
+        sell: -1
       '3':
         material: ENCHANTED_GOLDEN_APPLE
         buy: 25000.0
-        sell: 6250.0
+        sell: -1
       '4':
         material: MELON_SLICE
         buy: 20.0
-        sell: 5.0
+        sell: -1
       '5':
         material: GLISTERING_MELON_SLICE
         buy: 500.0
-        sell: 125.0
+        sell: -1
       '6':
         material: CARROT
         buy: 30.0
-        sell: 7.5
+        sell: -1
       '7':
         material: GOLDEN_CARROT
         buy: 1000.0
-        sell: 250.0
+        sell: -1
       '8':
         material: PUMPKIN_PIE
         buy: 100.0
-        sell: 25.0
+        sell: -1
       '9':
         material: BAKED_POTATO
         buy: 50.0
-        sell: 12.5
+        sell: -1
       '10':
         material: BEETROOT_SOUP
         buy: 75.0
-        sell: 18.75
+        sell: -1
       '11':
         material: DRIED_KELP
         buy: 20.0
-        sell: 5.0
+        sell: -1
       '12':
         material: BREAD
         buy: 40.0
-        sell: 10.0
+        sell: -1
       '13':
         material: COOKIE
         buy: 30.0
-        sell: 7.5
+        sell: -1
       '14':
         material: CAKE
         buy: 250.0
-        sell: 62.5
+        sell: -1
       '15':
         material: COOKED_BEEF
         buy: 75.0
-        sell: 18.75
+        sell: -1
       '16':
         material: COOKED_PORKCHOP
         buy: 85.0
-        sell: 21.25
+        sell: -1
       '17':
         material: COOKED_MUTTON
         buy: 65.0
-        sell: 16.25
+        sell: -1
       '18':
         material: COOKED_CHICKEN
         buy: 60.0
-        sell: 15.0
+        sell: -1
       '19':
         material: COOKED_RABBIT
         buy: 100.0
-        sell: 25.0
+        sell: -1
       '20':
         material: COOKED_COD
         buy: 60.0
-        sell: 15.0
+        sell: -1
       '21':
         material: COOKED_SALMON
         buy: 75.0
-        sell: 18.75
+        sell: -1
       '22':
         material: MILK_BUCKET
         buy: 200.0
-        sell: 50.0
+        sell: -1
       '23':
         material: HONEY_BOTTLE
         buy: 250.0
-        sell: 62.5
+        sell: -1
       '24':
         material: OMINOUS_BOTTLE
         buy: 1500.0
-        sell: 375.0
+        sell: -1
       '25':
         ominous-strength: 2
         material: OMINOUS_BOTTLE
         buy: 2500.0
-        sell: 625.0
+        sell: -1
       '26':
         ominous-strength: 3
         material: OMINOUS_BOTTLE
         buy: 4000.0
-        sell: 1000.0
+        sell: -1
       '27':
         ominous-strength: 4
         material: OMINOUS_BOTTLE
         buy: 6500.0
-        sell: 1625.0
+        sell: -1
       '28':
         ominous-strength: 5
         material: OMINOUS_BOTTLE
         buy: 10000.0
-        sell: 2500.0
+        sell: -1

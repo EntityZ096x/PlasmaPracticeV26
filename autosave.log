@@ -35,3 +35,14 @@
 [0;32m[2026-11-13 19:12:08] Backup manager started successfully![0m
 [0;37m[2026-11-13 19:12:08] ========== STARTING BACKUP ==========[0m
 [0;37m[2026-11-13 19:12:08] Changed files detected: 1[0m
+[0;32m[2026-11-13 19:12:08] SUCCESS: Commit created![0m
+[0;37m[2026-11-13 19:12:08] ========== PUSH ATTEMPT 1/5 ==========[0m
+[0;32m[2026-11-13 19:12:10] SUCCESS: Push completed![0m
+[0;37m[2026-11-13 19:12:10] Backup duration: 00h 00m 02s[0m
+[0;37m[2026-11-13 19:12:10] Latest commit: e962ef3[0m
+[0;32m[2026-11-13 19:12:10] NEXT BACKUP: 2026-11-13 20:12:10[0m
+[1;33m[2026-11-13 19:12:10] Waiting for next backup...[0m
+[0;32m[2026-11-18 06:27:28] Backup manager started successfully![0m
+[0;37m[2026-11-18 06:27:28] ========== STARTING BACKUP ==========[0m
+[0;37m[2026-11-18 06:27:29] Changed files detected: 2340[0m
+[0;31m[2026-11-18 06:30:16] ERROR: git add failed.[0m

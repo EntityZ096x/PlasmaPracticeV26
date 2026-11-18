@@ -1,5 +1,4 @@
 on tab complete of "/home":
-
     loop {homes::%player%::*}:
         add loop-index to {_options::*}
     set tab completions for position 2 to {_options::*}
@@ -74,13 +73,13 @@ command /home [<text>] [<text>]:
             set {homeTeleportLocation::%player%} to {homes::%player%::%{_name}%}
             set {homeTeleportStart::%player%} to player's location
 
-            send "%{_pre}%&7Teleporting to &f%{_name}%&7..." to player
+            send "%{_pre}%&7Teleporting to &7%{_name}%&7..." to player
 
             loop 5 times:
                 set {_time} to 6 - loop-number
 
                 if {_time} > 0:
-                    send action bar "&fTeleporting in <#ff0000>%{_time}%s&f." to player
+                    send action bar "&7Teleporting in <#ff0000>%{_time}%s&7." to player
 
                 wait 1 second
 

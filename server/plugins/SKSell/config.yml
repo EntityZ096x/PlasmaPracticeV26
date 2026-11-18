@@ -1,0 +1,32 @@
+# =====================================================================
+#  Language / Sprache
+# =====================================================================
+#  EN  everything this plugin writes, and every comment in its config
+#      files, is English.  ->  lang/EN/
+#  DE  alles, was dieses Plugin schreibt, und jeder Kommentar in seinen
+#      Konfigurationsdateien ist deutsch.  ->  lang/DE/
+#
+#  Change this BEFORE you configure anything. Switching later creates
+#  the other folder from scratch - your settings do not move across.
+#
+#  Stelle das um, BEVOR du etwas einrichtest. Ein spaeterer Wechsel legt
+#  den anderen Ordner neu an - deine Einstellungen wandern nicht mit.
+# =====================================================================
+language: EN
+
+# =====================================================================
+#  Menus / Menues
+# =====================================================================
+menus:
+  #  Hand every menu name, lore line and title to PlaceholderAPI once
+  #  our own %placeholders% are filled in. That is what makes another
+  #  plugin's values - %nexo_ruby%, %vault_eco_balance%,
+  #  %luckperms_prefix% - work in any menu file of this plugin.
+  #  Needs PlaceholderAPI installed; without it this does nothing.
+  #  Costs nothing on lines that hold no percent sign.
+  #
+  #  Uebergibt jeden Menuenamen, jede Lorezeile und jeden Titel an
+  #  PlaceholderAPI, nachdem unsere eigenen %Platzhalter% eingesetzt
+  #  sind. Damit funktionieren fremde Werte in jeder Menuedatei
+  #  dieses Plugins. Ohne PlaceholderAPI passiert nichts.
+  placeholderapi: true

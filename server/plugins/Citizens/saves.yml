@@ -37,9 +37,9 @@ npc:
         x: 3.5
         y: 64.0
         z: -5.5
-        bodyYaw: 64.10646
-        pitch: 8.5169
-        yaw: 64.1065
+        bodyYaw: 30.024422
+        pitch: 0.0
+        yaw: 30.0244
       type: PLAYER
       gravity:
         enabled: true
@@ -82,9 +82,9 @@ npc:
         x: 5.5
         y: 64.0
         z: 5.5
-        bodyYaw: 147.15585
-        pitch: 2.5704
-        yaw: 143.0048
+        bodyYaw: 141.48232
+        pitch: 0.0
+        yaw: 157.4175
       type: PLAYER
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
     name: gotomainworld
@@ -128,9 +128,9 @@ npc:
         x: -2.5
         y: 64.0
         z: -5.5
-        bodyYaw: 0.14259338
-        pitch: 18.9278
-        yaw: 0.1426
+        bodyYaw: -60.0829
+        pitch: 0.0
+        yaw: -60.0829
       type: PLAYER
       gravity:
         enabled: true
@@ -216,9 +216,9 @@ npc:
         x: -4.5
         y: 63.0
         z: -9.5
-        bodyYaw: -16.073257
-        pitch: 0.0
-        yaw: -16.0733
+        bodyYaw: -44.613724
+        pitch: -6.1644
+        yaw: -44.6137
       type: PLAYER
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
     name: Events

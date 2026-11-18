@@ -1,2 +1,3 @@
 on leave:
+    stop
     teleport player to location(x: 0, y: 65, z: 0, world: "Lobby", yaw: 0, pitch: 0)

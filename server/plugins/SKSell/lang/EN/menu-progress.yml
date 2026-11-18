@@ -1,0 +1,135 @@
+# =====================================================================
+#  Category progress - the multiplier track
+# =====================================================================
+#  One station per multiplier level, laid out as a track that winds
+#  through the menu. A station is a pane:
+#
+#    white   not reached yet
+#    yellow  the one you are working on
+#    lime    done
+#
+#  There are as many stations as there are `multipliers.thresholds` in
+#  settings.yml. The track is filled end to end: every threshold gets one
+#  connected stretch of it, so five thresholds on a twenty-slot track mean
+#  four slots each. How much of the track is green IS the progress.
+#
+#  Clicking anywhere opens the item list with the prices.
+#
+#  TITLE PLACEHOLDERS: %category% %color%
+# =====================================================================
+
+menu:
+  title: '▶ %category% Progress'
+  filler-symbol: '-'
+  content-symbol: '#'
+  layout:
+    - '-i-------'
+    - '---------'
+    - '---------'
+    - '---------'
+    - '---------'
+    - 'b--------'
+
+# ---------------------------------------------------------------------
+#  The track
+# ---------------------------------------------------------------------
+#  Slot numbers in the order they are walked - NOT a grid. A grid can
+#  say where something sits, but not in which order it is visited, and
+#  the order is the whole point of a track.
+#
+#  The default winds down column 1, right along the bottom, up column 3,
+#  and so on. Slot 0 is the top left corner, 53 the bottom right.
+#
+#  Put fewer slots here and the track gets shorter, more and it gets
+#  longer - the thresholds always divide up whatever you leave.
+path:
+  - 10
+  - 19
+  - 28
+  - 37
+  - 38
+  - 39
+  - 30
+  - 21
+  - 12
+  - 13
+  - 14
+  - 23
+  - 32
+  - 41
+  - 42
+  - 43
+  - 34
+  - 25
+  - 16
+  - 17
+
+items:
+
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+    symbol: '-'
+
+  back:
+    material: RED_STAINED_GLASS_PANE
+    symbol: b
+    action: back
+    name: '&#FF2121&lBACK'
+    lore:
+      - '&7Navigation'
+      - '&f'
+      - '&#FF2121Information:'
+      - '&fClick to go back to'
+      - '&fthe sellmulti menu.'
+      - '&e'
+      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to open'
+
+  # The category sign. Wears the category's own icon unless
+  # use-category-icon is off.
+  # Placeholders: %category% %color% %multiplier% %level% %levels%
+  #               %progress_bar% %percent% %value% %target%
+  info:
+    material: CAULDRON
+    symbol: i
+    action: info
+    use-category-icon: true
+    name: '%color%&l%category%'
+    lore:
+      - '&7Sell items from this category'
+      - '&7to raise its multiplier.'
+      - '&f'
+      - '%color%Level: &f%level%&7/&f%levels%'
+      - '%color%Multiplier: &fx%multiplier%'
+      - '&f'
+      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 for prices'
+
+# ---------------------------------------------------------------------
+#  The three states of a station
+# ---------------------------------------------------------------------
+#  Placeholders: %level% %multiplier% %bar% %percent%
+#                %have% %needed%  (money, already formatted)
+# ---------------------------------------------------------------------
+station:
+
+
+  done:
+    material: LIME_STAINED_GLASS_PANE
+    name: '&#71F521&lDONE'
+    lore:
+      - '&#71F521%bar% &fx%multiplier%'
+      - '&7%have% &8/ &7%needed%'
+
+  current:
+    material: YELLOW_STAINED_GLASS_PANE
+    name: '&#FFD900&lWORKING'
+    lore:
+      - '&#FFD900%bar% &fx%multiplier% &#FFD900%percent%%'
+      - '&7%have% &8/ &7%needed%'
+
+  open:
+    material: WHITE_STAINED_GLASS_PANE
+    name: '&f&lLOCKED'
+    lore:
+      - '&8%bar% &fx%multiplier%'
+      - '&7%have% &8/ &7%needed%'

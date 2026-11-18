@@ -1,16 +1,41 @@
+function AltarCraft(p: player, i: text, l: location):
+    if {_i} is "heavy_mace":
+        set {_item} to a mace
+
+    else if {_i} is "lightweight_mace":
+        set {_item} to a mace
+
+    else:
+        stop
+
+    set item model of {_item} to "%{_i}%"
+    set string tag "mythical_item" of custom nbt of {_item} to "%{_i}%"
+    set name of {_item} to AltarItemNames({_i})
+
+    if {_p} can hold {_item}:
+        give {_item} to {_p}
+    else:
+        drop {_item} at {_l}
+        send "<#ff0000>Your inventory is full! Your crafted item was dropped at the altar." to {_p}
+
 on right click on barrier:
-    if {altar.pedestals::%location of block%} is set:
+    set {_loc} to location of block
+
+    if {altar.locations::%{_loc}%} is set:
         cancel event
 
         if {altar.crafting::%player%} is set:
             stop
 
-        if {altar.inprogress::%location of block%} is set:
+        if {altar.inprogress::%{_loc}%} is set:
             send "<#ff0000>This item is already being crafted!"
             stop
 
-        set {_item} to {altar.pedestals::%location of block%::craftableitem}
-        delete {_m::*}
+        set {_item} to {altar.pedestals::%{_loc}%::craftableitem}
+
+        if {_item} is not set:
+            send "<#ff0000>This altar has no registered recipe!"
+            stop
 
         set {_m::*} to AltarMaterials({_item})
 
@@ -33,9 +58,14 @@ on right click on barrier:
             send "&7Click this altar again to begin crafting."
 
             wait 1 tick
-            set {altar.crafting::%player%} to location of block
+
+            set {altar.crafting::%player%} to {_loc}
+
             wait 5 seconds
-            delete {altar.crafting::%player%}
+
+            if {altar.crafting::%player%} is {_loc}:
+                delete {altar.crafting::%player%}
+
         else:
             send "<gradient:#9E00FF:#FF00B3>This Item needs a few items to be crafted:"
 
@@ -44,18 +74,37 @@ on right click on barrier:
                     set {_a} to "&a"
                 else:
                     set {_a} to "<#ff0000>"
-                if loop-value is a enchanted book:
+
+                if loop-value is an enchanted book:
                     send "%{_a}%- %loop-value% (%loop-value's stored enchantments%)"
                 else:
                     send "%{_a}%- %loop-value%"
+
             send "<#ff0000>Collect these items before you can craft this mythical item."
 
-
 on right click on barrier:
-    if {altar.pedestals::%location of block%} is set:
-        if {altar.crafting::%player%} is location of block:
+    set {_loc} to location of block
+
+    if {altar.locations::%{_loc}%} is set:
+        if {altar.crafting::%player%} is {_loc}:
             cancel event
-            StartAltarCrafting(player, location of block)
+            StartAltarCrafting(player, {_loc})
+
+on death:
+    loop {altar.inprogress::*}:
+        if loop-value is victim:
+
+            if attacker is a player:
+                set {altar.crafter::%loop-index%} to attacker
+                set {altar.inprogress::%loop-index%} to attacker
+
+                send "<gradient:#9E00FF:#FF00B3>You have inherited the altar ritual!" to attacker
+                send "<gradient:#9E00FF:#FF00B3>Stay within 50 blocks of the altar or the crafting will interrupt!" to attacker
+
+                broadcast "<gradient:#9E00FF:#FF00B3>%attacker% HAS INHERITED AN ALTAR RITUAL!"
+
+            else:
+                set {altar.interrupted::%loop-index%} to true
 
 
 on quit:
@@ -63,39 +112,28 @@ on quit:
         if loop-value is player:
             set {altar.interrupted::%loop-index%} to true
 
-on death:
-    loop {altar.inprogress::*}:
-        if loop-value is victim:
-            if attacker is set:
-                set {altar.crafter::%loop-index%} to attacker
-                send "<gradient:#9E00FF:#FF00B3>Stay within 50 block radius of the altar or the crafting will interrupt!" to attacker
-            else:
-                set {altar.interrupted::%loop-index%} to true
-
-
-function AltarCraft(p: player, i: text, l: location):
-    if {_i} is "heavy_mace":
-        set {_item} to a mace
-
-    if {_i} is "lightweight_mace":
-        set {_item} to a mace
-
-    set item model of {_item} to "%{_i}%"
-    set string tag "mythical_item" of custom nbt of {_item} to "%{_i}%"
-    set name of {_item} to AltarItemNames({_i})
-
-    if {_p} can hold {_item}:
-        give {_item} to {_p}
-    else:
-        drop {_item} at {_l}
-        send "<#ff0000>Your inventory is full! Your crafted item was dropped at the altar." to {_p}
-
 
 function StartAltarCrafting(p: player, altarLoc: location):
+
     if {altar.inprogress::%{_altarLoc}%} is set:
         stop
 
     if {_p} is not online:
+        stop
+
+    set {_item} to {altar.pedestals::%{_altarLoc}%::craftableitem}
+
+    if {_item} is not set:
+        stop
+
+    set {_m::*} to AltarMaterials({_item})
+    set {_t} to AltarTimes({_item})
+    set {_itemname} to AltarItemNames({_item})
+
+    # Recheck materials before starting
+    if {_p} does not have {_m::*}:
+        send "<#ff0000>You no longer have all the required materials!" to {_p}
+        delete {altar.crafting::%{_p}%}
         stop
 
     set {altar.crafter::%{_altarLoc}%} to {_p}
@@ -104,18 +142,13 @@ function StartAltarCrafting(p: player, altarLoc: location):
     delete {altar.crafting::%{_p}%}
     delete {altar.interrupted::%{_altarLoc}%}
 
+    remove {_m::*} from {_p}'s inventory
+
     spawn a lightning bolt at {_altarLoc}
-
-    set {_item} to {altar.pedestals::%{_altarLoc}%::craftableitem}
-
-    set {_m::*} to AltarMaterials({_item})
-    set {_t} to AltarTimes({_item})
-    set {_itemname} to AltarItemNames({_item})
-
-    remove {_m::*} from {altar.crafter::%{_altarLoc}%}'s inventory
 
     broadcast "<gradient:#9E00FF:#FF00B3>THE %uppercase {_itemname}%&r<gradient:#9E00FF:#FF00B3> IS BEING CRAFTED!"
     broadcast "LOCATION: %x coord of {_altarLoc}% %y coord of {_altarLoc}% %z coord of {_altarLoc}%"
+
     send "<gradient:#9E00FF:#FF00B3>Stay within 50 block radius of the altar or the crafting will interrupt!" to {_p}
 
     set {_bar} to a pink boss bar titled "<gradient:#9E00FF:#FF00B3>Crafting":
@@ -123,75 +156,97 @@ function StartAltarCrafting(p: player, altarLoc: location):
         set style of event-bossbar to solid
 
     loop {_t} times:
-        if distance between {altar.crafter::%{_altarLoc}%} and {_altarLoc} > 35:
+
+        # Always use the current owner.
+        # This allows unlimited consecutive PvP inheritance.
+
+        set {_owner} to {altar.crafter::%{_altarLoc}%}
+
+        if {_owner} is not online:
             set {altar.interrupted::%{_altarLoc}%} to true
-            send action bar "<#ff0000>You moved too far away! Crafting interrupted!" to {altar.crafter::%{_altarLoc}%}
+
+        else if distance between {_owner} and {_altarLoc} > 50:
+            set {altar.interrupted::%{_altarLoc}%} to true
+            send action bar "<#ff0000>You moved too far away! Crafting interrupted!" to {_owner}
 
         if {altar.interrupted::%{_altarLoc}%} is set:
-            delete {altar.interrupted::%{_altarLoc}%}
-            delete {altar.inprogress::%{_altarLoc}%}
-            delete {altar.crafting::%{altar.crafter::%{_altarLoc}%}%}
+
+            set {_owner} to {altar.crafter::%{_altarLoc}%}
+
+            AltarClearRitual({_altarLoc})
 
             remove all players from viewers of {_bar}
             delete {_bar}
 
             broadcast "<gradient:#9E00FF:#FF00B3>The %{_itemname}%&r<gradient:#9E00FF:#FF00B3>'s crafting has been interrupted!"
 
-            add 0.5 to x coord of {_altarLoc}
-            add 1.5 to y coord of {_altarLoc}
-            add 0.5 to z coord of {_altarLoc}
+            set {_dropLoc} to {_altarLoc}
+            add 0.5 to x coord of {_dropLoc}
+            add 1.5 to y coord of {_dropLoc}
+            add 0.5 to z coord of {_dropLoc}
 
-            drop {_m::*} at {_altarLoc}
+            drop {_m::*} at {_dropLoc}
             stop
 
         set {_remaining} to {_t} - loop-number
+
         set {_minutes} to floor({_remaining} / 60)
         set {_seconds} to {_remaining} - ({_minutes} * 60)
 
         set title of {_bar} to "<gradient:#9E00FF:#FF00B3>Crafting %{_itemname}%&r<gradient:#9E00FF:#FF00B3> : %{_minutes}%:%{_seconds}%"
+
         set progress of {_bar} to 1 - ({_remaining} / {_t})
+
         set viewers of {_bar} to all players in radius 50 around {_altarLoc}
 
         wait 1 second
 
+    # Final check, including the last second of the ritual
+
     if {altar.interrupted::%{_altarLoc}%} is set:
-        delete {altar.interrupted::%{_altarLoc}%}
+
+        AltarClearRitual({_altarLoc})
+
         remove all players from viewers of {_bar}
         delete {_bar}
+
+        broadcast "<gradient:#9E00FF:#FF00B3>The %{_itemname}%&r<gradient:#9E00FF:#FF00B3>'s crafting has been interrupted!"
+
+        set {_dropLoc} to {_altarLoc}
+        add 0.5 to x coord of {_dropLoc}
+        add 1.5 to y coord of {_dropLoc}
+        add 0.5 to z coord of {_dropLoc}
+
+        drop {_m::*} at {_dropLoc}
         stop
+
+    # Successful completion
+
+    set {_owner} to {altar.crafter::%{_altarLoc}%}
 
     remove all players from viewers of {_bar}
     delete {_bar}
 
-    delete {altar.inprogress::%{_altarLoc}%}
+    AltarClearRitual({_altarLoc})
 
     broadcast "<gradient:#9E00FF:#FF00B3>THE %uppercase {_itemname}%&r<gradient:#9E00FF:#FF00B3> HAS BEEN CRAFTED!"
 
-    send action bar "&aCrafting complete!" to {altar.crafter::%{_altarLoc}%}
+    send action bar "&aCrafting complete!" to {_owner}
 
+    # Give the item before the altar explosion
     set {_loc} to {_altarLoc}
+    add 0.5 to x coord of {_loc}
     add 1.5 to y coord of {_loc}
+    add 0.5 to z coord of {_loc}
+
+    AltarCraft({_owner}, {_item}, {_loc})
 
     create an explosion of force 10 at {_loc}
-
-    add 0.5 to z coord of {_loc}
-    add 0.5 to x coord of {_loc}
 
     loop all entities in radius 15 around {_loc}:
         if loop-entity is not a player:
             push loop-entity upwards at speed 3
             push loop-entity away from {_loc} at speed 3
 
-    AltarCraft({altar.crafter::%{_altarLoc}%}   , {_item}, {_loc})
-
-    set {_loc} to {_altarLoc}
-
-    kill {altar.pedestals::%{_loc}%::display}
-    kill {altar.pedestals::%{_loc}%::itemDisplay}
-    kill {altar.pedestals::%{_loc}%::hologram}
-
-    delete {altar.pedestals::%{_loc}%::*}
-    delete {altar.locations::%{_loc}%}
-    delete {altar.pedestals::%{_loc}%}
-
-    set block at {_loc} to air
+    # Remove altar after successful crafting
+    AltarRemove({_altarLoc})

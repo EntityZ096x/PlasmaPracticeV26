@@ -1,0 +1,646 @@
+# =====================================================================
+#  SKSell - behaviour, texts and sounds
+# =====================================================================
+#  What lives where:
+#    ../../config.yml      the language switch: EN or DE
+#    ../../prices.yml      what every item is worth, grouped by category
+#    settings.yml          this file - rules, texts, sounds
+#    menu-worth.yml        /worth
+#    menu-sell.yml         /sell
+#    menu-history.yml      /sellhistory
+#    menu-multiplier.yml   /sellmulti  (the category overview)
+#    menu-progress.yml     one category: what you have already sold
+#    menu-category.yml     one category: the prices
+#
+#  You are in lang/EN. Setting language: DE in config.yml switches to
+#  lang/DE, where these same files are German - comments included.
+#  Do that before you configure anything: the two folders are separate,
+#  so settings do not move across.
+#
+#  prices.yml sits above this folder because it is the same in every
+#  language, and an update never touches it.
+#
+#  Reload everything with /sksell reload.
+# =====================================================================
+
+
+# Put in front of every chat message this plugin sends.
+# Set to '' if you run a chat plugin that already adds one.
+prefix: '&#FF0000&lSell&8 » &r'
+
+
+# ---------------------------------------------------------------------
+#  Selling - which items the sell chest accepts
+# ---------------------------------------------------------------------
+#  Every rule here is a refusal rule: when an item fails it, it is handed
+#  straight back to the player instead of being bought. Nothing is ever
+#  destroyed, so a wrong setting here costs sales, never items.
+selling:
+
+  # Multiplies every sell price at once - the ones listed in prices.yml and
+  # the ones auto-pricing works out - so you do not have to change each
+  # line. 1.0 leaves them as they are, 2.0 doubles them, 0.5 halves them.
+  # It has to be a number above 0; anything else counts as 1.0 and the
+  # console says so.
+  #
+  # It changes everything a player sees and gets: /sell, the sell chest,
+  # the Sell Axe, /worth, the price line under items, the %sksell_worth_...%
+  # placeholders and the sell-to-orders comparison. prices.yml itself stays
+  # as it is. Unlike multipliers.base, which pays more while the price line
+  # keeps showing the listed price, this changes the price itself. Nothing
+  # is rounded: 5 x 1.1 pays 5.5 per item, even where money-decimals: 0 can
+  # only show $5.
+  #
+  # The category multipliers keep counting the prices.yml price, so a
+  # higher factor pays more but does not make the multiplier tiers come
+  # faster. Scale multipliers.thresholds as well if you want that too.
+  #
+  # Running a shop plugin? Raise its prices by the same number. Shop prices
+  # usually sit just above what selling pays; double only this side and
+  # players buy in the shop and sell straight back here at a profit.
+  price-factor: 1.0
+
+  # Sell renamed items?
+  # Off by default because a rename is how players mark the gear they care
+  # about. With this on, one careless drop of an anvil-named sword into the
+  # sell chest is gone for a handful of coins and you get the ticket.
+  allow-renamed: true
+
+  # Sell enchanted items and enchanted books?
+  # OFF by default, and deliberately so: on its own this does NOT raise the
+  # price with the enchantment. A Mending Efficiency V pickaxe then sells for
+  # the plain pickaxe price and a Mending book for the same flat "enchanted
+  # book" price as Bane of Arthropods I - one careless click, one ticket.
+  # enchantment-bonus right below changes that. Leave both off to push
+  # enchanted goods to /ah, where players price them themselves.
+  allow-enchanted: true
+
+  # Enchantments raise the price - only while allow-enchanted is true.
+  enchantment-bonus:
+
+    # Only while allow-enchanted above is true. Off by default: an enchanted
+    # item sells for the price of the plain item, exactly as before. On,
+    # every enchantment level adds to it - on an enchanted book, the
+    # enchantments stored in it.
+    #
+    # THINK ABOUT ABUSE BEFORE YOU TURN IT ON
+    # Enchanting costs experience and lapis, and an XP farm makes experience
+    # free. Whatever an enchantment adds is money players make out of time
+    # at a farm, on anything they can enchant. That is why:
+    #  - curses never add anything
+    #  - levels above the vanilla maximum (Sharpness 255 from a command or a
+    #    crate) count as the maximum
+    #  - the bonus never goes above max-percent of the plain item's price
+    #  - a worn item loses the bonus with its durability, like the price
+    # Keep ENCHANTED_BOOK in prices.yml modest as well: an enchanting table
+    # turns a book worth 3 into an enchanted book, with or without a bonus.
+    enabled: true
+
+    # What each enchantment level adds to ONE item:
+    #   '10%'   ten percent of the plain item's price per level  (default)
+    #   25      a fixed 25 per level, whatever the item is worth
+    # Percent is the safe choice: it can never make a cheap item expensive.
+    # A fixed amount pays as much for Efficiency V on a wooden shovel as on
+    # a netherite pickaxe - exactly what an XP farm exploits. A fixed amount
+    # is multiplied by price-factor like any other price.
+    #
+    # At 10%, a pickaxe worth 100 with Efficiency V, Unbreaking III and
+    # Mending (5 + 3 + 1 = 9 levels) sells for 100 + 90% = 190.
+    #
+    # Single enchantments can have their own value under `enchantments:`,
+    # same format - add that section if your file does not have it yet.
+    per-level: '10%'
+
+    # Everything the enchantments add together stops at this percentage of
+    # the plain item's price: 300 means an enchanted item pays at most four
+    # times the plain one. This is what keeps a fixed per-level amount from
+    # turning a one-coin item into a fortune. 0 = no limit.
+    max-percent: 0
+
+    # Own values for single enchantments, used instead of per-level. Same
+    # format; 0 means that enchantment adds nothing. Mending and Silk Touch
+    # have only one level, so per-level counts them like Sharpness I - give
+    # them their own value if they should be worth more. Add the section
+    # right here, level with max-percent, with NOTHING after the colon:
+    enchantments:
+      mending: '50%'
+      wind_burst: '100%'
+    # If your file has a line `enchantments: {}`, delete the {} before you
+    # add entries under it. With it, the whole file is a YAML error: SKSell
+    # then runs on the shipped settings - enchanted and renamed items
+    # refused, the default price line - until it is fixed. /sksell reload
+    # says so and names the line.
+
+  # Refuse items that carry data from another plugin.
+  # This is what stops crate keys, kit items, custom weapons and anything
+  # else with hidden plugin data from being sold for the price of the plain
+  # material it is made of. Leave this on unless you know you want it off.
+  refuse-plugin-items: true
+
+  # Plugins whose data does NOT count for refuse-plugin-items above.
+  # Anti-dupe plugins stamp ordinary items - AntiDupePro writes an owner tag
+  # onto elytras, dropped shulker boxes and more. List their namespace here
+  # (the part before the colon, e.g. antidupepro:adp_owner -> antidupepro)
+  # so those items still sell and show a price. Crate keys, kit items and
+  # anything from a plugin NOT listed here stay refused.
+  ignore-data-from:
+    - antidupepro
+
+  # Damaged tools and armour.
+  #   refuse-damaged: true    a used pickaxe cannot be sold at all
+  #   scale-damaged-price     price drops with the remaining durability,
+  #                           so a half-worn diamond pickaxe is worth half
+  # With both off, a one-hit-from-breaking pickaxe sells for full price -
+  # which players will happily farm.
+  refuse-damaged: false
+  scale-damaged-price: true
+
+  # Round the payout down to a whole coin, like the old script did.
+  # Turn off if your economy shows decimals and you want the exact amount.
+  round-payout-down: true
+
+  # Decimal places on every money value this plugin prints - worth lines,
+  # /worth, the payout message. 0 is whole units and the old behaviour.
+  #
+  # Set this to 2 if you price anything below 1. Until then a worth of 0.50
+  # is drawn as 0, which reads like a broken setting rather than a rounded
+  # one. Rounding is always DOWN, whatever you put here: a number on screen
+  # must never promise more than the till pays out.
+  money-decimals: 2
+
+  # Maximum number of item stacks a single sell chest can process.
+  # Only a safety net against someone hopper-feeding an enormous chest;
+  # the default is far above what a 6-row menu can even hold.
+  #
+  # Counted on what the player HANDS IN, not on what comes out of it. A
+  # shulker box is one stack here even though it unpacks into 27, so five
+  # boxes are five against this limit. Anything over it is handed straight
+  # back with the cap-reached message - never sold, never destroyed.
+  max-stacks-per-sale: 108
+
+  # A shulker box or bundle that still has something inside.
+  #
+  #   contents   sell what is inside, hand the empty box back    (default)
+  #   refuse     hand the box back untouched, the player empties it
+  #   all        sell the contents AND the box itself
+  #
+  # Only items that actually have a price are taken out. Anything else stays
+  # where it is, so the box comes back with exactly what could not be sold -
+  # never a pile of loose items in the player's inventory. A box inside a box
+  # is left alone.
+  #
+  # With contents or all, the worth tooltip on a filled box shows the total of
+  # everything inside it.
+  filled-containers: contents
+
+
+# ---------------------------------------------------------------------
+#  Selling into player orders (needs SKOrders)
+# ---------------------------------------------------------------------
+#  With this on, whatever a player sells first fills matching open orders
+#  of other players - at the ORDER's price, paid out of the money the
+#  buyer put up - and only the rest is bought by the server. The items go
+#  into the order for its owner to collect, exactly as if the seller had
+#  delivered them in /orders.
+#
+#  Only what the server would buy anyway takes part: items without a price
+#  are handed back as before and never go to an order, so /sell all cannot
+#  start selling gear just because somebody ordered it. Enchanted, renamed
+#  or damaged items only fill an order that asks for exactly that item.
+#
+#  Without SKOrders installed this does nothing, with one line in the
+#  console the first time somebody sells.
+sell-to-orders:
+
+  # Off by default: selling works as it always did.
+  enabled: false
+
+  # Only use an order that pays at least what the server would pay this
+  # player for the item right now (price x multiplier + rank bonus). With
+  # this on, the switch above can never cost a seller money. false fills
+  # orders at any price above zero, best price first.
+  only-when-better: true
+
+
+# ---------------------------------------------------------------------
+#  Where the sell data is kept
+# ---------------------------------------------------------------------
+#  yaml     one file per plugin, readable, fixable by hand      (default)
+#  sqlite   one database file - better once you have thousands of players
+#  mysql    several servers share the same progress
+#
+#  Nothing to install for any of them: SQLite and MySQL drivers already ship
+#  with Bukkit, Spigot, Paper and Folia.
+#
+#  Switching is safe in one direction: an old data/selldata.yml from SKSell 1.x
+#  is moved across automatically on the first start. Switching type later does
+#  NOT move the data - export first if you already have players.
+#
+#  If the database cannot be reached, the plugin falls back to yaml and says so
+#  in the console rather than starting without anyone's progress.
+storage:
+  type: yaml
+
+  mysql:
+    host: localhost
+    port: 3306
+    database: minecraft
+    user: root
+    password: ''
+    # One table holds every SK plugin's data. Change it only if that name is
+    # already taken in your database.
+    table: sk_data
+
+# ---------------------------------------------------------------------
+#  Sell multipliers - the long-term progression
+# ---------------------------------------------------------------------
+#  Every category in prices.yml tracks how much BASE value a player has
+#  sold from it. Passing a threshold permanently raises that category's
+#  multiplier, so a player who farms crops gets better at selling crops
+#  without it affecting their ore income.
+#
+#  The tracked value is always the un-multiplied price, so the multiplier
+#  never accelerates its own growth - and it is the price from prices.yml,
+#  before selling.price-factor, so the factor does not either.
+multipliers:
+
+  # Off means everything sells at exactly its listed price and /sellmulti
+  # reports that the system is disabled.
+  enabled: true
+
+  # Multiplier everyone starts with. 1.0 = the listed price.
+  base: 1.0
+
+  # How much each threshold passed adds. 0.1 = +10 percentage points.
+  # Twenty thresholds at 0.1 on top of base 1.0 top out at x3.0 - one
+  # step per slot of the track in menu-progress.yml, so if you add or
+  # remove a threshold, add or remove a slot there too.
+  step: 0.1
+
+  # Ranks add a flat bonus on top of whatever a player has earned.
+  # sksell.multiplier.<percent> adds that many percentage points to the
+  # rate, so sksell.multiplier.10 means +0.1. The highest node a player
+  # holds wins - they do not stack.
+  #
+  #     /lp group prime permission set sksell.multiplier.10
+  #
+  # A wildcard ("*" or "sksell.*") gives no rank bonus - it would hold every
+  # node up to the ceiling. Grant the exact node instead.
+  #
+  # This is the highest number the plugin looks for.
+  permission-ceiling: 100
+
+  # The thresholds, in base value sold per category.
+  # Add or remove entries freely - the number of steps follows the list.
+  # Keep them ascending; anything else makes the progress bar meaningless.
+  thresholds: [25000, 35000, 45000, 60000, 80000, 110000, 150000, 200000, 260000, 350000, 460000, 620000, 830000, 1100000, 1500000, 2000000, 2700000, 3600000, 4800000, 6400000]
+
+  # Tell the player in chat when a category levels up.
+  # The message itself is messages.multiplier-up further down.
+  announce-upgrade: true
+
+
+# ---------------------------------------------------------------------
+#  Worth lore - the price line under items in the player's inventory
+# ---------------------------------------------------------------------
+#  The old script scanned the inventory of EVERY online player every three
+#  seconds and rebuilt the item metadata as it went. This version reacts to
+#  the events that can actually change an inventory (pick up, craft, click,
+#  join) and only touches the players those events name.
+#
+#  The slow sweep below exists purely as a safety net for the odd plugin
+#  that puts items into an inventory without firing anything.
+#
+#  ABOUT STACKING - READ THIS BEFORE CHANGING THE LINE
+#  Minecraft stacks two items only when their lore matches exactly. That is
+#  the server's own rule and no plugin can step around it.
+#
+#  %price% is the price of ONE item, so it reads the same on a stack of 1
+#  and a stack of 64. Two stacks therefore look identical and merge as they
+#  always did. This is the shipped default and it is the safe one.
+#
+#  %total% is the whole stack, and it moves with the amount. Every stack
+#  size then carries a different line and is a different item to the server.
+#  This plugin softens that where it can see a merge coming - a pickup, an
+#  inventory click, a drag: the line comes off both sides, the server merges,
+#  and the line is written again a tick later. But it cannot see every path.
+#  A hopper, a plugin handing out items, a death drop, two stacks meeting on
+#  the ground - none of those fire an event we get, and there the stacks
+#  simply stay apart.
+#
+#  So: %total% if you want the figure and can live with that, %price% if you
+#  want stacking to behave exactly like vanilla. There is no third option -
+#  a line that changes with the amount cannot also be ignored by the stacker.
+#  Players can still switch the display off for themselves with /worthlore.
+#  Whoever has it off goes through the same sweep the other way round, so a
+#  lettered item never stays lettered in their inventory.
+worth-lore:
+
+  # Master switch. Off means no item in any inventory is ever touched.
+  enabled: true
+
+  # Also write the line onto the item in the off-hand slot.
+  include-offhand: true
+  # Also letter the four armour slots, so worn gear shows its value on the
+  # inventory screen. Off by default: most owners want prices on loot, not
+  # on what somebody is wearing.
+  include-armor: false
+
+  # Which events mark a player as "inventory may have changed".
+  # Each one only puts the player in a queue - the work itself is capped by
+  # the two settings below, so leaving them all on is cheap.
+  #   pickup           picked an item up off the ground
+  #   inventory-click  any inventory click, which also covers crafting,
+  #                    smelting and taking things out of chests
+  #   inventory-close  closed a chest, a workbench or any other container
+  #   join             joined the server
+  # Turn one off only if another plugin already fires it thousands of times
+  # a second; the queue itself holds each player once, so duplicates are free.
+  triggers:
+    pickup: true
+    inventory-click: true
+    inventory-close: true
+    join: true
+
+  # How often the queue of players that need a refresh is drained, in ticks
+  # (20 ticks = 1 second), and how many players are handled per run.
+  # These only cap burst load: the queue holds each player once, so a busy
+  # server processes the same work either way, just spread out.
+  refresh-interval-ticks: 10
+  players-per-refresh: 8
+
+  # The safety-net sweep: every X ticks, N players are refreshed whether or
+  # not anything happened to them. Set sweep-interval-ticks to 0 to switch
+  # the sweep off entirely and rely on events alone.
+  sweep-interval-ticks: 200
+  players-per-sweep: 2
+
+  # The line itself.
+  # Placeholders: %total% %price% %unit_price% %category% %category_color%
+  #   %total%                  the whole stack, amount included
+  #   %price%, %unit_price%    one item, whatever the stack size
+  # Using %total% anywhere in these lines turns on the merge guard above.
+  # An empty list switches the lore off while leaving the events alone.
+  lore:
+    - '&7Worth: &#71F521$%price%'
+
+
+# ---------------------------------------------------------------------
+#  The /worth price list
+# ---------------------------------------------------------------------
+worth:
+
+  # Sort order a player sees the first time they open /worth.
+  # One of: highest, lowest, alphabetical
+  default-sort: highest
+
+  # How the three sort modes are named in the sort button.
+  sort-names:
+    highest: 'Highest Price'
+    lowest: 'Lowest Price'
+    alphabetical: 'Alphabetically'
+
+  # How the currently selected and the other modes are drawn in that list.
+  # Placeholder: %name%
+  sort-selected: '&#71F521▶ %name%'
+  sort-unselected: '&8▶ &f%name%'
+
+
+# ---------------------------------------------------------------------
+#  Progress bars (used by /sellmulti)
+# ---------------------------------------------------------------------
+progress-bar:
+
+  # How many segments the bar has. More segments = finer resolution.
+  length: 10
+
+  # The characters. Use the same one twice for a solid bar, or something
+  # like '|' and '.' if your resource pack has no block glyphs.
+  filled-symbol: '■'
+  empty-symbol: '■'
+
+  # Colours for the filled and the empty part.
+  filled-color: '&#71F521'
+  empty-color: '&8'
+
+
+# ---------------------------------------------------------------------
+#  Sounds
+# ---------------------------------------------------------------------
+#  Every cue takes a sound key, a volume and a pitch.
+#  Set `sound` to '' to switch that cue off.
+#  `source` is the volume slider it obeys: master, music, record, weather,
+#  block, hostile, neutral, player, ambient, voice.
+sounds:
+
+  menu-open:
+    sound: 'block.chest.open'
+    volume: 0.8
+    pitch: 1.3
+    source: master
+
+  # Every button press inside a menu.
+  click:
+    sound: 'ui.button.click'
+    volume: 0.7
+    pitch: 1.2
+    source: master
+
+  # A completed sale.
+  sold:
+    sound: 'entity.player.levelup'
+    volume: 1.0
+    pitch: 1.5
+    source: master
+
+  # The chest was closed but nothing in it could be sold.
+  rejected:
+    sound: 'entity.villager.no'
+    volume: 1.0
+    pitch: 1.0
+    source: master
+
+  # A category multiplier went up.
+  multiplier-up:
+    sound: 'entity.player.levelup'
+    volume: 1.0
+    pitch: 1.9
+    source: master
+
+
+# ---------------------------------------------------------------------
+#  Data
+# ---------------------------------------------------------------------
+data:
+
+  # How often data/selldata.yml is written, in seconds.
+  # The file is rendered on the main thread and written on a background
+  # thread through a temporary file, so a low value is cheap. Everything is
+  # saved on shutdown regardless.
+  save-interval-seconds: 300
+
+
+# ---------------------------------------------------------------------
+#  Messages
+# ---------------------------------------------------------------------
+#  Every line a player can see. An empty string switches that message off.
+#  The prefix at the top of this file is added to all of them.
+
+# ---------------------------------------------------------------------
+#  Sell Axe
+# ---------------------------------------------------------------------
+#  The Special Crate tool: right-click a chest, barrel or shulker and
+#  everything inside that HAS a price is sold at once. Anything without
+#  one stays where it is - emptying a chest of junk into somebody's
+#  inventory is not what "sell this chest" means.
+#
+#  An axe from /sksell give carries a hidden tag and is recognised by it,
+#  whatever it is called - in a crate, use `sksell give %player%` as the
+#  reward and the name no longer matters. Axes without the tag (older
+#  ones, or one a crate builds itself) are found by their display name:
+#  rename such a reward and name-contains has to follow.
+#
+#  Its "<n> uses" lore line is counted down here too, by the same rule
+#  the script uses for the other six.
+# ---------------------------------------------------------------------
+sell-axe:
+  enabled: true
+  name-contains: 'SPECIAL SELL AXE'
+  # Leave empty for "anyone holding the axe".
+  permission: ''
+  cooldown-seconds: 1
+
+  # The same wait in milliseconds, for when whole seconds are too coarse.
+  # -1 means "not set" and cooldown-seconds above decides. Anything from 0
+  # up wins over it, so 250 is a quarter second and 0 is no wait at all.
+  cooldown-millis: -1
+
+  # What /sksell give <player> [uses] hands out.
+  #
+  # The axe's NAME is always name-contains above - this command cannot hand
+  # out an axe the listener does not recognise. Only the look and the counter
+  # are set here.
+  give:
+    # Any item name works; the crate reward is a diamond axe.
+    material: DIAMOND_AXE
+    # Colour and style in front of the name. Cosmetic only - the matcher
+    # strips it before comparing.
+    name-color: '&#00B5FF&l'
+    # How many uses the axe starts with, written as the "<n> uses" lore line
+    # that every special item counts down. Override per hand-out with
+    # /sksell give <player> <uses>.
+    uses: 500
+
+# ---------------------------------------------------------------------------
+#  Messages
+# ---------------------------------------------------------------------------
+#  An empty line means the message is switched off.
+#
+#  Start a line with <actionbar> and it appears over the hotbar instead of in
+#  the chat. Good for anything that happens often - the sell axe fires on every
+#  chest, and twenty chests would be twenty chat lines.
+#
+#      sell-axe-sold: '<actionbar>&aSold %items% items for $%price%'
+#
+#  The prefix above is not added to hotbar lines; that row is short and centred.
+#  On plain CraftBukkit there is no hotbar row, so the line goes to the chat
+#  instead - nothing is ever silently dropped.
+messages:
+  # %items% %price%
+  sell-axe-sold: '<actionbar>&#6BFF00Sold &f%items% &#6BFF00items from the chest for &f$%price%&#6BFF00!'
+  sell-axe-empty: '&#FF2121There is nothing sellable in there!'
+  sell-axe-no-permission: '&#FF2121You are not allowed to use the Sell Axe.'
+  # No placeholders.
+  no-permission: '&#FF2121You are not allowed to do that.'
+
+  # No placeholders. Sent when a console tries a player-only command.
+  players-only: '&#FF2121This command can only be used by players.'
+
+  # A completed sale. Placeholders: %items% (how many items) %price% (payout)
+  # With sell-to-orders the numbers include what went to player orders.
+  sold: '&fYou sold &#71F521%items% items &ffor &#71F521$%price%&f!'
+
+  # sell-to-orders: part of the sale went into players' open orders, at
+  # their price, before the rest was sold to the server. Sent before the
+  # line above. Placeholders: %items% %price% (the orders' part only)
+  sold-to-orders: '&#00B5FFPlayer orders &fbought &#71F521%items% &fof your items for &#71F521$%price%&f.'
+
+  # Everything in the chest was refused. No placeholders.
+  # A filled shulker or bundle while selling.filled-containers is `refuse`.
+  # No placeholders.
+  container-not-empty: '&#FFD900That box still has something in it - empty it first.'
+
+  nothing-sold: '&#FF2121These items can''t be sold!'
+
+  # /sell hand with an empty hand. No placeholders.
+  hand-empty: '&#FF2121You are not holding anything.'
+
+  # Some items were refused while others sold. Placeholder: %items%
+  partly-rejected: '&#FFD900%items% items were handed back - they have no price.'
+
+  # More stacks were handed in at once than max-stacks-per-sale allows.
+  # A different line from partly-rejected on purpose: these items DO have a
+  # price, they simply did not fit into one sale.
+  # Placeholders: %items% (how many came back) %stacks% (the limit)
+  cap-reached: '&#FFD900%items% items were handed back - only %stacks% stacks can be sold at once.'
+
+  # Refused items did not fit and were dropped. Placeholder: %items%
+  items-dropped: '&#FFD900%items% items did not fit and were dropped at your feet.'
+
+  # No economy plugin is installed, so nothing can be bought. No placeholders.
+  no-economy: '&#FF2121Selling is unavailable right now - no economy is connected.'
+
+  # An economy is installed but turned the payout down - EssentialsX does
+  # that above max-money, for example. Everything goes back to the player
+  # (or into the chest for the Sell Axe). %reason% is what the economy said.
+  economy-refused: '&#FF2121The economy refused the payment: &f%reason%'
+
+  # A category multiplier went up.
+  # Placeholders: %category% (display name) %multiplier% (the new value)
+  multiplier-up: '&#71F521Your %category% sell multiplier is now &fx%multiplier%&#71F521!'
+
+  # Multipliers are switched off in settings.yml. No placeholders.
+  multipliers-disabled: '&7Sell multipliers are disabled on this server.'
+
+  # /sellhistory with nothing sold yet. No placeholders.
+  history-empty: '&7You have not sold anything yet.'
+  history-empty-other: '&7%player% has not sold anything yet.'
+  history-unknown: '&#FF2121No player called &f%player%&#FF2121 has been on this server.'
+
+  # /worthlore. No placeholders.
+  worth-lore-on: '&#71F521Item prices are now shown in your inventory.'
+  worth-lore-off: '&7Item prices are no longer shown in your inventory.'
+
+  # /worthlore while worth-lore.enabled is false. No placeholders.
+  worth-lore-unavailable: '&7The inventory price display is disabled on this server.'
+
+  # /sksell reload. Placeholder: %items% (how many items now have a price)
+  reloaded: '&#71F521Reloaded. &f%items% &#71F521items have a price.'
+
+  # After /sksell reload, when settings.yml or prices.yml has a YAML error.
+  # Sent in addition to the line above. Placeholders: %file% %line%
+  file-broken: '&#FF2121%file% has a YAML error near line %line% - SKSell uses the shipped file until you fix it, so your own values are NOT active. Details in the console.'
+
+  # /sksell price with an unknown material. Placeholder: %input%
+  unknown-item: '&#FF2121Unknown item: &f%input%'
+
+  # /sksell price. Placeholders: %item% %price% %category%
+  price-info: '&f%item% &7» &#71F521$%price% &7(%category%)'
+
+  # /sksell with an unknown sub-command. No placeholders.
+  admin-usage: '&7Usage: &f/sksell <reload|price|info|give>'
+
+  # /sksell give - the Sell Axe, straight into a player's inventory.
+  # Placeholders: %player% %name% (the axe's name, without colours) %uses%
+  #               %input% (what was typed)
+  give-usage: '&7Usage: &f/sksell give <player> [uses]'
+  player-not-found: '&#FF2121No player called &f%player% &#FF2121is online.'
+  invalid-uses: '&f%input% &#FF2121is not a number of uses.'
+  broken-axe: '&f%input% &#FF2121is not an item - check &fsell-axe.give.material&#FF2121.'
+  axe-given: '&fGave &#00B5FF%name% &f(&#00B5FF%uses%&f uses) to &#00B5FF%player%&f.'
+  axe-received: '&fYou received &#00B5FF%name% &fwith &#00B5FF%uses%&f uses.'
+
+  # /sksell info.
+  # Placeholders: %items% (priced items) %categories% %players% (records held)
+  #               %worth_lore% (true/false - the master switch above)
+  info: '&#00B5FF%items% &fitems &7· &#00B5FF%categories% &fcategories &7· &#00B5FF%players% &fplayers &7· worth lore: &f%worth_lore%'
