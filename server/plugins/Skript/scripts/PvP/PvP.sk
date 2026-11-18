@@ -42,8 +42,8 @@ every 4 ticks:
         set {_t} to {pvp::time::%{_p}'s name%}
 
         if now >= {_t}:
-            delete {pvp::time::%{_p}'s name%}
-            delete {pvp::enemy::%{_p}'s name%}
+            set {pvp::time::%{_p}'s name%} to 0
+            set {pvp::enemy::%{_p}'s name%} to ""
             remove {_p}'s name from {pvp::inpvp::*}
             send action bar "&aYou're no longer in combat!" to {_p}
         else:

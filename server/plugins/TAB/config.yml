@@ -216,7 +216,7 @@ conditions:
       - "%player%=%essentials_nickname%"
   inpvp:
     conditions:
-      - "%skript_pvp::time::{uuid}%>0"
+      - "%skript_pvp::time::{player}%>0"
   login:
     conditions:
       - "%world%=voidworld"

@@ -17,23 +17,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1794936269210
-  login: 1794990750422
-money: '0'
+  logout: 1794991315469
+  login: 1794991487338
+money: '5000.000'
 last-account-name: '234565432'
 lastlocation:
   world: ae3fd088-f335-4304-928c-e6a701fdd5bc
   world-name: Survival
-  x: -3972.5
-  y: 75.0
-  z: -2544.5
-  yaw: 89.99999237060547
-  pitch: 0.0
+  x: -3972.057881623669
+  y: 74.0
+  z: -2536.9951396658053
+  yaw: 39.45000076293945
+  pitch: 63.450008392333984
 logoutlocation:
   world: ae3fd088-f335-4304-928c-e6a701fdd5bc
   world-name: Survival
-  x: -3999.7392316751198
-  y: -20.4125
-  z: -2542.4901226133497
-  yaw: -40.36410140991211
-  pitch: 7.039308547973633E-5
+  x: -1916.1513938024152
+  y: -20.0
+  z: 1189.4214391919581
+  yaw: -79.95086669921875
+  pitch: 33.14996337890625

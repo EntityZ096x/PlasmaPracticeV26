@@ -58,3 +58,13 @@
 [1;33m[2026-11-18 07:39:31] Waiting for next backup...[0m
 [0;37m[2026-11-18 08:39:47] ========== STARTING BACKUP ==========[0m
 [0;37m[2026-11-18 08:39:48] Changed files detected: 152[0m
+[0;32m[2026-11-18 08:40:02] SUCCESS: Commit created![0m
+[0;37m[2026-11-18 08:40:02] ========== PUSH ATTEMPT 1/5 ==========[0m
+[0;32m[2026-11-18 08:40:44] SUCCESS: Push completed![0m
+[0;37m[2026-11-18 08:40:44] Backup duration: 00h 00m 57s[0m
+[0;37m[2026-11-18 08:40:44] Latest commit: 1a67d52[0m
+[0;32m[2026-11-18 08:40:44] NEXT BACKUP: 2026-11-18 09:40:44[0m
+[1;33m[2026-11-18 08:40:44] Waiting for next backup...[0m
+[0;32m[2026-11-18 09:05:57] Backup manager started successfully![0m
+[0;37m[2026-11-18 09:05:57] ========== STARTING BACKUP ==========[0m
+[0;37m[2026-11-18 09:05:57] Changed files detected: 132[0m

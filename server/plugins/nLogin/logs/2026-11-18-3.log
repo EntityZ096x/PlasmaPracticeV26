@@ -33,3 +33,4 @@
 [2026/11/18 08:29:35 INFO]: The user EntityZ096x has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
 [2026/11/18 08:32:36 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = '234565432', `unique_id` = fa700949a33838089fd3a56c331cb6cb,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$jOSOIONZARPHR6VGprrPbey3FttE/rsQhXd.Q9t9qkzeliipsADbu', `last_ip` = '127.0.0.1', `creation_date` = 2026-11-11 09:17:57.774, `last_seen` = 2026-11-18 08:32:36.671, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 7" (applied to [last_ip, last_seen, settings] columns)
 [2026/11/18 08:32:36 INFO]: The user 234565432 has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/18 08:41:55 INFO]: Successful plugin core shutdown (took 0.01s)

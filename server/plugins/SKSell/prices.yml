@@ -24,7 +24,7 @@ categories:
     items:
       COAL: 5
       COPPER: 12.5
-      IRON: 50
+      IRON_INGOT: 50
       REDSTONE: 12.5
       GOLD_INGOT: 125
       EMERALD: 125
