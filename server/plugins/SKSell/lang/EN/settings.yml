@@ -124,7 +124,7 @@ selling:
     # right here, level with max-percent, with NOTHING after the colon:
     enchantments:
       mending: '50%'
-      wind_burst: '100%'
+      wind_burst: '250000'
     # If your file has a line `enchantments: {}`, delete the {} before you
     # add entries under it. With it, the whole file is a YAML error: SKSell
     # then runs on the shipped settings - enchanted and renamed items
@@ -157,7 +157,7 @@ selling:
 
   # Round the payout down to a whole coin, like the old script did.
   # Turn off if your economy shows decimals and you want the exact amount.
-  round-payout-down: true
+  round-payout-down: false
 
   # Decimal places on every money value this plugin prints - worth lines,
   # /worth, the payout message. 0 is whole units and the old behaviour.
@@ -344,7 +344,7 @@ worth-lore:
   # Also letter the four armour slots, so worn gear shows its value on the
   # inventory screen. Off by default: most owners want prices on loot, not
   # on what somebody is wearing.
-  include-armor: false
+  include-armor: true
 
   # Which events mark a player as "inventory may have changed".
   # Each one only puts the player in a queue - the work itself is capped by

@@ -34,13 +34,8 @@ items:
     action: back
     name: '&#FF0000&lBACK'
     lore:
-      - '&7Navigation'
-      - '&f'
-      - '&#FF2121Information:'
-      - '&fClick to go back to'
-      - '&fthe sellmulti menu.'
-      - '&e'
-      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to open'
+      - '&7Click to go back to'
+      - '&7the sellmulti menu.'
 
   next:
     material: ARROW
@@ -48,13 +43,8 @@ items:
     action: next
     name: '&#71F521&lNEXT'
     lore:
-      - '&7Navigation'
-      - '&f'
-      - '&#71F521Information:'
-      - '&fClick to navigate to'
-      - '&fthe next page.'
-      - '&e'
-      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to go forward'
+      - '&7Click to navigate to'
+      - '&7the next page.'
 
   # The progress display in the middle of the control row.
   # Set use-category-icon to false to always use the material above.

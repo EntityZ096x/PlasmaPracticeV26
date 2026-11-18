@@ -17,17 +17,17 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1794933303004
-  login: 1794933007325
+  logout: 1794983519793
+  login: 1794987524783
 money: '16697.23'
 logoutlocation:
   world: ae3fd088-f335-4304-928c-e6a701fdd5bc
   world-name: Survival
-  x: -1963.92501196453
+  x: -1963.7727904270514
   y: 7.5
-  z: 1248.1821592738745
-  yaw: 68.69976043701172
-  pitch: 24.449970245361328
+  z: 1248.0521313284362
+  yaw: 73.64974212646484
+  pitch: 11.84997844696045
 last-account-name: EntityZ096x
 lastlocation:
   world: ae3fd088-f335-4304-928c-e6a701fdd5bc

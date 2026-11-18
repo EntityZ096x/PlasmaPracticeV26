@@ -26,7 +26,7 @@
 # =====================================================================
 
 menu:
-  title: '▶ Sell | Menu'
+  title: '▶ SellGUI'
   filler-symbol: '-'
   content-symbol: '#'
   # 'c' takes one category button each, filled from prices.yml in order.
