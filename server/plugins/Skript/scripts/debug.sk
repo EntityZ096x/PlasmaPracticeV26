@@ -159,5 +159,6 @@ command /debug.isbroblocking:
 on right click:
     if {debug.%player%} is true:
         wait 1 tick
-        if event is not canceled:
-            send "&7Clicked block: &c%player's targeted block%"
+        if event is canceled:
+            send "&c=== CANCELED ==="
+        send "&7Clicked block: &c%player's targeted block%"

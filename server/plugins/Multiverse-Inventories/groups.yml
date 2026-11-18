@@ -12,9 +12,9 @@ groups:
     - all
   Survival:
     worlds:
-    - survival
     - survival_nether
-    - survival_the_end
+    - test
     - survival_spawn
+    - survival
     shares:
     - all

@@ -963,3 +963,15 @@
 1794932122882:sk reload /ci/Altars/
 1794932884259:sk reload debug.sk
 1794985872010:sksell reload
+1794988408817:sk reload debug.sk
+1794988938185:mv info survival
+1794988971481:minecraft:execute in minecraft:survival run minecraft:time query daytime
+1794988981659:minecraft:execute in minecraft:survival run minecraft:time query daytime/mv modify list
+1794988987358:mv modify list
+1794988995231:mv modify survival
+1794989001255:mv modify survival reset
+1794989013472:version
+1794989072111:plugins
+1794989540268:mv list
+1794990204970:ab reload
+1794990240868:tab reload
