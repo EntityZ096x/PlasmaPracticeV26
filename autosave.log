@@ -68,3 +68,8 @@
 [0;32m[2026-11-18 09:05:57] Backup manager started successfully![0m
 [0;37m[2026-11-18 09:05:57] ========== STARTING BACKUP ==========[0m
 [0;37m[2026-11-18 09:05:57] Changed files detected: 132[0m
+[0;32m[2026-11-18 09:06:01] SUCCESS: Commit created![0m
+[0;37m[2026-11-18 09:06:01] ========== PUSH ATTEMPT 1/5 ==========[0m
+[0;32m[2026-11-18 09:06:22] Backup manager started successfully![0m
+[0;37m[2026-11-18 09:06:22] ========== STARTING BACKUP ==========[0m
+[0;37m[2026-11-18 09:06:22] Changed files detected: 63[0m
