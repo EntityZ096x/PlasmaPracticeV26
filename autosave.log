@@ -90,3 +90,13 @@
 [0;32m[2026-11-24 07:26:33] Backup manager started successfully![0m
 [0;37m[2026-11-24 07:26:33] ========== STARTING BACKUP ==========[0m
 [0;37m[2026-11-24 07:26:33] Changed files detected: 53[0m
+[0;32m[2026-11-24 07:26:34] SUCCESS: Commit created![0m
+[0;37m[2026-11-24 07:26:34] ========== PUSH ATTEMPT 1/5 ==========[0m
+[0;32m[2026-11-24 07:26:39] SUCCESS: Push completed![0m
+[0;37m[2026-11-24 07:26:39] Backup duration: 00h 00m 06s[0m
+[0;37m[2026-11-24 07:26:39] Latest commit: ff1b96b[0m
+[0;32m[2026-11-24 07:26:39] NEXT BACKUP: 2026-11-24 08:26:39[0m
+[1;33m[2026-11-24 07:26:39] Waiting for next backup...[0m
+[0;32m[2026-11-24 07:30:10] Backup manager started successfully![0m
+[0;37m[2026-11-24 07:30:10] ========== STARTING BACKUP ==========[0m
+[0;37m[2026-11-24 07:30:10] Changed files detected: 6[0m
