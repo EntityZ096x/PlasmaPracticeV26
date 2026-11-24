@@ -124,7 +124,20 @@ command /debug.whatismyuuid [<player>]:
 
 command /debug.testvar <text>:
     trigger:
-        send "%{%arg-1%}%" to player
+        set {_a} to arg-1
+        replace all "%%me%%" in {_a} with "%player%"
+        replace all "%%uuid%%" in {_a} with "%player's uuid%"
+        replace all "%%name%%" in {_a} with "%player's name%"
+        send "%{%{_a}%}%" to player
+
+command /debug.delvar <text>:
+    trigger:
+        set {_a} to arg-1
+        replace all "%%me%%" in {_a} with "%player%"
+        replace all "%%uuid%%" in {_a} with "%player's uuid%"
+        replace all "%%name%%" in {_a} with "%player's name%"
+        send "deleted {%{_a}%}" to player
+        delete {%{_a}%}
 
 
 command /debug.cnbtcheck:

@@ -156,10 +156,6 @@ function StartAltarCrafting(p: player, altarLoc: location):
         set style of event-bossbar to solid
 
     loop {_t} times:
-
-        # Always use the current owner.
-        # This allows unlimited consecutive PvP inheritance.
-
         set {_owner} to {altar.crafter::%{_altarLoc}%}
 
         if {_owner} is not online:

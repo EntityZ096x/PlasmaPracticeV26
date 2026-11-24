@@ -548,17 +548,17 @@ sell-axe:
 messages:
   # %items% %price%
   sell-axe-sold: '<actionbar>&#6BFF00Sold &f%items% &#6BFF00items from the chest for &f$%price%&#6BFF00!'
-  sell-axe-empty: '&#FF2121There is nothing sellable in there!'
-  sell-axe-no-permission: '&#FF2121You are not allowed to use the Sell Axe.'
+  sell-axe-empty: '&#FF0000There is nothing sellable in there!'
+  sell-axe-no-permission: '&#FF0000You are not allowed to use the Sell Axe.'
   # No placeholders.
-  no-permission: '&#FF2121You are not allowed to do that.'
+  no-permission: '&#FF0000You are not allowed to do that.'
 
   # No placeholders. Sent when a console tries a player-only command.
-  players-only: '&#FF2121This command can only be used by players.'
+  players-only: '&#FF0000This command can only be used by players.'
 
   # A completed sale. Placeholders: %items% (how many items) %price% (payout)
   # With sell-to-orders the numbers include what went to player orders.
-  sold: '&fYou sold &#71F521%items% items &ffor &#71F521$%price%&f!'
+  sold: '&aYou sold %items% items for $%price%!'
 
   # sell-to-orders: part of the sale went into players' open orders, at
   # their price, before the rest was sold to the server. Sent before the
@@ -568,12 +568,12 @@ messages:
   # Everything in the chest was refused. No placeholders.
   # A filled shulker or bundle while selling.filled-containers is `refuse`.
   # No placeholders.
-  container-not-empty: '&#FFD900That box still has something in it - empty it first.'
+  container-not-empty: '&#FF0000That box still has something in it - empty it first.'
 
-  nothing-sold: '&#FF2121These items can''t be sold!'
+  nothing-sold: '&#FF0000These items can''t be sold!'
 
   # /sell hand with an empty hand. No placeholders.
-  hand-empty: '&#FF2121You are not holding anything.'
+  hand-empty: '&#FF0000You are not holding anything.'
 
   # Some items were refused while others sold. Placeholder: %items%
   partly-rejected: '&#FFD900%items% items were handed back - they have no price.'
@@ -597,7 +597,7 @@ messages:
 
   # A category multiplier went up.
   # Placeholders: %category% (display name) %multiplier% (the new value)
-  multiplier-up: '&#71F521Your %category% sell multiplier is now &fx%multiplier%&#71F521!'
+  multiplier-up: '&aYour %category%&a sell multiplier is now &ex%multiplier%&#71F521!'
 
   # Multipliers are switched off in settings.yml. No placeholders.
   multipliers-disabled: '&7Sell multipliers are disabled on this server.'

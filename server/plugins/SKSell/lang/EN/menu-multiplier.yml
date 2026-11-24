@@ -45,8 +45,6 @@ items:
 category:
   name: '%color%&l%category%'
   lore:
-    - '&7Sellmulti'
-    - '&f'
     - '%color%Information:'
     - '&fSell %noun% to increase'
     - '&fyour sell multiplier!'
@@ -54,5 +52,3 @@ category:
     - '&7Progress to x%next_multiplier%'
     - '%progress_bar% &#71F521%percent%%'
     - '&7%value% &8/ &7%target%'
-    - '&e'
-    - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to view'

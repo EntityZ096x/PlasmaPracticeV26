@@ -1,11 +1,12 @@
 on enter of region named "kitpvp_arena":
     if {KitPvP::kit::%player%} is not set:
-        set {KitPvP::kit::%player%} to "Default"
+        set {KitPvP::kit::%player%} to "UltraHardCore"
     set player's food level to 10
     set player's saturation to 10
     set player's health to 10
     execute console command "/kit load %{KitPvP::kit::%player%}% %player%"
     set {KitPvP::invincibility::%player%} to true
+    set player's hotbar slot to 0
     wait 5 seconds
     delete {KitPvP::invincibility::%player%}
 
@@ -87,45 +88,42 @@ on right click:
     if player's tool is netherite sword:
         if name of player's tool is "&d&lSelect Kit":
             cancel event
-            open chest inventory with 3 rows named "          &8» &d&lSelect Kit &8«" to player
+            open chest inventory with 4 rows named "          &8» <gradient:#F54927:#FFD900>&lSelect Kit</gradient> &8«" to player
             wait 1 tick
 
-            loop 27 times:
+            loop 54 times:
                 set slot (loop-number - 1) of player's current inventory to gray stained glass pane named " "
 
-            set slot 11 of player's current inventory to mace named "&b&lMace" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
-            set slot 12 of player's current inventory to end crystal named "&b&lCrystal" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
-            set slot 13 of player's current inventory to netherite sword named "&b&lDefault" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
-            set slot 14 of player's current inventory to mace named "&b&lDueloMacestro" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
-            set slot 15 of player's current inventory to lime stained glass pane named "&a&lKit 5" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 11 of player's current inventory to mace named "<gradient:#F54927:#FFD900>&lMace" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 12 of player's current inventory to end crystal named "<gradient:#F54927:#FFD900>&lCrystal" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 13 of player's current inventory to netherite sword named "<gradient:#F54927:#FFD900>&lUltraHardCore" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 14 of player's current inventory to redstone named "<gradient:#F54927:#FFD900>&lTrapper" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 15 of player's current inventory to minecart with tnt named "<gradient:#F54927:#FFD900>&lXBowCart" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 20 of player's current inventory to splash potion of healing named "<gradient:#F54927:#FFD900>&lUltraNoDebuff" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 21 of player's current inventory to mace with item model "heavy_mace" named "<gradient:#F54927:#FFD900>&lDueloMacestro" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
+            set slot 22 of player's current inventory to shears with item model "sniper_rifle" named "<gradient:#F54927:#FFD900>&lSniper" with lore "&7Left-Click to select this kit.", "&7Right-Click to edit layout"
 
 on inventory click:
-    if name of player's current inventory is "          &8» &d&lSelect Kit &8«":
+    if name of player's current inventory is "          &8» <gradient:#F54927:#FFD900>&lSelect Kit</gradient> &8«":
         cancel event
         if click type is left mouse button:
-            if clicked slot is 11:
-                set {KitPvP::kit::%player%} to "Mace"
-                send "&r&aSelected the &eMace &aKit" to player
-                close player's inventory
-            if clicked slot is 12:
-                set {KitPvP::kit::%player%} to "Crystal"
-                send "&r&aSelected the &eCrystal &aKit" to player
-                close player's inventory
-            if clicked slot is 13:
-                set {KitPvP::kit::%player%} to "Default"
-                send "&r&aSelected the &eDefault &aKit" to player
-                close player's inventory
-            if clicked slot is 14:
-                set {KitPvP::kit::%player%} to "DueloMacestro"
-                send "&r&aSelected the &eDueloMacestro &aKit" to player
+            if {KitPvP::enabledkitslots::*} contains clicked slot:
+                set {KitPvP::kit::%player%} to uncolored event-item's name
+                send "<gradient:#F54927:#FFD900>&lKitPvP</gradient> &r&8»&r &aSelected the kit &e%uncolored event-item's name%&a!"
                 close player's inventory
         if click type is right mouse button:
-            if clicked slot is 11:
-                execute player command "/kit layout edit Mace"
-            if clicked slot is 12:
-                execute player command "/kit layout edit Crystal"
-            if clicked slot is 13:
-                execute player command "/kit layout edit Default"
-            if clicked slot is 14:
-                execute player command "/kit layout edit DueloMacestro"
+            if {KitPvP::enabledkitslots::*} contains clicked slot:
+                execute player command "/kit layout edit %uncolored event-item's name%"
+
+on load:
+    delete {KitPvP::enabledkitslots::*}
+    add 11 to {KitPvP::enabledkitslots::*}
+    add 12 to {KitPvP::enabledkitslots::*}
+    add 13 to {KitPvP::enabledkitslots::*}
+    add 14 to {KitPvP::enabledkitslots::*}
+    add 15 to {KitPvP::enabledkitslots::*}
+    add 20 to {KitPvP::enabledkitslots::*}
+    add 21 to {KitPvP::enabledkitslots::*}
+    add 22 to {KitPvP::enabledkitslots::*}
+    
         

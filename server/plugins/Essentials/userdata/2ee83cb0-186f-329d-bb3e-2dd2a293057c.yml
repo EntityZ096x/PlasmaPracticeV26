@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: false
+godmode: true
 flymode: true
 muted: false
 jailed: false
@@ -12,31 +12,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1794991117648
+  lastteleport: 1795453732758
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1794992684667
-  login: 1794991931335
-money: '24326.855'
+  logout: 1795502840808
+  login: 1795502601463
+money: '136339.2587500001017'
 logoutlocation:
-  world: ae3fd088-f335-4304-928c-e6a701fdd5bc
-  world-name: Survival
-  x: -1911.487500011921
-  y: -40.3125
-  z: 1219.300000011921
-  yaw: 65.24847412109375
-  pitch: 64.64998626708984
+  world: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
+  world-name: KitPvP
+  x: -4.637913681567151
+  y: 150.0
+  z: -5.409207766924903
+  yaw: 100.35013580322266
+  pitch: 49.05003356933594
 last-account-name: EntityZ096x
 lastlocation:
-  world: ae3fd088-f335-4304-928c-e6a701fdd5bc
-  world-name: Survival
-  x: -4012.4070877663075
-  y: -20.0
-  z: -2545.5862487000427
-  yaw: -83.24957275390625
-  pitch: 22.949995040893555
+  world: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
+  world-name: KitPvP
+  x: 0.42632003717907196
+  y: 73.0
+  z: -2.1079842129123634
+  yaw: 179.84999084472656
+  pitch: 8.550003051757812
 homes:
   base:
     world: ae3fd088-f335-4304-928c-e6a701fdd5bc

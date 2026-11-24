@@ -10,7 +10,7 @@
 # =====================================================================
 
 menu:
-  title: '▶ Sellmulti | %category%'
+  title: 'Sellmulti | %category%'
   filler-symbol: '-'
   content-symbol: '#'
   layout:

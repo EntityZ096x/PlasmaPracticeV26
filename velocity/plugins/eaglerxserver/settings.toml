@@ -55,7 +55,7 @@ eagler_players_vanilla_skin = ""
 enable_authentication_events = false
 # Default value is false, if support for servers running the EaglerXBackendRPC
 # plugin should be enabled or not.
-enable_backend_rpc_api = false
+enable_backend_rpc_api = true
 # Default value is false, if "modernized" plugin channel names compatible with
 # Minecraft 1.13+ should be used for EaglerXBackendRPC plugin message packets.
 # Enable this if you use Minecraft 1.13+ on your backend Spigot servers.

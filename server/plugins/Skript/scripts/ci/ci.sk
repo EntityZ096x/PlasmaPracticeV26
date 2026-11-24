@@ -1,15 +1,20 @@
+import:
+    org.bukkit.potion.PotionType
+    org.bukkit.Color
+
 on command:
     command is "give"
     if {ci::*} contains arg-2:
         cancel event
         if arg-2 is "grapplehook":
             set {_i} to a crossbow named "&r&lGrappling Hook"
-        if arg-2 is "sniper":
-            set {_i} to a bow named "&r&f50 Calibre Sniper Rifle"
+        if arg-2 is "sniper_rifle":
+            set {_i} to a shears named "&r&f50 Calibre Sniper Rifle" with custom nbt from "{ci.item:""sniper_rifle""}"
+            set item model of {_i} to "sniper_rifle"
         if arg-2 is "minigun":
             set {_i} to a bow named "&r&lMinigun"
         if arg-2 is "sniperbullet":
-            set {_i} to spectral arrows named "&r&e50 Calibre Sniper Bullet"
+            set {_i} to spectral arrows named "&r&e50 Calibre Sniper Bullet" with custom nbt from "{ci.item:""sniper_bullet""}"
         if arg-2 is "energy":
             set {_i} to potion of awkward named "&r&eEnergy Drink" with custom nbt from "{ci.item:""energy_drink""}"
             force {_i} to glint
@@ -18,6 +23,18 @@ on command:
                 hide_tooltip: false
                 hidden_components: minecraft:potion_contents
             set maximum stack size of {_i} to 64
+        if arg-2 is "splash_milk_pot":
+            set {_i} to splash potion of invisibility named "&r&fBottle of Milk" with custom nbt from "{ci.item:""milk_bottle""}"
+
+            set {_meta} to {_i}.getItemMeta()
+            {_meta}.setBasePotionType(PotionType.WATER)
+            {_meta}.setColor(Color.fromRGB(225, 225, 225))
+            {_i}.setItemMeta({_meta})
+
+            set lore of {_i} to "&9Removes all effects."
+            apply tooltip display component to {_i}:
+                hide_tooltip: false
+                hidden_components: minecraft:potion_contents
     if arg-3 is set:
         loop arg-3 parsed as number times:
             if arg-1 is "*":
@@ -36,4 +53,4 @@ on tab complete of "/give":
     add {ci::*} to tab completions for position 2
 
 on load:
-    set {ci::*} to "grapplehook", "sniper", "sniperbullet", "minigun", "arrowstorm", "energy"
+    set {ci::*} to "grapplehook", "sniper_rifle", "sniperbullet", "minigun", "arrowstorm", "energy", "splash_milk_pot"

@@ -1,0 +1,21 @@
+command /nightvision:
+    aliases: nv
+    trigger:
+        if {nv::%player%} is true:
+            delete {nv::%player%}
+            send "&aNight vision disabled!"
+            remove night vision from player
+        else:
+            set {nv::%player%} to true
+            send "&aNight vision enabled!"
+            apply night vision to player for an eternity
+
+on death:
+    wait 1 tick
+    if {nv::%victim%} is true:
+        apply night vision to victim for an eternity
+
+on resurrect attempt:
+    wait 1 tick
+    if {nv::%player%} is true:
+        apply night vision to player for an eternity

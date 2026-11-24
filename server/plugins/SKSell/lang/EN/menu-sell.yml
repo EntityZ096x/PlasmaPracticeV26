@@ -26,7 +26,7 @@
 # =====================================================================
 
 menu:
-  title: '▶ SellGUI'
+  title: '&lSellGUI'
   filler-symbol: '-'
   content-symbol: '#'
   # 'c' takes one category button each, filled from prices.yml in order.
@@ -52,15 +52,10 @@ items:
     material: AIR
     symbol: i
     action: info
-    name: '&#00B5FF&lSELL CHEST'
+    name: 'Sell Chest'
     lore:
-      - '&7Description'
-      - '&f'
-      - '&#00B5FFInformation:'
-      - '&fDrop the items you want'
-      - '&fto sell in here.'
-      - '&e'
-      - '&#FFD900&l▶ &#FFD900&l&nCLOSE&#FFD900 to sell'
+      - '&7Drop the items you want'
+      - '&7to sell in here.'
 
 # ---------------------------------------------------------------------
 #  One category button
@@ -77,7 +72,4 @@ category:
     - '&7Sell %noun% to raise'
     - '&7this multiplier.'
     - '&f'
-    - '%progress_bar% &fx%next_multiplier% &#71F521%percent%%'
-    - '&7%value% &8/ &7%target%'
-    - '&e'
-    - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 for progress'
+    - '&7%value%&8/&7%target% %percent%%'

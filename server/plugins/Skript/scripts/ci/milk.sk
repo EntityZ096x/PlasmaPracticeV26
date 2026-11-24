@@ -15,8 +15,10 @@ on right click on cow:
     {_meta}.setColor(Color.fromRGB(225, 225, 225))
     {_i}.setItemMeta({_meta})
 
-    set lore of {_i} to "&8Removes all effects."
-    hide {_i}'s entire tooltip
+    set lore of {_i} to "&9Removes all effects."
+    apply tooltip display component to {_i}:
+        hide_tooltip: false
+        hidden_components: minecraft:potion_contents
     give player {_i}
 
 on shoot:

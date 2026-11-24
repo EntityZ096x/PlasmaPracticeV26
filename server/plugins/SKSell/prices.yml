@@ -12,8 +12,41 @@ categories:
     icon: WHEAT
     menu-slot: 9
     items:
-      SUGARCANE: 3
-      WHEAT: 3
+      WHEAT: 5
+      CARROT: 5
+      POTATO: 5
+      BEETROOT: 5
+      BEETROOT_SEEDS: 5
+      WHEAT_SEEDS: 5
+      MELON: 5
+      MELON_SLICE: 5
+      MELON_SEEDS: 5
+      PUMPKIN: 5
+      PUMPKIN_SEEDS: 5
+      SUGAR_CANE: 5
+      CACTUS: 5
+      BAMBOO: 5
+      COCOA_BEANS: 5
+      SWEET_BERRIES: 5
+      GLOW_BERRIES: 5
+      NETHER_WART: 5
+      KELP: 5
+      DRIED_KELP: 5
+      CHORUS_FRUIT: 5
+      CHORUS_FLOWER: 5
+      APPLE: 5
+      BROWN_MUSHROOM: 5
+      RED_MUSHROOM: 5
+      CRIMSON_FUNGUS: 5
+      WARPED_FUNGUS: 5
+      CRIMSON_ROOTS: 5
+      WARPED_ROOTS: 5
+      TWISTING_VINES: 5
+      WEEPING_VINES: 5
+      TORCHFLOWER: 5
+      TORCHFLOWER_SEEDS: 5
+      PITCHER_PLANT: 5
+      PITCHER_POD: 5
 
   ores:
     display-name: 'Ores'
@@ -23,7 +56,7 @@ categories:
     menu-slot: 10
     items:
       COAL: 5
-      COPPER: 12.5
+      COPPER_INGOT: 12.5
       IRON_INGOT: 50
       REDSTONE: 12.5
       GOLD_INGOT: 125
@@ -33,6 +66,15 @@ categories:
       ANCIENT_DEBRIS: 3750
       NETHERITE_INGOT: 15000
 
+      COAL_ORE: 5
+      COPPER_ORE: 12.5
+      IRON_ORE: 50
+      REDSTONE_ORE: 12.5
+      GOLD_ORE: 125
+      EMERALD_ORE: 125
+      LAPIS_ORE: 125
+      DIAMOND_ORE: 2500
+
   mobs:
     display-name: 'Mobs'
     color: '&6'
@@ -40,7 +82,48 @@ categories:
     icon: ROTTEN_FLESH
     menu-slot: 11
     items:
-      ITEM: 0
+      ROTTEN_FLESH: 5
+      BONE: 5
+      BONE_MEAL: 5
+      STRING: 5
+      SPIDER_EYE: 5
+      GUNPOWDER: 5
+      ENDER_PEARL: 5
+      SLIME_BALL: 5
+      MAGMA_CREAM: 5
+      BLAZE_ROD: 5
+      BLAZE_POWDER: 5
+      GHAST_TEAR: 5
+      PHANTOM_MEMBRANE: 5
+      SHULKER_SHELL: 50
+      INK_SAC: 5
+      GLOW_INK_SAC: 5
+      FEATHER: 5
+      LEATHER: 5
+      RABBIT_HIDE: 5
+      RABBIT_FOOT: 5
+      RABBIT: 5
+      BEEF: 5
+      PORKCHOP: 5
+      CHICKEN: 5
+      MUTTON: 5
+      COD: 5
+      SALMON: 5
+      TROPICAL_FISH: 5
+      PUFFERFISH: 5
+      EGG: 5
+      TURTLE_SCUTE: 5
+      ARMADILLO_SCUTE: 5
+      HONEYCOMB: 5
+      HONEY_BOTTLE: 5
+      NAUTILUS_SHELL: 5
+      HEART_OF_THE_SEA: 5
+      WITHER_SKELETON_SKULL: 5
+      SKELETON_SKULL: 5
+      CREEPER_HEAD: 5
+      ZOMBIE_HEAD: 5
+      DRAGON_HEAD: 5
+      TURTLE_EGG: 5
 
   natural:
     display-name: 'Natural'
@@ -145,6 +228,7 @@ categories:
       CROSSBOW: 125
       TRIDENT: 7500
       MACE: 250000
+      HEAVY_CORE: 250000
       SHIELD: 100
       ELYTRA: 5000000
       TURTLE_HELMET: 750
@@ -166,6 +250,10 @@ categories:
       DIAMOND_SPEAR: 2500
       NETHERITE_SPEAR: 20000
 
+      OMINOUS_TRIAL_KEY: 5000
+      TRIAL_KEY: 1000
+      WIND_CHARGE: 15
+
   fish:
     display-name: 'Fish'
     color: '&#55C8FF'
@@ -184,7 +272,7 @@ categories:
     items:
       ENCHANTED_BOOK: 1250
       BOOK: 1000
-      BOOK_AND_QUILL: 1250
+      BOOK_WITH_QUILL: 1250
       ANVIL: 1550
 
   potions:
@@ -216,44 +304,17 @@ auto-pricing:
 
   enabled: true
 
-  default-price: 0.125
+  default-price: 2.5
 
   default-category: natural
 
   never-sell:
-    - 'maelstrom'
+    - 'NOTHING'
 
   rules:
-    - contains: ['netherite']
-      price: 500
-      category: ores
-    - contains: ['diamond']
-      price: 75
-      category: ores
-    - contains: ['emerald']
-      price: 50
-      category: ores
     - contains: ['smithing template']
-      price: 100
+      price: 1000
       category: armor
-    - contains: ['music disc']
-      price: 15
-      category: blocks
-    - contains: ['shulker']
-      price: 30
-      category: mobs
-    - contains: ['head', 'skull']
-      price: 50
-      category: mobs
-    - contains: ['gold']
-      price: 10
-      category: ores
-    - contains: ['iron']
-      price: 6
-      category: ores
-    - contains: ['copper']
-      price: 2
-      category: ores
     - contains: ['wool', 'banner', 'bed']
       price: 1.5
       category: blocks

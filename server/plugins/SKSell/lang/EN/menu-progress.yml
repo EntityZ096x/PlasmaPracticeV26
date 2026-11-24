@@ -23,8 +23,8 @@ menu:
   filler-symbol: '-'
   content-symbol: '#'
   layout:
-    - '-i-------'
     - '---------'
+    - '-i-------'
     - '---------'
     - '---------'
     - '---------'
@@ -43,7 +43,6 @@ menu:
 #  Put fewer slots here and the track gets shorter, more and it gets
 #  longer - the thresholds always divide up whatever you leave.
 path:
-  - 10
   - 19
   - 28
   - 37
@@ -62,7 +61,6 @@ path:
   - 34
   - 25
   - 16
-  - 17
 
 items:
 
@@ -72,18 +70,13 @@ items:
     symbol: '-'
 
   back:
-    material: RED_STAINED_GLASS_PANE
+    material: BARRIER
     symbol: b
     action: back
     name: '&#FF2121&lBACK'
     lore:
-      - '&7Navigation'
-      - '&f'
-      - '&#FF2121Information:'
-      - '&fClick to go back to'
-      - '&fthe sellmulti menu.'
-      - '&e'
-      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 to open'
+      - '&7Click to go back to'
+      - '&7the sellmulti menu.'
 
   # The category sign. Wears the category's own icon unless
   # use-category-icon is off.
@@ -101,8 +94,6 @@ items:
       - '&f'
       - '%color%Level: &f%level%&7/&f%levels%'
       - '%color%Multiplier: &fx%multiplier%'
-      - '&f'
-      - '&#FFD900&l▶ &#FFD900&l&nCLICK&#FFD900 for prices'
 
 # ---------------------------------------------------------------------
 #  The three states of a station
@@ -114,22 +105,22 @@ station:
 
 
   done:
-    material: LIME_STAINED_GLASS_PANE
+    material: EMERALD_BLOCK
     name: '&#71F521&lDONE'
     lore:
       - '&#71F521%bar% &fx%multiplier%'
       - '&7%have% &8/ &7%needed%'
 
   current:
-    material: YELLOW_STAINED_GLASS_PANE
+    material: GOLD_BLOCK
     name: '&#FFD900&lWORKING'
     lore:
       - '&#FFD900%bar% &fx%multiplier% &#FFD900%percent%%'
       - '&7%have% &8/ &7%needed%'
 
   open:
-    material: WHITE_STAINED_GLASS_PANE
-    name: '&f&lLOCKED'
+    material: REDSTONE_BLOCK
+    name: '&#FF0000&lLOCKED'
     lore:
       - '&8%bar% &fx%multiplier%'
       - '&7%have% &8/ &7%needed%'

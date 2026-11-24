@@ -1,19 +1,19 @@
 command /homes:
     trigger:
+        if player's world's name does not contain "Survival":
+            send "<#ff0000>You can only use this command in the survival world!" to sender
+            stop
         set {_gui} to chest inventory with 3 rows named "&8&lYour Homes"
 
-        # Fill GUI with gray stained glass
         loop 27 times:
             set slot (loop-number - 1) of {_gui} to gray stained glass pane named " "
 
-        # Home slots
         set {_slot} to 10
 
         loop {homes::%player%::*}:
             set {_name} to loop-index
             set {_display} to {_name}
 
-            # Capitalize first letter
             set {_first} to first character of {_display}
             set {_rest} to substring of {_display} from characters 2 to length of {_display}
             set {_display} to uppercase {_first}
@@ -49,7 +49,6 @@ on inventory click:
                 stop
 
             add 1 to {_count}
-
 
 on inventory drag:
     if name of event-inventory is "&8&lYour Homes":

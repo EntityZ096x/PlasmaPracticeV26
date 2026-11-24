@@ -1294,7 +1294,7 @@ sell-multipliers:
 # There are a few reasons why this setting is turned on for default, and you should use /sellall instead of /sell
 # 1. EconomyShopGUI's /sellall command is capable of differentiating item meta data whereas the /sell command from essentials sells items according to their material
 # 2. Players accidentally use /sell instead of /sellall ending up in giving them a different sell price for the item
-override-sell-command: true
+override-sell-command: false
 # Note: Disabling this feature will get rid of the command alias, but you will need to restart your server to see changes
 
 # This setting will enable the use of the old /sellall command
@@ -1307,7 +1307,7 @@ old-sellall-command: false
 commands:
 
   # SellAll command lets you sell all items inside your inventory that are listed in the shop, or you can sell a specific item.
-  sellall: true
+  sellall: false
 
   # The shop command opens the main shop.
   shop: true
@@ -1319,7 +1319,7 @@ commands:
   editshop: true
 
   # This command opens a sell GUI to sell items
-  sellgui: true
+  sellgui: false
 
   # Allows to give shop items to certain players or yourself
   shopgive: true
@@ -1332,12 +1332,11 @@ shop-commands:
 
 # Set different aliases for the sellall command, defaults to /sellall if empty
 sellall-commands:
-- 'sellall'
+- ''
 
 # Set different aliases for the sellgui command, defaults to /sellgui if empty
 sellgui-commands:
-- 'sellgui'
-- 'sell'
+- ''
 
 
 #-------------------------------------------DisableBackButton-------------------------------------------
@@ -1401,11 +1400,6 @@ spawner-break-tools:
     enchantments:
     - 'SILK_TOUCH'
   2:
-    material: IRON_PICKAXE
-    enchantments:
-    - 'SILK_TOUCH'
-    - 'EFFICIENCY:2'
-  3:
     material: NETHERITE_PICKAXE
     enchantments:
     - 'SILK_TOUCH'

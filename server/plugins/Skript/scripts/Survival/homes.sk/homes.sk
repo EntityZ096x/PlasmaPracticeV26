@@ -6,14 +6,23 @@ on tab complete of "/home":
 
 command /sethome <text>:
     trigger:
+        if player's world's name does not contain "Survival":
+            send "<#ff0000>You can only use this command in the survival world!" to sender
+            stop
         execute player command "/home set %arg-1%"
 
 command /delhome <text>:
     trigger:
+        if player's world's name does not contain "Survival":
+            send "<#ff0000>You can only use this command in the survival world!" to sender
+            stop
         execute player command "/home delete %arg-1%"
 
 command /home [<text>] [<text>]:
     trigger:
+        if player's world's name does not contain "Survival":
+            send "<#ff0000>You can only use this command in the survival world!" to sender
+            stop
         if sender is console:
             send "fuh naw" to console
             stop

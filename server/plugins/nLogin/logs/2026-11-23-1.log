@@ -1,0 +1,25 @@
+[2026/11/23 14:46:25 INFO]:           __             _       
+[2026/11/23 14:46:25 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/11/23 14:46:25 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/11/23 14:46:25 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/11/23 14:46:25 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/11/23 14:46:25 INFO]:                   |___/            
+[2026/11/23 14:46:25 INFO]:  By: www.nickuc.com - V 2.0.25
+[2026/11/23 14:46:25 INFO]:  
+[2026/11/23 14:46:26 DEBUG]: Loading the messages_en.yml message file...
+[2026/11/23 14:46:26 DEBUG]: Messages were loaded in 209 ms (single file).
+[2026/11/23 14:46:26 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/11/23 14:46:26 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/11/23 14:46:26 DEBUG]: Settings were loaded in 300 ms.
+[2026/11/23 14:46:26 DEBUG]: Loading database...
+[2026/11/23 14:46:26 DEBUG]: Starting logger filter...
+[2026/11/23 14:46:27 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/11/23 14:56:37 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'EntityZ096x', `unique_id` = 2ee83cb0186f329dbb3e2dd2a293057c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$QTQFwacG0v.XKXKuY4RCQurybYFqyBG7qCYl2EERY.y0BwTUYvqNS', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 13:45:50.58, `last_seen` = 2026-11-23 14:56:37.477, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/23 14:56:37 INFO]: The user EntityZ096x has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/23 15:07:01 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = '234565432', `unique_id` = fa700949a33838089fd3a56c331cb6cb,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$jOSOIONZARPHR6VGprrPbey3FttE/rsQhXd.Q9t9qkzeliipsADbu', `last_ip` = '127.0.0.1', `creation_date` = 2026-11-11 09:17:57.774, `last_seen` = 2026-11-23 15:07:01.223, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 7" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/23 15:07:01 INFO]: The user 234565432 has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/23 15:28:08 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = '234565432', `unique_id` = fa700949a33838089fd3a56c331cb6cb,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$jOSOIONZARPHR6VGprrPbey3FttE/rsQhXd.Q9t9qkzeliipsADbu', `last_ip` = '127.0.0.1', `creation_date` = 2026-11-11 09:17:57.774, `last_seen` = 2026-11-23 15:28:08.051, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 7" (applied to [last_seen, settings] columns)
+[2026/11/23 15:33:55 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'JustDan12', `unique_id` = 095db01195a83a068fb1534e8c441c8c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b1/haN.FRQnC5qFNtkOddeLcJ4A.NC6o7Lrx4CHH/oRMgKrKORB6O', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 17:53:54.995, `last_seen` = 2026-11-23 15:33:55.292, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/23 15:33:55 INFO]: The user JustDan12 has successfully logged in. (using password = true, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/23 15:51:47 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'JustDan12', `unique_id` = 095db01195a83a068fb1534e8c441c8c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b1/haN.FRQnC5qFNtkOddeLcJ4A.NC6o7Lrx4CHH/oRMgKrKORB6O', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 17:53:54.995, `last_seen` = 2026-11-23 15:51:47.496, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2026/11/23 15:52:25 INFO]: Successful plugin core shutdown (took 0.10s)

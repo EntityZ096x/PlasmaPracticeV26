@@ -1,0 +1,42 @@
+on right click on vault:
+    set {_a} to amount of player's tool
+    set {_b} to amount of player's offhand item
+    set {_vault} to target block of player
+    set {_state} to {_vault}.getState()
+    set {_players::*} to {_state}.getRewardedPlayers().toArray()
+    loop {_players::*}:
+        if "%loop-value%" contains "%player's uuid%":
+            stop
+    if player's tool is trial key:
+        set player's tool to a trial key
+        set amount of player's tool to {_a}
+    if player's tool is ominous trial key:
+        set player's tool to a ominous trial key
+        set amount of player's tool to {_a}
+
+    if player's offhand item is trial key:
+        set player's offhand item to a trial key
+        set amount of player's offhand item to {_b}
+    if player's offhand item is ominous trial key:
+        set player's offhand item to a ominous trial key
+        set amount of player's offhand item to {_b}
+
+command /resetvault:
+    trigger:
+        set {_vault} to target block of player
+        set {_state} to {_vault}.getState()
+        set {_players::*} to {_state}.getRewardedPlayers().toArray()
+        send "%{_state}.removeRewardedPlayer(player.getUniqueId())%" to console
+        send "%{_state}.update()%" to console
+
+on vault display item:
+    set {_i::1} to heavy core
+    set {_i::2} to enchanted book
+    add enchanted golden apple to {_i::*}
+    add command block to {_i::*}
+    add zombie spawn egg to {_i::*}
+    add spawner to {_i::*}
+    add elytra to {_i::*}
+    set event-item to random element out of {_i::*}
+
+

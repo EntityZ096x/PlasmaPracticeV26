@@ -53,6 +53,7 @@ command /kit [<text>] [<text>] [<text>]:
                 set {kit::%{_kit}%::icon} to chest
             if {kit::%{_kit}%::glow} is not set:
                 set {kit::%{_kit}%::glow} to false
+            send "&aKit &e%{_kit}%&a saved!"
 
 
         else if arg-1 is "load":

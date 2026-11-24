@@ -1,35 +1,69 @@
-on shoot:
-    if shooter's tool's name is "&r&f50 Calibre Sniper Rifle":
-        if {snipe.%shooter%} is true:
-            set shooter's walk speed to 0.2
-            remove slowness from shooter
-        push projectile in direction of shooter at speed 50
-        push shooter backwards
-        set gravity of the projectile to false
+on left click:
+    if string tag "ci.item" of custom nbt of event-item is "sniper_rifle":
+        cancel event
+        if cooldown of shears for player > 0 seconds:
+            stop
+        if player's inventory doesn't contain spectral arrow:
+            send "<#ff0000>You dont have ammo!" to player
+            stop
+        remove 1 spectral arrow from player's inventory
+        set {_loc} to location 1 block in front of player
+        add 1.5 to y-coordinate of {_loc}
+        create explosion of force 0 at {_loc}  
+
+        shoot a arrow from player
+        set {_bullet} to last shot projectile
+        set byte tag "is_sniper_bullet" of custom nbt of {_bullet} to 1
+        push {_bullet} in direction of player at speed 50
+        set gravity of {_bullet} to false
+        
+        push player backwards at force 1
+        if player's tool's quick charge level is 3:
+            set cooldown of shears for player to 0.5 seconds
+        else if player's tool's quick charge level is 2:
+            set cooldown of shears for player to 1.25 seconds
+        else if player's tool's quick charge level is 1:
+            set cooldown of shears for player to 2 seconds
+        else:
+            set cooldown of shears for player to 3 seconds
+            
+
+on right click:
+    if string tag "ci.item" of custom nbt of event-item is "sniper_rifle":
+        cancel event
+        set player's walk speed to -0.01
+        if player doesn't have night vision:
+            set {_effect} to a potion effect of night vision 2 for 1 minute:
+                hide the particles
+                hide the icon
+            apply {_effect} to player
+        set {_effect} to a potion effect of slowness 100 for 5 ticks:
+            hide the particles
+            hide the icon
+        apply {_effect} to player
+        set player's tool's item model to "sniper_rifle_scoped"
+        wait 6 ticks
+        if player doesn't have slowness 100:
+            loop player's inventory:
+                if string tag "ci.item" of custom nbt of loop-slot is "sniper_rifle":
+                    set loop-slot's item model to "sniper_rifle"
+            set player's walk speed to 0.2
+            if player has night vision 2:
+                remove night vision from player
+
 
 on damage:
-    if attacker's tool's name is "&r&f50 Calibre Sniper Rifle":
-        set damage to distance between shooter and projectile
-        set {_hitHeight} to y-coordinate of projectile - y-coordinate of victim's location
+    if projectile is an arrow:
+        if byte tag "is_sniper_bullet" of custom nbt of projectile is 1:
+            set damage to distance between shooter and projectile
+            set {_hitHeight} to y-coordinate of projectile - y-coordinate of victim's location
 
-        if {_hitHeight} >= 1.4:
-            set damage to damage * 3.0
-            send "&c&lHEADSHOT! &7(x3 Damage)" to attacker
-            send "&cYou were headshotted by %attacker%!" to victim
-            set damage to damage * 2
+            if {_hitHeight} >= 1.4:
+                send "<#ff0000>&lHEADSHOT! &7(x3 Damage)" to attacker
+                send "<#ff0000>You were headshotted by %attacker%!" to victim
+                set damage to damage * 3
 
-on left click:
-    if player's tool's name is "&r&f50 Calibre Sniper Rifle":
-        if {snipe.%player%} is not true:
-            set {snipe.%player%} to true
-            set player's walk speed to -0.01
-            apply slowness 100 to player for 999999 seconds
-        else:
-            delete {snipe.%player%}
-            set player's walk speed to 0.2
-            remove slowness from player
-
-on projectile hit: 
-    if shooter's tool's name is "&r&f50 Calibre Sniper Rifle":
-        delete the projectile
-        create an explosion of force 0 at the projectile
+on projectile hit:
+    if byte tag "is_sniper_bullet" of custom nbt of projectile is 1:
+        delete projectile
+        create an explosion of force 0 at projectile
