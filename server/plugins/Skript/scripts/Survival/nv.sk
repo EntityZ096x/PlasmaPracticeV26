@@ -3,11 +3,11 @@ command /nightvision:
     trigger:
         if {nv::%player%} is true:
             delete {nv::%player%}
-            send "&aNight vision disabled!"
+            send "&9&lNightVision&r &8»&r &aNight vision disabled!"
             remove night vision from player
         else:
             set {nv::%player%} to true
-            send "&aNight vision enabled!"
+            send "&9&lNightVision&r &8»&r &aNight vision enabled!"
             apply night vision to player for an eternity
 
 on death:

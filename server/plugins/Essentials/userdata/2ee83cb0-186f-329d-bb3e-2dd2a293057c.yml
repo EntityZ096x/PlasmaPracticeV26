@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 flymode: true
 muted: false
 jailed: false
@@ -17,26 +17,26 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1795502840808
-  login: 1795502601463
+  logout: 1795538027543
+  login: 1795530602316
 money: '136339.2587500001017'
 logoutlocation:
   world: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
   world-name: KitPvP
-  x: -4.637913681567151
-  y: 150.0
-  z: -5.409207766924903
-  yaw: 100.35013580322266
-  pitch: 49.05003356933594
+  x: -13.04597982661652
+  y: 70.0
+  z: 25.601212426429633
+  yaw: 35.102294921875
+  pitch: 90.0
 last-account-name: EntityZ096x
 lastlocation:
   world: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
   world-name: KitPvP
-  x: 0.42632003717907196
-  y: 73.0
-  z: -2.1079842129123634
-  yaw: 179.84999084472656
-  pitch: 8.550003051757812
+  x: 11.143129413214329
+  y: 70.0
+  z: -17.223235657588802
+  yaw: 37.800384521484375
+  pitch: -70.05003356933594
 homes:
   base:
     world: ae3fd088-f335-4304-928c-e6a701fdd5bc

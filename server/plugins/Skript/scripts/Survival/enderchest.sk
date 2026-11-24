@@ -1,0 +1,81 @@
+function OpenEnderchest(p: player, page: number):
+    set {_maxPage} to 1
+
+    if {_page} < 1:
+        set {_page} to 1
+
+    if {_p} has permission "skript.enderchest.pages.2":
+        set {_maxPage} to 2
+    if {_p} has permission "skript.enderchest.pages.3":
+        set {_maxPage} to 3
+    if {_p} has permission "skript.enderchest.pages.4":
+        set {_maxPage} to 4
+    if {_p} has permission "skript.enderchest.pages.5":
+        set {_maxPage} to 5
+
+    if {_page} > {_maxPage}:
+        set {_page} to {_maxPage}
+
+    set {_gui} to chest inventory with 6 rows named "&8Ender Chest"
+    set {_start} to ({_page} - 1) * 45
+
+    loop 45 times:
+        set {_index} to {_start} + loop-number
+
+        if {ec::%{_p}%::%{_index}%} is set:
+            set slot (loop-number - 1) of {_gui} to {ec::%{_p}%::%{_index}%}
+
+    loop 9 times:
+        set slot (loop-number + 44) of {_gui} to gray stained glass pane named " "
+
+    if {_page} > 1:
+        set slot 48 of {_gui} to arrow named "<#ff0000>&lPrevious Page" with lore "&7Go to page %{_page} - 1%"
+
+    if {_page} < {_maxPage}:
+        set slot 50 of {_gui} to arrow named "<#ff0000>&lNext Page" with lore "&7Go to page %{_page} + 1%"
+
+    set slot 49 of {_gui} to paper named "&fPage &e%{_page}%&7/&e%{_maxPage}%"
+
+    open {_gui} to {_p}
+    set {ecPage::%{_p}%} to {_page}
+
+
+command /ec:
+    aliases: /enderchest
+    trigger:
+        OpenEnderchest(player, 1)
+
+
+on inventory click:
+    if name of event-inventory is "&8Ender Chest":
+        if clicked inventory is player's inventory:
+            stop
+
+        if index of event-slot >= 45:
+            cancel event
+
+            if index of event-slot is 48:
+                set {_page} to {ecPage::%player%} - 1
+                OpenEnderchest(player, {_page})
+
+            else if index of event-slot is 50:
+                set {_page} to {ecPage::%player%} + 1
+                OpenEnderchest(player, {_page})
+
+
+on inventory drag:
+    if name of event-inventory is "&8Ender Chest":
+        loop event-slots:
+            if loop-value >= 45:
+                cancel event
+                stop
+
+
+on inventory close:
+    if name of event-inventory is "&8Ender Chest":
+        set {_page} to {ecPage::%player%}
+        set {_start} to ({_page} - 1) * 45
+
+        loop 45 times:
+            set {_index} to {_start} + loop-number
+            set {ec::%player%::%{_index}%} to slot (loop-number - 1) of event-inventory

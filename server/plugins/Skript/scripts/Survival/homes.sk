@@ -1,0 +1,212 @@
+# ==========================================
+# HOMES GUI
+# ==========================================
+
+command /homes:
+    trigger:
+        set {_pre} to "<#ff0000>&lHomes&r &8»&r "
+
+        if size of {homes::%player%::*} is 0:
+            send "%{_pre}%<#ff0000>You don't have any homes!" to player
+            stop
+
+        set {_amount} to size of {homes::%player%::*}
+        set {_rows} to ceil({_amount} / 7)
+
+        if {_rows} < 3:
+            set {_rows} to 3
+
+        if {_rows} > 6:
+            set {_rows} to 6
+
+        set {_gui} to chest inventory with {_rows} rows named "&8Your Homes"
+
+        loop {_rows} * 9 times:
+            set slot (loop-number - 1) of {_gui} to gray stained glass pane named " "
+
+        set {_slots::*} to 10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43
+
+        set {_slot} to 0
+
+        loop {homes::%player%::*}:
+            if {_slot} >= size of {_slots::*}:
+                stop
+
+            set {_name} to loop-index
+            set {_display} to {_name}
+
+            set {_first} to first character of {_display}
+            set {_rest} to substring of {_display} from characters 2 to length of {_display}
+            set {_display} to uppercase {_first}
+            set {_display} to "%{_display}%%{_rest}%"
+
+            set {_loc} to loop-value
+
+            set {_item} to red bed named "<#ff0000>&l%{_display}%"
+            set lore of {_item} to "&7Click to teleport!" and "" and "&8Location:" and "&7X: &f%x-coordinate of {_loc}%" and "&7Y: &f%y-coordinate of {_loc}%" and "&7Z: &f%z-coordinate of {_loc}%" and "&7World: &f%world of {_loc}%"
+
+            set slot {_slots::%{_slot} + 1%} of {_gui} to {_item}
+            add 1 to {_slot}
+
+        open {_gui} to player
+
+
+# ==========================================
+# GUI INTERACTIONS
+# ==========================================
+
+on inventory click:
+    if name of event-inventory is "&8Your Homes":
+        cancel event
+
+        if clicked inventory is player's inventory:
+            stop
+
+        set {_slot} to index of event-slot
+        set {_count} to 0
+
+        set {_slots::*} to 10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43
+
+        loop {homes::%player%::*}:
+            add 1 to {_count}
+
+            if {_slots::%{_count}%} is {_slot}:
+                set {_name} to loop-index
+
+                close player's inventory
+                execute player command "/home %{_name}%"
+                stop
+
+
+on inventory drag:
+    if name of event-inventory is "&8Your Homes":
+        cancel event
+
+
+# ==========================================
+# TAB COMPLETION
+# ==========================================
+
+on tab complete of "/home":
+    loop {homes::%player%::*}:
+        add loop-index to {_options::*}
+
+    set tab completions for position 1 to {_options::*}
+
+on tab complete of "/sethome":
+    loop {homes::%player%::*}:
+        add loop-index to {_options::*}
+
+    set tab completions for position 1 to {_options::*}
+
+on tab complete of "/delhome":
+    loop {homes::%player%::*}:
+        add loop-index to {_options::*}
+
+    set tab completions for position 1 to {_options::*}
+
+
+# ==========================================
+# SET HOME
+# ==========================================
+
+command /sethome [<text>]:
+    trigger:
+        set {_pre} to "<#ff0000>&lHomes&r &8»&r "
+        set {_name} to lowercase arg-1
+
+        if {_name} is not set:
+            send "%{_pre}%<#ff0000>Please name your home!" to player
+            stop
+
+        if {homes::%player%::%{_name}%} is set:
+            send "%{_pre}%<#ff0000>A home with that name already exists!" to player
+            stop
+
+        set {homes::%player%::%{_name}%} to player's location
+        send "%{_pre}%&aSuccessfully set a home named '%{_name}%!' " to player
+
+
+# ==========================================
+# DELETE HOME
+# ==========================================
+
+command /delhome [<text>]:
+    trigger:
+        set {_pre} to "<#ff0000>&lHomes&r &8»&r "
+        set {_name} to lowercase arg-1
+
+        if {homes::%player%::%{_name}%} is not set:
+            send "%{_pre}%<#ff0000>Choose a valid home!" to player
+            stop
+
+        delete {homes::%player%::%{_name}%}
+        send "%{_pre}%&aSuccessfully deleted the home named '%{_name}%!' " to player
+
+
+# ==========================================
+# TELEPORT HOME
+# ==========================================
+
+command /home [<text>]:
+    trigger:
+        if arg-1 is not set:
+            execute player command "/homes"
+            stop
+        set {_pre} to "<#ff0000>&lHomes&r &8»&r "
+        set {_name} to lowercase arg-1
+
+        if {homes::%player%::%{_name}%} is not set:
+            send "%{_pre}%<#ff0000>Choose a valid home!" to player
+            stop
+
+        if {homeTeleporting::%player%} is set:
+            send "%{_pre}%<#ff0000>You already have a teleport pending!" to player
+            stop
+
+        set {homeTeleporting::%player%} to true
+        set {homeTeleportLocation::%player%} to {homes::%player%::%{_name}%}
+        set {homeTeleportStart::%player%} to player's location
+
+        send "%{_pre}%&7Teleporting to &f%{_name}%&7..." to player
+
+        loop 5 times:
+            set {_time} to 6 - loop-number
+
+            if {_time} > 0:
+                send action bar "&7Teleporting in <#ff0000>%{_time}%s&7." to player
+
+            wait 1 second
+
+            if {homeTeleporting::%player%} is not set:
+                stop
+
+            if distance between player's location and {homeTeleportStart::%player%} >= 3:
+                delete {homeTeleporting::%player%}
+                delete {homeTeleportLocation::%player%}
+                delete {homeTeleportStart::%player%}
+
+                send action bar "<#ff0000>Teleport cancelled because you moved!" to player
+                stop
+
+        if {homeTeleporting::%player%} is set:
+            teleport player to {homeTeleportLocation::%player%}
+            send action bar "&aTeleported!" to player
+            send "%{_pre}%&aTeleported to home '%{_name}%!' " to player
+
+        delete {homeTeleporting::%player%}
+        delete {homeTeleportLocation::%player%}
+        delete {homeTeleportStart::%player%}
+
+
+# ==========================================
+# TELEPORT CANCELLATION ON DAMAGE
+# ==========================================
+
+on damage:
+    if {homeTeleporting::%victim%} is set:
+        delete {homeTeleporting::%victim%}
+        delete {homeTeleportLocation::%victim%}
+        delete {homeTeleportStart::%victim%}
+
+        send action bar "<#ff0000>Teleport cancelled because you were damaged!" to victim

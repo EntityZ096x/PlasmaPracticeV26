@@ -11,7 +11,7 @@ update-check:
   # Notify players with donutrtp.admin when they join if an update was found.
   notify-ops-on-join: true
   # Placeholders: {0} = latest version, {1} = download URL
-  join-message: "&e[DonutRTP] &7Update available: &f{0} &7— &b{1}"
+  join-message: "&e[RTP] &7Update available: &f{0} &7— &b{1}"
 
 worlds:
   overworld:
@@ -114,8 +114,8 @@ rtp-zone:
     entering-zone: "&eRandom teleport starting..."
     searching: "&eSearching for a safe location..."
     teleported: "&aYou were randomly teleported!"
-    no-safe-location: "&cNo safe location could be found."
-    countdown-cancelled: "&cRTP zone countdown cancelled."
+    no-safe-location: "&x&f&f&0&0&0&0No safe location could be found."
+    countdown-cancelled: "&x&f&f&0&0&0&0RTP zone countdown cancelled."
 
 # Legacy cuboid RTP zones (1.3.0). Still supported when no WorldGuard region is configured.
 # Prefer rtp-zone + /donutrtp zone set for new setups.

@@ -1,0 +1,39 @@
+on command:
+    if player's world's name doesn't contain "Survival":
+        delete {_survivalonlycmds::*}
+        delete {_whitelist::*}
+
+        add "rtp" to {_survivalonlycmds::*}
+        add "pay" to {_survivalonlycmds::*}
+        add "bal*" to {_survivalonlycmds::*}
+        add "sell*" to {_survivalonlycmds::*}
+        add "home*" to {_survivalonlycmds::*}
+        add "tpa*" to {_survivalonlycmds::*}
+        add "shop*" to {_survivalonlycmds::*}
+        add "team*" to {_survivalonlycmds::*}
+        add "ah" to {_survivalonlycmds::*}
+        add "auctionhouse" to {_survivalonlycmds::*}
+
+        # Whitelist
+        add "tpall" to {_whitelist::*}
+
+        # Check whitelist first
+        loop {_whitelist::*}:
+            if command is loop-value:
+                stop
+
+        # Check blacklist
+        loop {_survivalonlycmds::*}:
+            if loop-value contains "*":
+                set {_a} to loop-value
+                replace all "*" in {_a} with ""
+
+                if command starts with {_a}:
+                    cancel event
+                    send "<#ff0000>You can only use this command in the survival world!" to sender
+                    stop
+            else:
+                if command is loop-value:
+                    cancel event
+                    send "<#ff0000>You can only use this command in the survival world!" to sender
+                    stop

@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 38
+last-created-npc-id: 41
 npc:
   '0':
     metadata:
@@ -37,9 +37,9 @@ npc:
         x: 3.5
         y: 64.0
         z: -5.5
-        bodyYaw: 76.28839
-        pitch: 9.3902
-        yaw: 76.2884
+        bodyYaw: -5.157669
+        pitch: 5.8536
+        yaw: -5.1577
       type: PLAYER
       gravity:
         enabled: true
@@ -82,9 +82,9 @@ npc:
         x: 5.5
         y: 64.0
         z: 5.5
-        bodyYaw: 143.60413
-        pitch: -2.4623
-        yaw: 144.3845
+        bodyYaw: 144.97913
+        pitch: 30.3632
+        yaw: 138.8545
       type: PLAYER
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
     name: gotomainworld
@@ -128,9 +128,9 @@ npc:
         x: -2.5
         y: 64.0
         z: -5.5
-        bodyYaw: -41.910423
-        pitch: 27.4385
-        yaw: -41.9104
+        bodyYaw: -36.833866
+        pitch: 3.6819
+        yaw: -36.8339
       type: PLAYER
       gravity:
         enabled: true
@@ -216,9 +216,9 @@ npc:
         x: -4.5
         y: 63.0
         z: -9.5
-        bodyYaw: -30.61718
-        pitch: -1.5368
-        yaw: -30.6172
+        bodyYaw: -36.290188
+        pitch: -4.7227
+        yaw: -36.2902
       type: PLAYER
     traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
     name: Events
