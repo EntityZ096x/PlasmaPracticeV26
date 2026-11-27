@@ -275,7 +275,7 @@ runtime errors:
 	# You can also lengthen this duration to reduce the amount of individual errors printed to console.
 	
 	# -- Errors --
-	total errors per frame: 8
+	total errors per frame: 1
 	# This controls the maximum number of individual errors that will be printed per frame.
 	# If more errors occur, they will be hidden and the frame will simply display that x number of
 	# errors occurred but were hidden this frame.

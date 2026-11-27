@@ -1,0 +1,21 @@
+[2026/11/26 09:19:12 INFO]:           __             _       
+[2026/11/26 09:19:12 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/11/26 09:19:12 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/11/26 09:19:12 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/11/26 09:19:12 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/11/26 09:19:12 INFO]:                   |___/            
+[2026/11/26 09:19:12 INFO]:  By: www.nickuc.com - V 2.0.25
+[2026/11/26 09:19:12 INFO]:  
+[2026/11/26 09:19:12 DEBUG]: Loading the messages_en.yml message file...
+[2026/11/26 09:19:12 DEBUG]: Messages were loaded in 114 ms (single file).
+[2026/11/26 09:19:12 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/11/26 09:19:12 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/11/26 09:19:12 DEBUG]: Settings were loaded in 213 ms.
+[2026/11/26 09:19:12 DEBUG]: Loading database...
+[2026/11/26 09:19:13 DEBUG]: Starting logger filter...
+[2026/11/26 09:19:13 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/11/26 09:24:52 DEBUG]: Forcing JustDan12 login...
+[2026/11/26 09:24:52 DEBUG]: The JustDan12 player had his account authenticated by CONSOLE.
+[2026/11/26 09:24:52 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'JustDan12', `unique_id` = 095db01195a83a068fb1534e8c441c8c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b1/haN.FRQnC5qFNtkOddeLcJ4A.NC6o7Lrx4CHH/oRMgKrKORB6O', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 17:53:54.995, `last_seen` = 2026-11-26 09:24:52.216, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_ip, last_seen, settings] columns)
+[2026/11/26 09:24:52 INFO]: The user JustDan12 has successfully logged in. (using password = false, caller = com.nickuc.login.χΣυσφλελΣμεψξ.a(:114))
+[2026/11/26 09:28:10 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'JustDan12', `unique_id` = 095db01195a83a068fb1534e8c441c8c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$b1/haN.FRQnC5qFNtkOddeLcJ4A.NC6o7Lrx4CHH/oRMgKrKORB6O', `last_ip` = '127.0.0.1', `creation_date` = 2026-10-11 17:53:54.995, `last_seen` = 2026-11-26 09:28:10.236, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)

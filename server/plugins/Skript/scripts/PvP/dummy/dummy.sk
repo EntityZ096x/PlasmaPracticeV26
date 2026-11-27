@@ -1,16 +1,44 @@
 import:
     net.citizensnpcs.api.trait.trait.Equipment
     net.citizensnpcs.api.trait.trait.Equipment$EquipmentSlot
+    net.citizensnpcs.api.ai.Navigator
 
-command /dummy:
+command /dummytarget <player>:
     trigger:
+        if {dummy::%player%} is not set:
+            send "&cYou don't have a dummy!"
+            stop
+        set {dummy::%player%::target} to arg-1
+
+on tab complete of "/dummy":
+    set tab completions for position 1 to "agro.default", "blocking", "idle", "agro.mace"
+
+command /dummy [<text>]:
+    trigger:
+        if arg-1 is set:
+            if {dummy::%player%} is not set:
+                send "&cYou don't have a dummy!"
+                stop
+
+            set {_npc} to {dummy::%player%}
+            set {_equipment} to {_npc}.getOrAddTrait(Equipment.class)
+
+            delete {dummy::%player%::AI}
+            wait 2 ticks
+            set {dummy::%player%::AI} to arg-1
+            send "&aSet dummy's AI to %arg-1%!"
+            DummyAI(player)
+            stop
+
         if {dummy::%player%} is set:
             teleport {dummy::%player%} to player
-            send "Teleported your dummy to u!"
+            send "&aTeleported your dummy to you!"
         else:
             spawn a player citizen named "%player's name%'s Dummy" at location of player
             set {_npc} to last created npc
             {_npc}.setProtected(false)
+
+            set display name of {_npc} to "%player's name%'s Dummy"
 
             set {_equipment} to {_npc}.getOrAddTrait(Equipment.class)
 
@@ -19,7 +47,7 @@ command /dummy:
             set {_leggings} to 1 of netherite leggings
             set {_boots} to 1 of netherite boots
 
-            loop {_helmet}, {_chestplate}, {_leggings}, {_boots}:
+            loop {_helmet}, {_chestplate}, {_leggings}, {_boots}, {_shield}:
                 set level of protection of loop-value to 4
                 set level of unbreaking of loop-value to 999
 
@@ -28,6 +56,7 @@ command /dummy:
             {_equipment}.set(EquipmentSlot.LEGGINGS, {_leggings})
             {_equipment}.set(EquipmentSlot.BOOTS, {_boots})
             {_equipment}.set(EquipmentSlot.OFF_HAND, 1 of totem of undying)
+
             send "&aDummy created"
             set {dummy::%player%} to {_npc}
 
@@ -44,31 +73,52 @@ on resurrect:
             set {_leggings} to 1 of netherite leggings
             set {_boots} to 1 of netherite boots
 
-            loop {_helmet}, {_chestplate}, {_leggings}, {_boots}:
+            loop {_helmet}, {_chestplate}, {_leggings}, {_boots}, {_shield}:
                 set level of protection of loop-value to 4
                 set level of unbreaking of loop-value to 999
-            
+
             set {_dummy}'s helmet to {_helmet}
             set {_dummy}'s chestplate to {_chestplate}
             set {_dummy}'s leggings to {_leggings}
             set {_dummy}'s boots to {_boots}
             set {_dummy}'s offhand item to totem of undying
-            set {_dummy}'s health to 10
 
 command /deldummy:
     trigger:
         if {dummy::%player%} is set:
-            send "&aDummy deleted!"
-            delete npc {dummy::%player%}
+            set {_npc} to {dummy::%player%}
+
+            delete {dummy::%player%::*}
             delete {dummy::%player%}
+
+            delete npc {_npc}
+            send "&aDummy deleted!"
         else:
             send "&cU dont have a dummy!"
 
 on leave:
-    delete npc {dummy::%player%}
-    delete {dummy::%player%}
+    if {dummy::%player%} is set:
+        set {_npc} to {dummy::%player%}
+
+        delete {dummy::%player%}
+        delete {dummy::%player%::AI}
+        delete {dummy::%player%::AIsecondary}
+
+        delete npc {_npc}
 
 on stop:
     loop all players:
-        delete npc {dummy::%loop-player%}
-        delete {dummy::%loop-player%}
+        if {dummy::%loop-player%} is set:
+            delete npc {dummy::%loop-player%}
+
+            delete {dummy::%loop-player%}
+            delete {dummy::%loop-player%::AI}
+            delete {dummy::%loop-player%::AIsecondary}
+
+on damage:
+    victim is a npc
+    set {_npc} to victim
+
+    if {dummy::%attacker%} is not {_npc}:
+        send action bar "<#ff0000>This isn't your dummy mafaka." to attacker
+        cancel event

@@ -1,20 +1,42 @@
 
-function clearPvP(p: player):
-    set {_name} to name of {_p}
-    loop {pvp::enemies::%{_name}%::*}:
-        set {_enemy} to loop-value
-        remove {_name} from {pvp::enemies::%{_enemy}%::*}
-    delete {pvp::enemies::%{_name}%::*}
-    delete {pvp::time::%{_name}%}
-    delete {pvp::enemy::%{_name}%}
-    remove {_name} from {pvp::inpvp::*}
+import:
+    org.bukkit.entity.Entity
+
+function isPvPEntity(e: entity) :: boolean:
+    if {_e} is a player:
+        return true
+    if {_e}.hasMetadata("NPC"):
+        return true
+    return false
+
+function clearPvPId(id: text):
+    loop {pvp::enemies::%{_id}%::*}:
+        remove {_id} from {pvp::enemies::%loop-value%::*}
+    delete {pvp::enemies::%{_id}%::*}
+    delete {pvp::time::%{_id}%}
+    delete {pvp::enemy::%{_id}%}
+    delete {pvp::name::%{_id}%}
+    remove {_id} from {pvp::inpvp::*}
+
+function clearPvP(e: entity):
+    set {_id} to "%uuid of {_e}%"
+    clearPvPId({_id})
 
 on damage:
-    victim is a player
-    attacker is a player
-    attacker is not victim
-    set {_v} to name of victim
-    set {_a} to name of attacker
+    if attacker is not set:
+        stop
+    if victim is attacker:
+        stop
+    if isPvPEntity(attacker) is false:
+        stop
+    if isPvPEntity(victim) is false:
+        stop
+    set {_v} to "%uuid of victim%"
+    set {_a} to "%uuid of attacker%"
+    set {_vn} to name of victim
+    set {_an} to name of attacker
+    set {pvp::name::%{_v}%} to {_vn}
+    set {pvp::name::%{_a}%} to {_an}
     set {pvp::time::%{_a}%} to now + 15 seconds
     set {pvp::time::%{_v}%} to now + 15 seconds
     if {pvp::inpvp::*} does not contain {_a}:
@@ -22,9 +44,13 @@ on damage:
     if {pvp::inpvp::*} does not contain {_v}:
         add {_v} to {pvp::inpvp::*}
     if {pvp::enemies::%{_v}%::*} does not contain {_a}:
-        send "<#ff0000>&lPvP&r &8» <#ff0000>You have been attacked by &e%{_a}%<#ff0000>! Do not log off!" to victim
+        if victim is a player:
+            if victim.hasMetadata("NPC") is false:
+                send "<#ff0000>&lPvP&r &8» <#ff0000>You have been attacked by &e%{_an}%<#ff0000>! Do not log off!" to victim
     if {pvp::enemies::%{_a}%::*} does not contain {_v}:
-        send "<#ff0000>&lPvP&r &8» <#ff0000>You attacked &e%{_v}%<#ff0000>! Do not log off!" to attacker
+        if attacker is a player:
+            if attacker.hasMetadata("NPC") is false:
+                send "<#ff0000>&lPvP&r &8» <#ff0000>You attacked &e%{_vn}%<#ff0000>! Do not log off!" to attacker
     if {pvp::enemies::%{_a}%::*} does not contain {_v}:
         add {_v} to {pvp::enemies::%{_a}%::*}
     if {pvp::enemies::%{_v}%::*} does not contain {_a}:
@@ -34,28 +60,25 @@ on damage:
 
 every 4 ticks:
     loop {pvp::inpvp::*}:
-        set {_name} to loop-value
+        set {_id} to loop-value
         delete {_p}
         delete {_e}
-        loop all players:
-            if name of loop-player is {_name}:
-                set {_p} to loop-player
+        loop all entities:
+            if "%uuid of loop-entity%" is {_id}:
+                set {_p} to loop-entity
                 stop loop
         if {_p} is not set:
-            loop {pvp::enemies::%{_name}%::*}:
-                remove {_name} from {pvp::enemies::%loop-value-2%::*}
-            delete {pvp::enemies::%{_name}%::*}
-            delete {pvp::time::%{_name}%}
-            delete {pvp::enemy::%{_name}%}
-            remove {_name} from {pvp::inpvp::*}
+            clearPvPId({_id})
             continue
-        set {_t} to {pvp::time::%{_name}%}
+        set {_t} to {pvp::time::%{_id}%}
         if {_t} is not set:
             clearPvP({_p})
             continue
         if now >= {_t}:
             clearPvP({_p})
-            send action bar "&aYou're no longer in combat!" to {_p}
+            if {_p} is a player:
+                if {_p}.hasMetadata("NPC") is false:
+                    send action bar "&aYou're no longer in combat!" to {_p}
             continue
         set {_remaining} to difference between {_t} and now
         set {_filled} to ceiling({_remaining} / 1 second)
@@ -68,54 +91,60 @@ every 4 ticks:
         loop 15 - {_filled} times:
             add "|" to {_bar::*}
         set {_bar} to join {_bar::*} with ""
-        set {_enemyName} to {pvp::enemy::%{_name}%}
-        loop all players:
-            if name of loop-player is {_enemyName}:
-                set {_e} to loop-player
-                stop loop
-        loop all npcs:
-            if name of loop-npcs is {_enemyName}:
-                set {_e} to loop-npcs
+        set {_enemyId} to {pvp::enemy::%{_id}%}
+        loop all entities:
+            if "%uuid of loop-entity%" is {_enemyId}:
+                set {_e} to loop-entity
                 stop loop
         if {_e} is not set:
-            loop {pvp::enemies::%{_name}%::*}:
+            loop {pvp::enemies::%{_id}%::*}:
                 set {_search} to loop-value-1
-                loop all players:
-                    if name of loop-player is {_search}:
-                        set {_e} to loop-player
+                loop all entities:
+                    if "%uuid of loop-entity%" is {_search}:
+                        set {_e} to loop-entity
                         stop loop
                 if {_e} is set:
                     stop loop
         if {_e} is not set:
-            send action bar "<#ff0000>In combat! &7| &r&7&l[ %{_bar}% &r&7&l]" to {_p}
+            if {_p} is a player:
+                if {_p}.hasMetadata("NPC") is false:
+                    send action bar "<#ff0000>In combat! &7| &r&7&l[ %{_bar}% &r&7&l]" to {_p}
             continue
-        set {_totemcount} to amount of totem of undying in {_e}'s inventory
-        if {_totemcount} > 0:
-            set {_totems} to " &a%{_totemcount}%"
-        else:
-            set {_totems} to ""
-        if {_e}'s absorption amount > 0:
-            send action bar "&r<gradient:#ff0000:#990000>%name of {_e}%: %health of {_e}% ❤</gradient> &6%{_e}'s absorption amount / 2%%{_totems}%&r&7 | &r&7&l[ %{_bar}% &r&7&l]" to {_p}
-        else:
-            send action bar "&r<gradient:#ff0000:#990000>%name of {_e}%: %health of {_e}% ❤</gradient>%{_totems}%&r&7 | &r&7&l[ %{_bar}% &r&7&l]" to {_p}
+        if {_p} is a player:
+            if {_p}.hasMetadata("NPC") is false:
+                set {_totemcount} to 0
+                set {_totemcount} to amount of totem of undying in {_e}'s inventory
+                if {_totemcount} > 0:
+                    set {_totems} to " &a%{_totemcount}%&l☥"
+                else:
+                    set {_totems} to ""
+                if {_e}'s absorption amount > 0:
+                    send action bar "&r<gradient:#ff0000:#990000>%name of {_e}%: %health of {_e}%❤</gradient> <gradient:#C47A3A:#D99A55>%food level of {_e}%🍖</gradient> &6%{_e}'s absorption amount / 2%❤%{_totems}%&r&7 | &r&7&l[ %{_bar}% &r&7&l]" to {_p}
+                else:
+                    send action bar "&r<gradient:#ff0000:#990000>%name of {_e}%: %health of {_e}%❤</gradient> <gradient:#C47A3A:#D99A55>%food level of {_e}%🍖</gradient>%{_totems}%&r&7 | &r&7&l[ %{_bar}% &r&7&l]" to {_p}
 
 on quit:
-    if {pvp::inpvp::*} contains player's name:
+    set {_id} to "%uuid of player%"
+    if {pvp::inpvp::*} contains {_id}:
         kill player
         broadcast "<#ff0000>&lPvP&r &8» <#ff0000>&e%player%<#ff0000> tried to escape combat!"
         clearPvP(player)
 
 on death:
-    victim is a player
-    if attacker is a player:
-        send action bar "&aYou've killed %name of victim%!" to attacker
-    clearPvP(victim)
-    clearPvP(attacker)
+    if isPvPEntity(victim) is true:
+        clearPvP(victim)
+    if attacker is set:
+        if isPvPEntity(attacker) is true:
+            if attacker is a player:
+                if attacker.hasMetadata("NPC") is false:
+                    send action bar "&aYou've killed %name of victim%!" to attacker
+            clearPvP(attacker)
 
 on command:
     if player is not set:
         stop
-    if {pvp::inpvp::*} contains player's name:
+    set {_id} to "%uuid of player%"
+    if {pvp::inpvp::*} contains {_id}:
         if {pvp::allowedcmds::*} does not contain command:
             if player is "EntityZ096x":
                 stop

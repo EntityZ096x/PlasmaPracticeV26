@@ -1,0 +1,73 @@
+function DummyRestock(p: player, npc: entity):
+    #================ potion regeneration ================
+    delete {_poteffects::*}
+    add "speed" to {_poteffects::*}
+    add "strength" to {_poteffects::*}
+    add "fire resistance" to {_poteffects::*}
+
+    loop {_poteffects::*}:
+        set {_needsPotion} to false
+        if loop-value is "speed":
+            if {_npc} doesn't have potion effect of speed:
+                set {_needsPotion} to true
+        if loop-value is "strength":
+            if {_npc} doesn't have potion effect of strength:
+                set {_needsPotion} to true
+        if loop-value is "fire resistance":
+            if {_npc} doesn't have potion effect of fire resistance:
+                set {_needsPotion} to true
+
+        if {_needsPotion} is true:
+            if {_npc} is on the ground:
+                set {_txt} to "splash potion of %loop-value%"
+                set {_pot} to {_txt} parsed as item
+                set potion amplifier of {_pot} to 2
+                set {_npc}'s tool to {_pot}
+                set pitch of {_npc} to 90
+                wait 2 ticks
+                make {_npc} swing their main hand
+                make {_npc} shoot a thrown potion at speed 0.5
+                set {_potion} to last shot thrown potion
+                set item of {_potion} to {_pot}
+                wait 2 ticks
+
+    if {dummy::%{_p}%::AIsecondary} does not contain "retreat":
+        if health of {_npc} < 6:
+            set {dummy::%{_p}%::AIsecondary} to "retreat:regen"
+        if food level of {_npc} < 8:
+            set {dummy::%{_p}%::AIsecondary} to "retreat:hunger"
+
+    if {dummy::%{_p}%::AIsecondary} is "retreat:regen":
+        if health of {_npc} < 3:
+            set {dummy::%{_p}%::AIsecondary} to "retreat:regen2"
+    
+    if {dummy::%{_p}%::AIsecondary} is "retreat:regen":
+        if health of {_npc} > 8:
+            delete {dummy::%{_p}%::AIsecondary}
+        set {_npc}'s tool to golden apple
+        make {_npc} start using item
+
+    if {dummy::%{_p}%::AIsecondary} is "retreat:regen2":
+        if health of {_npc} = 10:
+            delete {dummy::%{_p}%::AIsecondary}
+        if {_npc} is on the ground:
+            set {_pot} to splash potion of instant health
+            set potion tier of {_pot} to 2
+            set {_npc}'s tool to {_pot}
+            set pitch of {_npc} to 90
+            make {_npc} swing their main hand
+            make {_npc} shoot a thrown potion at speed 0.5
+            set {_potion} to last shot thrown potion
+            set item of {_potion} to {_pot}
+            wait 2 ticks
+
+    if food level of {_npc} < 8:
+        set {dummy::%{_p}%::AIsecondary} to "retreat:hunger"
+    if {dummy::%{_p}%::AIsecondary} is "retreat:hunger":
+        if food level of {_npc} = 10:
+            delete {dummy::%{_p}%::AIsecondary}
+        
+        set {_npc}'s tool to cooked beef
+        make {_npc} start using item
+
+    set {dummy::%{_p}%::taskdone?} to true

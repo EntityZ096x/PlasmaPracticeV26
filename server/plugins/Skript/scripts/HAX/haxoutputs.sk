@@ -33,22 +33,3 @@ on damage:
                 make attacker attack victim
                 wait 1 tick
                 set {hax.alwaysslam.%attacker%} to "enabled"
-
-every 10 ticks:
-    loop all players:
-        if {hax.xray.%loop-player%} is true:
-            loop blocks in radius 16 around loop-player:
-                if loop-block is diamond ore or deepslate diamond ore:
-                    draw 8 particles of dust using dustOption(rgb(0, 255, 255), 1) at loop-block
-                else if loop-block is ancient debris:
-                    draw 8 particles of dust using dustOption(rgb(255, 80, 0), 1) at loop-block
-                else if loop-block is emerald ore or deepslate emerald ore:
-                    draw 8 particles of dust using dustOption(rgb(0, 255, 0), 1) at loop-block
-                else if loop-block is gold ore or deepslate gold ore:
-                    draw 8 particles of dust using dustOption(rgb(255, 215, 0), 1) at loop-block
-                else if loop-block is iron ore or deepslate iron ore:
-                    draw 8 particles of dust using dustOption(rgb(200, 200, 200), 1) at loop-block
-                else if loop-block is redstone ore or deepslate redstone ore:
-                    draw 8 particles of dust using dustOption(rgb(255, 0, 0), 1) at loop-block
-                else if loop-block is lapis ore or deepslate lapis ore:
-                    draw 8 particles of dust using dustOption(rgb(0, 80, 255), 1) at loop-block

@@ -1,4 +1,4 @@
-PlasmaNetworkV26
+# PlasmaNetworkV26
 
 cd server && java -jar server.jar
 

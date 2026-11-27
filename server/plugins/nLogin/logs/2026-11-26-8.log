@@ -1,0 +1,17 @@
+[2026/11/26 15:54:18 INFO]:           __             _       
+[2026/11/26 15:54:18 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/11/26 15:54:18 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/11/26 15:54:18 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/11/26 15:54:18 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/11/26 15:54:18 INFO]:                   |___/            
+[2026/11/26 15:54:18 INFO]:  By: www.nickuc.com - V 2.0.25
+[2026/11/26 15:54:18 INFO]:  
+[2026/11/26 15:54:18 DEBUG]: Loading the messages_en.yml message file...
+[2026/11/26 15:54:18 DEBUG]: Messages were loaded in 119 ms (single file).
+[2026/11/26 15:54:18 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/11/26 15:54:18 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/11/26 15:54:18 DEBUG]: Settings were loaded in 234 ms.
+[2026/11/26 15:54:18 DEBUG]: Loading database...
+[2026/11/26 15:54:19 DEBUG]: Starting logger filter...
+[2026/11/26 15:54:19 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/11/26 15:59:58 INFO]: Successful plugin core shutdown (took 0.00s)

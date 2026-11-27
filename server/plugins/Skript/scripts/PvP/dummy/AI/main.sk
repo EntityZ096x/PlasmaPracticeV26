@@ -1,0 +1,68 @@
+import:
+    net.citizensnpcs.api.trait.trait.Equipment
+    net.citizensnpcs.api.trait.trait.Equipment$EquipmentSlot
+    net.citizensnpcs.api.ai.Navigator
+
+function DummyAI(p: player):
+    while {dummy::%{_p}%::AI} is set:
+        wait 1 tick
+        set {_npc} to {dummy::%{_p}%}
+        if {_npc}.isSpawned() is false:
+            stop
+
+        {_npc}.faceLocation(location of {_p})
+
+        #================ blocking ================
+
+        if {dummy::%{_p}%::AI} is "blocking":
+            set {_npc}'s tool to a shield
+            enchant {_npc}'s tool with unbreaking 3
+
+            if cooldown of shield for {_npc} > 0 seconds:
+                set npc using held item of {_npc} to false
+            else:
+                set npc using held item of {_npc} to true
+        else:
+            set npc using held item of {_npc} to false
+
+        #================ agro.default ================
+
+        if {dummy::%{_p}%::AI} is "agro.default":
+            if {dummy::%{_p}%} is not set:
+                stop
+            if {_npc}.isSpawned() is false:
+                stop
+            set {_target} to {dummy::%{_p}%::target}
+            if {_target} is not set:
+                set {_target} to {_p}
+            if {_target} is not online:
+                set {_target} to {_p}
+            {_npc}.faceLocation(location of {_target})
+            set npc using held item of {_npc} to false
+
+            #================ potions ================
+            set {dummy::%{_p}%::taskdone?} to false
+            DummyRestock({_p}, {_npc})
+            while {dummy::%{_p}%::taskdone?} is not true:
+                wait 1 tick
+            #================ melee combat ================
+            set {dummy::%{_p}%::taskdone?} to false
+            DummyAttack({_npc}, {_target}, {_p})
+            while {dummy::%{_p}%::taskdone?} is not true:
+                wait 1 tick
+            #================ movement =================
+            set {dummy::%{_p}%::taskdone?} to false
+            DummyMovement({_npc}, {_target}, {_p})
+            while {dummy::%{_p}%::taskdone?} is not true:
+                wait 1 tick
+
+            if {dummy::%{_p}%::pearl} is dead:
+                delete {dummy::%{_p}%::pearl}
+
+
+
+
+on death:
+    victim is a player
+    attacker is a citizen
+    make attacker say "ez"

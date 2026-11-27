@@ -4,3 +4,65 @@ effect break shield of %player%:
             play sound "item.shield.break" at expr-1
             interrupt the usage of expr-1's active item
             set item cooldown of shield for expr-1 to 5 seconds
+
+effect lunge %entity% with strength %number%:
+    trigger:
+        if food level of expr-1 < 3:
+            stop
+        set {_v} to velocity of expr-1
+        push expr-1 forwards at speed 0.458 * expr-2
+        set velocity of expr-1 to vector(x-component of velocity of expr-1, y-component of {_v}, z-component of velocity of expr-1)
+        loop expr-2 times:
+            add -0.5 to food level of expr-1
+
+effect calculate and shoot %entity types% from %entity% to %location%:
+    trigger:
+        set {_projectile} to expr-1
+        set {_npc} to expr-2
+        set {_target} to expr-3
+        if {_npc} is not an entity:
+            stop
+        if {_target} is not a location:
+            stop
+        set {_start} to location of {_npc}
+        set {_dx} to x-coordinate of {_target} - x-coordinate of {_start}
+        set {_dz} to z-coordinate of {_target} - z-coordinate of {_start}
+        set {_x} to sqrt({_dx} * {_dx} + {_dz} * {_dz})
+        set {_y} to y-coordinate of {_target} - y-coordinate of {_start}
+        if {_x} <= 0:
+            stop
+        set {_speed} to 1.5 + ({_x} / 100)
+        if {_speed} > 2.5:
+            set {_speed} to 2.5
+        set {_gravity} to 0.03
+        set {_v2} to {_speed} * {_speed}
+        set {_discriminant} to {_v2} * {_v2} - {_gravity} * ({_gravity} * {_x} * {_x} + 2 * {_y} * {_v2})
+        if {_discriminant} < 0:
+            set {_angle} to 45
+        else:
+            set {_tan} to ({_v2} - sqrt({_discriminant})) / ({_gravity} * {_x})
+            set {_angle} to atan({_tan})
+        if {_angle} < 15:
+            set {_angle} to 15
+        set {_angleDifference} to {_angle} - 15
+        set {_speedMultiplier} to 1 - ({_angleDifference} / 360)
+        if {_speedMultiplier} < 0.85:
+            set {_speedMultiplier} to 0.85
+        set {_finalSpeed} to {_speed} * {_speedMultiplier}
+        set {_v2} to {_finalSpeed} * {_finalSpeed}
+        set {_discriminant} to {_v2} * {_v2} - {_gravity} * ({_gravity} * {_x} * {_x} + 2 * {_y} * {_v2})
+        if {_discriminant} >= 0:
+            set {_tan} to ({_v2} - sqrt({_discriminant})) / ({_gravity} * {_x})
+            set {_angle} to atan({_tan})
+        force {_npc} to look towards {_target}
+        set pitch of {_npc} to 0 - {_angle}
+        make {_npc} shoot {_projectile} at speed {_finalSpeed}
+        make {_npc} swing their main hand
+
+effect make %living entity% attack %entity% without wallbanging:
+    trigger:
+        make expr-1 look at expr-2
+        if distance between expr-1 and expr-2 < 3.5:
+            if expr-1 has line of sight to expr-2:
+                make expr-1 swing their main hand
+                make expr-1 attack expr-2

@@ -1,0 +1,121 @@
+function DummyMovement(npc: entity, target: entity, p: player):
+    if {dummy::%{_p}%::AIsecondary} contains "retreat":
+        set {_horizontalDistance} to sqrt((x-coordinate of {_npc} - x-coordinate of {_target}) ^ 2 + (z-coordinate of {_npc} - z-coordinate of {_target}) ^ 2)
+        if {_horizontalDistance} < 15:
+            if {dummy::%{_p}%::pearl} is not set:
+                set pitch of {_npc} to -20
+                set yaw of {_npc} to random number from 0 to 360
+                make {_npc} shoot a ender pearl
+                make {_npc} swing main hand
+                set {dummy::%{_p}%::pearl} to last shot ender pearl
+        set {dummy::%{_p}%::taskdone?} to true
+        stop
+    if {_target} is gliding:
+        if {_npc} is not gliding:
+            set {_npc}'s tool to a elytra
+            enchant {_npc}'s tool with unbreaking 3
+            wait 2 ticks
+            make {_npc} swing hand
+            set {_npc}'s chestplate to elytra
+            enchant {_npc}'s chestplate with unbreaking 1
+            set {_npc}'s tool to netherite chestplate
+            enchant {_npc}'s tool with unbreaking 1
+            wait 3 ticks
+            set gliding of {_npc} to true
+        force {_npc} to look at {_target}
+        if {dummy::%{_p}%::fireworkCooldown} is not set:
+            set {dummy::%{_p}%::fireworkCooldown} to true
+            set {_rocket} to firework rocket
+            {_npc}.fireworkBoost({_rocket})
+            set {dummy::%{_p}%::taskdone?} to true
+            wait 20 ticks
+            delete {dummy::%{_p}%::fireworkCooldown}
+            stop
+        set {dummy::%{_p}%::taskdone?} to true
+        stop
+    else:
+        if {_npc} is gliding:
+            set {_npc}'s tool to netherite chestplate
+            enchant {_npc}'s tool with unbreaking 1
+            wait 1 tick
+            make {_npc} swing hand
+            set {_npc}'s chestplate to netherite chestplate
+            enchant {_npc}'s chestplate with unbreaking 999
+            enchant {_npc}'s chestplate with protection 4
+            set {_npc}'s tool to a elytra
+            enchant {_npc}'s tool with unbreaking 3
+            set gliding of {_npc} to false
+    if {_npc} is not in water:
+        set {_horizontalDistance} to sqrt((x-coordinate of {_npc} - x-coordinate of {_target}) ^ 2 + (z-coordinate of {_npc} - z-coordinate of {_target}) ^ 2)
+        set {_verticalDistance} to abs(y-coordinate of {_npc} - y-coordinate of {_target})
+        if {_horizontalDistance} < 8:
+            if y coordinate of {_npc} - y coordinate of {_target} < -3:
+                if {dummy::%{_p}%::windchargeCooldown} is not set:
+                    set {dummy::%{_p}%::windchargeCooldown} to true
+                    set {_npc}'s tool to wind charge
+                    set pitch of {_npc} to 90
+                    make {_npc} swing their main hand
+                    make {_npc} shoot a wind charge
+                    push {_npc} upwards at speed 0.5
+                    wait 10 ticks
+                    delete {dummy::%{_p}%::windchargeCooldown}
+            pathfind {_npc} to location of {_target} like a player
+        else if {_horizontalDistance} > 15:
+            if {dummy::%{_p}%::pearl} is not set:
+                calculate and shoot ender pearl from {_npc} to location of {_target}
+                set {dummy::%{_p}%::pearl} to last shot ender pearl
+            set {dummy::%{_p}%::taskdone?} to true
+            stop
+        else:
+            if {_verticalDistance} > 3:
+                pathfind {_npc} to location of {_target} like a player
+            else:
+                if {_npc} is on the ground:
+                    if {dummy::%{_p}%::windchargeCooldown} is not set:
+                        set {dummy::%{_p}%::windchargeCooldown} to true
+                        set {_npc}'s tool to wind charge
+                        set pitch of {_npc} to 90
+                        make {_npc} swing their main hand
+                        make {_npc} shoot a wind charge
+                        push {_npc} upwards at speed 0.5
+                        wait 5 ticks
+                        set {_horizontalDistance} to sqrt((x-coordinate of {_npc} - x-coordinate of {_target}) ^ 2 + (z-coordinate of {_npc} - z-coordinate of {_target}) ^ 2)
+                        if {_horizontalDistance} > 11:
+                            if {_horizontalDistance} < 20:
+                                set {dummy::%{_p}%::AIsecondary} to "lunge_towards_target"
+                        wait 5 ticks
+                        delete {dummy::%{_p}%::windchargeCooldown}
+                if {dummy::%{_p}%::AIsecondary} is "lunge_towards_target":
+                    make {_npc} look at {_target}
+                    set {_npc}'s tool to a netherite spear
+                    enchant {_npc}'s tool with lunge 1
+                    lunge {_npc} with strength 3
+                    set {dummy::%{_p}%::AIsecondary} to ""
+                else:
+                    pathfind {_npc} to location of {_target} like a player
+    else:
+        set {_horizontalDistance} to sqrt((x-coordinate of {_npc} - x-coordinate of {_target}) ^ 2 + (z-coordinate of {_npc} - z-coordinate of {_target}) ^ 2)
+        if {_horizontalDistance} > 6:
+            if block above {_npc} is water:
+                push {_npc} upwards at speed 0.1
+            else:
+                if {dummy::%{_p}%::pearl} is not set:
+                    calculate and shoot ender pearl from {_npc} to location of {_target}
+                    set {dummy::%{_p}%::pearl} to last shot ender pearl
+        else:
+            pathfind {_npc} to location of {_target} like a player
+    set {dummy::%{_p}%::taskdone?} to true
+
+effect pathfind %entity% to %location% like a player:
+    trigger:
+        if distance between expr-1 and expr-2 < 3:
+            stop
+        set {_v} to velocity of expr-1
+        if expr-1 is in water:
+            push expr-1 towards expr-2 at speed 0.1
+        else if expr-1 is on the ground:
+            push expr-1 towards expr-2 at speed 0.27
+            set velocity of expr-1 to vector(x-component of velocity of expr-1, y-component of {_v}, z-component of velocity of expr-1)
+        else:
+            push expr-1 towards expr-2 at speed 0.09
+            set velocity of expr-1 to vector(x-component of velocity of expr-1, y-component of {_v}, z-component of velocity of expr-1)

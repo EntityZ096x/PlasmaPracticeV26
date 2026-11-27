@@ -210,7 +210,7 @@ debug_log_client_brands = true
 	# Default value is false, if the voice service should be enabled, using voice chat
 	# on large public servers is discouraged since the eagler voice protocol is very
 	# easy to stress and abuse and lacks proper validation for certain packets
-	enable_voice_service = false
+	enable_voice_service = true
 	# Default value is 120, sets the rate limit per minute for players initiating a
 	# WebRTC handshake with another client on the server, ignored on older client
 	# versions due to a bug that causes the client to spam requests excessively.

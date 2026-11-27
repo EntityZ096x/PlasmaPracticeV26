@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 41
+last-created-npc-id: 213
 npc:
   '0':
     metadata:
@@ -162,7 +162,7 @@ npc:
         world: KitPvP
         worldid: 7b9c097a-ad9d-4d26-a7b2-881d0b9555ed
         x: -88.5
-        y: 149.7
+        y: 150.3
         z: 90.939
         bodyYaw: 0.0
         pitch: 0.0

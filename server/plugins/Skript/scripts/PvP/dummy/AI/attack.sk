@@ -1,0 +1,69 @@
+function DummyAttack(npc: entity, target: entity, p: player):
+    if {dummy::%{_p}%::AIsecondary} contains "retreat":
+        set {dummy::%{_p}%::taskdone?} to true
+        stop
+
+    make {_npc} look at {_target}
+
+    if {_npc} doesn't have line of sight to {_target}:
+        set {dummy::%{_p}%::taskdone?} to true
+        stop
+
+    set {_distance} to distance between {_npc} and {_target}
+
+    if {_distance} > 3.2:
+        set {dummy::%{_p}%::taskdone?} to true
+        stop
+
+    if {_npc} is gliding:
+        set {_npc}'s tool to netherite chestplate
+        enchant {_npc}'s tool with unbreaking 1
+        set {_npc}'s chestplate to netherite chestplate
+        enchant {_npc}'s chestplate with unbreaking 999
+        enchant {_npc}'s chestplate with protection 4
+        set gliding of {_npc} to false
+
+    make {_npc} look at {_target}
+    wait 1 tick
+
+    if {_npc} doesn't have line of sight to {_target}:
+        set {dummy::%{_p}%::taskdone?} to true
+        stop
+
+    set {_distance} to distance between {_npc} and {_target}
+
+    if {_distance} > 3.2:
+        set {dummy::%{_p}%::taskdone?} to true
+        stop
+
+    if {_npc}'s fall distance > 2:
+        if y component of velocity of {_npc} < 0:
+            set {_npc}'s tool to a mace
+            enchant {_npc}'s tool with wind burst 1
+            enchant {_npc}'s tool with fire aspect 2
+            enchant {_npc}'s tool with density 5
+            make {_npc} attack {_target} without wallbanging
+            set {dummy::%{_p}%::taskdone?} to true
+            stop
+
+    if {_target} is blocking:
+        set {_npc}'s tool to a netherite axe
+        enchant {_npc}'s tool with sharpness 5
+        enchant {_npc}'s tool with breach 4
+    else:
+        set {_npc}'s tool to a netherite sword
+        enchant {_npc}'s tool with sharpness 5
+        enchant {_npc}'s tool with knockback 1
+        enchant {_npc}'s tool with fire aspect 2
+        enchant {_npc}'s tool with breach 4
+
+    if {_npc}'s fall distance < 0.2:
+        if {_npc} is on the ground:
+            push {_npc} upwards at speed 0.5
+    else:
+        make {_npc} attack {_target} without wallbanging
+        set {_npc}'s tool to a mace
+        enchant {_npc}'s tool with breach 4
+        wait 2 ticks
+
+    set {dummy::%{_p}%::taskdone?} to true
